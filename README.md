@@ -4,8 +4,9 @@
 全国の行政機関・自治体・議会に、自分の疑問や意見を届けるための案内サイトです（「日本を知る。」の関連サイト）。
 特定の政治的な立場を支持・反対するサイトではなく、賛成・反対・質問・提案のどれにも使える公共情報の案内として作っています。
 
+- 公開先：https://yumaki5555.github.io/todokeru/ （リポジトリ [Yumaki5555/todokeru](https://github.com/Yumaki5555/todokeru)、2026-11-01 公開）
 - 技術：React + TypeScript + Vite（バックエンドなし・会員登録なし・アクセス解析なし・外部トラッキングなし）
-- 公開：GitHub Pages（`docs` フォルダ）
+- 公開のしくみ：GitHub Pages（main ブランチの `docs` フォルダ）
 - 開発の予定：[ROADMAP.md](ROADMAP.md)
 
 ## ページと URL
@@ -185,8 +186,28 @@ npm run data:master -- ../入口サイト/data/municipalities.json 2026-11-01
 
 ## GitHub Pages への公開手順
 
-公開先の URL はまだ決めていません。リポジトリ名がそのまま URL になります（例：リポジトリ `todokeru` → `https://yumaki5555.github.io/todokeru/`）。
-ファイルの場所は相対パス（`./`）で作っているので、リポジトリ名が何であっても設定の変更はいりません。
+公開済みです（2026-11-01、リポジトリ `Yumaki5555/todokeru` → https://yumaki5555.github.io/todokeru/ ）。
+**内容を直して公開し直すとき**は、次の4つを順に実行します。
+
+```bash
+npm run build
+```
+
+```bash
+git add -A
+```
+
+```bash
+git commit -m "変更内容"
+```
+
+```bash
+git push
+```
+
+（GitHub Pages への反映には1分ほどかかります）
+
+以下は、最初に公開したときの手順の記録です。ファイルの場所は相対パス（`./`）で作っているので、リポジトリ名が何であっても設定の変更はいりません。
 
 1. GitHub で新しい公開リポジトリを作る（例：`Yumaki5555/todokeru`。README などは追加しない）。
 2. このフォルダで公開用のファイルを作る。

@@ -17,7 +17,7 @@ import { PhoneGuidePage } from './pages/PhoneGuidePage';
 export function resolvePage(route: Route): { title: string | null; element: ReactElement } {
   const { path } = route;
   if (path === '/') return { title: null, element: <HomePage /> };
-  if (path === '/guide/phone') return { title: 'はじめての行政電話ガイド', element: <PhoneGuidePage /> };
+  if (path === '/guide/phone') return { title: 'はじめての行政電話ガイド', element: <PhoneGuidePage route={route} /> };
   if (path === '/contacts') return { title: '全国の窓口を探す', element: <ContactsPage route={route} /> };
   if (path === '/about') return { title: 'このサイトについて', element: <AboutPage /> };
   const m = /^\/guide\/([a-z-]+)$/.exec(path);

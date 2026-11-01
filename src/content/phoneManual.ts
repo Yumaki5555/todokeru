@@ -34,6 +34,7 @@ export const PHONE_CHAPTERS: ManualChapter[] = [
     no: 0,
     title: 'これは抗議ではない',
     lead: '電話の目的は、相手を言い負かすことではなく、疑問や意見を正確に届けることです。',
+    purpose: '心構えを知りたい',
     blocks: [
       {
         kind: 'list',
@@ -63,6 +64,7 @@ export const PHONE_CHAPTERS: ManualChapter[] = [
     no: 1,
     title: '台本は1行でいい',
     lead: '最初に話すことを1行だけ決めておけば、緊張しても大丈夫です。',
+    purpose: '台本の例を見たい',
     blocks: [
       {
         kind: 'scripts',
@@ -98,6 +100,7 @@ export const PHONE_CHAPTERS: ManualChapter[] = [
     no: 2,
     title: '国の行政機関',
     lead: '国の政策には、それぞれ担当する役所（所管省庁）があります。',
+    purpose: '国の役所の違いを知りたい',
     blocks: [
       {
         kind: 'terms',
@@ -127,6 +130,7 @@ export const PHONE_CHAPTERS: ManualChapter[] = [
     no: 3,
     title: '所管省庁への質問・意見',
     lead: '制度を詳しく知らなくても、質問から始めれば大丈夫です。',
+    purpose: '省庁に質問・意見を伝えたい',
     blocks: [
       {
         kind: 'scripts',
@@ -165,6 +169,7 @@ export const PHONE_CHAPTERS: ManualChapter[] = [
     no: 4,
     title: '自治体への電話',
     lead: '住んでいるまちのことは、市区町村や都道府県の窓口へ。',
+    purpose: '市区町村・都道府県にかけたい',
     blocks: [
       {
         kind: 'terms',
@@ -209,6 +214,7 @@ export const PHONE_CHAPTERS: ManualChapter[] = [
     no: 5,
     title: '議会・立法への意見',
     lead: 'きまりや予算を「決める」のは議会です。行政への問い合わせとは、届け先が違います。',
+    purpose: '議会に意見を届けたい',
     blocks: [
       {
         kind: 'terms',
@@ -243,6 +249,7 @@ export const PHONE_CHAPTERS: ManualChapter[] = [
     no: 6,
     title: '司法制度',
     lead: '裁判所や検察は、電話で意見を伝える相手とは性格が違います。',
+    purpose: '裁判について知りたい',
     blocks: [
       {
         kind: 'p',
@@ -268,6 +275,7 @@ export const PHONE_CHAPTERS: ManualChapter[] = [
     no: 7,
     title: '電話の締め方',
     lead: '最後は短く、ていねいに。',
+    purpose: '電話の終わり方を知りたい',
     blocks: [
       {
         kind: 'scripts',

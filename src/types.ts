@@ -198,7 +198,57 @@ export interface ManualChapter {
   title: string;
   icon: IconName;
   lead: string;
+  /** 目次に出す「こんなときに読む」の短い言葉 */
+  purpose: string;
   blocks: ManualBlock[];
+}
+
+// ---- 台本を作る（電話ガイドの冒頭） ----
+
+/** 電話の目的 */
+export type CallPurpose = 'opinion' | 'question' | 'department';
+
+/** 意見の向き（意見を伝えるときだけ） */
+export type CallStance = 'concern' | 'review' | 'support';
+
+/** 台本の部分（読む順） */
+export type ScriptPartKey = 'greeting' | 'main' | 'record' | 'thanks';
+
+export interface ScriptPart {
+  key: ScriptPartKey;
+  label: string;
+  text: string;
+  /** 利用者が書き直した文かどうか */
+  edited: boolean;
+}
+
+/** 窓口検索から引き継いだ電話先（公式確認済み・要再確認の窓口だけ） */
+export interface CallTarget {
+  contactId: string;
+  org: string; // 機関・自治体の名前
+  department: string; // 窓口名
+  typeLabel: string; // 窓口の種類（代表窓口など）
+  phone: string | null;
+  email: string | null;
+  formUrl: string | null;
+  hours: string | null;
+  sourceUrl: string;
+  verifiedAt: string;
+  status: 'verified' | 'review';
+}
+
+/** 台本づくりの入力（この端末のこのタブの中だけに一時保存する） */
+export interface CallDraft {
+  purpose: CallPurpose;
+  stance: CallStance;
+  topic: string; // 何について？
+  detail: string; // 理由・聞きたいこと
+  /** 記録をお願いするか（目的ごと。未設定は「意見なら入れる」） */
+  record: Partial<Record<CallPurpose, boolean>>;
+  /** 書き直した文（目的ごとに覚えておき、目的を戻すと元に戻る） */
+  edits: Partial<Record<CallPurpose, Partial<Record<ScriptPartKey, string>>>>;
+  target: CallTarget | null;
+  memo: { when: string; who: string; answer: string };
 }
 
 /** 監修の確認状態 */

@@ -32,6 +32,17 @@ beforeEach(() => {
   if (!window.matchMedia) {
     window.matchMedia = ((q: string) => ({ matches: false, media: q, addEventListener() {}, removeEventListener() {} })) as unknown as typeof window.matchMedia;
   }
+  // jsdom にはダイアログを開く・閉じる操作がないので、開いた状態（open 属性）だけまねる
+  if (!HTMLDialogElement.prototype.showModal) {
+    HTMLDialogElement.prototype.showModal = function (this: HTMLDialogElement) {
+      this.setAttribute('open', '');
+    };
+    HTMLDialogElement.prototype.close = function (this: HTMLDialogElement) {
+      this.removeAttribute('open');
+    };
+  }
+  window.sessionStorage.clear();
+  window.localStorage.clear();
   // requestAnimationFrame はすぐに実行する
   vi.stubGlobal('requestAnimationFrame', (cb: FrameRequestCallback) => {
     cb(0);

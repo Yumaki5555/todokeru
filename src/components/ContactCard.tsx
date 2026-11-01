@@ -5,6 +5,7 @@ import { AGENCY_CATEGORY_LABEL, CONTACT_TYPE_INFO, STATUS_LABEL, TYPES_FOR_AGENC
 import { loadAgencyContacts, loadPrefContacts } from '../data/loaders';
 import { isDisplayable } from '../data/validate';
 import { telHref } from '../lib/text';
+import { href } from '../router';
 import { SITE, formatDate } from '../site';
 import { Icon } from './Icon';
 
@@ -174,6 +175,12 @@ function NotResearched({ entity, types }: { entity: Entity; types: ContactType[]
           </li>
         ))}
       </ul>
+      <p className="contact-script">
+        <a href={href('/guide/phone')}>
+          番号がわかったら、電話の台本を作る
+          <Icon name="arrow-right" className="icon-inline" />
+        </a>
+      </p>
     </div>
   );
 }
@@ -227,45 +234,13 @@ function ContactView({ c }: { c: Contact }) {
       </p>
       {c.status === 'review' && <p className="contact-warn">情報が変わっている可能性があります。公式ページで確かめてください。</p>}
       {/* 電話・メール・フォームは大きな操作ボタンにする */}
-      <ul className="contact-actions">
-        {c.phone && (
-          <li>
-            <a className="act" href={telHref(c.phone)}>
-              <Icon name="phone" />
-              <span className="act-text">
-                <span className="act-label">電話をかける</span>
-                <span className="sr-only">：</span>
-                <b>{c.phone}</b>
-              </span>
-            </a>
-          </li>
-        )}
-        {c.email && (
-          <li>
-            <a className="act" href={'mailto:' + c.email}>
-              <Icon name="mail" />
-              <span className="act-text">
-                <span className="act-label">メールを送る</span>
-                <span className="sr-only">：</span>
-                <b>{c.email}</b>
-              </span>
-            </a>
-          </li>
-        )}
-        {c.form_url && (
-          <li>
-            <a className="act" href={c.form_url}>
-              <Icon name="form" />
-              <span className="act-text">
-                <span className="act-label">問い合わせフォーム</span>
-                <b>公式の受付ページ</b>
-              </span>
-              <Icon name="external" className="act-ext" />
-              <span className="sr-only">（外部サイト）</span>
-            </a>
-          </li>
-        )}
-      </ul>
+      <ContactActions phone={c.phone} email={c.email} formUrl={c.form_url} />
+      <p className="contact-script">
+        <a className="btn btn-secondary btn-small" href={href('/guide/phone', { for: c.id })}>
+          <Icon name="memo" />
+          この窓口向けに台本を作る
+        </a>
+      </p>
       {(c.hours || c.postal_address || c.note) && (
         <dl className="contact-info">
           {c.hours && (
@@ -313,5 +288,51 @@ function ContactView({ c }: { c: Contact }) {
         <span>最終確認日：{formatDate(c.verified_at!)}</span>
       </p>
     </div>
+  );
+}
+
+/** 電話・メール・フォームの大きな操作ボタン（発信は利用者が押したときだけ） */
+export function ContactActions({ phone, email, formUrl }: { phone: string | null; email: string | null; formUrl: string | null }) {
+  if (!phone && !email && !formUrl) return null;
+  return (
+    <ul className="contact-actions">
+      {phone && (
+        <li>
+          <a className="act" href={telHref(phone)}>
+            <Icon name="phone" />
+            <span className="act-text">
+              <span className="act-label">電話をかける</span>
+              <span className="sr-only">：</span>
+              <b>{phone}</b>
+            </span>
+          </a>
+        </li>
+      )}
+      {email && (
+        <li>
+          <a className="act" href={'mailto:' + email}>
+            <Icon name="mail" />
+            <span className="act-text">
+              <span className="act-label">メールを送る</span>
+              <span className="sr-only">：</span>
+              <b>{email}</b>
+            </span>
+          </a>
+        </li>
+      )}
+      {formUrl && (
+        <li>
+          <a className="act" href={formUrl}>
+            <Icon name="form" />
+            <span className="act-text">
+              <span className="act-label">問い合わせフォーム</span>
+              <b>公式の受付ページ</b>
+            </span>
+            <Icon name="external" className="act-ext" />
+            <span className="sr-only">（外部サイト）</span>
+          </a>
+        </li>
+      )}
+    </ul>
   );
 }

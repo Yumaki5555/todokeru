@@ -1,7 +1,7 @@
 // 電話マニュアルの本文（段落・箇条書き・台本・会話例など）を表示する
 import type { ReactElement } from 'react';
 import type { ManualBlock } from '../types';
-import { CopyScript } from './CopyScript';
+import { ScriptExample } from './ScriptExample';
 import { Icon } from './Icon';
 import { SmartLink } from './Links';
 
@@ -48,7 +48,7 @@ function Block({ block: b }: { block: ManualBlock }) {
       return (
         <div className="script-list">
           {b.items.map((s) => (
-            <CopyScript key={s.id} script={s} />
+            <ScriptExample key={s.id} script={s} />
           ))}
         </div>
       );

@@ -32,7 +32,7 @@ export const THREE_MINUTE_STEPS: ThreeMinuteStep[] = [
         { icon: 'memo', label: '記録をお願い' },
       ],
     },
-    more: { label: '電話のかけ方を読む', to: '/guide/phone' },
+    more: { label: '電話の台本を作る', to: '/guide/phone' },
   },
   {
     no: 3,

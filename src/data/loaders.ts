@@ -1,6 +1,6 @@
 // public/data の JSON を必要なときだけ読み込む（一度読んだものは覚えておく）
 // 窓口データは都道府県ごとのファイルに分け、選んだ都道府県の分だけ読む。
-import type { Agency, AgencyContacts, DataSummary, MasterFile, Municipality, MunicipalityContacts, Prefecture } from '../types';
+import type { Agency, AgencyContacts, Contact, DataSummary, MasterFile, Municipality, MunicipalityContacts, Prefecture } from '../types';
 import { validateContact } from './validate';
 
 const cache = new Map<string, Promise<unknown>>();
@@ -39,6 +39,17 @@ export async function loadAgencyContacts(): Promise<AgencyContacts[]> {
 export async function loadPrefContacts(prefCode: string): Promise<MunicipalityContacts[]> {
   if (!/^\d{2}$/.test(prefCode)) throw new Error('都道府県コードが不正です');
   return keepValid(await load<MunicipalityContacts[]>(`contacts/${prefCode}.json`));
+}
+
+/** 窓口の id（131083-general・mhlw-feedback など）から、その窓口と機関・自治体の名前を探す */
+export async function findContact(id: string): Promise<{ org: string; contact: Contact } | null> {
+  const m = /^(\d{2})\d{4}-/.exec(id);
+  const records: (AgencyContacts | MunicipalityContacts)[] = m ? await loadPrefContacts(m[1]) : await loadAgencyContacts();
+  for (const r of records) {
+    const contact = r.contacts.find((c) => c.id === id);
+    if (contact) return { org: 'agency_name' in r ? r.agency_name : r.municipality_name, contact };
+  }
+  return null;
 }
 
 /** テスト用：覚えた読み込み結果を消す */

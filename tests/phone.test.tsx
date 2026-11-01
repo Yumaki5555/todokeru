@@ -1,6 +1,6 @@
 // 電話ガイド
 import { describe, expect, it, vi } from 'vitest';
-import { render, screen, waitFor, within } from '@testing-library/react';
+import { fireEvent, render, screen, waitFor, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { App } from '../src/App';
 import { SupervisorNote } from '../src/components/SupervisorNote';
@@ -253,30 +253,34 @@ describe('電話ガイド：マニュアル', () => {
     expect(screen.getByRole('button', { name: 'ページ先頭へ戻る' })).toBeInTheDocument();
   });
 
-  it('監修の表示がマニュアルの冒頭と末尾にあり、確認中はそう表示する。道具は監修の対象外と書く', () => {
+  it('監修の表示はページの上に1か所だけ。監修者の名前と「詳しいマニュアル」ボタンがある', () => {
     openPhone();
     const notes = screen.getAllByRole('complementary', { name: 'このガイドの監修について' });
-    expect(notes).toHaveLength(2);
-    for (const n of notes) {
-      expect(within(n).getByRole('link', { name: /電突の牙さん/ })).toHaveAttribute('href', 'https://x.com/MinNanoRamen21');
-      expect(within(n).getByText('監修確認中')).toBeInTheDocument();
-    }
-    expect(within(notes[1]).getByText(/「台本を作る」「大きな文字で読む」などの道具や、声を届ける。のほかのページは監修の対象ではありません/)).toBeInTheDocument();
-    // 監修の表示は台本づくりの中には置かない（監修済みと混同しないように）
+    expect(notes).toHaveLength(1);
+    const n = notes[0];
+    expect(within(n).getByText('マニュアル監修')).toBeInTheDocument();
+    expect(within(n).getByRole('link', { name: /電突の牙さん/ })).toHaveAttribute('href', 'https://x.com/MinNanoRamen21');
+    expect(within(n).queryByText('監修確認中')).not.toBeInTheDocument();
+    // 台本づくりより上にある
+    expect(n.compareDocumentPosition(maker()) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
     expect(within(maker()).queryByText(/監修/)).not.toBeInTheDocument();
+    // 「詳しいマニュアル」ボタンでマニュアルへ飛ぶ
+    const jump = within(n).getByRole('link', { name: '詳しいマニュアル' });
+    expect(jump).toHaveAttribute('href', '#/guide/phone?s=manual');
+    fireEvent.click(jump);
+    expect(document.activeElement).toBe(document.getElementById('manual'));
   });
 
-  it('監修の確認が取れたら「マニュアル監修：電突の牙さん」と表示する', () => {
-    render(<SupervisorNote place="bottom" supervision={{ ...SUPERVISION, status: 'confirmed', confirmedAt: '2026-11-01' }} />);
-    expect(screen.getByText(/マニュアル監修：/)).toBeInTheDocument();
-    expect(screen.queryByText('監修確認中')).not.toBeInTheDocument();
-    expect(screen.getByText(/ほかのページは監修の対象ではありません/)).toBeInTheDocument();
+  it('監修確認中のときは「監修確認中」と表示する', () => {
+    render(<SupervisorNote path="/guide/phone" manualId="manual" supervision={{ ...SUPERVISION, status: 'pending', confirmedAt: null }} />);
+    expect(screen.getByText('監修確認中')).toBeInTheDocument();
+    expect(screen.getByText(/監修の確認が済むまでは/)).toBeInTheDocument();
   });
 
   it('監修なしのときは「監修は受けていません」と表示する', () => {
-    render(<SupervisorNote place="top" supervision={{ ...SUPERVISION, status: 'none' }} />);
+    render(<SupervisorNote path="/guide/phone" manualId="manual" supervision={{ ...SUPERVISION, status: 'none' }} />);
     expect(screen.getByText(/監修は受けていません/)).toBeInTheDocument();
-    expect(screen.queryByText(/マニュアル監修：/)).not.toBeInTheDocument();
+    expect(screen.queryByText('マニュアル監修')).not.toBeInTheDocument();
   });
 
   it('第0章〜第7章は折りたたみで、最初はすべて閉じている', () => {

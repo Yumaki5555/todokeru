@@ -35,11 +35,11 @@ export const SUPERVISION: {
   xUrl: string;
   confirmedAt: string | null;
 } = {
-  status: 'pending',
+  status: 'confirmed',
   name: '電突の牙さん',
   xHandle: '@MinNanoRamen21',
   xUrl: 'https://x.com/MinNanoRamen21',
-  confirmedAt: null,
+  confirmedAt: '2026-11-01',
 };
 
 /** 日付（YYYY-MM-DD）を「2026年11月1日」の形にする */

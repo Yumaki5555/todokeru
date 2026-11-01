@@ -1374,30 +1374,86 @@ p.lead {
 }
 
 /* ---- 電話ガイド ---- */
+/* マニュアル監修：見出しのすぐ下に1か所。監修者の名前を大きく */
 .supervisor {
-  margin-top: 14px;
-  padding: 10px 14px;
-  border-left: 4px solid var(--c-main);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 16px;
+  margin-top: 16px;
+  padding: 14px 18px;
+  border: 2px solid var(--c-main-line);
+  border-left: 6px solid var(--c-main);
+  border-radius: var(--radius);
   background: var(--c-main-tint);
-  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
-  font-size: var(--fs-small);
-}
-
-.supervisor-bottom {
-  margin-top: 40px;
 }
 
 .supervisor p {
   margin: 0;
 }
 
-.supervisor-main {
+.supervisor-icon {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--c-main);
+  color: #fff;
+}
+
+.supervisor-icon .icon {
+  width: 28px;
+  height: 28px;
+}
+
+.supervisor-text {
+  flex: 1 1 220px;
+  min-width: 0;
+}
+
+.supervisor-label {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  font-size: var(--fs-small);
   font-weight: 700;
+  color: var(--c-main-deep);
+}
+
+.supervisor-name {
+  font-size: clamp(1.5rem, 1.25rem + 1.2vw, 2rem);
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.supervisor-name a {
+  color: var(--c-main-deep);
+  text-underline-offset: 4px;
+}
+
+.supervisor-handle {
+  display: inline-block;
+  font-size: var(--fs-small);
+  font-weight: 400;
 }
 
 .supervisor-sub {
   margin-top: 4px !important;
+  font-size: var(--fs-small);
   color: var(--c-text-sub);
+}
+
+.supervisor-jump {
+  flex: none;
+}
+
+@media (max-width: 479px) {
+  .supervisor-jump {
+    flex: 1 1 100%;
+  }
 }
 
 .script {

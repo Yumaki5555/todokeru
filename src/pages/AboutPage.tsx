@@ -150,7 +150,7 @@ export function AboutPage() {
             </p>
             <p>
               {SUPERVISION.status === 'confirmed'
-                ? `このガイドは${SUPERVISION.name}の監修を受けています。`
+                ? `このガイドは${SUPERVISION.name}の監修を受けています${SUPERVISION.confirmedAt ? `（監修の確認日：${formatDate(SUPERVISION.confirmedAt)}）` : ''}。`
                 : SUPERVISION.status === 'pending'
                   ? `${SUPERVISION.name}による監修は、現在確認中です。`
                   : 'このガイドは監修を受けていません。'}

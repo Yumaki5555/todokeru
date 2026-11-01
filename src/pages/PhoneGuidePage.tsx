@@ -1,5 +1,5 @@
 // 電話ガイド「はじめての行政電話ガイド」
-// 上から順に：台本を作る → 大きな文字で読む → 電話先 → 電話のあとのメモ → 詳しいマニュアル（必要な人だけ開く）
+// 上から順に：マニュアル監修 → 台本を作る → 大きな文字で読む → 電話先 → 電話のあとのメモ → 詳しいマニュアル（必要な人だけ開く）
 //   #/guide/phone?view=read        大きな文字で読む画面を開いた状態
 //   #/guide/phone?for=130001-feedback  窓口検索で選んだ窓口を電話先にする
 import { useEffect, useRef, useState } from 'react';
@@ -96,12 +96,13 @@ export function PhoneGuidePage({ route }: { route: Route }) {
   return (
     <div className="wrap page phone-guide">
       <PageHead title={PHONE_GUIDE.title} sub={PHONE_GUIDE.subtitle} />
+      <SupervisorNote path={PATH} manualId="manual" />
 
       <ScriptMaker draft={draft} update={update} onRead={openRead} onClear={clear} />
       <CallTargetBox target={draft.target} state={targetState} />
       <CallMemo draft={draft} update={update} />
 
-      <section className="manual" aria-labelledby="manual-h">
+      <section className="manual" id="manual" aria-labelledby="manual-h">
         <h2 id="manual-h" className="manual-title">
           <Icon name="book" />
           詳しいマニュアル
@@ -109,7 +110,6 @@ export function PhoneGuidePage({ route }: { route: Route }) {
         {/* 広い画面では左に目次（スクロールしても見える）、右に本文。本文は読みやすい幅におさえる */}
         <div className="doc-layout">
           <div className="doc-intro">
-            <SupervisorNote place="top" />
             <ol className="call-flow" aria-label="電話の流れ">
               {PHONE_FLOW.map((f) => (
                 <li key={f.label}>
@@ -175,8 +175,6 @@ export function PhoneGuidePage({ route }: { route: Route }) {
                 ))}
               </ul>
             </section>
-
-            <SupervisorNote place="bottom" />
           </div>
         </div>
       </section>

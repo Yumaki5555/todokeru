@@ -1,5 +1,6 @@
 # GitHubに送らない（公開しない）もの
 .claude/
+*.zip
 node_modules/
 *.log
 .DS_Store

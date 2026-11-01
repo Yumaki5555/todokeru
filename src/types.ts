@@ -1,0 +1,171 @@
+// サイト全体で使うデータの形（型定義）
+// 窓口データは public/data/ の JSON ファイルに置き、ここで決めた形にそろえる。
+
+/** 窓口の種類。STEP 1 では最初の3種類を基本とし、担当部署（department）は将来用 */
+export type ContactType = 'general' | 'feedback' | 'assembly' | 'department';
+
+/** 窓口情報の確認状態 */
+export type ContactStatus =
+  | 'verified' // 公式確認済み
+  | 'unverified' // 未確認
+  | 'review' // 要再確認
+  | 'unavailable' // 公式連絡先が確認できない
+  | 'discontinued'; // 変更・廃止
+
+/** 1つの窓口 */
+export interface Contact {
+  id: string; // 例：131083-general
+  type: ContactType;
+  department: string; // 窓口名（例：代表窓口、広聴課、議会事務局）
+  phone: string | null;
+  email: string | null;
+  form_url: string | null; // 公式の問い合わせフォーム
+  postal_code: string | null; // 郵便番号（例：135-8383）
+  postal_address: string | null;
+  hours: string | null; // 受付時間
+  source_url: string | null; // 公式出典URL
+  verified_at: string | null; // 最終確認日（YYYY-MM-DD）
+  status: ContactStatus;
+  note?: string | null;
+}
+
+/** 自治体（都道府県・市区町村）ごとの窓口のまとまり。自治体コード（6けた）が主キー */
+export interface MunicipalityContacts {
+  municipality_code: string;
+  municipality_name: string;
+  contacts: Contact[];
+}
+
+/** 国の機関ごとの窓口のまとまり。機関ID が主キー */
+export interface AgencyContacts {
+  agency_id: string;
+  agency_name: string;
+  contacts: Contact[];
+}
+
+/** 都道府県マスター */
+export interface Prefecture {
+  code: string; // 2けた（例：13）
+  lg_code: string; // 全国地方公共団体コード6けた（例：130001）
+  name: string;
+  kana: string;
+}
+
+/** 市区町村マスター */
+export interface Municipality {
+  code: string; // 全国地方公共団体コード6けた（例：131083）
+  name: string;
+  kana: string;
+  pref_code: string; // 2けた
+  designated?: boolean; // 政令指定都市
+}
+
+/** 国の機関の分類 */
+export type AgencyCategory = 'cabinet' | 'ministry' | 'agency' | 'diet';
+
+/** 国の機関マスター */
+export interface Agency {
+  id: string;
+  name: string;
+  kana: string;
+  category: AgencyCategory;
+  position: string; // 位置づけ（例：内閣府の外局）
+  roles: string; // 主な担当分野（例）
+  official_url: string;
+  url_checked_at: string; // 公式サイトの表示を確認した日
+}
+
+/** マスターファイルの共通の形（出典つき） */
+export interface MasterFile<T> {
+  source: string;
+  source_url: string;
+  checked_at: string;
+  items: T[];
+}
+
+/** 件数のまとめ（scripts/build-summary.mjs で作る） */
+export interface DataSummary {
+  generated_at: string;
+  entities: { agencies: number; prefectures: number; municipalities: number };
+  contacts: { total: number; verified: number; by_status: Record<ContactStatus, number> };
+}
+
+// ---- 解説コンテンツ ----
+
+export type IconName =
+  | 'phone'
+  | 'mail'
+  | 'comment'
+  | 'petition'
+  | 'folder'
+  | 'signature'
+  | 'search'
+  | 'book'
+  | 'route'
+  | 'building'
+  | 'assembly'
+  | 'check'
+  | 'copy'
+  | 'arrow-up'
+  | 'arrow-right'
+  | 'arrow-left'
+  | 'external'
+  | 'info'
+  | 'list';
+
+export type GuideSlug = 'phone' | 'email' | 'public-comment' | 'petition' | 'disclosure' | 'signature';
+
+/** 「声を届ける方法を知る」の各メニュー */
+export interface GuideMenuItem {
+  slug: GuideSlug;
+  title: string;
+  summary: string;
+  status: 'published' | 'coming';
+  icon: IconName;
+  roadmapStep: number; // 開発ロードマップ上の STEP
+  plannedTopics: string[]; // 準備中ページで示す「予定している内容」
+  related?: RelatedLink[]; // すぐに使える既存サイト
+}
+
+export interface RelatedLink {
+  label: string;
+  url: string;
+  desc: string;
+}
+
+/** 「まず3分でわかる」の1つのSTEP */
+export interface ThreeMinuteStep {
+  no: number;
+  title: string;
+  icon: IconName;
+  body: string[];
+  more?: { label: string; to: string };
+}
+
+/** 電話マニュアルの台本 */
+export interface Script {
+  id: string;
+  label: string;
+  text: string;
+  note?: string;
+}
+
+export type ManualBlock =
+  | { kind: 'p'; text: string }
+  | { kind: 'list'; title?: string; tone?: 'do' | 'dont'; items: string[] }
+  | { kind: 'scripts'; items: Script[] }
+  | { kind: 'dialog'; title: string; lines: { who: 'me' | 'staff'; text: string }[] }
+  | { kind: 'terms'; items: { term: string; desc: string }[] }
+  | { kind: 'note'; text: string }
+  | { kind: 'link'; label: string; to: string };
+
+export interface ManualChapter {
+  id: string;
+  no: number;
+  title: string;
+  lead: string;
+  blocks: ManualBlock[];
+}
+
+/** 監修の確認状態 */
+export type SupervisionStatus = 'confirmed' | 'pending' | 'none';

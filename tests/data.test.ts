@@ -1,0 +1,128 @@
+// データの点検（npm run validate）：public/data のファイルがすべて正しい形か確かめる
+import { readFileSync, readdirSync } from 'node:fs';
+import { resolve } from 'node:path';
+import { describe, expect, it } from 'vitest';
+import type { Agency, Contact, DataSummary, MasterFile, Municipality, Prefecture } from '../src/types';
+import {
+  isDisplayable,
+  validateAgencyContactsFile,
+  validateContact,
+  validateMasters,
+  validateMunicipalityContactsFile,
+  withCheckDigit,
+} from '../src/data/validate';
+
+const dataDir = resolve(__dirname, '../public/data');
+const read = <T>(p: string): T => JSON.parse(readFileSync(resolve(dataDir, p), 'utf8')) as T;
+
+const agencies = read<MasterFile<Agency>>('master/agencies.json');
+const prefectures = read<MasterFile<Prefecture>>('master/prefectures.json');
+const municipalities = read<MasterFile<Municipality>>('master/municipalities.json');
+
+describe('マスター', () => {
+  it('都道府県47・市区町村1,741・国の機関がそろっている', () => {
+    expect(prefectures.items).toHaveLength(47);
+    expect(municipalities.items).toHaveLength(1741);
+    expect(agencies.items.length).toBeGreaterThanOrEqual(20);
+  });
+
+  it('コードの検査数字・重複・都道府県の対応に問題がない', () => {
+    expect(validateMasters(prefectures.items, municipalities.items, agencies.items)).toEqual([]);
+  });
+
+  it('出典と確認日が書かれている', () => {
+    for (const f of [prefectures, municipalities]) {
+      expect(f.source).toContain('総務省');
+      expect(f.source_url).toMatch(/^https:\/\/www\.soumu\.go\.jp\//);
+      expect(f.checked_at).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+    }
+  });
+
+  it('検査数字の計算（江東区 131083・札幌市 011002・東京都 130001）', () => {
+    expect(withCheckDigit('13108')).toBe('131083');
+    expect(withCheckDigit('01100')).toBe('011002');
+    expect(withCheckDigit('13000')).toBe('130001');
+  });
+});
+
+describe('窓口データ', () => {
+  const files = readdirSync(resolve(dataDir, 'contacts')).filter((f) => f.endsWith('.json'));
+
+  it('47都道府県分と国の機関の分のファイルがある', () => {
+    for (const p of prefectures.items) expect(files).toContain(`${p.code}.json`);
+    expect(files).toContain('agencies.json');
+  });
+
+  it('都道府県ごとのファイルがすべて点検に通る', () => {
+    const errors = prefectures.items.flatMap((p) =>
+      validateMunicipalityContactsFile(p.code, read(`contacts/${p.code}.json`), prefectures.items, municipalities.items),
+    );
+    expect(errors).toEqual([]);
+  });
+
+  it('国の機関のファイルが点検に通る', () => {
+    expect(validateAgencyContactsFile(read('contacts/agencies.json'), agencies.items)).toEqual([]);
+  });
+
+  it('件数のまとめ（summary.json）が実際のデータと一致する', () => {
+    const summary = read<DataSummary>('summary.json');
+    const all = files.flatMap((f) => read<{ contacts: Contact[] }[]>(`contacts/${f}`).flatMap((r) => r.contacts));
+    expect(summary.entities).toEqual({
+      agencies: agencies.items.length,
+      prefectures: prefectures.items.length,
+      municipalities: municipalities.items.length,
+    });
+    expect(summary.contacts.total).toBe(all.length);
+    expect(summary.contacts.verified).toBe(all.filter((c) => c.status === 'verified').length);
+  });
+});
+
+describe('窓口1件の点検', () => {
+  const base: Contact = {
+    id: '131083-general',
+    type: 'general',
+    department: '代表窓口',
+    phone: null,
+    email: null,
+    form_url: null,
+    postal_code: null,
+    postal_address: null,
+    hours: null,
+    source_url: null,
+    verified_at: null,
+    status: 'unverified',
+  };
+  const verified: Contact = {
+    ...base,
+    status: 'verified',
+    phone: '03-0000-0000',
+    source_url: 'https://example.lg.jp/contact.html',
+    verified_at: '2026-10-01',
+  };
+
+  it('未確認（すべて null）は形として正しい', () => {
+    expect(validateContact(base)).toEqual([]);
+  });
+
+  it('確認済みには出典URLと確認日と連絡手段が必要', () => {
+    expect(validateContact(verified, '2026-11-01')).toEqual([]);
+    expect(validateContact({ ...verified, source_url: null }, '2026-11-01').join()).toContain('source_url');
+    expect(validateContact({ ...verified, verified_at: null }, '2026-11-01').join()).toContain('verified_at');
+    expect(validateContact({ ...verified, phone: null }, '2026-11-01').join()).toContain('電話・メール・フォーム・住所');
+  });
+
+  it('電話番号・メール・URL・日付の形の誤りを見つける', () => {
+    expect(validateContact({ ...verified, phone: '03-1234' }, '2026-11-01').join()).toContain('電話番号');
+    expect(validateContact({ ...verified, email: 'abc' }, '2026-11-01').join()).toContain('メール');
+    expect(validateContact({ ...verified, source_url: 'http://example.jp/' }, '2026-11-01').join()).toContain('https');
+    expect(validateContact({ ...verified, verified_at: '2026-12-31' }, '2026-11-01').join()).toContain('確認日');
+    expect(validateContact({ ...verified, status: 'ok' as never }, '2026-11-01').join()).toContain('status');
+  });
+
+  it('画面に連絡先を出すのは確認済み・要再確認で点検に通るものだけ', () => {
+    expect(isDisplayable(verified)).toBe(true);
+    expect(isDisplayable({ ...verified, status: 'review' })).toBe(true);
+    expect(isDisplayable({ ...verified, status: 'unverified' })).toBe(false);
+    expect(isDisplayable({ ...verified, source_url: null })).toBe(false);
+  });
+});

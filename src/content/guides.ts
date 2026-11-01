@@ -1,0 +1,86 @@
+// 「声を届ける方法を知る」の6つのメニュー
+// status を 'published' にし、ページを作れば、同じ URL（#/guide/<slug>）のまま公開できる。
+import type { GuideMenuItem, GuideSlug } from '../types';
+import { SITE } from '../site';
+
+export const GUIDES: GuideMenuItem[] = [
+  {
+    slug: 'phone',
+    title: '電話のかけ方',
+    summary: '台本は1行でいい。行政の窓口に、落ち着いて質問や意見を伝える方法。',
+    status: 'published',
+    icon: 'phone',
+    roadmapStep: 1,
+    plannedTopics: [],
+  },
+  {
+    slug: 'email',
+    title: 'メール・郵送',
+    summary: '件名の書き方、質問と意見の違い、宛先の確かめ方。',
+    status: 'coming',
+    icon: 'mail',
+    roadmapStep: 5,
+    plannedTopics: ['件名の書き方', '質問と意見の違い', '宛先の確認', '丁寧で簡潔な文章', '郵送先の確認'],
+  },
+  {
+    slug: 'public-comment',
+    title: 'パブコメの書き方',
+    summary: '募集中の案に、結論・理由・具体的な提案の順で意見をまとめる。',
+    status: 'coming',
+    icon: 'comment',
+    roadmapStep: 3,
+    plannedTopics: [
+      'パブコメとは何か',
+      '募集案・資料を読む方法',
+      'どの部分に意見するか決める',
+      '結論を書く',
+      '理由を書く',
+      '具体的な提案を書く',
+      '指定の方法で期限内に提出する',
+      '提出後の結果公表を確認する',
+    ],
+    related: [SITE.pubcome],
+  },
+  {
+    slug: 'petition',
+    title: '請願・陳情の書き方',
+    summary: '議会に正式に検討を求める。請願と陳情の違いと、書き方・出し方。',
+    status: 'coming',
+    icon: 'petition',
+    roadmapStep: 4,
+    plannedTopics: [
+      '請願とは何か・陳情とは何か',
+      '請願と陳情の違い',
+      '国会と地方議会の手続きの違い',
+      'どの議会に出すか',
+      '趣旨・理由・要望事項の書き方',
+      '必要な記載事項と書式',
+      '議会事務局への提出方法',
+    ],
+  },
+  {
+    slug: 'disclosure',
+    title: '情報公開請求',
+    summary: '行政が持っている文書の公開を求める手続き。',
+    status: 'coming',
+    icon: 'folder',
+    roadmapStep: 5,
+    plannedTopics: ['行政機関への質問との違い', '対象の文書の特定のしかた', '請求書の書き方', '手数料・開示の方法の確認', '正式な請求先の確認'],
+  },
+  {
+    slug: 'signature',
+    title: '署名の方法',
+    summary: '署名活動の基本、提出先の確認、個人情報の扱い。',
+    status: 'coming',
+    icon: 'signature',
+    roadmapStep: 5,
+    plannedTopics: ['署名活動の基本', '提出先の確認', '個人情報の取り扱い', 'オンライン署名と紙の署名'],
+    related: [SITE.shomei],
+  },
+];
+
+export function findGuide(slug: string): GuideMenuItem | undefined {
+  return GUIDES.find((g) => g.slug === (slug as GuideSlug));
+}
+
+export const guidePath = (slug: GuideSlug) => `/guide/${slug}`;

@@ -1,0 +1,29 @@
+{
+ "source": "各機関の公式サイト（トップページの表示を確認）",
+ "source_url": "",
+ "checked_at": "2026-11-01",
+ "items": [
+  {"id":"cas","name":"内閣官房","kana":"ないかくかんぼう","category":"cabinet","position":"内閣に置かれる機関","roles":"内閣の重要政策の企画・立案と、各省庁の間の調整","official_url":"https://www.cas.go.jp/","url_checked_at":"2026-11-01"},
+  {"id":"cao","name":"内閣府","kana":"ないかくふ","category":"cabinet","position":"内閣に置かれる機関","roles":"経済財政、防災、男女共同参画など、政府全体にかかわる政策の企画・調整","official_url":"https://www.cao.go.jp/","url_checked_at":"2026-11-01"},
+  {"id":"digital","name":"デジタル庁","kana":"でじたるちょう","category":"cabinet","position":"内閣に置かれる機関","roles":"行政のデジタル化、マイナンバー制度","official_url":"https://www.digital.go.jp/","url_checked_at":"2026-11-01"},
+  {"id":"reconstruction","name":"復興庁","kana":"ふっこうちょう","category":"cabinet","position":"内閣に置かれる機関","roles":"東日本大震災からの復興","official_url":"https://www.reconstruction.go.jp/","url_checked_at":"2026-11-01"},
+  {"id":"soumu","name":"総務省","kana":"そうむしょう","category":"ministry","position":"省","roles":"地方自治、選挙制度、情報通信、統計、行政評価","official_url":"https://www.soumu.go.jp/","url_checked_at":"2026-11-01"},
+  {"id":"moj","name":"法務省","kana":"ほうむしょう","category":"ministry","position":"省","roles":"民法・刑法などの法制度、登記、刑務所・更生保護、人権擁護","official_url":"https://www.moj.go.jp/","url_checked_at":"2026-11-01"},
+  {"id":"mofa","name":"外務省","kana":"がいむしょう","category":"ministry","position":"省","roles":"外交、旅券（パスポート）、海外にいる日本人の安全","official_url":"https://www.mofa.go.jp/mofaj/","url_checked_at":"2026-11-01"},
+  {"id":"mof","name":"財務省","kana":"ざいむしょう","category":"ministry","position":"省","roles":"国の予算、税制、国債","official_url":"https://www.mof.go.jp/","url_checked_at":"2026-11-01"},
+  {"id":"mext","name":"文部科学省","kana":"もんぶかがくしょう","category":"ministry","position":"省","roles":"学校教育、科学技術、文化、スポーツ","official_url":"https://www.mext.go.jp/","url_checked_at":"2026-11-01"},
+  {"id":"mhlw","name":"厚生労働省","kana":"こうせいろうどうしょう","category":"ministry","position":"省","roles":"医療、年金、介護、福祉、雇用・労働","official_url":"https://www.mhlw.go.jp/","url_checked_at":"2026-11-01"},
+  {"id":"maff","name":"農林水産省","kana":"のうりんすいさんしょう","category":"ministry","position":"省","roles":"農業、林業、水産業、食料の安定供給","official_url":"https://www.maff.go.jp/","url_checked_at":"2026-11-01"},
+  {"id":"meti","name":"経済産業省","kana":"けいざいさんぎょうしょう","category":"ministry","position":"省","roles":"産業政策、エネルギー、貿易、中小企業","official_url":"https://www.meti.go.jp/","url_checked_at":"2026-11-01"},
+  {"id":"mlit","name":"国土交通省","kana":"こくどこうつうしょう","category":"ministry","position":"省","roles":"道路・河川・鉄道・住宅、観光、気象","official_url":"https://www.mlit.go.jp/","url_checked_at":"2026-11-01"},
+  {"id":"env","name":"環境省","kana":"かんきょうしょう","category":"ministry","position":"省","roles":"環境の保全、廃棄物・リサイクル、気候変動","official_url":"https://www.env.go.jp/","url_checked_at":"2026-11-01"},
+  {"id":"mod","name":"防衛省","kana":"ぼうえいしょう","category":"ministry","position":"省","roles":"国の防衛、自衛隊","official_url":"https://www.mod.go.jp/","url_checked_at":"2026-11-01"},
+  {"id":"npa","name":"警察庁","kana":"けいさつちょう","category":"agency","position":"国家公安委員会に置かれる機関","roles":"警察制度の企画・調整（地域の事件・事故の対応は各都道府県の警察）","official_url":"https://www.npa.go.jp/","url_checked_at":"2026-11-01"},
+  {"id":"cfa","name":"こども家庭庁","kana":"こどもかていちょう","category":"agency","position":"内閣府の外局","roles":"子ども・子育ての支援、児童虐待の防止","official_url":"https://www.cfa.go.jp/","url_checked_at":"2026-11-01"},
+  {"id":"caa","name":"消費者庁","kana":"しょうひしゃちょう","category":"agency","position":"内閣府の外局","roles":"消費者の安全、商品などの表示のルール、悪質商法の対策","official_url":"https://www.caa.go.jp/","url_checked_at":"2026-11-01"},
+  {"id":"fsa","name":"金融庁","kana":"きんゆうちょう","category":"agency","position":"内閣府の外局","roles":"銀行・証券・保険などの金融制度と監督","official_url":"https://www.fsa.go.jp/","url_checked_at":"2026-11-01"},
+  {"id":"isa","name":"出入国在留管理庁","kana":"しゅつにゅうこくざいりゅうかんりちょう","category":"agency","position":"法務省の外局","roles":"出入国の審査、在留資格、外国人の受け入れ環境の整備","official_url":"https://www.moj.go.jp/isa/","url_checked_at":"2026-11-01"},
+  {"id":"shugiin","name":"衆議院","kana":"しゅうぎいん","category":"diet","position":"国会（立法府）","roles":"法律・予算などの審議。請願の受け付け","official_url":"https://www.shugiin.go.jp/","url_checked_at":"2026-11-01"},
+  {"id":"sangiin","name":"参議院","kana":"さんぎいん","category":"diet","position":"国会（立法府）","roles":"法律・予算などの審議。請願の受け付け","official_url":"https://www.sangiin.go.jp/","url_checked_at":"2026-11-01"}
+ ]
+}

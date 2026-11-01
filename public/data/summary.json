@@ -1,0 +1,19 @@
+{
+ "generated_at": "2026-11-01",
+ "entities": {
+  "agencies": 22,
+  "prefectures": 47,
+  "municipalities": 1741
+ },
+ "contacts": {
+  "total": 0,
+  "verified": 0,
+  "by_status": {
+   "verified": 0,
+   "unverified": 0,
+   "review": 0,
+   "unavailable": 0,
+   "discontinued": 0
+  }
+ }
+}

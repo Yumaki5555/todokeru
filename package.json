@@ -1,0 +1,34 @@
+{
+  "name": "todokeru",
+  "private": true,
+  "version": "1.0.0",
+  "description": "声を届ける。— 行政機関・自治体・議会に疑問や意見を届けるための案内サイト",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && node scripts/clean-docs.mjs && vite build",
+    "preview": "vite preview --port 4173",
+    "test": "vitest run",
+    "validate": "vitest run tests/data.test.ts",
+    "data:master": "node scripts/build-master.mjs",
+    "data:summary": "node scripts/build-summary.mjs"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.2",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "jsdom": "^26.1.0",
+    "typescript": "~5.9.3",
+    "vite": "^6.4.0",
+    "vitest": "^3.2.4"
+  }
+}

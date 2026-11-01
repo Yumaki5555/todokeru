@@ -1,0 +1,26 @@
+// ページ内目次
+import type { ReactNode } from 'react';
+import { JumpLink } from './Links';
+
+export interface TocItem {
+  id: string;
+  label: ReactNode;
+}
+
+export function Toc({ path, items, title = 'このページの内容', children }: { path: string; items: TocItem[]; title?: string; children?: ReactNode }) {
+  return (
+    <nav className="toc" aria-label={title}>
+      <p className="toc-title">{title}</p>
+      <ol>
+        {items.map((it) => (
+          <li key={it.id}>
+            <JumpLink path={path} id={it.id}>
+              {it.label}
+            </JumpLink>
+          </li>
+        ))}
+      </ol>
+      {children}
+    </nav>
+  );
+}

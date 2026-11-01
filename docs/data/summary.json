@@ -6,10 +6,10 @@
   "municipalities": 1741
  },
  "contacts": {
-  "total": 183,
-  "verified": 178,
+  "total": 246,
+  "verified": 241,
   "by_status": {
-   "verified": 178,
+   "verified": 241,
    "unverified": 4,
    "review": 0,
    "unavailable": 1,
@@ -29,8 +29,8 @@
   },
   "municipalities": {
    "total": 1741,
-   "researched": 0,
-   "with_verified": 0
+   "researched": 21,
+   "with_verified": 21
   }
  },
  "by_pref": {
@@ -78,8 +78,8 @@
    },
    "municipalities": {
     "total": 62,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 21,
+    "with_verified": 21
    }
   },
   "14": {

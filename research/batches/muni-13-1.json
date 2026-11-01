@@ -1,0 +1,1035 @@
+{
+  "batch": "muni-13-1",
+  "researched_at": "2026-11-01",
+  "entities": [
+    {
+      "code": "131016",
+      "name": "千代田区",
+      "official_site": "https://www.city.chiyoda.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "03-3264-2111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "102-8688",
+          "postal_address": "東京都千代田区九段南1-2-1",
+          "hours": "月曜日～金曜日の午前8時30分～午後5時",
+          "source_url": "https://www.city.chiyoda.lg.jp/",
+          "evidence": "〒102-8688 東京都千代田区九段南1-2-1 03-3264-2111（代表）",
+          "note": "祝日・年末年始を除く。一部窓口は開庁時間が異なる"
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "政策経営部 広報広聴課 広報広聴係（区政へひとこと）",
+          "phone": "03-5211-4173",
+          "email": "chiyoda@city.chiyoda.tokyo.jp",
+          "form_url": "https://www.city.chiyoda.lg.jp/koho/kuse/kocho/hitokoto/hitokoto/index.html",
+          "postal_code": "102-8688",
+          "postal_address": "東京都千代田区九段南1-2-1",
+          "hours": null,
+          "source_url": "https://www.city.chiyoda.lg.jp/koho/kuse/kocho/hitokoto/index.html",
+          "evidence": "政策経営部広報広聴課広報広聴係 電話 03-5211-4173 chiyoda@city.chiyoda.tokyo.jp",
+          "note": "FAX 03-3239-8604"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "区議会事務局（調査担当）",
+          "phone": "03-5211-4297",
+          "email": null,
+          "form_url": null,
+          "postal_code": "102-8688",
+          "postal_address": "東京都千代田区九段南1-2-1",
+          "hours": null,
+          "source_url": "https://gikai-chiyoda-tokyo.jp/minasan/iken/",
+          "evidence": "調査担当 03-5211-4297（直通）",
+          "note": "千代田区公式サイトからリンクされている千代田区議会の公式サイト。区役所7階"
+        }
+      ]
+    },
+    {
+      "code": "131024",
+      "name": "中央区",
+      "official_site": "https://www.city.chuo.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "03-3543-0211",
+          "email": null,
+          "form_url": null,
+          "postal_code": "104-8404",
+          "postal_address": "東京都中央区築地一丁目1番1号",
+          "hours": "午前8時30分から午後5時",
+          "source_url": "https://www.city.chuo.lg.jp/",
+          "evidence": "〒104-8404 東京都中央区築地一丁目1番1号 03-3543-0211（代表）",
+          "note": "時間は窓口受付時間"
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "区長への手紙＜Eメール君＞",
+          "phone": null,
+          "email": null,
+          "form_url": "https://www.city.chuo.lg.jp/a0003/kusei/mayor/kuchouhenotegami/kibouari.html",
+          "postal_code": null,
+          "postal_address": null,
+          "hours": null,
+          "source_url": "https://www.city.chuo.lg.jp/kusei/mayor/kuchouhenotegami/index.html",
+          "evidence": "区長への手紙（Eメール君）投稿フォーム",
+          "note": "意見は投稿フォームで受付。専用の電話番号は掲載なし"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "中央区議会議会局 庶務係",
+          "phone": "03-3546-5555",
+          "email": "kugikai@city.chuo.lg.jp",
+          "form_url": null,
+          "postal_code": "104-8404",
+          "postal_address": "東京都中央区築地一丁目1番1号",
+          "hours": null,
+          "source_url": "https://www.kugikai.city.chuo.lg.jp/",
+          "evidence": "庶務係 03-3546-5555 kugikai(at)city.chuo.lg.jp",
+          "note": "議事係（傍聴・請願・陳情）03-3546-5557、調査係 03-3546-5559。メールは(at)を@に置き換えて表記"
+        }
+      ]
+    },
+    {
+      "code": "131032",
+      "name": "港区",
+      "official_site": "https://www.city.minato.tokyo.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "03-3578-2111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "105-8511",
+          "postal_address": "東京都港区芝公園1丁目5番25号",
+          "hours": null,
+          "source_url": "https://www.city.minato.tokyo.jp/",
+          "evidence": "〒105-8511 東京都港区芝公園1丁目5番25号 03-3578-2111（代表）",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "区民の声センター（企画経営部 区長室 広聴担当）",
+          "phone": "03-3578-2054",
+          "email": null,
+          "form_url": "https://logoform.jp/form/Mt5V/kuseiken",
+          "postal_code": null,
+          "postal_address": null,
+          "hours": "午前8時30分～午後5時",
+          "source_url": "https://www.city.minato.tokyo.jp/kouchou/kuse/kocho/kuseiken/index.html",
+          "evidence": "区民の声センター 03-3578-2054",
+          "note": "FAX 03-3578-2034。時間は電話・窓口"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "港区議会事務局",
+          "phone": "03-3578-2111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "105-8511",
+          "postal_address": "東京都港区芝公園一丁目5番25号",
+          "hours": null,
+          "source_url": "https://www.gikai.city.minato.tokyo.jp/",
+          "evidence": "港区議会事務局 電話 03-3578-2111（代表）",
+          "note": "議会のページには区役所の代表番号が事務局の電話として掲載。FAX 03-3578-2932"
+        }
+      ]
+    },
+    {
+      "code": "131041",
+      "name": "新宿区",
+      "official_site": "https://www.city.shinjuku.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "03-3209-1111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "160-8484",
+          "postal_address": "東京都新宿区歌舞伎町1-4-1",
+          "hours": null,
+          "source_url": "https://www.city.shinjuku.lg.jp/",
+          "evidence": "〒160-8484 東京都新宿区歌舞伎町1-4-1 区役所代表電話番号 03-3209-1111",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "総合政策部 区政情報課（広聴係）ご意見・お問合せ",
+          "phone": "03-5273-4065",
+          "email": null,
+          "form_url": "https://www.faq.city.shinjuku.lg.jp/OpinionInput",
+          "postal_code": "160-8484",
+          "postal_address": "東京都新宿区歌舞伎町1-4-1",
+          "hours": null,
+          "source_url": "https://www.city.shinjuku.lg.jp/soshiki/211001kocho_00002.html",
+          "evidence": "総合政策部区政情報課 電話 03-5273-4065",
+          "note": "FAX 03-5272-5500"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "議会事務局",
+          "phone": "03-5273-3534",
+          "email": null,
+          "form_url": "https://www.faq.city.shinjuku.lg.jp/OpinionInput?cid=18377",
+          "postal_code": "160-8484",
+          "postal_address": "東京都新宿区歌舞伎町1-4-1",
+          "hours": null,
+          "source_url": "https://www.city.shinjuku.lg.jp/soshiki/file00001.html",
+          "evidence": "議会事務局 電話 03-5273-3534",
+          "note": null
+        }
+      ]
+    },
+    {
+      "code": "131059",
+      "name": "文京区",
+      "official_site": "https://www.city.bunkyo.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "03-3812-7111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "112-8555",
+          "postal_address": "東京都文京区春日1-16-21",
+          "hours": "月曜日から金曜日の午前8時30分から午後5時（祝日・年末年始を除く）",
+          "source_url": "https://www.city.bunkyo.lg.jp/",
+          "evidence": "〒112-8555 東京都文京区春日1-16-21 03-3812-7111（代表）",
+          "note": "一部窓口は開設時間が異なる"
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "企画政策部 広報戦略課 広聴・相談担当（区民の声）",
+          "phone": "03-5803-1129",
+          "email": null,
+          "form_url": "https://logoform.jp/form/6KSu/517953",
+          "postal_code": "112-8555",
+          "postal_address": "東京都文京区春日1丁目16番21号",
+          "hours": null,
+          "source_url": "https://www.city.bunkyo.lg.jp/b003/p006123/index.html",
+          "evidence": "広聴・相談担当 03-5803-1129",
+          "note": "FAX 03-5803-1331。回答不要の場合のフォームは https://logoform.jp/form/6KSu/518197。文京シビックセンター14階南側"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "文京区議会（庶務係）",
+          "phone": "03-5803-1312",
+          "email": null,
+          "form_url": null,
+          "postal_code": "112-8555",
+          "postal_address": "東京都文京区春日1丁目16番21号",
+          "hours": null,
+          "source_url": "https://www.city.bunkyo.lg.jp/kugikai/index.html",
+          "evidence": "03-5803-1312(庶務係) 03-5803-1313～4(議事調査担当)",
+          "note": "議事調査担当 03-5803-1313〜4、FAX 03-5803-1370。文京シビックセンター23階南側"
+        }
+      ]
+    },
+    {
+      "code": "131067",
+      "name": "台東区",
+      "official_site": "https://www.city.taito.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "03-5246-1111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "110-8615",
+          "postal_address": "東京都台東区東上野4丁目5番6号",
+          "hours": null,
+          "source_url": "https://www.city.taito.lg.jp/",
+          "evidence": "〒110-8615 東京都台東区東上野4丁目5番6号 電話：03-5246-1111（代表）",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "区民の声（区長への手紙・お問合せ）",
+          "phone": null,
+          "email": null,
+          "form_url": "https://www.city.taito.lg.jp/cgi-bin/formmail/formmail.cgi?d=kucho",
+          "postal_code": null,
+          "postal_address": null,
+          "hours": null,
+          "source_url": "https://www.city.taito.lg.jp/kusei/sanka/kuminnokoe/toiawaseiken/index.html",
+          "evidence": "ご意見・ご提案（区長への手紙）",
+          "note": "意見はフォームで受付。専用の電話番号は掲載なし。お問合せ用フォームは別（formmail.cgi?d=ikkatsu）"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "台東区議会事務局 議事調査係",
+          "phone": "03-5246-1473",
+          "email": "gikai@city.taito.tokyo.jp",
+          "form_url": null,
+          "postal_code": "110-8615",
+          "postal_address": "東京都台東区東上野4丁目5番6号",
+          "hours": null,
+          "source_url": "https://www.city.taito.lg.jp/kugikai/boutyoannai.html",
+          "evidence": "議事調査係 03-5246-1473 gikai（アットマーク）city.taito.tokyo.jp",
+          "note": "庶務係 03-5246-1472、FAX 03-5246-1479。区役所7階。メールは（アットマーク）を@に置き換えて表記"
+        }
+      ]
+    },
+    {
+      "code": "131075",
+      "name": "墨田区",
+      "official_site": "https://www.city.sumida.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "03-5608-1111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "130-8640",
+          "postal_address": "東京都墨田区吾妻橋一丁目23番20号",
+          "hours": null,
+          "source_url": "https://www.city.sumida.lg.jp/",
+          "evidence": "〒130-8640 東京都墨田区吾妻橋一丁目23番20号 電話：03-5608-1111（代表）",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "企画経営室 広報広聴担当",
+          "phone": "03-5608-6221",
+          "email": null,
+          "form_url": "https://logoform.jp/form/DnDq/289034",
+          "postal_code": null,
+          "postal_address": null,
+          "hours": null,
+          "source_url": "https://www.city.sumida.lg.jp/iken_yobo/ask/index.html",
+          "evidence": "企画経営室広報広聴担当 電話 03-5608-6221",
+          "note": "FAX 03-5608-6406"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "墨田区議会事務局 庶務係",
+          "phone": "03-5608-6350",
+          "email": "kugikai@city.sumida.lg.jp",
+          "form_url": null,
+          "postal_code": "130-8640",
+          "postal_address": "東京都墨田区吾妻橋一丁目23番20号",
+          "hours": null,
+          "source_url": "https://www.city.sumida.lg.jp/kugikai/aramashi/toiawase.html",
+          "evidence": "庶務係 03-5608-6350 kugikai@city.sumida.lg.jp",
+          "note": "議事調査担当 03-5608-6351・6352、FAX 03-5608-6415。区役所15階"
+        }
+      ]
+    },
+    {
+      "code": "131083",
+      "name": "江東区",
+      "official_site": "https://www.city.koto.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "03-3647-9111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "135-8383",
+          "postal_address": "東京都江東区東陽4丁目11番28号",
+          "hours": null,
+          "source_url": "https://www.city.koto.lg.jp/",
+          "evidence": "〒135-8383 東京都江東区東陽4丁目11番28号 03-3647-9111（代表）",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "広報広聴課 広聴相談係（区長への手紙）",
+          "phone": "03-3647-2364",
+          "email": null,
+          "form_url": "https://koto-tegami.seagull-lc.com/iken/client",
+          "postal_code": "135-8383",
+          "postal_address": "東京都江東区東陽4丁目11番28号",
+          "hours": "月曜日から金曜日 8時30分から17時00分",
+          "source_url": "https://www.city.koto.lg.jp/011505/kuse/kucho/tean/5343.html",
+          "evidence": "江東区広報広聴課広聴相談係 電話 03-3647-2364",
+          "note": "祝日・年末年始を除く。FAX 03-3647-9635。窓口は区役所2階"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "区議会事務局調査係",
+          "phone": "03-3647-3548",
+          "email": null,
+          "form_url": null,
+          "postal_code": "135-8383",
+          "postal_address": "東京都江東区東陽4丁目11番28号",
+          "hours": null,
+          "source_url": "https://www.city.koto.lg.jp/kugikai/index.html",
+          "evidence": "区議会事務局調査係 電話番号 03-3647-3548",
+          "note": null
+        }
+      ]
+    },
+    {
+      "code": "131091",
+      "name": "品川区",
+      "official_site": "https://www.city.shinagawa.tokyo.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "03-3777-1111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "140-8715",
+          "postal_address": "東京都品川区広町2-1-36",
+          "hours": "8時30分から17時（土曜日・日曜日・祝日および12月29日から1月3日を除く）",
+          "source_url": "https://www.city.shinagawa.tokyo.jp/",
+          "evidence": "〒140-8715 品川区広町2-1-36 電話 03-3777-1111（代表）",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "戦略広報課 広報広聴担当（広聴窓口）",
+          "phone": "03-3771-2000",
+          "email": null,
+          "form_url": "https://www.city.shinagawa.tokyo.jp/cgi-bin/enquetes/9b9abd4a5bf44848be7dcf6bee08a8f0",
+          "postal_code": "140-8715",
+          "postal_address": "東京都品川区広町2-1-36",
+          "hours": null,
+          "source_url": "https://www.city.shinagawa.tokyo.jp/kusei/kohokocho/1006648/1010855.html",
+          "evidence": "戦略広報課 電話：03-3771-2000",
+          "note": "広報広聴担当への問い合わせは 03-5742-6643"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "品川区議会事務局",
+          "phone": "03-5742-6808",
+          "email": null,
+          "form_url": "https://www.city.shinagawa.tokyo.jp/cgi-bin/contacts/G130560000",
+          "postal_code": "140-8715",
+          "postal_address": "東京都品川区広町2-1-36",
+          "hours": null,
+          "source_url": "https://www.city.shinagawa.tokyo.jp/shisetsu/kuyakushogikai/1007892.html",
+          "evidence": "品川区議会事務局 電話 03-5742-6808",
+          "note": "FAX 03-5742-6895。品川区役所議会棟4階"
+        }
+      ]
+    },
+    {
+      "code": "131105",
+      "name": "目黒区",
+      "official_site": "https://www.city.meguro.tokyo.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "コールセンター（代表）",
+          "phone": "03-3715-1111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "153-8573",
+          "postal_address": "東京都目黒区上目黒二丁目19番15号",
+          "hours": null,
+          "source_url": "https://www.city.meguro.tokyo.jp/",
+          "evidence": "〒153-8573 東京都目黒区上目黒二丁目19番15号 電話：03-3715-1111（コールセンター・代表）",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "広報広聴課（区長へのメール）",
+          "phone": "03-5722-9416",
+          "email": null,
+          "form_url": "https://meguro.seagull-lc.com/kocho/client",
+          "postal_code": null,
+          "postal_address": null,
+          "hours": null,
+          "source_url": "https://www.city.meguro.tokyo.jp/kouhou/kusei/kuchou/mail.html",
+          "evidence": "広報広聴課 03-5722-9416",
+          "note": "FAX 03-5722-9395"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "区議会事務局 庶務係",
+          "phone": "03-5722-9413",
+          "email": null,
+          "form_url": null,
+          "postal_code": null,
+          "postal_address": null,
+          "hours": null,
+          "source_url": "https://www.city.meguro.tokyo.jp/kugikai/kusei/gaiyou/kugikai.html",
+          "evidence": "庶務係 03-5722-9413",
+          "note": "議事・調査係 03-5722-9414・9415、FAX 03-5722-9335"
+        }
+      ]
+    },
+    {
+      "code": "131113",
+      "name": "大田区",
+      "official_site": "https://www.city.ota.tokyo.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "03-5744-1111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "144-8621",
+          "postal_address": "東京都大田区蒲田五丁目13番14号",
+          "hours": null,
+          "source_url": "https://www.city.ota.tokyo.jp/",
+          "evidence": "〒144-8621 東京都大田区蒲田五丁目13番14号 電話：03-5744-1111（代表）",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "区民の声（ご意見・ご要望、ご提案）",
+          "phone": null,
+          "email": null,
+          "form_url": "https://www.city.ota.tokyo.jp/cgi-bin/formmail_r1/formmail.cgi?d=opinion",
+          "postal_code": null,
+          "postal_address": null,
+          "hours": null,
+          "source_url": "https://www.city.ota.tokyo.jp/kuseijoho/kuminnokoe/index.html",
+          "evidence": "区政へのご意見・ご要望",
+          "note": "意見はフォームで受付。専用の電話番号は掲載なし"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "区議会事務局",
+          "phone": "03-5744-1474",
+          "email": null,
+          "form_url": null,
+          "postal_code": "144-8621",
+          "postal_address": "東京都大田区蒲田五丁目13番14号",
+          "hours": null,
+          "source_url": "https://www.city.ota.tokyo.jp/gikai/index.html",
+          "evidence": "03-5744-1474（直通） 区役所本庁舎10階",
+          "note": "FAX 03-5744-1541"
+        }
+      ]
+    },
+    {
+      "code": "131121",
+      "name": "世田谷区",
+      "official_site": "https://www.city.setagaya.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "03-5432-1111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "154-8504",
+          "postal_address": "東京都世田谷区世田谷4丁目21番27号",
+          "hours": null,
+          "source_url": "https://www.city.setagaya.lg.jp/",
+          "evidence": "〒154-8504 東京都世田谷区世田谷4丁目21番27号 03-5432-1111（代表）",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "政策経営部 広報広聴課（区長へのメール）",
+          "phone": "03-5432-2014",
+          "email": null,
+          "form_url": "https://www.city.setagaya.lg.jp/kuminnokoe/15535.html",
+          "postal_code": null,
+          "postal_address": null,
+          "hours": null,
+          "source_url": "https://www.city.setagaya.lg.jp/02002/7775.html",
+          "evidence": "政策経営部 広報広聴課 電話 03-5432-2014",
+          "note": "FAX 03-5432-3001"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "世田谷区議会事務局",
+          "phone": "03-5432-2779",
+          "email": null,
+          "form_url": null,
+          "postal_code": "154-8504",
+          "postal_address": "東京都世田谷区世田谷4丁目21番27号",
+          "hours": null,
+          "source_url": "https://www.city.setagaya.lg.jp/gikai/index.html",
+          "evidence": "世田谷区議会事務局 電話 03-5432-2779",
+          "note": "FAX 03-5432-3030"
+        }
+      ]
+    },
+    {
+      "code": "131130",
+      "name": "渋谷区",
+      "official_site": "https://www.city.shibuya.tokyo.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "03-3463-1211",
+          "email": null,
+          "form_url": null,
+          "postal_code": "150-8010",
+          "postal_address": "東京都渋谷区宇田川町1-1",
+          "hours": "8時30分～17時（土曜日・日曜日、祝・休日および12月29日から1月3日までを除く）",
+          "source_url": "https://www.city.shibuya.tokyo.jp/",
+          "evidence": "〒150-8010 東京都渋谷区宇田川町1-1 03-3463-1211（代表）",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "区長への手紙（区政へのご意見・ご要望）",
+          "phone": null,
+          "email": null,
+          "form_url": "https://dcp.city.shibuya.tokyo.jp/ctz/s/inquirys/add?app=AM000000051",
+          "postal_code": "150-8010",
+          "postal_address": "東京都渋谷区宇田川町1-1",
+          "hours": null,
+          "source_url": "https://www.city.shibuya.tokyo.jp/kusei/kocho/opinionindex/opinionindex.html",
+          "evidence": "150-8010 宇田川町1-1 渋谷区長宛て",
+          "note": "意見はフォームまたは郵送で受付。専用FAX 03-5458-4920。電話は担当窓口へ直接との案内のみで番号の掲載なし"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "渋谷区議会（庶務係）",
+          "phone": "03-3463-1094",
+          "email": "div-kugikai@shibuya.tokyo",
+          "form_url": null,
+          "postal_code": "150-8010",
+          "postal_address": "東京都渋谷区宇田川町1-1",
+          "hours": null,
+          "source_url": "https://shibukugi.tokyo/",
+          "evidence": "庶務係 03-3463-1094 div-kugikai@shibuya.tokyo",
+          "note": "議事係（請願・陳情）03-3463-1073、調査係 03-3463-1096、FAX 03-5458-4939。区役所13・14階。渋谷区公式サイトからリンクされている区議会の公式サイト"
+        }
+      ]
+    },
+    {
+      "code": "131148",
+      "name": "中野区",
+      "official_site": "https://www.city.tokyo-nakano.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "03-3389-1111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "164-8501",
+          "postal_address": "東京都中野区中野四丁目11番19号",
+          "hours": null,
+          "source_url": "https://www.city.tokyo-nakano.lg.jp/",
+          "evidence": "〒164-8501 東京都中野区中野四丁目11番19号 03-3389-1111",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "企画部 広聴・広報課 広聴係",
+          "phone": "03-3228-5552",
+          "email": null,
+          "form_url": "https://www.city.tokyo-nakano.lg.jp/cgi-bin/formmail/formmail.cgi?d=kuminnokoe",
+          "postal_code": "164-8501",
+          "postal_address": "東京都中野区中野四丁目11番19号",
+          "hours": null,
+          "source_url": "https://www.city.tokyo-nakano.lg.jp/kusei/public/goiken/kuseihenogoiken.html",
+          "evidence": "企画部 広聴・広報課 電話 03-3228-5552",
+          "note": "FAX 03-3228-5476"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "中野区議会事務局",
+          "phone": "03-3228-5585",
+          "email": null,
+          "form_url": null,
+          "postal_code": "164-8501",
+          "postal_address": "東京都中野区中野四丁目11番19号",
+          "hours": null,
+          "source_url": "https://kugikai-nakano.jp/",
+          "evidence": "中野区議会事務局 電話03-3228-5585",
+          "note": "中野区公式サイトからリンクされている区議会の公式サイト"
+        }
+      ]
+    },
+    {
+      "code": "131156",
+      "name": "杉並区",
+      "official_site": "https://www.city.suginami.tokyo.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "03-3312-2111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "166-8570",
+          "postal_address": "東京都杉並区阿佐谷南1丁目15番1号",
+          "hours": null,
+          "source_url": "https://www.city.suginami.tokyo.jp/",
+          "evidence": "〒166-8570 東京都杉並区阿佐谷南1丁目15番1号 電話番号：03-3312-2111（代表）",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "総務部 区政相談課（区長への手紙）",
+          "phone": "03-5307-0844",
+          "email": null,
+          "form_url": "https://logoform.jp/form/Y4gR/699403",
+          "postal_code": "166-8570",
+          "postal_address": "東京都杉並区阿佐谷南1丁目15番1号",
+          "hours": null,
+          "source_url": "https://www.city.suginami.tokyo.jp/s013/1236.html",
+          "evidence": "総務部区政相談課 電話 03-5307-0844",
+          "note": "FAX 03-3312-3531"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "杉並区議会事務局",
+          "phone": "03-3312-2111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "166-8570",
+          "postal_address": "東京都杉並区阿佐谷南1丁目15番1号",
+          "hours": null,
+          "source_url": "https://www.city.suginami.tokyo.jp/kugikai/index.html",
+          "evidence": "杉並区議会事務局 03-3312-2111（代表）",
+          "note": "議会のページには区役所の代表番号が事務局の電話として掲載。FAX 03-5307-0695。区役所中棟3階"
+        }
+      ]
+    },
+    {
+      "code": "131164",
+      "name": "豊島区",
+      "official_site": "https://www.city.toshima.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "豊島区役所コールセンター",
+          "phone": "03-3981-1111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "171-8422",
+          "postal_address": "東京都豊島区南池袋2-45-1",
+          "hours": null,
+          "source_url": "https://www.city.toshima.lg.jp/",
+          "evidence": "〒171-8422 豊島区南池袋2-45-1 豊島区役所コールセンター 03-3981-1111",
+          "note": "区の各課への電話の取り次ぎも行う窓口。公式サイトでは「代表」とは表記されていない"
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "政策経営部 区民相談課 事業・広聴グループ",
+          "phone": "03-4566-2411",
+          "email": null,
+          "form_url": "https://www.city.toshima.lg.jp/011/kuse/iken/goiken/voice.html",
+          "postal_code": "171-8422",
+          "postal_address": "東京都豊島区南池袋2-45-1",
+          "hours": null,
+          "source_url": "https://www.city.toshima.lg.jp/398/1608081429.html",
+          "evidence": "事業・広聴グループ 直通番号：03-4566-2411",
+          "note": "豊島区役所4階。意見は入力フォームでも受付"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "区議会事務局 議会総務課（総務グループ）",
+          "phone": "03-3981-1441",
+          "email": null,
+          "form_url": null,
+          "postal_code": "171-8422",
+          "postal_address": "東京都豊島区南池袋2-45-1",
+          "hours": null,
+          "source_url": "https://www.city.toshima.lg.jp/366/kuse/soshiki/kugikai/006592.html",
+          "evidence": "総務グループ 直通番号：03-3981-1441",
+          "note": "議事グループ（請願・陳情）・政策調査グループ 03-3981-1453。豊島区役所9階"
+        }
+      ]
+    },
+    {
+      "code": "131172",
+      "name": "北区",
+      "official_site": "https://www.city.kita.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "03-3908-1111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "114-8508",
+          "postal_address": "東京都北区王子本町1-15-22",
+          "hours": null,
+          "source_url": "https://www.city.kita.lg.jp/",
+          "evidence": "〒114-8508 東京都北区王子本町1-15-22 03-3908-1111（代表）",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "区へのご意見・ご要望",
+          "phone": null,
+          "email": null,
+          "form_url": "https://www.city.kita.lg.jp/cgi-crm/CRM030/CRM030_004/G999999999/1014173",
+          "postal_code": null,
+          "postal_address": null,
+          "hours": null,
+          "source_url": "https://www.city.kita.lg.jp/city-information/feedback/1014173.html",
+          "evidence": "「区政へのご意見」フォーム",
+          "note": "意見はフォームで受付。電話番号は掲載なし"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "区議会事務局（議事調査係）",
+          "phone": "03-3908-9948",
+          "email": null,
+          "form_url": null,
+          "postal_code": "114-8508",
+          "postal_address": "東京都北区王子本町1-15-22",
+          "hours": null,
+          "source_url": "https://www.city.kita.lg.jp/assembly/about/1015113.html",
+          "evidence": "議事調査係 03-3908-9948",
+          "note": "庶務係 03-3908-9944。北区役所第一庁舎4階"
+        }
+      ]
+    },
+    {
+      "code": "131181",
+      "name": "荒川区",
+      "official_site": "https://www.city.arakawa.tokyo.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "03-3802-3111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "116-8501",
+          "postal_address": "東京都荒川区荒川二丁目2番3号",
+          "hours": "月曜日から金曜日の午前8時30分から午後5時15分",
+          "source_url": "https://www.city.arakawa.tokyo.jp/",
+          "evidence": "〒116-8501 東京都荒川区荒川二丁目2番3号 03-3802-3111（代表）",
+          "note": "祝日・休日・年末年始を除く。一部窓口は水曜夜間・第2/第4日曜も開設"
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "政策企画部 広報・シティプロモーション課 総合相談係（区民の声）",
+          "phone": "03-3802-3111",
+          "email": null,
+          "form_url": "https://logoform.jp/form/bUir/kumin-koe",
+          "postal_code": "116-8501",
+          "postal_address": "東京都荒川区荒川二丁目2番3号",
+          "hours": null,
+          "source_url": "https://www.city.arakawa.tokyo.jp/a003/kouhou/kouchou/goiken.html",
+          "evidence": "総合相談係 03-3802-3111（内線：2161）",
+          "note": "内線2161。FAX 03-3802-6262。本庁舎1階"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "議会事務局 議事係",
+          "phone": "03-3802-3111",
+          "email": "kugikai@city.arakawa.lg.jp",
+          "form_url": null,
+          "postal_code": "116-8501",
+          "postal_address": "東京都荒川区荒川二丁目2番3号",
+          "hours": null,
+          "source_url": "https://www.city.arakawa.tokyo.jp/a053/gikaisenkyo/kugikai/bochoannai.html",
+          "evidence": "議会事務局議事係 03-3802-3111（内線3614） kugikai@city.arakawa.lg.jp",
+          "note": "内線3614。FAX 03-3803-8887。本庁舎5階"
+        }
+      ]
+    },
+    {
+      "code": "131199",
+      "name": "板橋区",
+      "official_site": "https://www.city.itabashi.tokyo.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "03-3964-1111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "173-8501",
+          "postal_address": "東京都板橋区板橋二丁目66番1号",
+          "hours": null,
+          "source_url": "https://www.city.itabashi.tokyo.jp/",
+          "evidence": "〒173-8501 東京都板橋区板橋二丁目66番1号 03-3964-1111",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "政策経営部 広聴広報課",
+          "phone": "03-3579-2024",
+          "email": "kkouho@city.itabashi.tokyo.jp",
+          "form_url": "https://www.city.itabashi.tokyo.jp/cgi-crm/CRM030/CRM030_004/G1003000000/1006890",
+          "postal_code": "173-8501",
+          "postal_address": "東京都板橋区板橋二丁目66番1号",
+          "hours": null,
+          "source_url": "https://www.city.itabashi.tokyo.jp/kusei/publiccomment/koe/1006890.html",
+          "evidence": "政策経営部広聴広報課 電話 03-3579-2024 kkouho@city.itabashi.tokyo.jp",
+          "note": "FAX 03-3579-2028。メールはフォームが使えない場合の連絡先"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "区議会事務局（庶務係）",
+          "phone": "03-3579-2703",
+          "email": null,
+          "form_url": null,
+          "postal_code": "173-8501",
+          "postal_address": "東京都板橋区板橋二丁目66番1号",
+          "hours": "月曜から金曜の午前8時30分から午後5時（祝日と年末年始を除く）",
+          "source_url": "https://www.city.itabashi.tokyo.jp/kusei/soshiki/1007049.html",
+          "evidence": "区議会事務局 庶務係 電話 03-3579-2703",
+          "note": "議事係（請願・陳情）03-3579-2702、調査係 03-3579-2704、FAX 03-3579-2780。区役所北館10階"
+        }
+      ]
+    },
+    {
+      "code": "131202",
+      "name": "練馬区",
+      "official_site": "https://www.city.nerima.tokyo.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "03-3993-1111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "176-8501",
+          "postal_address": "東京都練馬区豊玉北6丁目12番1号",
+          "hours": null,
+          "source_url": "https://www.city.nerima.tokyo.jp/",
+          "evidence": "〒176-8501 東京都練馬区豊玉北6丁目12番1号 03-3993-1111（代表）",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "広聴広報課 広聴担当係（区民の声窓口）",
+          "phone": "03-5984-4501",
+          "email": null,
+          "form_url": "https://logoform.jp/form/G2rU/1223546",
+          "postal_code": "176-8501",
+          "postal_address": "東京都練馬区豊玉北6丁目12番1号",
+          "hours": null,
+          "source_url": "https://www.city.nerima.tokyo.jp/kusei/goiken/goiken.html",
+          "evidence": "広聴広報課広聴担当係 03-5984-4501（直通）",
+          "note": "FAX 03-3993-4106。回答不要の場合のフォームは https://logoform.jp/form/G2rU/1223639。窓口は本庁舎2階"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "議会事務局",
+          "phone": "03-5984-4732",
+          "email": null,
+          "form_url": "https://logoform.jp/form/G2rU/1172382",
+          "postal_code": "176-8501",
+          "postal_address": "東京都練馬区豊玉北6丁目12番1号",
+          "hours": null,
+          "source_url": "https://www.city.nerima.tokyo.jp/gikai/index.html",
+          "evidence": "〒176-8501 東京都練馬区豊玉北6丁目12番1号 電話 03-5984-4732",
+          "note": "FAX 03-3993-2424。連絡先は区議会ページ下部の欄に掲載"
+        }
+      ]
+    },
+    {
+      "code": "131211",
+      "name": "足立区",
+      "official_site": "https://www.city.adachi.tokyo.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "03-3880-5111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "120-8510",
+          "postal_address": "東京都足立区中央本町一丁目17番1号",
+          "hours": null,
+          "source_url": "https://www.city.adachi.tokyo.jp/",
+          "evidence": "120-8510 足立区中央本町一丁目17番1号 03-3880-5111（代表）",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "政策経営部 区民の声相談課 区民の声担当",
+          "phone": "03-3880-5839",
+          "email": null,
+          "form_url": "https://shinsei.city.adachi.tokyo.jp/apply/guide/402",
+          "postal_code": null,
+          "postal_address": null,
+          "hours": null,
+          "source_url": "https://www.city.adachi.tokyo.jp/koe/kutyouhenome-ruannnai.html",
+          "evidence": "政策経営部区民の声相談課区民の声担当 03-3880-5839",
+          "note": "FAX 03-3880-5678"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "区議会事務局",
+          "phone": "03-3880-5995",
+          "email": "gj-kyoku@city.adachi.tokyo.jp",
+          "form_url": null,
+          "postal_code": null,
+          "postal_address": null,
+          "hours": null,
+          "source_url": "https://www.gikai-adachi.jp/jimukyoku.asp",
+          "evidence": "03-3880-5995 gj-kyoku@city.adachi.tokyo.jp",
+          "note": "FAX 03-3880-5617。足立区公式サイトからリンクされている区議会の公式サイト。ページが文字化けし係名・住所の細部は未確認"
+        }
+      ]
+    }
+  ]
+}

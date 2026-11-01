@@ -523,10 +523,17 @@
      "name": "足立区"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-01",
+   "merged_at": "2026-11-01",
+   "result": {
+    "entities": 21,
+    "contacts": 63,
+    "verified": 63,
+    "unverified": 0,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-13-2",

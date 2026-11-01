@@ -1,6 +1,10 @@
 {
  "note": "go.jp・lg.jp・pref./city./town./vill. 以外のドメインで、公式と確かめたもの。evidence_url（自治体・機関の公式ページ）からリンクされていることを確認した。",
  "hosts": [
-  {"host": "www.shigaken-gikai.jp", "name": "滋賀県議会", "evidence_url": "https://www.pref.shiga.lg.jp/", "checked_at": "2026-11-01"}
+  {"host": "www.shigaken-gikai.jp", "name": "滋賀県議会", "evidence_url": "https://www.pref.shiga.lg.jp/", "checked_at": "2026-11-01"},
+  {"host": "gikai-chiyoda-tokyo.jp", "name": "千代田区議会", "evidence_url": "https://www.city.chiyoda.lg.jp/", "checked_at": "2026-11-01"},
+  {"host": "shibukugi.tokyo", "name": "渋谷区議会", "evidence_url": "https://www.city.shibuya.tokyo.jp/", "checked_at": "2026-11-01"},
+  {"host": "kugikai-nakano.jp", "name": "中野区議会", "evidence_url": "https://www.city.tokyo-nakano.lg.jp/", "checked_at": "2026-11-01"},
+  {"host": "www.gikai-adachi.jp", "name": "足立区議会", "evidence_url": "https://www.city.adachi.tokyo.jp/", "checked_at": "2026-11-01"}
  ]
 }

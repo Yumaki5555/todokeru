@@ -95,8 +95,11 @@ export function PhoneGuidePage({ route }: { route: Route }) {
 
   return (
     <div className="wrap page phone-guide">
-      <PageHead title={PHONE_GUIDE.title} sub={PHONE_GUIDE.subtitle} />
-      <SupervisorNote path={PATH} manualId="manual" />
+      {/* 広い画面では題名と監修欄を横に並べる */}
+      <div className="phone-head">
+        <PageHead title={PHONE_GUIDE.title} sub={PHONE_GUIDE.subtitle} />
+        <SupervisorNote path={PATH} manualId="manual" />
+      </div>
 
       <ScriptMaker draft={draft} update={update} onRead={openRead} onClear={clear} />
       <CallTargetBox target={draft.target} state={targetState} />

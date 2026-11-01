@@ -1456,6 +1456,20 @@ p.lead {
   }
 }
 
+/* 広い画面：左に題名、右に監修欄 */
+@media (min-width: 1000px) {
+  .phone-head {
+    display: grid;
+    grid-template-columns: max-content minmax(0, 1fr);
+    align-items: end;
+    gap: 28px;
+  }
+
+  .phone-head .supervisor {
+    margin-top: 0;
+  }
+}
+
 .script {
   margin: 14px 0;
   padding: 14px 16px;

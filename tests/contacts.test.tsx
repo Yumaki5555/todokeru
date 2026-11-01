@@ -17,9 +17,9 @@ describe('窓口検索', () => {
     expect(screen.getByRole('heading', { level: 1, name: '全国の窓口を探す' })).toBeInTheDocument();
     expect(screen.getByText(/推測した電話番号やメールアドレスは載せません/)).toBeInTheDocument();
     const stats = await screen.findByLabelText('登録件数');
-    expect(within(stats).getByText('登録している機関・自治体')).toBeInTheDocument();
-    expect(within(stats).getByText('公式確認済みの窓口')).toBeInTheDocument();
+    for (const t of ['国の機関', '都道府県', '市区町村', '公式確認済みの窓口']) expect(within(stats).getByText(t)).toBeInTheDocument();
     expect(within(stats).getByText('1,741')).toBeInTheDocument();
+    expect(within(stats).getByText(/^0件/)).toBeInTheDocument();
   });
 
   it('窓口の種類（代表・広聴・議会事務局）の違いを説明している', () => {

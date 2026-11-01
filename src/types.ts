@@ -111,7 +111,21 @@ export type IconName =
   | 'arrow-left'
   | 'external'
   | 'info'
-  | 'list';
+  | 'list'
+  | 'chat'
+  | 'bulb'
+  | 'send'
+  | 'map'
+  | 'landmark'
+  | 'clipboard'
+  | 'memo'
+  | 'heart'
+  | 'alert'
+  | 'cross'
+  | 'scale'
+  | 'question'
+  | 'clock'
+  | 'form';
 
 export type GuideSlug = 'phone' | 'email' | 'public-comment' | 'petition' | 'disclosure' | 'signature';
 
@@ -119,6 +133,7 @@ export type GuideSlug = 'phone' | 'email' | 'public-comment' | 'petition' | 'dis
 export interface GuideMenuItem {
   slug: GuideSlug;
   title: string;
+  short: string; // トップのカードに出す短い名前
   summary: string;
   status: 'published' | 'coming';
   icon: IconName;
@@ -138,8 +153,16 @@ export interface ThreeMinuteStep {
   no: number;
   title: string;
   icon: IconName;
-  body: string[];
+  text: string; // 原則1文
+  /** 文章の代わりに見せる小さな図（アイコンの並び・流れ・2つの比較） */
+  figure?: { kind: 'icons' | 'flow' | 'compare'; items: FigureItem[] };
   more?: { label: string; to: string };
+}
+
+export interface FigureItem {
+  icon?: IconName;
+  label: string;
+  sub?: string;
 }
 
 /** 電話マニュアルの台本 */
@@ -163,6 +186,7 @@ export interface ManualChapter {
   id: string;
   no: number;
   title: string;
+  icon: IconName;
   lead: string;
   blocks: ManualBlock[];
 }

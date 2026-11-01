@@ -1,5 +1,5 @@
 // 窓口検索の結果：1つの機関・自治体と、その窓口（代表・広聴・議会事務局）
-import { useEffect, useState } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
 import type { Agency, Contact, ContactType, Municipality, Prefecture } from '../types';
 import { AGENCY_CATEGORY_LABEL, CONTACT_TYPE_INFO, STATUS_LABEL, TYPES_FOR_AGENCY, TYPES_FOR_DIET, TYPES_FOR_LOCAL } from '../data/labels';
 import { loadAgencyContacts, loadPrefContacts } from '../data/loaders';
@@ -50,6 +50,8 @@ function useContacts(entity: Entity) {
   return { ...(state.key === key ? state : { status: 'loading' as const, contacts: [] }), retry: () => setAttempt((n) => n + 1) };
 }
 
+const ENTITY_ICON = { agency: 'landmark', pref: 'map', muni: 'building' } as const;
+
 export function ContactCard({ entity }: { entity: Entity }) {
   const { status, contacts, retry } = useContacts(entity);
   const types: ContactType[] =
@@ -59,10 +61,15 @@ export function ContactCard({ entity }: { entity: Entity }) {
   return (
     <article className="entity" aria-labelledby="entity-h" aria-busy={status === 'loading'}>
       <header className="entity-head">
-        <h3 id="entity-h" tabIndex={-1}>
-          {name}
-        </h3>
-        <EntityMeta entity={entity} />
+        <span className="entity-icon" aria-hidden="true">
+          <Icon name={ENTITY_ICON[entity.kind]} />
+        </span>
+        <div className="entity-head-main">
+          <h3 id="entity-h" tabIndex={-1}>
+            {name}
+          </h3>
+          <EntityMeta entity={entity} />
+        </div>
       </header>
 
       {status === 'error' && (
@@ -88,67 +95,64 @@ export function ContactCard({ entity }: { entity: Entity }) {
   );
 }
 
+/** 外部サイトへのボタン型リンク */
+function OfficialLink({ to, children }: { to: string; children: ReactNode }) {
+  return (
+    <a className="btn btn-secondary btn-small entity-official" href={to}>
+      {children}
+      <Icon name="external" />
+      <span className="sr-only">（外部サイト）</span>
+    </a>
+  );
+}
+
 function EntityMeta({ entity }: { entity: Entity }) {
   if (entity.kind === 'agency') {
     const a = entity.agency;
     return (
-      <dl className="entity-meta">
-        <div>
-          <dt>分類</dt>
-          <dd>
-            国の機関・{AGENCY_CATEGORY_LABEL[a.category]}（{a.position}）
-          </dd>
-        </div>
-        <div>
-          <dt>主な担当（例）</dt>
-          <dd>{a.roles}</dd>
-        </div>
-        <div>
-          <dt>公式サイト</dt>
-          <dd>
-            <a href={a.official_url}>
-              {a.name}の公式サイト
-              <Icon name="external" className="icon-inline" />
-              <span className="sr-only">（外部サイト）</span>
-            </a>
-            <span className="muted">（{formatDate(a.url_checked_at)}に表示を確認）</span>
-          </dd>
-        </div>
-      </dl>
+      <>
+        <p className="entity-kind">
+          国の機関・{AGENCY_CATEGORY_LABEL[a.category]}（{a.position}）
+        </p>
+        <OfficialLink to={a.official_url}>{a.name}の公式サイト</OfficialLink>
+        <details className="fold fold-small">
+          <summary>詳しい情報</summary>
+          <dl className="entity-meta">
+            <div>
+              <dt>主な担当（例）</dt>
+              <dd>{a.roles}</dd>
+            </div>
+            <div>
+              <dt>公式サイトの確認日</dt>
+              <dd>{formatDate(a.url_checked_at)}に表示を確認</dd>
+            </div>
+          </dl>
+        </details>
+      </>
     );
   }
   const code = entity.kind === 'pref' ? entity.pref.lg_code : entity.muni.code;
   return (
-    <dl className="entity-meta">
-      <div>
-        <dt>分類</dt>
-        <dd>
-          {entity.kind === 'pref' ? '都道府県' : `市区町村（${entity.pref.name}）${entity.muni.designated ? '・政令指定都市' : ''}`}
-        </dd>
-      </div>
-      <div>
-        <dt>自治体コード</dt>
-        <dd>{code}</dd>
-      </div>
-      <div>
-        <dt>公式サイト</dt>
-        <dd>
-          公式サイトは、
-          <a href={SITE.jlisMap.url}>
-            {SITE.jlisMap.label}
-            <Icon name="external" className="icon-inline" />
-            <span className="sr-only">（外部サイト）</span>
-          </a>
-          から探せます。
-        </dd>
-      </div>
-      {entity.kind === 'muni' && entity.muni.designated && (
-        <div>
-          <dt>区役所</dt>
-          <dd>区役所の窓口は、市の公式サイトで確かめてください。</dd>
-        </div>
-      )}
-    </dl>
+    <>
+      <p className="entity-kind">
+        {entity.kind === 'pref' ? '都道府県' : `市区町村（${entity.pref.name}）${entity.muni.designated ? '・政令指定都市' : ''}`}
+      </p>
+      <OfficialLink to={SITE.jlisMap.url}>{SITE.jlisMap.label}で公式サイトを探す</OfficialLink>
+      {entity.kind === 'muni' && entity.muni.designated && <p className="entity-note">区役所の窓口は、市の公式サイトで確かめてください。</p>}
+      <details className="fold fold-small">
+        <summary>詳しい情報</summary>
+        <dl className="entity-meta">
+          <div>
+            <dt>自治体コード</dt>
+            <dd>{code}</dd>
+          </div>
+          <div>
+            <dt>公式サイトの探し方</dt>
+            <dd>{SITE.jlisMap.desc}から探せます。</dd>
+          </div>
+        </dl>
+      </details>
+    </>
   );
 }
 
@@ -161,8 +165,10 @@ function ContactSlot({ type, contacts }: { type: ContactType; contacts: Contact[
 
   return (
     <li className="slot">
-      <h4 className="slot-title">{info.label}</h4>
-      <p className="slot-desc">{info.desc}</p>
+      <h4 className="slot-title">
+        <Icon name={info.icon} />
+        {info.label}
+      </h4>
       {shown.length > 0 ? (
         shown.map((c) => <ContactView key={c.id} c={c} />)
       ) : unavailable ? (
@@ -202,8 +208,8 @@ function ContactView({ c }: { c: Contact }) {
       <ul className="contact-means">
         {c.phone && (
           <li>
-            <Icon name="phone" />
             <a href={telHref(c.phone)}>
+              <Icon name="phone" />
               <span className="sr-only">電話をかける：</span>
               {c.phone}
             </a>
@@ -211,8 +217,8 @@ function ContactView({ c }: { c: Contact }) {
         )}
         {c.email && (
           <li>
-            <Icon name="mail" />
             <a href={'mailto:' + c.email}>
+              <Icon name="mail" />
               <span className="sr-only">メールアプリで開く：</span>
               {c.email}
             </a>
@@ -220,25 +226,32 @@ function ContactView({ c }: { c: Contact }) {
         )}
         {c.form_url && (
           <li>
-            <Icon name="external" />
-            <a href={c.form_url}>公式の問い合わせフォーム</a>
-          </li>
-        )}
-        {c.postal_address && (
-          <li>
-            <Icon name="building" />
-            <span>
-              {c.postal_code && `〒${c.postal_code} `}
-              {c.postal_address}
-            </span>
+            <a href={c.form_url}>
+              <Icon name="form" />
+              公式の問い合わせフォーム
+            </a>
           </li>
         )}
       </ul>
-      {c.hours && <p className="contact-sub">受付時間：{c.hours}</p>}
-      {c.note && <p className="contact-sub">{c.note}</p>}
-      <p className="contact-sub">
-        出典：<a href={c.source_url!}>公式ページ</a>（最終確認日：{formatDate(c.verified_at!)}）
-      </p>
+      {c.hours && (
+        <p className="contact-sub">
+          <Icon name="clock" />
+          受付時間：{c.hours}
+        </p>
+      )}
+      <details className="fold fold-small">
+        <summary>{c.postal_address ? '住所・出典・確認日' : '出典・確認日'}</summary>
+        {c.postal_address && (
+          <p className="contact-sub">
+            {c.postal_code && `〒${c.postal_code} `}
+            {c.postal_address}
+          </p>
+        )}
+        {c.note && <p className="contact-sub">{c.note}</p>}
+        <p className="contact-sub">
+          出典：<a href={c.source_url!}>公式ページ</a>（最終確認日：{formatDate(c.verified_at!)}）
+        </p>
+      </details>
     </div>
   );
 }

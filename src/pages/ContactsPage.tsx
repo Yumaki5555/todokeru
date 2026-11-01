@@ -4,7 +4,7 @@
 //   #/contacts?tab=area&code=131083   市区町村（全国地方公共団体コード6けた）
 //   #/contacts?tab=agency&id=mhlw     国の機関
 import { useEffect, useMemo, useRef, useState } from 'react';
-import type { Agency, AgencyCategory, DataSummary, Municipality, Prefecture } from '../types';
+import type { Agency, AgencyCategory, DataSummary, IconName, Municipality, Prefecture } from '../types';
 import { AGENCY_CATEGORY_LABEL, CONTACT_TYPE_INFO, TYPES_FOR_LOCAL } from '../data/labels';
 import { loadAgencies, loadMunicipalities, loadPrefectures, loadSummary } from '../data/loaders';
 import { buildSearchIndex, searchEntities, type SearchEntry } from '../data/search';
@@ -13,14 +13,16 @@ import { scrollToSection } from '../lib/dom';
 import { SITE, formatDate } from '../site';
 import { ContactCard, type Entity } from '../components/ContactCard';
 import { Icon } from '../components/Icon';
+import { KindChips } from '../components/KindChips';
 import { PageEndNav } from '../components/Links';
 import { PageHead } from '../components/PageHead';
 
 type Tab = 'area' | 'agency' | 'search';
-const TABS: { id: Tab; label: string }[] = [
-  { id: 'area', label: '都道府県・市区町村から探す' },
-  { id: 'agency', label: '国の機関から探す' },
-  { id: 'search', label: '名前で検索' },
+// label は画面に出す短い名前。読み上げでは rest を続けて「〜から探す」と読ませる
+const TABS: { id: Tab; label: string; rest?: string; icon: IconName }[] = [
+  { id: 'area', label: '都道府県・市区町村', rest: 'から探す', icon: 'map' },
+  { id: 'agency', label: '国の機関', rest: 'から探す', icon: 'landmark' },
+  { id: 'search', label: '名前で検索', icon: 'search' },
 ];
 const CATEGORY_ORDER: AgencyCategory[] = ['cabinet', 'ministry', 'agency', 'diet'];
 const MAX_RESULTS = 30;
@@ -56,54 +58,22 @@ export function ContactsPage({ route }: { route: Route }) {
 
   return (
     <div className="wrap page contacts-page">
-      <PageHead title="全国の窓口を探す" sub="国の機関・都道府県・市区町村・議会の窓口" />
-      <div className="lead">
-        <p>声を届けたい相手の、公式の窓口を探すページです。窓口ごとに役割が違うので、用件に合った窓口を選びましょう。</p>
-      </div>
+      <PageHead title="全国の窓口を探す">
+        <KindChips className="page-kinds" />
+      </PageHead>
 
       <div className="notice" role="note">
         <Icon name="info" />
-        <div>
-          <p>
-            <b>窓口の連絡先は、現在調査中です。</b>
-            今後、各機関の公式サイトをもとに、出典と確認日をつけて順次掲載します。まだ調べていない窓口は「未調査」と表示し、推測した電話番号やメールアドレスは載せません。
-          </p>
-          <p>連絡先は、必ず各機関の公式サイトで確かめてください。</p>
-        </div>
+        <p>
+          <b>連絡先は調査中です。</b>
+          推測した電話番号やメールアドレスは載せません。調べていない窓口は「未調査」と表示します。連絡先は、必ず各機関の公式サイトで確かめてください。
+        </p>
       </div>
 
-      {summary && (
-        <dl className="stats" aria-label="登録件数">
-          <div>
-            <dt>登録している機関・自治体</dt>
-            <dd>
-              国の機関 <b>{summary.entities.agencies}</b>・都道府県 <b>{summary.entities.prefectures}</b>・市区町村{' '}
-              <b>{summary.entities.municipalities.toLocaleString()}</b>
-            </dd>
-          </div>
-          <div>
-            <dt>公式確認済みの窓口</dt>
-            <dd>
-              <b>{summary.contacts.verified.toLocaleString()}</b>件<span className="muted">（{formatDate(summary.generated_at)}時点）</span>
-            </dd>
-          </div>
-        </dl>
-      )}
-
-      <section className="section" aria-labelledby="types-h">
-        <h2 id="types-h" className="section-title">窓口の種類</h2>
-        <dl className="type-cards">
-          {TYPES_FOR_LOCAL.map((t) => (
-            <div key={t}>
-              <dt>{CONTACT_TYPE_INFO[t].label}</dt>
-              <dd>{CONTACT_TYPE_INFO[t].desc}</dd>
-            </div>
-          ))}
-        </dl>
-      </section>
-
-      <section className="section" aria-labelledby="find-h">
-        <h2 id="find-h" className="section-title">探す</h2>
+      <section className="section section-tight" aria-labelledby="find-h">
+        <h2 id="find-h" className="sr-only">
+          探す
+        </h2>
         {failed && (
           <div className="note" role="alert">
             <Icon name="info" />
@@ -119,8 +89,65 @@ export function ContactsPage({ route }: { route: Route }) {
         {masters && <Finder masters={masters} route={route} />}
       </section>
 
-      <section className="section" aria-labelledby="src-h">
-        <h2 id="src-h" className="section-title">このページの出典</h2>
+      <section className="section" aria-labelledby="types-h">
+        <h2 id="types-h" className="section-title">
+          窓口の種類
+        </h2>
+        <dl className="type-cards">
+          {TYPES_FOR_LOCAL.map((t) => (
+            <div key={t}>
+              <dt>
+                <Icon name={CONTACT_TYPE_INFO[t].icon} />
+                {CONTACT_TYPE_INFO[t].label}
+              </dt>
+              <dd>{CONTACT_TYPE_INFO[t].desc}</dd>
+            </div>
+          ))}
+        </dl>
+      </section>
+
+      {summary && (
+        <section className="section" aria-labelledby="stats-h">
+          <h2 id="stats-h" className="section-title">
+            登録状況
+          </h2>
+          <dl className="stats" aria-label="登録件数">
+            <div>
+              <dt>
+                <Icon name="landmark" />
+                国の機関
+              </dt>
+              <dd>{summary.entities.agencies}</dd>
+            </div>
+            <div>
+              <dt>
+                <Icon name="map" />
+                都道府県
+              </dt>
+              <dd>{summary.entities.prefectures}</dd>
+            </div>
+            <div>
+              <dt>
+                <Icon name="building" />
+                市区町村
+              </dt>
+              <dd>{summary.entities.municipalities.toLocaleString()}</dd>
+            </div>
+            <div className="stats-verified">
+              <dt>
+                <Icon name="check" />
+                公式確認済みの窓口
+              </dt>
+              <dd>
+                {summary.contacts.verified.toLocaleString()}件<span className="muted">（{formatDate(summary.generated_at)}時点）</span>
+              </dd>
+            </div>
+          </dl>
+        </section>
+      )}
+
+      <details className="fold fold-section">
+        <summary>このページの出典</summary>
         <ul className="plain-list small">
           <li>
             都道府県・市区町村の一覧：
@@ -137,7 +164,7 @@ export function ContactsPage({ route }: { route: Route }) {
           </li>
           <li>窓口の連絡先：公式に公開されている情報だけを、公式ページのURLと最終確認日をつけて掲載します。</li>
         </ul>
-      </section>
+      </details>
 
       <PageEndNav />
     </div>
@@ -186,8 +213,10 @@ function Finder({ masters, route }: { masters: Masters; route: Route }) {
             key={t.id}
             type="button"
             aria-pressed={tab === t.id}
+            aria-label={t.label + (t.rest || '')}
             onClick={() => go(t.id === 'area' ? { tab: 'area', code: code || null } : t.id === 'agency' ? { tab: 'agency', id: agency?.id || null } : { tab: 'search' })}
           >
+            <Icon name={t.icon} />
             {t.label}
           </button>
         ))}
@@ -236,7 +265,10 @@ function AreaPicker({
   return (
     <div className="pickers">
       <div className="field">
-        <label htmlFor="pick-pref">都道府県を選ぶ</label>
+        <label htmlFor="pick-pref">
+          <Icon name="map" />
+          都道府県を選ぶ
+        </label>
         <select id="pick-pref" value={pref?.code || ''} onChange={(e) => onChange(e.target.value)}>
           <option value="">選んでください</option>
           {prefectures.map((p) => (
@@ -247,7 +279,10 @@ function AreaPicker({
         </select>
       </div>
       <div className="field">
-        <label htmlFor="pick-muni">市区町村を選ぶ</label>
+        <label htmlFor="pick-muni">
+          <Icon name="building" />
+          市区町村を選ぶ
+        </label>
         <select id="pick-muni" value={muni?.code || ''} disabled={!pref} onChange={(e) => onChange(e.target.value || pref?.code || '')}>
           <option value="">{pref ? `${pref.name}（都道府県）の窓口を見る` : '先に都道府県を選んでください'}</option>
           {munis.map((m) => (
@@ -297,7 +332,10 @@ function NameSearch({ masters, onPick }: { masters: Masters; onPick: (e: SearchE
   return (
     <div className="name-search">
       <div className="field">
-        <label htmlFor="name-q">自治体名・機関名</label>
+        <label htmlFor="name-q">
+          <Icon name="search" />
+          自治体名・機関名
+        </label>
         <input
           id="name-q"
           type="search"

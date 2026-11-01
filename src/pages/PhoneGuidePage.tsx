@@ -1,6 +1,6 @@
 // 電話ガイド「はじめての行政電話ガイド」
 import { useState } from 'react';
-import { BASIC_SCRIPT, PHONE_CHAPTERS, PHONE_CHECKLIST, PHONE_GUIDE } from '../content/phoneManual';
+import { BASIC_SCRIPT, PHONE_CHAPTERS, PHONE_CHECKLIST, PHONE_FLOW, PHONE_GUIDE } from '../content/phoneManual';
 import { GUIDES, guidePath } from '../content/guides';
 import { href } from '../router';
 import { Checklist } from '../components/Checklist';
@@ -21,7 +21,15 @@ export function PhoneGuidePage() {
   const setAll = (v: boolean) => setOpen(PHONE_CHAPTERS.map(() => v));
 
   const tocItems = [
-    ...PHONE_CHAPTERS.map((c) => ({ id: c.id, label: `第${c.no}章　${c.title}` })),
+    ...PHONE_CHAPTERS.map((c) => ({
+      id: c.id,
+      label: (
+        <>
+          <span className="toc-no">第{c.no}章</span>
+          {c.title}
+        </>
+      ),
+    })),
     { id: 'checklist', label: '電話前チェックリスト' },
     { id: 'next', label: '次の一歩' },
   ];
@@ -30,15 +38,23 @@ export function PhoneGuidePage() {
     <div className="wrap wrap-narrow page phone-guide">
       <PageHead title={PHONE_GUIDE.title} sub={PHONE_GUIDE.subtitle} />
       <SupervisorNote place="top" />
-      <div className="lead">
-        {PHONE_GUIDE.lead.map((t) => (
-          <p key={t}>{t}</p>
-        ))}
-      </div>
+      <p className="lead">{PHONE_GUIDE.lead}</p>
 
       <CopyScript script={BASIC_SCRIPT} large />
 
-      <Toc path={PATH} items={tocItems}>
+      <ol className="call-flow" aria-label="電話の流れ">
+        {PHONE_FLOW.map((f) => (
+          <li key={f.label}>
+            <span className="call-flow-icon" aria-hidden="true">
+              <Icon name={f.icon} />
+            </span>
+            <b>{f.label}</b>
+            <span>{f.sub}</span>
+          </li>
+        ))}
+      </ol>
+
+      <Toc path={PATH} items={tocItems} className="toc-compact">
         <div className="toc-actions">
           <button type="button" className="btn btn-secondary btn-small" onClick={() => setAll(true)}>
             すべての章を開く
@@ -62,6 +78,9 @@ export function PhoneGuidePage() {
             }}
           >
             <summary>
+              <span className="ch-icon" aria-hidden="true">
+                <Icon name={c.icon} />
+              </span>
               <h2>
                 <span className="ch-no">第{c.no}章</span>
                 <span className="ch-title">{c.title}</span>
@@ -76,25 +95,31 @@ export function PhoneGuidePage() {
       </div>
 
       <section className="section" id="checklist" aria-labelledby="checklist-h" tabIndex={-1}>
-        <h2 id="checklist-h" className="section-title">電話前チェックリスト</h2>
-        <p>かける前に、ひとつずつ確かめましょう。チェックはこの画面の中だけのもので、保存や送信はされません。</p>
+        <h2 id="checklist-h" className="section-title">
+          電話前チェックリスト
+        </h2>
+        <p className="muted">チェックはこの画面の中だけで、保存や送信はされません。</p>
         <Checklist title="電話をかける前に" items={PHONE_CHECKLIST} />
       </section>
 
       <section className="section" id="next" aria-labelledby="next-h" tabIndex={-1}>
-        <h2 id="next-h" className="section-title">次の一歩</h2>
-        <p>かける窓口を探しましょう。窓口の連絡先は、公式サイトで確かめてからかけてください。</p>
+        <h2 id="next-h" className="section-title">
+          次の一歩
+        </h2>
         <p>
           <a className="btn btn-primary" href={href('/contacts')}>
             <Icon name="search" />
             全国の窓口を探す
           </a>
         </p>
-        <p>電話のほかの方法も、順に案内を追加していきます。</p>
-        <ul className="inline-list">
+        <p className="muted">連絡先は、公式サイトで確かめてからかけてください。</p>
+        <ul className="guide-chips">
           {GUIDES.filter((g) => g.slug !== 'phone').map((g) => (
             <li key={g.slug}>
-              <a href={href(guidePath(g.slug))}>{g.title}</a>
+              <a href={href(guidePath(g.slug))}>
+                <Icon name={g.icon} />
+                {g.title}
+              </a>
               {g.status === 'coming' && <span className="badge badge-muted">準備中</span>}
             </li>
           ))}

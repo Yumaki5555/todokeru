@@ -7,6 +7,7 @@ export const GUIDES: GuideMenuItem[] = [
   {
     slug: 'phone',
     title: '電話のかけ方',
+    short: '電話',
     summary: '台本は1行でいい。行政の窓口に、落ち着いて質問や意見を伝える方法。',
     status: 'published',
     icon: 'phone',
@@ -16,6 +17,7 @@ export const GUIDES: GuideMenuItem[] = [
   {
     slug: 'email',
     title: 'メール・郵送',
+    short: 'メール・郵送',
     summary: '件名の書き方、質問と意見の違い、宛先の確かめ方。',
     status: 'coming',
     icon: 'mail',
@@ -25,6 +27,7 @@ export const GUIDES: GuideMenuItem[] = [
   {
     slug: 'public-comment',
     title: 'パブコメの書き方',
+    short: 'パブコメ',
     summary: '募集中の案に、結論・理由・具体的な提案の順で意見をまとめる。',
     status: 'coming',
     icon: 'comment',
@@ -44,6 +47,7 @@ export const GUIDES: GuideMenuItem[] = [
   {
     slug: 'petition',
     title: '請願・陳情の書き方',
+    short: '請願・陳情',
     summary: '議会に正式に検討を求める。請願と陳情の違いと、書き方・出し方。',
     status: 'coming',
     icon: 'petition',
@@ -61,6 +65,7 @@ export const GUIDES: GuideMenuItem[] = [
   {
     slug: 'disclosure',
     title: '情報公開請求',
+    short: '情報公開請求',
     summary: '行政が持っている文書の公開を求める手続き。',
     status: 'coming',
     icon: 'folder',
@@ -70,6 +75,7 @@ export const GUIDES: GuideMenuItem[] = [
   {
     slug: 'signature',
     title: '署名の方法',
+    short: '署名',
     summary: '署名活動の基本、提出先の確認、個人情報の扱い。',
     status: 'coming',
     icon: 'signature',

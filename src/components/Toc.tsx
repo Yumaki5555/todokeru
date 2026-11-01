@@ -7,9 +7,21 @@ export interface TocItem {
   label: ReactNode;
 }
 
-export function Toc({ path, items, title = 'このページの内容', children }: { path: string; items: TocItem[]; title?: string; children?: ReactNode }) {
+export function Toc({
+  path,
+  items,
+  title = 'このページの内容',
+  className,
+  children,
+}: {
+  path: string;
+  items: TocItem[];
+  title?: string;
+  className?: string;
+  children?: ReactNode;
+}) {
   return (
-    <nav className="toc" aria-label={title}>
+    <nav className={'toc' + (className ? ' ' + className : '')} aria-label={title}>
       <p className="toc-title">{title}</p>
       <ol>
         {items.map((it) => (

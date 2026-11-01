@@ -1,17 +1,29 @@
 // 電話マニュアルの本文（段落・箇条書き・台本・会話例など）を表示する
+import type { ReactElement } from 'react';
 import type { ManualBlock } from '../types';
 import { CopyScript } from './CopyScript';
 import { Icon } from './Icon';
 import { SmartLink } from './Links';
 
 export function ManualBlocks({ blocks }: { blocks: ManualBlock[] }) {
-  return (
-    <>
-      {blocks.map((b, i) => (
-        <Block key={i} block={b} />
-      ))}
-    </>
-  );
+  const out: ReactElement[] = [];
+  for (let i = 0; i < blocks.length; i++) {
+    const b = blocks[i];
+    const next = blocks[i + 1];
+    // 「できること」と「やらないこと」が続くときは、左右に並べて見比べられるようにする
+    if (b.kind === 'list' && b.tone === 'do' && next?.kind === 'list' && next.tone === 'dont') {
+      out.push(
+        <div className="dodont" key={i}>
+          <Block block={b} />
+          <Block block={next} />
+        </div>,
+      );
+      i++;
+      continue;
+    }
+    out.push(<Block key={i} block={b} />);
+  }
+  return <>{out}</>;
 }
 
 function Block({ block: b }: { block: ManualBlock }) {
@@ -25,11 +37,7 @@ function Block({ block: b }: { block: ManualBlock }) {
           <ul>
             {b.items.map((t) => (
               <li key={t}>
-                {b.tone && (
-                  <span className="mlist-mark" aria-hidden="true">
-                    {b.tone === 'do' ? '○' : '×'}
-                  </span>
-                )}
+                {b.tone && <Icon name={b.tone === 'do' ? 'check' : 'cross'} className="mlist-mark" />}
                 {t}
               </li>
             ))}
@@ -72,7 +80,7 @@ function Block({ block: b }: { block: ManualBlock }) {
     case 'note':
       return (
         <p className="note">
-          <Icon name="info" />
+          <Icon name="alert" />
           <span>{b.text}</span>
         </p>
       );

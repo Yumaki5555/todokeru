@@ -4,6 +4,7 @@ import type { SupervisionStatus } from './types';
 export const SITE = {
   name: '声を届ける。',
   catchCopy: '知ることから、行動へ。',
+  // subCopy と description は index.html の共有用の説明（og:description など）と同じ文。トップページには表示しない
   subCopy: '疑問に思ったこと、伝えたいこと。その声を適切な窓口へ届けるために。',
   description: '電話、メール、パブコメ、請願・陳情。自分に合った方法を知り、適切な窓口に声を届けるためのサイトです。',
   /** 最終更新日（内容を直したらここを変える） */

@@ -18,7 +18,10 @@ export function CopyScript({ script, large = false }: { script: Script; large?: 
 
   return (
     <figure className={'script' + (large ? ' script-large' : '')}>
-      <figcaption className="script-label">{script.label}</figcaption>
+      <figcaption className="script-label">
+        {large && <Icon name="chat" />}
+        {script.label}
+      </figcaption>
       <p className="script-text">「{script.text}」</p>
       {script.note && <p className="script-note">{script.note}</p>}
       <div className="script-actions">

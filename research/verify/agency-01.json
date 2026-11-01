@@ -1,0 +1,387 @@
+{
+ "batch": "agency-01",
+ "checked_at": "2026-11-01",
+ "result": {
+  "entities": 22,
+  "contacts": 42,
+  "verified": 40,
+  "unverified": 1,
+  "unavailable": 1,
+  "errors": 0
+ },
+ "errors": [],
+ "reports": [
+  {
+   "id": "cas-general",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "cas-feedback",
+   "agent_status": "found",
+   "checks": {
+    "form_url": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "cao-general",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "cao-feedback",
+   "agent_status": "found",
+   "checks": {
+    "form_url": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "digital-general",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "digital-feedback",
+   "agent_status": "found",
+   "checks": {
+    "form_url": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "reconstruction-general",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "reconstruction-feedback",
+   "agent_status": "found",
+   "checks": {
+    "form_url": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "soumu-general",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "soumu-feedback",
+   "agent_status": "found",
+   "checks": {
+    "form_url": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "moj-general",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "moj-feedback",
+   "agent_status": "found",
+   "checks": {
+    "form_url": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "mofa-general",
+   "agent_status": "fetch_failed",
+   "checks": {},
+   "status": "verified",
+   "method": "アプリ内ブラウザで出典ページの本文を確認（自動取得は HTTP 403）"
+  },
+  {
+   "id": "mofa-feedback",
+   "agent_status": "fetch_failed",
+   "checks": {},
+   "status": "verified",
+   "method": "アプリ内ブラウザで出典ページの本文とリンクを確認（自動取得は HTTP 403）"
+  },
+  {
+   "id": "mof-general",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "mof-feedback",
+   "agent_status": "found",
+   "checks": {
+    "form_url": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "mext-general",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "mext-feedback",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "form_url": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "mhlw-general",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "mhlw-feedback",
+   "agent_status": "found",
+   "checks": {
+    "form_url": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "maff-general",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "maff-feedback",
+   "agent_status": "found",
+   "checks": {
+    "form_url": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "meti-general",
+   "agent_status": "fetch_failed",
+   "checks": {},
+   "status": "verified",
+   "method": "アプリ内ブラウザで出典ページの本文を確認（自動取得は HTTP 403）"
+  },
+  {
+   "id": "meti-feedback",
+   "agent_status": "fetch_failed",
+   "checks": {},
+   "status": "verified",
+   "method": "アプリ内ブラウザで出典ページのリンクを確認（自動取得は HTTP 403）"
+  },
+  {
+   "id": "mlit-general",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "mlit-feedback",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "form_url": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok",
+    "hours": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "env-general",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "env-feedback",
+   "agent_status": "found",
+   "checks": {
+    "form_url": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "mod-general",
+   "agent_status": "fetch_failed",
+   "checks": {},
+   "status": "verified",
+   "method": "アプリ内ブラウザで出典ページの本文を確認（自動取得は HTTP 403）"
+  },
+  {
+   "id": "mod-feedback",
+   "agent_status": "fetch_failed",
+   "checks": {},
+   "status": "verified",
+   "method": "アプリ内ブラウザで出典ページの本文を確認（自動取得は HTTP 403）"
+  },
+  {
+   "id": "npa-general",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "npa-feedback",
+   "agent_status": "not_found",
+   "checks": {},
+   "status": "unavailable"
+  },
+  {
+   "id": "cfa-general",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "cfa-feedback",
+   "agent_status": "found",
+   "checks": {
+    "form_url": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "caa-general",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "caa-feedback",
+   "agent_status": "found",
+   "checks": {},
+   "status": "unverified",
+   "why": "このウェブサイトについてのご意見・ご感想の受付で、施策への意見の窓口ではないため掲載しない"
+  },
+  {
+   "id": "fsa-general",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "fsa-feedback",
+   "agent_status": "found",
+   "checks": {
+    "form_url": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "isa-general",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "isa-feedback",
+   "agent_status": "found",
+   "checks": {
+    "form_url": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "shugiin-general",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "sangiin-general",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  }
+ ]
+}

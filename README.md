@@ -114,6 +114,9 @@ New-Item -ItemType Directory -Force node_modules | Out-Null; Set-Content -Path n
 
 ## 窓口データの追加・更新（STEP 2 以降）
 
+**全国調査は `research/` のしくみで進めます**（手順と進み具合は [research/README.md](research/README.md)）。
+調査メモを `npm run research:merge -- <バッチID>` で出典ページと照合してから反映するので、下の手作業での追加は、1件だけ直すときなどに使います。
+
 1. 公式サイトで窓口を確かめる（**公式に公開されている情報だけ**。推測した電話番号・メールアドレス・担当部署は書かない）。
 2. その自治体の都道府県のファイル（例：江東区なら `public/data/contacts/13.json`）に追加する。都道府県庁の窓口は、都道府県の6けたコード（例：東京都 `130001`）で同じファイルに入れる。
 

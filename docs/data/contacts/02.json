@@ -1,1 +1,53 @@
-[]
+[
+ {
+  "municipality_code": "020001",
+  "municipality_name": "青森県",
+  "contacts": [
+   {
+    "id": "020001-general",
+    "type": "general",
+    "department": "代表電話（大代表）",
+    "phone": "017-722-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "030-8570",
+    "postal_address": "青森県青森市長島一丁目1-1",
+    "hours": "平日 8時30分〜17時15分",
+    "source_url": "https://www.pref.aomori.lg.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "020001-feedback",
+    "type": "feedback",
+    "department": "総務部 広報広聴課 広聴グループ",
+    "phone": "017-734-9138",
+    "email": "koho@pref.aomori.lg.jp",
+    "form_url": null,
+    "postal_code": "030-8570",
+    "postal_address": "青森県青森市長島一丁目1-1",
+    "hours": null,
+    "source_url": "https://www.pref.aomori.lg.jp/kenminno-koe/index.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "020001-assembly",
+    "type": "assembly",
+    "department": "青森県議会事務局 総務課",
+    "phone": "017-734-9790",
+    "email": null,
+    "form_url": null,
+    "postal_code": "030-8570",
+    "postal_address": "青森県青森市長島一丁目1番1号",
+    "hours": null,
+    "source_url": "https://www.pref.aomori.lg.jp/soshiki/gikai/home.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ }
+]

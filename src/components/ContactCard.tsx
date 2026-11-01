@@ -9,9 +9,7 @@ import { SITE, formatDate } from '../site';
 import { Icon } from './Icon';
 
 export type Entity =
-  | { kind: 'agency'; agency: Agency }
-  | { kind: 'pref'; pref: Prefecture }
-  | { kind: 'muni'; muni: Municipality; pref: Prefecture };
+  { kind: 'agency'; agency: Agency } | { kind: 'pref'; pref: Prefecture } | { kind: 'muni'; muni: Municipality; pref: Prefecture };
 
 function entityKey(e: Entity): string {
   return e.kind === 'agency' ? 'a:' + e.agency.id : e.kind === 'pref' ? 'p:' + e.pref.code : 'm:' + e.muni.code;
@@ -84,7 +82,8 @@ export function ContactCard({ entity }: { entity: Entity }) {
         </div>
       )}
       {status === 'loading' && <p className="muted">窓口データを読み込んでいます…</p>}
-      {status === 'ok' && (
+      {status === 'ok' && contacts.length === 0 && <NotResearched entity={entity} types={types} />}
+      {status === 'ok' && contacts.length > 0 && (
         <ul className="slots">
           {types.map((t) => (
             <ContactSlot key={t} type={t} contacts={contacts.filter((c) => c.type === t)} />
@@ -138,7 +137,9 @@ function EntityMeta({ entity }: { entity: Entity }) {
         {entity.kind === 'pref' ? '都道府県' : `市区町村（${entity.pref.name}）${entity.muni.designated ? '・政令指定都市' : ''}`}
       </p>
       <OfficialLink to={SITE.jlisMap.url}>{SITE.jlisMap.label}で公式サイトを探す</OfficialLink>
-      {entity.kind === 'muni' && entity.muni.designated && <p className="entity-note">区役所の窓口は、市の公式サイトで確かめてください。</p>}
+      {entity.kind === 'muni' && entity.muni.designated && (
+        <p className="entity-note">区役所の窓口は、市の公式サイトで確かめてください。</p>
+      )}
       <details className="fold fold-small">
         <summary>詳しい情報</summary>
         <dl className="entity-meta">
@@ -153,6 +154,27 @@ function EntityMeta({ entity }: { entity: Entity }) {
         </dl>
       </details>
     </>
+  );
+}
+
+/** まだ1件も調べていない機関・自治体：同じ説明をくり返さず、1か所にまとめて案内する */
+function NotResearched({ entity, types }: { entity: Entity; types: ContactType[] }) {
+  return (
+    <div className="not-researched">
+      <p>
+        <span className="badge badge-muted">未調査</span>
+        連絡先はまだ載せていません。{entity.kind === 'agency' ? '公式サイト' : '公式サイト（上のリンクから探せます）'}
+        の「お問い合わせ」で、次の窓口を確かめてください。
+      </p>
+      <ul className="type-mini">
+        {types.map((t) => (
+          <li key={t}>
+            <Icon name={CONTACT_TYPE_INFO[t].icon} />
+            {CONTACT_TYPE_INFO[t].label}
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 }
 
@@ -171,26 +193,25 @@ function ContactSlot({ type, contacts }: { type: ContactType; contacts: Contact[
       </h4>
       {shown.length > 0 ? (
         shown.map((c) => <ContactView key={c.id} c={c} />)
-      ) : unavailable ? (
+      ) : unavailable && unavailable.source_url && unavailable.verified_at ? (
         <p className="slot-state">
           <span className="badge badge-muted">{STATUS_LABEL.unavailable}</span>
-          公式サイトで、この窓口の連絡先を確認できませんでした（{formatDate(unavailable.verified_at!)}確認、
-          <a href={unavailable.source_url!}>調べたページ</a>）。
+          公式サイトに掲載が見当たりません（{formatDate(unavailable.verified_at)}確認・<a href={unavailable.source_url}>調べたページ</a>）
+          {unavailable.note && <span className="slot-note">{unavailable.note}</span>}
         </p>
       ) : discontinued ? (
         <p className="slot-state">
           <span className="badge badge-muted">{STATUS_LABEL.discontinued}</span>
-          以前の窓口は変更・廃止されています。新しい窓口は公式サイトで確かめてください。
+          新しい窓口は公式サイトで確かめてください
         </p>
       ) : unverified ? (
         <p className="slot-state">
           <span className="badge badge-muted">{STATUS_LABEL.unverified}</span>
-          公式の確認が済んでいないため、連絡先は表示していません。
+          公式の確認待ちのため表示していません
         </p>
       ) : (
         <p className="slot-state">
           <span className="badge badge-muted">未調査</span>
-          まだ調べていません。連絡先は公式サイトで確かめてください。
         </p>
       )}
     </li>
@@ -205,53 +226,92 @@ function ContactView({ c }: { c: Contact }) {
         <span className={'badge ' + (c.status === 'verified' ? 'badge-main' : 'badge-warn')}>{STATUS_LABEL[c.status]}</span>
       </p>
       {c.status === 'review' && <p className="contact-warn">情報が変わっている可能性があります。公式ページで確かめてください。</p>}
-      <ul className="contact-means">
+      {/* 電話・メール・フォームは大きな操作ボタンにする */}
+      <ul className="contact-actions">
         {c.phone && (
           <li>
-            <a href={telHref(c.phone)}>
+            <a className="act" href={telHref(c.phone)}>
               <Icon name="phone" />
-              <span className="sr-only">電話をかける：</span>
-              {c.phone}
+              <span className="act-text">
+                <span className="act-label">電話をかける</span>
+                <span className="sr-only">：</span>
+                <b>{c.phone}</b>
+              </span>
             </a>
           </li>
         )}
         {c.email && (
           <li>
-            <a href={'mailto:' + c.email}>
+            <a className="act" href={'mailto:' + c.email}>
               <Icon name="mail" />
-              <span className="sr-only">メールアプリで開く：</span>
-              {c.email}
+              <span className="act-text">
+                <span className="act-label">メールを送る</span>
+                <span className="sr-only">：</span>
+                <b>{c.email}</b>
+              </span>
             </a>
           </li>
         )}
         {c.form_url && (
           <li>
-            <a href={c.form_url}>
+            <a className="act" href={c.form_url}>
               <Icon name="form" />
-              公式の問い合わせフォーム
+              <span className="act-text">
+                <span className="act-label">問い合わせフォーム</span>
+                <b>公式の受付ページ</b>
+              </span>
+              <Icon name="external" className="act-ext" />
+              <span className="sr-only">（外部サイト）</span>
             </a>
           </li>
         )}
       </ul>
-      {c.hours && (
-        <p className="contact-sub">
-          <Icon name="clock" />
-          受付時間：{c.hours}
-        </p>
+      {(c.hours || c.postal_address || c.note) && (
+        <dl className="contact-info">
+          {c.hours && (
+            <div>
+              <dt>
+                <Icon name="clock" />
+                受付時間
+              </dt>
+              <dd>{c.hours}</dd>
+            </div>
+          )}
+          {c.postal_address && (
+            <div>
+              <dt>
+                <Icon name="memo" />
+                住所
+              </dt>
+              <dd>
+                {c.postal_code && `〒${c.postal_code} `}
+                {c.postal_address}
+              </dd>
+            </div>
+          )}
+          {c.note && (
+            <div>
+              <dt>
+                <Icon name="info" />
+                注意
+              </dt>
+              <dd>{c.note}</dd>
+            </div>
+          )}
+        </dl>
       )}
-      <details className="fold fold-small">
-        <summary>{c.postal_address ? '住所・出典・確認日' : '出典・確認日'}</summary>
-        {c.postal_address && (
-          <p className="contact-sub">
-            {c.postal_code && `〒${c.postal_code} `}
-            {c.postal_address}
-          </p>
-        )}
-        {c.note && <p className="contact-sub">{c.note}</p>}
-        <p className="contact-sub">
-          出典：<a href={c.source_url!}>公式ページ</a>（最終確認日：{formatDate(c.verified_at!)}）
-        </p>
-      </details>
+      <p className="contact-source">
+        <Icon name="check" />
+        <span>
+          出典：
+          <a href={c.source_url!}>
+            公式ページ
+            <Icon name="external" className="icon-inline" />
+            <span className="sr-only">（外部サイト）</span>
+          </a>
+        </span>
+        <span>最終確認日：{formatDate(c.verified_at!)}</span>
+      </p>
     </div>
   );
 }

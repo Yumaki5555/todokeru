@@ -1,1 +1,53 @@
-[]
+[
+ {
+  "municipality_code": "310000",
+  "municipality_name": "鳥取県",
+  "contacts": [
+   {
+    "id": "310000-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0857-26-7111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "680-8570",
+    "postal_address": "鳥取県鳥取市東町1丁目220",
+    "hours": "開庁時間 9時00分〜17時00分（土日祝・12月29日〜1月3日を除く）",
+    "source_url": "https://www.pref.tottori.lg.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "310000-feedback",
+    "type": "feedback",
+    "department": "地域社会振興部 県民課 県民の声担当",
+    "phone": "0857-26-7025",
+    "email": "kenmin@pref.tottori.lg.jp",
+    "form_url": "https://apply.e-tumo.jp/pref-tottori-u/offer/offerList_detail?tempSeq=11796",
+    "postal_code": "680-8570",
+    "postal_address": "鳥取県鳥取市東町一丁目220",
+    "hours": null,
+    "source_url": "https://www.pref.tottori.lg.jp/koe/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "310000-assembly",
+    "type": "assembly",
+    "department": "鳥取県議会事務局",
+    "phone": "0857-26-7460",
+    "email": "gikaisoumu@pref.tottori.lg.jp",
+    "form_url": null,
+    "postal_code": "680-8570",
+    "postal_address": "鳥取県鳥取市東町1-220",
+    "hours": null,
+    "source_url": "https://www.pref.tottori.lg.jp/gikai/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ }
+]

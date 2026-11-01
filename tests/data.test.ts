@@ -75,6 +75,57 @@ describe('窓口データ', () => {
     expect(summary.contacts.total).toBe(all.length);
     expect(summary.contacts.verified).toBe(all.filter((c) => c.status === 'verified').length);
   });
+
+  it('機関・自治体ごとの登録状況（summary.json の coverage・by_pref）が実際のデータと一致する', () => {
+    const summary = read<DataSummary>('summary.json');
+    const records = files.flatMap((f) =>
+      read<{ agency_id?: string; municipality_code?: string; contacts: Contact[] }[]>(`contacts/${f}`).map((r) => ({
+        key: r.agency_id ?? r.municipality_code!,
+        contacts: r.contacts,
+      })),
+    );
+    const withVerified = new Set(records.filter((r) => r.contacts.some((c) => c.status === 'verified')).map((r) => r.key));
+    const count = (keys: string[]) => keys.filter((k) => withVerified.has(k)).length;
+    expect(summary.coverage.agencies.with_verified).toBe(count(agencies.items.map((a) => a.id)));
+    expect(summary.coverage.prefectures.with_verified).toBe(count(prefectures.items.map((p) => p.lg_code)));
+    expect(summary.coverage.municipalities.with_verified).toBe(count(municipalities.items.map((m) => m.code)));
+    for (const p of prefectures.items) {
+      const munis = municipalities.items.filter((m) => m.pref_code === p.code).map((m) => m.code);
+      expect(summary.by_pref[p.code].municipalities).toEqual({
+        total: munis.length,
+        researched: munis.filter((k) => records.some((r) => r.key === k && r.contacts.length > 0)).length,
+        with_verified: count(munis),
+      });
+    }
+  });
+
+  it('公式確認済みの窓口は、出典が公式ドメイン（go.jp・lg.jp・pref./city. など、または確認済みの公式ドメイン）', () => {
+    const extra = new Set(
+      (JSON.parse(readFileSync(resolve(__dirname, '../research/official-hosts.json'), 'utf8')) as { hosts: { host: string }[] }).hosts.map(
+        (h) => h.host,
+      ),
+    );
+    const official = (u: string) => {
+      const h = new URL(u).host;
+      return extra.has(h) || /(^|\.)(lg|go)\.jp$/.test(h) || /(^|\.)(pref|city|town|vill|metro)\.[a-z0-9-]+(\.[a-z0-9-]+)*\.jp$/.test(h);
+    };
+    const all = files.flatMap((f) => read<{ contacts: Contact[] }[]>(`contacts/${f}`).flatMap((r) => r.contacts));
+    const bad = all.filter((c) => (c.status === 'verified' || c.status === 'review') && !official(c.source_url!)).map((c) => c.id);
+    expect(bad).toEqual([]);
+  });
+
+  it('画面に出す窓口の電話番号は、同じ機関・自治体の中で窓口の種類ごとに重複しない（代表電話の流用がない）', () => {
+    const recs = files.flatMap((f) => read<{ contacts: Contact[] }[]>(`contacts/${f}`));
+    const bad: string[] = [];
+    for (const r of recs) {
+      const general = r.contacts.find((c) => c.type === 'general' && isDisplayable(c));
+      for (const c of r.contacts) {
+        if (c.type !== 'general' && isDisplayable(c) && general?.phone && c.phone === general.phone && c.source_url === general.source_url)
+          bad.push(c.id);
+      }
+    }
+    expect(bad).toEqual([]);
+  });
 });
 
 describe('窓口1件の点検', () => {

@@ -1,1 +1,53 @@
-[]
+[
+ {
+  "municipality_code": "060003",
+  "municipality_name": "山形県",
+  "contacts": [
+   {
+    "id": "060003-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "023-630-2211",
+    "email": null,
+    "form_url": null,
+    "postal_code": "990-8570",
+    "postal_address": "山形県山形市松波二丁目8-1",
+    "hours": "平日 午前8時30分〜午後5時15分",
+    "source_url": "https://www.pref.yamagata.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "060003-feedback",
+    "type": "feedback",
+    "department": "広報広聴推進課 広聴担当（県民相談室）",
+    "phone": "023-630-3030",
+    "email": null,
+    "form_url": "https://www.pref.yamagata.jp/020026/kensei/joho/kocho/opinion/mail_voice.html",
+    "postal_code": "990-8570",
+    "postal_address": "山形県山形市松波二丁目8-1",
+    "hours": null,
+    "source_url": "https://www.pref.yamagata.jp/020026/kensei/joho/kocho/opinion.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "060003-assembly",
+    "type": "assembly",
+    "department": "山形県議会事務局 総務課",
+    "phone": "023-630-2835",
+    "email": null,
+    "form_url": null,
+    "postal_code": "990-8570",
+    "postal_address": "山形県山形市松波二丁目8-1",
+    "hours": null,
+    "source_url": "https://www.pref.yamagata.jp/kensei/assembly/index.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ }
+]

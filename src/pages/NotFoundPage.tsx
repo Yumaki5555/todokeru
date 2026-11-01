@@ -4,7 +4,7 @@ import { PageHead } from '../components/PageHead';
 
 export function NotFoundPage() {
   return (
-    <div className="wrap wrap-narrow page">
+    <div className="wrap page prose-page">
       <PageHead title="ページが見つかりません" />
       <p>お探しのページは、移動したか、まだ作られていない可能性があります。上のメニューか、トップページからお探しください。</p>
       <PageEndNav />

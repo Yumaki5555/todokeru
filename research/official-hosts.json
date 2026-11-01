@@ -1,0 +1,6 @@
+{
+ "note": "go.jp・lg.jp・pref./city./town./vill. 以外のドメインで、公式と確かめたもの。evidence_url（自治体・機関の公式ページ）からリンクされていることを確認した。",
+ "hosts": [
+  {"host": "www.shigaken-gikai.jp", "name": "滋賀県議会", "evidence_url": "https://www.pref.shiga.lg.jp/", "checked_at": "2026-11-01"}
+ ]
+}

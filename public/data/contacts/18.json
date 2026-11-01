@@ -1,1 +1,53 @@
-[]
+[
+ {
+  "municipality_code": "180009",
+  "municipality_name": "福井県",
+  "contacts": [
+   {
+    "id": "180009-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0776-21-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "910-8580",
+    "postal_address": "福井県福井市大手3丁目17番1号",
+    "hours": null,
+    "source_url": "https://www.pref.fukui.lg.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "180009-feedback",
+    "type": "feedback",
+    "department": "知事公室広報広聴課 県民参加グループ（知事への提案便）",
+    "phone": "0776-20-0221",
+    "email": "kouhoukoucho@pref.fukui.lg.jp",
+    "form_url": "https://shinsei.e-fukui.lg.jp/SksJuminWeb/EntryForm?id=n2prsd5R",
+    "postal_code": "910-8580",
+    "postal_address": "福井県福井市大手3丁目17番1号",
+    "hours": "月〜金 8時30分〜17時15分（土日祝・年末年始を除く）",
+    "source_url": "https://www.pref.fukui.lg.jp/doc/kouho/teianbin.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "180009-assembly",
+    "type": "assembly",
+    "department": "福井県議会議会局",
+    "phone": "0776-20-0605",
+    "email": null,
+    "form_url": null,
+    "postal_code": "910-8580",
+    "postal_address": "福井県福井市大手3丁目17番1号",
+    "hours": null,
+    "source_url": "https://www.pref.fukui.lg.jp/gikai/index.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ }
+]

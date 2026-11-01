@@ -1,1 +1,53 @@
-[]
+[
+ {
+  "municipality_code": "470007",
+  "municipality_name": "沖縄県",
+  "contacts": [
+   {
+    "id": "470007-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "098-866-2333",
+    "email": null,
+    "form_url": null,
+    "postal_code": "900-8570",
+    "postal_address": "沖縄県那覇市泉崎1-2-2",
+    "hours": null,
+    "source_url": "https://www.pref.okinawa.lg.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "470007-feedback",
+    "type": "feedback",
+    "department": "知事公室 広報課（県民ご意見箱）",
+    "phone": "098-866-2020",
+    "email": "kouhou@pref.okinawa.lg.jp",
+    "form_url": "https://enq.pref.okinawa.lg.jp/cgi-bin/contacts/G010020010",
+    "postal_code": "900-8570",
+    "postal_address": "沖縄県那覇市泉崎1-2-2",
+    "hours": null,
+    "source_url": "https://www.pref.okinawa.lg.jp/kensei/kochokoho/1014932/1015136/1015137.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "470007-assembly",
+    "type": "assembly",
+    "department": "沖縄県議会事務局",
+    "phone": "098-866-2572",
+    "email": null,
+    "form_url": "https://enq.pref.okinawa.lg.jp/cgi-bin/enquetes/cac03410790c4da093bb305e3f8cc1ae",
+    "postal_code": "900-8501",
+    "postal_address": "沖縄県那覇市泉崎1-2-3",
+    "hours": null,
+    "source_url": "https://www.pref.okinawa.lg.jp/kensei/gikai/index.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ }
+]

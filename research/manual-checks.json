@@ -1,0 +1,86 @@
+{
+ "note": "自動取得がロボット拒否（403）などで失敗した出典ページを、人の操作と同じブラウザ（Claude アプリ内ブラウザ）で開き、本文に書かれていることを直接確かめた記録。research-merge.mjs は、出典ページを自動で開けなかった窓口に限り、ここに記録した項目だけを確認済みとして使う。 reject: true は、人が見て窓口の用途が違うと判断し、掲載しないもの。",
+ "checks": [
+  {
+   "id": "mofa-general",
+   "checked_at": "2026-11-01",
+   "method": "アプリ内ブラウザで出典ページの本文を確認（自動取得は HTTP 403）",
+   "evidence": "外務省 〒100-8919 東京都千代田区霞が関2-2-1 電話(代表)03-3580-3311",
+   "fields": {
+    "department": "代表電話",
+    "phone": "03-3580-3311",
+    "postal_code": "100-8919",
+    "postal_address": "東京都千代田区霞が関2-2-1",
+    "source_url": "https://www.mofa.go.jp/mofaj/"
+   }
+  },
+  {
+   "id": "mofa-feedback",
+   "checked_at": "2026-11-01",
+   "method": "アプリ内ブラウザで出典ページの本文とリンクを確認（自動取得は HTTP 403）",
+   "evidence": "御意見・御感想は、下のボタンをクリックいただき投稿フォームよりお寄せください。（フォーム https://www2.contact.mofa.go.jp/form/pub/mofaj/feedback へのリンク）",
+   "fields": {
+    "department": "御意見・御感想（投稿フォーム）",
+    "form_url": "https://www2.contact.mofa.go.jp/form/pub/mofaj/feedback",
+    "source_url": "https://www.mofa.go.jp/mofaj/comment/index.html",
+    "note": "個々の投稿への回答は基本的に行っていないと案内されています。"
+   }
+  },
+  {
+   "id": "meti-general",
+   "checked_at": "2026-11-01",
+   "method": "アプリ内ブラウザで出典ページの本文を確認（自動取得は HTTP 403）",
+   "evidence": "〒100-8901 東京都千代田区霞が関1-3-1 代表電話 03-3501-1511",
+   "fields": {
+    "department": "代表電話",
+    "phone": "03-3501-1511",
+    "postal_code": "100-8901",
+    "postal_address": "東京都千代田区霞が関1-3-1",
+    "source_url": "https://www.meti.go.jp/"
+   }
+  },
+  {
+   "id": "meti-feedback",
+   "checked_at": "2026-11-01",
+   "method": "アプリ内ブラウザで出典ページのリンクを確認（自動取得は HTTP 403）",
+   "evidence": "「経済産業省 ご意見・お問合せフォーム」へのリンク（Microsoft Forms）",
+   "fields": {
+    "department": "ご意見・お問合せ（フォーム）",
+    "form_url": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=_6DkBnJJi0qvMEVxNh0TRJZ9UdE196xGtkhBLIBRPNxUREJLMEpBVUhRWFIwQzg2VkMxR0k1U0M5UC4u",
+    "source_url": "https://www.meti.go.jp/contact/contact.html",
+    "note": "受付フォームは Microsoft Forms です（経済産業省の公式ページからリンク）。"
+   }
+  },
+  {
+   "id": "mod-general",
+   "checked_at": "2026-11-01",
+   "method": "アプリ内ブラウザで出典ページの本文を確認（自動取得は HTTP 403）",
+   "evidence": "〒162-8801 東京都新宿区市谷本村町5-1 電話:03-5366-3111(代表)",
+   "fields": {
+    "department": "代表電話",
+    "phone": "03-5366-3111",
+    "postal_code": "162-8801",
+    "postal_address": "東京都新宿区市谷本村町5-1",
+    "source_url": "https://www.mod.go.jp/"
+   }
+  },
+  {
+   "id": "mod-feedback",
+   "checked_at": "2026-11-01",
+   "method": "アプリ内ブラウザで出典ページの本文を確認（自動取得は HTTP 403）",
+   "evidence": "このページでは、防衛省・自衛隊に対する御意見を受け付けています。…入力項目に記入して送信してください。",
+   "fields": {
+    "department": "防衛省・自衛隊に対する御意見箱",
+    "form_url": "https://www.mod.go.jp/j/form/goikenbako.html",
+    "source_url": "https://www.mod.go.jp/j/form/goikenbako.html",
+    "note": "原則として回答はしないと案内されています。"
+   }
+  },
+  {
+   "id": "caa-feedback",
+   "checked_at": "2026-11-01",
+   "reject": true,
+   "reason": "このウェブサイトについてのご意見・ご感想の受付で、施策への意見の窓口ではないため掲載しない"
+  }
+ ]
+}

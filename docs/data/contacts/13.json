@@ -1,1 +1,53 @@
-[]
+[
+ {
+  "municipality_code": "130001",
+  "municipality_name": "東京都",
+  "contacts": [
+   {
+    "id": "130001-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "03-5321-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "163-8001",
+    "postal_address": "東京都新宿区西新宿2-8-1",
+    "hours": null,
+    "source_url": "https://www.metro.tokyo.lg.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "130001-feedback",
+    "type": "feedback",
+    "department": "政策企画局戦略広報部企画調整課 都民の声総合窓口",
+    "phone": "03-5320-7725",
+    "email": null,
+    "form_url": "https://logoform.jp/form/tmgform/344142",
+    "postal_code": "163-8001",
+    "postal_address": "東京都新宿区西新宿2-8-1",
+    "hours": "午前9時00分〜午後5時00分（土日祝・年末年始を除く）",
+    "source_url": "https://www.metro.tokyo.lg.jp/tosei/iken-sodan/sodan/koe",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "130001-assembly",
+    "type": "assembly",
+    "department": "東京都議会 議会局管理部広報課",
+    "phone": "03-5320-7126",
+    "email": "S0000592@section.metro.tokyo.jp",
+    "form_url": null,
+    "postal_code": "163-8001",
+    "postal_address": "東京都新宿区西新宿二丁目8番1号",
+    "hours": null,
+    "source_url": "https://www.gikai.metro.tokyo.lg.jp/about/contact.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ }
+]

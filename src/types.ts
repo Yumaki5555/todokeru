@@ -88,6 +88,16 @@ export interface DataSummary {
   generated_at: string;
   entities: { agencies: number; prefectures: number; municipalities: number };
   contacts: { total: number; verified: number; by_status: Record<ContactStatus, number> };
+  coverage: Record<'agencies' | 'prefectures' | 'municipalities', Coverage>;
+  /** 都道府県（2けた）ごとの調査状況 */
+  by_pref: Record<string, { pref: Coverage; municipalities: Coverage }>;
+}
+
+/** 機関・自治体の調査状況（total：全体、researched：窓口の記録あり、with_verified：公式確認済みの窓口が1つ以上） */
+export interface Coverage {
+  total: number;
+  researched: number;
+  with_verified: number;
 }
 
 // ---- 解説コンテンツ ----

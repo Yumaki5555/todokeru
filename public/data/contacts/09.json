@@ -1,1 +1,53 @@
-[]
+[
+ {
+  "municipality_code": "090000",
+  "municipality_name": "栃木県",
+  "contacts": [
+   {
+    "id": "090000-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "028-623-2323",
+    "email": null,
+    "form_url": null,
+    "postal_code": "320-8501",
+    "postal_address": "栃木県宇都宮市塙田1-1-20",
+    "hours": null,
+    "source_url": "https://www.pref.tochigi.lg.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "090000-feedback",
+    "type": "feedback",
+    "department": "広報課「知事にアクセス」受付係",
+    "phone": "028-623-2158",
+    "email": "kouhou@pref.tochigi.lg.jp",
+    "form_url": "https://www.kocho.pref.tochigi.lg.jp/kenminkoe/client",
+    "postal_code": "320-8501",
+    "postal_address": "栃木県宇都宮市塙田1-1-20",
+    "hours": null,
+    "source_url": "https://www.pref.tochigi.lg.jp/c05/pref/kouhou/iken/akusesukennminnsoudann.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "090000-assembly",
+    "type": "assembly",
+    "department": "県議会事務局",
+    "phone": "028-623-3753",
+    "email": "gikai@pref.tochigi.lg.jp",
+    "form_url": null,
+    "postal_code": "320-8501",
+    "postal_address": "栃木県宇都宮市塙田1-1-20",
+    "hours": null,
+    "source_url": "https://www.pref.tochigi.lg.jp/kengikai/index.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ }
+]

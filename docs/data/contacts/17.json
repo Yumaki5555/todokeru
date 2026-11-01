@@ -1,1 +1,53 @@
-[]
+[
+ {
+  "municipality_code": "170003",
+  "municipality_name": "石川県",
+  "contacts": [
+   {
+    "id": "170003-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "076-225-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "920-8580",
+    "postal_address": "石川県金沢市鞍月1丁目1番地",
+    "hours": null,
+    "source_url": "https://www.pref.ishikawa.lg.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "170003-feedback",
+    "type": "feedback",
+    "department": "知事室戦略広報課（県民の声）",
+    "phone": "076-225-1362",
+    "email": null,
+    "form_url": "https://www.pref.ishikawa.lg.jp/kouhou/koe/mail.html",
+    "postal_code": "920-8580",
+    "postal_address": "石川県金沢市鞍月1丁目1番地",
+    "hours": null,
+    "source_url": "https://www.pref.ishikawa.lg.jp/kensei/koho/kocho/kemminnokoe/index.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "170003-assembly",
+    "type": "assembly",
+    "department": "議会事務局 総務課",
+    "phone": "076-225-1027",
+    "email": "gikai@pref.ishikawa.lg.jp",
+    "form_url": null,
+    "postal_code": "920-8580",
+    "postal_address": "石川県金沢市鞍月1丁目1番地",
+    "hours": null,
+    "source_url": "https://www.pref.ishikawa.lg.jp/gikai/index.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ }
+]

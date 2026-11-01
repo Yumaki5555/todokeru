@@ -6,14 +6,597 @@
   "municipalities": 1741
  },
  "contacts": {
-  "total": 0,
-  "verified": 0,
+  "total": 183,
+  "verified": 178,
   "by_status": {
-   "verified": 0,
-   "unverified": 0,
+   "verified": 178,
+   "unverified": 4,
    "review": 0,
-   "unavailable": 0,
+   "unavailable": 1,
    "discontinued": 0
+  }
+ },
+ "coverage": {
+  "agencies": {
+   "total": 22,
+   "researched": 22,
+   "with_verified": 22
+  },
+  "prefectures": {
+   "total": 47,
+   "researched": 47,
+   "with_verified": 46
+  },
+  "municipalities": {
+   "total": 1741,
+   "researched": 0,
+   "with_verified": 0
+  }
+ },
+ "by_pref": {
+  "10": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 35,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "11": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 63,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "12": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 54,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "13": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 62,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "14": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 33,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "15": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 30,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "16": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 15,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "17": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 19,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "18": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 17,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "19": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 27,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "20": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 77,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "21": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 42,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "22": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 35,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "23": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 54,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "24": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 29,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "25": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 19,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "26": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 26,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "27": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 43,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "28": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 41,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "29": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 0
+   },
+   "municipalities": {
+    "total": 39,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "30": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 30,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "31": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 19,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "32": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 19,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "33": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 27,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "34": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 23,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "35": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 19,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "36": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 24,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "37": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 17,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "38": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 20,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "39": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 34,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "40": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 60,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "41": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 20,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "42": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 21,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "43": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 45,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "44": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 18,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "45": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 26,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "46": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 43,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "47": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 41,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "01": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 179,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "02": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 40,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "03": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 33,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "04": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 35,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "05": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 25,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "06": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 35,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "07": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 59,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "08": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 44,
+    "researched": 0,
+    "with_verified": 0
+   }
+  },
+  "09": {
+   "pref": {
+    "total": 1,
+    "researched": 1,
+    "with_verified": 1
+   },
+   "municipalities": {
+    "total": 25,
+    "researched": 0,
+    "with_verified": 0
+   }
   }
  }
 }

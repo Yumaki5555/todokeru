@@ -3,7 +3,7 @@ import { describe, expect, it } from 'vitest';
 import { render, screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { App } from '../src/App';
-import type { Contact } from '../src/types';
+import type { Contact, DataSummary } from '../src/types';
 import { dataOverrides } from './setup';
 
 function openContacts(hash = '#/contacts') {
@@ -12,14 +12,49 @@ function openContacts(hash = '#/contacts') {
 }
 
 describe('窓口検索', () => {
-  it('調査中であること、登録数と確認済み窓口数を別々に出す', async () => {
+  const emptySummary: DataSummary = {
+    generated_at: '2026-11-01',
+    entities: { agencies: 22, prefectures: 47, municipalities: 1741 },
+    contacts: { total: 0, verified: 0, by_status: { verified: 0, unverified: 0, review: 0, unavailable: 0, discontinued: 0 } },
+    coverage: {
+      agencies: { total: 22, researched: 0, with_verified: 0 },
+      prefectures: { total: 47, researched: 0, with_verified: 0 },
+      municipalities: { total: 1741, researched: 0, with_verified: 0 },
+    },
+    by_pref: {},
+  };
+
+  it('連絡先が1件もないときは「調査中」と出す', async () => {
+    dataOverrides.set('summary.json', emptySummary);
     openContacts();
     expect(screen.getByRole('heading', { level: 1, name: '全国の窓口を探す' })).toBeInTheDocument();
-    expect(screen.getByText(/推測した電話番号やメールアドレスは載せません/)).toBeInTheDocument();
-    const stats = await screen.findByLabelText('登録件数');
-    for (const t of ['国の機関', '都道府県', '市区町村', '公式確認済みの窓口']) expect(within(stats).getByText(t)).toBeInTheDocument();
-    expect(within(stats).getByText('1,741')).toBeInTheDocument();
-    expect(within(stats).getByText(/^0件/)).toBeInTheDocument();
+    expect(await screen.findByText(/推測した電話番号やメールアドレスは載せません/)).toBeInTheDocument();
+    expect(screen.queryByRole('note', { name: /^公式確認済みの連絡先/ })).not.toBeInTheDocument();
+  });
+
+  it('連絡先が登録されたら、冒頭は実際の登録状況（機関・自治体の数）の案内になる', async () => {
+    dataOverrides.set('summary.json', {
+      ...emptySummary,
+      contacts: { ...emptySummary.contacts, total: 150, verified: 140 },
+      coverage: {
+        agencies: { total: 22, researched: 22, with_verified: 19 },
+        prefectures: { total: 47, researched: 47, with_verified: 46 },
+        municipalities: { total: 1741, researched: 0, with_verified: 0 },
+      },
+    });
+    openContacts();
+    const note = await screen.findByRole('note', { name: /^公式確認済みの連絡先/ });
+    expect(screen.queryByText(/連絡先は調査中です/)).not.toBeInTheDocument();
+    for (const t of ['都道府県', '国の機関', '市区町村']) expect(within(note).getByText(t)).toBeInTheDocument();
+    expect(within(note).getByText('46')).toBeInTheDocument();
+    expect(within(note).getByText('／1,741')).toBeInTheDocument();
+  });
+
+  it('探し方を「地域から探す」「国の機関から探す」「名前で検索」で切りかえられる', async () => {
+    openContacts();
+    await screen.findByLabelText('都道府県を選ぶ');
+    for (const name of ['地域から探す', '国の機関から探す', '名前で検索']) expect(screen.getByRole('button', { name })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: '地域から探す' })).toHaveAttribute('aria-pressed', 'true');
   });
 
   it('窓口の種類（代表・広聴・議会事務局）の違いを説明している', () => {
@@ -28,6 +63,7 @@ describe('窓口検索', () => {
   });
 
   it('都道府県→市区町村を選ぶと、その自治体の窓口（未調査）が出て、URL にも残る', async () => {
+    dataOverrides.set('contacts/13.json', []);
     openContacts();
     const pref = await screen.findByLabelText('都道府県を選ぶ');
     await userEvent.selectOptions(pref, '13');
@@ -40,7 +76,9 @@ describe('窓口検索', () => {
     const card = await screen.findByRole('article');
     expect(within(card).getByRole('heading', { name: '江東区' })).toBeInTheDocument();
     expect(within(card).getByText('131083')).toBeInTheDocument();
-    expect(await within(card).findAllByText('未調査')).toHaveLength(3);
+    // 未調査の説明は1か所だけ（窓口の種類ごとにくり返さない）
+    expect(await within(card).findAllByText('未調査')).toHaveLength(1);
+    for (const t of ['行政代表窓口', '広聴・ご意見窓口', '議会事務局']) expect(within(card).getByText(t)).toBeInTheDocument();
     expect(within(card).queryByRole('link', { name: /電話をかける/ })).not.toBeInTheDocument();
     expect(within(card).getByRole('link', { name: /J-LIS「全国自治体マップ検索」/ })).toHaveAttribute(
       'href',
@@ -62,6 +100,7 @@ describe('窓口検索', () => {
   });
 
   it('国の機関から探す：機関を選ぶと公式サイトへのリンクが出る', async () => {
+    dataOverrides.set('contacts/agencies.json', []);
     openContacts();
     await screen.findByLabelText('都道府県を選ぶ');
     await userEvent.click(screen.getByRole('button', { name: '国の機関から探す' }));
@@ -69,7 +108,9 @@ describe('窓口検索', () => {
     expect(window.location.hash).toBe('#/contacts?tab=agency&id=mhlw');
     const card = await screen.findByRole('article');
     expect(within(card).getByRole('link', { name: /厚生労働省の公式サイト/ })).toHaveAttribute('href', 'https://www.mhlw.go.jp/');
-    expect(await within(card).findAllByText('未調査')).toHaveLength(2); // 代表・広聴（国の機関に議会事務局はない）
+    expect(await within(card).findAllByText('未調査')).toHaveLength(1);
+    expect(within(card).getByText('行政代表窓口')).toBeInTheDocument();
+    expect(within(card).queryByText('議会事務局')).not.toBeInTheDocument(); // 国の機関に議会事務局はない
   });
 
   it('名前で検索：ひらがなでも見つかり、選ぶとその自治体の窓口が出る', async () => {
@@ -120,17 +161,19 @@ describe('窓口データがあるときの表示（テスト用の架空デー�
     ]);
     openContacts('#/contacts?code=131083');
     const card = await screen.findByRole('article');
-    const tel = await within(card).findByRole('link', { name: /電話をかける：\s*03-0000-0000/ });
+    const tel = await within(card).findByRole('link', { name: /電話をかける\s*：\s*03-0000-0000/ });
     expect(tel).toHaveAttribute('href', 'tel:0300000000');
-    expect(within(card).getByRole('link', { name: /メールアプリで開く：\s*test@example\.jp/ })).toHaveAttribute('href', 'mailto:test@example.jp');
-    expect(within(card).getByRole('link', { name: '公式の問い合わせフォーム' })).toHaveAttribute('href', 'https://example.jp/form');
+    expect(within(card).getByRole('link', { name: /メールを送る\s*：\s*test@example\.jp/ })).toHaveAttribute('href', 'mailto:test@example.jp');
+    expect(within(card).getByRole('link', { name: /問い合わせフォーム/ })).toHaveAttribute('href', 'https://example.jp/form');
     expect(within(card).getByText(/〒100-0000 テスト県テスト市1-1/)).toBeInTheDocument();
-    expect(within(card).getByText(/受付時間：平日/)).toBeInTheDocument();
-    expect(within(card).getByText(/最終確認日：2026年10月1日/)).toBeInTheDocument();
+    expect(within(card).getByText('平日 8時30分〜17時')).toBeInTheDocument();
+    // 出典と確認日は折りたたまずに見せる
+    expect(within(card).getByRole('link', { name: /公式ページ/ })).toHaveAttribute('href', 'https://example.jp/contact');
+    expect(within(card).getByText(/最終確認日：2026年10月1日/)).toBeVisible();
     expect(within(card).getByText('公式確認済み')).toBeInTheDocument();
     // 未確認の窓口は番号を出さない
     expect(within(card).queryByText(/03-1111-1111/)).not.toBeInTheDocument();
-    expect(within(card).getByText(/公式の確認が済んでいないため、連絡先は表示していません/)).toBeInTheDocument();
+    expect(within(card).getByText(/公式の確認待ちのため表示していません/)).toBeInTheDocument();
     // 出典のない「確認済み」は点検ではじかれ、表示されない
     expect(within(card).queryByText(/03-2222-2222/)).not.toBeInTheDocument();
   });

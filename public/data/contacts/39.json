@@ -1,1 +1,53 @@
-[]
+[
+ {
+  "municipality_code": "390003",
+  "municipality_name": "高知県",
+  "contacts": [
+   {
+    "id": "390003-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "088-823-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "780-8570",
+    "postal_address": "高知県高知市丸ノ内1丁目2番20号",
+    "hours": null,
+    "source_url": "https://www.pref.kochi.lg.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "390003-feedback",
+    "type": "feedback",
+    "department": "総合企画部 広報広聴課 広聴担当",
+    "phone": "088-823-9898",
+    "email": "080401@ken.pref.kochi.lg.jp",
+    "form_url": "https://www.pref.kochi.lg.jp/form/111301/kocho-goiken-form.html",
+    "postal_code": "780-8570",
+    "postal_address": "高知県高知市丸ノ内1丁目2番20号",
+    "hours": null,
+    "source_url": "https://www.pref.kochi.lg.jp/doc/kocho-goiken-index/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "390003-assembly",
+    "type": "assembly",
+    "department": "高知県議会事務局 総務課",
+    "phone": "088-823-9532",
+    "email": "210101@ken.pref.kochi.lg.jp",
+    "form_url": "https://gikai.pref.kochi.lg.jp/mailform/gikai/",
+    "postal_code": "780-8570",
+    "postal_address": "高知県高知市丸ノ内1-2-20",
+    "hours": null,
+    "source_url": "https://gikai.pref.kochi.lg.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ }
+]

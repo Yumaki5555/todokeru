@@ -1,0 +1,496 @@
+{
+  "batch": "pref-01",
+  "researched_at": "2026-11-01",
+  "entities": [
+    {
+      "code": "010006",
+      "name": "北海道",
+      "official_site": "https://www.pref.hokkaido.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話（総合案内）",
+          "phone": "011-231-4111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "060-8588",
+          "postal_address": "北海道札幌市中央区北3条西6丁目",
+          "hours": "平日 8時45分〜17時30分",
+          "source_url": "https://www.pref.hokkaido.lg.jp/",
+          "evidence": "〒060-8588 札幌市中央区北3条西6丁目 電話番号 011-231-4111（総合案内） 一般的な業務時間：8時45分から17時30分",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "総合政策部知事室 道政相談センター",
+          "phone": "011-204-5022",
+          "email": null,
+          "form_url": "https://www2.pref.hokkaido.lg.jp/ss/dsc/soudan/",
+          "postal_code": "060-8588",
+          "postal_address": "北海道札幌市中央区北3条西6丁目",
+          "hours": "平日 8時45分〜17時30分",
+          "source_url": "https://www.pref.hokkaido.lg.jp/ss/dsc/soudan1.html",
+          "evidence": "総合政策部知事室道政相談センター 直通（受付専用）011-204-5022 ファクシミリ 011-241-8181 札幌市中央区北3条西6丁目（本庁舎1階南西側） 月曜日から金曜日の8時45分から17時30分",
+          "note": "道政に関する相談・要望・苦情・照会の窓口。電子メールは入力フォームで受付。FAX 011-241-8181"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "北海道議会事務局 総務課",
+          "phone": "011-204-5682",
+          "email": null,
+          "form_url": null,
+          "postal_code": "060-0002",
+          "postal_address": "北海道札幌市中央区北2条西6丁目",
+          "hours": "平日 8時45分〜17時30分",
+          "source_url": "https://www.gikai.pref.hokkaido.lg.jp/toiawase/index.html",
+          "evidence": "総務課 直通 011-204-5682 / 〒060-0002 北海道札幌市中央区北2条西6丁目 / 一般的な業務時間：8時45分から17時30分",
+          "note": "請願・陳情などは議事課 011-204-5686。FAX 011-232-8213"
+        }
+      ]
+    },
+    {
+      "code": "020001",
+      "name": "青森県",
+      "official_site": "https://www.pref.aomori.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話（大代表）",
+          "phone": "017-722-1111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "030-8570",
+          "postal_address": "青森県青森市長島一丁目1-1",
+          "hours": "平日 8時30分〜17時15分",
+          "source_url": "https://www.pref.aomori.lg.jp/",
+          "evidence": "郵便番号：030-8570 青森県青森市長島一丁目1-1 電話：017-722-1111(大代表) 8時30分から17時15分（土曜日、日曜日、祝日、休日、年末年始を除く）",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "総務部 広報広聴課 広聴グループ",
+          "phone": "017-734-9138",
+          "email": "koho@pref.aomori.lg.jp",
+          "form_url": null,
+          "postal_code": "030-8570",
+          "postal_address": "青森県青森市長島一丁目1-1",
+          "hours": null,
+          "source_url": "https://www.pref.aomori.lg.jp/kenminno-koe/index.html",
+          "evidence": "総務部 広報広聴課 広聴グループ 電話：017-734-9138 FAX：017-734-8031 koho@pref.aomori.lg.jp",
+          "note": "FAX 017-734-8031。受付フォームの掲載なし"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "青森県議会事務局 総務課",
+          "phone": "017-734-9790",
+          "email": null,
+          "form_url": null,
+          "postal_code": "030-8570",
+          "postal_address": "青森県青森市長島一丁目1番1号",
+          "hours": null,
+          "source_url": "https://www.pref.aomori.lg.jp/soshiki/gikai/home.html",
+          "evidence": "青森県議会事務局 〒030-8570 青森県青森市長島一丁目１番１号 電話：総務課 017-734-9790 FAX：017-734-8235",
+          "note": "議事課 017-734-9794、調査課 017-734-9797。FAX 017-734-8235"
+        }
+      ]
+    },
+    {
+      "code": "030007",
+      "name": "岩手県",
+      "official_site": "https://www.pref.iwate.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話（総合案内）",
+          "phone": "019-651-3111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "020-8570",
+          "postal_address": "岩手県盛岡市内丸10番1号",
+          "hours": null,
+          "source_url": "https://www.pref.iwate.jp/",
+          "evidence": "〒020-8570 岩手県盛岡市内丸10番1号 電話 019-651-3111（総合案内）",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "政策企画部 広聴広報課 広聴広報担当（広聴）",
+          "phone": "019-629-5110",
+          "email": "koucho@pref.iwate.jp",
+          "form_url": "https://www.pref.iwate.jp/cgi-bin/enquetes/9b3844b876d5435f8ac3f0faabaaee3b",
+          "postal_code": "020-8570",
+          "postal_address": "岩手県盛岡市内丸10-1",
+          "hours": "電話は平日 午前8時30分〜午後5時",
+          "source_url": "https://www.pref.iwate.jp/kensei/kouchoukouhou/teigen/1000810.html",
+          "evidence": "電話：019-629-5110 電話による御意見・御提言は、午前8時30分から午後5時まで（土曜日・日曜日・祝日・年末年始を除く） koucho@pref.iwate.jp ファクシミリ：019-651-4865 〒020-8570 岩手県盛岡市内丸10-1",
+          "note": "FAX 019-651-4865（24時間受付）"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "岩手県議会事務局 総務課",
+          "phone": "019-629-6006",
+          "email": "gikai@pref.iwate.jp",
+          "form_url": null,
+          "postal_code": "020-8570",
+          "postal_address": "岩手県盛岡市内丸10-1",
+          "hours": null,
+          "source_url": "https://www.pref.iwate.jp/soshiki/gikai/1016218.html",
+          "evidence": "〒020-8570 岩手県盛岡市内丸10-1 岩手県議会事務局 総務課 019-629-6006 gikai@pref.iwate.jp",
+          "note": "議事調査課 議事管理担当 019-629-6016。FAX 019-629-6014"
+        }
+      ]
+    },
+    {
+      "code": "040002",
+      "name": "宮城県",
+      "official_site": "https://www.pref.miyagi.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "022-211-2111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "980-8570",
+          "postal_address": "宮城県仙台市青葉区本町3丁目8番1号",
+          "hours": "8時30分〜17時15分",
+          "source_url": "https://www.pref.miyagi.jp/",
+          "evidence": "〒980-8570 宮城県仙台市青葉区本町3丁目8番1号 電話番号 022-211-2111 受付時間 8時30分～17時15分",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "知事への提案「明日のみやぎに一筆啓上！」",
+          "phone": null,
+          "email": null,
+          "form_url": "https://logoform.jp/form/GQGB/848332",
+          "postal_code": "980-8570",
+          "postal_address": "宮城県仙台市青葉区本町3丁目8番1号",
+          "hours": null,
+          "source_url": "https://www.pref.miyagi.jp/site/gvroom/ippitu.html",
+          "evidence": "宮城県庁 知事への提案担当係 行き / FAX（022-263-3780） / 郵便（〒980-8570）県庁住所の記入不要 / 入力フォーム（外部サイトへリンク）",
+          "note": "提案は入力フォーム・郵便・FAX（022-263-3780）で受付。電話番号の掲載なし。個別の回答は原則なし"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "宮城県議会事務局 総務課",
+          "phone": "022-211-3571",
+          "email": "gikai@pref.miyagi.lg.jp",
+          "form_url": null,
+          "postal_code": "980-8570",
+          "postal_address": "宮城県仙台市青葉区本町三丁目8番1号",
+          "hours": null,
+          "source_url": "https://www.pref.miyagi.jp/site/kengikai/soshiki.html",
+          "evidence": "総務課 電話番号 022-211-3571 Fax番号 022-211-3599 gikai@pref.miyagi.lg.jp 〒980-8570 仙台市青葉区本町三丁目8番1号",
+          "note": "議事課 022-211-3581、政務調査課 022-211-3591。FAX 022-211-3599"
+        }
+      ]
+    },
+    {
+      "code": "050008",
+      "name": "秋田県",
+      "official_site": "https://www.pref.akita.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "018-860-1111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "010-8570",
+          "postal_address": "秋田県秋田市山王四丁目1番1号",
+          "hours": "平日 8時30分〜17時15分",
+          "source_url": "https://www.pref.akita.lg.jp/",
+          "evidence": "〒010-8570 秋田県秋田市山王四丁目1番1号 018-860-1111（代表） 月曜日～金曜日 8時30分から17時15分まで（祝日・年末年始を除く）",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "総務部秘書課 報道・広聴室",
+          "phone": "018-860-1083",
+          "email": "houdoukoutyou@pref.akita.lg.jp",
+          "form_url": null,
+          "postal_code": "010-8570",
+          "postal_address": "秋田県秋田市山王四丁目1-1",
+          "hours": "平日 8時30分〜17時15分",
+          "source_url": "https://www.pref.akita.lg.jp/pages/archive/65235",
+          "evidence": "秋田県総務部秘書課報道・広聴室 電話：代表：018-860-1111 直通：018-860-1083 FAX：018-860-1072 電子メール：houdoukoutyou@pref.akita.lg.jp 〒010-8570 秋田市山王四丁目１－１ 月曜日から金曜日の午前8時30分から午後5時15分",
+          "note": "FAX 018-860-1072。受付フォームの掲載なし"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "議会事務局 総務課・議事調査課",
+          "phone": "018-860-2111",
+          "email": "kengikai@mail2.pref.akita.lg.jp",
+          "form_url": null,
+          "postal_code": "010-8570",
+          "postal_address": "秋田県秋田市山王四丁目1-1",
+          "hours": null,
+          "source_url": "https://www.pref.akita.lg.jp/pages/archive/259",
+          "evidence": "総務チーム 018-860-2111 FAX：018-860-2074 kengikai@mail2.pref.akita.lg.jp 秋田市山王四丁目１－１（議会棟）",
+          "note": "議事チーム 018-860-2121。FAX 018-860-2074。議会棟 1階"
+        }
+      ]
+    },
+    {
+      "code": "060003",
+      "name": "山形県",
+      "official_site": "https://www.pref.yamagata.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "023-630-2211",
+          "email": null,
+          "form_url": null,
+          "postal_code": "990-8570",
+          "postal_address": "山形県山形市松波二丁目8-1",
+          "hours": "平日 午前8時30分〜午後5時15分",
+          "source_url": "https://www.pref.yamagata.jp/",
+          "evidence": "〒990-8570 山形市松波二丁目8－1 023-630-2211(代表) 月曜日から金曜日の午前8時30分から午後5時15分（祝日、休日および12月29日から1月3日を除く）",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "広報広聴推進課 広聴担当（県民相談室）",
+          "phone": "023-630-3030",
+          "email": null,
+          "form_url": "https://www.pref.yamagata.jp/020026/kensei/joho/kocho/opinion/mail_voice.html",
+          "postal_code": "990-8570",
+          "postal_address": "山形県山形市松波二丁目8-1",
+          "hours": null,
+          "source_url": "https://www.pref.yamagata.jp/020026/kensei/joho/kocho/opinion.html",
+          "evidence": "担当：広報広聴推進課広聴担当（県民相談室） 電話：023-630-3030 〒990-8570 山形市松波二丁目8－1",
+          "note": "県庁1階の県民相談室"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "山形県議会事務局 総務課",
+          "phone": "023-630-2835",
+          "email": null,
+          "form_url": null,
+          "postal_code": "990-8570",
+          "postal_address": "山形県山形市松波二丁目8-1",
+          "hours": null,
+          "source_url": "https://www.pref.yamagata.jp/kensei/assembly/index.html",
+          "evidence": "総務課 023-630-2835 [政務活動費、情報公開 等] 議事調査課 023-630-2840 政策調査室 023-630-2845 [請願・意見書、広報、会議中継 等] 〒990-8570 山形市松波二丁目8-1",
+          "note": "議事調査課 023-630-2840、政策調査室（請願・意見書）023-630-2845"
+        }
+      ]
+    },
+    {
+      "code": "070009",
+      "name": "福島県",
+      "official_site": "https://www.pref.fukushima.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "024-521-1111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "960-8670",
+          "postal_address": "福島県福島市杉妻町2番16号",
+          "hours": null,
+          "source_url": "https://www.pref.fukushima.lg.jp/",
+          "evidence": "〒960-8670 福島県福島市杉妻町2番16号 電話 024-521-1111（代表）",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "県民広聴室（県民提案）",
+          "phone": null,
+          "email": "koucho@pref.fukushima.lg.jp",
+          "form_url": "https://apply.e-tumo.jp/pref-fukushima-u/offer/offerList_detail?tempSeq=740",
+          "postal_code": "960-8670",
+          "postal_address": "福島県福島市杉妻町2-16",
+          "hours": null,
+          "source_url": "https://www.pref.fukushima.lg.jp/sec/01010e/kenmin-koucho7-039-1.html",
+          "evidence": "福島県庁 県民広聴室「県民提案」係宛て 郵便番号960-8670 福島市杉妻町2-16 福島県庁 ファクス 024-521-7934 koucho@pref.fukushima.lg.jp 入力フォームはこちら",
+          "note": "県民提案は入力フォーム・メール・郵送・FAX（024-521-7934）で受付。電話番号の掲載なし"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "議会事務局 総務課",
+          "phone": "024-521-7606",
+          "email": null,
+          "form_url": null,
+          "postal_code": "960-8670",
+          "postal_address": "福島県福島市杉妻町2-16",
+          "hours": null,
+          "source_url": "https://www.pref.fukushima.lg.jp/sec/16.html",
+          "evidence": "議会事務局総務課 Tel：024-521-7606（局の組織・予算・企画調整、政務活動費、情報公開） 議事課 Tel：024-521-7609（委員会、請願・陳情） Fax：024-521-7965 福島県福島市杉妻町2-16 本庁舎3F",
+          "note": "請願・陳情は議事課 024-521-7609。FAX 024-521-7965。本庁舎3階"
+        }
+      ]
+    },
+    {
+      "code": "080004",
+      "name": "茨城県",
+      "official_site": "https://www.pref.ibaraki.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "029-301-1111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "310-8555",
+          "postal_address": "茨城県水戸市笠原町978番6",
+          "hours": null,
+          "source_url": "https://www.pref.ibaraki.jp/",
+          "evidence": "〒310-8555 水戸市笠原町978番6 電話番号 029-301-1111(代表)",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "総務部知事公室 広報広聴課 広聴・相談",
+          "phone": "029-301-2133",
+          "email": null,
+          "form_url": "https://kouchou.pref.ibaraki.jp/kotyo/hp_iken_announce.php",
+          "postal_code": "310-8555",
+          "postal_address": "茨城県水戸市笠原町978番6",
+          "hours": null,
+          "source_url": "https://www.pref.ibaraki.jp/bugai/koho/kenmin/category/service-03.html",
+          "evidence": "総務部知事公室広報広聴課広聴・相談 電話：029-301-2133 FAX：029-301-2169 〒310-8555 茨城県水戸市笠原町978番6 私の提案",
+          "note": "県政相談（県民相談センター）は 029-301-2147。FAX 029-301-2169"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "茨城県議会事務局 総務課",
+          "phone": "029-301-5613",
+          "email": null,
+          "form_url": null,
+          "postal_code": "310-8555",
+          "postal_address": "茨城県水戸市笠原町978番地6",
+          "hours": null,
+          "source_url": "https://www.pref.ibaraki.jp/gikai/seido/index.htm",
+          "evidence": "議会事務局総務課 （電話：029-301-5613） ファクシミリ：029-301-5629 住所：〒310-8555茨城県水戸市笠原町978番地6",
+          "note": "FAX 029-301-5629"
+        }
+      ]
+    },
+    {
+      "code": "090000",
+      "name": "栃木県",
+      "official_site": "https://www.pref.tochigi.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "028-623-2323",
+          "email": null,
+          "form_url": null,
+          "postal_code": "320-8501",
+          "postal_address": "栃木県宇都宮市塙田1-1-20",
+          "hours": null,
+          "source_url": "https://www.pref.tochigi.lg.jp/",
+          "evidence": "〒320-8501 栃木県宇都宮市塙田1-1-20 電話番号 028-623-2323",
+          "note": "ページの表記は「電話番号」のみ（県庁の電話）"
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "広報課「知事にアクセス」受付係",
+          "phone": "028-623-2158",
+          "email": "kouhou@pref.tochigi.lg.jp",
+          "form_url": "https://www.kocho.pref.tochigi.lg.jp/kenminkoe/client",
+          "postal_code": "320-8501",
+          "postal_address": "栃木県宇都宮市塙田1-1-20",
+          "hours": null,
+          "source_url": "https://www.pref.tochigi.lg.jp/c05/pref/kouhou/iken/akusesukennminnsoudann.html",
+          "evidence": "栃木県広報課「知事にアクセス」受付係 〒320-8501 宇都宮市塙田1-1-20 県庁舎本館3階 電話番号：028-623-2158 ファックス番号：028-623-2160 Email：kouhou@pref.tochigi.lg.jp",
+          "note": "FAX 028-623-2160"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "県議会事務局",
+          "phone": "028-623-3753",
+          "email": "gikai@pref.tochigi.lg.jp",
+          "form_url": null,
+          "postal_code": "320-8501",
+          "postal_address": "栃木県宇都宮市塙田1-1-20",
+          "hours": null,
+          "source_url": "https://www.pref.tochigi.lg.jp/kengikai/index.html",
+          "evidence": "県議会事務局 〒320-8501 宇都宮市塙田1-1-20 県庁舎議会議事堂2階 電話 028-623-3753 FAX 028-623-3755 gikai@pref.tochigi.lg.jp",
+          "note": "FAX 028-623-3755。議会議事堂2階"
+        }
+      ]
+    },
+    {
+      "code": "100005",
+      "name": "群馬県",
+      "official_site": "https://www.pref.gunma.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "027-223-1111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "371-8570",
+          "postal_address": "群馬県前橋市大手町1-1-1",
+          "hours": null,
+          "source_url": "https://www.pref.gunma.jp/",
+          "evidence": "〒371-8570 群馬県前橋市大手町1-1-1 電話番号(代表) 027-223-1111",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "生活こども部 県民活動支援・広聴課",
+          "phone": null,
+          "email": null,
+          "form_url": "https://logoform.jp/form/9cfD/1592573",
+          "postal_code": "371-8570",
+          "postal_address": "群馬県前橋市大手町1-1-1",
+          "hours": null,
+          "source_url": "https://www.pref.gunma.jp/page/15285.html",
+          "evidence": "県民活動支援・広聴課 Fax：027-223-2944 〒371-8570 前橋市大手町1-1-1 広聴入力フォーム",
+          "note": "意見・質問は入力フォーム・手紙・FAX（027-223-2944）で受付。電話番号の掲載なし"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "群馬県議会事務局 総務課",
+          "phone": "027-226-4111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "371-8570",
+          "postal_address": "群馬県前橋市大手町一丁目1番1号",
+          "hours": null,
+          "source_url": "https://www.pref.gunma.jp/site/gikai/25732.html",
+          "evidence": "群馬県議会事務局 総務課 電話 027-226-4111 Fax 027-221-8201 〒371-8570 前橋市大手町一丁目1番1号",
+          "note": "議事課 027-226-4121、政策広報課 027-226-4131。FAX 027-221-8201"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "batch": "pref-04",
+  "researched_at": "2026-11-01",
+  "entities": [
+    {
+      "code": "310000",
+      "name": "鳥取県",
+      "official_site": "https://www.pref.tottori.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "0857-26-7111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "680-8570",
+          "postal_address": "鳥取県鳥取市東町1丁目220",
+          "hours": "開庁時間 9時00分〜17時00分（土日祝・12月29日〜1月3日を除く）",
+          "source_url": "https://www.pref.tottori.lg.jp/",
+          "evidence": "鳥取県 〒680-8570 鳥取市東町1丁目220 (地図) 電話： 0857-26-7111",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "地域社会振興部 県民課 県民の声担当",
+          "phone": "0857-26-7025",
+          "email": "kenmin@pref.tottori.lg.jp",
+          "form_url": "https://apply.e-tumo.jp/pref-tottori-u/offer/offerList_detail?tempSeq=11796",
+          "postal_code": "680-8570",
+          "postal_address": "鳥取県鳥取市東町一丁目220",
+          "hours": null,
+          "source_url": "https://www.pref.tottori.lg.jp/koe/",
+          "evidence": "県民の声担当 住所 〒680-8570鳥取県鳥取市東町一丁目220 電話 0857-26-7025",
+          "note": "ページには電話 0857-26-7025・0857-26-7026 の記載あり"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "鳥取県議会事務局",
+          "phone": "0857-26-7460",
+          "email": "gikaisoumu@pref.tottori.lg.jp",
+          "form_url": null,
+          "postal_code": "680-8570",
+          "postal_address": "鳥取県鳥取市東町1-220",
+          "hours": null,
+          "source_url": "https://www.pref.tottori.lg.jp/gikai/",
+          "evidence": "鳥取県議会事務局 〒680-8570 鳥取県鳥取市東町1-220 電話番号: 0857-26-7460",
+          "note": null
+        }
+      ]
+    },
+    {
+      "code": "320005",
+      "name": "島根県",
+      "official_site": "https://www.pref.shimane.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "0852-22-5111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "690-8501",
+          "postal_address": "島根県松江市殿町1番地",
+          "hours": null,
+          "source_url": "https://www.pref.shimane.lg.jp/",
+          "evidence": "住所 〒690-8501 島根県松江市殿町1番地 電話 0852-22-5111（代表）",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "広聴広報課県民対話室（知事への提案箱）",
+          "phone": "0852-22-5770",
+          "email": null,
+          "form_url": "https://ttzk.graffer.jp/pref-shimane/smart-apply/surveys-alias/teian2024",
+          "postal_code": "690-8501",
+          "postal_address": "島根県松江市殿町１番地",
+          "hours": null,
+          "source_url": "https://www.pref.shimane.lg.jp/admin/seisaku/koho/teian/",
+          "evidence": "広聴広報課県民対話室 島根県政策企画局広聴広報課県民対話室 〒690-8501 島根県松江市殿町１番地 【電話】0852-22-5770、6501",
+          "note": "ご提案はしまね電子申請サービスのフォームで受付。ページの電話表記は「0852-22-5770、6501」"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "島根県議会事務局",
+          "phone": "0852-22-5356",
+          "email": "kengikai@pref.shimane.lg.jp",
+          "form_url": null,
+          "postal_code": "690-8501",
+          "postal_address": "島根県松江市殿町1番地",
+          "hours": null,
+          "source_url": "https://www.pref.shimane.lg.jp/gikai/",
+          "evidence": "島根県議会 住所 〒690-8501 島根県松江市殿町1番地 TEL 0852-22-5356 FAX 0852-22-5273 ﾒｰﾙ kengikai@pref.shimane.lg.jp",
+          "note": "ページ上のお問い合わせ先の表記は「島根県議会」"
+        }
+      ]
+    },
+    {
+      "code": "330001",
+      "name": "岡山県",
+      "official_site": "https://www.pref.okayama.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話（案内電話）",
+          "phone": "086-224-2111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "700-8570",
+          "postal_address": "岡山県岡山市北区内山下二丁目4番6号",
+          "hours": "案内受付 8時30分〜17時15分（土日祝・12月29日〜1月3日を除く）",
+          "source_url": "https://www.pref.okayama.jp/",
+          "evidence": "〒700-8570 岡山市北区内山下二丁目4番6号 電話番号： 086-224-2111 （案内電話） 案内受付：8時30分から17時15分まで",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "公聴広報課「県政への提言」係",
+          "phone": null,
+          "email": null,
+          "form_url": "https://apply.e-tumo.jp/pref-okayama-u/offer/offerList_detail?tempSeq=51675",
+          "postal_code": "700-8570",
+          "postal_address": "岡山県岡山市北区内山下2-4-6",
+          "hours": null,
+          "source_url": "https://www.pref.okayama.jp/page/366315.html",
+          "evidence": "※電話での受付は行っておりません。 ファックス： 086-234-0500 郵 便 ： 〒700-8570 岡山市北区内山下2-4-6 岡山県公聴広報課 「県政への提言」係",
+          "note": "電話での受付はなし。フォームのほか FAX 086-234-0500・郵便で受付"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "岡山県議会事務局 総務課",
+          "phone": "086-226-7548",
+          "email": null,
+          "form_url": null,
+          "postal_code": "700-8570",
+          "postal_address": "岡山県岡山市北区内山下2-4-6",
+          "hours": null,
+          "source_url": "https://www.pref.okayama.jp/site/gikai/",
+          "evidence": "岡山県議会事務局 〒700-8570 岡山市北区内山下2-4-6 総務課 TEL：086-226-7548 FAX：086-224-9271 議事課 TEL：086-226-7551 政務調査室 TEL：086-226-7553",
+          "note": "議事課 086-226-7551、政務調査室 086-226-7553"
+        }
+      ]
+    },
+    {
+      "code": "340006",
+      "name": "広島県",
+      "official_site": "https://www.pref.hiroshima.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "082-228-2111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "730-8511",
+          "postal_address": "広島県広島市中区基町10-52",
+          "hours": null,
+          "source_url": "https://www.pref.hiroshima.lg.jp/",
+          "evidence": "広島県庁 〒730-8511 広島県広島市中区基町10-52 電話：082-228-2111（代表）",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "広島県総務局広報課 県政提言コーナー",
+          "phone": "082-513-2378",
+          "email": null,
+          "form_url": "https://apply.e-tumo.jp/pref-hiroshima-u/offer/offerList_detail?tempSeq=16794",
+          "postal_code": "730-8511",
+          "postal_address": "広島県広島市中区基町10-52",
+          "hours": null,
+          "source_url": "https://www.pref.hiroshima.lg.jp/soshiki/19/1171540420003.html",
+          "evidence": "郵便 〒730-8511 広島市中区基町10-52 広島県総務局広報課 県政提言コーナー 宛 電話 082-513-2378 ファックス 050-3156-3485",
+          "note": null
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "広島県議会事務局 総務課",
+          "phone": "082-513-4721",
+          "email": null,
+          "form_url": "https://www.pref.hiroshima.lg.jp/form/detail.php?sec_sec1=114",
+          "postal_code": "730-8509",
+          "postal_address": "広島県広島市中区基町10-52",
+          "hours": null,
+          "source_url": "https://www.pref.hiroshima.lg.jp/site/gikai/",
+          "evidence": "総務課 Tel：082-513-4721 Fax：082-223-6320 総務課へのメールでのお問い合わせ",
+          "note": "請願・陳情は議事課 082-513-4731。メールによる請願・陳情は受付不可"
+        }
+      ]
+    },
+    {
+      "code": "350001",
+      "name": "山口県",
+      "official_site": "https://www.pref.yamaguchi.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "083-922-3111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "753-8501",
+          "postal_address": "山口県山口市滝町1番1号",
+          "hours": null,
+          "source_url": "https://www.pref.yamaguchi.lg.jp/",
+          "evidence": "山口県 （法人番号2000020350001） 〒753-8501 山口県山口市滝町1番1号 電話：083-922-3111（代表）",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "広報広聴課内 中央県民相談室（知事への提言）",
+          "phone": "083-933-2570",
+          "email": null,
+          "form_url": "https://shinsei.pref.yamaguchi.lg.jp/SksJuminWeb/EntryForm?id=uP5tpwR3",
+          "postal_code": "753-8501",
+          "postal_address": "山口県山口市滝町1-1",
+          "hours": null,
+          "source_url": "https://www.pref.yamaguchi.lg.jp/soshiki/21/12768.html",
+          "evidence": "電話 083-933-2570 Fax 083-933-2599 一般封書・はがき 〒753-8501 山口市滝町1-1 山口県総合企画部広報広聴課内 中央県民相談室",
+          "note": null
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "山口県議会事務局 総務課",
+          "phone": "083-933-4110",
+          "email": "a30000@pref.yamaguchi.lg.jp",
+          "form_url": null,
+          "postal_code": "753-8501",
+          "postal_address": "山口県山口市滝町1-1",
+          "hours": null,
+          "source_url": "https://www.pref.yamaguchi.lg.jp/site/gikai/",
+          "evidence": "総務課 Tel 083-933-4110（代表）",
+          "note": null
+        }
+      ]
+    },
+    {
+      "code": "360007",
+      "name": "徳島県",
+      "official_site": "https://www.pref.tokushima.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "088-621-2500",
+          "email": null,
+          "form_url": null,
+          "postal_code": "770-8570",
+          "postal_address": "徳島県徳島市万代町1丁目1番地",
+          "hours": "電話受付 午前9時〜午後5時（土日祝・年末年始を除く）",
+          "source_url": "https://www.pref.tokushima.lg.jp/",
+          "evidence": "徳島県庁 〒770-8570 徳島県徳島市万代町1丁目1番地 電話番号: 088-621-2500（代表） 電話受付: 午前9時から午後5時まで",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "生活環境部 県民ふれあい課 広聴担当（フリーの目安箱）",
+          "phone": "088-621-2096",
+          "email": "kenminfureaika@pref.tokushima.lg.jp",
+          "form_url": "https://docs.google.com/forms/d/e/1FAIpQLSeLBZ1lDQT76Bh5IPqZRnY_xJOiFnIdzwek5ow8800J8GDfVw/viewform?usp=publish-editor",
+          "postal_code": null,
+          "postal_address": null,
+          "hours": null,
+          "source_url": "https://www.pref.tokushima.lg.jp/opinion/",
+          "evidence": "お問い合わせ 生活環境部 県民ふれあい課 広聴担当 電話番号：088-621-2096 FAX番号：088-621-2862 メールアドレス： kenminfureaika@pref.tokushima.lg.jp",
+          "note": "令和8年4月1日以降はGoogleフォームでの受付（ページの記載）"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "議会事務局",
+          "phone": "088-621-3005",
+          "email": "gikaijimukyoku@pref.tokushima.lg.jp",
+          "form_url": null,
+          "postal_code": "770-8570",
+          "postal_address": "徳島県徳島市万代町1-1",
+          "hours": null,
+          "source_url": "https://www.pref.tokushima.lg.jp/gikai/",
+          "evidence": "議会事務局 〒770-8570 徳島市万代町1-1 電話番号(総務課)：088-621-3005(代表） 電話番号(議事課)：088-621-3007 電話番号(政策調査課)：088-621-3009 FAX番号：088-655-2530 メールアドレス： gikaijimukyoku@pref.tokushima.lg.jp",
+          "note": "議事課 088-621-3007、政策調査課 088-621-3009"
+        }
+      ]
+    },
+    {
+      "code": "370002",
+      "name": "香川県",
+      "official_site": "https://www.pref.kagawa.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "087-831-1111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "760-8570",
+          "postal_address": "香川県高松市番町四丁目1番10号",
+          "hours": "開庁時間 月曜日〜金曜日 8時30分〜17時15分（休日・年末年始を除く）",
+          "source_url": "https://www.pref.kagawa.lg.jp/",
+          "evidence": "〒760-8570 香川県高松市番町四丁目1番10号 代表電話 : 087-831-1111 開庁時間 : 月曜日～金曜日・午前8時30分～午後5時15分",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "総務部知事公室広聴広報課（知事への手紙・メール）",
+          "phone": "087-832-3021",
+          "email": null,
+          "form_url": "https://apply.e-tumo.jp/pref-kagawa-u/offer/offerList_detail?tempSeq=7991",
+          "postal_code": "760-8570",
+          "postal_address": "香川県高松市番町四丁目1番10号",
+          "hours": null,
+          "source_url": "https://www.pref.kagawa.lg.jp/kocho/chijipage/chijimail/goriyouhouhou.html",
+          "evidence": "このページに関するお問い合わせ 総務部知事公室広聴広報課 電話：087-832-3021 FAX：087-862-3000",
+          "note": "知事へのご提言は電話受付なし（メールフォーム・手紙・FAXで受付）。電話はこのページに関するお問い合わせ先"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "香川県議会事務局 総務課",
+          "phone": "087-832-3678",
+          "email": null,
+          "form_url": null,
+          "postal_code": "760-8570",
+          "postal_address": "香川県高松市番町四丁目1番10号",
+          "hours": null,
+          "source_url": "https://www.pref.kagawa.lg.jp/gikai/index.html",
+          "evidence": "香川県議会事務局 〒760-8570 香川県高松市番町四丁目1番10号 各課直通電話番号 総務課 : 087-832-3678 議事課 : 087-832-3679 政務調査課 : 087-832-3680",
+          "note": "議事課 087-832-3679、政務調査課 087-832-3680"
+        }
+      ]
+    },
+    {
+      "code": "380008",
+      "name": "愛媛県",
+      "official_site": "https://www.pref.ehime.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "089-941-2111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "790-8570",
+          "postal_address": "愛媛県松山市一番町4丁目4-2",
+          "hours": null,
+          "source_url": "https://www.pref.ehime.jp/",
+          "evidence": "愛媛県庁 法人番号1000020380008 〒790-8570 愛媛県松山市一番町4丁目4-2 電話番号（代表）089-941-2111",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "企画振興部 広報広聴課（知事への政策提言）",
+          "phone": null,
+          "email": "chijimail@pref.ehime.lg.jp",
+          "form_url": "https://www.pref.ehime.jp/ques/questionnaire.php?openid=21",
+          "postal_code": "790-8570",
+          "postal_address": "愛媛県松山市一番町4-4-2",
+          "hours": null,
+          "source_url": "https://www.pref.ehime.jp/site/chiji/10584.html",
+          "evidence": "愛媛県企画振興部広報広聴課 〒790-8570 愛媛県松山市一番町4-4-2 【ファックスの場合】 089-912-2248",
+          "note": "電話番号の掲載なし（FAX 089-912-2248）。メールは入力フォームで送信できない場合の宛先"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "愛媛県議会",
+          "phone": "089-912-2835",
+          "email": null,
+          "form_url": "https://www.pref.ehime.jp/form/detail.php?sec_sec1=125",
+          "postal_code": "790-8570",
+          "postal_address": "愛媛県松山市一番町4丁目4-2",
+          "hours": null,
+          "source_url": "https://www.pref.ehime.jp/site/gikai/",
+          "evidence": "〒790-8570 愛媛県松山市一番町4丁目4-2 Tel:(089)912-2835 Fax:(089)941-8794 メールでのお問い合わせはこちら",
+          "note": "ページ上の窓口名は「愛媛県議会」"
+        }
+      ]
+    },
+    {
+      "code": "390003",
+      "name": "高知県",
+      "official_site": "https://www.pref.kochi.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "088-823-1111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "780-8570",
+          "postal_address": "高知県高知市丸ノ内1丁目2番20号",
+          "hours": null,
+          "source_url": "https://www.pref.kochi.lg.jp/",
+          "evidence": "〒780-8570 高知県高知市丸ノ内1丁目2番20号 電話：088-823-1111（代表）",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "総合企画部 広報広聴課 広聴担当",
+          "phone": "088-823-9898",
+          "email": "080401@ken.pref.kochi.lg.jp",
+          "form_url": "https://www.pref.kochi.lg.jp/form/111301/kocho-goiken-form.html",
+          "postal_code": "780-8570",
+          "postal_address": "高知県高知市丸ノ内1丁目2番20号",
+          "hours": null,
+          "source_url": "https://www.pref.kochi.lg.jp/doc/kocho-goiken-index/",
+          "evidence": "高知県 総合企画部 広報広聴課 所在地： 〒780-8570 高知県高知市丸ノ内1丁目2番20号（本庁舎2階） 電話： 広聴担当 088-823-9898 広報担当 088-823-9046 ファックス： 088-872-5494 メール： 080401@ken.pref.kochi.lg.jp",
+          "note": null
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "高知県議会事務局 総務課",
+          "phone": "088-823-9532",
+          "email": "210101@ken.pref.kochi.lg.jp",
+          "form_url": "https://gikai.pref.kochi.lg.jp/mailform/gikai/",
+          "postal_code": "780-8570",
+          "postal_address": "高知県高知市丸ノ内1-2-20",
+          "hours": null,
+          "source_url": "https://gikai.pref.kochi.lg.jp/",
+          "evidence": "高知県議会事務局 〒780-8570 高知県高知市丸ノ内1-2-20 電話：総務課 (088)823-9532 議事課 (088)823-9536 政策調査課 (088)823-9537",
+          "note": "メールアドレスはページ上で文字参照（HTMLの符号表記）により表示。議事課 088-823-9536、政策調査課 088-823-9537"
+        }
+      ]
+    }
+  ]
+}

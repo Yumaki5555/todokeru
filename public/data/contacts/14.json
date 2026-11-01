@@ -1,1 +1,53 @@
-[]
+[
+ {
+  "municipality_code": "140007",
+  "municipality_name": "神奈川県",
+  "contacts": [
+   {
+    "id": "140007-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "045-210-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "231-8588",
+    "postal_address": "神奈川県横浜市中区日本大通1",
+    "hours": null,
+    "source_url": "https://www.pref.kanagawa.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "140007-feedback",
+    "type": "feedback",
+    "department": "政策局 政策部 情報公開広聴課（わたしの提案）",
+    "phone": null,
+    "email": null,
+    "form_url": "https://dshinsei.e-kanagawa.lg.jp/140007-u/offer/offerList_detail?tempSeq=138687",
+    "postal_code": "231-8588",
+    "postal_address": "神奈川県横浜市中区日本大通1",
+    "hours": null,
+    "source_url": "https://www.pref.kanagawa.jp/docs/h3e/cnt/f3492/index.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "140007-assembly",
+    "type": "assembly",
+    "department": "議会局 議事課委員会グループ（請願・陳情）",
+    "phone": "045-210-7546",
+    "email": null,
+    "form_url": "https://dshinsei.e-kanagawa.lg.jp/140007-u/offer/offerList_detail.action?tempString=SF9001",
+    "postal_code": "231-8588",
+    "postal_address": "神奈川県横浜市中区日本大通1",
+    "hours": null,
+    "source_url": "https://www.pref.kanagawa.jp/gikai/p80218.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ }
+]

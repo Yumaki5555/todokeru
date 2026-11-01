@@ -1,1 +1,53 @@
-[]
+[
+ {
+  "municipality_code": "370002",
+  "municipality_name": "香川県",
+  "contacts": [
+   {
+    "id": "370002-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "087-831-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "760-8570",
+    "postal_address": "香川県高松市番町四丁目1番10号",
+    "hours": null,
+    "source_url": "https://www.pref.kagawa.lg.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "370002-feedback",
+    "type": "feedback",
+    "department": "総務部知事公室広聴広報課（知事への手紙・メール）",
+    "phone": "087-832-3021",
+    "email": null,
+    "form_url": "https://apply.e-tumo.jp/pref-kagawa-u/offer/offerList_detail?tempSeq=7991",
+    "postal_code": "760-8570",
+    "postal_address": "香川県高松市番町四丁目1番10号",
+    "hours": null,
+    "source_url": "https://www.pref.kagawa.lg.jp/kocho/chijipage/chijimail/goriyouhouhou.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "370002-assembly",
+    "type": "assembly",
+    "department": "香川県議会事務局 総務課",
+    "phone": "087-832-3678",
+    "email": null,
+    "form_url": null,
+    "postal_code": "760-8570",
+    "postal_address": "香川県高松市番町四丁目1番10号",
+    "hours": null,
+    "source_url": "https://www.pref.kagawa.lg.jp/gikai/index.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ }
+]

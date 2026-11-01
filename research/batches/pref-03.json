@@ -1,0 +1,496 @@
+{
+  "batch": "pref-03",
+  "researched_at": "2026-11-01",
+  "entities": [
+    {
+      "code": "210005",
+      "name": "岐阜県",
+      "official_site": "https://www.pref.gifu.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "058-272-1111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "500-8570",
+          "postal_address": "岐阜県岐阜市薮田南2丁目1番1号",
+          "hours": "平日 8時30分〜17時15分",
+          "source_url": "https://www.pref.gifu.lg.jp/",
+          "evidence": "〒500-8570岐阜市薮田南2丁目1番1号 代表電話058-272-1111 午前8時30分から午後5時15分まで",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "県政へのご意見・ご提案",
+          "phone": null,
+          "email": null,
+          "form_url": "https://logoform.jp/form/T8mB/1337299",
+          "postal_code": null,
+          "postal_address": null,
+          "hours": null,
+          "source_url": "https://www.pref.gifu.lg.jp/page/56717.html",
+          "evidence": "県政へのご意見・ご提案 意見提案のページへ",
+          "note": "意見はフォームで受付。電話番号は掲載なし"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "岐阜県議会事務局",
+          "phone": "058-272-8717",
+          "email": null,
+          "form_url": null,
+          "postal_code": "500-8570",
+          "postal_address": "岐阜県岐阜市薮田南2-1-1",
+          "hours": null,
+          "source_url": "https://www.pref.gifu.lg.jp/site/gikai/",
+          "evidence": "岐阜県議会事務局 〒500-8570 岐阜市薮田南2-1-1 電話 058-272-8717(直通) FAX 058-278-2802",
+          "note": "直通番号。FAX 058-278-2802"
+        }
+      ]
+    },
+    {
+      "code": "220001",
+      "name": "静岡県",
+      "official_site": "https://www.pref.shizuoka.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "県庁案内",
+          "phone": "054-221-2455",
+          "email": null,
+          "form_url": null,
+          "postal_code": "420-8601",
+          "postal_address": "静岡県静岡市葵区追手町9番6号",
+          "hours": "平日 8時30分〜17時15分",
+          "source_url": "https://www.pref.shizuoka.jp/kensei/pr/hiroba/1007313.html",
+          "evidence": "県庁案内 054-221-2455 月曜日～金曜日 8時30分～17時15分（祝日・年末年始を除く） 〒420-8601 静岡県静岡市葵区追手町9番6号",
+          "note": "ページに「代表電話」の表記はなく、「県庁案内」の番号として掲載"
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "県民の広場（ご意見・ご要望）",
+          "phone": null,
+          "email": null,
+          "form_url": "https://apply.e-tumo.jp/pref-shizuoka-u/offer/offerList_detail?tempSeq=18961",
+          "postal_code": null,
+          "postal_address": null,
+          "hours": null,
+          "source_url": "https://www.pref.shizuoka.jp/kensei/pr/hiroba/index.html",
+          "evidence": "あなたの声をお聴かせください 県民の広場 皆様の県政に対する意見・要望をお受けしています。",
+          "note": "意見はフォームで受付。電話番号は掲載なし"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "県議会事務局 総務課",
+          "phone": "054-221-2552",
+          "email": "gikai_soumu@pref.shizuoka.lg.jp",
+          "form_url": null,
+          "postal_code": "420-8601",
+          "postal_address": "静岡県静岡市葵区追手町9-6",
+          "hours": null,
+          "source_url": "https://www.pref.shizuoka.jp/kensei/introduction/soshiki/1040969/1030690.html",
+          "evidence": "電話番号：054-221-2552 ファクス番号：054-221-3179 gikai_soumu@pref.shizuoka.lg.jp 〒420-8601 静岡市葵区追手町9-6",
+          "note": "FAX 054-221-3179"
+        }
+      ]
+    },
+    {
+      "code": "230006",
+      "name": "愛知県",
+      "official_site": "https://www.pref.aichi.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "052-961-2111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "460-8501",
+          "postal_address": "愛知県名古屋市中区三の丸三丁目1番2号",
+          "hours": "平日 8時45分〜17時30分",
+          "source_url": "https://www.pref.aichi.jp/",
+          "evidence": "Tel： 052-961-2111（代表） 〒460-8501 名古屋市中区三の丸三丁目1番2号 午前8時45分から午後5時30分",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "政策企画局 広報広聴課（県政への御提言）",
+          "phone": null,
+          "email": "koho@pref.aichi.lg.jp",
+          "form_url": "https://ttzk.graffer.jp/pref-aichi/smart-apply/surveys-alias/56819",
+          "postal_code": null,
+          "postal_address": null,
+          "hours": null,
+          "source_url": "https://www.pref.aichi.jp/soshiki/koho/0000043404.html",
+          "evidence": "県政への御提言 担当課：政策企画局広報広聴課 koho@pref.aichi.lg.jp",
+          "note": "御提言は入力フォームで受付。広報広聴課の電話番号は掲載なし。メールは問合せ欄の記載"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "議会事務局 議事課 議事グループ",
+          "phone": "052-954-6739",
+          "email": null,
+          "form_url": null,
+          "postal_code": null,
+          "postal_address": "愛知県名古屋市中区三の丸3-1-2",
+          "hours": null,
+          "source_url": "https://www.pref.aichi.jp/site/gikai/gikai-gaiyo.html",
+          "evidence": "議会事務局議事課 議事グループ 愛知県名古屋市中区三の丸3-1-2 Tel：052-954-6739",
+          "note": "メールはフォームでの問合せ（アドレス掲載なし）"
+        }
+      ]
+    },
+    {
+      "code": "240001",
+      "name": "三重県",
+      "official_site": "https://www.pref.mie.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "電話案内",
+          "phone": "059-224-3070",
+          "email": null,
+          "form_url": null,
+          "postal_code": "514-8570",
+          "postal_address": "三重県津市広明町13番地",
+          "hours": "平日 8時30分〜17時15分",
+          "source_url": "https://www.pref.mie.lg.jp/",
+          "evidence": "〒514-8570 三重県津市広明町13番地 三重県庁 電話案内：059-224-3070 午前8時30分から午後5時15分まで",
+          "note": "「電話案内」として掲載"
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "総務部 広聴広報課 県民の声相談班",
+          "phone": "059-224-2647",
+          "email": "soudan@pref.mie.lg.jp",
+          "form_url": "https://www1.pref.mie.lg.jp/s_form/o_teian.htm",
+          "postal_code": "514-8570",
+          "postal_address": "三重県津市広明町13番地",
+          "hours": null,
+          "source_url": "https://www.pref.mie.lg.jp/NAVI/SAWAYAKA/index.htm",
+          "evidence": "三重県 総務部 広聴広報課 県民の声相談班 電話 059-224-2647 soudan@pref.mie.lg.jp 津市広明町13番地（本庁1階）",
+          "note": "県民の声・さわやか提案箱"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "県議会事務局",
+          "phone": "059-224-2877",
+          "email": "gikaik@pref.mie.lg.jp",
+          "form_url": null,
+          "postal_code": "514-8570",
+          "postal_address": "三重県津市広明町13",
+          "hours": null,
+          "source_url": "https://www.pref.mie.lg.jp/KENGIKAI/index.shtm",
+          "evidence": "県議会事務局 〒514-8570 三重県津市広明町13 電話 059-224-2877 ファクス 059-229-1931 E-mail gikaik@pref.mie.lg.jp",
+          "note": "FAX 059-229-1931"
+        }
+      ]
+    },
+    {
+      "code": "250007",
+      "name": "滋賀県",
+      "official_site": "https://www.pref.shiga.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "総合案内",
+          "phone": "077-528-3993",
+          "email": null,
+          "form_url": null,
+          "postal_code": "520-8577",
+          "postal_address": "滋賀県大津市京町四丁目1番1号",
+          "hours": null,
+          "source_url": "https://www.pref.shiga.lg.jp/",
+          "evidence": "電話番号：077-528-3993（総合案内） 〒520-8577 滋賀県大津市京町四丁目1番1号",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "広報課 県民の声係（県民相談室）",
+          "phone": "077-528-3046",
+          "email": null,
+          "form_url": "https://ttzk.graffer.jp/pref-shiga/smart-apply/surveys/2914887032872126564",
+          "postal_code": null,
+          "postal_address": null,
+          "hours": null,
+          "source_url": "https://www.pref.shiga.lg.jp/hiroba/19874.html",
+          "evidence": "知事への手紙についてのお問い合わせ 滋賀県広報課県民の声係（県民相談室） 電話番号：077-528-3046 FAX番号：077-528-4804",
+          "note": "「知事への手紙」は専用フォームで受付。電話は問い合わせ先。FAX 077-528-4804。ページ記載のメールアドレスでは手紙を受け付けないためメールは null"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "滋賀県議会事務局",
+          "phone": "077-528-4094",
+          "email": "gikai@pref.shiga.lg.jp",
+          "form_url": null,
+          "postal_code": "520-8577",
+          "postal_address": "滋賀県大津市京町四丁目1-1",
+          "hours": null,
+          "source_url": "https://www.shigaken-gikai.jp/reference.asp",
+          "evidence": "電話番号：077-528-4094(直通) 問い合わせ先： 滋賀県議会事務局 住所：〒520-8577 大津市京町四丁目1-1 ファクシミリ： 077-528-4940",
+          "note": "直通。課別は総務課 077-528-4081、議事課 077-528-4091、政策調査課 077-528-4094。FAX 077-528-4940"
+        }
+      ]
+    },
+    {
+      "code": "260002",
+      "name": "京都府",
+      "official_site": "https://www.pref.kyoto.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "075-451-8111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "602-8570",
+          "postal_address": "京都府京都市上京区下立売通新町西入薮ノ内町",
+          "hours": null,
+          "source_url": "https://www.pref.kyoto.jp/",
+          "evidence": "代表電話番号： 075-451-8111 〒602-8570 京都市上京区下立売通新町西入薮ノ内町",
+          "note": "総合お問い合わせ窓口は別番号（075-411-5000）としてトップページに掲載"
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "文化生活部 府民総合案内・相談センター（知事へのさわやか提案）",
+          "phone": "075-414-4234",
+          "email": "huminsougouannai@pref.kyoto.lg.jp",
+          "form_url": "https://apply.e-tumo.jp/pref-kyoto-u/offer/offerList_detail?tempSeq=841",
+          "postal_code": "602-8570",
+          "postal_address": "京都府京都市上京区下立売通新町西入薮ノ内町",
+          "hours": null,
+          "source_url": "https://www.pref.kyoto.jp/teian/",
+          "evidence": "電話番号：075-414-4234 ファックス：075-411-5001 huminsougouannai@pref.kyoto.lg.jp",
+          "note": "知事へのさわやか提案。電話・メールはページの「お問い合わせ」欄の窓口連絡先。提案は電子申請フォーム・FAX（075-411-5001）・郵送で受付"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "京都府議会事務局 総務課 総務係",
+          "phone": "075-414-5515",
+          "email": "gikaisohmu@pref.kyoto.lg.jp",
+          "form_url": null,
+          "postal_code": "602-8570",
+          "postal_address": "京都府京都市上京区下立売通新町西入",
+          "hours": null,
+          "source_url": "https://www.pref.kyoto.jp/gikai/html/joho/otoiawase/index.html",
+          "evidence": "京都府議会事務局総務課総務係 京都市上京区下立売通新町西入 電話番号：075-414-5515 ファックス：075-441-8398",
+          "note": "総務係の直通として 075-414-5521 も掲載。議事課 議事係 075-414-5531、委員会課 調査係 075-414-5541。FAX 075-441-8398（事務局共通）"
+        }
+      ]
+    },
+    {
+      "code": "270008",
+      "name": "大阪府",
+      "official_site": "https://www.pref.osaka.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "06-6941-0351",
+          "email": null,
+          "form_url": null,
+          "postal_code": "540-8570",
+          "postal_address": "大阪府大阪市中央区大手前2丁目",
+          "hours": null,
+          "source_url": "https://www.pref.osaka.lg.jp/",
+          "evidence": "〒540-8570 大阪市中央区大手前2丁目 代表電話番号 06-6941-0351",
+          "note": "本庁・咲洲庁舎共通の代表電話"
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "府政への意見（府民文化部府政情報室広報広聴課広聴グループ）",
+          "phone": "06-6910-8001",
+          "email": null,
+          "form_url": "https://lgpos.task-asp.net/cu/270008/ea/residents/procedures/apply/cc5a8f01-5721-4bb4-8749-0ee4d4d7c40f/start",
+          "postal_code": "540-8570",
+          "postal_address": "大阪府大阪市中央区大手前2丁目",
+          "hours": "9時〜18時（土日祝・年末年始を除く）",
+          "source_url": "https://www.pref.osaka.lg.jp/o070050/fumin/fusei_iken/index.html",
+          "evidence": "電話 06-6910-8001「府民お問合せセンター（ピピっとライン）」 開設時間：9時から18時まで（土日・祝日、年末年始休み）",
+          "note": "電話は府民お問合せセンター（ピピっとライン）が受付（意見以外の問い合わせにも対応）。郵送は「大阪府庁『府政への意見』あて」"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "議会事務局 総務課 総務・調整グループ",
+          "phone": "06-6944-6877",
+          "email": null,
+          "form_url": null,
+          "postal_code": "540-8570",
+          "postal_address": "大阪府大阪市中央区大手前2丁目1-22本館1階",
+          "hours": null,
+          "source_url": "https://www.pref.osaka.lg.jp/annai/soshiki/index3.php?bu_id=15000&ka_id=10256",
+          "evidence": "総務・調整グループ 電話 06-6944-6877 Fax 06-6941-5711 540-8570 大阪府大阪市中央区大手前2丁目1-22本館1階",
+          "note": "議会事務局総務課の代表番号の記載はなく、総務・調整グループの番号を掲載。FAX 06-6941-5711"
+        }
+      ]
+    },
+    {
+      "code": "280003",
+      "name": "兵庫県",
+      "official_site": "https://web.pref.hyogo.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "078-341-7711",
+          "email": null,
+          "form_url": null,
+          "postal_code": "650-8567",
+          "postal_address": "兵庫県神戸市中央区下山手通5丁目10番1号",
+          "hours": null,
+          "source_url": "https://web.pref.hyogo.lg.jp/",
+          "evidence": "078-341-7711（代表） 〒650-8567 兵庫県神戸市中央区下山手通5丁目10番1号",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "総務部秘書広報室 広報広聴課（さわやか提案箱）",
+          "phone": "078-362-3021",
+          "email": "kocho@pref.hyogo.lg.jp",
+          "form_url": "https://web.pref.hyogo.lg.jp/sawayaka/teianbako_goiken.html",
+          "postal_code": null,
+          "postal_address": null,
+          "hours": null,
+          "source_url": "https://web.pref.hyogo.lg.jp/ac20/sawayakateian.html",
+          "evidence": "総務部秘書広報室広報広聴課 電話番号 078-362-3021 kocho@pref.hyogo.lg.jp",
+          "note": "電話・メールはページの「お問い合わせ」欄の窓口連絡先。ご意見は送信フォームで受付"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "兵庫県議会事務局 総務課",
+          "phone": "078-362-3708",
+          "email": "Gikaisoumuka@pref.hyogo.lg.jp",
+          "form_url": null,
+          "postal_code": "650-8567",
+          "postal_address": "兵庫県神戸市中央区下山手通5丁目10番1号",
+          "hours": null,
+          "source_url": "https://web.pref.hyogo.lg.jp/gikai/gaiyo/jimukyoku.html",
+          "evidence": "兵庫県議会事務局 総務課 078-362-3708 Gikaisoumuka@pref.hyogo.lg.jp 〒650-8567 兵庫県神戸市中央区下山手通5丁目10番1号",
+          "note": null
+        }
+      ]
+    },
+    {
+      "code": "290009",
+      "name": "奈良県",
+      "official_site": "https://www.pref.nara.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "fetch_failed",
+          "department": null,
+          "phone": null,
+          "email": null,
+          "form_url": null,
+          "postal_code": null,
+          "postal_address": null,
+          "hours": null,
+          "source_url": "https://www.pref.nara.jp/",
+          "evidence": null,
+          "note": "公式サイトのSSL証明書の有効期限切れ（2026-09-13）でページを開けず確認できなかった"
+        },
+        {
+          "type": "feedback",
+          "agent_status": "fetch_failed",
+          "department": null,
+          "phone": null,
+          "email": null,
+          "form_url": null,
+          "postal_code": null,
+          "postal_address": null,
+          "hours": null,
+          "source_url": "https://www.pref.nara.jp/",
+          "evidence": null,
+          "note": "公式サイトのSSL証明書の有効期限切れ（2026-09-13）でページを開けず確認できなかった"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "fetch_failed",
+          "department": null,
+          "phone": null,
+          "email": null,
+          "form_url": null,
+          "postal_code": null,
+          "postal_address": null,
+          "hours": null,
+          "source_url": "https://www.pref.nara.jp/",
+          "evidence": null,
+          "note": "公式サイトのSSL証明書の有効期限切れ（2026-09-13）でページを開けず確認できなかった"
+        }
+      ]
+    },
+    {
+      "code": "300004",
+      "name": "和歌山県",
+      "official_site": "https://www.pref.wakayama.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "073-432-4111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "640-8585",
+          "postal_address": "和歌山県和歌山市小松原通一丁目1番地",
+          "hours": "平日 9時〜17時45分",
+          "source_url": "https://www.pref.wakayama.lg.jp/",
+          "evidence": "代表電話：073-432-4111 〒640-8585 和歌山市小松原通一丁目1番地 平日午前9時から午後5時45分",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "知事室 広報課（県政ポスト）",
+          "phone": "073-441-2034",
+          "email": "e0002001@pref.wakayama.lg.jp",
+          "form_url": "https://logoform.jp/form/WEVN/1868644",
+          "postal_code": "640-8585",
+          "postal_address": "和歌山県和歌山市小松原通一丁目1番地",
+          "hours": null,
+          "source_url": "https://www.pref.wakayama.lg.jp/prefg/000200/kenseipost.html",
+          "evidence": "和歌山県 知事室 広報課 〒640-8585 和歌山市小松原通一丁目1番地 電話：073-441-2034 FAX：073-423-9500 e0002001@pref.wakayama.lg.jp",
+          "note": "ご意見は入力フォーム・手紙・はがき・FAX（073-423-9500）で受付。電話・メールは広報課へのお問い合わせ先で、電話での意見受付の記載はなし"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "県議会事務局 総務課",
+          "phone": "073-441-3560",
+          "email": "e2001001@pref.wakayama.lg.jp",
+          "form_url": null,
+          "postal_code": null,
+          "postal_address": null,
+          "hours": null,
+          "source_url": "https://www.pref.wakayama.lg.jp/prefg/200100/cms/d00201359.html",
+          "evidence": "総務課 073-441-3560 073-441-3559 e2001001@pref.wakayama.lg.jp",
+          "note": "議事課（請願・陳情等）073-441-3570、政策調査課 073-441-3580。FAX 073-441-3559。ページに住所の記載なし"
+        }
+      ]
+    }
+  ]
+}

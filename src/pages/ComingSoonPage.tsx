@@ -9,7 +9,7 @@ import { PageHead } from '../components/PageHead';
 
 export function ComingSoonPage({ guide }: { guide: GuideMenuItem }) {
   return (
-    <div className="wrap wrap-narrow page">
+    <div className="wrap page prose-page">
       <PageHead title={guide.title} sub={guide.summary}>
         <p>
           <span className="badge badge-muted">準備中</span>

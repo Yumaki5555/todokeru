@@ -1,1 +1,53 @@
-[]
+[
+ {
+  "municipality_code": "280003",
+  "municipality_name": "兵庫県",
+  "contacts": [
+   {
+    "id": "280003-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "078-341-7711",
+    "email": null,
+    "form_url": null,
+    "postal_code": "650-8567",
+    "postal_address": "兵庫県神戸市中央区下山手通5丁目10番1号",
+    "hours": null,
+    "source_url": "https://web.pref.hyogo.lg.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "280003-feedback",
+    "type": "feedback",
+    "department": "総務部秘書広報室 広報広聴課（さわやか提案箱）",
+    "phone": "078-362-3021",
+    "email": "kocho@pref.hyogo.lg.jp",
+    "form_url": "https://web.pref.hyogo.lg.jp/sawayaka/teianbako_goiken.html",
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://web.pref.hyogo.lg.jp/ac20/sawayakateian.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "280003-assembly",
+    "type": "assembly",
+    "department": "兵庫県議会事務局 総務課",
+    "phone": "078-362-3708",
+    "email": "Gikaisoumuka@pref.hyogo.lg.jp",
+    "form_url": null,
+    "postal_code": "650-8567",
+    "postal_address": "兵庫県神戸市中央区下山手通5丁目10番1号",
+    "hours": null,
+    "source_url": "https://web.pref.hyogo.lg.jp/gikai/gaiyo/jimukyoku.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ }
+]

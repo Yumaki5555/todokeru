@@ -1,1 +1,53 @@
-[]
+[
+ {
+  "municipality_code": "250007",
+  "municipality_name": "滋賀県",
+  "contacts": [
+   {
+    "id": "250007-general",
+    "type": "general",
+    "department": "総合案内",
+    "phone": "077-528-3993",
+    "email": null,
+    "form_url": null,
+    "postal_code": "520-8577",
+    "postal_address": "滋賀県大津市京町四丁目1番1号",
+    "hours": null,
+    "source_url": "https://www.pref.shiga.lg.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "250007-feedback",
+    "type": "feedback",
+    "department": "広報課 県民の声係（県民相談室）",
+    "phone": "077-528-3046",
+    "email": null,
+    "form_url": "https://ttzk.graffer.jp/pref-shiga/smart-apply/surveys/2914887032872126564",
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.pref.shiga.lg.jp/hiroba/19874.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "250007-assembly",
+    "type": "assembly",
+    "department": "滋賀県議会事務局",
+    "phone": "077-528-4094",
+    "email": "gikai@pref.shiga.lg.jp",
+    "form_url": null,
+    "postal_code": "520-8577",
+    "postal_address": "滋賀県大津市京町四丁目1-1",
+    "hours": null,
+    "source_url": "https://www.shigaken-gikai.jp/reference.asp",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ }
+]

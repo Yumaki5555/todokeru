@@ -1,0 +1,398 @@
+{
+  "batch": "pref-05",
+  "researched_at": "2026-11-01",
+  "entities": [
+    {
+      "code": "400009",
+      "name": "福岡県",
+      "official_site": "https://www.pref.fukuoka.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "092-651-1111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "812-8577",
+          "postal_address": "福岡県福岡市博多区東公園7番7号",
+          "hours": null,
+          "source_url": "https://www.pref.fukuoka.lg.jp/",
+          "evidence": "〒812-8577福岡県福岡市博多区東公園7番7号 代表電話：092-651-1111",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "総務部 県民情報広報課 広聴係",
+          "phone": "092-643-3103",
+          "email": "kenjo@pref.fukuoka.lg.jp",
+          "form_url": null,
+          "postal_code": "812-8577",
+          "postal_address": "福岡県福岡市博多区東公園7-7",
+          "hours": null,
+          "source_url": "https://www.pref.fukuoka.lg.jp/contents/kenminsoudan.html",
+          "evidence": "総務部県民情報広報課広聴係 Tel：092-643-3103 Fax：092-643-3107 kenjo@pref.fukuoka.lg.jp",
+          "note": "県民相談室（県庁行政棟1階）の電話は092-643-3333。意見は「県民の声」の入力フォームでも受付"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "議会事務局 総務課",
+          "phone": "092-643-3823",
+          "email": "gchosa2@pref.fukuoka.lg.jp",
+          "form_url": null,
+          "postal_code": "812-8574",
+          "postal_address": "福岡県福岡市博多区東公園7-7",
+          "hours": null,
+          "source_url": "https://www.gikai.pref.fukuoka.lg.jp/site/aramashi/jimukyoku.html",
+          "evidence": "総務課（電話番号：092－643－3823） 〒812-8574 福岡県福岡市博多区東公園7-7 E-mail:gchosa2@pref.fukuoka.lg.jp",
+          "note": "議事課は092-643-3827、調査課は092-643-3832"
+        }
+      ]
+    },
+    {
+      "code": "410004",
+      "name": "佐賀県",
+      "official_site": "https://www.pref.saga.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "0952-24-2111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "840-8570",
+          "postal_address": "佐賀県佐賀市城内1丁目1-59",
+          "hours": null,
+          "source_url": "https://www.pref.saga.lg.jp/",
+          "evidence": "〒840-8570 佐賀市城内1丁目1-59 Tel:0952-24-2111（代表）",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "政策部 広報広聴課（広聴担当）",
+          "phone": "0952-25-7351",
+          "email": "kouhou-kouchou@pref.saga.lg.jp",
+          "form_url": "https://www.pref.saga.lg.jp/kiji003913/index.html",
+          "postal_code": null,
+          "postal_address": null,
+          "hours": null,
+          "source_url": "https://www.pref.saga.lg.jp/kiji00336883/index.html",
+          "evidence": "広報広聴課 新館5階 (広聴担当)0952-25-7351 kouhou-kouchou@pref.saga.lg.jp",
+          "note": "意見はホームページの「意見投稿」からも受付"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "県議会事務局 総務課",
+          "phone": "0952-25-7215",
+          "email": "gikai@pref.saga.lg.jp",
+          "form_url": null,
+          "postal_code": "840-8570",
+          "postal_address": "佐賀県佐賀市城内1丁目1-45",
+          "hours": null,
+          "source_url": "https://www.pref.saga.lg.jp/gikai/default.html",
+          "evidence": "佐賀県議会事務局 〒840-8570 佐賀市城内1丁目1-45 (総務課)TEL：0952-25-7215 メール(共通)：gikai@pref.saga.lg.jp",
+          "note": "議事課は0952-25-7216、政務調査課は0952-25-7306"
+        }
+      ]
+    },
+    {
+      "code": "420000",
+      "name": "長崎県",
+      "official_site": "https://www.pref.nagasaki.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "095-824-1111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "850-8570",
+          "postal_address": "長崎県長崎市尾上町3-1",
+          "hours": null,
+          "source_url": "https://www.pref.nagasaki.jp/",
+          "evidence": "〒850-8570 長崎市尾上町3-1 電話 095-824-1111（代表）",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "県民センター",
+          "phone": "095-894-3441",
+          "email": null,
+          "form_url": "https://apply.e-tumo.jp/pref-nagasaki-u/offer/offerList_detail.action?tempSeq=1318",
+          "postal_code": "850-8570",
+          "postal_address": "長崎県長崎市尾上町3番1号",
+          "hours": null,
+          "source_url": "https://www.pref.nagasaki.jp/bunrui/kenseijoho/kocho-iken-koe/teian-iken/iken-sodan/",
+          "evidence": "県民センター 郵便番号850-8570 長崎県長崎市尾上町3番1号 電話番号 095-894-3441",
+          "note": "県政相談コーナーは県庁代表（095-824-1111）に電話し「県政相談コーナー」と伝えて取り次ぎ"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "議会事務局",
+          "phone": "095-894-3622",
+          "email": "s30000@pref.nagasaki.lg.jp",
+          "form_url": null,
+          "postal_code": "850-8570",
+          "postal_address": "長崎県長崎市尾上町3番1号",
+          "hours": null,
+          "source_url": "https://www.pref.nagasaki.jp/organization/gikai/",
+          "evidence": "議会事務局 郵便番号850-8570 長崎県長崎市尾上町3番1号 電話番号 095-894-3622 議会事務局のメールアドレス：s30000@pref.nagasaki.lg.jp",
+          "note": "議事課は095-894-3632、政務調査課は095-894-3634"
+        }
+      ]
+    },
+    {
+      "code": "430005",
+      "name": "熊本県",
+      "official_site": "https://www.pref.kumamoto.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "096-383-1111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "862-8570",
+          "postal_address": "熊本県熊本市中央区水前寺6丁目18番1号",
+          "hours": null,
+          "source_url": "https://www.pref.kumamoto.jp/soshiki/",
+          "evidence": "〒862-8570 熊本県熊本市中央区水前寺6丁目18番1号 Tel：096-383-1111（代表）",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "広報課 報道・広聴班",
+          "phone": "096-333-2026",
+          "email": null,
+          "form_url": "https://www.pref.kumamoto.jp/form/detail.php?sec_sec1=1",
+          "postal_code": "862-8570",
+          "postal_address": "熊本県熊本市中央区水前寺6丁目18番1号",
+          "hours": null,
+          "source_url": "https://www.pref.kumamoto.jp/soshiki/1/",
+          "evidence": "Tel：096-333-2026報道・広聴班 Fax：096-386-2040 メールでのお問い合わせはこちら",
+          "note": "広聴は広報課の業務。フォームは広報課宛てのメールでの問い合わせ用"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "議会事務局",
+          "phone": "096-333-2614",
+          "email": null,
+          "form_url": "https://www.pref.kumamoto.jp/form/detail.php?sec_sec1=154",
+          "postal_code": "862-8570",
+          "postal_address": "熊本県熊本市中央区水前寺6丁目18番1号",
+          "hours": null,
+          "source_url": "https://www.pref.kumamoto.jp/site/gikai/",
+          "evidence": "議会事務局Tel:096-333-2614 Fax:096-384-8896 熊本県庁〒862-8570 熊本県熊本市中央区水前寺6丁目18番1号",
+          "note": "住所は県庁の表記。フォームは議会事務局へのメールでの問い合わせ用"
+        }
+      ]
+    },
+    {
+      "code": "440001",
+      "name": "大分県",
+      "official_site": "https://www.pref.oita.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "097-536-1111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "870-8501",
+          "postal_address": "大分県大分市大手町3丁目1番1号",
+          "hours": "8時30分〜17時15分（土日・祝日・年末年始を除く）",
+          "source_url": "https://www.pref.oita.jp/",
+          "evidence": "〒870-8501 大分市大手町3丁目1番1号 電話番号：097-536-1111（代表） 開庁時間 8時30分から17時15分まで、土日・祝日・年末年始を除く",
+          "note": "時間は県庁の開庁時間"
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "広報広聴課（広聴班）",
+          "phone": "097-506-2096",
+          "email": "a10400@pref.oita.lg.jp",
+          "form_url": "https://www.pref.oita.jp/ques/questionnaire.php?openid=1000007",
+          "postal_code": "870-8501",
+          "postal_address": "大分県大分市大手町3丁目1番1号",
+          "hours": null,
+          "source_url": "https://www.pref.oita.jp/site/koucyou/",
+          "evidence": "【電話】097-506-2096、2099、2191（広聴専用） 【ファクシミリ】097-506-1726 〒870-8501 大分県大分市大手町3丁目1番1号",
+          "note": "電話は097-506-2099・097-506-2191も広聴専用。書面・電話・FAX・電子メール・入力フォームで受付"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "議会事務局",
+          "phone": "097-506-5019",
+          "email": null,
+          "form_url": null,
+          "postal_code": "870-0022",
+          "postal_address": "大分県大分市大手町3丁目1番1号",
+          "hours": null,
+          "source_url": "https://www.pref.oita.jp/site/gikai/",
+          "evidence": "Tel：097-506-5019 Fax：097-506-1785 〒870-0022 大分県大分市大手町3丁目1番1号 （大分県庁舎新館）",
+          "note": "大分県庁舎新館。請願・陳情の手続は同サイト内の案内ページに掲載"
+        }
+      ]
+    },
+    {
+      "code": "450006",
+      "name": "宮崎県",
+      "official_site": "https://www.pref.miyazaki.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "窓口案内電話",
+          "phone": "0985-26-7111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "880-8501",
+          "postal_address": "宮崎県宮崎市橘通東2丁目10番1号",
+          "hours": "平日 8時30分〜17時15分",
+          "source_url": "https://www.pref.miyazaki.lg.jp/kohosenryaku/kense/koho/index-07.html",
+          "evidence": "窓口案内電話(0985-26-7111) 平日8時30分～17時15分 〒880-8501 宮崎県宮崎市橘通東2丁目10番1号",
+          "note": "担当課が分からないときの県の窓口案内電話"
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "総合政策部 秘書広報課 広報戦略室「県民の声」担当",
+          "phone": "0985-26-7025",
+          "email": "kohosenryaku@pref.miyazaki.lg.jp",
+          "form_url": "https://ttzk.graffer.jp/pref-miyazaki/smart-apply/surveys-alias/kenminnokoe",
+          "postal_code": "880-8501",
+          "postal_address": "宮崎県宮崎市橘通東2丁目10番1号",
+          "hours": "午前8時30分から午後5時15分（閉庁日を除く）",
+          "source_url": "https://www.pref.miyazaki.lg.jp/kense/koho/kenminnokoe/koe_page/index.html",
+          "evidence": "電話番号：0985-26-7025 受付時間：午前8時30分から午後5時15分（閉庁日を除く。) メールアドレス：kohosenryaku@pref.miyazaki.lg.jp",
+          "note": "メール提言フォーム・封書・はがき・電話で受付"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "議会事務局 総務課",
+          "phone": "0985-26-7215",
+          "email": "gikai-somu@pref.miyazaki.lg.jp",
+          "form_url": null,
+          "postal_code": "880-8501",
+          "postal_address": "宮崎県宮崎市橘通東2-10-1",
+          "hours": null,
+          "source_url": "https://www.pref.miyazaki.lg.jp/gikai/others/inquiry.html",
+          "evidence": "〒880-8501 宮崎市橘通東2-10-1 （総務課）（0985）26-7215 E-MAIL（総務課）gikai-somu@pref.miyazaki.lg.jp",
+          "note": "議事課は0985-26-7216、政策調査課は0985-26-7217"
+        }
+      ]
+    },
+    {
+      "code": "460001",
+      "name": "鹿児島県",
+      "official_site": "https://www.pref.kagoshima.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "099-286-2111",
+          "email": null,
+          "form_url": null,
+          "postal_code": "890-8577",
+          "postal_address": "鹿児島県鹿児島市鴨池新町10番1号",
+          "hours": null,
+          "source_url": "https://www.pref.kagoshima.jp/",
+          "evidence": "代表電話番号 099-286-2111 〒890-8577 鹿児島県鹿児島市鴨池新町10番1号",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "県庁 広報課",
+          "phone": "099-286-2093",
+          "email": "kohoka@pref.kagoshima.lg.jp",
+          "form_url": null,
+          "postal_code": "890-8577",
+          "postal_address": "鹿児島県鹿児島市鴨池新町10-1",
+          "hours": null,
+          "source_url": "https://www.pref.kagoshima.jp/aa02/otoiawase.html",
+          "evidence": "県庁広報課 鹿児島市鴨池新町10-1 099-286-2093 kohoka@pref.kagoshima.lg.jp",
+          "note": "県政に関するご意見・相談・要望の窓口。各地域振興局・支庁の総務企画課でも受付"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "議会事務局 総務課",
+          "phone": "099-286-5013",
+          "email": "gikai001@pref.kagoshima.lg.jp",
+          "form_url": null,
+          "postal_code": "890-8577",
+          "postal_address": "鹿児島県鹿児島市鴨池新町10番1号",
+          "hours": null,
+          "source_url": "https://www.pref.kagoshima.jp/gikai/toiawase.html",
+          "evidence": "総務課 電話番号：099-286-5013 gikai001@pref.kagoshima.lg.jp 〒890-8577 鹿児島県鹿児島市鴨池新町10番1号",
+          "note": "議事課は099-286-5033、政務調査課は099-286-5043"
+        }
+      ]
+    },
+    {
+      "code": "470007",
+      "name": "沖縄県",
+      "official_site": "https://www.pref.okinawa.lg.jp/",
+      "contacts": [
+        {
+          "type": "general",
+          "agent_status": "found",
+          "department": "代表電話",
+          "phone": "098-866-2333",
+          "email": null,
+          "form_url": null,
+          "postal_code": "900-8570",
+          "postal_address": "沖縄県那覇市泉崎1-2-2",
+          "hours": null,
+          "source_url": "https://www.pref.okinawa.lg.jp/",
+          "evidence": "〒900-8570 沖縄県那覇市泉崎1-2-2 代表電話：098-866-2333",
+          "note": null
+        },
+        {
+          "type": "feedback",
+          "agent_status": "found",
+          "department": "知事公室 広報課（県民ご意見箱）",
+          "phone": "098-866-2020",
+          "email": "kouhou@pref.okinawa.lg.jp",
+          "form_url": "https://enq.pref.okinawa.lg.jp/cgi-bin/contacts/G010020010",
+          "postal_code": "900-8570",
+          "postal_address": "沖縄県那覇市泉崎1-2-2",
+          "hours": null,
+          "source_url": "https://www.pref.okinawa.lg.jp/kensei/kochokoho/1014932/1015136/1015137.html",
+          "evidence": "電話：098-866-2020 ファクス：098-866-2467 kouhou@pref.okinawa.lg.jp 知事公室 広報課「県民ご意見箱」宛",
+          "note": "意見箱への投函・郵送・FAX・Eメール・専用フォームで受付。メールの件名に「県民ご意見箱」と記載"
+        },
+        {
+          "type": "assembly",
+          "agent_status": "found",
+          "department": "沖縄県議会事務局",
+          "phone": "098-866-2572",
+          "email": null,
+          "form_url": "https://enq.pref.okinawa.lg.jp/cgi-bin/enquetes/cac03410790c4da093bb305e3f8cc1ae",
+          "postal_code": "900-8501",
+          "postal_address": "沖縄県那覇市泉崎1-2-3",
+          "hours": null,
+          "source_url": "https://www.pref.okinawa.lg.jp/kensei/gikai/index.html",
+          "evidence": "沖縄県議会事務局 〒900-8501 沖縄県那覇市泉崎1-2-3 電話：098-866-2572 ファクス：098-866-2350",
+          "note": "請願・陳情の案内ページあり。フォームは議会事務局への問い合わせ用"
+        }
+      ]
+    }
+  ]
+}

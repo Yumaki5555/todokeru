@@ -1,1 +1,53 @@
-[]
+[
+ {
+  "municipality_code": "260002",
+  "municipality_name": "京都府",
+  "contacts": [
+   {
+    "id": "260002-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "075-451-8111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "602-8570",
+    "postal_address": "京都府京都市上京区下立売通新町西入薮ノ内町",
+    "hours": null,
+    "source_url": "https://www.pref.kyoto.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "260002-feedback",
+    "type": "feedback",
+    "department": "文化生活部 府民総合案内・相談センター（知事へのさわやか提案）",
+    "phone": "075-414-4234",
+    "email": "huminsougouannai@pref.kyoto.lg.jp",
+    "form_url": "https://apply.e-tumo.jp/pref-kyoto-u/offer/offerList_detail?tempSeq=841",
+    "postal_code": "602-8570",
+    "postal_address": "京都府京都市上京区下立売通新町西入薮ノ内町",
+    "hours": null,
+    "source_url": "https://www.pref.kyoto.jp/teian/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "260002-assembly",
+    "type": "assembly",
+    "department": "京都府議会事務局 総務課 総務係",
+    "phone": "075-414-5515",
+    "email": "gikaisohmu@pref.kyoto.lg.jp",
+    "form_url": null,
+    "postal_code": "602-8570",
+    "postal_address": "京都府京都市上京区下立売通新町西入",
+    "hours": null,
+    "source_url": "https://www.pref.kyoto.jp/gikai/html/joho/otoiawase/index.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ }
+]

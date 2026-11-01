@@ -1,1 +1,53 @@
-[]
+[
+ {
+  "municipality_code": "380008",
+  "municipality_name": "愛媛県",
+  "contacts": [
+   {
+    "id": "380008-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "089-941-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "790-8570",
+    "postal_address": "愛媛県松山市一番町4丁目4-2",
+    "hours": null,
+    "source_url": "https://www.pref.ehime.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "380008-feedback",
+    "type": "feedback",
+    "department": "企画振興部 広報広聴課（知事への政策提言）",
+    "phone": null,
+    "email": "chijimail@pref.ehime.lg.jp",
+    "form_url": "https://www.pref.ehime.jp/ques/questionnaire.php?openid=21",
+    "postal_code": "790-8570",
+    "postal_address": "愛媛県松山市一番町4-4-2",
+    "hours": null,
+    "source_url": "https://www.pref.ehime.jp/site/chiji/10584.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "380008-assembly",
+    "type": "assembly",
+    "department": "愛媛県議会",
+    "phone": "089-912-2835",
+    "email": null,
+    "form_url": "https://www.pref.ehime.jp/form/detail.php?sec_sec1=125",
+    "postal_code": "790-8570",
+    "postal_address": "愛媛県松山市一番町4丁目4-2",
+    "hours": null,
+    "source_url": "https://www.pref.ehime.jp/site/gikai/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ }
+]

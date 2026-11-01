@@ -1,1 +1,764 @@
-[]
+[
+ {
+  "agency_id": "cas",
+  "agency_name": "内閣官房",
+  "contacts": [
+   {
+    "id": "cas-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "03-5253-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "100-8968",
+    "postal_address": "東京都千代田区永田町1-6-1",
+    "hours": null,
+    "source_url": "https://www.cas.go.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "cas-feedback",
+    "type": "feedback",
+    "department": "ご意見・ご要望",
+    "phone": null,
+    "email": null,
+    "form_url": "https://www.kantei.go.jp/jp/forms/cas_goiken.html",
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.cas.go.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ },
+ {
+  "agency_id": "cao",
+  "agency_name": "内閣府",
+  "contacts": [
+   {
+    "id": "cao-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "03-5253-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "100-8914",
+    "postal_address": "東京都千代田区永田町1-6-1",
+    "hours": null,
+    "source_url": "https://www.cao.go.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "cao-feedback",
+    "type": "feedback",
+    "department": "御意見・御感想",
+    "phone": null,
+    "email": null,
+    "form_url": "https://form.cao.go.jp/cao/opinion-0001.html",
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.cao.go.jp/goiken.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ },
+ {
+  "agency_id": "digital",
+  "agency_name": "デジタル庁",
+  "contacts": [
+   {
+    "id": "digital-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "03-4477-6775",
+    "email": null,
+    "form_url": null,
+    "postal_code": "102-0094",
+    "postal_address": "東京都千代田区紀尾井町1-3 東京ガーデンテラス紀尾井町",
+    "hours": null,
+    "source_url": "https://www.digital.go.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "digital-feedback",
+    "type": "feedback",
+    "department": "ご意見・ご要望",
+    "phone": null,
+    "email": null,
+    "form_url": "https://forms.office.com/r/QVZ0HSP6Se",
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.digital.go.jp/contact",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ },
+ {
+  "agency_id": "reconstruction",
+  "agency_name": "復興庁",
+  "contacts": [
+   {
+    "id": "reconstruction-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "03-6328-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "100-0013",
+    "postal_address": "東京都千代田区霞が関3-1-1 中央合同庁舎4号館",
+    "hours": null,
+    "source_url": "https://www.reconstruction.go.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "reconstruction-feedback",
+    "type": "feedback",
+    "department": "ご意見・お問合せ",
+    "phone": null,
+    "email": null,
+    "form_url": "https://www.reconstruction.go.jp/enquete/opinion/enquete/",
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.reconstruction.go.jp/enquete/opinion/enquete/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ },
+ {
+  "agency_id": "soumu",
+  "agency_name": "総務省",
+  "contacts": [
+   {
+    "id": "soumu-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "03-5253-5111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "100-8926",
+    "postal_address": "東京都千代田区霞が関2-1-2",
+    "hours": null,
+    "source_url": "https://www.soumu.go.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "soumu-feedback",
+    "type": "feedback",
+    "department": "ご意見・ご要望",
+    "phone": null,
+    "email": null,
+    "form_url": "https://www.soumu.go.jp/form/common/opinions.html",
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.soumu.go.jp/form/common/opinions.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ },
+ {
+  "agency_id": "moj",
+  "agency_name": "法務省",
+  "contacts": [
+   {
+    "id": "moj-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "03-3580-4111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "100-8977",
+    "postal_address": "東京都千代田区霞が関1-1-1",
+    "hours": null,
+    "source_url": "https://www.moj.go.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "moj-feedback",
+    "type": "feedback",
+    "department": "ご意見・ご提案",
+    "phone": null,
+    "email": null,
+    "form_url": "https://www.moj.go.jp/mojmail/kouhouinput.php",
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.moj.go.jp/mail.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ },
+ {
+  "agency_id": "mofa",
+  "agency_name": "外務省",
+  "contacts": [
+   {
+    "id": "mofa-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "03-3580-3311",
+    "email": null,
+    "form_url": null,
+    "postal_code": "100-8919",
+    "postal_address": "東京都千代田区霞が関2-2-1",
+    "hours": null,
+    "source_url": "https://www.mofa.go.jp/mofaj/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "mofa-feedback",
+    "type": "feedback",
+    "department": "御意見・御感想（投稿フォーム）",
+    "phone": null,
+    "email": null,
+    "form_url": "https://www2.contact.mofa.go.jp/form/pub/mofaj/feedback",
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.mofa.go.jp/mofaj/comment/index.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": "個々の投稿への回答は基本的に行っていないと案内されています。"
+   }
+  ]
+ },
+ {
+  "agency_id": "mof",
+  "agency_name": "財務省",
+  "contacts": [
+   {
+    "id": "mof-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "03-3581-4111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "100-8940",
+    "postal_address": "東京都千代田区霞が関3-1-1",
+    "hours": null,
+    "source_url": "https://www.mof.go.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "mof-feedback",
+    "type": "feedback",
+    "department": "ご意見箱",
+    "phone": null,
+    "email": null,
+    "form_url": "https://www2.mof.go.jp/enquete/ja/index.php",
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.mof.go.jp/application-contact/feedback/index.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ },
+ {
+  "agency_id": "mext",
+  "agency_name": "文部科学省",
+  "contacts": [
+   {
+    "id": "mext-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "03-5253-4111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "100-8959",
+    "postal_address": "東京都千代田区霞が関3丁目2番2号",
+    "hours": null,
+    "source_url": "https://www.mext.go.jp/b_menu/soshiki2/map.htm",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "mext-feedback",
+    "type": "feedback",
+    "department": "大臣官房政策課広報室（御意見・お問合せ窓口案内）",
+    "phone": "03-5253-4111",
+    "email": null,
+    "form_url": "https://www.mext.go.jp/mail/",
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.mext.go.jp/mail/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
+   }
+  ]
+ },
+ {
+  "agency_id": "mhlw",
+  "agency_name": "厚生労働省",
+  "contacts": [
+   {
+    "id": "mhlw-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "03-5253-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "100-8916",
+    "postal_address": "東京都千代田区霞が関1-2-2",
+    "hours": null,
+    "source_url": "https://www.mhlw.go.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "mhlw-feedback",
+    "type": "feedback",
+    "department": "「国民の皆様の声」募集 送信フォーム",
+    "phone": null,
+    "email": null,
+    "form_url": "https://www.mhlw.go.jp/form/pub/mhlw01/getmail",
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.mhlw.go.jp/form/pub/mhlw01/getmail",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ },
+ {
+  "agency_id": "maff",
+  "agency_name": "農林水産省",
+  "contacts": [
+   {
+    "id": "maff-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "03-3502-8111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "100-8950",
+    "postal_address": "東京都千代田区霞が関1-2-1",
+    "hours": null,
+    "source_url": "https://www.maff.go.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "maff-feedback",
+    "type": "feedback",
+    "department": "ご意見・お問い合わせ窓口（農林水産省総合窓口）",
+    "phone": null,
+    "email": null,
+    "form_url": "https://www.contactus.maff.go.jp/voice/sogo.html",
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.maff.go.jp/j/apply/recp/index.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ },
+ {
+  "agency_id": "meti",
+  "agency_name": "経済産業省",
+  "contacts": [
+   {
+    "id": "meti-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "03-3501-1511",
+    "email": null,
+    "form_url": null,
+    "postal_code": "100-8901",
+    "postal_address": "東京都千代田区霞が関1-3-1",
+    "hours": null,
+    "source_url": "https://www.meti.go.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "meti-feedback",
+    "type": "feedback",
+    "department": "ご意見・お問合せ（フォーム）",
+    "phone": null,
+    "email": null,
+    "form_url": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=_6DkBnJJi0qvMEVxNh0TRJZ9UdE196xGtkhBLIBRPNxUREJLMEpBVUhRWFIwQzg2VkMxR0k1U0M5UC4u",
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.meti.go.jp/contact/contact.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": "受付フォームは Microsoft Forms です（経済産業省の公式ページからリンク）。"
+   }
+  ]
+ },
+ {
+  "agency_id": "mlit",
+  "agency_name": "国土交通省",
+  "contacts": [
+   {
+    "id": "mlit-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "03-5253-8111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "100-8918",
+    "postal_address": "東京都千代田区霞が関2-1-3 中央合同庁舎3号館",
+    "hours": null,
+    "source_url": "https://www.mlit.go.jp/page/kanbo01_hy_002598.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "mlit-feedback",
+    "type": "feedback",
+    "department": "国土交通ホットラインステーション",
+    "phone": "03-5253-4150",
+    "email": null,
+    "form_url": "https://www.mlit.go.jp/hotline/u_hotline_1503.html",
+    "postal_code": "100-8918",
+    "postal_address": "東京都千代田区霞が関2-1-3",
+    "hours": "平日 10時～17時（投稿フォーム、ファックスは毎日24時間受付）",
+    "source_url": "https://www.mlit.go.jp/hotline/u_hotline_1503.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ },
+ {
+  "agency_id": "env",
+  "agency_name": "環境省",
+  "contacts": [
+   {
+    "id": "env-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "03-3581-3351",
+    "email": null,
+    "form_url": null,
+    "postal_code": "100-8975",
+    "postal_address": "東京都千代田区霞が関1-2-2 中央合同庁舎5号館",
+    "hours": null,
+    "source_url": "https://www.env.go.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "env-feedback",
+    "type": "feedback",
+    "department": "環境省政策評価 ご意見・ご要望（御意見・問い合わせ）",
+    "phone": null,
+    "email": null,
+    "form_url": "https://www.env.go.jp/moe-mail.html",
+    "postal_code": "100-8975",
+    "postal_address": "東京都千代田区霞が関1-2-2",
+    "hours": null,
+    "source_url": "https://www.env.go.jp/guide/seisaku/moe.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ },
+ {
+  "agency_id": "mod",
+  "agency_name": "防衛省",
+  "contacts": [
+   {
+    "id": "mod-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "03-5366-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "162-8801",
+    "postal_address": "東京都新宿区市谷本村町5-1",
+    "hours": null,
+    "source_url": "https://www.mod.go.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "mod-feedback",
+    "type": "feedback",
+    "department": "防衛省・自衛隊に対する御意見箱",
+    "phone": null,
+    "email": null,
+    "form_url": "https://www.mod.go.jp/j/form/goikenbako.html",
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.mod.go.jp/j/form/goikenbako.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": "原則として回答はしないと案内されています。"
+   }
+  ]
+ },
+ {
+  "agency_id": "npa",
+  "agency_name": "警察庁",
+  "contacts": [
+   {
+    "id": "npa-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "03-3581-0141",
+    "email": null,
+    "form_url": null,
+    "postal_code": "100-8974",
+    "postal_address": "東京都千代田区霞が関2丁目1番2号",
+    "hours": null,
+    "source_url": "https://www.npa.go.jp/about/overview/map.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "npa-feedback",
+    "type": "feedback",
+    "department": "広聴・ご意見窓口",
+    "phone": null,
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.npa.go.jp/goiken_index.html",
+    "verified_at": "2026-11-01",
+    "status": "unavailable",
+    "note": "公式ページの案内：メンテナンスのため、警察庁ご意見箱の運用を一時的に停止しております。"
+   }
+  ]
+ },
+ {
+  "agency_id": "cfa",
+  "agency_name": "こども家庭庁",
+  "contacts": [
+   {
+    "id": "cfa-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "03-6771-8030",
+    "email": null,
+    "form_url": null,
+    "postal_code": "100-6090",
+    "postal_address": "東京都千代田区霞が関3-2-5 霞が関ビルディング14階、20階、21階、22階",
+    "hours": null,
+    "source_url": "https://www.cfa.go.jp/about/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "cfa-feedback",
+    "type": "feedback",
+    "department": "ご意見・ご要望",
+    "phone": null,
+    "email": null,
+    "form_url": "https://www.cfa.go.jp/contact",
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.cfa.go.jp/contact",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ },
+ {
+  "agency_id": "caa",
+  "agency_name": "消費者庁",
+  "contacts": [
+   {
+    "id": "caa-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "03-3507-8800",
+    "email": null,
+    "form_url": null,
+    "postal_code": "100-8958",
+    "postal_address": "東京都千代田区霞が関3-1-1 中央合同庁舎第4号館",
+    "hours": null,
+    "source_url": "https://www.caa.go.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "caa-feedback",
+    "type": "feedback",
+    "department": "本ウェブサイトについてのご意見・ご感想",
+    "phone": null,
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.caa.go.jp/contact/",
+    "verified_at": null,
+    "status": "unverified",
+    "note": null
+   }
+  ]
+ },
+ {
+  "agency_id": "fsa",
+  "agency_name": "金融庁",
+  "contacts": [
+   {
+    "id": "fsa-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "03-3506-6000",
+    "email": null,
+    "form_url": null,
+    "postal_code": "100-8967",
+    "postal_address": "東京都千代田区霞が関3-2-1 中央合同庁舎第7号館",
+    "hours": null,
+    "source_url": "https://www.fsa.go.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "fsa-feedback",
+    "type": "feedback",
+    "department": "インターネット情報受付窓口（御意見・問い合わせ）",
+    "phone": null,
+    "email": null,
+    "form_url": "https://www.fsa.go.jp/opinion/",
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.fsa.go.jp/opinion/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ },
+ {
+  "agency_id": "isa",
+  "agency_name": "出入国在留管理庁",
+  "contacts": [
+   {
+    "id": "isa-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "045-370-9755",
+    "email": null,
+    "form_url": null,
+    "postal_code": "100-8973",
+    "postal_address": "東京都千代田区霞が関1-1-1 中央合同庁舎6号館",
+    "hours": null,
+    "source_url": "https://www.moj.go.jp/isa/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "isa-feedback",
+    "type": "feedback",
+    "department": "外国人との共生施策に係る御意見・御要望（御意見箱）",
+    "phone": null,
+    "email": null,
+    "form_url": "https://www.isa.go.jp/opinion/ja/",
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.moj.go.jp/isa/support/opinion.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ },
+ {
+  "agency_id": "shugiin",
+  "agency_name": "衆議院",
+  "contacts": [
+   {
+    "id": "shugiin-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "03-3581-5111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "100-0014",
+    "postal_address": "東京都千代田区永田町1-7-1",
+    "hours": null,
+    "source_url": "https://www.shugiin.go.jp/internet/index.nsf/html/index.htm",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ },
+ {
+  "agency_id": "sangiin",
+  "agency_name": "参議院",
+  "contacts": [
+   {
+    "id": "sangiin-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "03-3581-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "100-0014",
+    "postal_address": "東京都千代田区永田町1-7-1",
+    "hours": null,
+    "source_url": "https://www.sangiin.go.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ }
+]

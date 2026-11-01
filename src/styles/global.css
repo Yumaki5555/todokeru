@@ -25,8 +25,10 @@
   --fs-body: 1.0625rem;
   --fs-small: 0.9375rem;
   --lh: 1.8;
-  /* すき間・角 */
+  /* すき間・角・幅 */
   --gutter: 16px;
+  --page-max: 1024px; /* 全ページ共通の中身の最大幅（ヘッダー・本文・フッターの左右の線をそろえる） */
+  --read-max: 46.5rem; /* 長文を読みやすくする内側の最大幅（約744px） */
   --radius: 12px;
   --radius-sm: 8px;
 }
@@ -116,14 +118,15 @@ a:hover {
 
 .wrap {
   width: 100%;
-  max-width: 64rem;
+  max-width: calc(var(--page-max) + 2 * var(--gutter));
   margin-inline: auto;
   padding-left: max(var(--gutter), env(safe-area-inset-left, 0px));
   padding-right: max(var(--gutter), env(safe-area-inset-right, 0px));
 }
 
-.wrap-narrow {
-  max-width: 48rem;
+/* 長文の段落は内側だけ幅をおさえる（左の開始位置はページ全体とそろえたまま） */
+.prose {
+  max-width: var(--read-max);
 }
 
 .muted {
@@ -701,7 +704,8 @@ p.lead {
 .menu-name,
 .seg button,
 .call-flow b,
-.kind-chips li {
+.finder-way-text b,
+.act-label {
   word-break: keep-all;
 }
 
@@ -1179,27 +1183,10 @@ p.lead {
 }
 
 /* ---- 全国の窓口を探す（横長のカード） ---- */
-.finder-card {
-  display: grid;
-  grid-template-columns: auto minmax(0, 1fr) auto;
-  align-items: center;
-  gap: 14px;
-  padding: 16px;
-  border: 2px solid var(--c-main);
-  border-radius: 16px;
-  background: linear-gradient(90deg, var(--c-main-tint), #fff);
-  color: var(--c-text);
-  text-decoration: none;
 }
 
-.finder-card:hover {
-  background: var(--c-main-tint);
-  color: var(--c-text);
 }
 
-.finder-card h2 {
-  font-size: clamp(1.25rem, 1.1rem + 0.8vw, 1.5rem);
-  color: var(--c-main-deep);
 }
 
 .finder-card-icon {
@@ -1217,45 +1204,16 @@ p.lead {
   height: 30px;
 }
 
-.finder-card-go {
-  color: var(--c-main);
 }
 
-.finder-card-go .icon {
-  width: 28px;
-  height: 28px;
 }
 
-.finder-card .kind-chips {
-  margin-top: 6px;
 }
 
-/* 国の機関・都道府県・市区町村・議会のアイコンつきラベル */
-.kind-chips {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
 }
 
-.kind-chips li {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  padding: 2px 10px 2px 8px;
-  border-radius: 999px;
-  background: #fff;
-  border: 1px solid var(--c-main-line);
-  font-size: 0.875rem;
-  font-weight: 700;
-  line-height: 1.6;
-  color: var(--c-main-deep);
 }
 
-.kind-chips .icon {
-  width: 1.15em;
-  height: 1.15em;
-  color: var(--c-main);
 }
 
 /* ---- 関連サイト ---- */
@@ -1640,11 +1598,6 @@ p.lead {
   padding: 4px 16px 16px;
 }
 
-.chapter-lead {
-  font-weight: 700;
-  color: var(--c-main-deep);
-}
-
 .mlist {
   margin: 16px 0;
 }
@@ -1979,63 +1932,26 @@ p.lead {
 }
 
 /* ---- 窓口検索 ---- */
-.page-kinds {
-  margin-top: 10px;
 }
 
 .section-tight {
   margin-top: 20px;
 }
 
-.contacts-page .notice {
-  margin-top: 14px;
-  padding: 10px 14px;
-  font-size: var(--fs-small);
 }
 
-.stats {
-  margin: 0;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 8px;
 }
 
-@media (min-width: 700px) {
-  .stats {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
 }
 
-.stats > div {
-  padding: 10px 12px;
-  border: 1px solid var(--c-line);
-  border-radius: var(--radius-sm);
 }
 
-.stats dt {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-size: var(--fs-small);
-  color: var(--c-text-sub);
-  line-height: 1.4;
 }
 
-.stats dt .icon {
-  color: var(--c-main);
 }
 
-.stats dd {
-  margin: 0;
-  font-size: 1.375rem;
-  font-weight: 700;
-  color: var(--c-main-deep);
 }
 
-.stats dd .muted {
-  display: block;
-  font-size: 0.8125rem;
-  font-weight: 400;
 }
 
 .type-cards {
@@ -2400,53 +2316,18 @@ p.lead {
 }
 
 /* 電話・メール・フォームは押しやすいボタンに */
-.contact-means {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin: 6px 0;
 }
 
-.contact-means li {
-  max-width: 100%;
 }
 
-.contact-means a {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  max-width: 100%;
-  min-height: 48px;
-  padding: 8px 14px;
-  border: 2px solid var(--c-main);
-  border-radius: var(--radius-sm);
-  background: #fff;
-  color: var(--c-main-deep);
-  font-size: 1.0625rem;
-  font-weight: 700;
-  text-decoration: none;
 }
 
-.contact-means a:hover {
-  background: var(--c-main-tint);
-  color: var(--c-main-deep);
 }
 
-.contact-means .icon {
-  color: var(--c-main);
 }
 
-.contact-sub {
-  margin: 4px 0 0;
-  font-size: var(--fs-small);
-  color: var(--c-text-sub);
 }
 
-.contact-sub > .icon {
-  margin-right: 6px;
-  vertical-align: -0.25em;
-  color: var(--c-main);
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -2467,4 +2348,535 @@ p.lead {
   .chapter:not([open]) > .chapter-body {
     display: block;
   }
+}
+
+/* ==== ページ幅の統一と、目次つきの2段組み ====
+   どのページも .wrap（中身の最大幅 1024px）の左端から始める。
+   長文だけ内側を --read-max までにおさえ、左の開始位置は変えない。 */
+.prose-page > :not(.page-end-nav) {
+  max-width: var(--read-max);
+}
+
+.doc-intro,
+.doc-body {
+  min-width: 0;
+  max-width: var(--read-max);
+}
+
+.doc-aside {
+  min-width: 0;
+}
+
+/* 広い画面：左に目次（スクロールしても見える）、右に本文 */
+@media (min-width: 1000px) {
+  .doc-layout {
+    display: grid;
+    grid-template-columns: 13.5rem minmax(0, 1fr);
+    grid-template-areas:
+      'aside intro'
+      'aside body';
+    column-gap: 40px;
+    align-items: start;
+    margin-top: 8px;
+  }
+  .doc-layout:not(:has(.doc-intro)) {
+    grid-template-areas: 'aside body';
+  }
+  .doc-intro {
+    grid-area: intro;
+  }
+  .doc-body {
+    grid-area: body;
+  }
+  .doc-aside {
+    grid-area: aside;
+    align-self: stretch;
+  }
+  .toc-side {
+    position: sticky;
+    top: 12px;
+    max-height: calc(100vh - 24px);
+    overflow-y: auto;
+    margin-top: 20px;
+  }
+  .toc-side ol,
+  .toc-compact.toc-side ol {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 4px;
+  }
+  .toc-side .toc-actions {
+    flex-direction: column;
+  }
+  .toc-side .toc-actions .btn {
+    width: 100%;
+  }
+  .doc-body > .section:first-child,
+  .doc-body > .chapters:first-child {
+    margin-top: 20px;
+  }
+}
+
+/* 章の見出し：題名の下に要点（閉じていても読める） */
+.ch-head {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+  padding-block: 4px;
+}
+
+.chapter > summary .chapter-lead {
+  font-size: var(--fs-small);
+  font-weight: 600;
+  line-height: 1.6;
+  color: var(--c-text-sub);
+}
+
+.chapter[open] > summary .chapter-lead {
+  color: var(--c-main-deep);
+}
+
+/* ==== トップ：6つの方法（同じ形のアイコンカード） ==== */
+.menu-link,
+.menu-card:not(.is-coming) .menu-link {
+  border: 2px solid var(--c-main-line);
+}
+
+.is-coming .menu-icon {
+  background: var(--c-main);
+  color: #fff;
+}
+
+@media (min-width: 560px) {
+  .menu-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1000px) {
+  .menu-grid {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}
+
+/* ==== トップ：全国の窓口を探す（3つの入り口） ==== */
+.finder-panel {
+  padding: 18px 16px 16px;
+  border-radius: 20px;
+  background: var(--c-main);
+  color: #fff;
+}
+
+.finder-panel-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+  font-size: clamp(1.375rem, 1.2rem + 1vw, 1.875rem);
+}
+
+.finder-panel-title a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.finder-panel-title a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.finder-panel .finder-card-icon {
+  background: #fff;
+  color: var(--c-main);
+}
+
+.finder-ways {
+  list-style: none;
+  display: grid;
+  gap: 10px;
+}
+
+@media (min-width: 760px) {
+  .finder-ways {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+  }
+}
+
+.finder-ways li {
+  min-width: 0;
+}
+
+.finder-ways a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 100%;
+  min-height: 76px;
+  padding: 12px 14px;
+  border-radius: 14px;
+  background: #fff;
+  color: var(--c-text);
+  text-decoration: none;
+  box-shadow: 0 3px 0 var(--c-main-deep);
+}
+
+.finder-ways a:hover {
+  background: var(--c-main-tint);
+  color: var(--c-text);
+}
+
+.finder-way-icon {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  flex: none;
+  border-radius: 50%;
+  background: var(--c-main-tint);
+  color: var(--c-main-dark);
+}
+
+.finder-way-icon .icon {
+  width: 26px;
+  height: 26px;
+}
+
+.finder-way-text {
+  display: grid;
+  flex: 1;
+  min-width: 0;
+  line-height: 1.4;
+}
+
+.finder-way-text b {
+  font-size: 1.125rem;
+  color: var(--c-main-deep);
+}
+
+.finder-way-text span {
+  font-size: 0.875rem;
+  color: var(--c-text-sub);
+}
+
+.finder-way-go {
+  width: 22px;
+  height: 22px;
+  color: var(--c-main);
+}
+
+/* ==== 窓口検索：ページ冒頭の登録状況 ==== */
+.coverage {
+  margin-top: 14px;
+  padding: 12px 16px;
+  border: 1px solid var(--c-main-line);
+  border-radius: var(--radius);
+  background: var(--c-main-tint);
+  font-size: var(--fs-small);
+}
+
+.coverage-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 8px;
+  margin: 0 0 6px;
+  font-weight: 700;
+  color: var(--c-main-deep);
+}
+
+.coverage-title .icon {
+  color: var(--c-main);
+}
+
+.coverage-date {
+  font-weight: 400;
+  color: var(--c-text-sub);
+}
+
+.coverage-list {
+  list-style: none;
+  display: grid;
+  gap: 4px 24px;
+}
+
+@media (min-width: 760px) {
+  .coverage-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.coverage-list li {
+  display: grid;
+  grid-template-columns: 6.5em minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.coverage-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 700;
+}
+
+.coverage-label .icon {
+  color: var(--c-main);
+}
+
+.meter {
+  display: block;
+  height: 8px;
+  border-radius: 999px;
+  background: #fff;
+  border: 1px solid var(--c-main-line);
+  overflow: hidden;
+}
+
+.meter > span {
+  display: block;
+  height: 100%;
+  min-width: 2px;
+  background: var(--c-main);
+}
+
+.coverage-num {
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.coverage-note {
+  margin: 6px 0 0;
+  color: var(--c-text-sub);
+}
+
+/* ==== 窓口検索：探し方の切りかえと選択欄 ==== */
+.seg button[aria-pressed='true'] {
+  box-shadow: 0 3px 0 var(--c-main-deep);
+}
+
+.finder-pane {
+  padding: 14px;
+  border-radius: var(--radius);
+  background: var(--c-bg-sub);
+}
+
+/* 番号は文字として持たない（ラベルの読み上げ・名前に混ざらないように） */
+.step-badge::before {
+  content: attr(data-n);
+}
+
+.step-badge {
+  display: inline-grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  flex: none;
+  border-radius: 50%;
+  background: var(--c-main);
+  color: #fff;
+  font-size: 0.875rem;
+  line-height: 1;
+}
+
+.agency-group h3 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.agency-group h3 .icon {
+  color: var(--c-main);
+}
+
+.agency-group .chip {
+  background: #fff;
+}
+
+.agency-group .chip[aria-pressed='true'] {
+  background: var(--c-main);
+}
+
+/* ==== 窓口カード ==== */
+.not-researched {
+  margin: 14px 16px 16px;
+}
+
+.not-researched p {
+  margin: 0 0 10px;
+  font-size: var(--fs-small);
+}
+
+.not-researched .badge {
+  margin: 0 8px 0 0;
+}
+
+.type-mini {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.type-mini li {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px 4px 8px;
+  border-radius: 999px;
+  background: var(--c-bg-sub);
+  font-size: var(--fs-small);
+  font-weight: 700;
+  word-break: keep-all;
+}
+
+.type-mini .icon {
+  color: var(--c-main);
+}
+
+.slot-title {
+  margin-bottom: 8px;
+}
+
+.slot-title .icon {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 8px;
+  background: var(--c-main-tint);
+}
+
+.slot-state {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 0;
+}
+
+/* 電話・メール・フォーム：大きな操作ボタン（スマホは横いっぱい） */
+.contact-actions {
+  list-style: none;
+  display: grid;
+  gap: 8px;
+  margin: 8px 0 10px;
+}
+
+@media (min-width: 600px) {
+  .contact-actions {
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  }
+}
+
+.contact-actions li {
+  min-width: 0;
+}
+
+.act {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 100%;
+  min-height: 60px;
+  padding: 10px 14px;
+  border-radius: var(--radius);
+  background: var(--c-main);
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 3px 0 var(--c-main-deep);
+}
+
+.act:hover {
+  background: var(--c-main-dark);
+  color: #fff;
+}
+
+.act > .icon {
+  width: 28px;
+  height: 28px;
+}
+
+.act-text {
+  display: grid;
+  flex: 1;
+  min-width: 0;
+  line-height: 1.35;
+}
+
+.act-label {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  opacity: 0.95;
+}
+
+.act-text b {
+  font-size: 1.1875rem;
+  overflow-wrap: anywhere;
+}
+
+.act .act-ext {
+  width: 20px;
+  height: 20px;
+}
+
+.contact-info {
+  margin: 0;
+  display: grid;
+  gap: 4px;
+  font-size: var(--fs-small);
+}
+
+.contact-info > div {
+  display: grid;
+  grid-template-columns: 6.5em minmax(0, 1fr);
+  gap: 8px;
+}
+
+.contact-info dt {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+  font-weight: 700;
+  color: var(--c-text-sub);
+}
+
+.contact-info dt .icon {
+  margin-top: 0.3em;
+  width: 1.05em;
+  height: 1.05em;
+  color: var(--c-main);
+}
+
+.contact-info dd {
+  margin: 0;
+  min-width: 0;
+}
+
+.contact-source {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2px 14px;
+  margin: 10px 0 0;
+  padding-top: 8px;
+  border-top: 1px dashed var(--c-line);
+  font-size: 0.875rem;
+  color: var(--c-text-sub);
+}
+
+.contact-source > .icon {
+  width: 1.1em;
+  height: 1.1em;
+  margin-right: -8px;
+  color: var(--c-main);
+}
+
+.slot-note {
+  flex-basis: 100%;
+  margin-top: 4px;
+  color: var(--c-text-sub);
+}
+
+.sub-list {
+  margin-top: 8px;
 }

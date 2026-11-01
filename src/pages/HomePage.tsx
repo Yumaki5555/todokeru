@@ -5,7 +5,6 @@ import { scrollToSection } from '../lib/dom';
 import { SITE } from '../site';
 import type { IconName } from '../types';
 import { Icon } from '../components/Icon';
-import { KindChips } from '../components/KindChips';
 import { BackToPageTop } from '../components/Links';
 import { ThreeMinutes } from '../components/ThreeMinutes';
 
@@ -117,21 +116,38 @@ function GuideMenu() {
   );
 }
 
+/** 窓口検索の3つの入り口（押すと、その探し方を選んだ状態で窓口検索が開く） */
+const FINDER_WAYS: { tab: string; icon: IconName; label: string; sub: string }[] = [
+  { tab: 'area', icon: 'map', label: '地域から探す', sub: '都道府県・市区町村・議会' },
+  { tab: 'agency', icon: 'landmark', label: '国の機関から探す', sub: '府省庁・国会' },
+  { tab: 'search', icon: 'search', label: '名前で検索', sub: '例：江東区、厚生労働省' },
+];
+
 function ContactsCard() {
   return (
-    <section className="section" id="contacts" aria-labelledby="contacts-h">
-      <a className="finder-card" href={href('/contacts')} aria-label="全国の窓口を探す（国の機関・都道府県・市区町村・議会）">
+    <section className="section finder-panel" id="contacts" aria-labelledby="contacts-h">
+      <h2 id="contacts-h" className="finder-panel-title">
         <span className="finder-card-icon" aria-hidden="true">
-          <Icon name="search" />
+          <Icon name="building" />
         </span>
-        <span className="finder-card-main">
-          <h2 id="contacts-h">全国の窓口を探す</h2>
-          <KindChips />
-        </span>
-        <span className="finder-card-go" aria-hidden="true">
-          <Icon name="arrow-right" />
-        </span>
-      </a>
+        <a href={href('/contacts')}>全国の窓口を探す</a>
+      </h2>
+      <ul className="finder-ways">
+        {FINDER_WAYS.map((w) => (
+          <li key={w.tab}>
+            <a href={href('/contacts', { tab: w.tab })}>
+              <span className="finder-way-icon" aria-hidden="true">
+                <Icon name={w.icon} />
+              </span>
+              <span className="finder-way-text">
+                <b>{w.label}</b>
+                <span>{w.sub}</span>
+              </span>
+              <Icon name="arrow-right" className="finder-way-go" />
+            </a>
+          </li>
+        ))}
+      </ul>
     </section>
   );
 }

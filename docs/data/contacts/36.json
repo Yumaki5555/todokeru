@@ -1,1 +1,53 @@
-[]
+[
+ {
+  "municipality_code": "360007",
+  "municipality_name": "徳島県",
+  "contacts": [
+   {
+    "id": "360007-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "088-621-2500",
+    "email": null,
+    "form_url": null,
+    "postal_code": "770-8570",
+    "postal_address": "徳島県徳島市万代町1丁目1番地",
+    "hours": "電話受付 午前9時〜午後5時（土日祝・年末年始を除く）",
+    "source_url": "https://www.pref.tokushima.lg.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "360007-feedback",
+    "type": "feedback",
+    "department": "生活環境部 県民ふれあい課 広聴担当（フリーの目安箱）",
+    "phone": "088-621-2096",
+    "email": "kenminfureaika@pref.tokushima.lg.jp",
+    "form_url": "https://docs.google.com/forms/d/e/1FAIpQLSeLBZ1lDQT76Bh5IPqZRnY_xJOiFnIdzwek5ow8800J8GDfVw/viewform?usp=publish-editor",
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.pref.tokushima.lg.jp/opinion/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "360007-assembly",
+    "type": "assembly",
+    "department": "議会事務局",
+    "phone": "088-621-3005",
+    "email": "gikaijimukyoku@pref.tokushima.lg.jp",
+    "form_url": null,
+    "postal_code": "770-8570",
+    "postal_address": "徳島県徳島市万代町1-1",
+    "hours": null,
+    "source_url": "https://www.pref.tokushima.lg.jp/gikai/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ }
+]

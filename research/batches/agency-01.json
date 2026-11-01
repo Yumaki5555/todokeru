@@ -1,0 +1,748 @@
+{
+ "batch": "agency-01",
+ "researched_at": "2026-11-01",
+ "entities": [
+  {
+   "code": "cas",
+   "name": "内閣官房",
+   "official_site": "https://www.cas.go.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "03-5253-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "100-8968",
+     "postal_address": "東京都千代田区永田町1-6-1",
+     "hours": null,
+     "source_url": "https://www.cas.go.jp/",
+     "evidence": "〒100-8968　東京都千代田区永田町1-6-1　TEL.03-5253-2111（代表）",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "ご意見・ご要望",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.kantei.go.jp/jp/forms/cas_goiken.html",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.cas.go.jp/",
+     "evidence": "ご意見・ご要望",
+     "note": "トップページのリンク先フォームで受付。電話番号は掲載なし"
+    }
+   ]
+  },
+  {
+   "code": "cao",
+   "name": "内閣府",
+   "official_site": "https://www.cao.go.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "03-5253-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "100-8914",
+     "postal_address": "東京都千代田区永田町1-6-1",
+     "hours": null,
+     "source_url": "https://www.cao.go.jp/",
+     "evidence": "〒100-8914　東京都千代田区永田町1-6-1　電話番号　03-5253-2111（大代表）",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "御意見・御感想",
+     "phone": null,
+     "email": null,
+     "form_url": "https://form.cao.go.jp/cao/opinion-0001.html",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.cao.go.jp/goiken.html",
+     "evidence": "内閣府ホームページに関する御意見・御感想などは、下の分野(各施策・機関等)の名称をクリックしてお送り下さい。",
+     "note": "分野ごとのフォームで受付（form_urlは「その他内閣府の施策」）。電話番号は掲載なし"
+    }
+   ]
+  },
+  {
+   "code": "digital",
+   "name": "デジタル庁",
+   "official_site": "https://www.digital.go.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "03-4477-6775",
+     "email": null,
+     "form_url": null,
+     "postal_code": "102-0094",
+     "postal_address": "東京都千代田区紀尾井町1-3 東京ガーデンテラス紀尾井町",
+     "hours": null,
+     "source_url": "https://www.digital.go.jp/",
+     "evidence": "〒102-0094 東京都千代田区紀尾井町1-3 東京ガーデンテラス紀尾井町 電話番号：(03)4477-6775（代表）",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "ご意見・ご要望",
+     "phone": null,
+     "email": null,
+     "form_url": "https://forms.office.com/r/QVZ0HSP6Se",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.digital.go.jp/contact",
+     "evidence": "ご意見・ご要望｜デジタル庁",
+     "note": "外部フォームで受付。電話番号は掲載なし"
+    }
+   ]
+  },
+  {
+   "code": "reconstruction",
+   "name": "復興庁",
+   "official_site": "https://www.reconstruction.go.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "03-6328-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "100-0013",
+     "postal_address": "東京都千代田区霞が関3-1-1 中央合同庁舎4号館",
+     "hours": null,
+     "source_url": "https://www.reconstruction.go.jp/",
+     "evidence": "〒100-0013 東京都千代田区霞が関3-1-1 中央合同庁舎4号館 TEL：03-6328-1111（代表）",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "ご意見・お問合せ",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.reconstruction.go.jp/enquete/opinion/enquete/",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.reconstruction.go.jp/enquete/opinion/enquete/",
+     "evidence": "復興庁に関するご意見・お問合せは以下の項目にご入力の上、送信をお願いします。",
+     "note": "フォームで受付。電話番号は掲載なし"
+    }
+   ]
+  },
+  {
+   "code": "soumu",
+   "name": "総務省",
+   "official_site": "https://www.soumu.go.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "03-5253-5111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "100-8926",
+     "postal_address": "東京都千代田区霞が関2-1-2",
+     "hours": null,
+     "source_url": "https://www.soumu.go.jp/",
+     "evidence": "100-8926 03-5253-5111",
+     "note": "取得したページが文字化けしており、数字（郵便番号・電話番号）のみ原文で確認"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "ご意見・ご要望",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.soumu.go.jp/form/common/opinions.html",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.soumu.go.jp/form/common/opinions.html",
+     "evidence": "電子メールアドレス",
+     "note": "入力フォームで受付。取得したページが文字化けのため見出しは未確認。電話番号は掲載なし"
+    }
+   ]
+  },
+  {
+   "code": "moj",
+   "name": "法務省",
+   "official_site": "https://www.moj.go.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "03-3580-4111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "100-8977",
+     "postal_address": "東京都千代田区霞が関1-1-1",
+     "hours": null,
+     "source_url": "https://www.moj.go.jp/",
+     "evidence": "電話：03-3580-4111（代表）",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "ご意見・ご提案",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.moj.go.jp/mojmail/kouhouinput.php",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.moj.go.jp/mail.html",
+     "evidence": "法務行政に関することはこちらへ",
+     "note": "法務行政へのご意見・ご提案はフォームで受付。電話番号は掲載なし"
+    }
+   ]
+  },
+  {
+   "code": "mofa",
+   "name": "外務省",
+   "official_site": "https://www.mofa.go.jp/mofaj/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.mofa.go.jp/mofaj/",
+     "evidence": null,
+     "note": "公式サイトが403で開けなかった"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.mofa.go.jp/mofaj/",
+     "evidence": null,
+     "note": "公式サイトが403で開けなかった"
+    }
+   ]
+  },
+  {
+   "code": "mof",
+   "name": "財務省",
+   "official_site": "https://www.mof.go.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "03-3581-4111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "100-8940",
+     "postal_address": "東京都千代田区霞が関3-1-1",
+     "hours": null,
+     "source_url": "https://www.mof.go.jp/",
+     "evidence": "〒100-8940 東京都千代田区霞が関3-1-1 電話番号：03-3581-4111（代表）",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "ご意見箱",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www2.mof.go.jp/enquete/ja/index.php",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.mof.go.jp/application-contact/feedback/index.html",
+     "evidence": "財務行政へのご意見・ご要望の受付",
+     "note": "フォームで受付。電話番号は掲載なし"
+    }
+   ]
+  },
+  {
+   "code": "mext",
+   "name": "文部科学省",
+   "official_site": "https://www.mext.go.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "03-5253-4111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "100-8959",
+     "postal_address": "東京都千代田区霞が関3丁目2番2号",
+     "hours": null,
+     "source_url": "https://www.mext.go.jp/b_menu/soshiki2/map.htm",
+     "evidence": "〒100-8959　東京都千代田区霞が関3丁目2番2号 03-5253-4111",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "大臣官房政策課広報室（御意見・お問合せ窓口案内）",
+     "phone": "03-5253-4111",
+     "email": null,
+     "form_url": "https://www.mext.go.jp/mail/",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.mext.go.jp/mail/",
+     "evidence": "大臣官房政策課広報室 03-5253-4111(代表)",
+     "note": "分野ごとの入力フォームで受付。電話は広報室のお問合せ先として掲載された代表番号"
+    }
+   ]
+  },
+  {
+   "code": "mhlw",
+   "name": "厚生労働省",
+   "official_site": "https://www.mhlw.go.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "03-5253-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "100-8916",
+     "postal_address": "東京都千代田区霞が関1-2-2",
+     "hours": null,
+     "source_url": "https://www.mhlw.go.jp/",
+     "evidence": "〒100-8916 東京都千代田区霞が関1-2-2 03-5253-1111（代表）",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "「国民の皆様の声」募集 送信フォーム",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.mhlw.go.jp/form/pub/mhlw01/getmail",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.mhlw.go.jp/form/pub/mhlw01/getmail",
+     "evidence": "よりよい厚生労働行政を行っていくために、皆様からご意見・ご要望や質問を受け付けています。",
+     "note": "フォームで受付。電話番号は掲載なし"
+    }
+   ]
+  },
+  {
+   "code": "maff",
+   "name": "農林水産省",
+   "official_site": "https://www.maff.go.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "03-3502-8111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "100-8950",
+     "postal_address": "東京都千代田区霞が関1-2-1",
+     "hours": null,
+     "source_url": "https://www.maff.go.jp/",
+     "evidence": "電話：03-3502-8111（代表）",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "ご意見・お問い合わせ窓口（農林水産省総合窓口）",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.contactus.maff.go.jp/voice/sogo.html",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.maff.go.jp/j/apply/recp/index.html",
+     "evidence": "ご意見・お問い合わせ窓口",
+     "note": "フォームで受付。電話番号は掲載なし（フッターの代表番号のみ）"
+    }
+   ]
+  },
+  {
+   "code": "meti",
+   "name": "経済産業省",
+   "official_site": "https://www.meti.go.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.meti.go.jp/",
+     "evidence": null,
+     "note": "公式サイトが403で開けなかった"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.meti.go.jp/",
+     "evidence": null,
+     "note": "公式サイトが403で開けなかった"
+    }
+   ]
+  },
+  {
+   "code": "mlit",
+   "name": "国土交通省",
+   "official_site": "https://www.mlit.go.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "03-5253-8111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "100-8918",
+     "postal_address": "東京都千代田区霞が関2-1-3 中央合同庁舎3号館",
+     "hours": null,
+     "source_url": "https://www.mlit.go.jp/page/kanbo01_hy_002598.html",
+     "evidence": "〒100-8918 東京都千代田区霞が関2-1-3 中央合同庁舎3号館 03-5253-8111",
+     "note": "トップページに電話番号の掲載なし。所在地案内ページで確認"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "国土交通ホットラインステーション",
+     "phone": "03-5253-4150",
+     "email": null,
+     "form_url": "https://www.mlit.go.jp/hotline/u_hotline_1503.html",
+     "postal_code": "100-8918",
+     "postal_address": "東京都千代田区霞が関2-1-3",
+     "hours": "平日 10時～17時（投稿フォーム、ファックスは毎日24時間受付）",
+     "source_url": "https://www.mlit.go.jp/hotline/u_hotline_1503.html",
+     "evidence": "【開設時間】平日 10時～17時（投稿フォーム、ファックスは毎日24時間受付） 〔電話〕 :03-5253-4150",
+     "note": "分野ごとの投稿フォームで受付。ファックス 03-5253-1526、郵送も可"
+    }
+   ]
+  },
+  {
+   "code": "env",
+   "name": "環境省",
+   "official_site": "https://www.env.go.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "03-3581-3351",
+     "email": null,
+     "form_url": null,
+     "postal_code": "100-8975",
+     "postal_address": "東京都千代田区霞が関1-2-2 中央合同庁舎5号館",
+     "hours": null,
+     "source_url": "https://www.env.go.jp/",
+     "evidence": "〒100-8975 東京都千代田区霞が関1-2-2 中央合同庁舎5号館 TEL 03-3581-3351(代表)",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "環境省政策評価 ご意見・ご要望（御意見・問い合わせ）",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.env.go.jp/moe-mail.html",
+     "postal_code": "100-8975",
+     "postal_address": "東京都千代田区霞が関1-2-2",
+     "hours": null,
+     "source_url": "https://www.env.go.jp/guide/seisaku/moe.html",
+     "evidence": "環境省政策評価 ご意見・ご要望 MOEメール 〒100-8975 東京都千代田区霞が関1-2-2",
+     "note": "MOEメール（フォーム）または文書で受付。電話は代表番号のみで専用番号なし"
+    }
+   ]
+  },
+  {
+   "code": "mod",
+   "name": "防衛省",
+   "official_site": "https://www.mod.go.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.mod.go.jp/",
+     "evidence": null,
+     "note": "公式サイトが403で開けなかった"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.mod.go.jp/",
+     "evidence": null,
+     "note": "公式サイトが403で開けなかった"
+    }
+   ]
+  },
+  {
+   "code": "npa",
+   "name": "警察庁",
+   "official_site": "https://www.npa.go.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "03-3581-0141",
+     "email": null,
+     "form_url": null,
+     "postal_code": "100-8974",
+     "postal_address": "東京都千代田区霞が関2丁目1番2号",
+     "hours": null,
+     "source_url": "https://www.npa.go.jp/about/overview/map.html",
+     "evidence": "〒100-8974 東京都千代田区霞が関2丁目1番2号 03-3581-0141（代表）",
+     "note": "トップページに電話番号の掲載なし。所在地・連絡先ページで確認"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.npa.go.jp/goiken_index.html",
+     "evidence": "メンテナンスのため、警察庁ご意見箱の運用を一時的に停止しております。",
+     "note": "警察庁ご意見箱は一時停止中の掲載"
+    }
+   ]
+  },
+  {
+   "code": "cfa",
+   "name": "こども家庭庁",
+   "official_site": "https://www.cfa.go.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "03-6771-8030",
+     "email": null,
+     "form_url": null,
+     "postal_code": "100-6090",
+     "postal_address": "東京都千代田区霞が関3-2-5 霞が関ビルディング14階、20階、21階、22階",
+     "hours": null,
+     "source_url": "https://www.cfa.go.jp/about/",
+     "evidence": "〒100-6090 東京都千代田区霞が関3-2-5 霞が関ビルディング14階、20階、21階、22階 03-6771-8030（代表）",
+     "note": "トップページに電話番号の掲載なし。組織情報ページ「アクセス」で確認"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "ご意見・ご要望",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.cfa.go.jp/contact",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.cfa.go.jp/contact",
+     "evidence": "現在システムトラブルによりフォームが使用できません。",
+     "note": "ご意見・ご要望フォームで受付だが、確認時点でフォームは一時使用不可との掲載。メールでも受付（アドレスは@を★にした表記）"
+    }
+   ]
+  },
+  {
+   "code": "caa",
+   "name": "消費者庁",
+   "official_site": "https://www.caa.go.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "03-3507-8800",
+     "email": null,
+     "form_url": null,
+     "postal_code": "100-8958",
+     "postal_address": "東京都千代田区霞が関3-1-1 中央合同庁舎第4号館",
+     "hours": null,
+     "source_url": "https://www.caa.go.jp/",
+     "evidence": "〒100-8958 東京都千代田区霞が関3-1-1 中央合同庁舎第4号館 電話番号:03-3507-8800(代表)",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "本ウェブサイトについてのご意見・ご感想",
+     "phone": null,
+     "email": null,
+     "form_url": "https://contact.caa.go.jp/caa/opinion-001.html",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.caa.go.jp/contact/",
+     "evidence": "本ウェブサイトについてのご意見・ご感想等の投稿について",
+     "note": "ウェブサイトへのご意見・ご感想の投稿フォーム。電話番号は掲載なし"
+    }
+   ]
+  },
+  {
+   "code": "fsa",
+   "name": "金融庁",
+   "official_site": "https://www.fsa.go.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "03-3506-6000",
+     "email": null,
+     "form_url": null,
+     "postal_code": "100-8967",
+     "postal_address": "東京都千代田区霞が関3-2-1 中央合同庁舎第7号館",
+     "hours": null,
+     "source_url": "https://www.fsa.go.jp/",
+     "evidence": "〒100-8967 東京都千代田区霞が関3－2－1 中央合同庁舎第７号館 電話番号 03-3506-6000",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "インターネット情報受付窓口（御意見・問い合わせ）",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.fsa.go.jp/opinion/",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.fsa.go.jp/opinion/",
+     "evidence": "インターネット情報受付窓口：金融庁",
+     "note": "ウェブフォームで受付。専用の電話番号は掲載なし"
+    }
+   ]
+  },
+  {
+   "code": "isa",
+   "name": "出入国在留管理庁",
+   "official_site": "https://www.moj.go.jp/isa/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "045-370-9755",
+     "email": null,
+     "form_url": null,
+     "postal_code": "100-8973",
+     "postal_address": "東京都千代田区霞が関1-1-1 中央合同庁舎6号館",
+     "hours": null,
+     "source_url": "https://www.moj.go.jp/isa/",
+     "evidence": "〒100-8973　東京都千代田区霞が関1-1-1　中央合同庁舎６号館 ℡045-370-9755（代表）",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "外国人との共生施策に係る御意見・御要望（御意見箱）",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.isa.go.jp/opinion/ja/",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.moj.go.jp/isa/support/opinion.html",
+     "evidence": "外国人との共生施策に係る御意見・御要望（御意見箱）",
+     "note": "フォーム（14言語）で受付。専用の電話番号は掲載なし"
+    }
+   ]
+  },
+  {
+   "code": "shugiin",
+   "name": "衆議院",
+   "official_site": "http://www.shugiin.go.jp/internet/index.nsf/html/index.htm",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "03-3581-5111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "100-0014",
+     "postal_address": "東京都千代田区永田町1-7-1",
+     "hours": null,
+     "source_url": "https://www.shugiin.go.jp/internet/index.nsf/html/index.htm",
+     "evidence": "100-0014 1-7-1 03-3581-5111",
+     "note": "取得したページが文字化けしており、数字（郵便番号・番地・電話番号）のみ原文で確認 （出典URLを https に修正：2026-11-01 照合時）"
+    }
+   ]
+  },
+  {
+   "code": "sangiin",
+   "name": "参議院",
+   "official_site": "https://www.sangiin.go.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "03-3581-3111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "100-0014",
+     "postal_address": "東京都千代田区永田町1-7-1",
+     "hours": null,
+     "source_url": "https://www.sangiin.go.jp/",
+     "evidence": "〒100-0014 東京都千代田区永田町1-7-1 03-3581-3111（大代表）",
+     "note": null
+    }
+   ]
+  }
+ ]
+}

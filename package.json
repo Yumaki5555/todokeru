@@ -11,7 +11,9 @@
     "test": "vitest run",
     "validate": "vitest run tests/data.test.ts",
     "data:master": "node scripts/build-master.mjs",
-    "data:summary": "node scripts/build-summary.mjs"
+    "data:summary": "node scripts/build-summary.mjs",
+    "research:plan": "node scripts/research-plan.mjs",
+    "research:merge": "node scripts/research-merge.mjs"
   },
   "dependencies": {
     "react": "^19.2.0",

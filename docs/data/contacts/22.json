@@ -1,1 +1,53 @@
-[]
+[
+ {
+  "municipality_code": "220001",
+  "municipality_name": "静岡県",
+  "contacts": [
+   {
+    "id": "220001-general",
+    "type": "general",
+    "department": "県庁案内",
+    "phone": "054-221-2455",
+    "email": null,
+    "form_url": null,
+    "postal_code": "420-8601",
+    "postal_address": "静岡県静岡市葵区追手町9番6号",
+    "hours": "平日 8時30分〜17時15分",
+    "source_url": "https://www.pref.shizuoka.jp/kensei/pr/hiroba/1007313.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "220001-feedback",
+    "type": "feedback",
+    "department": "県民の広場（ご意見・ご要望）",
+    "phone": null,
+    "email": null,
+    "form_url": "https://apply.e-tumo.jp/pref-shizuoka-u/offer/offerList_detail?tempSeq=18961",
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.pref.shizuoka.jp/kensei/pr/hiroba/index.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "220001-assembly",
+    "type": "assembly",
+    "department": "県議会事務局 総務課",
+    "phone": "054-221-2552",
+    "email": "gikai_soumu@pref.shizuoka.lg.jp",
+    "form_url": null,
+    "postal_code": "420-8601",
+    "postal_address": "静岡県静岡市葵区追手町9-6",
+    "hours": null,
+    "source_url": "https://www.pref.shizuoka.jp/kensei/introduction/soshiki/1040969/1030690.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ }
+]

@@ -86,12 +86,15 @@ describe('トップページ', () => {
     expect(sho.every((a) => a.getAttribute('href') === 'https://yumaki5555.github.io/shomei/')).toBe(true);
   });
 
-  it('全国の窓口検索は大きなリンク1つ（登録数はトップに出さない）', () => {
+  it('全国の窓口検索：見出しと3つの入り口（地域・国の機関・名前）。登録数はトップに出さない', () => {
     render(<App />);
     const sec = document.getElementById('contacts')!;
-    expect(within(sec).getAllByRole('link')).toHaveLength(1);
-    expect(within(sec).getByRole('link', { name: /全国の窓口を探す/ })).toHaveAttribute('href', '#/contacts');
-    expect(screen.queryByText(/公式確認済みの窓口/)).not.toBeInTheDocument();
+    expect(within(sec).getByRole('heading', { level: 2, name: '全国の窓口を探す' })).toBeInTheDocument();
+    expect(within(sec).getByRole('link', { name: '全国の窓口を探す' })).toHaveAttribute('href', '#/contacts');
+    expect(within(sec).getByRole('link', { name: /地域から探す/ })).toHaveAttribute('href', '#/contacts?tab=area');
+    expect(within(sec).getByRole('link', { name: /国の機関から探す/ })).toHaveAttribute('href', '#/contacts?tab=agency');
+    expect(within(sec).getByRole('link', { name: /名前で検索/ })).toHaveAttribute('href', '#/contacts?tab=search');
+    expect(screen.queryByText(/公式確認済み/)).not.toBeInTheDocument();
   });
 
   it('このサイトについて：トップは「民間運営」とリンクだけ。詳しい説明はフッターと専用ページに', () => {

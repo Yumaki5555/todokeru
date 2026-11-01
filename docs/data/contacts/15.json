@@ -1,1 +1,53 @@
-[]
+[
+ {
+  "municipality_code": "150002",
+  "municipality_name": "新潟県",
+  "contacts": [
+   {
+    "id": "150002-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "025-285-5511",
+    "email": null,
+    "form_url": null,
+    "postal_code": "950-8570",
+    "postal_address": "新潟県新潟市中央区新光町4番地1",
+    "hours": "8時30分〜17時15分（土日・祝日・年末年始を除く）",
+    "source_url": "https://www.pref.niigata.lg.jp/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "150002-feedback",
+    "type": "feedback",
+    "department": "知事政策局広報広聴課 県民相談室（県政全般に関する相談）",
+    "phone": "025-280-5076",
+    "email": "info@pref.niigata.lg.jp",
+    "form_url": "https://apply.e-tumo.jp/pref-niigata-u/offer/offerList_detail?tempSeq=17890",
+    "postal_code": "950-8570",
+    "postal_address": "新潟県新潟市中央区新光町4番地1",
+    "hours": "月〜金 8時30分〜17時（祝日を除く）",
+    "source_url": "https://www.pref.niigata.lg.jp/sec/kouhou/1191342656616.html",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "150002-assembly",
+    "type": "assembly",
+    "department": "新潟県議会事務局",
+    "phone": "025-280-5527",
+    "email": null,
+    "form_url": null,
+    "postal_code": "950-8570",
+    "postal_address": "新潟県新潟市中央区新光町4番地1",
+    "hours": null,
+    "source_url": "https://www.pref.niigata.lg.jp/site/gikai/",
+    "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   }
+  ]
+ }
+]

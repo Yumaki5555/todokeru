@@ -30,6 +30,14 @@ describe('台本の組み立て', () => {
     expect(reasonPhrase('費用')).toBe('費用の面から');
     expect(reasonPhrase('説明が不十分')).toBe('説明が不十分という理由から');
     expect(reasonPhrase('  ')).toBe('');
+    expect(reasonPhrase('説明が不十分です')).toBe('説明が不十分だという理由から');
+    expect(reasonPhrase('費用が高いです')).toBe('費用が高いという理由から');
+  });
+
+  it('理由にも「について」があるときは、理由をあとの文に分けて「について」を重ねない', () => {
+    expect(main(draft({ topic: '江東区の予算', detail: '多文化共生について高額過ぎる' }))).toBe(
+      '江東区の予算について、懸念があります。多文化共生について、高額過ぎるという理由からです。',
+    );
   });
 
   it('質問する：聞きたいことがなければ仕組みを聞き、記録のお願いは最初は入れない', () => {
@@ -49,13 +57,23 @@ describe('台本の組み立て', () => {
 
   it('質問の言い方：くだけた聞き方も、ていねいな形にする', () => {
     expect(questionPhrase('費用はいくら？')).toBe('費用はいくらかを教えていただけますか？');
-    expect(questionPhrase('保護者への説明会はあるのか')).toBe('保護者への説明会はあるのかを教えていただけますか？');
+    expect(questionPhrase('保護者への説明会はあるのか')).toBe('保護者への説明会はあるのでしょうか？');
     expect(questionPhrase('説明会はある')).toBe('説明会はあるのかを教えていただけますか？');
     expect(questionPhrase('なぜ高い')).toBe('なぜ高いのかを教えていただけますか？');
     expect(questionPhrase('なぜ必要だ')).toBe('なぜ必要なのかを教えていただけますか？');
     expect(questionPhrase('説明会の日程は？')).toBe('説明会の日程について教えていただけますか？');
     expect(questionPhrase('なぜ決めたのだろうか')).toBe('なぜ決めたのでしょうか？');
     expect(questionPhrase('説明会はあります')).toBe('説明会はありますか？');
+  });
+
+  it('質問の言い方：「〜では」「〜過ぎ」「〜ないのか」は問いかける形にする', () => {
+    expect(questionPhrase('お金かけ過ぎでは')).toBe('お金かけ過ぎではないでしょうか？');
+    expect(questionPhrase('お金をかけ過ぎ')).toBe('お金をかけ過ぎではないでしょうか？');
+    expect(questionPhrase('高すぎじゃないか')).toBe('高すぎではないでしょうか？');
+    expect(questionPhrase('なぜ必要ではないのか')).toBe('なぜ必要ではないのでしょうか？');
+    expect(questionPhrase('もっと安くならないのか')).toBe('もっと安くならないのでしょうか？');
+    expect(questionPhrase('見直せないか')).toBe('見直せないでしょうか？');
+    expect(questionPhrase('やさしい日本語とは')).toBe('やさしい日本語について教えていただけますか？');
   });
 
   it('質問する：聞きたいことは「意見」の理由とは別の欄に覚え、目的を切りかえても混ざらない', () => {

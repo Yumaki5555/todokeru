@@ -439,7 +439,7 @@ describe('電話ガイド：もっと詳しく整理する', () => {
     expect(part('本題').value).toBe('A計画について、懸念があります。');
     await userEvent.click(applyButton());
     expect(part('本題').value).toBe(
-      'A計画について、懸念があります。\n私が確認した状況は、次のとおりです。説明会が1回だけでした。\n適用される制度・条例と、その根拠資料を教えていただけますか。',
+      'A計画について、懸念があります。\n私が確認した状況は、次のとおりです。説明会が1回だけでした。\n適用される制度・条例と、その根拠資料を教えていただけますか？',
     );
     expect(within(deep()).getByRole('status')).toHaveTextContent('③の「本題」に反映しました');
     await userEvent.click(within(maker()).getByRole('button', { name: '台本をまとめてコピー' }));

@@ -12,12 +12,12 @@ export const EMPTY_DEEP_DIVE: DeepDiveDraft = {
 };
 
 export const CHECK_POINTS = [
-  { id: 'office', label: '担当部署・権限', question: 'この件の担当部署と、対応できる範囲を教えていただけますか。' },
-  { id: 'basis', label: '法律・条例の根拠', question: '適用される制度・条例と、その根拠資料を教えていただけますか。' },
-  { id: 'status', label: '現在の対応状況', question: '現在どのような確認や対応が行われているか、教えていただけますか。' },
-  { id: 'process', label: '今後の手順・時期', question: '今後の対応手順と、分かる範囲で時期を教えていただけますか。' },
-  { id: 'cost', label: '予算・費用', question: '関連する予算や費用の内訳は公開されていますか。' },
-  { id: 'documents', label: '公式資料・公開先', question: '確認できる公式資料や掲載ページがあれば教えていただけますか。' },
+  { id: 'office', label: '担当部署・権限', question: 'この件の担当部署と、対応できる範囲を教えていただけますか？' },
+  { id: 'basis', label: '法律・条例の根拠', question: '適用される制度・条例と、その根拠資料を教えていただけますか？' },
+  { id: 'status', label: '現在の対応状況', question: '現在どのような確認や対応が行われているか、教えていただけますか？' },
+  { id: 'process', label: '今後の手順・時期', question: '今後の対応手順と、分かる範囲で時期を教えていただけますか？' },
+  { id: 'cost', label: '予算・費用', question: '関連する予算や費用の内訳は公開されていますか？' },
+  { id: 'documents', label: '公式資料・公開先', question: '確認できる公式資料や掲載ページがあれば教えていただけますか？' },
 ] as const;
 
 /** 1つずつの問いを「〜を教えていただけますか？」の形にする */
@@ -30,6 +30,39 @@ function questions(s: string): string {
     .join('');
 }
 
+/** 「〜してほしい」「予算の見直し」のような希望の1文を、お願いの形にする。見分けられない形は null */
+function wishSentence(x: string): string | null {
+  // 〜してほしい・〜してください・〜して →〜していただきたいと考えています
+  const req = x.replace(/([てで])(ほしい|欲しい|もらいたい|いただきたい|ください|下さい)(です|と思います|と思う)?$/u, '$1');
+  if (/[てで]$/u.test(req)) return `${req}いただきたいと考えています。`;
+  if (/こと$/u.test(x)) return `${x}を希望します。`;
+  const hasObj = /を/u.test(x);
+  // 「説明会を開く」「増税しない」→〜ことを希望します
+  if (/([うぐすつぬぶむる]|ない)$/u.test(x) || (hasObj && /く$/u.test(x))) return `${x}ことを希望します。`;
+  // 「もっと安く」「早く」→〜していただきたい
+  if (/く$/u.test(x)) return `${x}していただきたいと考えています。`;
+  // 「を」のある言いさし：「説明会を開催」「予算を見直し」→〜していただきたい・〜ていただきたい
+  if (hasObj) {
+    if (/[一-龠々ァ-ヶー]$/u.test(x)) return `${x}していただきたいと考えています。`;
+    if (/[しめえけせれべ]$/u.test(x)) return `${x}ていただきたいと考えています。`;
+    return null;
+  }
+  // 「予算やりなおし」「説明会の開催」「中止」→〜を希望します
+  if (/([一-龠々ァ-ヶーa-zA-Z0-9０-９]|[しめえけせれべきり]|合い)$/u.test(x)) return `${x}を希望します。`;
+  return null;
+}
+
+/** 希望をお願いの形にする。形を見分けられない文があるときは、前置きを付けて「です・ます」だけそろえる */
+function wishText(s: string): string {
+  const sentences = s
+    .split(/[。．\n]+/u)
+    .map((x) => x.trim().replace(/[、，,\s]+$/u, ''))
+    .filter(Boolean);
+  const wishes = sentences.map((x) => (/[！!？?]$/u.test(x) || /(希望|お願い)/u.test(x) ? null : wishSentence(x)));
+  const text = sentences.map((x, i) => wishes[i] ?? politeText(x)).join('');
+  return wishes.every(Boolean) ? text : `希望をお伝えします。${text}`;
+}
+
 /** 現在の「本題」に、希望した追加情報だけを加えた文。確証のない断定は生成しない。 */
 export function detailedMain(draft: CallDraft): string {
   const d = { ...EMPTY_DEEP_DIVE, ...draft.deepDive };
@@ -39,7 +72,7 @@ export function detailedMain(draft: CallDraft): string {
   for (const p of CHECK_POINTS) {
     if (d.points.includes(p.id)) lines.push(p.question);
   }
-  if (d.desired.trim()) lines.push(`希望する対応についてもお伝えします。${politeText(d.desired)}`);
+  if (d.desired.trim()) lines.push(wishText(d.desired));
   if (d.source.trim()) lines.push(`参考資料は、${politeText(d.source)}`);
   return lines.join('\n');
 }

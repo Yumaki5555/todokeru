@@ -74,7 +74,11 @@ export function topicText(s: string): string {
 
 /** 理由の言い方：名詞なら「○○の面から」、文なら「○○という理由から」 */
 export function reasonPhrase(s: string): string {
-  const r = trimEnd(s).replace(/(という理由|ですから|だから|なので|ので|から|ため)$/u, '');
+  const r = trimEnd(s)
+    .replace(/(という理由|ですから|だから|なので|ので|から|ため)$/u, '')
+    // 「高いです」「不十分です」→「高い」「不十分だ」（「〜ですという理由」にしない）
+    .replace(/いです$/u, 'い')
+    .replace(/です$/u, 'だ');
   if (!r) return '';
   const clause = /(い|う|く|す|つ|ぬ|む|る|ぐ|ぶ|た|だ|ない|ます|です)$/u.test(r) || /.[がをは]./u.test(r);
   return clause ? `${r}という理由から` : `${r}の面から`;
@@ -94,6 +98,15 @@ export function questionPhrase(s: string): string {
   if (/(です|ます)$/u.test(d)) return d + 'か？';
   const q = d.replace(/を?(教えて(ください|ほしい|欲しい)?|知りたい(です)?)$/u, '');
   const ask = 'を教えていただけますか？';
+  // 「お金をかけ過ぎでは」「多すぎじゃないか」→「〜ではないでしょうか？」（問いかける形）
+  const notQ = /(では|じゃ)(ない)?(のか|の|か)?$/u;
+  if (notQ.test(q)) return q.replace(notQ, WH.test(q) ? 'ではないのでしょうか？' : 'ではないでしょうか？');
+  if (/(過ぎ|すぎ)$/u.test(q)) return q + 'ではないでしょうか？';
+  // 「もっと安くならないのか」「見直せないか」→「〜のでしょうか？」「〜ないでしょうか？」
+  if (/のか$/u.test(q)) return q.replace(/のか$/u, 'のでしょうか？');
+  if (/ないか$/u.test(q)) return q.replace(/か$/u, 'でしょうか？');
+  // 「やさしい日本語とは」→「やさしい日本語について教えていただけますか？」
+  if (/とは$/u.test(q)) return q.replace(/とは$/u, 'について') + '教えていただけますか？';
   // 「日程は」「日程について」→「日程について教えていただけますか？」
   if (/(について|に関して|は)$/u.test(q)) return q.replace(/(に関して|は)$/u, 'について') + '教えていただけますか？';
   // 「いつ決まるのか」「費用はいくら」→「〜か」をつけて「〜かを教えて」
@@ -106,6 +119,17 @@ export function questionPhrase(s: string): string {
   return q + ask;
 }
 
+/**
+ * 意見の本題。ふだんはマニュアルと同じ「○○について、△△という理由から懸念があります。」
+ * 理由にも「について」があると「〜について、〜について」と重なるので、理由をあとの文に分ける
+ */
+function opinionMain(topic: string, reason: string, stance: string): string {
+  if (/(について|に関して)/u.test(reason)) {
+    return `${topic}について、${stance}${reason.replace(/(について|に関して)(?![、の])/u, '$1、')}です。`;
+  }
+  return `${topic}について、${reason}${stance}`;
+}
+
 /** 自動で作る文（書き直す前の文） */
 export function autoText(draft: CallDraft, key: ScriptPartKey): string {
   const t = topicText(draft.topic);
@@ -115,7 +139,7 @@ export function autoText(draft: CallDraft, key: ScriptPartKey): string {
     case 'main':
       if (draft.purpose === 'question') return `${t}について、${questionPhrase(draft.ask)}`;
       if (draft.purpose === 'department') return `${t}について確認したいのですが、ご担当の部署を教えていただけますか？`;
-      return `${t}について、${reasonPhrase(draft.detail)}${STANCES.find((s) => s.id === draft.stance)!.phrase}`;
+      return opinionMain(t, reasonPhrase(draft.detail), STANCES.find((s) => s.id === draft.stance)!.phrase);
     case 'record':
       return draft.purpose === 'opinion' ? '意見として記録をお願いします。' : 'この件を記録していただけますか？';
     case 'thanks':

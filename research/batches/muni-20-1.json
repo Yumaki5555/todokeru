@@ -1,0 +1,1295 @@
+{
+ "batch": "muni-20-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/08_make_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "202011",
+   "name": "長野市",
+   "official_site": "https://www.city.nagano.nagano.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nagano.nagano.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "026-224-5056",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nagano.nagano.jp/n440500/shigikai/p005446.html",
+     "evidence": "議会事務局 総務議事調査課 長野市大字鶴賀緑町1613番地 第一庁舎7階 電話番号:026-224-5056",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nagano.nagano.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "202029",
+   "name": "松本市",
+   "official_site": "https://www.city.matsumoto.nagano.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0263-34-3000",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.matsumoto.nagano.jp/",
+     "evidence": "松本市役所 法人番号2000020202…620 長野県松本市丸の内3番7号 Tel:0263-34-3000(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0263-34-3210",
+     "email": null,
+     "form_url": null,
+     "postal_code": "390-8620",
+     "postal_address": "長野県松本市丸の内3番7号",
+     "hours": null,
+     "source_url": "https://www.city.matsumoto.nagano.jp/site/gikai/",
+     "evidence": "議会事務局代表 〒390-8620 長野県松本市丸の内3番7号(東庁舎3階) Tel:0263-34-3210",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.matsumoto.nagano.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "202037",
+   "name": "上田市",
+   "official_site": "https://www.city.ueda.nagano.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ueda.nagano.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0268-22-0452",
+     "email": null,
+     "form_url": null,
+     "postal_code": "386-8601",
+     "postal_address": "長野県上田市大手一丁目11番16号",
+     "hours": null,
+     "source_url": "https://www.city.ueda.nagano.jp/adv/ba.php?id=290",
+     "evidence": "議会事務局代表 〒386-8601長野県上田市大手一丁目11番16号 Tel:0268-22-0452Fax:0268",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ueda.nagano.jp/adv/ba.php?id=374",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "202045",
+   "name": "岡谷市",
+   "official_site": "https://www.city.okaya.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0266-23-4811",
+     "email": null,
+     "form_url": null,
+     "postal_code": "394-8510",
+     "postal_address": "長野県岡谷市幸町8-1",
+     "hours": null,
+     "source_url": "https://www.city.okaya.lg.jp/",
+     "evidence": "岡谷市役所 〒394-8510 長野県岡谷市幸町8-1 電話:0266-23-4811(代表) ファッ",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "岡谷市議会",
+     "phone": "0266-23-4811",
+     "email": null,
+     "form_url": null,
+     "postal_code": "394-8510",
+     "postal_address": "長野県岡谷市幸町8-1",
+     "hours": null,
+     "source_url": "https://www.city.okaya.lg.jp/okayashigikai/index.html",
+     "evidence": "議会 〒394-8510 長野県岡谷市幸町8-1 電話:0266-23-4811(内線:1711",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.okaya.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "202053",
+   "name": "飯田市",
+   "official_site": "https://www.city.iida.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.iida.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0265-22-4511",
+     "email": null,
+     "form_url": null,
+     "postal_code": "395-8501",
+     "postal_address": "長野県飯田市大久保町2534",
+     "hours": null,
+     "source_url": "https://www.city.iida.lg.jp/adv/ba.php?id=62",
+     "evidence": "議会事務局 代表 〒395-8501 長野県飯田市大久保町2534 Tel:0265-22-4511 Fax:026",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育政策課",
+     "phone": "0265-22-4511",
+     "email": null,
+     "form_url": null,
+     "postal_code": "395-8501",
+     "postal_address": "長野県飯田市大久保町2534",
+     "hours": null,
+     "source_url": "https://www.city.iida.lg.jp/soshiki/176/08houkoku.html",
+     "evidence": "教育政策課 代表 〒395-8501 …大久保町2534 (A棟3階) Tel:0265-22-4511 Fax:026",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "広報広聴係",
+     "phone": "0265-22-4511",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.iida.lg.jp/soshiki/160/teigen0.html",
+     "evidence": "広報広聴係 〒395-8501 長野県飯田市大久保町2534 Tel:0265-22-4511 Fax:026",
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "202061",
+   "name": "諏訪市",
+   "official_site": "https://www.city.suwa.lg.jp/www/index.jsp",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.suwa.lg.jp/www/index.jsp",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.suwa.lg.jp/www/index.jsp",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.suwa.lg.jp/www/index.jsp",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "202070",
+   "name": "須坂市",
+   "official_site": "https://www.city.suzaka.nagano.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "026-245-1400",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.suzaka.nagano.jp/",
+     "evidence": "須坂市役所 法人番号1000020202…須坂市大字須坂1528番地の1 電話番号:026-245-1400(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "026-248-9014",
+     "email": null,
+     "form_url": null,
+     "postal_code": "382-8511",
+     "postal_address": "長野県須坂市大字須坂1528番地の1",
+     "hours": null,
+     "source_url": "https://www.city.suzaka.nagano.jp/shigikai/index.html",
+     "evidence": "議会事務局 所在地:〒382-8511 長野県須坂市大字須坂1528番地の1 電話番号:026-248-9014 ファックス:0",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "市長への手紙",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.city.suzaka.nagano.jp/cgi-bin/inquiry.php/2?page_no=1374",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.suzaka.nagano.jp/soshiki/1020/1/4/1374.html",
+     "evidence": "リンク「掌の上に手紙のイラスト。市長への手紙ページへアクセスするアイコン 市長への手紙」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
+    }
+   ]
+  },
+  {
+   "code": "202088",
+   "name": "小諸市",
+   "official_site": "https://www.city.komoro.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.komoro.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.komoro.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.komoro.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "202096",
+   "name": "伊那市",
+   "official_site": "https://www.inacity.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.inacity.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.inacity.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.inacity.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "202100",
+   "name": "駒ヶ根市",
+   "official_site": "https://www.city.komagane.nagano.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.komagane.nagano.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.komagane.nagano.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.komagane.nagano.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "202118",
+   "name": "中野市",
+   "official_site": "https://www.city.nakano.nagano.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0269-22-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "383-8614",
+     "postal_address": "長野県中野市三好町一丁目3番19号",
+     "hours": null,
+     "source_url": "https://www.city.nakano.nagano.jp/",
+     "evidence": "中野市役所 〒383-8614 長野県中野市三好町一丁目3番19号 電話0269-22-2111(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局 庶務係",
+     "phone": "0269-22-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nakano.nagano.jp/shigikai/2017103100016/",
+     "evidence": "議会事務局 庶務係 TEL:0269-22-2111",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nakano.nagano.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "202126",
+   "name": "大町市",
+   "official_site": "https://www.city.omachi.nagano.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.omachi.nagano.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0261-22-0420",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.omachi.nagano.jp/shigikai/shokai/shokai/kn2b16cp0q34mygb6pm3y7mn",
+     "evidence": "議会事務局 電話番号 : 0261-22-0420(内線581)",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.omachi.nagano.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "202134",
+   "name": "飯山市",
+   "official_site": "https://www.city.iiyama.nagano.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.iiyama.nagano.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.iiyama.nagano.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.iiyama.nagano.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "202142",
+   "name": "茅野市",
+   "official_site": "https://www.city.chino.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.chino.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0266-72-2101",
+     "email": null,
+     "form_url": null,
+     "postal_code": "391-8501",
+     "postal_address": "茅野市塚原二丁目6番1号",
+     "hours": null,
+     "source_url": "https://www.city.chino.lg.jp/site/chino-cc/",
+     "evidence": "議会事務局庶務・調査係/議事係 〒391-8501茅野市塚原二丁目6番1号 Tel:0266-72-2101",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "秘書広聴課秘書広聴係",
+     "phone": "0266-72-2101",
+     "email": null,
+     "form_url": "https://www.city.chino.lg.jp/form/detail.php?sec_sec1=5&inq=02&lif_id=80875",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.chino.lg.jp/site/mayorroom/1105.html",
+     "evidence": "秘書広聴課秘書広聴係 〒391-8501茅野市塚原二丁目6番1号 Tel:0266-72-2101(内線121・1",
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "202151",
+   "name": "塩尻市",
+   "official_site": "https://www.city.shiojiri.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0263-52-0280",
+     "email": null,
+     "form_url": null,
+     "postal_code": "399-0786",
+     "postal_address": "長野県塩尻市大門七番町 3 番 3 号",
+     "hours": null,
+     "source_url": "https://www.city.shiojiri.lg.jp/",
+     "evidence": "塩尻市役所 法人番号300002020…県塩尻市大門七番町 3 番 3 号 Tel:0263-52-0280(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0263-52-0706",
+     "email": null,
+     "form_url": null,
+     "postal_code": "399-0786",
+     "postal_address": "長野県塩尻市大門七番町3番3号",
+     "hours": null,
+     "source_url": "https://www.city.shiojiri.lg.jp/site/gikai/",
+     "evidence": "議会事務局 〒399-0786長野県塩尻市大門七番町3番3号 塩尻市役所4階 Tel:0263-52-0706(直通)",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.shiojiri.lg.jp/life/5/34/183/",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "202177",
+   "name": "佐久市",
+   "official_site": "https://www.city.saku.nagano.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0267-62-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "385-8501",
+     "postal_address": "長野県佐久市中込3056",
+     "hours": null,
+     "source_url": "https://www.city.saku.nagano.jp/",
+     "evidence": "佐久市役所 法人番号:200002020…501 長野県佐久市中込3056 電話番号 0267-62-2111(代表)0267",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0267-62-3495",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.saku.nagano.jp/shigikai/index.html",
+     "evidence": "議会事務局 住所 〒385-8501 長…3056 電話番号 0267-62-34950267-62-3495",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "広報広聴課",
+     "phone": "0267-62-3075",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.saku.nagano.jp/shisei/kakuka_annai/kikakubu/kohokotyoka.html",
+     "evidence": "広報広聴課 電話:0267-62-3075",
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "202185",
+   "name": "千曲市",
+   "official_site": "https://www.city.chikuma.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.chikuma.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.chikuma.lg.jp/soshiki/gikai_jimukyoku/chikumashigikai/index.html",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "秘書広報課",
+     "phone": "026-273-1111",
+     "email": null,
+     "form_url": "https://www.city.chikuma.lg.jp/cgi-bin/inquiry.php/2?page_no=12237",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.chikuma.lg.jp/soshiki/hishokoho/shichoshitsu/4/12237.html",
+     "evidence": "秘書広報課 〒387-8511 長野県千曲市杭瀬下二丁目1番地 電話番号:026-273-1111",
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "202193",
+   "name": "東御市",
+   "official_site": "https://www.city.tomi.nagano.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0268-62-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "389-0592",
+     "postal_address": "長野県東御市県 281-2",
+     "hours": null,
+     "source_url": "https://www.city.tomi.nagano.jp/",
+     "evidence": "東御市役所 開庁 : 平日 午前8時30…0592 長野県東御市県 281-2 電話:0268-62-1111(代表) FAX",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0268-64-5810",
+     "email": "gikai@city.tomi.nagano.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tomi.nagano.jp/category/gikai/index.html",
+     "evidence": "議会事務局 長野県東御市県281-2 電話: 0268-64-5810 ファックス02",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tomi.nagano.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "202207",
+   "name": "安曇野市",
+   "official_site": "https://www.city.azumino.nagano.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.azumino.nagano.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.azumino.nagano.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.azumino.nagano.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "203033",
+   "name": "小海町",
+   "official_site": "https://www.koumi-town.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.koumi-town.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0267-92-2578",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.koumi-town.jp/office2/archives/top-news/post-1496.html",
+     "evidence": "議会事務局 電話 0267-92-2578",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.koumi-town.jp/office2/archives/sonohoka/mailform-mayor.html",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "203041",
+   "name": "川上村",
+   "official_site": "https://www.vill.kawakami.nagano.jp/www/index.html",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.kawakami.nagano.jp/www/index.html",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.kawakami.nagano.jp/www/index.html",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.kawakami.nagano.jp/www/index.html",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "203050",
+   "name": "南牧村",
+   "official_site": "https://www.minamimakimura.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.minamimakimura.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.minamimakimura.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.minamimakimura.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "203068",
+   "name": "南相木村",
+   "official_site": "https://www.minamiaiki.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.minamiaiki.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.minamiaiki.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.minamiaiki.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "203076",
+   "name": "北相木村",
+   "official_site": "http://vill.kitaaiki.nagano.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://vill.kitaaiki.nagano.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.vill.kitaaiki.nagano.jp/sonsei/gikai/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://vill.kitaaiki.nagano.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "203092",
+   "name": "佐久穂町",
+   "official_site": "https://www.town.sakuho.nagano.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0267-86-2525",
+     "email": null,
+     "form_url": null,
+     "postal_code": "384-0697",
+     "postal_address": "長野県南佐久郡佐久穂町大字高野町569番地",
+     "hours": null,
+     "source_url": "https://www.town.sakuho.nagano.jp/",
+     "evidence": "佐久穂町役場 住所 〒384-0697 …久郡佐久穂町大字高野町569番地 電話番号 0267-86-2525(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0267-86-2556",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.sakuho.nagano.jp/choseijoho/chogikai/gikaidayori",
+     "evidence": "議会事務局 電話番号 0267-86-2556(直通) ⁄ 0",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.sakuho.nagano.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "203211",
+   "name": "軽井沢町",
+   "official_site": "https://www.town.karuizawa.lg.jp/www/index.html",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0267-45-8111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "389-0192",
+     "postal_address": "長野県北佐久郡軽井沢町大字長倉2381番地1",
+     "hours": null,
+     "source_url": "https://www.town.karuizawa.lg.jp/www/index.html",
+     "evidence": "軽井沢町役場 法人番号80000202…久郡軽井沢町大字長倉2381番地1 Tel:0267-45-8111(代表) Fax",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.karuizawa.lg.jp/adv/ba.php?id=6&ef1=5",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "広報広聴係",
+     "phone": "0267-45-8119",
+     "email": null,
+     "form_url": "https://www.town.karuizawa.lg.jp/form/detail.php?sec_sec1=3&inq=04&lif_id=25633",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.karuizawa.lg.jp/site/voice/",
+     "evidence": "広報広聴係 〒389-0192長野県北佐久郡軽井沢町大字長倉2381番地1 Tel:0267-45-8119Fax:0267",
+     "note": null
+    }
+   ]
+  }
+ ]
+}

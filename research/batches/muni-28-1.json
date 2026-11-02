@@ -1,0 +1,1120 @@
+{
+ "batch": "muni-28-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/08_make_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "281000",
+   "name": "神戸市",
+   "official_site": "https://www.city.kobe.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kobe.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kobe.lg.jp/shise/municipal/index.html",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kobe.lg.jp/shise/kocho/index.html",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "282014",
+   "name": "姫路市",
+   "official_site": "https://www.city.himeji.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.himeji.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "姫路市議会",
+     "phone": "079-221-2024",
+     "email": null,
+     "form_url": null,
+     "postal_code": "670-8501",
+     "postal_address": "姫路市安田四丁目1番地 本庁舎議会棟3階別ウィンドウで開く",
+     "hours": null,
+     "source_url": "https://www.city.himeji.lg.jp/faq/faq_detail.php?frmId=36",
+     "evidence": "議会棟3階別ウィンドウで開く 電話番号: 079-221-2024",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "広報・広聴",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.city.himeji.lg.jp/cmsform/enquete.php?id=6",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.himeji.lg.jp/shisei/category/5-1-3-0-0-0-0-0-0-0.html",
+     "evidence": "リンク「広報・広聴」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
+    }
+   ]
+  },
+  {
+   "code": "282022",
+   "name": "尼崎市",
+   "official_site": "https://www.city.amagasaki.hyogo.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.amagasaki.hyogo.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "尼崎市議会",
+     "phone": "06-6489-6112",
+     "email": null,
+     "form_url": null,
+     "postal_code": "660-8501",
+     "postal_address": "兵庫県尼崎市東七松町1丁目23番1号 議会棟1階",
+     "hours": null,
+     "source_url": "https://www.city.amagasaki.hyogo.jp/gikai/1001054/1014639.html",
+     "evidence": "議会棟1階 電話番号:06-6489-6112",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.amagasaki.hyogo.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "282031",
+   "name": "明石市",
+   "official_site": "https://www.city.akashi.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.akashi.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会局議事課",
+     "phone": "078-918-5060",
+     "email": "gijika@city.akashi.lg.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.akashi.lg.jp/gikai/youkoso/kouhou/news/news20261114.html",
+     "evidence": "議会局議事課 TEL:078-918-5060",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.akashi.lg.jp/shise/kocho/index.html",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "282049",
+   "name": "西宮市",
+   "official_site": "https://www.nishi.or.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.nishi.or.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "西宮市議会",
+     "phone": "0798-35-3375",
+     "email": null,
+     "form_url": null,
+     "postal_code": "662-8567",
+     "postal_address": "兵庫県西宮市六湛寺町10番3号 西宮市役所本庁舎議会棟 3階",
+     "hours": null,
+     "source_url": "https://www.nishi.or.jp/nishinomiyashigikai/index.html",
+     "evidence": "議会棟 3階 電話番号:0798-35-3375(総務課) 07",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育総務課",
+     "phone": "0798-35-3836",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.nishi.or.jp/kosodate/kyoiku/kyoikuiinkai/kyoikuiinkai.html",
+     "evidence": "教育総務課(0798-35-3836)にお問合せくだ",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "市民相談課",
+     "phone": "0798-35-3100",
+     "email": null,
+     "form_url": "https://www.nishi.or.jp/cgi-bin/formmail/formmail.cgi?d=001500051520",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.nishi.or.jp/shisei/koho/shicyo_taiwa/r8siseihoukoku.html",
+     "evidence": "市民相談課...0798-35-3100",
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "282057",
+   "name": "洲本市",
+   "official_site": "https://www.city.sumoto.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0799-22-3321",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.sumoto.lg.jp/",
+     "evidence": "本庁舎〒656-8686 兵庫県洲本市本町三丁目4番10号電話番号 0799-22-3321(代表)メールで",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0799-22-3334",
+     "email": null,
+     "form_url": null,
+     "postal_code": "656-8686",
+     "postal_address": "兵庫県洲本市本町三丁目4番10号",
+     "hours": null,
+     "source_url": "https://www.city.sumoto.lg.jp/soshiki/2/1409.html",
+     "evidence": "議会事務局 〒656-8686兵庫県洲本市本町三丁目4番10号 直通Tel:0799-22-3334",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.sumoto.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "282065",
+   "name": "芦屋市",
+   "official_site": "https://www.city.ashiya.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0797-31-2121",
+     "email": null,
+     "form_url": null,
+     "postal_code": "659-8501",
+     "postal_address": "兵庫県芦屋市精道町7番6号",
+     "hours": null,
+     "source_url": "https://www.city.ashiya.lg.jp/",
+     "evidence": "芦屋市役所 〒659-8501 兵庫県芦屋市精道町7番6号 電話番号:0797-31-2121(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0797-38-2001",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ashiya.lg.jp/shigi/seiganchinjou.html",
+     "evidence": "議会事務局 電話番号:0797-38-2001",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "市民の声",
+     "phone": null,
+     "email": null,
+     "form_url": "https://logoform.jp/form/pfd9/325850",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ashiya.lg.jp/",
+     "evidence": "リンク「市民の声」",
+     "note": "電話番号の掲載なし（フォームで受付）"
+    }
+   ]
+  },
+  {
+   "code": "282073",
+   "name": "伊丹市",
+   "official_site": "https://www.city.itami.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "072-783-1234",
+     "email": null,
+     "form_url": null,
+     "postal_code": "664-8503",
+     "postal_address": "兵庫県伊丹市千僧1-1",
+     "hours": null,
+     "source_url": "https://www.city.itami.lg.jp/",
+     "evidence": "伊丹市役所 法人番号8000020282…64-8503 兵庫県伊丹市千僧1-1電話:072-783-1234(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "072-783-1344",
+     "email": null,
+     "form_url": null,
+     "postal_code": "664-8503",
+     "postal_address": "伊丹市千僧1-1",
+     "hours": null,
+     "source_url": "https://www.city.itami.lg.jp/SOSIKI/SHIGIKAI/index.html",
+     "evidence": "議会事務局 〒664-8503伊丹市千僧1-1(市役所3階) 電話番号072-783-1344 ファクス072",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "事務局教育総務部教育政策課",
+     "phone": "072-784-8081",
+     "email": null,
+     "form_url": null,
+     "postal_code": "664-8503",
+     "postal_address": "伊丹市千僧1-1",
+     "hours": null,
+     "source_url": "https://www.city.itami.lg.jp/kosodate_kyoiku/21869.html",
+     "evidence": "事務局教育総務部教育政策課 〒664-8503伊丹市千僧1-1(市役所2階) 電話番号072-784-8081 ファクス072",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "室市民相談課",
+     "phone": "072-784-8011",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.city.itami.lg.jp/SOSIKI/SHIMIN/SHIMINSOUDAN/21319.html",
+     "evidence": "室市民相談課 〒664-8503伊丹市千僧1-1(市役所4階) 電話番号072-784-8011 ファクス072",
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "282081",
+   "name": "相生市",
+   "official_site": "https://www.city.aioi.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.aioi.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0791-23-7122",
+     "email": null,
+     "form_url": null,
+     "postal_code": "678-8585",
+     "postal_address": "兵庫県相生市旭1丁目1番3号",
+     "hours": null,
+     "source_url": "https://www.city.aioi.lg.jp/adv/ba.php?id=91",
+     "evidence": "議会事務局 〒678-8585兵庫県相生市旭1丁目1番3号 Tel:0791-23-7122Fax:0791",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "市政へのご意見",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.city.aioi.lg.jp/soshiki/kikakukoho/mail-add.html",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.aioi.lg.jp/ques/questionnaire.php?openid=2",
+     "evidence": "リンク「市政へのご意見」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
+    }
+   ]
+  },
+  {
+   "code": "282090",
+   "name": "豊岡市",
+   "official_site": "https://www.city.toyooka.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.toyooka.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.toyooka.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.toyooka.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "282103",
+   "name": "加古川市",
+   "official_site": "https://www.city.kakogawa.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "079-421-2000",
+     "email": null,
+     "form_url": null,
+     "postal_code": "675-8501",
+     "postal_address": "兵庫県加古川市加古川町北在家2000",
+     "hours": null,
+     "source_url": "https://www.city.kakogawa.lg.jp/",
+     "evidence": "加古川市役所 法人番号30000202…加古川市加古川町北在家2000 電話番号:079-421-2000(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kakogawa.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kakogawa.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "282120",
+   "name": "赤穂市",
+   "official_site": "https://www.city.ako.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0791-43-3201",
+     "email": null,
+     "form_url": null,
+     "postal_code": "678-0292",
+     "postal_address": "兵庫県赤穂市加里屋81番地",
+     "hours": null,
+     "source_url": "https://www.city.ako.lg.jp/",
+     "evidence": "赤穂市役所 法人番号2000020282…0292 兵庫県赤穂市加里屋81番地 電話 0791-43-3201(代表) FAX",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0791-43-6876",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ako.lg.jp/shise/gikai/index.html",
+     "evidence": "議会事務局 兵庫県赤穂市加里屋81番地 電話番号:0791-43-6876",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ako.lg.jp/shise/kocho/index.html",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "282138",
+   "name": "西脇市",
+   "official_site": "https://www.city.nishiwaki.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nishiwaki.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0795-22-3111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nishiwaki.lg.jp/kakukanogoannai/gikaijimukyoku/index.html",
+     "evidence": "議会事務局 電話:0795-22-3111(代表)",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育総務課",
+     "phone": "0795-22-3111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nishiwaki.lg.jp/kakukanogoannai/kyouikuiinkai/kyouikukanribu/kyouikusoumuka/index.html",
+     "evidence": "教育総務課 電話:0795-22-3111(代表)",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nishiwaki.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "282146",
+   "name": "宝塚市",
+   "official_site": "https://www.city.takarazuka.hyogo.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0797-71-1141",
+     "email": null,
+     "form_url": null,
+     "postal_code": "665-8665",
+     "postal_address": "兵庫県宝塚市東洋町1番1号",
+     "hours": null,
+     "source_url": "https://www.city.takarazuka.hyogo.jp/",
+     "evidence": "宝塚市役所 〒665-8665 兵庫県宝塚市東洋町1番1号 代表電話番号:0797-71-1141",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局 総務課",
+     "phone": "0797-77-2034",
+     "email": null,
+     "form_url": null,
+     "postal_code": "665-8665",
+     "postal_address": "宝塚市東洋町1番1号 本庁舎4階",
+     "hours": null,
+     "source_url": "https://www.city.takarazuka.hyogo.jp/1060687/gikai/index.html",
+     "evidence": "議会事務局 総務課 〒665-8665 宝塚市東洋町1番1号 本庁舎4階 電話:0797-77-2034",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育企画課",
+     "phone": "0797-77-2025",
+     "email": null,
+     "form_url": null,
+     "postal_code": "665-8665",
+     "postal_address": "宝塚市東洋町1番1号 本庁舎3階",
+     "hours": null,
+     "source_url": "https://www.city.takarazuka.hyogo.jp/1060680/1060699/kyoikuiinkai/index.html",
+     "evidence": "教育企画課 〒665-8665 宝塚市東洋町1番1号 本庁舎3階 電話:0797-77-2025 ファクス:07",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "広聴相談担当",
+     "phone": "0797-77-2118",
+     "email": null,
+     "form_url": "https://www.city.takarazuka.hyogo.jp/cgi-crm/CRM030/CRM030_004/g011/1049344",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.takarazuka.hyogo.jp/1060687/1060724/1049344.html",
+     "evidence": "広聴相談担当) 0797-77-2118(統計担当)",
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "282154",
+   "name": "三木市",
+   "official_site": "https://www.city.miki.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.miki.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0794-89-2309",
+     "email": null,
+     "form_url": null,
+     "postal_code": "673-0492",
+     "postal_address": "兵庫県三木市上の丸町10番30号 三木市役所 6階",
+     "hours": null,
+     "source_url": "https://www.city.miki.lg.jp/soshiki/53/60951.html",
+     "evidence": "議会事務局 〒673-0492兵庫県三木市上の丸町10番30号 三木市役所 6階 庶務係 Tel:0794-89-2309",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.miki.lg.jp/soshiki/7/10807.html",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "282162",
+   "name": "高砂市",
+   "official_site": "https://www.city.takasago.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.takasago.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.takasago.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "高砂市へのご意見・相談窓口",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.city.takasago.lg.jp/cgi-bin/inquiry.php/61?page_no=925",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.takasago.lg.jp/gyoseisite/shiseijoho/koho_kocho/3/1/index.html",
+     "evidence": "リンク「ご意見・お問い合わせ」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
+    }
+   ]
+  },
+  {
+   "code": "282171",
+   "name": "川西市",
+   "official_site": "https://www.city.kawanishi.hyogo.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "072-740-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "666-8501",
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kawanishi.hyogo.jp/",
+     "evidence": "川西市役所 [法人番号:90000202…西市中央町12番1号 [ 地図 ] 電話:072-740-1111(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "072-740-1250",
+     "email": null,
+     "form_url": null,
+     "postal_code": "666-8501",
+     "postal_address": "川西市中央町12番1号 市役所6階",
+     "hours": null,
+     "source_url": "https://www.city.kawanishi.hyogo.jp/gikai/sei_tin.html",
+     "evidence": "議会事務局 〒666-8501 川西市中央町12番1号 市役所6階 電話:072-740-1250 ファクス:07",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育総務課",
+     "phone": "072-740-1256",
+     "email": null,
+     "form_url": null,
+     "postal_code": "666-8501",
+     "postal_address": "川西市中央町12番1号 市役所3階",
+     "hours": null,
+     "source_url": "https://www.city.kawanishi.hyogo.jp/kyoiku/1013166.html",
+     "evidence": "教育総務課 〒666-8501 川西市中央町12番1号 市役所3階 電話:072-740-1256(就学担当)・0",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "秘書課",
+     "phone": "072-740-1103",
+     "email": null,
+     "form_url": "https://www.city.kawanishi.hyogo.jp/kurashi/toiawase/1012041/1013025.html",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kawanishi.hyogo.jp/kurashi/toiawase/1012041/index.html",
+     "evidence": "秘書課 〒666-8501 川西市中央町12番1号 市役所4階 電話:072-740-1103",
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "282189",
+   "name": "小野市",
+   "official_site": "https://www.city.ono.hyogo.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ono.hyogo.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0794-63-1006",
+     "email": null,
+     "form_url": null,
+     "postal_code": "675-1380",
+     "postal_address": "兵庫県小野市中島町531番地",
+     "hours": null,
+     "source_url": "https://ono-sigikai.jp/",
+     "evidence": "議会事務局 〒675-1380 兵庫県小野市中島町531番地 TEL 0794-63-1006 FAX 079",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ono.hyogo.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "282197",
+   "name": "三田市",
+   "official_site": "https://www.city.sanda.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "079-563-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "669-1595",
+     "postal_address": "兵庫県三田市三輪2丁目1番1号",
+     "hours": null,
+     "source_url": "https://www.city.sanda.lg.jp/",
+     "evidence": "三田市役所 〒669-1595 兵庫県三田市三輪2丁目1番1号 電話番号:079-563-1111(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "079-559-5162",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.sanda.lg.jp/soshiki/2/gyomu/yakusho_madoguchi/soshiki_annai/205.html",
+     "evidence": "議会事務局 議会事務局 課名等・係名等 電話番号 ファクス番号 主な業務 場所 議事総務課 079-559-5162",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "市長への手紙(わたしの提案)",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.city.sanda.lg.jp/cgi-bin/inquiry.php/136?page_no=24583",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.sanda.lg.jp/soshiki/2/gyomu/koho/kocho/sicyotegami/24583.html",
+     "evidence": "リンク「市長への手紙(わたしの提案)」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
+    }
+   ]
+  },
+  {
+   "code": "282201",
+   "name": "加西市",
+   "official_site": "https://www.city.kasai.hyogo.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0790-42-1110",
+     "email": null,
+     "form_url": null,
+     "postal_code": "675-2395",
+     "postal_address": "兵庫県加西市北条町横尾1000番地",
+     "hours": null,
+     "source_url": "https://www.city.kasai.hyogo.jp/",
+     "evidence": "加西市役所 法人番号4000020282…兵庫県加西市北条町横尾1000番地 Tel:0790-42-1110(代表)メールで",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0790-42-8790",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kasai.hyogo.jp/site/gikai",
+     "evidence": "議会事務局 Tel:0790-42-8790Fax:0790",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育総務課",
+     "phone": "0790-42-8770",
+     "email": null,
+     "form_url": null,
+     "postal_code": "675-2395",
+     "postal_address": "加西市北条町横尾1000番地",
+     "hours": null,
+     "source_url": "https://www.city.kasai.hyogo.jp/site/kyoiku/",
+     "evidence": "教育総務課 〒675-2395加西市北条町横尾1000番地 加西市役所6階 Tel:0790-42-8770Fax:0790",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kasai.hyogo.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "282219",
+   "name": "丹波篠山市",
+   "official_site": "https://www.city.tambasasayama.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tambasasayama.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.youtube.com/channel/UChs6QWUdAtl3jO2i8cFncvg",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tambasasayama.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  }
+ ]
+}

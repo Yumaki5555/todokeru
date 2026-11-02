@@ -5,6 +5,23 @@
   {"host": "gikai-chiyoda-tokyo.jp", "name": "千代田区議会", "evidence_url": "https://www.city.chiyoda.lg.jp/", "checked_at": "2026-11-01"},
   {"host": "shibukugi.tokyo", "name": "渋谷区議会", "evidence_url": "https://www.city.shibuya.tokyo.jp/", "checked_at": "2026-11-01"},
   {"host": "kugikai-nakano.jp", "name": "中野区議会", "evidence_url": "https://www.city.tokyo-nakano.lg.jp/", "checked_at": "2026-11-01"},
-  {"host": "www.gikai-adachi.jp", "name": "足立区議会", "evidence_url": "https://www.city.adachi.tokyo.jp/", "checked_at": "2026-11-01"}
+  {"host": "www.gikai-adachi.jp", "name": "足立区議会", "evidence_url": "https://www.city.adachi.tokyo.jp/", "checked_at": "2026-11-01"},
+  {"host": "www.katsushika-kugikai.jp", "name": "葛飾区議会", "evidence_url": "https://www.city.katsushika.lg.jp/", "checked_at": "2026-11-03"},
+  {"host": "www.sagamihara-shigikai.jp", "name": "相模原市議会", "evidence_url": "https://www.city.sagamihara.kanagawa.jp/", "checked_at": "2026-11-03"},
+  {"host": "www.kasukabe-shigikai.jp", "name": "春日部市議会", "evidence_url": "https://www.city.kasukabe.lg.jp/", "checked_at": "2026-11-03"},
+  {"host": "www.soka-shigikai.jp", "name": "草加市議会", "evidence_url": "https://www.city.soka.saitama.jp/", "checked_at": "2026-11-03"},
+  {"host": "www.nagareyamagikai.jp", "name": "流山市議会", "evidence_url": "https://www.city.nagareyama.chiba.jp/", "checked_at": "2026-11-03"},
+  {"host": "www.futtsu-gikai.jp", "name": "富津市議会", "evidence_url": "https://www.city.futtsu.lg.jp/", "checked_at": "2026-11-03"},
+  {"host": "www.gikai-web.com", "name": "大阪狭山市議会", "evidence_url": "https://www.city.osakasayama.osaka.jp/", "checked_at": "2026-11-03"},
+  {"host": "www.noboribetsu-shigikai.org", "name": "登別市議会", "evidence_url": "https://www.city.noboribetsu.lg.jp/", "checked_at": "2026-11-03"},
+  {"host": "gikai-sharitown.net", "name": "斜里町議会", "evidence_url": "https://www.town.shari.hokkaido.jp/", "checked_at": "2026-11-03"},
+  {"host": "gikai-town-onagawa.jp", "name": "女川町議会", "evidence_url": "https://www.town.onagawa.miyagi.jp/", "checked_at": "2026-11-03"},
+  {"host": "www.eiheiji-gikai.jp", "name": "永平寺町議会", "evidence_url": "https://www.town.eiheiji.lg.jp/", "checked_at": "2026-11-03"},
+  {"host": "gikai-town-komono.com", "name": "菰野町議会", "evidence_url": "https://www2.town.komono.mie.jp/www/index.html", "checked_at": "2026-11-03"},
+  {"host": "ono-sigikai.jp", "name": "小野市議会", "evidence_url": "https://www.city.ono.hyogo.jp/", "checked_at": "2026-11-03"},
+  {"host": "gikai.izumo-city.jp", "name": "出雲市議会", "evidence_url": "https://www.city.izumo.shimane.jp/www/toppage/0000000000000/APM03000.html", "checked_at": "2026-11-03"},
+  {"host": "www.gikai-kawasaki.com", "name": "川崎町議会", "evidence_url": "https://www.town-kawasaki.com/", "checked_at": "2026-11-03"},
+  {"host": "ogimi-gikai.sakura.ne.jp", "name": "大宜味村議会", "evidence_url": "https://www.vill.ogimi.okinawa.jp/", "checked_at": "2026-11-03"},
+  {"host": "iegikai.iejima.org", "name": "伊江村議会", "evidence_url": "https://www.iejima.org/", "checked_at": "2026-11-03"}
  ]
 }

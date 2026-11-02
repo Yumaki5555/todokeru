@@ -1,0 +1,1484 @@
+{
+ "batch": "muni-01-6",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/08_make_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "016314",
+   "name": "音更町",
+   "official_site": "https://www.town.otofuke.hokkaido.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.otofuke.hokkaido.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.otofuke.hokkaido.jp/machi/gikai/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "ご意見・お問い合わせ先",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.harp.lg.jp/SksJuminWeb/EntryForm?id=0hScx6cK",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.otofuke.hokkaido.jp/contect/",
+     "evidence": "リンク「ご意見・お問い合わせ」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
+    }
+   ]
+  },
+  {
+   "code": "016322",
+   "name": "士幌町",
+   "official_site": "https://www.shihoro.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.shihoro.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "01564-5-5218",
+     "email": null,
+     "form_url": null,
+     "postal_code": "080-1292",
+     "postal_address": "北海道河東郡士幌町字士幌225番地士幌町議会事務局",
+     "hours": null,
+     "source_url": "https://www.shihoro.jp/assembly/",
+     "evidence": "議会事務局 TEL:01564-5-5218",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "地域戦略課広報広聴係",
+     "phone": "01564-5-5212",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.shihoro.jp/news/detail.php?news=896",
+     "evidence": "地域戦略課広報広聴係(☎01564-5-5212)",
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "016331",
+   "name": "上士幌町",
+   "official_site": "https://www.kamishihoro.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.kamishihoro.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "上士幌町議会",
+     "phone": "01564-2-4299",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.kamishihoro.jp/gikai/",
+     "evidence": "議会 上士幌町字上士幌東3線238番地 事務局局長 01564-2-4299 平日8:30~",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育委員会",
+     "phone": "01564-2-3180",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.kamishihoro.jp/entry/00007065",
+     "evidence": "教育委員会のFAX番号が下記のとおり変更となりますので、お知らせします。 【変更前】01564-2-3180 → 【変更後】",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.harp.lg.jp/sks/form.php?id=c907360",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "016349",
+   "name": "鹿追町",
+   "official_site": "https://www.town.shikaoi.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shikaoi.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0156-66-4039",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shikaoi.lg.jp/gikai/oshirase/3783/",
+     "evidence": "議会事務局TEL:0156-66-4039FAX:0156",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "広報広聴係",
+     "phone": "0156-66-4032",
+     "email": "pr@town.shikaoi.lg.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shikaoi.lg.jp/kurashi/kuchoumeibo/",
+     "evidence": "広報広聴係TEL:0156-66-4032FAX:0156",
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "016357",
+   "name": "新得町",
+   "official_site": "https://www.shintoku-town.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.shintoku-town.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0156-64-0524",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://shintoku-town.jp/gyousei/gikai/",
+     "evidence": "議会事務局 電話番号:0156-64-0524",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.shintoku-town.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "016365",
+   "name": "清水町",
+   "official_site": "https://www.town.shimizu.hokkaido.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shimizu.hokkaido.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shimizu.hokkaido.jp/gikai/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shimizu.hokkaido.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "016373",
+   "name": "芽室町",
+   "official_site": "https://www.memuro.net/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.memuro.net/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://mgikai.memuro.net/gikai.htm",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.memuro.net/administration/kouhou/",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "016381",
+   "name": "中札内村",
+   "official_site": "https://www.vill.nakasatsunai.hokkaido.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.nakasatsunai.hokkaido.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.nakasatsunai.hokkaido.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.nakasatsunai.hokkaido.jp/",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "016390",
+   "name": "更別村",
+   "official_site": "https://www.sarabetsu.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.sarabetsu.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "更別村議会事務局",
+     "phone": "0155-52-2117",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.sarabetsu.jp/gikai/",
+     "evidence": "更別村議会事務局 (更別村役場内)TEL:0155-52-2117",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.sarabetsu.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "016411",
+   "name": "大樹町",
+   "official_site": "https://www.town.taiki.hokkaido.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "01558-6-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "089-2195",
+     "postal_address": "北海道広尾郡大樹町東本通33",
+     "hours": null,
+     "source_url": "https://www.town.taiki.hokkaido.jp/",
+     "evidence": "大樹町役場 法人番号 300002001…5 北海道広尾郡大樹町東本通33 電話番号:01558-6-2111 (代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "01558-6-5035",
+     "email": null,
+     "form_url": null,
+     "postal_code": "089-2195",
+     "postal_address": "北海道広尾郡大樹町東本通33番地",
+     "hours": null,
+     "source_url": "https://www.town.taiki.hokkaido.jp/topics/3228.html",
+     "evidence": "議会事務局 〒089-2195 北海道広尾郡大樹町東本通33番地 電話番号:01558-6-5035(直通)",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.taiki.hokkaido.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "016420",
+   "name": "広尾町",
+   "official_site": "https://www.town.hiroo.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hiroo.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hiroo.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hiroo.lg.jp/",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "016438",
+   "name": "幕別町",
+   "official_site": "https://www.town.makubetsu.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.makubetsu.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "幕別町議会",
+     "phone": "0155-54-6626",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.makubetsu.lg.jp/chosei/choseisanka/contact/2267.html",
+     "evidence": "議会だよりの発行、議員の福利厚生、議場の管理 0155-54-6626",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.makubetsu.lg.jp/contact/",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "016446",
+   "name": "池田町",
+   "official_site": "https://www.town.hokkaido-ikeda.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hokkaido-ikeda.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hokkaido-ikeda.lg.jp/kikan/gikai/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hokkaido-ikeda.lg.jp/machi/johokokai/",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "016454",
+   "name": "豊頃町",
+   "official_site": "https://www.toyokoro.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.toyokoro.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局庶務係",
+     "phone": "015-574-2222",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.toyokoro.jp/site/gikai/",
+     "evidence": "議会事務局庶務係 Tel:015-574-2222",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.toyokoro.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "016462",
+   "name": "本別町",
+   "official_site": "https://www.town.honbetsu.hokkaido.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0156-22-2141",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.honbetsu.hokkaido.jp/",
+     "evidence": "本別町役場 開庁時間 月曜日~金曜日 … 北海道中川郡本別町北2丁目4-1 電話:0156-22-2141(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0156-22-8123",
+     "email": "gikaik@town.honbetsu.hokkaido.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.honbetsu.hokkaido.jp/web/parliament/index.html",
+     "evidence": "議会事務局 電話:0156-22-8123",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.honbetsu.hokkaido.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "016471",
+   "name": "足寄町",
+   "official_site": "https://www.town.ashoro.hokkaido.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ashoro.hokkaido.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ashoro.hokkaido.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ashoro.hokkaido.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "016489",
+   "name": "陸別町",
+   "official_site": "https://www.rikubetsu.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.rikubetsu.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0156-27-2141",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.rikubetsu.jp/gikai/seigan/",
+     "evidence": "議会事務局 電話番号:0156-27-2141内線:321・3",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.rikubetsu.jp/chosei/kouhou_koutyou/",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "016497",
+   "name": "浦幌町",
+   "official_site": "https://www.urahoro.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.urahoro.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.urahoro.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.urahoro.jp/",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "016616",
+   "name": "釧路町",
+   "official_site": "http://www.town.kushiro.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0154-62-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "088-0692",
+     "postal_address": "北海道釧路郡釧路町別保1丁目1番地",
+     "hours": null,
+     "source_url": "http://www.town.kushiro.lg.jp/",
+     "evidence": "釧路町役場 (法人番号500002001…海道釧路郡釧路町別保1丁目1番地 TEL/0154-62-2111(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0154-62-2264",
+     "email": null,
+     "form_url": null,
+     "postal_code": "088-0692",
+     "postal_address": "北海道釧路郡釧路町別保1丁目1番地",
+     "hours": null,
+     "source_url": "http://www.town.kushiro.lg.jp/gikai/",
+     "evidence": "議会事務局〒088-0692 北海道釧路郡釧路町別保1丁目1番地電話 : 0154-62-2264 (FAX :",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育総務係",
+     "phone": "0154-62-2215",
+     "email": null,
+     "form_url": null,
+     "postal_code": "088-0692",
+     "postal_address": "北海道釧路郡釧路町別保1丁目1番地",
+     "hours": null,
+     "source_url": "http://www.town.kushiro.lg.jp/education/",
+     "evidence": "教育総務係〒088-0692 北海道釧路郡釧路町別保1丁目1番地電話 : 0154-62-2215 (FAX :",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.town.kushiro.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "016624",
+   "name": "厚岸町",
+   "official_site": "https://www.akkeshi-town.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.akkeshi-town.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0153-52-3131",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.akkeshi-town.jp/chogikai/oshirase/4350/",
+     "evidence": "議会事務局TEL:0153-52-3131(代表)FAX:",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "厚岸町教育委員会管理課",
+     "phone": "0153-52-3131",
+     "email": null,
+     "form_url": null,
+     "postal_code": "088-1192",
+     "postal_address": "厚岸町真栄3丁目1番地",
+     "hours": null,
+     "source_url": "http://edu.town.akkeshi.hokkaido.jp/toiawase/",
+     "evidence": "厚岸町教育委員会管理課 〒088-119…栄3丁目1番地 (役場庁舎2階) TEL:0153-52-3131(内線350~3",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.akkeshi-town.jp/gyosei/kouhou_kouchou/",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "016632",
+   "name": "浜中町",
+   "official_site": "https://www.townhamanaka.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0153-62-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "088-1592",
+     "postal_address": "北海道厚岸郡浜中町湯沸445番地",
+     "hours": null,
+     "source_url": "https://www.townhamanaka.jp/",
+     "evidence": "浜中町役場笑顔輝く共創のふるさとを 未来…北海道厚岸郡浜中町湯沸445番地 電話番号 0153-62-2111(代表) Fax",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0153-67-8124",
+     "email": null,
+     "form_url": null,
+     "postal_code": "088-1592",
+     "postal_address": "北海道厚岸郡浜中町湯沸445番地",
+     "hours": null,
+     "source_url": "https://www.townhamanaka.jp/kakuka/gikaijimukyoku/2017-0312-1419-12.html",
+     "evidence": "議会事務局 〒088-1592 北海道厚岸郡浜中町湯沸445番地 電話番号:0153-67-8124",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.townhamanaka.jp/contact/index.html",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "016641",
+   "name": "標茶町",
+   "official_site": "https://town.shibecha.hokkaido.jp/top/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://town.shibecha.hokkaido.jp/top/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://town.shibecha.hokkaido.jp/top/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://town.shibecha.hokkaido.jp/top/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "016659",
+   "name": "弟子屈町",
+   "official_site": "https://www.town.teshikaga.hokkaido.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.teshikaga.hokkaido.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.teshikaga.hokkaido.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.teshikaga.hokkaido.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "016675",
+   "name": "鶴居村",
+   "official_site": "https://www.vill.tsurui.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.tsurui.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0154-64-2511",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.tsurui.lg.jp/muranoshokai_sonsei/tsuruimuragikai/index.html",
+     "evidence": "議会事務局 〒085-1203 北海道阿寒郡鶴居村鶴居西1丁目1番地 電話番号:0154-64-2511",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "鶴居村教育委員会",
+     "phone": "0154-64-2050",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.tsurui.lg.jp/kurashi_tetsuzuki/1118.html",
+     "evidence": "鶴居村教育委員会 鶴居村鶴居東5-3 0154-64-2050・2250",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.tsurui.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "016683",
+   "name": "白糠町",
+   "official_site": "https://www.town.shiranuka.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shiranuka.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shiranuka.lg.jp/gyosei/category/nfml630000000de2.html",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shiranuka.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "016918",
+   "name": "別海町",
+   "official_site": "https://betsukai.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://betsukai.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://betsukai.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://betsukai.jp/",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "016926",
+   "name": "中標津町",
+   "official_site": "https://www.nakashibetsu.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.nakashibetsu.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.nakashibetsu.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.nakashibetsu.jp/",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "016934",
+   "name": "標津町",
+   "official_site": "https://www.shibetsutown.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0153-82-2131",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.shibetsutown.jp/",
+     "evidence": "標津町役場法人番号:9000020016…道標津郡標津町北2条西1丁目1番3号 電話:0153-82-2131(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.shibetsutown.jp/administration/?category=52",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.shibetsutown.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "016942",
+   "name": "羅臼町",
+   "official_site": "https://www.rausu-town.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0153-87-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "086-1892",
+     "postal_address": "北海道目梨郡羅臼町栄町100番地83",
+     "hours": null,
+     "source_url": "https://www.rausu-town.jp/",
+     "evidence": "羅臼町役場 〒086-1892 北海道目梨郡羅臼町栄町100番地83 代表電話 0153-87-2111",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.rausu-town.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.rausu-town.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  }
+ ]
+}

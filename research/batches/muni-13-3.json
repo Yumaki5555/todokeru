@@ -1,0 +1,1085 @@
+{
+ "batch": "muni-13-3",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/08_make_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "132225",
+   "name": "東久留米市",
+   "official_site": "https://www.city.higashikurume.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.higashikurume.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局 庶務調査係",
+     "phone": "042-470-7789",
+     "email": null,
+     "form_url": null,
+     "postal_code": "203-8555",
+     "postal_address": "東京都東久留米市本町3-3-1",
+     "hours": null,
+     "source_url": "https://www.city.higashikurume.lg.jp/gikai/index.html",
+     "evidence": "議会事務局 庶務調査係 〒203-8555 東京都東久留米市本町3-3-1 電話:042-470-7789",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育総務課",
+     "phone": "042-470-7775",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.higashikurume.lg.jp/shisei/kyoiku/index.html",
+     "evidence": "教育総務課(電話042-470-7775)へご連絡くださ",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "ご意見箱",
+     "phone": null,
+     "email": null,
+     "form_url": "https://53654d67.form.kintoneapp.com/public/5f1cd18a44c98d3bb36f7ed5fbf946e2fe9050da8e2f429dc0d1135a249e55ec",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.higashikurume.lg.jp/about/1003529.html",
+     "evidence": "リンク「ご意見箱 (外部リンク)新しいウィンドウで開きます」",
+     "note": "電話番号の掲載なし（フォームで受付）"
+    }
+   ]
+  },
+  {
+   "code": "132233",
+   "name": "武蔵村山市",
+   "official_site": "https://www.city.musashimurayama.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "042-565-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "208-8501",
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.musashimurayama.lg.jp/",
+     "evidence": "武蔵村山市役所 〒208-8501 東…目1番地の1 地図・フロア案内 代表電話:042-565-1111 ファクス:04",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局議事係",
+     "phone": "042-565-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.musashimurayama.lg.jp/shisei/shigikai/index.html",
+     "evidence": "議会事務局議事係 電話番号:042-565-1111(内線番号:51",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育政策係",
+     "phone": "042-565-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/index.html",
+     "evidence": "教育政策係 電話番号:042-565-1111(内線番号:42",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "企画財政部秘書課広聴係",
+     "phone": "042-565-1111",
+     "email": null,
+     "form_url": "https://www.city.musashimurayama.lg.jp/cgi-crm/CRM030/CRM030_004/a_01d/1022126",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.musashimurayama.lg.jp/shisei/shicho/1003235/1003238/1022126.html",
+     "evidence": "企画財政部秘書課広聴係 電話番号:042-565-1111(内線番号:31",
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "132241",
+   "name": "多摩市",
+   "official_site": "https://www.city.tama.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tama.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局 庶務係",
+     "phone": "042-338-6891",
+     "email": null,
+     "form_url": null,
+     "postal_code": "206-8666",
+     "postal_address": "東京都多摩市関戸六丁目12番地1",
+     "hours": null,
+     "source_url": "https://www.city.tama.lg.jp/shigikai/index.html",
+     "evidence": "議会事務局 庶務係 〒206-8666 東京都多摩市関戸六丁目12番地1 電話番号:042-338-6891",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "市民相談係",
+     "phone": "042-338-6806",
+     "email": null,
+     "form_url": "https://www.city.tama.lg.jp/cgi-bin/enquetes/995344ec2b014c6d8c4d7c782de91b59",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tama.lg.jp/shisei/keikaku/kyodo/koe/1005162.html",
+     "evidence": "市民相談係 〒206-8666 東京都多摩市関戸六丁目12番地1 電話番号:042-338-6806 ファクシミリ番",
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "132250",
+   "name": "稲城市",
+   "official_site": "https://www.city.inagi.tokyo.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.inagi.tokyo.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "042-378-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "206-8601",
+     "postal_address": "東京都稲城市東長沼2111番地",
+     "hours": null,
+     "source_url": "https://www.city.inagi.tokyo.jp/gikai/index.html",
+     "evidence": "議会事務局 が担当しています 〒206-…東京都稲城市東長沼2111番地 電話番号:042-378-2111 ファクス番号:",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.inagi.tokyo.jp/shisei/koho/index.html",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "132276",
+   "name": "羽村市",
+   "official_site": "https://www.city.hamura.tokyo.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "042-555-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hamura.tokyo.jp/",
+     "evidence": "羽村市役所 〒205-8601 東京都羽村市緑ヶ丘5丁目2番地1 電話: 042-555-1111(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hamura.tokyo.jp/category/8-0-0-0-0-0-0-0-0-0.html",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "羽村市企画部秘書広報課",
+     "phone": "042-555-1111",
+     "email": null,
+     "form_url": "https://www.city.hamura.tokyo.jp/mailform/inquiry.cgi?so=617e7b6cebba8f973209537c3dd5c2d1093a2ac6&ref=https%3A%2F%2Fwww.city.hamura.tokyo.jp%2F0000018260.html",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hamura.tokyo.jp/0000018260.html",
+     "evidence": "羽村市企画部秘書広報課 電話: 042-555-1111 (秘書係)内線",
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "132284",
+   "name": "あきる野市",
+   "official_site": "https://www.city.akiruno.tokyo.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "042-558-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "197-0814",
+     "postal_address": "東京都あきる野市二宮350番地",
+     "hours": null,
+     "source_url": "https://www.city.akiruno.tokyo.jp/",
+     "evidence": "あきる野市役所 〒197-0814 東京都あきる野市二宮350番地 電話:042-558-1111(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "042-558-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "197-0814",
+     "postal_address": "東京都あきる野市二宮350番地",
+     "hours": null,
+     "source_url": "https://www.city.akiruno.tokyo.jp/soshiki_list.html",
+     "evidence": "議会事務局 選挙管理委員会事務局 監査委員事務局 教育部 企画政策部 企画政策課 企画政策課 電話番号 代表042-558-1111",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育総務係",
+     "phone": "042-558-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "197-0814",
+     "postal_address": "東京都あきる野市二宮350番地",
+     "hours": null,
+     "source_url": "https://www.city.akiruno.tokyo.jp/soshiki_list.html",
+     "evidence": "教育総務係 電話番号 代表042-558-1111 内線2911、",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "市長への手紙・担当課への問い合わせについて",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.city.akiruno.tokyo.jp/cmsform/enquete.php?id=4",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.akiruno.tokyo.jp/0000000024.html",
+     "evidence": "リンク「市長への手紙」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
+    }
+   ]
+  },
+  {
+   "code": "132292",
+   "name": "西東京市",
+   "official_site": "https://www.city.nishitokyo.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nishitokyo.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "西東京市議会",
+     "phone": "042-460-9860",
+     "email": null,
+     "form_url": null,
+     "postal_code": "188-8666",
+     "postal_address": "西東京市南町五丁目6番13号 田無庁舎議会棟3階",
+     "hours": null,
+     "source_url": "https://www.city.nishitokyo.lg.jp/sigikai/about/seigan_chinjo.html",
+     "evidence": "議会棟3階 電話:042-460-9860",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nishitokyo.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "133035",
+   "name": "瑞穂町",
+   "official_site": "https://www.town.mizuho.tokyo.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "042-557-0501",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.mizuho.tokyo.jp/",
+     "evidence": "瑞穂町役場 法人番号:10000201…郡瑞穂町大字箱根ケ崎2335番地 代表電話 042-557-0501",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "瑞穂町議会",
+     "phone": "042-557-7693",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.mizuho.tokyo.jp/tyosei/gikaiold/index.html",
+     "evidence": "議会 法人番号:10000201330…郡瑞穂町大字箱根ケ崎2335番地 代表電話 042-557-7693",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "瑞穂町教育委員会",
+     "phone": "042-557-6682",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.mizuho.tokyo.jp/kosodate/008/kyoikuiinkaiold/index.html",
+     "evidence": "瑞穂町教育委員会 法人番号:10000…郡瑞穂町大字箱根ケ崎2335番地 代表電話 042-557-6682",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "広報広聴係",
+     "phone": "042-557-7497",
+     "email": null,
+     "form_url": "https://www.town.mizuho.tokyo.jp/inquiry/mailform110203.html?PAGE_NO=11899",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.mizuho.tokyo.jp/tyosei/009/001/p011899.html",
+     "evidence": "広報広聴係 〒190-1292 東京都西多摩郡瑞穂町大字箱根ケ崎2335番地 電話 042-557-7497",
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "133051",
+   "name": "日の出町",
+   "official_site": "https://www.town.hinode.tokyo.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hinode.tokyo.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局庶務議事係",
+     "phone": "042-588-5148",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hinode.tokyo.jp/0000004568.html",
+     "evidence": "議会事務局庶務議事係 電話: 042-588-5148",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hinode.tokyo.jp/category/11-4-0-0-0-0-0-0-0-0.html",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "133078",
+   "name": "檜原村",
+   "official_site": "https://www.vill.hinohara.tokyo.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.hinohara.tokyo.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局 議事係",
+     "phone": "042-598-1011",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.hinohara.tokyo.jp/0000000637.html",
+     "evidence": "議会事務局 議事係 電話: 042-598-1011",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.hinohara.tokyo.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "133086",
+   "name": "奥多摩町",
+   "official_site": "https://www.town.okutama.tokyo.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0428-83-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "198-0212",
+     "postal_address": "東京都西多摩郡奥多摩町氷川215-6",
+     "hours": null,
+     "source_url": "https://www.town.okutama.tokyo.jp/",
+     "evidence": "奥多摩町役場 〒198-0212 東京都西多摩郡奥多摩町氷川215-6 電話:0428-83-2111(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.okutama.tokyo.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.okutama.tokyo.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "133612",
+   "name": "大島町",
+   "official_site": "https://www.town.oshima.tokyo.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.oshima.tokyo.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "04992-2-1449",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.oshima.tokyo.jp/soshiki/",
+     "evidence": "議会事務局 Tel:04992-2-1449(議会事務局)",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.oshima.tokyo.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "133621",
+   "name": "利島村",
+   "official_site": "https://www.toshimamura.org/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.toshimamura.org/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "利島村議会事務局",
+     "phone": "04992-9-0012",
+     "email": "hptoiawase@toshimamura.org",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.toshimamura.org/about/assembly.html",
+     "evidence": "利島村議会事務局(総務課内) 電話 04992-9-0012",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "利島村教育委員会",
+     "phone": "04992-9-0331",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.toshimamura.org/life/education/education-board.html",
+     "evidence": "利島村教育委員会 電話 04992-9-0331",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.toshimamura.org/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "133639",
+   "name": "新島村",
+   "official_site": "https://www.niijima.com/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.niijima.com/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "04992-5-0240",
+     "email": null,
+     "form_url": null,
+     "postal_code": "100-0402",
+     "postal_address": "東京都新島村本村1丁目1番1号",
+     "hours": null,
+     "source_url": "https://www.niijima.com/soshiki/gikaijimukyoku/index.html",
+     "evidence": "議会事務局 〒100-0402 東京都新島村本村1丁目1番1号 電話:04992-5-0240 FAX:049",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "新島村役場教育委員会",
+     "phone": "04992-5-0203",
+     "email": null,
+     "form_url": null,
+     "postal_code": "100-0402",
+     "postal_address": "東京都新島村本村1丁目1番1号",
+     "hours": null,
+     "source_url": "https://www.niijima.com/kurashi/lifeevent/kyouiku.html",
+     "evidence": "新島村役場教育委員会 〒100-0402 東京都新島村本村1丁目1番1号 電話:04992-5-0203 FAX:049",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.niijima.com/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "133647",
+   "name": "神津島村",
+   "official_site": "https://vill.kouzushima.tokyo.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://vill.kouzushima.tokyo.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.kouzushima.tokyo.jp/busyo/gikai/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://vill.kouzushima.tokyo.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "133817",
+   "name": "三宅村",
+   "official_site": "https://www.vill.miyake.tokyo.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.miyake.tokyo.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "04994-5-0981",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.miyake.tokyo.jp/kakuka/gikai/index.html",
+     "evidence": "議会事務局 表示: スマートフォン PC 三宅村 〒100-1212 東京都三宅島三宅村阿古497番地 TEL:04994-5-0981",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育委員会",
+     "phone": "04994-5-0952",
+     "email": null,
+     "form_url": null,
+     "postal_code": "100-1212",
+     "postal_address": "東京都三宅島三宅村阿古497",
+     "hours": null,
+     "source_url": "https://www.vill.miyake.tokyo.jp/kakuka/kyouikuiinkai/index.html",
+     "evidence": "教育委員会 〒100-1212 東京都三宅島三宅村阿古497 TEL:04994-5-0952",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.miyake.tokyo.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "133825",
+   "name": "御蔵島村",
+   "official_site": "https://www.vill.mikurasima.tokyo.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "04994-8-2121",
+     "email": null,
+     "form_url": null,
+     "postal_code": "100-1301",
+     "postal_address": "東京都御蔵島村字入かねが沢",
+     "hours": null,
+     "source_url": "https://www.vill.mikurasima.tokyo.jp/",
+     "evidence": "御蔵島村役場 〒100-1301 東京都御蔵島村字入かねが沢 TEL:04994-8-2121(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.mikurasima.tokyo.jp/section/gyosei/gikai.html",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.mikurasima.tokyo.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "134015",
+   "name": "八丈町",
+   "official_site": "https://www.town.hachijo.tokyo.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hachijo.tokyo.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hachijo.tokyo.jp/chousei/chougikai/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hachijo.tokyo.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "134023",
+   "name": "青ヶ島村",
+   "official_site": "https://www.vill.aogashima.tokyo.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.aogashima.tokyo.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.aogashima.tokyo.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.aogashima.tokyo.jp/",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "134210",
+   "name": "小笠原村",
+   "official_site": "https://www.vill.ogasawara.tokyo.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.ogasawara.tokyo.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "04998-2-3111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "100-2101",
+     "postal_address": "東京都小笠原村父島字西町",
+     "hours": null,
+     "source_url": "https://www.vill.ogasawara.tokyo.jp/gikai/",
+     "evidence": "議会事務局 小笠原村 【小笠原村役場】〒100-2101 東京都小笠原村父島字西町 TEL:04998-2-3111",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.ogasawara.tokyo.jp/soumu/%e5%b0%8f%e7%ac%a0%e5%8e%9f%e6%9d%91%e6%9d%91%e6%b0%91%e3%81%ae%e5%a3%b0%e4%ba%8b%e6%a5%ad/",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  }
+ ]
+}

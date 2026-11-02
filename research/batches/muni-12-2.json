@@ -1,0 +1,1372 @@
+{
+ "batch": "muni-12-2",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/08_make_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "122301",
+   "name": "八街市",
+   "official_site": "https://www.city.yachimata.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "043-443-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "289-1192",
+     "postal_address": "千葉県八街市八街ほ35番地29",
+     "hours": null,
+     "source_url": "https://www.city.yachimata.lg.jp/",
+     "evidence": "八街市役所 法人番号 200002012…92 千葉県八街市八街ほ35番地29Tel:043-443-1111(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "043-443-1482",
+     "email": null,
+     "form_url": null,
+     "postal_code": "289-1192",
+     "postal_address": "千葉県八街市八街ほ35番地29",
+     "hours": null,
+     "source_url": "https://www.city.yachimata.lg.jp/site/yachimatasigikai/",
+     "evidence": "議会事務局〒289-1192千葉県八街市八街ほ35番地29Tel:043-443-1482",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "秘書広報課",
+     "phone": "043-443-1112",
+     "email": null,
+     "form_url": "https://www.city.yachimata.lg.jp/form/detail.php?sec_sec1=2&lif_id=55588",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.yachimata.lg.jp/site/mayor/1384.html",
+     "evidence": "秘書広報課〒289-1192千葉県八街市八街ほ35番地29Tel:043-443-1112Fax:043-",
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "122319",
+   "name": "印西市",
+   "official_site": "https://www.city.inzai.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.inzai.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0476-33-4614",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.inzai.lg.jp/soshiki_list.html",
+     "evidence": "議会事務局。組織一覧。 課名 電話番号 ファクス番号 インターネットからのお問い合わせ 主な業務内容 庶務係 0476-33-4614",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "市へのご意見・ご提案",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.city.inzai.lg.jp/cmsform/enquete.php?id=9",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.inzai.lg.jp/0000001948.html",
+     "evidence": "リンク「市へのご意見・ご提案」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
+    }
+   ]
+  },
+  {
+   "code": "122327",
+   "name": "白井市",
+   "official_site": "https://www.city.shiroi.chiba.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.shiroi.chiba.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "047-491-6164",
+     "email": null,
+     "form_url": null,
+     "postal_code": "270-1492",
+     "postal_address": "千葉県白井市復1123番地",
+     "hours": null,
+     "source_url": "https://www.city.shiroi.chiba.jp/shisei/shigikai/index.html",
+     "evidence": "議会事務局 〒270-1492 千葉県白井市復1123番地 電話番号:047-491-6164",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育総務課",
+     "phone": "047-492-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "270-1492",
+     "postal_address": "白井市復1123",
+     "hours": null,
+     "source_url": "https://www.city.shiroi.chiba.jp/kyoiku/gakko/g06/1424227063153.html",
+     "evidence": "教育総務課 所在地:〒270-1492 白井市復1123 電話番号:047-492-1111",
+     "note": "同じ組織のほかの番号：047-401-8729"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.shiroi.chiba.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "122335",
+   "name": "富里市",
+   "official_site": "https://www.city.tomisato.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0476-93-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "286-0292",
+     "postal_address": "千葉県富里市七栄652番地1",
+     "hours": null,
+     "source_url": "https://www.city.tomisato.lg.jp/",
+     "evidence": "富里市役所 〒286-0292 千葉県富…(法人番号1000020122335)電話:0476-93-1111(代表)ファクス",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0476-93-6492",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tomisato.lg.jp/0000001184.html",
+     "evidence": "議会事務局(電話0476-93-6492)へ問い合わせて",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育総務課",
+     "phone": "0476-93-7657",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tomisato.lg.jp/soshiki_list.html",
+     "evidence": "教育総務課 総務班 総務班 電話番号 0476-93-7657",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "市政へのご意見・ご提案【令和7年度受付分】",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.city.tomisato.lg.jp/mailform/inquiry.cgi?so=d43429d8f0dafd745468ab8a11c75da8f6417bd1&ref=https%3A%2F%2Fwww.city.tomisato.lg.jp%2F0000017016.html",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tomisato.lg.jp/0000017016.html",
+     "evidence": "リンク「市政へのご意見・ご提案【令和7年度受付分】」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
+    }
+   ]
+  },
+  {
+   "code": "122343",
+   "name": "南房総市",
+   "official_site": "https://www.city.minamiboso.chiba.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.minamiboso.chiba.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0470-33-1111",
+     "email": "gikai@city.minamiboso.lg.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.minamiboso.chiba.jp/0000001206.html",
+     "evidence": "議会事務局 電話: 0470(33)1111 ファクス: 0",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "南房総市総務部秘書広報室",
+     "phone": "0470-33-1002",
+     "email": null,
+     "form_url": "https://www.city.minamiboso.chiba.jp/cmsform/enquete.php?id=7&current_form_id=7",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.minamiboso.chiba.jp/0000008044.html",
+     "evidence": "南房総市総務部秘書広報室 電話: 0470(33)1002 ファクス: 0",
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "122351",
+   "name": "匝瑳市",
+   "official_site": "https://www.city.sosa.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0479-73-0084",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.sosa.lg.jp/",
+     "evidence": "匝瑳市役所 〒289-2198 千葉県匝瑳市八日市場ハ793番地2 0479-73-0084(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.sosa.lg.jp/page/page007633.html",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.sosa.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "122360",
+   "name": "香取市",
+   "official_site": "https://www.city.katori.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0478-54-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "287-8501",
+     "postal_address": "千葉県香取市佐原ロ2127番地",
+     "hours": null,
+     "source_url": "https://www.city.katori.lg.jp/",
+     "evidence": "香取市役所 法人番号9000020122…501 千葉県香取市佐原ロ2127番地 電話0478-54-1111(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "香取市議会",
+     "phone": "0478-50-1217",
+     "email": null,
+     "form_url": null,
+     "postal_code": "287-8501",
+     "postal_address": "千葉県香取市佐原ロ2127番地",
+     "hours": null,
+     "source_url": "https://www.city.katori.lg.jp/gikai/seigan_chinjo.html",
+     "evidence": "議会班 〒287-8501 千葉県香取市佐原ロ2127番地 (市役所6階) 電話:0478-50-1217",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "市長への手紙",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.city.katori.lg.jp/cgi-bin/formmail/formmail.cgi?d=mayor_b",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.katori.lg.jp/mayor/mail/index.html",
+     "evidence": "リンク「市長への手紙」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
+    }
+   ]
+  },
+  {
+   "code": "122378",
+   "name": "山武市",
+   "official_site": "https://www.city.sammu.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.sammu.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局 議事係",
+     "phone": "0475-80-1235",
+     "email": null,
+     "form_url": null,
+     "postal_code": "289-1392",
+     "postal_address": "千葉県山武市殿台296番地 市役所本館3階",
+     "hours": null,
+     "source_url": "https://www.city.sammu.lg.jp/gikai/kouhou/gikaitayori-new/page009080.html",
+     "evidence": "議会事務局 議事係 〒289-1392 千葉県山武市殿台296番地 市役所本館3階 電話番号:0475-80-1235",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.sammu.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "122386",
+   "name": "いすみ市",
+   "official_site": "https://www.city.isumi.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0470-62-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "298-8501",
+     "postal_address": "千葉県いすみ市大原7400-1",
+     "hours": null,
+     "source_url": "https://www.city.isumi.lg.jp/",
+     "evidence": "いすみ市役所 電話:0470-62-1111(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.isumi.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.isumi.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "122394",
+   "name": "大網白里市",
+   "official_site": "https://www.city.oamishirasato.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.oamishirasato.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.oamishirasato.lg.jp/category/68-0-0-0-0-0-0-0-0-0.html",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.oamishirasato.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "123226",
+   "name": "酒々井町",
+   "official_site": "https://www.town.shisui.chiba.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shisui.chiba.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "043-382-2331",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shisui.chiba.jp/docs/2015082400011/",
+     "evidence": "議会事務局 住所:千葉県印旛郡酒々井町中央台4丁目11番地 TEL:043-382-2331",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育総務室",
+     "phone": "043-382-2345",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shisui.chiba.jp/docs/2015042000022/",
+     "evidence": "教育総務室 住所:千葉県印旛郡酒々井町中央台4丁目11番地 TEL:043-382-2345",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shisui.chiba.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "123293",
+   "name": "栄町",
+   "official_site": "https://www.town.sakae.chiba.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.sakae.chiba.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0476-33-7715",
+     "email": null,
+     "form_url": null,
+     "postal_code": "270-1592",
+     "postal_address": "千葉県印旛郡栄町安食台1丁目2番 栄町議会事務局",
+     "hours": null,
+     "source_url": "https://www.town.sakae.chiba.jp/gikai/",
+     "evidence": "議会事務局 【電話番号】0476-33-7715",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.sakae.chiba.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "123421",
+   "name": "神崎町",
+   "official_site": "https://www.town.kozaki.chiba.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0478-72-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "289-0292",
+     "postal_address": "千葉県香取郡神崎町神崎本宿163番地",
+     "hours": null,
+     "source_url": "https://www.town.kozaki.chiba.jp/",
+     "evidence": "神崎町役場法人番号:4000020123…)ただし、一部窓口及び施設を除く 電話番号:0478-72-2111(代表)ファクス",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0478-72-2115",
+     "email": null,
+     "form_url": null,
+     "postal_code": "289-0292",
+     "postal_address": "千葉県香取郡神崎町神崎本宿163番地",
+     "hours": null,
+     "source_url": "https://www.town.kozaki.chiba.jp/profile/gikai/bocho.html",
+     "evidence": "議会事務局(神崎町役場 3階) 〒28…香取郡神崎町神崎本宿163番地 電話番号:0478-72-2115",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kozaki.chiba.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "123471",
+   "name": "多古町",
+   "official_site": "https://www.town.tako.chiba.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0479-76-2611",
+     "email": null,
+     "form_url": null,
+     "postal_code": "289-2292",
+     "postal_address": "千葉県香取郡多古町多古584",
+     "hours": null,
+     "source_url": "https://www.town.tako.chiba.jp/",
+     "evidence": "多古町役場 〒289-2292 千葉県香取郡多古町多古584 TEL 0479-76-2611(代表) FAX",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "多古町議会",
+     "phone": "0479-76-5414",
+     "email": null,
+     "form_url": null,
+     "postal_code": "289-2292",
+     "postal_address": "千葉県香取郡多古町多古584",
+     "hours": null,
+     "source_url": "https://www.town.tako.chiba.jp/unit/council-secretariat/",
+     "evidence": "議会議員名簿 議員の請負状況の公表 議員…2 千葉県香取郡多古町多古584 TEL:0479-76-5414",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.tako.chiba.jp/category/bunya/kohokocho/",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "123498",
+   "name": "東庄町",
+   "official_site": "https://www.town.tohnosho.chiba.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.tohnosho.chiba.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0478-86-6080",
+     "email": null,
+     "form_url": null,
+     "postal_code": "289-0692",
+     "postal_address": "千葉県香取郡東庄町笹川い4713-131",
+     "hours": null,
+     "source_url": "https://www.town.tohnosho.chiba.jp/soshiki/gikaijimukyoku/gyomu/tonoshochogikai/887.html",
+     "evidence": "議会事務局 〒289-0692 千葉県香取郡東庄町笹川い4713-131 電話番号:0478-86-6080",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "町への提言・意見",
+     "phone": null,
+     "email": null,
+     "form_url": "https://logoform.jp/f/YiYZs",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.tohnosho.chiba.jp/soshiki/somuka/kikakuzaisei_kakari/gyomu/koho_kocho/kocho/829.html",
+     "evidence": "リンク「町への提言・意見」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
+    }
+   ]
+  },
+  {
+   "code": "124036",
+   "name": "九十九里町",
+   "official_site": "https://www.town.kujukuri.chiba.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kujukuri.chiba.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0475-70-3135",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kujukuri.chiba.jp/0000003701.html",
+     "evidence": "議会事務局 電話: 0475-70-3135",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kujukuri.chiba.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "124095",
+   "name": "芝山町",
+   "official_site": "https://www.town.shibayama.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shibayama.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0479-77-3922",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shibayama.lg.jp/0000006645.html",
+     "evidence": "議会事務局 電話: 0479-77-3922",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "宝箱(町長への手紙)",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.town.shibayama.lg.jp/module/shareform.php?so_cd=5-2-0-0-0",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shibayama.lg.jp/0000001876.html",
+     "evidence": "リンク「宝箱(町長への手紙)」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
+    }
+   ]
+  },
+  {
+   "code": "124109",
+   "name": "横芝光町",
+   "official_site": "https://www.town.yokoshibahikari.chiba.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0479-84-1211",
+     "email": null,
+     "form_url": null,
+     "postal_code": "289-1793",
+     "postal_address": "千葉県山武郡横芝光町宮川11902番地",
+     "hours": null,
+     "source_url": "https://www.town.yokoshibahikari.chiba.jp/",
+     "evidence": "横芝光町役場 法人番号100002012…1902番地 地図を見る 【連絡先】Tel:0479-84-1211(代表) Fax",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0479-84-1246",
+     "email": null,
+     "form_url": null,
+     "postal_code": "289-1793",
+     "postal_address": "千葉県山武郡横芝光町宮川11902番地",
+     "hours": null,
+     "source_url": "https://www.town.yokoshibahikari.chiba.jp/site/gikai/",
+     "evidence": "議会事務局 直通 〒289-1793千葉県山武郡横芝光町宮川11902番地 Tel:0479-84-1246",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.yokoshibahikari.chiba.jp/ques/questionnaire.php?openid=3",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "124214",
+   "name": "一宮町",
+   "official_site": "https://www.town.ichinomiya.chiba.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0475-42-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "299-4396",
+     "postal_address": "千葉県長生郡一宮町一宮2457",
+     "hours": null,
+     "source_url": "https://www.town.ichinomiya.chiba.jp/",
+     "evidence": "一宮町役場 〒299-4396 千葉県長生郡一宮町一宮2457(地図) 電話:0475-42-2111(代表) FAX",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ichinomiya.chiba.jp/info/gikai/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ichinomiya.chiba.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "124222",
+   "name": "睦沢町",
+   "official_site": "https://www.town.mutsuzawa.chiba.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0475-44-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "299-4492",
+     "postal_address": "千葉県長生郡睦沢町下之郷1650-1",
+     "hours": null,
+     "source_url": "https://www.town.mutsuzawa.chiba.jp/",
+     "evidence": "睦沢町役場 (法人番号 30000201…千葉県長生郡睦沢町下之郷1650-1 電話:0475-44-1111(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.mutsuzawa.chiba.jp/kurashi/gikai",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.mutsuzawa.chiba.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "124231",
+   "name": "長生村",
+   "official_site": "https://www.vill.chosei.chiba.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.chosei.chiba.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0475-32-4744",
+     "email": null,
+     "form_url": null,
+     "postal_code": "299-4394",
+     "postal_address": "千葉県長生郡長生村本郷1-77",
+     "hours": null,
+     "source_url": "https://www.vill.chosei.chiba.jp/gikai/index.html",
+     "evidence": "議会事務局 所在地:〒299-4394 千葉県長生郡長生村本郷1-77電話:0475-32-4744(代表)",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.chosei.chiba.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "124249",
+   "name": "白子町",
+   "official_site": "https://www.town.shirako.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0475-33-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "299-4292",
+     "postal_address": "千葉県長生郡白子町関5074番地の2",
+     "hours": null,
+     "source_url": "https://www.town.shirako.lg.jp/",
+     "evidence": "白子町役場 〒299-4292 千葉県長生郡白子町関5074番地の2電話:0475-33-2111(代表)ファクス",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shirako.lg.jp/category/11-0-0-0-0-0-0-0-0-0.html",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "町長への意見箱に寄せられたご意見",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.town.shirako.lg.jp/mailform/inquiry.cgi?so=1bf6467278f162e36ecc35a5365db436aba8980a&ref=https%3A%2F%2Fwww.town.shirako.lg.jp%2F0000005026.html",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shirako.lg.jp/0000005026.html",
+     "evidence": "リンク「町長への意見箱に寄せられたご意見」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
+    }
+   ]
+  },
+  {
+   "code": "124265",
+   "name": "長柄町",
+   "official_site": "https://www.town.nagara.chiba.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.nagara.chiba.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0475-35-2438",
+     "email": null,
+     "form_url": null,
+     "postal_code": "297-0298",
+     "postal_address": "千葉県長生郡長柄町桜谷712",
+     "hours": null,
+     "source_url": "https://www.town.nagara.chiba.jp/site/gikai/",
+     "evidence": "議会事務局代表 〒297-0298千葉県長生郡長柄町桜谷712 Tel:0475-35-2438Fax:0475",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.nagara.chiba.jp/form/detail.php?sec_sec1=2",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "124273",
+   "name": "長南町",
+   "official_site": "https://www.town.chonan.chiba.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.chonan.chiba.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0475-46-3390",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.chonan.chiba.jp/chousei/gikai/6734/",
+     "evidence": "議会事務局 0475-46-3390",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.chonan.chiba.jp/goiken/",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "124419",
+   "name": "大多喜町",
+   "official_site": "https://www.town.otaki.chiba.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.otaki.chiba.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会係",
+     "phone": "0470-82-2182",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.otaki.chiba.jp/gyousei/gikai/1424.html",
+     "evidence": "議会係 〒298-0292 千葉県夷隅郡大多喜町大多喜93番地 電話番号:0470-82-2182",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.otaki.chiba.jp/cgi-bin/inquiry.php/23?page_no=1",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "124435",
+   "name": "御宿町",
+   "official_site": "https://www.town.onjuku.chiba.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.onjuku.chiba.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.onjuku.chiba.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.onjuku.chiba.jp/",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "124630",
+   "name": "鋸南町",
+   "official_site": "https://www.town.kyonan.chiba.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kyonan.chiba.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0470-55-4804",
+     "email": null,
+     "form_url": null,
+     "postal_code": "299-2192",
+     "postal_address": "千葉県安房郡鋸南町下佐久間3458番地",
+     "hours": null,
+     "source_url": "https://www.town.kyonan.chiba.jp/site/machigikai/",
+     "evidence": "議会事務局代表 〒299-2192千葉県安房郡鋸南町下佐久間3458番地 Tel:0470-55-4804Fax:0470",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kyonan.chiba.jp/life/4/42/",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  }
+ ]
+}

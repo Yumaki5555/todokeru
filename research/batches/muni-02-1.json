@@ -1,0 +1,1015 @@
+{
+ "batch": "muni-02-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/08_make_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "022012",
+   "name": "青森市",
+   "official_site": "https://www.city.aomori.aomori.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "017-734-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "030-8555",
+     "postal_address": "青森市中央一丁目22-5",
+     "hours": null,
+     "source_url": "https://www.city.aomori.aomori.jp/",
+     "evidence": "本庁舎 〒030-8555 青森市中央一丁目22-5 電話番号:017-734-1111(代表) ファッ",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.aomori.aomori.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "ご意見と回答 │ 青森市",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.city.aomori.aomori.jp/cgi-crm/CRM031/CRM031_003/19043",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.aomori.aomori.jp/cgi-crm",
+     "evidence": "リンク「ご意見と回答」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
+    }
+   ]
+  },
+  {
+   "code": "022021",
+   "name": "弘前市",
+   "official_site": "https://www.city.hirosaki.aomori.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0172-35-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "036-8551",
+     "postal_address": "青森県弘前市上白銀町1-1",
+     "hours": null,
+     "source_url": "https://www.city.hirosaki.aomori.jp/",
+     "evidence": "弘前市役所 〒036-8551 青森県弘前市上白銀町1-1 電話 0172-35-1111(代表)ファクス",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hirosaki.aomori.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hirosaki.aomori.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "022039",
+   "name": "八戸市",
+   "official_site": "https://www.city.hachinohe.aomori.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0178-43-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "031-8686",
+     "postal_address": "青森県八戸市内丸一丁目1番1号",
+     "hours": null,
+     "source_url": "https://www.city.hachinohe.aomori.jp/",
+     "evidence": "八戸市役所 〒031-8686 青森県八戸市内丸一丁目1番1号 電話 0178-43-2111(代表) ファッ",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局 議事調査課",
+     "phone": "0178-43-9161",
+     "email": null,
+     "form_url": null,
+     "postal_code": "031-8686",
+     "postal_address": "青森県八戸市内丸一丁目1番1号 市庁本館3階",
+     "hours": null,
+     "source_url": "https://www.city.hachinohe.aomori.jp/gyoseijoho/hachinoheshigikai/seigan_chinjo/10903.html",
+     "evidence": "議会事務局 議事調査課 〒031-8686 青森県八戸市内丸一丁目1番1号 市庁本館3階 議事調査グループ 電話:0178-43-9161",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hachinohe.aomori.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "022047",
+   "name": "黒石市",
+   "official_site": "https://www.city.kuroishi.aomori.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kuroishi.aomori.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局 総務議事係",
+     "phone": "0172-52-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kuroishi.aomori.jp/shisei/gikai/index.html",
+     "evidence": "議会事務局 総務議事係 電話番号:0172-52-2111",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kuroishi.aomori.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "022055",
+   "name": "五所川原市",
+   "official_site": "https://www.city.goshogawara.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.goshogawara.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0173-35-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "037-8686",
+     "postal_address": "青森県五所川原市字布屋町41番地1",
+     "hours": null,
+     "source_url": "https://www.city.goshogawara.lg.jp/gikai/index.html",
+     "evidence": "議会事務局 〒037-8686 青森県五所川原市字布屋町41番地1 電話 0173-35-2111(代表)",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.goshogawara.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "022063",
+   "name": "十和田市",
+   "official_site": "https://www.city.towada.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0176-23-5111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "034-8615",
+     "postal_address": "十和田市西十二番町6-1",
+     "hours": null,
+     "source_url": "https://www.city.towada.lg.jp/",
+     "evidence": "十和田市役所(法人番号200002002…15 十和田市西十二番町6-1 電話番号: 0176(23)5111(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0176-51-6781",
+     "email": "gikai@city.towada.lg.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.towada.lg.jp/shisei/gikai/gikaidayori/2026-1030-1759-176.html",
+     "evidence": "議会事務局 電話:0176-51-6781",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.towada.lg.jp/contact.html",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "022071",
+   "name": "三沢市",
+   "official_site": "https://www.city.misawa.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0176-53-5111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "033-8666",
+     "postal_address": "青森県三沢市桜町1-1-38",
+     "hours": null,
+     "source_url": "https://www.city.misawa.lg.jp/",
+     "evidence": "三沢市役所 〒033-8666 青森県三沢市桜町1-1-38 電話番号:0176-53-5111(代表)FAX番",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0176-53-5111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "033-8666",
+     "postal_address": "青森県三沢市桜町1-1-38",
+     "hours": null,
+     "source_url": "https://www.city.misawa.lg.jp/index.cfm/24,0,116,html",
+     "evidence": "議会事務局 所在地:〒033-8666 青森県三沢市桜町1-1-38 電話番号:0176-53-5111(内線:321)",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.misawa.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "022080",
+   "name": "むつ市",
+   "official_site": "https://www.city.mutsu.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.mutsu.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0175-22-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.mutsu.lg.jp/gikai/seigan/seigansho_seido.html",
+     "evidence": "議会事務局 〒035-8686 青森県むつ市中央一丁目8-1 電話:0175-22-1111(代表)",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.mutsu.lg.jp/topics/release/2026-0605-zidounten.html",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "022098",
+   "name": "つがる市",
+   "official_site": "https://www.city.tsugaru.aomori.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tsugaru.aomori.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tsugaru.aomori.jp/joho/mokuteki/administration/shigikai/index.html",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tsugaru.aomori.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "022101",
+   "name": "平川市",
+   "official_site": "https://www.city.hirakawa.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hirakawa.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hirakawa.lg.jp/bunka/katsudou/youth_gikai_index.html",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hirakawa.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "023019",
+   "name": "平内町",
+   "official_site": "https://www.town.hiranai.aomori.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hiranai.aomori.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "017-755-2119",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hiranai.aomori.jp/chosei/gikai/2467.html",
+     "evidence": "議会事務局 〒039-3393 青森県東津軽郡平内町大字小湊字小湊63 電話番号:017-755-2119",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hiranai.aomori.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "023035",
+   "name": "今別町",
+   "official_site": "https://www.town.imabetsu.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.imabetsu.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "今別町議会",
+     "phone": "0174-35-2001",
+     "email": null,
+     "form_url": null,
+     "postal_code": "030-1502",
+     "postal_address": "青森県東津軽郡今別町大字今別字今別167番地",
+     "hours": null,
+     "source_url": "https://www.town.imabetsu.lg.jp/gyousei/gikai/index.html",
+     "evidence": "議会について 申請書ダウンロード 公共工…郡今別町大字今別字今別167番地 電話番号:0174-35-2001 / ファクス:",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.imabetsu.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "023043",
+   "name": "蓬田村",
+   "official_site": "https://www.vill.yomogita.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.yomogita.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.yomogita.lg.jp/sonsei/gikai/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.yomogita.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "023078",
+   "name": "外ヶ浜町",
+   "official_site": "https://www.town.sotogahama.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.sotogahama.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.sotogahama.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.sotogahama.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "023213",
+   "name": "鰺ヶ沢町",
+   "official_site": "https://www.town.ajigasawa.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ajigasawa.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0173-82-0906",
+     "email": null,
+     "form_url": null,
+     "postal_code": "038-2792",
+     "postal_address": "青森県西津軽郡鰺ヶ沢町大字舞戸町字鳴戸321番地",
+     "hours": null,
+     "source_url": "https://www.town.ajigasawa.lg.jp/about_town/gikai/segan_chinjo.html",
+     "evidence": "議会事務局 住所:〒038-2792 青…郡鰺ヶ沢町大字舞戸町字鳴戸321番地 電話:0173-82-0906",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ajigasawa.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "023230",
+   "name": "深浦町",
+   "official_site": "https://www.town.fukaura.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.fukaura.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.fukaura.lg.jp/category/bunya/gikai/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育委員会",
+     "phone": "0173-74-4419",
+     "email": "fukaura001@town.fukaura.lg.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.fukaura.lg.jp/soshiki/",
+     "evidence": "教育委員会TEL:0173-74-4419FAX:0173",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.fukaura.lg.jp/category/bunya/kouhoukouchou/",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "023434",
+   "name": "西目屋村",
+   "official_site": "https://www.nishimeya.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0172-85-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "036-1492",
+     "postal_address": "青森県中津軽郡西目屋村大字田代字神田57番地",
+     "hours": null,
+     "source_url": "https://www.nishimeya.jp/",
+     "evidence": "西目屋村役場 〒036-1492 青森県…田代字神田57番地 電話番号(代表) : 0172-85-2111",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0172-85-2807",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.nishimeya.jp/19.html",
+     "evidence": "議会事務局へのお問い合わせ 方法 お問い合わせ先 電話番号 0172-85-2807",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育委員会",
+     "phone": "0172-85-2858",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.nishimeya.jp/19.html",
+     "evidence": "教育委員会へのお問い合わせ 方法 お問い合わせ先 電話番号 0172-85-2858",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.nishimeya.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "023612",
+   "name": "藤崎町",
+   "official_site": "https://www.town.fujisaki.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.fujisaki.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.fujisaki.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.fujisaki.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "023621",
+   "name": "大鰐町",
+   "official_site": "http://www.town.owani.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.town.owani.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.town.owani.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.town.owani.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "023671",
+   "name": "田舎館村",
+   "official_site": "http://www.vill.inakadate.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.vill.inakadate.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "田舎館村議会",
+     "phone": "0172-58-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "038-1113",
+     "postal_address": "青森県南津軽郡田舎館村大字田舎舘字中辻123番地1",
+     "hours": null,
+     "source_url": "http://www.vill.inakadate.lg.jp/docs/2012022700125/",
+     "evidence": "議会活動 行政視察のご案内行政視察・議員…館村大字田舎舘字中辻123番地1 TEL:0172-58-2111(代表) FAX",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.vill.inakadate.lg.jp/bunya/kohokocho/",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1386 @@
+{
+ "batch": "muni-33-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/08_make_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "331007",
+   "name": "岡山市",
+   "official_site": "https://www.city.okayama.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.okayama.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.okayama.jp/gikai/index.html",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "広聴担当",
+     "phone": "086-803-1025",
+     "email": null,
+     "form_url": "https://com.city.okayama.jp/cmsys-etc/ques/contact2.cgi?mail=0150000005",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.okayama.jp/shisei/0000001222.html",
+     "evidence": "広聴担当 所在地: 〒700-8544 …供一丁目1番1号 [所在地の地図] 電話: 086-803-1025 ファクス: 0",
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "332020",
+   "name": "倉敷市",
+   "official_site": "https://www.city.kurashiki.okayama.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kurashiki.okayama.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会総務課",
+     "phone": "086-426-3705",
+     "email": null,
+     "form_url": null,
+     "postal_code": "710-8565",
+     "postal_address": "倉敷市西中新田640番地",
+     "hours": null,
+     "source_url": "https://www.city.kurashiki.okayama.jp/cityinfo/assembly/index.html",
+     "evidence": "議会総務課086-426-3705 、議事調査課",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kurashiki.okayama.jp/cityinfo/publicity/index.html",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "332038",
+   "name": "津山市",
+   "official_site": "https://www.city.tsuyama.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tsuyama.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tsuyama.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tsuyama.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "332046",
+   "name": "玉野市",
+   "official_site": "https://www.city.tamano.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0863-32-5588",
+     "email": null,
+     "form_url": null,
+     "postal_code": "706-8510",
+     "postal_address": "岡山県玉野市宇野1-27-1",
+     "hours": null,
+     "source_url": "https://www.city.tamano.lg.jp/",
+     "evidence": "玉野市役所 〒706-8510 岡山県玉野市宇野1-27-1Tel:0863-32-5588(代表) Fax",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tamano.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tamano.lg.jp/life/4/21/",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "332054",
+   "name": "笠岡市",
+   "official_site": "https://www.city.kasaoka.okayama.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0865-69-2121",
+     "email": null,
+     "form_url": null,
+     "postal_code": "714-8601",
+     "postal_address": "笠岡市中央町1番地の1",
+     "hours": null,
+     "source_url": "https://www.city.kasaoka.okayama.jp/",
+     "evidence": "笠岡市役所 法人番号5000020332…で (祝日・休日・年末年始を除く) Tel:0865-69-2121(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0865-69-2161",
+     "email": null,
+     "form_url": null,
+     "postal_code": "714-8601",
+     "postal_address": "岡山県笠岡市中央町1-1",
+     "hours": null,
+     "source_url": "https://www.city.kasaoka.okayama.jp/soshiki/48/3668.html",
+     "evidence": "議会事務局 〒714-8601岡山県笠岡市中央町1-1 Tel:0865-69-2161",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kasaoka.okayama.jp/ques/questionnaire.php?openid=3",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "332071",
+   "name": "井原市",
+   "official_site": "https://www.city.ibara.okayama.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0866-62-9500",
+     "email": null,
+     "form_url": null,
+     "postal_code": "715-8601",
+     "postal_address": "岡山県井原市井原町311番地1",
+     "hours": null,
+     "source_url": "https://www.city.ibara.okayama.jp/",
+     "evidence": "井原市役所 〒715-8601 岡山県井原市井原町311番地1 Tel:0866-62-9500(代表) Fax",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ibara.okayama.jp/life/6/30/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "ご意見・ご提言",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.city.ibara.okayama.jp/form/detail.php?sec_sec1=12&inq=02&lif_id=7293",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ibara.okayama.jp/soshiki/12/7293.html",
+     "evidence": "リンク「ご意見・ご提案」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
+    }
+   ]
+  },
+  {
+   "code": "332089",
+   "name": "総社市",
+   "official_site": "https://www.city.soja.okayama.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0866-92-8200",
+     "email": null,
+     "form_url": null,
+     "postal_code": "719-1192",
+     "postal_address": "岡山県総社市中央一丁目1番1号",
+     "hours": null,
+     "source_url": "https://www.city.soja.okayama.jp/",
+     "evidence": "総社市役所 〒719-1192 岡山県総社市中央一丁目1番1号 Tel:0866-92-8200(代表) Fax",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "市議会議会事務局庶務調査係",
+     "phone": "0866-92-8332",
+     "email": null,
+     "form_url": null,
+     "postal_code": "719-1192",
+     "postal_address": "総社市中央一丁目1番1号",
+     "hours": null,
+     "source_url": "https://www.city.soja.okayama.jp/site/gikai/",
+     "evidence": "市議会議会事務局庶務調査係 〒719-1192 総社市中央一丁目1番1号 Tel:0866-92-8332",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "お問い合わせ・ご提案",
+     "phone": null,
+     "email": null,
+     "form_url": "https://logoform.jp/form/B3yA/1293591",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.soja.okayama.jp/",
+     "evidence": "リンク「お問い合わせ・ご提案」",
+     "note": "電話番号の掲載なし（フォームで受付）"
+    }
+   ]
+  },
+  {
+   "code": "332097",
+   "name": "高梁市",
+   "official_site": "https://www.city.takahashi.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0866-21-0200",
+     "email": null,
+     "form_url": null,
+     "postal_code": "716-8501",
+     "postal_address": "岡山県高梁市松原通2043番地",
+     "hours": null,
+     "source_url": "https://www.city.takahashi.lg.jp/",
+     "evidence": "高梁市役所(法人番号:300002033…1 岡山県高梁市松原通2043番地 Tel:0866-21-0200 (代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0866-21-0277",
+     "email": "gikai@city.takahashi.lg.jp",
+     "form_url": null,
+     "postal_code": "716-8501",
+     "postal_address": "岡山県高梁市松原通2043",
+     "hours": null,
+     "source_url": "https://www.city.takahashi.lg.jp/site/gikai/",
+     "evidence": "議会事務局 〒716-8501 岡山県高梁市松原通2043 電話:0866-21-0277 Fax:086",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "高梁市教育委員会",
+     "phone": "0866-21-1500",
+     "email": null,
+     "form_url": null,
+     "postal_code": "716-8501",
+     "postal_address": "岡山県高梁市松原通2043",
+     "hours": null,
+     "source_url": "https://www.city.takahashi.lg.jp/adv/ba.php?id=41",
+     "evidence": "高梁市教育委員会 〒716-8501 岡山県高梁市松原通2043 電話:0866-21-1500(代表) Fax",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.takahashi.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "332101",
+   "name": "新見市",
+   "official_site": "https://www.city.niimi.okayama.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0867-72-6111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "718-8501",
+     "postal_address": "岡山県新見市新見310-3",
+     "hours": null,
+     "source_url": "https://www.city.niimi.okayama.jp/",
+     "evidence": "新見市役所 〒718-8501 岡山県新見市新見310-3 電話 0867-72-6111(代表、夜間・閉",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0867-72-6151",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.niimi.okayama.jp/gyosei/gyosei_detail/index/258",
+     "evidence": "議会事務局 電話 0867-72-6151",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.niimi.okayama.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "332119",
+   "name": "備前市",
+   "official_site": "https://www.city.bizen.okayama.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.bizen.okayama.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局 庶務調査係",
+     "phone": "0869-64-1803",
+     "email": null,
+     "form_url": null,
+     "postal_code": "705-8602",
+     "postal_address": "備前市東片上126番地",
+     "hours": null,
+     "source_url": "https://www.city.bizen.okayama.jp/soshiki/23/40299.html",
+     "evidence": "議会事務局 庶務調査係 〒705-8602備前市東片上126番地 Tel:0869-64-1803",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育総務課総務管理係",
+     "phone": "0869-64-1802",
+     "email": null,
+     "form_url": null,
+     "postal_code": "705-8602",
+     "postal_address": "備前市東片上126番地",
+     "hours": null,
+     "source_url": "https://www.city.bizen.okayama.jp/soshiki/28/444.html",
+     "evidence": "教育総務課総務管理係 〒705-8602備前市東片上126番地 Tel:0869-64-1802",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.bizen.okayama.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "332127",
+   "name": "瀬戸内市",
+   "official_site": "https://www.city.setouchi.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0869-22-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "701-4292",
+     "postal_address": "岡山県瀬戸内市邑久町尾張300-1",
+     "hours": null,
+     "source_url": "https://www.city.setouchi.lg.jp/",
+     "evidence": "瀬戸内市役所 法人番号700002033…山県瀬戸内市邑久町尾張300-1 電話番号:0869-22-1111(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0869-22-0979",
+     "email": null,
+     "form_url": null,
+     "postal_code": "701-4292",
+     "postal_address": "瀬戸内市邑久町尾張300番地1",
+     "hours": null,
+     "source_url": "https://www.city.setouchi.lg.jp/site/setouchishigikai/",
+     "evidence": "議会事務局 〒701-4292瀬戸内市邑久町尾張300番地1 電話番号:0869-22-0979ファクシミリ:0",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "広報・広聴",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.city.setouchi.lg.jp/form/detail.php?sec_sec1=91",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.setouchi.lg.jp/life/5/23/",
+     "evidence": "リンク「広報・広聴」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
+    }
+   ]
+  },
+  {
+   "code": "332135",
+   "name": "赤磐市",
+   "official_site": "https://www.city.akaiwa.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.akaiwa.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "086-955-2945",
+     "email": null,
+     "form_url": null,
+     "postal_code": "709-0898",
+     "postal_address": "岡山県赤磐市下市344",
+     "hours": null,
+     "source_url": "https://www.city.akaiwa.lg.jp/shisei/gikai/about/2513.html",
+     "evidence": "議会事務局 〒709-0898 岡山県赤磐市下市344 電話:086-955-2945 ファックス:0",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育総務課",
+     "phone": "086-955-6807",
+     "email": null,
+     "form_url": null,
+     "postal_code": "709-0816",
+     "postal_address": "岡山県赤磐市下市337",
+     "hours": null,
+     "source_url": "https://www.city.akaiwa.lg.jp/kosodate/kyouiku/kyouikuiinkai/2983.html",
+     "evidence": "教育総務課 〒709-0816 岡山県赤磐市下市337 電話:086-955-6807",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.akaiwa.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "332143",
+   "name": "真庭市",
+   "official_site": "https://www.city.maniwa.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.maniwa.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0867-42-1272",
+     "email": null,
+     "form_url": null,
+     "postal_code": "719-3292",
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.maniwa.lg.jp/site/shigikai/",
+     "evidence": "議会事務局代表 〒719-3292岡山県真庭市久世2927-2 本庁舎4F Tel:0867-42-1272",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.maniwa.lg.jp/ques/questionnaire.php?openid=23",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "332151",
+   "name": "美作市",
+   "official_site": "https://www.city.mimasaka.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.mimasaka.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.mimasaka.lg.jp/shisei/shigikai/index.html",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "秘書課",
+     "phone": "0868-72-0931",
+     "email": null,
+     "form_url": "https://apply.e-tumo.jp/city-mimasaka-okayama-u/offer/offerList_detail.action?tempSeq=5851",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.mimasaka.lg.jp/soshiki/soumu/hisho/1452822911024.html",
+     "evidence": "秘書課 〒707-8501 岡山県美作市美来1番地 電話番号:0868-72-0931",
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "332160",
+   "name": "浅口市",
+   "official_site": "https://www.city.asakuchi.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.asakuchi.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0865-44-7010",
+     "email": null,
+     "form_url": null,
+     "postal_code": "719-0295",
+     "postal_address": "岡山県浅口市鴨方町六条院中3050",
+     "hours": null,
+     "source_url": "https://www.city.asakuchi.lg.jp/site/asakuchishigikai/2453.html",
+     "evidence": "議会事務局代表 〒719-0295岡山県浅口市鴨方町六条院中3050 Tel:0865-44-7010Fax:0865",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.asakuchi.lg.jp/page/2404.html",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "333468",
+   "name": "和気町",
+   "official_site": "https://www.town.wake.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0869-93-1121",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.wake.lg.jp/",
+     "evidence": "和気町役場本庁舎 〒709-0495 …町尺所555(アクセスマップ) 電話番号:0869-93-1121(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.wake.lg.jp/gyoseijoho/wakichogikai/index.html",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.wake.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "334235",
+   "name": "早島町",
+   "official_site": "https://www.town.hayashima.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hayashima.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "086-482-2608",
+     "email": "gikai@town.hayashima.lg.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hayashima.lg.jp/gyosei_joho/yakusho_madoguchi/3604.html",
+     "evidence": "議会事務局 086-482-2608",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hayashima.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "334456",
+   "name": "里庄町",
+   "official_site": "https://www.town.satosho.okayama.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.satosho.okayama.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0865-64-7217",
+     "email": null,
+     "form_url": null,
+     "postal_code": "719-0398",
+     "postal_address": "岡山県浅口郡里庄町大字里見1107番地2",
+     "hours": null,
+     "source_url": "https://www.town.satosho.okayama.jp/adv/ba.php?id=17",
+     "evidence": "議会事務局 (代表) 〒719-0398岡山県浅口郡里庄町大字里見1107番地2 Tel:0865-64-7217",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育委員会",
+     "phone": "0865-64-7212",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.satosho.okayama.jp/soshiki/",
+     "evidence": "教育委員会事務局 Tel:0865-64-7212(代表)Fax:",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.satosho.okayama.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "334618",
+   "name": "矢掛町",
+   "official_site": "http://www.town.yakage.okayama.jp/index.html",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.town.yakage.okayama.jp/index.html",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0866-82-1119",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.yakage.okayama.jp/gyosei/gikai/gikai.html",
+     "evidence": "議会事務局内 電話番号:0866-82-1119",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "お問合せ(町民電子提案箱)",
+     "phone": null,
+     "email": null,
+     "form_url": "https://logoform.jp/form/Tssv/349057",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.yakage.okayama.jp/otoiawase/",
+     "evidence": "リンク「ご意見・ご提案」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
+    }
+   ]
+  },
+  {
+   "code": "335860",
+   "name": "新庄村",
+   "official_site": "http://www.vill.shinjo.okayama.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.vill.shinjo.okayama.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.vill.shinjo.okayama.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.vill.shinjo.okayama.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "336068",
+   "name": "鏡野町",
+   "official_site": "https://www.town.kagamino.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kagamino.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0868-54-2926",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kagamino.lg.jp/adv/ba.php?id=3",
+     "evidence": "議会事務局 〒708-0392 岡山県苫田郡鏡野町竹田660 Tel:0868-54-2926Fax:0868",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kagamino.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "336220",
+   "name": "勝央町",
+   "official_site": "https://www.town.shoo.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shoo.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shoo.lg.jp/site/gikai/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shoo.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "336238",
+   "name": "奈義町",
+   "official_site": "https://www.town.nagi.okayama.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.nagi.okayama.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.nagi.okayama.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.nagi.okayama.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "336432",
+   "name": "西粟倉村",
+   "official_site": "https://www.vill.nishiawakura.okayama.jp/wp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.nishiawakura.okayama.jp/wp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.nishiawakura.okayama.jp/wp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.nishiawakura.okayama.jp/wp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "336637",
+   "name": "久米南町",
+   "official_site": "https://www.town.kumenan.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kumenan.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "086-728-2112",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kumenan.lg.jp/administration/gikai/gikai_dayori.html",
+     "evidence": "議会事務局です。 岡山県久米郡久米南町下弓削502-1 電話番号:086-728-2112",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kumenan.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "336661",
+   "name": "美咲町",
+   "official_site": "https://www.town.misaki.okayama.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.misaki.okayama.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.misaki.okayama.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.misaki.okayama.jp/",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "336815",
+   "name": "吉備中央町",
+   "official_site": "https://www.town.kibichuo.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kibichuo.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0866-54-2081",
+     "email": null,
+     "form_url": null,
+     "postal_code": "716-1192",
+     "postal_address": "岡山県加賀郡吉備中央町豊野1-2",
+     "hours": null,
+     "source_url": "https://www.town.kibichuo.lg.jp/site/gikai/",
+     "evidence": "議会事務局 〒716-1192岡山県加賀郡吉備中央町豊野1-2 Tel:0866-54-2081Fax:0866",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kibichuo.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  }
+ ]
+}

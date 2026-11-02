@@ -1,0 +1,1134 @@
+{
+ "batch": "muni-11-3",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/08_make_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "113263",
+   "name": "毛呂山町",
+   "official_site": "https://www.town.moroyama.saitama.jp/www/index.html",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.moroyama.saitama.jp/www/index.html",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.moroyama.saitama.jp/www/index.html",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.moroyama.saitama.jp/www/index.html",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "113271",
+   "name": "越生町",
+   "official_site": "https://www.town.ogose.saitama.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "049-292-3121",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ogose.saitama.jp/",
+     "evidence": "越生町役場 〒350-0494 埼玉県入間郡越生町大字越生900-2 電話番号:049-292-3121(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ogose.saitama.jp/chousei/gikai/index.html",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ogose.saitama.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "113417",
+   "name": "滑川町",
+   "official_site": "https://www.town.namegawa.saitama.jp/index.html",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.namegawa.saitama.jp/index.html",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.namegawa.saitama.jp/choseijoho/gikai/index.html",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.namegawa.saitama.jp/index.html",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "113425",
+   "name": "嵐山町",
+   "official_site": "https://www.town.ranzan.saitama.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0493-62-2150",
+     "email": null,
+     "form_url": null,
+     "postal_code": "355-0211",
+     "postal_address": "埼玉県比企郡嵐山町大字杉山1030番地1",
+     "hours": null,
+     "source_url": "https://www.town.ranzan.saitama.jp/",
+     "evidence": "嵐山町役場(らんざんまち) 〒355-0…県比企郡嵐山町大字杉山1030番地1 電話:0493-62-2150(代表)ファクス",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0493-62-4587",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ranzan.saitama.jp/0000004881.html",
+     "evidence": "議会事務局 電話: 0493-62-4587",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育総務担当",
+     "phone": "0493-62-0823",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ranzan.saitama.jp/soshiki_list.html",
+     "evidence": "教育総務担当 電話番号 0493-62-0823",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ranzan.saitama.jp/category/2-3-0-0-0-0-0-0-0-0.html",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "113433",
+   "name": "小川町",
+   "official_site": "https://www.town.ogawa.saitama.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ogawa.saitama.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ogawa.saitama.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ogawa.saitama.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "113468",
+   "name": "川島町",
+   "official_site": "https://www.town.kawajima.saitama.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kawajima.saitama.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "049-299-1759",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kawajima.saitama.jp/2235.htm",
+     "evidence": "議会事務局 TEL:049-299-1759",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "秘書室",
+     "phone": "049-299-1751",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kawajima.saitama.jp/2730.htm",
+     "evidence": "秘書室 TEL:049-299-1751",
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "113476",
+   "name": "吉見町",
+   "official_site": "https://www.town.yoshimi.saitama.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0493-54-1511",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.yoshimi.saitama.jp/",
+     "evidence": "吉見町役場 〒355-0192 埼玉県比企郡吉見町大字下細谷411 電話番号:0493-54-1511(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.yoshimi.saitama.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.yoshimi.saitama.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "113484",
+   "name": "鳩山町",
+   "official_site": "https://www.town.hatoyama.saitama.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hatoyama.saitama.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "049-296-1213",
+     "email": null,
+     "form_url": null,
+     "postal_code": "350-0392",
+     "postal_address": "埼玉県比企郡鳩山町大字大豆戸184番地16",
+     "hours": null,
+     "source_url": "https://www.town.hatoyama.saitama.jp/gyousei/gikai/seigan_shikata.html",
+     "evidence": "議会事務局 〒350-0392 埼玉県比企郡鳩山町大字大豆戸184番地16 電話番号:049-296-1213",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hatoyama.saitama.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "113492",
+   "name": "ときがわ町",
+   "official_site": "https://www.town.tokigawa.lg.jp/forms/top/top.aspx",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.tokigawa.lg.jp/forms/top/top.aspx",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.tokigawa.lg.jp/forms/top/top.aspx",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.tokigawa.lg.jp/forms/top/top.aspx",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "113611",
+   "name": "横瀬町",
+   "official_site": "https://www.town.yokoze.saitama.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0494-25-0111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.yokoze.saitama.jp/",
+     "evidence": "横瀬町役場TEL0494-25-0111(代表)開庁時間",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0494-25-0119",
+     "email": "gikai@town.yokoze.saitama.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.yokoze.saitama.jp/yokoze/about-yokoze/63100",
+     "evidence": "議会事務局(10番窓口) TEL 0494-25-0119",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.yokoze.saitama.jp/town.yokoze.saitama.jp/yokoze/mayor/1532",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "113620",
+   "name": "皆野町",
+   "official_site": "https://www.town.minano.saitama.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.minano.saitama.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0494-62-1467",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.minano.saitama.jp/section/gikai/",
+     "evidence": "議会事務局 お問い合わせ先 電話番号:0494-62-1467",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育委員会",
+     "phone": "0494-62-4563",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.minano.saitama.jp/section/",
+     "evidence": "教育委員会 お問い合せ先 電話番号:0494-62-4563",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.minano.saitama.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "113638",
+   "name": "長瀞町",
+   "official_site": "https://www.town.nagatoro.saitama.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0494-66-3111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.nagatoro.saitama.jp/",
+     "evidence": "長瀞町役場 〒369-1392 埼玉県秩父郡長瀞町大字本野上1035番地1 TEL:0494-66-3111(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0494-66-3111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.nagatoro.saitama.jp/nagatorochougikai/gikai_seigan/",
+     "evidence": "議会事務局 電話番号 0494-66-3111",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育委員会",
+     "phone": "0494-66-3111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.nagatoro.saitama.jp/life/kyouiku-tenken/",
+     "evidence": "教育委員会 電話番号 0494-66-3111",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.nagatoro.saitama.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "113654",
+   "name": "小鹿野町",
+   "official_site": "https://www.town.ogano.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0494-75-1221",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ogano.lg.jp/",
+     "evidence": "小鹿野町役場(代表) TEL:0494-75-1221",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ogano.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ogano.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "113697",
+   "name": "東秩父村",
+   "official_site": "https://www.vill.higashichichibu.saitama.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.higashichichibu.saitama.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0493-82-1257",
+     "email": null,
+     "form_url": null,
+     "postal_code": "355-0393",
+     "postal_address": "埼玉県秩父郡東秩父村大字御堂634",
+     "hours": null,
+     "source_url": "https://www.vill.higashichichibu.saitama.jp/site/gikai/",
+     "evidence": "議会事務局 〒355-0393埼玉県秩父郡東秩父村大字御堂634 Tel:0493-82-1257",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育委員会",
+     "phone": "0493-82-1230",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.higashichichibu.saitama.jp/soshiki/",
+     "evidence": "教育委員会事務局 Tel:0493-82-1230教育委員会事務局",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.higashichichibu.saitama.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "113816",
+   "name": "美里町",
+   "official_site": "https://www.town.saitama-misato.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0495-76-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "367-0194",
+     "postal_address": "埼玉県児玉郡美里町大字木部323番地1",
+     "hours": null,
+     "source_url": "https://www.town.saitama-misato.lg.jp/",
+     "evidence": "美里町役場 〒367-0194 埼玉県児玉郡美里町大字木部323番地1 TEL:0495-76-1111(代表) FAX",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0495-76-5136",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.saitama-misato.lg.jp/soshiki_list.html",
+     "evidence": "議会事務局 電話番号 0495-76-5136",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.saitama-misato.lg.jp/category/5-11-0-0-0-0-0-0-0-0.html",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "113832",
+   "name": "神川町",
+   "official_site": "https://www.town.kamikawa.saitama.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kamikawa.saitama.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kamikawa.saitama.jp/gikai/index.html",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kamikawa.saitama.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "113859",
+   "name": "上里町",
+   "official_site": "https://www.town.kamisato.saitama.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kamisato.saitama.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0495-35-1216",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kamisato.saitama.jp/1793.htm",
+     "evidence": "議会事務局 TEL:0495-35-1216",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育総務課",
+     "phone": "0495-35-1246",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kamisato.saitama.jp/1005.htm",
+     "evidence": "教育総務課 TEL:0495-35-1246",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kamisato.saitama.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "114081",
+   "name": "寄居町",
+   "official_site": "https://www.town.yorii.saitama.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "048-581-2121",
+     "email": null,
+     "form_url": null,
+     "postal_code": "369-1292",
+     "postal_address": "埼玉県大里郡寄居町大字寄居1180番地1",
+     "hours": null,
+     "source_url": "https://www.town.yorii.saitama.jp/",
+     "evidence": "寄居町役場 法人番号4000020114…大里郡寄居町大字寄居1180番地1 Tel:048-581-2121(代表)※お掛け",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "048-581-2121",
+     "email": null,
+     "form_url": null,
+     "postal_code": "369-1292",
+     "postal_address": "埼玉県大里郡寄居町大字寄居1180-1",
+     "hours": null,
+     "source_url": "https://www.town.yorii.saitama.jp/adv/ba.php?id=29",
+     "evidence": "議会事務局代表 〒369-1292埼玉県大里郡寄居町大字寄居1180-1 Tel:048-581-2121(内線341・3",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "町長へのEメール",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.town.yorii.saitama.jp/form/detail.php?sec_sec1=107",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.yorii.saitama.jp/ques/questionnaire.php?openid=8",
+     "evidence": "リンク「町政へのご意見」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
+    }
+   ]
+  },
+  {
+   "code": "114421",
+   "name": "宮代町",
+   "official_site": "https://www.town.miyashiro.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0480-34-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "345-8504",
+     "postal_address": "埼玉県南埼玉郡宮代町笠原1-4-1",
+     "hours": null,
+     "source_url": "https://www.town.miyashiro.lg.jp/",
+     "evidence": "宮代町役場 (法人番号:30000201… 埼玉県南埼玉郡宮代町笠原1-4-1 電話:0480-34-1111(代表)ファック",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0480-34-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.miyashiro.lg.jp/0000002686.html",
+     "evidence": "議会事務局 電話: 0480-34-1111(代表)内線30",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育総務担当",
+     "phone": "0480-34-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "345-8504",
+     "postal_address": "埼玉県南埼玉郡宮代町笠原1-4-1",
+     "hours": null,
+     "source_url": "https://www.town.miyashiro.lg.jp/soshiki_list.html",
+     "evidence": "教育総務担当 電話番号 0480-34-1111(代表)内線42",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.miyashiro.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "114642",
+   "name": "杉戸町",
+   "official_site": "https://www.town.sugito.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.sugito.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0480-33-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "345-8502",
+     "postal_address": "埼玉県北葛飾郡杉戸町清地2-9-29",
+     "hours": null,
+     "source_url": "https://www.town.sugito.lg.jp/site/gikai/",
+     "evidence": "議会事務局連絡先 〒345-8502埼玉県北葛飾郡杉戸町清地2-9-29 Tel:0480-33-1111Fax:0480",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育総務課",
+     "phone": "0480-33-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.sugito.lg.jp/soshiki/",
+     "evidence": "教育総務課 Tel:0480-33-1111教育総務課",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.sugito.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "114651",
+   "name": "松伏町",
+   "official_site": "https://www.town.matsubushi.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.matsubushi.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.matsubushi.lg.jp/category/6-14-0-0-0-0-0-0-0-0.html",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.matsubushi.lg.jp/category/6-8-1-1-0-0-0-0-0-0.html",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  }
+ ]
+}

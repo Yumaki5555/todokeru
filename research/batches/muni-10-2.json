@@ -1,0 +1,854 @@
+{
+ "batch": "muni-10-2",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/08_make_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "103845",
+   "name": "甘楽町",
+   "official_site": "https://www.town.kanra.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0274-74-3131",
+     "email": null,
+     "form_url": null,
+     "postal_code": "370-2292",
+     "postal_address": "群馬県甘楽郡甘楽町大字小幡161-1",
+     "hours": null,
+     "source_url": "https://www.town.kanra.lg.jp/",
+     "evidence": "甘楽町役場 住所:〒370-2292群馬…大字小幡161-1(町庁舎案内地図) 電話:0274-74-3131(代表)ファクス",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0274-74-3022",
+     "email": null,
+     "form_url": null,
+     "postal_code": "370-2292",
+     "postal_address": "群馬県甘楽郡甘楽町大字小幡161-1",
+     "hours": null,
+     "source_url": "https://www.town.kanra.lg.jp/gikai-jimu/gikai/news/20221020085837.html",
+     "evidence": "議会事務局 住所:〒370-2292 群馬県甘楽郡甘楽町大字小幡161-1 電話:0274-74-3022",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kanra.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "104213",
+   "name": "中之条町",
+   "official_site": "https://www.town.nakanojo.gunma.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.nakanojo.gunma.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0279-75-8836",
+     "email": null,
+     "form_url": null,
+     "postal_code": "377-0494",
+     "postal_address": "群馬県吾妻郡中之条町大字中之条町1091 3階",
+     "hours": null,
+     "source_url": "https://www.town.nakanojo.gunma.jp/site/nakanojo-gikai/",
+     "evidence": "議会事務局代表 〒377-0494群馬県吾妻郡中之条町大字中之条町1091 3階 電話:0279-75-8836Fax:0279",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "広報担当",
+     "phone": "0279-75-8846",
+     "email": null,
+     "form_url": "https://www.town.nakanojo.gunma.jp/form/detail.php?sec_sec1=2&inq=02&lif_id=8080",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.nakanojo.gunma.jp/soshiki/2/8080.html",
+     "evidence": "広報担当) 〒377-0494群馬県吾妻郡中之条町大字中之条町1091 1階 電話:0279-75-8846",
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "104248",
+   "name": "長野原町",
+   "official_site": "https://www.town.naganohara.gunma.jp/www/index.html",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0279-82-2244",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.naganohara.gunma.jp/www/index.html",
+     "evidence": "長野原町役場法人番号:400002010…40番地1(Googlemap) 電話番号:0279-82-2244(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0279-82-3019",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.naganohara.gunma.jp/administration/?content=328",
+     "evidence": "議会事務局 電話:0279-82-3019",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.naganohara.gunma.jp/www/index.html",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "104256",
+   "name": "嬬恋村",
+   "official_site": "https://www.vill.tsumagoi.gunma.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.tsumagoi.gunma.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.tsumagoi.gunma.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.tsumagoi.gunma.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "104264",
+   "name": "草津町",
+   "official_site": "https://www.town.kusatsu.gunma.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kusatsu.gunma.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kusatsu.gunma.jp/li/050/index.html",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kusatsu.gunma.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "104281",
+   "name": "高山村",
+   "official_site": "https://vill.takayama.gunma.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0279-63-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "377-0792",
+     "postal_address": "群馬県吾妻郡高山村大字中山2856-1 役場へのアクセス",
+     "hours": null,
+     "source_url": "https://vill.takayama.gunma.jp/",
+     "evidence": "役場へのアクセス 代表電話:0279-63-2111 代表FAX:0",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "高山村議会事務局",
+     "phone": "0279-63-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "377-0792",
+     "postal_address": "群馬県吾妻郡高山村大字中山2856-1 役場へのアクセス",
+     "hours": null,
+     "source_url": "https://vill.takayama.gunma.jp/gikai/index.html",
+     "evidence": "高山村議会事務局 〒377-0792 群馬県吾妻郡高山村大字中山2856-1 役場へのアクセス 代表電話:0279-63-2111",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.vill.takayama.gunma.jp/FormMail/hpiken/FormMail.html",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "104299",
+   "name": "東吾妻町",
+   "official_site": "https://www.town.higashiagatsuma.gunma.jp/www/index.html",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.higashiagatsuma.gunma.jp/www/index.html",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0279-68-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.higashiagatsuma.gunma.jp/www/gikai/contents/1204215378331/index.html",
+     "evidence": "議会事務局 電話番号: 0279-68-2111",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.higashiagatsuma.gunma.jp/www/index.html",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "104434",
+   "name": "片品村",
+   "official_site": "https://www.vill.katashina.gunma.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.katashina.gunma.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0278-58-2119",
+     "email": "gikai@vill.katashina.gunma.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.katashina.gunma.jp/gikai/index.html",
+     "evidence": "議会事務局 TEL 0278-58-2119 FAX 027",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育委員会",
+     "phone": "0278-58-2144",
+     "email": "kyouiku@vill.katashina.gunma.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.katashina.gunma.jp/gaiyou/kakuka/kyouiku/index.html",
+     "evidence": "教育委員会事務局 TEL 0278-58-2144 FAX 027",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.katashina.gunma.jp/contact/index.html",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "104442",
+   "name": "川場村",
+   "official_site": "https://www.vill.kawaba.gunma.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.kawaba.gunma.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.kawaba.gunma.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.kawaba.gunma.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "104485",
+   "name": "昭和村",
+   "official_site": "https://www.vill.showa.gunma.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.showa.gunma.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.showa.gunma.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.showa.gunma.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "104493",
+   "name": "みなかみ町",
+   "official_site": "https://www.town.minakami.gunma.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.minakami.gunma.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0278-25-5023",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.minakami.gunma.jp/politics/08gikai/2016-1014-1905-11.html",
+     "evidence": "議会事務局 0278-25-5023 0278-2",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.minakami.gunma.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "104647",
+   "name": "玉村町",
+   "official_site": "https://www.town.tamamura.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0270-65-2511",
+     "email": null,
+     "form_url": null,
+     "postal_code": "370-1192",
+     "postal_address": "群馬県佐波郡玉村町大字下新田201",
+     "hours": null,
+     "source_url": "https://www.town.tamamura.lg.jp/",
+     "evidence": "町役場のご案内 お問い合わせ サイトマッ…群馬県佐波郡玉村町大字下新田201電話番号:0270-65-2511(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.tamamura.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.tamamura.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "105210",
+   "name": "板倉町",
+   "official_site": "https://www.town.itakura.gunma.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.itakura.gunma.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.itakura.gunma.jp/d000070/index.html",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.itakura.gunma.jp/inquiry/iken/index.html",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "105228",
+   "name": "明和町",
+   "official_site": "https://www.town.meiwa.gunma.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0276-84-3111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.meiwa.gunma.jp/",
+     "evidence": "明和町役場 〒370ー0795 群馬県邑楽郡明和町新里250番地1 電話番号:0276-84-3111(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0276-84-3111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.meiwa.gunma.jp/life/soshiki/gikai/meiwamachigikai/index.html",
+     "evidence": "議会事務局 〒370-0795 群馬県…町新里250番地1 役場庁舎3階 電話番号:0276-84-3111(代表)",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.meiwa.gunma.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "105236",
+   "name": "千代田町",
+   "official_site": "https://www.town.chiyoda.gunma.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.chiyoda.gunma.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0276-86-7009",
+     "email": null,
+     "form_url": null,
+     "postal_code": "370-0598",
+     "postal_address": "群馬県邑楽郡千代田町大字赤岩1895-1",
+     "hours": null,
+     "source_url": "https://www.town.chiyoda.gunma.jp/gikai/index.html",
+     "evidence": "議会事務局 〒370-0598 群馬県邑楽郡千代田町大字赤岩1895-1 電話:0276-86-7009 ファックス:0",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.chiyoda.gunma.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "105244",
+   "name": "大泉町",
+   "official_site": "https://www.town.oizumi.gunma.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.oizumi.gunma.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "大泉町議会",
+     "phone": "0276-63-3111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "370-0595",
+     "postal_address": "群馬県邑楽郡大泉町日の出51番1号",
+     "hours": null,
+     "source_url": "https://www.town.oizumi.gunma.jp/g001/li/100/index.html",
+     "evidence": "議会 メニューにジャンプコンテンツにジャ…馬県邑楽郡大泉町日の出51番1号 電話番号 0276-63-3111",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.oizumi.gunma.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "105252",
+   "name": "邑楽町",
+   "official_site": "https://www.town.ora.gunma.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ora.gunma.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ora.gunma.jp/li/070/index.html",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ora.gunma.jp/form/contact/index.html",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  }
+ ]
+}

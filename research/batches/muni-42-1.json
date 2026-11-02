@@ -1,0 +1,1134 @@
+{
+ "batch": "muni-42-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/08_make_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "422011",
+   "name": "長崎市",
+   "official_site": "https://www.city.nagasaki.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nagasaki.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局議事調査課",
+     "phone": "095-829-1200",
+     "email": null,
+     "form_url": null,
+     "postal_code": "850-8685",
+     "postal_address": "長崎県長崎市魚の町4-1",
+     "hours": null,
+     "source_url": "https://www.city.nagasaki.lg.jp/site/gikai/94323.html",
+     "evidence": "議会事務局議事調査課代表 〒850-8685長崎県長崎市魚の町4-1(5階) Tel:095-829-1200Fax:095-",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "広聴",
+     "phone": null,
+     "email": null,
+     "form_url": "https://apply.e-tumo.jp/city-nagasaki-u/offer/offerList_initDisplay",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nagasaki.lg.jp/life/7/58/",
+     "evidence": "リンク「広聴」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
+    }
+   ]
+  },
+  {
+   "code": "422029",
+   "name": "佐世保市",
+   "official_site": "https://www.city.sasebo.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.sasebo.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.sasebo.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.sasebo.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "422037",
+   "name": "島原市",
+   "official_site": "https://www.city.shimabara.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.shimabara.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "島原市議会",
+     "phone": "0957-63-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "855-8555",
+     "postal_address": "長崎県島原市上の町537番地",
+     "hours": null,
+     "source_url": "https://www.city.shimabara.lg.jp/gikai/",
+     "evidence": "議会だより 令和8年11月(第271号)…55 長崎県島原市上の町537番地 TEL:0957-63-1111 FAX:095",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育総務課",
+     "phone": "0957-68-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.shimabara.lg.jp/page5830.html",
+     "evidence": "教育総務課TEL:0957-68-1111(内線620-6",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.shimabara.lg.jp/hpkiji/pub/List.aspx?c_id=3&class_set_id=1&class_id=262",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "422045",
+   "name": "諫早市",
+   "official_site": "https://www.city.isahaya.nagasaki.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.isahaya.nagasaki.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.isahaya.nagasaki.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.isahaya.nagasaki.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "422053",
+   "name": "大村市",
+   "official_site": "https://www.city.omura.nagasaki.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0957-53-4111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "856-8686",
+     "postal_address": "長崎県大村市玖島1丁目25番地",
+     "hours": null,
+     "source_url": "https://www.city.omura.nagasaki.jp/",
+     "evidence": "大村市役所法人番号:5000020422…長崎県大村市玖島1丁目25番地代表電話番号:0957-53-4111",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.omura.nagasaki.jp/gikaichousa/shise/shigikai/index.html",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "広報推進グループ",
+     "phone": "0957-53-4111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.omura.nagasaki.jp/kouhou/voice/003.html",
+     "evidence": "広報推進グループ 856-8686 大村市玖島1丁目25番地 本館2階 電話番号:0957-53-4111(内線:209)",
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "422070",
+   "name": "平戸市",
+   "official_site": "https://www.city.hirado.nagasaki.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0950-22-4111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "859-5192",
+     "postal_address": "長崎県平戸市岩の上町1508番地3",
+     "hours": null,
+     "source_url": "https://www.city.hirado.nagasaki.jp/",
+     "evidence": "平戸市役所〒859-5192 長崎県平戸市岩の上町1508番地3 電話:0950-22-4111(代表)FAX:",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hirado.nagasaki.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hirado.nagasaki.jp/kurashi/contact/",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "422088",
+   "name": "松浦市",
+   "official_site": "https://www.city-matsuura.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city-matsuura.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city-matsuura.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city-matsuura.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "422096",
+   "name": "対馬市",
+   "official_site": "https://www.city.tsushima.nagasaki.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tsushima.nagasaki.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tsushima.nagasaki.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tsushima.nagasaki.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "422100",
+   "name": "壱岐市",
+   "official_site": "https://www.city.iki.nagasaki.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.iki.nagasaki.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0920-48-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "811-5192",
+     "postal_address": "長崎県壱岐市郷ノ浦町本村触562番地",
+     "hours": null,
+     "source_url": "https://www.city.iki.nagasaki.jp/soshiki/gikai_jimukyoku/shigikai/index.html",
+     "evidence": "議会事務局 ページの先頭へ 長崎県壱岐市 〒811-5192 長崎県壱岐市郷ノ浦町本村触562番地 電話番号:0920-48-1111",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育総務課",
+     "phone": "0920-45-1202",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.iki.nagasaki.jp/shiyakusho/tel/3285.html",
+     "evidence": "教育総務課 0920-45-1202",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "壱岐市ホームページに関するご意見・ご要望について",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.city.iki.nagasaki.jp/cgi-bin/inquiry.php/110",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.iki.nagasaki.jp/cgi-bin/inquiry.php/38?page_no=1",
+     "evidence": "リンク「ご意見・ご要望」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
+    }
+   ]
+  },
+  {
+   "code": "422118",
+   "name": "五島市",
+   "official_site": "https://www.city.goto.nagasaki.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0959-72-6111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "853-8501",
+     "postal_address": "長崎県五島市福江町1番1号",
+     "hours": null,
+     "source_url": "https://www.city.goto.nagasaki.jp/",
+     "evidence": "五島市役所 郵便番号:853-8501 長崎県五島市福江町1番1号 電話番号:0959-72-6111(代表) ファク",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局 庶務係",
+     "phone": "0959-72-7923",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.goto.nagasaki.jp/s001/010/010/010/020/20200501083000.html",
+     "evidence": "議会事務局 庶務係・議事係 郵便番号:853-8501 長崎県五島市福江町1番1号(本庁舎) 直通電話:0959-72-7923",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.goto.nagasaki.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "422126",
+   "name": "西海市",
+   "official_site": "https://www.city.saikai.nagasaki.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.saikai.nagasaki.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0959-37-0075",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.saikai.nagasaki.jp/shisei/joho/1/2710.html",
+     "evidence": "議会事務局 0959-37-0075",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.saikai.nagasaki.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "422134",
+   "name": "雲仙市",
+   "official_site": "https://www.city.unzen.nagasaki.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.unzen.nagasaki.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0957-38-3120",
+     "email": "gikai@city.unzen.lg.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.unzen.nagasaki.jp/kiji0038687/index.html",
+     "evidence": "議会事務局 電話:0957-38-3120 FAX:095",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育委員会総務課",
+     "phone": "0957-47-7854",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.unzen.nagasaki.jp/classset002.html",
+     "evidence": "教育委員会総務課 TEL:0957-47-7854FAX:0957",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "市長へのメール",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.city.unzen.nagasaki.jp/dynamic/entry/pub/AnsForm.aspx?c_id=39&entry_ins=1&pg=1&mst=1",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.unzen.nagasaki.jp/dynamic/entry/pub/default.aspx?c_id=39&pg=1",
+     "evidence": "リンク「市長へのメール」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
+    }
+   ]
+  },
+  {
+   "code": "422142",
+   "name": "南島原市",
+   "official_site": "https://www.city.minamishimabara.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.minamishimabara.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.minamishimabara.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "南島原市教育委員会",
+     "phone": "0957-73-6701",
+     "email": null,
+     "form_url": null,
+     "postal_code": "859-2412",
+     "postal_address": "長崎県南島原市南有馬町乙1023番地",
+     "hours": null,
+     "source_url": "https://www.city.minamishimabara.lg.jp/kyouiku/default.html?site=1",
+     "evidence": "南島原市教育委員会 〒859-2412 …・休日、12月29日~翌年1月3日を除く) 0957-73-6701",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.minamishimabara.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "423076",
+   "name": "長与町",
+   "official_site": "https://webtown.nagayo.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://webtown.nagayo.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "長与町議会事務局",
+     "phone": "095-883-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "851-2185",
+     "postal_address": "長崎県西彼杵郡長与町嬉里郷659番地1",
+     "hours": null,
+     "source_url": "https://webtown.nagayo.jp/gikai/default.html",
+     "evidence": "長与町議会事務局 〒851-2185 長崎県西彼杵郡長与町嬉里郷659番地1(長与町役場4F) TEL:095-883-1111",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "広報・広聴",
+     "phone": null,
+     "email": null,
+     "form_url": "https://webtown.nagayo.jp/dynamic/entry/pub/ansform.aspx?c_id=28&entry_ins=2&pg=1&mst=2",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://webtown.nagayo.jp/list00133.html",
+     "evidence": "リンク「広報・広聴」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
+    }
+   ]
+  },
+  {
+   "code": "423084",
+   "name": "時津町",
+   "official_site": "https://www.town.togitsu.nagasaki.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "095-882-2211",
+     "email": null,
+     "form_url": null,
+     "postal_code": "851-2198",
+     "postal_address": "長崎県西彼杵郡時津町浦郷274-1",
+     "hours": null,
+     "source_url": "https://www.town.togitsu.nagasaki.jp/",
+     "evidence": "時津町役場 法人番号 50000204…県西彼杵郡時津町浦郷274-1 電話番号:095-882-2211(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "095-882-3959",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.togitsu.nagasaki.jp/gyoseijoho/chogikai/2693.html",
+     "evidence": "議会事務局 〒851-2198 長崎県西彼杵郡時津町浦郷274-1 電話番号:095-882-3959(直通)",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育総務課",
+     "phone": "095-801-1266",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.togitsu.nagasaki.jp/kurashi_tetsuzuki/sodammadoguchi/2498.html",
+     "evidence": "教育総務課 095-801-1266",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "まちづくりへのご提案",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.town.togitsu.nagasaki.jp/cgi-bin/inquiry.php/2?page_no=3562",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.togitsu.nagasaki.jp/soshikikarasagasu/seisakuzaimuka/gyoseijoho/kocho/3562.html",
+     "evidence": "リンク「まちづくりへのご提案」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
+    }
+   ]
+  },
+  {
+   "code": "423211",
+   "name": "東彼杵町",
+   "official_site": "https://www.sonogi.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.sonogi.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.sonogi.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.sonogi.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "423220",
+   "name": "川棚町",
+   "official_site": "https://www.kawatana.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.kawatana.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0956-82-5216",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.kawatana.jp/cat05/c5-09/post_265/index.html",
+     "evidence": "議会事務局 電話番号:0956-82-5216",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育総務係",
+     "phone": "0956-82-2064",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.kawatana.jp/cat05/c5-09/post_265/index.html",
+     "evidence": "教育総務係 電話番号:0956-82-2064",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.kawatana.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "423238",
+   "name": "波佐見町",
+   "official_site": "https://www.town.hasami.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hasami.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hasami.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hasami.lg.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "423831",
+   "name": "小値賀町",
+   "official_site": "https://www.town.ojika.lg.jp/index.html",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ojika.lg.jp/index.html",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ojika.lg.jp/index.html",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ojika.lg.jp/index.html",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "423912",
+   "name": "佐々町",
+   "official_site": "https://www.sazacho-nagasaki.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.sazacho-nagasaki.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0956-62-2101",
+     "email": null,
+     "form_url": null,
+     "postal_code": "857-0392",
+     "postal_address": "長崎県北松浦郡佐々町本田原免168番地2",
+     "hours": null,
+     "source_url": "https://www.sazacho-nagasaki.jp/gikai/default.html",
+     "evidence": "議会事務局 〒857-0392 長崎県北松浦郡佐々町本田原免168番地2 TEL:0956-62-2101 FAX:095",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育委員会",
+     "phone": "0956-62-2101",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.sazacho-nagasaki.jp/classset002.html",
+     "evidence": "教育委員会 TEL:0956-62-2101FAX:0956",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.sazacho-nagasaki.jp/list00027.html",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "424111",
+   "name": "新上五島町",
+   "official_site": "https://official.shinkamigoto.net/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://official.shinkamigoto.net/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "新上五島町議会",
+     "phone": "0959-53-1119",
+     "email": null,
+     "form_url": null,
+     "postal_code": "857-4495",
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://official.shinkamigoto.net/gikai.php",
+     "evidence": "議会班 住所 〒857-4495 …町青方郷1585番地1 [地図] 電話 0959-53-1119",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://official.shinkamigoto.net/goto_chosei.php?wcid=l00007",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  }
+ ]
+}

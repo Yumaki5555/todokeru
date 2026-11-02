@@ -41,14 +41,17 @@ const municipalities = readJson('public/data/master/municipalities.json').items;
 const agencies = readJson('public/data/master/agencies.json').items;
 const targetCodes = new Set(plan.targets.map((t) => t.code));
 
+// 警察・教育委員会は見つかったときだけ書けばよい（調査結果がなくても誤りにしない）
+const REQUIRED = ['general', 'feedback', 'assembly'];
+
 /** 機関・自治体を調べる（コード・名前・調べる窓口の種類・保存先ファイル） */
 function lookup(code) {
   const a = agencies.find((x) => x.id === code);
   if (a) return { name: a.name, types: a.category === 'diet' ? ['general'] : ['general', 'feedback'], file: 'agencies', key: 'agency' };
   const p = prefectures.find((x) => x.lg_code === code);
-  if (p) return { name: p.name, types: ['general', 'feedback', 'assembly'], file: p.code, key: 'municipality' };
+  if (p) return { name: p.name, types: ['general', 'feedback', 'assembly', 'police', 'education'], required: REQUIRED, file: p.code, key: 'municipality' };
   const m = municipalities.find((x) => x.code === code);
-  if (m) return { name: m.name, types: ['general', 'feedback', 'assembly'], file: m.pref_code, key: 'municipality' };
+  if (m) return { name: m.name, types: ['general', 'feedback', 'assembly', 'education'], required: REQUIRED, file: m.pref_code, key: 'municipality' };
   return null;
 }
 
@@ -215,7 +218,7 @@ async function verifyContact(entity, c0, info, generalOf) {
   const base = {
     id,
     type: c.type,
-    department: pick(c, 'department') || { general: '代表窓口', feedback: '広聴・ご意見窓口', assembly: '議会事務局' }[c.type],
+    department: pick(c, 'department') || { general: '代表窓口', feedback: '広聴・ご意見窓口', assembly: '議会事務局', police: '警察本部', education: '教育委員会' }[c.type],
     phone: null,
     email: null,
     form_url: null,
@@ -384,7 +387,8 @@ for (const entity of batch.entities || []) {
     out.push(contact);
     reports.push(report);
   }
-  for (const t of info.types) if (!seen.has(t)) errors.push(`${entity.code}: ${t} の調査結果がない`);
+  // skipped_types：確認済みの窓口があるので今回は調べなかった種類（08_make_batch.py が書く）
+  for (const t of info.required || info.types) if (!seen.has(t) && !(entity.skipped_types || []).includes(t)) errors.push(`${entity.code}: ${t} の調査結果がない`);
   if (!results.has(info.file)) results.set(info.file, []);
   results.get(info.file).push({ code: entity.code, name: info.name, key: info.key, contacts: out });
 }

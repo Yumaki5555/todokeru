@@ -1,6 +1,6 @@
 {
  "note": "status: pending（未調査）→ researched（調査ファイルあり・未照合）→ merged（照合して public/data に反映済み）",
- "updated_at": "2026-11-01",
+ "updated_at": "2026-11-03",
  "stages": [
   {
    "no": 1,
@@ -626,10 +626,17 @@
      "name": "清瀬市"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 21,
+    "contacts": 64,
+    "verified": 44,
+    "unverified": 20,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-13-3",
@@ -718,10 +725,17 @@
      "name": "小笠原村"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 20,
+    "contacts": 67,
+    "verified": 29,
+    "unverified": 38,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-14-1",
@@ -798,10 +812,17 @@
      "name": "座間市"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 17,
+    "contacts": 53,
+    "verified": 26,
+    "unverified": 27,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-14-2",
@@ -874,10 +895,17 @@
      "name": "清川村"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 16,
+    "contacts": 49,
+    "verified": 18,
+    "unverified": 31,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-11-1",
@@ -970,10 +998,17 @@
      "name": "戸田市"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 21,
+    "contacts": 69,
+    "verified": 41,
+    "unverified": 28,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-11-2",
@@ -1066,10 +1101,17 @@
      "name": "三芳町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 21,
+    "contacts": 66,
+    "verified": 43,
+    "unverified": 23,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-11-3",
@@ -1162,10 +1204,17 @@
      "name": "松伏町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 21,
+    "contacts": 70,
+    "verified": 30,
+    "unverified": 40,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-12-1",
@@ -1282,10 +1331,17 @@
      "name": "袖ケ浦市"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 27,
+    "contacts": 85,
+    "verified": 46,
+    "unverified": 39,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-12-2",
@@ -1402,10 +1458,17 @@
      "name": "鋸南町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 27,
+    "contacts": 84,
+    "verified": 42,
+    "unverified": 42,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-27-1",
@@ -1502,10 +1565,17 @@
      "name": "柏原市"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 22,
+    "contacts": 70,
+    "verified": 41,
+    "unverified": 29,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-27-2",
@@ -1598,10 +1668,17 @@
      "name": "千早赤阪村"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 21,
+    "contacts": 66,
+    "verified": 22,
+    "unverified": 44,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-01-1",
@@ -1730,10 +1807,17 @@
      "name": "登別市"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 30,
+    "contacts": 90,
+    "verified": 37,
+    "unverified": 53,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-01-2",
@@ -1862,10 +1946,17 @@
      "name": "留寿都村"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 30,
+    "contacts": 96,
+    "verified": 25,
+    "unverified": 71,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-01-3",
@@ -1994,10 +2085,17 @@
      "name": "比布町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 30,
+    "contacts": 95,
+    "verified": 25,
+    "unverified": 70,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-01-4",
@@ -2126,10 +2224,17 @@
      "name": "利尻富士町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 30,
+    "contacts": 95,
+    "verified": 21,
+    "unverified": 74,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-01-5",
@@ -2258,10 +2363,17 @@
      "name": "新ひだか町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 30,
+    "contacts": 96,
+    "verified": 24,
+    "unverified": 72,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-01-6",
@@ -2386,10 +2498,17 @@
      "name": "羅臼町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 29,
+    "contacts": 91,
+    "verified": 9,
+    "unverified": 82,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-02-1",
@@ -2478,10 +2597,17 @@
      "name": "田舎館村"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 20,
+    "contacts": 62,
+    "verified": 16,
+    "unverified": 46,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-02-2",
@@ -2570,10 +2696,17 @@
      "name": "新郷村"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 20,
+    "contacts": 60,
+    "verified": 10,
+    "unverified": 50,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-03-1",
@@ -2650,10 +2783,17 @@
      "name": "岩手町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 17,
+    "contacts": 52,
+    "verified": 11,
+    "unverified": 41,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-03-2",
@@ -2726,10 +2866,17 @@
      "name": "一戸町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 16,
+    "contacts": 49,
+    "verified": 15,
+    "unverified": 34,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-04-1",
@@ -2810,10 +2957,17 @@
      "name": "村田町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 18,
+    "contacts": 59,
+    "verified": 27,
+    "unverified": 32,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-04-2",
@@ -2890,10 +3044,17 @@
      "name": "南三陸町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 17,
+    "contacts": 56,
+    "verified": 20,
+    "unverified": 36,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-05-1",
@@ -3002,10 +3163,17 @@
      "name": "東成瀬村"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 25,
+    "contacts": 77,
+    "verified": 26,
+    "unverified": 51,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-06-1",
@@ -3086,10 +3254,17 @@
      "name": "朝日町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 18,
+    "contacts": 57,
+    "verified": 25,
+    "unverified": 32,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-06-2",
@@ -3166,10 +3341,17 @@
      "name": "遊佐町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 17,
+    "contacts": 51,
+    "verified": 13,
+    "unverified": 38,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-07-1",
@@ -3298,10 +3480,17 @@
      "name": "柳津町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 30,
+    "contacts": 93,
+    "verified": 29,
+    "unverified": 64,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-07-2",
@@ -3426,10 +3615,17 @@
      "name": "飯舘村"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 29,
+    "contacts": 88,
+    "verified": 16,
+    "unverified": 72,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-08-1",
@@ -3526,10 +3722,17 @@
      "name": "那珂市"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 22,
+    "contacts": 68,
+    "verified": 24,
+    "unverified": 44,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-08-2",
@@ -3626,10 +3829,17 @@
      "name": "利根町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 22,
+    "contacts": 72,
+    "verified": 32,
+    "unverified": 40,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-09-1",
@@ -3738,10 +3948,17 @@
      "name": "那珂川町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 25,
+    "contacts": 76,
+    "verified": 27,
+    "unverified": 49,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-10-1",
@@ -3822,10 +4039,17 @@
      "name": "南牧村"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 18,
+    "contacts": 56,
+    "verified": 26,
+    "unverified": 30,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-10-2",
@@ -3902,10 +4126,17 @@
      "name": "邑楽町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 17,
+    "contacts": 52,
+    "verified": 17,
+    "unverified": 35,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-15-1",
@@ -4034,10 +4265,17 @@
      "name": "粟島浦村"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 30,
+    "contacts": 93,
+    "verified": 36,
+    "unverified": 57,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-16-1",
@@ -4106,10 +4344,17 @@
      "name": "朝日町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 15,
+    "contacts": 45,
+    "verified": 12,
+    "unverified": 33,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-17-1",
@@ -4194,10 +4439,17 @@
      "name": "能登町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 19,
+    "contacts": 59,
+    "verified": 23,
+    "unverified": 36,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-18-1",
@@ -4274,10 +4526,17 @@
      "name": "若狭町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 17,
+    "contacts": 53,
+    "verified": 28,
+    "unverified": 25,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-19-1",
@@ -4394,10 +4653,17 @@
      "name": "丹波山村"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 27,
+    "contacts": 84,
+    "verified": 23,
+    "unverified": 61,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-20-1",
@@ -4510,10 +4776,17 @@
      "name": "軽井沢町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 26,
+    "contacts": 79,
+    "verified": 29,
+    "unverified": 50,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-20-2",
@@ -4626,10 +4899,17 @@
      "name": "大鹿村"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 26,
+    "contacts": 81,
+    "verified": 18,
+    "unverified": 63,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-20-3",
@@ -4738,10 +5018,17 @@
      "name": "栄村"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 25,
+    "contacts": 78,
+    "verified": 15,
+    "unverified": 63,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-21-1",
@@ -4834,10 +5121,17 @@
      "name": "海津市"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 21,
+    "contacts": 67,
+    "verified": 27,
+    "unverified": 40,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-21-2",
@@ -4930,10 +5224,17 @@
      "name": "白川村"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 21,
+    "contacts": 65,
+    "verified": 19,
+    "unverified": 46,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-22-1",
@@ -5014,10 +5315,17 @@
      "name": "湖西市"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 18,
+    "contacts": 56,
+    "verified": 27,
+    "unverified": 29,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-22-2",
@@ -5094,10 +5402,17 @@
      "name": "森町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 17,
+    "contacts": 53,
+    "verified": 18,
+    "unverified": 35,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-23-1",
@@ -5214,10 +5529,17 @@
      "name": "高浜市"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 27,
+    "contacts": 81,
+    "verified": 11,
+    "unverified": 70,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-23-2",
@@ -5334,10 +5656,17 @@
      "name": "豊根村"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 27,
+    "contacts": 81,
+    "verified": 4,
+    "unverified": 77,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-24-1",
@@ -5462,10 +5791,17 @@
      "name": "紀宝町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 29,
+    "contacts": 96,
+    "verified": 38,
+    "unverified": 58,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-25-1",
@@ -5550,10 +5886,17 @@
      "name": "多賀町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 19,
+    "contacts": 60,
+    "verified": 23,
+    "unverified": 37,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-26-1",
@@ -5666,10 +6009,17 @@
      "name": "与謝野町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 26,
+    "contacts": 82,
+    "verified": 31,
+    "unverified": 51,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-28-1",
@@ -5762,10 +6112,17 @@
      "name": "丹波篠山市"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 21,
+    "contacts": 69,
+    "verified": 36,
+    "unverified": 33,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-28-2",
@@ -5854,10 +6211,17 @@
      "name": "新温泉町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 20,
+    "contacts": 64,
+    "verified": 26,
+    "unverified": 38,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-29-1",
@@ -5946,10 +6310,17 @@
      "name": "田原本町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 20,
+    "contacts": 65,
+    "verified": 30,
+    "unverified": 35,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-29-2",
@@ -6034,10 +6405,17 @@
      "name": "東吉野村"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 19,
+    "contacts": 61,
+    "verified": 10,
+    "unverified": 51,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-30-1",
@@ -6166,10 +6544,17 @@
      "name": "串本町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 30,
+    "contacts": 96,
+    "verified": 35,
+    "unverified": 61,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-31-1",
@@ -6254,10 +6639,17 @@
      "name": "江府町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 19,
+    "contacts": 60,
+    "verified": 16,
+    "unverified": 44,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-32-1",
@@ -6342,10 +6734,17 @@
      "name": "隠岐の島町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 19,
+    "contacts": 61,
+    "verified": 24,
+    "unverified": 37,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-33-1",
@@ -6462,10 +6861,17 @@
      "name": "吉備中央町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 27,
+    "contacts": 85,
+    "verified": 34,
+    "unverified": 51,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-34-1",
@@ -6566,10 +6972,17 @@
      "name": "神石高原町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 23,
+    "contacts": 71,
+    "verified": 25,
+    "unverified": 46,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-35-1",
@@ -6654,10 +7067,17 @@
      "name": "阿武町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 19,
+    "contacts": 61,
+    "verified": 28,
+    "unverified": 33,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-36-1",
@@ -6762,10 +7182,17 @@
      "name": "東みよし町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 24,
+    "contacts": 79,
+    "verified": 21,
+    "unverified": 58,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-37-1",
@@ -6842,10 +7269,17 @@
      "name": "まんのう町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 17,
+    "contacts": 55,
+    "verified": 19,
+    "unverified": 36,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-38-1",
@@ -6934,10 +7368,17 @@
      "name": "愛南町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 20,
+    "contacts": 60,
+    "verified": 19,
+    "unverified": 41,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-39-1",
@@ -7014,10 +7455,17 @@
      "name": "馬路村"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 17,
+    "contacts": 53,
+    "verified": 11,
+    "unverified": 42,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-39-2",
@@ -7094,10 +7542,17 @@
      "name": "黒潮町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 17,
+    "contacts": 57,
+    "verified": 15,
+    "unverified": 42,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-40-1",
@@ -7226,10 +7681,17 @@
      "name": "宇美町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 30,
+    "contacts": 96,
+    "verified": 43,
+    "unverified": 53,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-40-2",
@@ -7358,10 +7820,17 @@
      "name": "築上町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 30,
+    "contacts": 92,
+    "verified": 25,
+    "unverified": 67,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-41-1",
@@ -7450,10 +7919,17 @@
      "name": "太良町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 20,
+    "contacts": 62,
+    "verified": 24,
+    "unverified": 38,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-42-1",
@@ -7546,10 +8022,17 @@
      "name": "新上五島町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 21,
+    "contacts": 70,
+    "verified": 21,
+    "unverified": 49,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-43-1",
@@ -7650,10 +8133,17 @@
      "name": "小国町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 23,
+    "contacts": 70,
+    "verified": 17,
+    "unverified": 53,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-43-2",
@@ -7750,10 +8240,17 @@
      "name": "苓北町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 22,
+    "contacts": 68,
+    "verified": 9,
+    "unverified": 59,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-44-1",
@@ -7834,10 +8331,17 @@
      "name": "玖珠町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 18,
+    "contacts": 56,
+    "verified": 19,
+    "unverified": 37,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-45-1",
@@ -7950,10 +8454,17 @@
      "name": "五ヶ瀬町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 26,
+    "contacts": 79,
+    "verified": 22,
+    "unverified": 57,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-46-1",
@@ -8050,10 +8561,17 @@
      "name": "さつま町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 22,
+    "contacts": 72,
+    "verified": 25,
+    "unverified": 47,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-46-2",
@@ -8146,10 +8664,17 @@
      "name": "与論町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 21,
+    "contacts": 65,
+    "verified": 12,
+    "unverified": 53,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-47-1",
@@ -8242,10 +8767,17 @@
      "name": "読谷村"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 21,
+    "contacts": 66,
+    "verified": 24,
+    "unverified": 42,
+    "unavailable": 0,
+    "errors": 0
+   }
   },
   {
    "id": "muni-47-2",
@@ -8334,10 +8866,17 @@
      "name": "与那国町"
     }
    ],
-   "status": "pending",
-   "researched_at": null,
-   "merged_at": null,
-   "result": null
+   "status": "merged",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
+   "result": {
+    "entities": 20,
+    "contacts": 64,
+    "verified": 12,
+    "unverified": 52,
+    "unavailable": 0,
+    "errors": 0
+   }
   }
  ]
 }

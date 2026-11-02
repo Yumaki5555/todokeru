@@ -1,0 +1,917 @@
+{
+ "batch": "muni-44-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/08_make_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "442011",
+   "name": "大分市",
+   "official_site": "https://www.city.oita.oita.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.oita.oita.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局議事課",
+     "phone": "097-537-5645",
+     "email": "gikaigiji@city.oita.oita.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.oita.oita.jp/o186/shigikai/seganchinjo/1341818373163.html",
+     "evidence": "議会事務局議事課 電話番号:(097)537-5645",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育総務課",
+     "phone": "097-537-5671",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.oita.oita.jp/o029/shisejoho/annai/shinososhiki.html",
+     "evidence": "教育総務課097-537-5671",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "企画部広聴広報課",
+     "phone": "097-537-5601",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.oita.oita.jp/o029/shisejoho/kohokocho/230714uketukezyoukyou.html",
+     "evidence": "企画部広聴広報課 電話番号:(097)537-5601",
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "442020",
+   "name": "別府市",
+   "official_site": "https://www.city.beppu.oita.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0977-21-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.beppu.oita.jp/",
+     "evidence": "別府市役所 代表電話 0977-21-1111",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0977-21-1547",
+     "email": "sec-cc@city.beppu.lg.jp",
+     "form_url": null,
+     "postal_code": "874-8511",
+     "postal_address": "大分県別府市上野口町1-15",
+     "hours": null,
+     "source_url": "https://www.city.beppu.oita.jp/gikai/index.html",
+     "evidence": "議会事務局 〒874-8511大分県別府市上野口町1-15 TEL:0977-21-1547 FAX:097",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "別府市へのご意見・お問い合わせ",
+     "phone": null,
+     "email": null,
+     "form_url": "https://logoform.jp/form/ktEY/586850",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.beppu.oita.jp/sisei/kouhou_koutyou/detail181.html",
+     "evidence": "リンク「メールでのご意見・お問い合わせ」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
+    }
+   ]
+  },
+  {
+   "code": "442038",
+   "name": "中津市",
+   "official_site": "https://www.city-nakatsu.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city-nakatsu.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0979-62-9882",
+     "email": "shigikai@city.nakatsu.lg.jp",
+     "form_url": null,
+     "postal_code": "871-8501",
+     "postal_address": "大分県中津市豊田町14番地3",
+     "hours": null,
+     "source_url": "https://www.city-nakatsu.jp/gikai/2011100400360/",
+     "evidence": "議会事務局 住所:〒871-8501 大分県中津市豊田町14番地3 TEL:0979-62-9882",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育委員会",
+     "phone": "0979-22-4940",
+     "email": "kyouikusoumu@city.nakatsu.lg.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city-nakatsu.jp/soshiki/",
+     "evidence": "教育委員会TEL:0979-22-4940FAX:0979",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "広報・広聴",
+     "phone": null,
+     "email": null,
+     "form_url": "https://logoform.jp/pr/RF0wC",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city-nakatsu.jp/categories/bunya/kohokocho/",
+     "evidence": "リンク「広報・広聴」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
+    }
+   ]
+  },
+  {
+   "code": "442046",
+   "name": "日田市",
+   "official_site": "https://www.city.hita.oita.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hita.oita.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hita.oita.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hita.oita.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "442054",
+   "name": "佐伯市",
+   "official_site": "https://www.city.saiki.oita.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.saiki.oita.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0972-22-3643",
+     "email": "gikai@city.saiki.lg.jp",
+     "form_url": null,
+     "postal_code": "876-8585",
+     "postal_address": "大分県佐伯市中村南町1番1号",
+     "hours": null,
+     "source_url": "https://www.city.saiki.oita.jp/gikai/default.html",
+     "evidence": "議会事務局 〒876-8585 大分県佐伯市中村南町1番1号 TEL:0972-22-3643 FAX:097",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.saiki.oita.jp/list00581.html",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "442062",
+   "name": "臼杵市",
+   "official_site": "https://www.city.usuki.oita.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.usuki.oita.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.usuki.oita.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.usuki.oita.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "442071",
+   "name": "津久見市",
+   "official_site": "https://www.city.tsukumi.oita.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tsukumi.oita.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tsukumi.oita.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tsukumi.oita.jp/",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "442089",
+   "name": "竹田市",
+   "official_site": "https://www.city.taketa.oita.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0974-63-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "878-8555",
+     "postal_address": "大分県竹田市大字会々1650番地",
+     "hours": null,
+     "source_url": "https://www.city.taketa.oita.jp/",
+     "evidence": "竹田市役所 〒878-8555 大分県竹田市大字会々1650番地 電話番号:0974-63-1111(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0974-63-4813",
+     "email": "gikai@city.taketa.lg.jp",
+     "form_url": null,
+     "postal_code": "878-8555",
+     "postal_address": "大分県竹田市大字会々1650番地",
+     "hours": null,
+     "source_url": "https://www.city.taketa.oita.jp/shisei_machizukuri/taketashigikai/index.html",
+     "evidence": "議会事務局 〒878-8555 大分県竹田市大字会々1650番地 電話:0974-63-4813(代表)",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.taketa.oita.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "442097",
+   "name": "豊後高田市",
+   "official_site": "https://www.city.bungotakada.oita.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.bungotakada.oita.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.bungotakada.oita.jp/",
+     "evidence": null,
+     "note": "トップページに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.bungotakada.oita.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "442101",
+   "name": "杵築市",
+   "official_site": "https://www.city.kitsuki.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kitsuki.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kitsuki.lg.jp/shiseimachidukuri/shigikai/index.html",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "秘書広報広聴係",
+     "phone": "0978-62-1800",
+     "email": null,
+     "form_url": "https://www.city.kitsuki.lg.jp/cgi-bin/inquiry.php/148?page_no=8971",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kitsuki.lg.jp/soshiki/1/soumu/jichikihonjourei/8971.html",
+     "evidence": "秘書広報広聴係 〒873-0001 大分県杵築市大字杵築377番地1 電話番号:0978-62-1800",
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "442119",
+   "name": "宇佐市",
+   "official_site": "https://www.city.usa.oita.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0978-32-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "879-0492",
+     "postal_address": "大分県宇佐市大字上田1030番地の1",
+     "hours": null,
+     "source_url": "https://www.city.usa.oita.jp/",
+     "evidence": "宇佐市役所 法人番号4000020442…宇佐市大字上田1030番地の1 電話番号 :0978-32-1111(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局 議事係",
+     "phone": "0978-27-8204",
+     "email": null,
+     "form_url": null,
+     "postal_code": "879-0492",
+     "postal_address": "大分県宇佐市大字上田1030番地の1 本庁舎4階",
+     "hours": null,
+     "source_url": "https://www.city.usa.oita.jp/sougo/soshiki/20/gikai/index.html",
+     "evidence": "議会事務局 議事係 〒879-0492 大分県宇佐市大字上田1030番地の1 本庁舎4階 電話番号:0978-27-8204",
+     "note": "同じ組織のほかの番号：0978-32-2328"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "広報広聴係",
+     "phone": "0978-27-8106",
+     "email": null,
+     "form_url": "https://www.city.usa.oita.jp/cgi-bin/inquiry.php/2?page_no=11324",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.usa.oita.jp/sougo/soudan/11324.html",
+     "evidence": "広報広聴係 〒879-0492 大分県宇…田1030番地の1 本庁舎3階 電話番号:0978-27-8106",
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "442127",
+   "name": "豊後大野市",
+   "official_site": "https://www.bungo-ohno.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.bungo-ohno.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0974-22-1001",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.bungo-ohno.jp/docs/2015011400358/",
+     "evidence": "議会事務局 TEL:(代表)0974-22-1001",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.bungo-ohno.jp/docs/2015022500016/",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "442135",
+   "name": "由布市",
+   "official_site": "https://www.city.yufu.oita.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "097-582-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.yufu.oita.jp/",
+     "evidence": "本庁舎 〒879-5498 大分県由布市庄内町柿原302番地 TEL: 097-582-1111(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.yufu.oita.jp/article_link/city_council",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.yufu.oita.jp/siseijouhou/kouhoukoutyou",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "442143",
+   "name": "国東市",
+   "official_site": "https://www.city.kunisaki.oita.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0978-72-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "873-0503",
+     "postal_address": "大分県国東市国東町鶴川149番地",
+     "hours": null,
+     "source_url": "https://www.city.kunisaki.oita.jp/",
+     "evidence": "国東市役所 法人番号4000020442…で(祝日・休日・年末年始を除く) 電話番号:0978-72-1111(代表)ファクス",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0978-72-5196",
+     "email": null,
+     "form_url": null,
+     "postal_code": "873-0503",
+     "postal_address": "大分県国東市国東町鶴川149番地",
+     "hours": null,
+     "source_url": "https://www.city.kunisaki.oita.jp/site/gikai/",
+     "evidence": "議会事務局 〒873-0503大分県国東市国東町鶴川149番地 (本庁舎4階) 庶務係 Tel:0978-72-5196",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "広報・広聴",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.city.kunisaki.oita.jp/soshiki/catv/otoiawase.html",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kunisaki.oita.jp/life/4/23/",
+     "evidence": "リンク「広報・広聴」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
+    }
+   ]
+  },
+  {
+   "code": "443221",
+   "name": "姫島村",
+   "official_site": "https://www.himeshima.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.himeshima.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0978-87-2284",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.himeshima.jp/about/son-gikai/",
+     "evidence": "議会事務局・監査事務局 【電話】 0978-87-2284",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.himeshima.jp/",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "443417",
+   "name": "日出町",
+   "official_site": "https://www.town.hiji.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0977-73-3111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "879-1592",
+     "postal_address": "大分県速見郡日出町2974番地1",
+     "hours": null,
+     "source_url": "https://www.town.hiji.lg.jp/",
+     "evidence": "日出町役場 〒879-1592 大分県速見郡日出町2974番地1 電話番号:0977-73-3111(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hiji.lg.jp/gyoseijoho/hijimachigikai/index.html",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hiji.lg.jp/kurashi_tetsuzuki/otoiawase.html",
+     "evidence": null,
+     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "444618",
+   "name": "九重町",
+   "official_site": "https://www.town.kokonoe.oita.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kokonoe.oita.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0973-76-3814",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kokonoe.oita.jp/docs/2016122100380/",
+     "evidence": "議会事務局・監査事務局 TEL:0973-76-3814",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kokonoe.oita.jp/contact/form",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  },
+  {
+   "code": "444626",
+   "name": "玖珠町",
+   "official_site": "https://www.town.kusu.oita.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kusu.oita.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kusu.oita.jp/choseijoho/kusuchogikai/index.html",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kusu.oita.jp/cgi-bin/inquiry.php/49?page_no=1",
+     "evidence": null,
+     "note": null
+    }
+   ]
+  }
+ ]
+}

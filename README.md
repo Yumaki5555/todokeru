@@ -117,6 +117,18 @@ New-Item -ItemType Directory -Force node_modules | Out-Null; Set-Content -Path n
 **全国調査は `research/` のしくみで進めます**（手順と進み具合は [research/README.md](research/README.md)）。
 調査メモを `npm run research:merge -- <バッチID>` で出典ページと照合してから反映するので、下の手作業での追加は、1件だけ直すときなどに使います。
 
+### 連絡先の管理画面（このパソコンの中だけ）
+
+1件ずつ確かめたり、直したり、新しく登録したりするときは、管理画面を使います。
+
+- 開き方：フォルダの **`連絡先の管理.bat` をダブルクリック**（または `npm run admin`）。ブラウザで http://localhost:4180 が開きます。終わるときは黒い画面を閉じます。
+- できること：都道府県・市区町村・国の機関を選んで、登録済みの窓口を見る／出典ページを開く／「ページの中を自動で探す」（出典ページに番号などが書かれているか機械で探す）／「確認できた」（今日の日付で公式確認済みに）／内容を直す／新しく登録する／要再確認・廃止にする／間違えて登録した窓口を消す。
+- 保存すると `public/data/contacts/<2けた>.json` を書きかえ、`research/changelog.jsonl` に `batch: "manual-admin"` の記録を足し、`summary.json` を作り直します。保存の前に、`npm run validate` と同じ点検（形・公式ドメインの出典・代表電話の流用）をします。
+- **サイトに出るのは公開したあと**。画面の上の「まだ公開していない変更」に、最後の commit 以降に管理画面で変えたものが出ます。公開は下の「GitHub Pages への公開手順」と同じ（build → 変更したデータと docs を commit → push）。
+- しくみ：`admin/server.mjs`（画面とファイルの読み書き）・`admin/core.ts`（組み立てと点検。テストは `tests/admin.test.ts`）・`admin/index.html`・`app.js`・`style.css`。`src/data/validate.ts` をそのまま使うため、Node は 23.6 以上（型の書かれたファイルを直接読めるもの）が必要です。
+
+### 手作業でファイルに追加するとき
+
 1. 公式サイトで窓口を確かめる（**公式に公開されている情報だけ**。推測した電話番号・メールアドレス・担当部署は書かない）。
 2. その自治体の都道府県のファイル（例：江東区なら `public/data/contacts/13.json`）に追加する。都道府県庁の窓口は、都道府県の6けたコード（例：東京都 `130001`）で同じファイルに入れる。
 

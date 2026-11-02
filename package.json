@@ -13,7 +13,8 @@
     "data:master": "node scripts/build-master.mjs",
     "data:summary": "node scripts/build-summary.mjs",
     "research:plan": "node scripts/research-plan.mjs",
-    "research:merge": "node scripts/research-merge.mjs"
+    "research:merge": "node scripts/research-merge.mjs",
+    "admin": "node admin/server.mjs --open"
   },
   "dependencies": {
     "react": "^19.2.0",

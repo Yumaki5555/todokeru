@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>連絡先の管理</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header class="top">
+      <div class="top-in">
+        <h1>連絡先の管理 <span class="sub">声を届ける。</span></h1>
+        <p class="lead">このパソコンの中だけで動く画面です。ここで直した内容は、<strong>公開するまでサイトには出ません。</strong></p>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section id="pending" class="pending" hidden></section>
+
+      <section class="box pick">
+        <h2><span class="num">1</span>どこの連絡先？</h2>
+        <div class="pick-row">
+          <label class="field grow">
+            <span class="label">名前で探す</span>
+            <input id="search" type="search" list="entity-names" placeholder="例：江東区、札幌市、デジタル庁" autocomplete="off" />
+            <datalist id="entity-names"></datalist>
+          </label>
+          <label class="field">
+            <span class="label">一覧から選ぶ</span>
+            <select id="pref"></select>
+          </label>
+        </div>
+        <div class="filters" id="filters" hidden>
+          <span class="label">しぼりこみ：</span>
+          <label><input type="radio" name="filter" value="all" checked /> すべて</label>
+          <label><input type="radio" name="filter" value="todo" /> 人の確認がまだの窓口がある</label>
+          <label><input type="radio" name="filter" value="none" /> 連絡先がまだない</label>
+        </div>
+        <div id="list" class="list"></div>
+      </section>
+
+      <section id="detail" class="box detail" hidden></section>
+    </main>
+
+    <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+    <script src="/app.js"></script>
+  </body>
+</html>

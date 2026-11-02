@@ -50,7 +50,8 @@ function isPastDate(v: string, today: string): boolean {
   return !Number.isNaN(t) && new Date(t).toISOString().slice(0, 10) === v && v <= today;
 }
 
-const todayStr = () => new Date().toISOString().slice(0, 10);
+// 確認日は日本時間で付けるので、比べる「今日」も日本時間にする（世界標準時だと朝9時まで前の日になる）
+const todayStr = () => new Date().toLocaleDateString('sv-SE', { timeZone: 'Asia/Tokyo' });
 
 /** 窓口1件を点検し、問題点を日本語で返す（問題がなければ空の配列） */
 export function validateContact(c: unknown, today = todayStr()): string[] {

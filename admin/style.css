@@ -1,0 +1,496 @@
+/* 連絡先の管理画面（このパソコンの中だけ）。サイト本体の色にそろえた、大きめの文字の画面 */
+:root {
+  --bg: #f6f7f4;
+  --card: #fff;
+  --ink: #1f2a24;
+  --muted: #5b665f;
+  --line: #d8ddd6;
+  --accent: #1d6b4f;
+  --accent-ink: #fff;
+  --ok: #1d6b4f;
+  --ok-bg: #e3f2ea;
+  --auto: #8a5a00;
+  --auto-bg: #fff3d6;
+  --review: #a3420f;
+  --review-bg: #fde8dc;
+  --gray-bg: #eceeea;
+  --bad: #b3261e;
+  --bad-bg: #fdecea;
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+[hidden] {
+  display: none !important;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 17px/1.7 system-ui, 'Hiragino Sans', 'Yu Gothic UI', 'Meiryo', sans-serif;
+}
+a {
+  color: var(--accent);
+  word-break: break-all;
+}
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.4;
+}
+
+.top {
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+.top-in,
+.wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 16px;
+}
+.top h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+.top .sub {
+  font-size: 0.9rem;
+  font-weight: normal;
+  opacity: 0.85;
+  margin-left: 8px;
+}
+.top .lead {
+  margin: 4px 0 0;
+}
+
+.box {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 16px 20px 20px;
+  margin: 16px 0;
+}
+.box h2 {
+  margin: 0 0 12px;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.num {
+  display: inline-grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  font-size: 1rem;
+  flex: none;
+}
+
+/* 1. 選ぶ */
+.pick-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 0 0 14px;
+  border: 0;
+  padding: 0;
+  min-width: 0;
+}
+.field.grow {
+  flex: 1 1 280px;
+}
+.label {
+  font-weight: bold;
+}
+.help {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.req {
+  font-style: normal;
+  font-size: 0.75rem;
+  background: var(--bad);
+  color: #fff;
+  border-radius: 4px;
+  padding: 1px 6px;
+  margin-left: 4px;
+  vertical-align: 2px;
+}
+input:not([type='radio']),
+select {
+  font: inherit;
+  padding: 10px 12px;
+  border: 1px solid #aab3ab;
+  border-radius: 8px;
+  background: #fff;
+  width: 100%;
+}
+input:focus-visible,
+select:focus-visible,
+button:focus-visible,
+.btn:focus-visible,
+summary:focus-visible {
+  outline: 3px solid #f0b400;
+  outline-offset: 2px;
+}
+.filters {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin: 0 0 10px;
+}
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 8px;
+  max-height: 420px;
+  overflow: auto;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  text-align: left;
+  font: inherit;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #fff;
+  cursor: pointer;
+}
+.item:hover {
+  border-color: var(--accent);
+}
+.item.current {
+  border: 2px solid var(--accent);
+  background: var(--ok-bg);
+}
+.item-name {
+  font-weight: bold;
+}
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.chip {
+  font-size: 0.8rem;
+  border-radius: 999px;
+  padding: 0 8px;
+  background: var(--gray-bg);
+}
+.chip.ok {
+  background: var(--ok-bg);
+  color: var(--ok);
+}
+.chip.auto {
+  background: var(--auto-bg);
+  color: var(--auto);
+}
+.chip.review {
+  background: var(--review-bg);
+  color: var(--review);
+}
+.chip.none {
+  color: var(--muted);
+}
+.empty {
+  color: var(--muted);
+  margin: 4px 0 12px;
+}
+
+/* 2. 窓口 */
+.official {
+  margin: 0 0 8px;
+}
+.type-sec {
+  border-top: 1px solid var(--line);
+  padding-top: 8px;
+  margin-top: 16px;
+}
+.type-sec h3 {
+  margin: 4px 0 0;
+  font-size: 1.15rem;
+}
+.type-desc {
+  margin: 0 0 10px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.card {
+  border: 1px solid var(--line);
+  border-left: 6px solid var(--line);
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin: 0 0 12px;
+}
+.card.st-verified {
+  border-left-color: var(--ok);
+}
+.card.st-auto_matched {
+  border-left-color: #e0a100;
+}
+.card.st-review {
+  border-left-color: var(--review);
+}
+.card-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+.dept {
+  font-size: 1.1rem;
+}
+.badge {
+  font-size: 0.85rem;
+  font-weight: bold;
+  border-radius: 6px;
+  padding: 1px 8px;
+  background: var(--gray-bg);
+}
+.badge.st-verified {
+  background: var(--ok-bg);
+  color: var(--ok);
+}
+.badge.st-auto_matched {
+  background: var(--auto-bg);
+  color: var(--auto);
+}
+.badge.st-review {
+  background: var(--review-bg);
+  color: var(--review);
+}
+.hint {
+  margin: 6px 0;
+  font-size: 0.92rem;
+  background: var(--bg);
+  border-radius: 6px;
+  padding: 6px 10px;
+}
+dl {
+  margin: 8px 0;
+}
+.row {
+  display: grid;
+  grid-template-columns: 6.5em 1fr;
+  gap: 8px;
+  padding: 2px 0;
+}
+dt {
+  color: var(--muted);
+}
+dd {
+  margin: 0;
+  min-width: 0;
+}
+.big {
+  font-size: 1.25rem;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+}
+.warn {
+  color: var(--bad);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin-top: 8px;
+}
+.actions.inline {
+  margin: -6px 0 12px;
+}
+button,
+.btn {
+  font: inherit;
+  font-size: 0.95rem;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid #aab3ab;
+  background: #fff;
+  color: var(--ink);
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+button:hover,
+.btn:hover {
+  border-color: var(--accent);
+}
+button.primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+  font-weight: bold;
+}
+button.danger {
+  color: var(--bad);
+  border-color: var(--bad);
+}
+button.add {
+  width: 100%;
+  border-style: dashed;
+  border-width: 2px;
+  color: var(--accent);
+  font-weight: bold;
+  padding: 10px;
+}
+.more {
+  position: relative;
+}
+.more summary {
+  cursor: pointer;
+  color: var(--muted);
+  padding: 8px 4px;
+}
+.more-in {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 6px;
+}
+.find-result {
+  margin-top: 10px;
+  border-radius: 8px;
+  padding: 8px 12px;
+  background: var(--bg);
+}
+.find-result.good {
+  background: var(--ok-bg);
+}
+.find-result.bad {
+  background: var(--auto-bg);
+}
+.find-result p {
+  margin: 0 0 4px;
+}
+.find-result ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.find-result li.yes {
+  color: var(--ok);
+}
+.find-result li.no {
+  color: var(--bad);
+  font-weight: bold;
+}
+.small {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+/* 入力の欄 */
+.cform {
+  border: 2px solid var(--accent);
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin: 0 0 12px;
+  background: #fbfdfb;
+}
+.cform h4 {
+  margin: 0 0 10px;
+  font-size: 1.1rem;
+}
+.two {
+  display: grid;
+  grid-template-columns: 10em 1fr;
+  gap: 12px;
+}
+.radio {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 4px 0;
+  cursor: pointer;
+}
+.radio input {
+  margin-top: 7px;
+  width: 18px;
+  height: 18px;
+  flex: none;
+}
+.check {
+  background: var(--auto-bg);
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+.errors {
+  background: var(--bad-bg);
+  color: var(--bad);
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin-bottom: 12px;
+}
+.errors p {
+  margin: 0;
+  font-weight: bold;
+}
+.errors ul {
+  margin: 4px 0 0;
+  padding-left: 1.2em;
+}
+
+/* まだ公開していない変更 */
+.pending {
+  background: var(--auto-bg);
+  border: 1px solid #e6c46a;
+  border-radius: 12px;
+  padding: 12px 20px;
+  margin: 16px 0 0;
+}
+.pending summary {
+  cursor: pointer;
+}
+.pending ul {
+  margin: 8px 0 0;
+  max-height: 240px;
+  overflow: auto;
+}
+.pending .howto {
+  margin: 6px 0 0;
+}
+
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%);
+  background: var(--ink);
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 10px;
+  max-width: calc(100% - 32px);
+  box-shadow: 0 4px 16px rgb(0 0 0 / 0.2);
+  z-index: 10;
+}
+
+@media (max-width: 600px) {
+  .box {
+    padding: 12px 14px 16px;
+  }
+  .row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .two {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}

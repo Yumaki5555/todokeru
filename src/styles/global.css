@@ -3348,13 +3348,23 @@ fieldset.field {
   margin-top: 6px;
 }
 
-/* 電話のあとのメモ（必要なときだけ開く） */
+/* かける前に確かめる・電話のあとのメモ（必要なときだけ開く） */
+.pre-call,
 .call-memo {
   margin-top: 12px;
 }
 
+.pre-call > summary .icon,
 .call-memo > summary .icon {
   color: var(--c-main);
+}
+
+.pre-call-body {
+  padding-top: 6px;
+}
+
+.pre-call-body > .muted {
+  margin: 0 0 10px;
 }
 
 .call-memo-body {

@@ -11,6 +11,7 @@ import { loadAgencies, loadMunicipalities, loadPrefectures, loadSummary } from '
 import { buildSearchIndex, searchEntities, type SearchEntry } from '../data/search';
 import { href, navigate, type Route } from '../router';
 import { scrollToSection } from '../lib/dom';
+import { saveLastArea } from '../lib/lastArea';
 import { SITE, formatDate } from '../site';
 import { ContactCard, type Entity } from '../components/ContactCard';
 import { Icon } from '../components/Icon';
@@ -221,6 +222,12 @@ function Finder({ masters, route, summary }: { masters: Masters; route: Route; s
     if (entityId && focusResult.current) scrollToSection('entity-h');
     focusResult.current = false;
   }, [entityId]);
+
+  // 地域を選んだら覚えておく（電話ガイドの「電話先を探す」で同じ地域を開くため）
+  const areaName = entity?.kind === 'muni' ? `${entity.pref.name} ${entity.muni.name}` : entity?.kind === 'pref' ? entity.pref.name : '';
+  useEffect(() => {
+    if (areaName) saveLastArea({ code: entityId, name: areaName });
+  }, [entityId, areaName]);
 
   return (
     <div className="finder">

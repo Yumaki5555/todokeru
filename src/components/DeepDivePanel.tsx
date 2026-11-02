@@ -56,7 +56,7 @@ export function DeepDivePanel({ draft, update }: { draft: CallDraft; update: Dra
           <div className="deep-dive-checks">
             {CHECK_POINTS.map((p) => (
               <label key={p.id}>
-                <input type="checkbox" checked={d.points.includes(p.id)}
+                <input type="checkbox" aria-label={p.label} checked={d.points.includes(p.id)}
                   onChange={(e) => togglePoint(p.id, e.target.checked)} />
                 <span>{p.label}</span>
               </label>

@@ -231,6 +231,29 @@ describe('電話ガイド：電話先と通話メモ', () => {
     expect(within(box).getByRole('link', { name: '電話先を探す' })).toHaveAttribute('href', '#/contacts');
   });
 
+  it('窓口検索で前に地域を見ていれば、「電話先を探す」はその地域を開く', async () => {
+    window.location.hash = '#/contacts?tab=area&code=131083';
+    const contacts = render(<App />);
+    await screen.findByRole('heading', { level: 3, name: '江東区' });
+    contacts.unmount();
+    openPhone();
+    const box = screen.getByRole('region', { name: '電話先' });
+    expect(within(box).getByRole('link', { name: '東京都 江東区の窓口から探す' })).toHaveAttribute('href', '#/contacts?tab=area&code=131083');
+    expect(within(box).getByRole('link', { name: 'ほかの地域や国の機関から探す' })).toHaveAttribute('href', '#/contacts');
+  });
+
+  it('「かける前に確かめる」は電話先のすぐ下（メモの前）にあり、最初は閉じている', () => {
+    openPhone();
+    const pre = document.getElementById('checklist') as HTMLDetailsElement;
+    expect(pre.open).toBe(false);
+    expect(within(pre).getByText('8項目')).toBeInTheDocument();
+    const box = screen.getByRole('region', { name: '電話先' });
+    const memo = document.getElementById('memo') as HTMLDetailsElement;
+    expect(box.compareDocumentPosition(pre) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
+    expect(pre.compareDocumentPosition(memo) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
+    expect(screen.getByRole('region', { name: '詳しいマニュアル' }).contains(pre)).toBe(false);
+  });
+
   it('窓口検索から来ると、入力中の台本はそのままで電話先が入り、タップで発信できる', async () => {
     const first = openPhone();
     await userEvent.type(screen.getByLabelText('何について？'), 'A計画');
@@ -261,7 +284,7 @@ describe('電話ガイド：電話先と通話メモ', () => {
     expect(within(box).queryByText(/03-0000-0000/)).not.toBeInTheDocument();
   });
 
-  it('通話メモは必要なときだけ開き、日時・電話先・回答をまとめてコピーできる', async () => {
+  it('通話メモは必要なときだけ開き、日時・電話先・対応した人・回答をまとめてコピーできる', async () => {
     const writeText = mockClipboard();
     openPhone();
     const memo = document.getElementById('memo') as HTMLDetailsElement;
@@ -270,11 +293,13 @@ describe('電話ガイド：電話先と通話メモ', () => {
     await userEvent.click(within(memo).getByText('電話のあとにメモを残す'));
     await waitFor(() => expect(screen.getByLabelText('日時')).not.toHaveValue(''));
     await userEvent.type(screen.getByLabelText('電話先・部署'), '○○市 広聴課');
+    await userEvent.type(screen.getByLabelText(/対応した人/), '田中さん');
     await userEvent.type(screen.getByLabelText('回答の内容'), '担当課に伝えると言われた');
     await userEvent.click(within(memo).getByRole('button', { name: 'メモをまとめてコピー' }));
     const text = writeText.mock.calls[0][0] as string;
     expect(text).toMatch(/^【通話メモ】\n日時：\d{4}年/);
     expect(text).toContain('電話先：○○市 広聴課');
+    expect(text).toContain('対応した人：田中さん');
     expect(text).toContain('伝えたこと：A計画について、懸念があります。');
     expect(text).toContain('回答：担当課に伝えると言われた');
   });

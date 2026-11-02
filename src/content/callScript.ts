@@ -62,7 +62,7 @@ export const EMPTY_DRAFT: CallDraft = {
   record: {},
   edits: {},
   target: null,
-  memo: { when: '', who: '', answer: '' },
+  memo: { when: '', who: '', person: '', answer: '' },
 };
 
 const trimEnd = (s: string) => s.trim().replace(/[\s　。．.、，,]+$/u, '');
@@ -177,6 +177,7 @@ export function memoAsText(draft: CallDraft): string {
     ['日時', draft.memo.when],
     ['電話先', draft.memo.who || (t ? `${t.org} ${t.department}` : '')],
     ['電話番号', t?.phone || ''],
+    ['対応した人', draft.memo.person],
     ['伝えたこと', main || ''],
     ['回答', draft.memo.answer],
   ];

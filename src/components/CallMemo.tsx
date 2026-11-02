@@ -1,4 +1,4 @@
-// 電話のあとのメモ（日時・電話先・回答）。必要なときだけ開き、まとめてコピーできる
+// 電話のあとのメモ（日時・電話先・対応した人・回答）。必要なときだけ開き、まとめてコピーできる
 import type { CallDraft } from '../types';
 import { formatDateTime, memoAsText } from '../content/callScript';
 import type { DraftUpdate } from '../lib/callDraft';
@@ -42,6 +42,19 @@ export function CallMemo({ draft, update }: { draft: CallDraft; update: DraftUpd
             value={m.who}
             onChange={(e) => set({ who: e.target.value })}
             placeholder="例：○○市 広聴課"
+            autoComplete="off"
+          />
+        </div>
+        <div className="field">
+          <label htmlFor="memo-person">
+            対応した人<span className="field-opt">聞けたら</span>
+          </label>
+          <input
+            id="memo-person"
+            type="text"
+            value={m.person}
+            onChange={(e) => set({ person: e.target.value })}
+            placeholder="例：広聴課の田中さん"
             autoComplete="off"
           />
         </div>

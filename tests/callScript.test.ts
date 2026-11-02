@@ -92,9 +92,11 @@ describe('台本の組み立て', () => {
   });
 
   it('通話メモは、書いた項目だけをまとめる', () => {
-    const text = memoAsText(draft({ topic: 'A計画', memo: { when: '2026年11月1日 10:00', who: '', answer: '担当課に伝えると言われた' } }));
+    const text = memoAsText(draft({ topic: 'A計画', memo: { when: '2026年11月1日 10:00', who: '', person: '', answer: '担当課に伝えると言われた' } }));
     expect(text).toBe(
       '【通話メモ】\n日時：2026年11月1日 10:00\n伝えたこと：A計画について、懸念があります。\n回答：担当課に伝えると言われた',
     );
+    const withPerson = memoAsText(draft({ topic: 'A計画', memo: { when: '', who: '', person: '広聴課の田中さん', answer: '' } }));
+    expect(withPerson).toBe('【通話メモ】\n対応した人：広聴課の田中さん\n伝えたこと：A計画について、懸念があります。');
   });
 });

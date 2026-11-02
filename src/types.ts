@@ -261,7 +261,7 @@ export interface CallDraft {
   edits: Partial<Record<CallPurpose, Partial<Record<ScriptPartKey, string>>>>;
   target: CallTarget | null;
   deepDive?: DeepDiveDraft; // sessionStorage へ既存の方法で一時保存
-  memo: { when: string; who: string; answer: string };
+  memo: { when: string; who: string; person: string; answer: string }; // person：対応した人
 }
 
 /** 監修の確認状態 */

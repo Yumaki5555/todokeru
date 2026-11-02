@@ -188,6 +188,7 @@ export function ScriptMaker({
                       <label className="part-toggle">
                         <input
                           type="checkbox"
+                          aria-label={p.label}
                           checked={record}
                           onChange={(e) => update((d) => ({ record: { ...d.record, [d.purpose]: e.target.checked } }))}
                         />

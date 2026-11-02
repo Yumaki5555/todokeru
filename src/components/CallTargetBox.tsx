@@ -1,6 +1,8 @@
-// 電話先：窓口検索で選んだ窓口（番号はタップで発信）。まだ選んでいなければ窓口検索へ案内する
+// 電話先：窓口検索で選んだ窓口（番号はタップで発信）。まだ選んでいなければ窓口検索へ案内する（前に見た地域があればそこへ）
+import { useState } from 'react';
 import type { CallTarget, Contact } from '../types';
 import { CONTACT_TYPE_INFO, STATUS_LABEL } from '../data/labels';
+import { loadLastArea } from '../lib/lastArea';
 import { href } from '../router';
 import { formatDate } from '../site';
 import { ContactActions } from './ContactCard';
@@ -29,6 +31,8 @@ function contactsHref(contactId: string): string {
 }
 
 export function CallTargetBox({ target, state }: { target: CallTarget | null; state: 'idle' | 'loading' | 'error' }) {
+  // 窓口検索で前に見た地域があれば、そこから探せるようにする
+  const [lastArea] = useState(loadLastArea);
   return (
     <section className="call-target" id="call-target" aria-labelledby="call-target-h" aria-busy={state === 'loading'}>
       <h2 id="call-target-h" className="call-target-title">
@@ -76,10 +80,22 @@ export function CallTargetBox({ target, state }: { target: CallTarget | null; st
       ) : (
         state !== 'loading' && (
           <div className="call-target-body">
-            <a className="btn btn-secondary" href={href('/contacts')}>
-              <Icon name="search" />
-              電話先を探す
-            </a>
+            {lastArea ? (
+              <>
+                <a className="btn btn-secondary" href={href('/contacts', { tab: 'area', code: lastArea.code })}>
+                  <Icon name="search" />
+                  {lastArea.name}の窓口から探す
+                </a>
+                <p className="call-target-change">
+                  <a href={href('/contacts')}>ほかの地域や国の機関から探す</a>
+                </p>
+              </>
+            ) : (
+              <a className="btn btn-secondary" href={href('/contacts')}>
+                <Icon name="search" />
+                電話先を探す
+              </a>
+            )}
             <p className="field-hint">番号は、公式サイトで確かめてからかけてください。</p>
           </div>
         )

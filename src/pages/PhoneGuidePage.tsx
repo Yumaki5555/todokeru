@@ -1,5 +1,5 @@
 // 電話ガイド「はじめての行政電話ガイド」
-// 上から順に：マニュアル監修 → 台本を作る → 大きな文字で読む → 電話先 → 電話のあとのメモ → 詳しいマニュアル（必要な人だけ開く）
+// 上から順に：マニュアル監修 → 台本を作る → 大きな文字で読む → 電話先 → かける前に確かめる → 電話のあとのメモ → 詳しいマニュアル（必要な人だけ開く）
 //   #/guide/phone?view=read        大きな文字で読む画面を開いた状態
 //   #/guide/phone?for=130001-feedback  窓口検索で選んだ窓口を電話先にする
 import { useEffect, useRef, useState } from 'react';
@@ -103,6 +103,18 @@ export function PhoneGuidePage({ route }: { route: Route }) {
 
       <ScriptMaker draft={draft} update={update} onRead={openRead} onClear={clear} />
       <CallTargetBox target={draft.target} state={targetState} />
+      {/* かける直前に見るので、電話先のすぐ下に置く（必要なときだけ開く） */}
+      <details className="fold fold-section pre-call" id="checklist">
+        <summary>
+          <Icon name="check" />
+          かける前に確かめる
+          <span className="field-opt">{PHONE_CHECKLIST.length}項目</span>
+        </summary>
+        <div className="pre-call-body">
+          <p className="muted">チェックはこの画面の中だけで、保存や送信はされません。</p>
+          <Checklist title="電話をかける前に" items={PHONE_CHECKLIST} />
+        </div>
+      </details>
       <CallMemo draft={draft} update={update} />
 
       <section className="manual" id="manual" aria-labelledby="manual-h">
@@ -153,14 +165,6 @@ export function PhoneGuidePage({ route }: { route: Route }) {
                 </details>
               ))}
             </div>
-
-            <section className="section" id="checklist" aria-labelledby="checklist-h" tabIndex={-1}>
-              <h3 id="checklist-h" className="section-title">
-                電話前チェックリスト
-              </h3>
-              <p className="muted">チェックはこの画面の中だけで、保存や送信はされません。</p>
-              <Checklist title="電話をかける前に" items={PHONE_CHECKLIST} />
-            </section>
 
             <section className="section" id="next" aria-labelledby="next-h" tabIndex={-1}>
               <h3 id="next-h" className="section-title">

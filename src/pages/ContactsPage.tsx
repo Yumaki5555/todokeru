@@ -134,7 +134,7 @@ export function ContactsPage({ route }: { route: Route }) {
   );
 }
 
-/** ページ冒頭の登録状況（公式確認済みの連絡先がある機関・自治体の数を、実際のデータから表示する） */
+/** ページ冒頭の登録状況（連絡先を掲載している機関・自治体の数を、実際のデータから表示する。濃い色が公式確認済み、薄い色が自動照合など） */
 function CoverageNote({ summary }: { summary: DataSummary | null }) {
   if (!summary) return null;
   if (summary.contacts.verified === 0 || !summary.coverage) {
@@ -154,11 +154,13 @@ function CoverageNote({ summary }: { summary: DataSummary | null }) {
     { icon: 'landmark', label: '国の機関', cov: c.agencies },
     { icon: 'building', label: '市区町村', cov: c.municipalities },
   ];
+  const pct = (n: number, total: number) => `${total ? (n / total) * 100 : 0}%`;
+  const hasAuto = rows.some((r) => r.cov.with_shown > r.cov.with_verified);
   return (
     <div className="coverage" role="note" aria-labelledby="coverage-h">
       <p className="coverage-title" id="coverage-h">
         <Icon name="check" />
-        公式確認済みの連絡先
+        連絡先を掲載中
         <span className="coverage-date">{formatDate(summary.generated_at)}時点</span>
       </p>
       <ul className="coverage-list">
@@ -169,15 +171,33 @@ function CoverageNote({ summary }: { summary: DataSummary | null }) {
               {r.label}
             </span>
             <span className="meter" aria-hidden="true">
-              <span style={{ width: `${r.cov.total ? (r.cov.with_verified / r.cov.total) * 100 : 0}%` }} />
+              <span style={{ width: pct(r.cov.with_verified, r.cov.total) }} />
+              {r.cov.with_shown > r.cov.with_verified && (
+                <span className="meter-auto" style={{ width: pct(r.cov.with_shown - r.cov.with_verified, r.cov.total) }} />
+              )}
             </span>
             <span className="coverage-num">
-              {r.cov.with_verified.toLocaleString()}
+              {r.cov.with_shown.toLocaleString()}
               <span className="muted">／{r.cov.total.toLocaleString()}</span>
             </span>
+            {r.cov.with_shown > r.cov.with_verified && (
+              <span className="coverage-sub">うち人が確認 {r.cov.with_verified.toLocaleString()}</span>
+            )}
           </li>
         ))}
       </ul>
+      {hasAuto && (
+        <p className="coverage-legend">
+          <span>
+            <span className="swatch" aria-hidden="true" />
+            公式確認済み（人が公式サイトで確認）
+          </span>
+          <span>
+            <span className="swatch swatch-auto" aria-hidden="true" />
+            公式サイトと自動照合（代表電話を機械で照合・人の確認の前）
+          </span>
+        </p>
+      )}
       <p className="coverage-note">推測した連絡先は載せません。まだ載っていない窓口は、各機関の公式サイトで確かめてください。</p>
     </div>
   );

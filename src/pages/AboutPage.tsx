@@ -38,11 +38,11 @@ function ContactCoverage() {
   const c = s.coverage;
   return (
     <li>
-      {`掲載状況（${formatDate(s.generated_at)}時点）：公式確認済みの窓口 ${s.contacts.verified.toLocaleString()}件。`}
-      {`公式確認済みの連絡先がある機関・自治体は、都道府県 ${c.prefectures.with_verified}／${c.prefectures.total}、`}
-      {`国の機関 ${c.agencies.with_verified}／${c.agencies.total}、`}
-      {`市区町村 ${c.municipalities.with_verified.toLocaleString()}／${c.municipalities.total.toLocaleString()}です。`}
-      {s.contacts.by_status.auto_matched > 0 && `このほか、公式サイトと自動照合した代表電話が ${s.contacts.by_status.auto_matched.toLocaleString()}件あります。`}
+      {`掲載状況（${formatDate(s.generated_at)}時点）：連絡先を掲載している機関・自治体は、都道府県 ${c.prefectures.with_shown}／${c.prefectures.total}、`}
+      {`国の機関 ${c.agencies.with_shown}／${c.agencies.total}、`}
+      {`市区町村 ${c.municipalities.with_shown.toLocaleString()}／${c.municipalities.total.toLocaleString()}です。`}
+      {`窓口の数は、公式確認済み（人が公式サイトで確認）が ${s.contacts.verified.toLocaleString()}件です。`}
+      {s.contacts.by_status.auto_matched > 0 && `このほか、公式サイトと自動照合した（機械で照合した）代表電話が ${s.contacts.by_status.auto_matched.toLocaleString()}件あります。`}
       市区町村は、都道府県ごとに順に調べて追加していきます。
     </li>
   );

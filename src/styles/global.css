@@ -2684,6 +2684,7 @@ p.lead {
 .coverage-list {
   list-style: none;
   display: grid;
+  align-items: start;
   gap: 4px 24px;
 }
 
@@ -2713,7 +2714,7 @@ p.lead {
 }
 
 .meter {
-  display: block;
+  display: flex;
   height: 8px;
   border-radius: 999px;
   background: #fff;
@@ -2728,10 +2729,49 @@ p.lead {
   background: var(--c-main);
 }
 
+/* 自動照合など（人の確認の前）は薄い色で重ねる */
+.meter > .meter-auto,
+.swatch.swatch-auto {
+  background: var(--c-main-line);
+}
+
 .coverage-num {
   font-weight: 700;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
+}
+
+.coverage-sub {
+  grid-column: 2 / -1;
+  justify-self: end;
+  margin-top: -2px;
+  color: var(--c-text-sub);
+  font-variant-numeric: tabular-nums;
+}
+
+.coverage-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 16px;
+  margin: 6px 0 0;
+  color: var(--c-text-sub);
+}
+
+.coverage-legend > span {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.swatch {
+  display: inline-block;
+  flex-shrink: 0;
+  margin-top: 0.5em;
+  width: 14px;
+  height: 8px;
+  border-radius: 999px;
+  border: 1px solid var(--c-main-line);
+  background: var(--c-main);
 }
 
 .coverage-note {

@@ -43,11 +43,30 @@ describe('窓口検索', () => {
       },
     });
     openContacts();
-    const note = await screen.findByRole('note', { name: /^公式確認済みの連絡先/ });
+    const note = await screen.findByRole('note', { name: /^連絡先を掲載中/ });
     expect(screen.queryByText(/連絡先は調査中です/)).not.toBeInTheDocument();
     for (const t of ['都道府県', '国の機関', '市区町村']) expect(within(note).getByText(t)).toBeInTheDocument();
     expect(within(note).getByText('46')).toBeInTheDocument();
     expect(within(note).getByText('／1,741')).toBeInTheDocument();
+    // 自動照合がなければ、内訳と色の説明は出さない
+    expect(within(note).queryByText(/うち人が確認/)).not.toBeInTheDocument();
+  });
+
+  it('自動照合の窓口がある自治体も掲載中に数え、人が確認した数を内訳で示す', async () => {
+    dataOverrides.set('summary.json', {
+      ...emptySummary,
+      contacts: { ...emptySummary.contacts, total: 766, verified: 241 },
+      coverage: {
+        agencies: { total: 22, researched: 22, with_verified: 22, with_shown: 22 },
+        prefectures: { total: 47, researched: 47, with_verified: 46, with_shown: 46 },
+        municipalities: { total: 1741, researched: 541, with_verified: 21, with_shown: 541 },
+      },
+    });
+    openContacts();
+    const note = await screen.findByRole('note', { name: /^連絡先を掲載中/ });
+    expect(within(note).getByText('541')).toBeInTheDocument();
+    expect(within(note).getByText('うち人が確認 21')).toBeInTheDocument();
+    expect(within(note).getByText(/公式サイトと自動照合/)).toBeInTheDocument();
   });
 
   it('探し方を「地域から探す」「国の機関から探す」「名前で検索」で切りかえられる', async () => {

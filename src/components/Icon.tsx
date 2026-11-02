@@ -45,6 +45,7 @@ const PATHS: Record<IconName, string[]> = {
   // 切手をはった封筒（メールの封筒と見分けるため、ふたの線を描かない）
   letter: ['M4.5 5.5h15A1.5 1.5 0 0 1 21 7v10a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17V7a1.5 1.5 0 0 1 1.5-1.5z', 'M15 8.5h3v3.5h-3z', 'M6.5 12h5', 'M6.5 15.5h8'],
   print: ['M7 9V3.5h10V9', 'M7 17.5H5A1.5 1.5 0 0 1 3.5 16v-5.5A1.5 1.5 0 0 1 5 9h14a1.5 1.5 0 0 1 1.5 1.5V16a1.5 1.5 0 0 1-1.5 1.5h-2', 'M7 14h10v6.5H7z'],
+  shield: ['M12 3 19 6v5c0 4.5-3 8.3-7 10-4-1.7-7-5.5-7-10V6z', 'm9 12 2 2 4-4'],
 };
 
 export function Icon({ name, className }: { name: IconName; className?: string }) {

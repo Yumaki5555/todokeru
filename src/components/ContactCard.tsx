@@ -1,7 +1,17 @@
-// 窓口検索の結果：1つの機関・自治体と、その窓口（代表・広聴・議会事務局）
+// 窓口検索の結果：1つの機関・自治体と、その窓口（代表・広聴・議会事務局。載せた地域には警察・教育委員会も）
 import { useEffect, useState, type ReactNode } from 'react';
 import type { Agency, Contact, ContactType, Municipality, Prefecture } from '../types';
-import { AGENCY_CATEGORY_LABEL, AUTO_MATCHED_NOTE, CONTACT_TYPE_INFO, STATUS_LABEL, TYPES_FOR_AGENCY, TYPES_FOR_DIET, TYPES_FOR_LOCAL } from '../data/labels';
+import {
+  AGENCY_CATEGORY_LABEL,
+  AUTO_MATCHED_NOTE,
+  CONTACT_TYPE_INFO,
+  EXTRA_TYPES_FOR_MUNI,
+  EXTRA_TYPES_FOR_PREF,
+  STATUS_LABEL,
+  TYPES_FOR_AGENCY,
+  TYPES_FOR_DIET,
+  TYPES_FOR_LOCAL,
+} from '../data/labels';
 import { loadAgencyContacts, loadPrefContacts } from '../data/loaders';
 import { isDisplayable } from '../data/validate';
 import { telHref } from '../lib/text';
@@ -16,29 +26,35 @@ function entityKey(e: Entity): string {
   return e.kind === 'agency' ? 'a:' + e.agency.id : e.kind === 'pref' ? 'p:' + e.pref.code : 'm:' + e.muni.code;
 }
 
+interface ContactsState {
+  key: string;
+  status: 'loading' | 'ok' | 'error';
+  contacts: Contact[];
+  /** 市区町村のときだけ：都道府県の警察の窓口（警察は都道府県の仕事なので、市区町村の結果にも一緒に出す） */
+  prefPolice: Contact[];
+}
+
 /** 選んだ機関・自治体の窓口データを読む（都道府県ごとのファイルを必要なときだけ読む） */
 function useContacts(entity: Entity) {
-  const [state, setState] = useState<{ key: string; status: 'loading' | 'ok' | 'error'; contacts: Contact[] }>({
-    key: '',
-    status: 'loading',
-    contacts: [],
-  });
+  const [state, setState] = useState<ContactsState>({ key: '', status: 'loading', contacts: [], prefPolice: [] });
   const [attempt, setAttempt] = useState(0);
   const key = entityKey(entity);
 
   useEffect(() => {
     let alive = true;
-    setState({ key, status: 'loading', contacts: [] });
+    setState({ key, status: 'loading', contacts: [], prefPolice: [] });
     const job =
       entity.kind === 'agency'
-        ? loadAgencyContacts().then((rs) => rs.find((r) => r.agency_id === entity.agency.id)?.contacts || [])
+        ? loadAgencyContacts().then((rs) => ({ contacts: rs.find((r) => r.agency_id === entity.agency.id)?.contacts || [], prefPolice: [] }))
         : loadPrefContacts(entity.pref.code).then((rs) => {
             const code = entity.kind === 'pref' ? entity.pref.lg_code : entity.muni.code;
-            return rs.find((r) => r.municipality_code === code)?.contacts || [];
+            const prefPolice =
+              entity.kind === 'muni' ? (rs.find((r) => r.municipality_code === entity.pref.lg_code)?.contacts || []).filter((c) => c.type === 'police') : [];
+            return { contacts: rs.find((r) => r.municipality_code === code)?.contacts || [], prefPolice };
           });
     job.then(
-      (contacts) => alive && setState({ key, status: 'ok', contacts }),
-      () => alive && setState({ key, status: 'error', contacts: [] }),
+      (found) => alive && setState({ key, status: 'ok', ...found }),
+      () => alive && setState({ key, status: 'error', contacts: [], prefPolice: [] }),
     );
     return () => {
       alive = false;
@@ -46,16 +62,26 @@ function useContacts(entity: Entity) {
     // entity が同じ機関・自治体を指す間（key が同じ間）は読み直さない
   }, [key, attempt]);
 
-  return { ...(state.key === key ? state : { status: 'loading' as const, contacts: [] }), retry: () => setAttempt((n) => n + 1) };
+  return {
+    ...(state.key === key ? state : { status: 'loading' as const, contacts: [], prefPolice: [] }),
+    retry: () => setAttempt((n) => n + 1),
+  };
 }
 
 const ENTITY_ICON = { agency: 'landmark', pref: 'map', muni: 'building' } as const;
 
 export function ContactCard({ entity }: { entity: Entity }) {
-  const { status, contacts, retry } = useContacts(entity);
+  const { status, contacts, prefPolice, retry } = useContacts(entity);
   const types: ContactType[] =
     entity.kind === 'agency' ? (entity.agency.category === 'diet' ? TYPES_FOR_DIET : TYPES_FOR_AGENCY) : TYPES_FOR_LOCAL;
   const name = entity.kind === 'agency' ? entity.agency.name : entity.kind === 'pref' ? entity.pref.name : entity.muni.name;
+  const hasBase = contacts.some((c) => types.includes(c.type));
+  // 警察・教育委員会は、連絡先を載せたときだけ欄を出す（まだ調べていない全国の自治体に「未調査」を並べない）
+  const extraTypes = entity.kind === 'pref' ? EXTRA_TYPES_FOR_PREF : entity.kind === 'muni' ? EXTRA_TYPES_FOR_MUNI : [];
+  const extras = extraTypes
+    .filter((t) => contacts.some((c) => c.type === t))
+    .map((t) => ({ type: t, contacts: contacts.filter((c) => c.type === t), from: undefined as string | undefined }));
+  if (entity.kind === 'muni' && prefPolice.length) extras.push({ type: 'police', contacts: prefPolice, from: entity.pref.name });
 
   return (
     <article className="entity" aria-labelledby="entity-h" aria-busy={status === 'loading'}>
@@ -83,11 +109,12 @@ export function ContactCard({ entity }: { entity: Entity }) {
         </div>
       )}
       {status === 'loading' && <p className="muted">窓口データを読み込んでいます…</p>}
-      {status === 'ok' && contacts.length === 0 && <NotResearched entity={entity} types={types} />}
-      {status === 'ok' && contacts.length > 0 && (
+      {status === 'ok' && !hasBase && <NotResearched entity={entity} types={types} />}
+      {status === 'ok' && (hasBase || extras.length > 0) && (
         <ul className="slots">
-          {types.map((t) => (
-            <ContactSlot key={t} type={t} contacts={contacts.filter((c) => c.type === t)} />
+          {hasBase && types.map((t) => <ContactSlot key={t} type={t} contacts={contacts.filter((c) => c.type === t)} />)}
+          {extras.map((s) => (
+            <ContactSlot key={s.type} type={s.type} contacts={s.contacts} from={s.from} />
           ))}
         </ul>
       )}
@@ -185,7 +212,8 @@ function NotResearched({ entity, types }: { entity: Entity; types: ContactType[]
   );
 }
 
-function ContactSlot({ type, contacts }: { type: ContactType; contacts: Contact[] }) {
+/** 窓口の種類ごとの欄。from：ほかの自治体の窓口を出すとき（市区町村の結果に出す都道府県の警察）、その自治体の名前 */
+function ContactSlot({ type, contacts, from }: { type: ContactType; contacts: Contact[]; from?: string }) {
   const info = CONTACT_TYPE_INFO[type];
   const shown = contacts.filter(isDisplayable);
   const unavailable = contacts.find((c) => c.status === 'unavailable');
@@ -197,7 +225,9 @@ function ContactSlot({ type, contacts }: { type: ContactType; contacts: Contact[
       <h4 className="slot-title">
         <Icon name={info.icon} />
         {info.label}
+        {from && <span className="slot-from">（{from}）</span>}
       </h4>
+      {from && <p className="slot-lead">警察は都道府県の仕事なので、{from}の窓口を出しています。</p>}
       {shown.length > 0 ? (
         shown.map((c) => <ContactView key={c.id} c={c} />)
       ) : unavailable && unavailable.source_url && unavailable.verified_at ? (

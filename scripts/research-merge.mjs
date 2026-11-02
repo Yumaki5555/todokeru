@@ -346,7 +346,7 @@ async function verifyContact(entity, c0, info, generalOf) {
 }
 
 // ---- 実行 ----
-const TYPE_ORDER = ['general', 'feedback', 'assembly', 'department'];
+const TYPE_ORDER = ['general', 'feedback', 'assembly', 'police', 'education', 'department'];
 const reports = [];
 const errors = [];
 const results = new Map(); // file → [{ code, name, contacts }]

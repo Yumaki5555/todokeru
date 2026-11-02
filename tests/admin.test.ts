@@ -3,6 +3,7 @@ import { describe, expect, it } from 'vitest';
 import type { Contact } from '../src/types';
 import { validateContact } from '../src/data/validate';
 import {
+  allowedTypes,
   applyAction,
   findOnPage,
   nextId,
@@ -104,6 +105,21 @@ describe('画面の操作を反映する', () => {
     expect(r.records.map((x) => x.municipality_code)).toEqual(['131083']);
   });
 
+  it('窓口名・住所・受付時間・補足の全角かっこなどは、そのまま残す', () => {
+    const r = applyAction(
+      records(),
+      koto,
+      { kind: 'add', input: input({ department: ' 広報広聴係（区政へひとこと） ', postal_address: '江東区東陽４－１１－２８', hours: '９時〜１７時（土日を除く）', note: '（年末年始は休み）' }) },
+      opts,
+    );
+    expect(koto1(r.records)[1]).toMatchObject({
+      department: '広報広聴係（区政へひとこと）',
+      postal_address: '江東区東陽４－１１－２８',
+      hours: '９時〜１７時（土日を除く）',
+      note: '（年末年始は休み）',
+    });
+  });
+
   it('「まだ確かめていない」で登録すると未確認（確認日なし）', () => {
     const r = applyAction(records(), koto, { kind: 'add', input: input({ check: 'unchecked', source_url: '' }) }, opts);
     expect(r.errors).toEqual([]);
@@ -153,6 +169,20 @@ describe('画面の操作を反映する', () => {
     expect(del.records).toEqual([]);
     expect(del.changes[0]).toMatchObject({ change: 'deleted', id: '131083-general' });
     expect(applyAction(records(), koto, { kind: 'delete', id: 'nothing' }, opts).errors.join()).toContain('見つかりません');
+  });
+
+  it('警察は都道府県だけ、教育委員会は都道府県・市区町村で登録できる', () => {
+    const tokyo: Entity = { key: '130001', name: '東京都', kind: 'pref', file: '13', pref_code: '13', pref_name: '東京都' };
+    expect(allowedTypes(tokyo)).toEqual(['general', 'feedback', 'assembly', 'police', 'education']);
+    expect(allowedTypes(koto)).toEqual(['general', 'feedback', 'assembly', 'education']);
+    const police = { type: 'police' as const, department: '警視庁 総合相談センター', phone: '03-3501-0110', source_url: 'https://www.keishicho.metro.tokyo.lg.jp/sodan/' };
+    const p = applyAction([], tokyo, { kind: 'add', input: input(police) }, opts);
+    expect(p.errors).toEqual([]);
+    expect(p.records[0].contacts[0].id).toBe('130001-police');
+    expect(applyAction(records(), koto, { kind: 'add', input: input(police) }, opts).errors.join()).toContain('都道府県（東京都）のページで登録');
+    const edu = applyAction(records(), koto, { kind: 'add', input: input({ type: 'education', department: '教育委員会事務局 庶務課' }) }, opts);
+    expect(edu.errors).toEqual([]);
+    expect(koto1(edu.records).map((c) => c.id)).toEqual(['131083-general', '131083-education']);
   });
 
   it('何も変えなければ記録を残さない', () => {

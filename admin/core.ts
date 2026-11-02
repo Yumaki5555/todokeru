@@ -3,7 +3,15 @@
 // ファイルの読み書きやネットへの接続はしない（それは server.mjs が行う）。テストは tests/admin.test.ts。
 // Node でそのまま読み込めるよう、型だけの import は import type にし、拡張子 .ts を付けている。
 import type { Agency, AgencyCategory, Contact, ContactStatus, ContactType, Municipality, Prefecture } from '../src/types.ts';
-import { CONTACT_TYPE_INFO, STATUS_LABEL, TYPES_FOR_AGENCY, TYPES_FOR_DIET, TYPES_FOR_LOCAL } from '../src/data/labels.ts';
+import {
+  CONTACT_TYPE_INFO,
+  EXTRA_TYPES_FOR_MUNI,
+  EXTRA_TYPES_FOR_PREF,
+  STATUS_LABEL,
+  TYPES_FOR_AGENCY,
+  TYPES_FOR_DIET,
+  TYPES_FOR_LOCAL,
+} from '../src/data/labels.ts';
 import { validateContact } from '../src/data/validate.ts';
 
 export { CONTACT_TYPE_INFO, STATUS_LABEL };
@@ -62,7 +70,7 @@ export interface ChangeLogEntry {
 }
 
 export const BATCH = 'manual-admin';
-export const TYPE_ORDER: ContactType[] = ['general', 'feedback', 'assembly', 'department'];
+export const TYPE_ORDER: ContactType[] = ['general', 'feedback', 'assembly', 'police', 'education', 'department'];
 /** サイトの画面に出す確認状態（ここに入る窓口は、出典が公式のページでないといけない） */
 const SHOWN: ContactStatus[] = ['verified', 'review', 'auto_matched'];
 /** 人が確かめられなかったときに research-merge が付ける補足（確かめ直したら消す） */
@@ -85,7 +93,8 @@ export function listEntities(prefectures: Prefecture[], municipalities: Municipa
 
 /** その機関・自治体で、サイトに出る窓口の種類（ここにない種類は登録しても画面に出ない） */
 export function allowedTypes(e: Entity): ContactType[] {
-  if (e.kind !== 'agency') return TYPES_FOR_LOCAL;
+  if (e.kind === 'pref') return [...TYPES_FOR_LOCAL, ...EXTRA_TYPES_FOR_PREF];
+  if (e.kind === 'muni') return [...TYPES_FOR_LOCAL, ...EXTRA_TYPES_FOR_MUNI];
   return e.category === 'diet' ? TYPES_FOR_DIET : TYPES_FOR_AGENCY;
 }
 
@@ -95,8 +104,14 @@ export function findRecord(records: ContactRecord[], e: Entity): ContactRecord |
 
 // ---- 入力の整え ----
 
+/** 番号・メール・URL：全角の英数字や記号を半角にそろえる */
 const blank = (v: string | undefined) => {
   const s = (v ?? '').normalize('NFKC').trim();
+  return s === '' ? null : s;
+};
+/** 窓口名・住所・受付時間・補足：日本語の文なので、全角かっこ「（）」などはそのまま（前後の空白だけ取る） */
+const text = (v: string | undefined) => {
+  const s = (v ?? '').trim();
   return s === '' ? null : s;
 };
 const DASHES = /[‐‑‒–—―−ーｰ－]/g;
@@ -169,17 +184,17 @@ export function buildContact(id: string, input: ContactInput, base: Partial<Cont
   const c: Contact = {
     id,
     type: input.type,
-    department: blank(input.department) ?? '',
+    department: text(input.department) ?? '',
     phone: normalizePhone(input.phone),
     email: normalizeEmail(input.email),
     form_url: blank(input.form_url),
     postal_code: normalizePostal(input.postal_code),
-    postal_address: blank(input.postal_address),
-    hours: blank(input.hours),
+    postal_address: text(input.postal_address),
+    hours: text(input.hours),
     source_url: blank(input.source_url),
     verified_at: checked ? today : null,
     status: checked ? 'verified' : 'unverified',
-    note: blank(input.note),
+    note: text(input.note),
   };
   // フォームが同じなら「公式ページから開くフォーム」の印はそのまま引き継ぐ
   if (base.form_via_page && base.form_url === c.form_url) c.form_via_page = base.form_via_page;
@@ -195,7 +210,8 @@ export function checkContact(c: Contact, rec: Contact[], e: Entity, today: strin
     errs.push(
       '出典ページが役所の公式サイト（lg.jp・go.jp・city.〜.jp など）ではないようです。役所の公式ページのURLにしてください（議会などが独自の名前のサイトのときは、Claude に「公式のサイトとして追加して」と頼んでください）',
     );
-  if (!allowedTypes(e).includes(c.type)) errs.push(`この${e.kind === 'agency' ? '機関' : '自治体'}では「${CONTACT_TYPE_INFO[c.type].label}」はサイトに出ません`);
+  if (c.type === 'police' && e.kind === 'muni') errs.push(`警察の窓口は、都道府県（${e.pref_name}）のページで登録してください（市区町村の結果にも自動で出ます）`);
+  else if (!allowedTypes(e).includes(c.type)) errs.push(`この${e.kind === 'agency' ? '機関' : '自治体'}では「${CONTACT_TYPE_INFO[c.type].label}」はサイトに出ません`);
   if (c.type !== 'general' && SHOWN.includes(c.status) && c.phone) {
     const general = rec.find((x) => x.type === 'general' && x.id !== c.id && SHOWN.includes(x.status));
     if (general?.phone === c.phone && general.source_url === c.source_url)

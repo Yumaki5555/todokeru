@@ -2385,6 +2385,20 @@ p.lead {
   color: var(--c-main);
 }
 
+/* 市区町村の結果に出す、都道府県の窓口（警察）：どこの窓口かを添える */
+.slot-from {
+  margin-left: -4px;
+  font-weight: 400;
+  font-size: var(--fs-small);
+  color: var(--c-text-sub);
+}
+
+.slot-lead {
+  margin: 0 0 8px;
+  font-size: var(--fs-small);
+  color: var(--c-text-sub);
+}
+
 .slot-state {
   margin: 0;
   padding: 8px 12px;

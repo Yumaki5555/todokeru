@@ -161,7 +161,7 @@ New-Item -ItemType Directory -Force node_modules | Out-Null; Set-Content -Path n
 
 | 項目 | 内容 |
 | --- | --- |
-| `type` | `general` 行政代表窓口／`feedback` 広聴・ご意見窓口／`assembly` 議会事務局／`department` 担当部署（将来用） |
+| `type` | `general` 行政代表窓口／`feedback` 広聴・ご意見窓口／`assembly` 議会事務局／`police` 警察・公安委員会（都道府県のまとまりだけ。市区町村の結果にも出る）／`education` 教育委員会／`department` 担当部署（将来用）。警察・教育委員会は、載せた自治体にだけ欄が出る |
 | `status` | `verified` 公式確認済み／`unverified` 未確認／`review` 要再確認／`unavailable` 公式連絡先が確認できない／`discontinued` 変更・廃止 |
 | `id` | 「自治体コード-種類」（例 `131083-feedback`）。国の機関は「機関ID-種類」（例 `mhlw-general`） |
 | `source_url` / `verified_at` | 確認した公式ページと確認日。`verified`・`review`・`unavailable` では必須 |

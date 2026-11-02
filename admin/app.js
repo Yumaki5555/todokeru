@@ -27,6 +27,13 @@ const FIELD_LABEL = {
   id: '窓口の番号',
 };
 
+/** 窓口の種類ごとの、登録のときの目安（管理画面だけに出す） */
+const TYPE_HINT = {
+  police:
+    '登録の例：警察本部の代表電話／警察の相談窓口（「#9110」は電話番号の欄に入らないので、補足の欄に書きます）／公安委員会（警察への苦情の申し出先）。サイトでは、市区町村の結果にも出ます。',
+  education: '登録の例：教育委員会の代表・総務の窓口や、学校のことの相談窓口。サイトでは、連絡先を載せた自治体にだけこの欄が出ます。',
+};
+
 async function api(path, body) {
   const r = await fetch(path, body ? { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(body) } : {});
   return r.json();
@@ -193,8 +200,14 @@ function renderDetail() {
         : (cs.length ? '' : '<p class="empty">まだ登録がありません。</p>') +
           cs.map((c) => (editing?.mode === 'edit' && editing.id === c.id ? contactForm(c) : contactCard(c))).join('') +
           `<button type="button" class="add" data-add="${t}">＋ ${esc(info.label)}を${cs.length ? 'もう1つ' : ''}登録する</button>`;
-    return `<section class="type-sec"><h3>${esc(info.label)}</h3><p class="type-desc">${esc(info.desc)}</p>${body}</section>`;
+    return `<section class="type-sec"><h3>${esc(info.label)}</h3><p class="type-desc">${esc(info.desc)}</p>${TYPE_HINT[t] ? `<p class="hint">${TYPE_HINT[t]}</p>` : ''}${body}</section>`;
   });
+  if (e.kind === 'muni') {
+    const pref = data.entities.find((x) => x.kind === 'pref' && x.pref_code === e.pref_code);
+    sections.push(
+      `<section class="type-sec"><h3>${esc(data.typeInfo.police.label)}</h3><p class="hint">警察は都道府県の仕事なので、<button type="button" class="linkish" data-key="${pref.key}">${esc(pref.name)}のページ</button>で登録します。登録すると、${esc(e.name)}などの市区町村の結果にも出ます。</p></section>`,
+    );
+  }
   const others = contacts.filter((c) => !allowedTypes.includes(c.type));
   if (others.length)
     sections.push(
@@ -327,7 +340,7 @@ async function renderPending() {
   box.innerHTML = `<details>
     <summary><strong>まだ公開していない変更が ${p.items.length} 件あります</strong>（見る）</summary>
     <ul>${p.items
-      .map((x) => `<li><a href="#key=${esc(x.id.replace(/-(general|feedback|assembly|department)(-\d+)?$/, ''))}" data-key="${esc(x.id.replace(/-(general|feedback|assembly|department)(-\d+)?$/, ''))}">${esc(x.entityName)}${x.prefName && x.prefName !== x.entityName ? `（${esc(x.prefName)}）` : ''}</a>：${esc(describeChange(x))}</li>`)
+      .map((x) => `<li><a href="#key=${esc(x.id.replace(/-(general|feedback|assembly|police|education|department)(-\d+)?$/, ''))}" data-key="${esc(x.id.replace(/-(general|feedback|assembly|police|education|department)(-\d+)?$/, ''))}">${esc(x.entityName)}${x.prefName && x.prefName !== x.entityName ? `（${esc(x.prefName)}）` : ''}</a>：${esc(describeChange(x))}</li>`)
       .join('')}</ul>
   </details>
   <p class="howto">サイトに出すには、Claude に<strong>「連絡先の変更を公開して」</strong>と伝えてください。</p>`;

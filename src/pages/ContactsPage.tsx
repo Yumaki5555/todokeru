@@ -6,7 +6,7 @@
 //   #/contacts?tab=search             名前で検索
 import { Fragment, useEffect, useMemo, useRef, useState } from 'react';
 import type { Agency, AgencyCategory, Coverage, DataSummary, IconName, Municipality, Prefecture } from '../types';
-import { AGENCY_CATEGORY_LABEL, CONTACT_TYPE_INFO, TYPES_FOR_LOCAL } from '../data/labels';
+import { AGENCY_CATEGORY_LABEL, CONTACT_TYPE_INFO, EXTRA_TYPES_FOR_PREF, TYPES_FOR_LOCAL } from '../data/labels';
 import { loadAgencies, loadMunicipalities, loadPrefectures, loadSummary } from '../data/loaders';
 import { buildSearchIndex, searchEntities, type SearchEntry } from '../data/search';
 import { href, navigate, type Route } from '../router';
@@ -97,9 +97,10 @@ export function ContactsPage({ route }: { route: Route }) {
       </section>
 
       <details className="fold fold-section">
-        <summary>窓口の種類（代表・広聴・議会事務局）</summary>
+        <summary>窓口の種類（代表・広聴・議会事務局・警察・教育委員会）</summary>
+        <p className="muted">警察・公安委員会と教育委員会は、連絡先を載せた地域にだけ出します。</p>
         <dl className="type-cards">
-          {TYPES_FOR_LOCAL.map((t) => (
+          {[...TYPES_FOR_LOCAL, ...EXTRA_TYPES_FOR_PREF].map((t) => (
             <div key={t}>
               <dt>
                 <Icon name={CONTACT_TYPE_INFO[t].icon} />

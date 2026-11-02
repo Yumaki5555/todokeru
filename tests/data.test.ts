@@ -60,6 +60,28 @@ describe('窓口データ', () => {
     expect(errors).toEqual([]);
   });
 
+  it('警察の窓口は都道府県のまとまりにだけ入れられる（教育委員会は市区町村にも入れられる）', () => {
+    const c = (id: string, type: Contact['type']): Contact => ({
+      id,
+      type,
+      department: 'テスト',
+      phone: null,
+      email: null,
+      form_url: null,
+      postal_code: null,
+      postal_address: null,
+      hours: null,
+      source_url: null,
+      verified_at: null,
+      status: 'unverified',
+    });
+    const file = (code: string, name: string, type: Contact['type']) => [{ municipality_code: code, municipality_name: name, contacts: [c(`${code}-${type}`, type)] }];
+    const check = (records: unknown) => validateMunicipalityContactsFile('13', records, prefectures.items, municipalities.items);
+    expect(check(file('130001', '東京都', 'police'))).toEqual([]);
+    expect(check(file('131083', '江東区', 'education'))).toEqual([]);
+    expect(check(file('131083', '江東区', 'police')).join()).toContain('警察の窓口は都道府県のまとまりに入れます');
+  });
+
   it('国の機関のファイルが点検に通る', () => {
     expect(validateAgencyContactsFile(read('contacts/agencies.json'), agencies.items)).toEqual([]);
   });

@@ -17,6 +17,16 @@ export const CONTACT_TYPE_INFO: Record<ContactType, { label: string; desc: strin
     label: '議会事務局',
     desc: '議会への問い合わせや、請願・陳情の手続きの確認に。議会の運営を支える事務の部署です。',
   },
+  police: {
+    icon: 'shield',
+    label: '警察・公安委員会',
+    desc: '事件・事故ではない困りごとの相談（警察相談専用電話 #9110）や、警察の対応への苦情の窓口です。警察への苦情は、都道府県の公安委員会に文書で申し出ることができます。緊急のときは110番へ。',
+  },
+  education: {
+    icon: 'book',
+    label: '教育委員会',
+    desc: '公立の学校や、生涯学習・文化財などを受け持つ組織です。市区町村立の小・中学校は市区町村の、都道府県立の高校などは都道府県の教育委員会が担当します。',
+  },
   department: {
     icon: 'folder',
     label: '担当部署',
@@ -45,5 +55,8 @@ export const AGENCY_CATEGORY_LABEL: Record<AgencyCategory, string> = {
 
 /** 機関・自治体の種類ごとに、表示する窓口の種類 */
 export const TYPES_FOR_LOCAL: ContactType[] = ['general', 'feedback', 'assembly'];
+/** 都道府県・市区町村で、連絡先を載せたときだけ欄を出す種類（警察は都道府県の仕事なので都道府県だけ） */
+export const EXTRA_TYPES_FOR_PREF: ContactType[] = ['police', 'education'];
+export const EXTRA_TYPES_FOR_MUNI: ContactType[] = ['education'];
 export const TYPES_FOR_AGENCY: ContactType[] = ['general', 'feedback'];
 export const TYPES_FOR_DIET: ContactType[] = ['general'];

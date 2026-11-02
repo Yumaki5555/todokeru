@@ -12,7 +12,7 @@ import type {
   Prefecture,
 } from '../types';
 
-export const CONTACT_TYPES: ContactType[] = ['general', 'feedback', 'assembly', 'department'];
+export const CONTACT_TYPES: ContactType[] = ['general', 'feedback', 'assembly', 'police', 'education', 'department'];
 export const CONTACT_STATUSES: ContactStatus[] = ['verified', 'unverified', 'review', 'unavailable', 'discontinued', 'auto_matched'];
 
 /** 全国地方公共団体コード（5けた）の検査数字を足して6けたにする */
@@ -134,6 +134,7 @@ export function validateMunicipalityContactsFile(
     for (const c of r.contacts) {
       for (const msg of validateContact(c, today)) e.push(`${where} ${c?.id ?? ''}: ${msg}`);
       if (c?.id && !c.id.startsWith(r.municipality_code + '-')) e.push(`${where}: id は「自治体コード-種類」の形にしてください（${c.id}）`);
+      if (c?.type === 'police' && r.municipality_code !== pref.lg_code) e.push(`${where}: 警察の窓口は都道府県のまとまりに入れます（${c.id}）`);
       if (c?.id && seenIds.has(c.id)) e.push(`${where}: 同じ id が2回あります（${c.id}）`);
       if (c?.id) seenIds.add(c.id);
     }

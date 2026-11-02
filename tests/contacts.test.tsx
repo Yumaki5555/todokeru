@@ -256,6 +256,46 @@ describe('窓口データがあるときの表示（テスト用の架空デー�
     expect(within(card).queryByText('公式確認済み')).not.toBeInTheDocument();
   });
 
+  it('警察・教育委員会は、載せた自治体にだけ欄を出す。都道府県の警察は、その市区町村の結果にも出す', async () => {
+    dataOverrides.set('contacts/13.json', [
+      {
+        municipality_code: '130001',
+        municipality_name: '東京都',
+        contacts: [base, { ...base, id: '130001-police', type: 'police', department: 'テスト警察 相談センター', phone: '03-4444-4444' }],
+      },
+      {
+        municipality_code: '131083',
+        municipality_name: '江東区',
+        contacts: [{ ...base, id: '131083-education', type: 'education', department: 'テスト教育委員会', phone: '03-5555-5555' }],
+      },
+    ]);
+    openContacts('#/contacts?code=130001');
+    let card = await screen.findByRole('article');
+    expect(await within(card).findByRole('heading', { level: 4, name: '警察・公安委員会' })).toBeInTheDocument();
+    expect(within(card).getByRole('link', { name: /03-4444-4444/ })).toBeInTheDocument();
+    expect(within(card).queryByRole('heading', { level: 4, name: '教育委員会' })).not.toBeInTheDocument(); // 東京都の教育委員会はまだ載せていない
+
+    window.location.hash = '#/contacts?code=131083';
+    card = await screen.findByRole('article');
+    expect(await within(card).findByRole('heading', { level: 3, name: '江東区' })).toBeInTheDocument();
+    // 基本の3つはまだないので「未調査」の案内を1か所だけ。その下に、載せた教育委員会と、東京都の警察
+    expect(await within(card).findAllByText('未調査')).toHaveLength(1);
+    expect(within(card).getByRole('heading', { level: 4, name: '教育委員会' })).toBeInTheDocument();
+    expect(within(card).getByRole('link', { name: /03-5555-5555/ })).toBeInTheDocument();
+    expect(within(card).getByRole('heading', { level: 4, name: /警察・公安委員会\s*（東京都）/ })).toBeInTheDocument();
+    expect(within(card).getByText('警察は都道府県の仕事なので、東京都の窓口を出しています。')).toBeInTheDocument();
+    expect(within(card).getByRole('link', { name: /03-4444-4444/ })).toBeInTheDocument();
+  });
+
+  it('警察・教育委員会を載せていない自治体には、その欄を出さない', async () => {
+    dataOverrides.set('contacts/13.json', [{ municipality_code: '131083', municipality_name: '江東区', contacts: [base] }]);
+    openContacts('#/contacts?code=131083');
+    const card = await screen.findByRole('article');
+    await within(card).findByRole('link', { name: /03-0000-0000/ });
+    expect(within(card).queryByText('警察・公安委員会')).not.toBeInTheDocument();
+    expect(within(card).queryByText('教育委員会')).not.toBeInTheDocument();
+  });
+
   it('窓口データを読めないときは、もう一度読み込むボタンを出す', async () => {
     dataOverrides.set('contacts/13.json', { broken: true });
     openContacts('#/contacts?code=131083');

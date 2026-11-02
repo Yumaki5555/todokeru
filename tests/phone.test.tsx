@@ -439,14 +439,14 @@ describe('電話ガイド：もっと詳しく整理する', () => {
     expect(part('本題').value).toBe('A計画について、懸念があります。');
     await userEvent.click(applyButton());
     expect(part('本題').value).toBe(
-      'A計画について、懸念があります。\n私が確認した状況は、説明会が1回だけだったことです。\n適用される制度・条例と、その根拠資料を教えていただけますか？',
+      'A計画について、懸念があります。\n説明会が1回だけだったことを確認しました。\n適用される制度・条例と、その根拠資料を教えていただけますか？',
     );
     expect(within(deep()).getByRole('status')).toHaveTextContent('③の「本題」に反映しました');
     await userEvent.click(within(maker()).getByRole('button', { name: '台本をまとめてコピー' }));
-    expect(writeText.mock.calls[0][0]).toContain('私が確認した状況は、説明会が1回だけだったことです。');
+    expect(writeText.mock.calls[0][0]).toContain('説明会が1回だけだったことを確認しました。');
     await userEvent.click(screen.getByRole('button', { name: '大きな文字で読む' }));
     const reader = await screen.findByRole('dialog', { name: '台本を大きな文字で読む' });
-    expect(within(reader).getByText(/私が確認した状況は/)).toBeInTheDocument();
+    expect(within(reader).getByText(/説明会が1回だけだったことを確認しました/)).toBeInTheDocument();
   });
 
   it('反映したあと詳しい整理を直して押し直すと、確認なしで置き換わり、同じ文が重ならない', async () => {
@@ -477,7 +477,7 @@ describe('電話ガイド：もっと詳しく整理する', () => {
     expect(part('本題').value).toContain('懸念があります。');
     expect(within(step2).getByText(/前に「詳しく整理」で反映した文のままです/)).toBeInTheDocument();
     await userEvent.click(within(step2).getByRole('button', { name: '③に反映し直す' }));
-    expect(part('本題').value).toBe('A計画について、賛成です。\n私が確認した状況は、区報で知ったことです。');
+    expect(part('本題').value).toBe('A計画について、賛成です。\n区報で知ったことを確認しました。');
     expect(within(step2).queryByText(/前に「詳しく整理」で反映した文のままです/)).not.toBeInTheDocument();
   });
 
@@ -494,7 +494,7 @@ describe('電話ガイド：もっと詳しく整理する', () => {
     expect(part('本題').value).toBe('自分の言葉で伝えます。');
     confirm.mockReturnValue(true);
     await userEvent.click(applyButton());
-    expect(part('本題').value).toContain('私が確認した状況は');
+    expect(part('本題').value).toContain('説明会が1回だけだったことを確認しました。');
   });
 
   it('入力は再読み込みしても残り、「入力を消す」で詳しい整理も消える', async () => {

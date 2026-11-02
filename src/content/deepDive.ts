@@ -20,28 +20,31 @@ export const CHECK_POINTS = [
   { id: 'documents', label: '公式資料・公開先', question: '確認できる公式資料や掲載ページがあれば教えていただけますか？' },
 ] as const;
 
-/** 確認できたことの1文を「私が確認した状況は、〜です」の「〜」にする（「報道があった」→「報道があったこと」）。見分けられない形は null */
+/** 確認できたことの1文を「〜を確認しました」の「〜」にする（「報道があった」→「報道があったこと」）。見分けられない形は null */
 function factClause(x: string): string | null {
   if (/[！!？?]$/u.test(x)) return null;
   // 「怖がってるよ」の「よ」「ね」は取る
   const p = plainEnd(x.replace(/([うくぐすつぬぶむるいただ])[よね]+$/u, '$1'));
   if (!p || /(でしょう|だろう|ましょう|ください|下さい)$/u.test(p)) return null;
-  // 「9月30日の報道」「とのこと」→そのまま
-  if (/(こと|もの|ところ|とき|ため|など|まで|だけ|ほど|はず|よう|そう|[一-龠々ァ-ヶーa-zA-Z0-9０-９ａ-ｚＡ-Ｚ%％])$/u.test(p)) return p;
+  // 「とのこと」→そのまま
+  if (/(こと|もの)$/u.test(p)) return p;
+  // 「説明会が1回だけ」「対応が不十分（だ）」→〜であること、「9月30日の報道」→そのまま
+  const noun = p.replace(/([^んい])だ$/u, '$1');
+  if (noun !== p || /(ところ|とき|ため|など|まで|だけ|ほど|はず|よう|そう|[一-龠々ァ-ヶーa-zA-Z0-9０-９ａ-ｚＡ-Ｚ%％])$/u.test(p)) {
+    return noun !== p || /[がは]/u.test(p) || /(ため|など|まで|だけ|ほど|はず|よう|そう)$/u.test(p) ? `${noun}であること` : p;
+  }
   // 「報道があった」「費用が高い」→〜こと
   if (/([うくぐすつぬぶむるいた]|[んい]だ)$/u.test(p)) return `${p}こと`;
-  // 「危険だ」→「危険」
-  if (/だ$/u.test(p)) return p.slice(0, -1);
   return null;
 }
 
-/** 確認できたことを「私が確認した状況は、〜ことです。」の1文にする。形を見分けられない文は、そのあとに「です・ます」で続ける */
+/** 確認できたことを「〜ことを確認しました。」の1文にする。形を見分けられない文は、そのあとに「です・ます」で続ける */
 function factsText(s: string): string {
   const sentences = splitSentences(s);
   const clauses = sentences.map(factClause);
   const rest = sentences.filter((_, i) => !clauses[i]).map(politeText).join('');
   const known = clauses.filter(Boolean);
-  return known.length ? `私が確認した状況は、${known.join('、')}です。${rest}` : `私が確認した状況は、次のとおりです。${rest}`;
+  return known.length ? `${known.join('、')}を確認しました。${rest}` : `私が確認した状況は、次のとおりです。${rest}`;
 }
 
 /** 疑問を「〜を確認したいです。」の1文にまとめる。ふつうの形に戻せない問いは「〜ますか？」のまま続ける */

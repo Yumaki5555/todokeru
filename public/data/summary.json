@@ -1,7 +1,7 @@
 {
  "generated_at": "2026-11-03",
  "entities": {
-  "agencies": 22,
+  "agencies": 23,
   "prefectures": 47,
   "municipalities": 1741
  },
@@ -19,10 +19,10 @@
  },
  "coverage": {
   "agencies": {
-   "total": 22,
-   "researched": 22,
-   "with_verified": 22,
-   "with_shown": 22
+   "total": 23,
+   "researched": 23,
+   "with_verified": 23,
+   "with_shown": 23
   },
   "prefectures": {
    "total": 47,

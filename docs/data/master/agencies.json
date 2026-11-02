@@ -3,6 +3,7 @@
  "source_url": "",
  "checked_at": "2026-11-01",
  "items": [
+  {"id":"kantei","name":"首相官邸","kana":"しゅしょうかんてい","category":"cabinet","position":"内閣総理大臣の官邸。ホームページは内閣官房内閣広報室が運営","roles":"内閣総理大臣と内閣の政策・会見などの発信と、首相官邸へのご意見の受付","official_url":"https://www.kantei.go.jp/","url_checked_at":"2026-11-03"},
   {"id":"cas","name":"内閣官房","kana":"ないかくかんぼう","category":"cabinet","position":"内閣に置かれる機関","roles":"内閣の重要政策の企画・立案と、各省庁の間の調整","official_url":"https://www.cas.go.jp/","url_checked_at":"2026-11-01"},
   {"id":"cao","name":"内閣府","kana":"ないかくふ","category":"cabinet","position":"内閣に置かれる機関","roles":"経済財政、防災、男女共同参画など、政府全体にかかわる政策の企画・調整","official_url":"https://www.cao.go.jp/","url_checked_at":"2026-11-01"},
   {"id":"digital","name":"デジタル庁","kana":"でじたるちょう","category":"cabinet","position":"内閣に置かれる機関","roles":"行政のデジタル化、マイナンバー制度","official_url":"https://www.digital.go.jp/","url_checked_at":"2026-11-01"},

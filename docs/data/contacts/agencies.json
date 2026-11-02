@@ -1,5 +1,26 @@
 [
  {
+  "agency_id": "kantei",
+  "agency_name": "首相官邸",
+  "contacts": [
+   {
+    "id": "kantei-feedback",
+    "type": "feedback",
+    "department": "首相官邸へのご意見・ご感想",
+    "phone": null,
+    "email": null,
+    "form_url": "https://www.kantei.go.jp/jp/forms/goiken_ssl.html",
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.kantei.go.jp/jp/forms/goiken_ssl.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "2,000文字以内。内容に応じて関係する省庁に転送されます。返信が必ずあるわけではありません。"
+   }
+  ]
+ },
+ {
   "agency_id": "cas",
   "agency_name": "内閣官房",
   "contacts": [
@@ -32,21 +53,6 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
-   },
-   {
-    "id": "cas-feedback-2",
-    "type": "feedback",
-    "department": "首相官邸へのご意見・ご感想",
-    "phone": null,
-    "email": null,
-    "form_url": "https://www.kantei.go.jp/jp/forms/goiken_ssl.html",
-    "postal_code": null,
-    "postal_address": null,
-    "hours": null,
-    "source_url": "https://www.kantei.go.jp/jp/forms/goiken_ssl.html",
-    "verified_at": "2026-11-03",
-    "status": "verified",
-    "note": "2,000文字以内。内容に応じて関係する省庁に転送されます。返信が必ずあるわけではありません。"
    }
   ]
  },

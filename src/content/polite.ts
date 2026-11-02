@@ -82,12 +82,73 @@ export function politeEnd(s: string): string {
   return s;
 }
 
-/** 句点や改行で文に分け、それぞれの終わりをそろえて「。」で終える */
-export function politeText(s: string): string {
+/** 句点や改行で文に分ける（文の終わりの「、」や空白は取る） */
+export function splitSentences(s: string): string[] {
   return s
     .split(/[。．\n]+/u)
     .map((x) => x.trim().replace(/[、，,\s]+$/u, ''))
-    .filter(Boolean)
+    .filter(Boolean);
+}
+
+/** 句点や改行で文に分け、それぞれの終わりをそろえて「。」で終える */
+export function politeText(s: string): string {
+  return splitSentences(s)
     .map((x) => (/[！!？?]$/u.test(x) ? x : politeEnd(x) + '。'))
     .join('');
+}
+
+// ここから下は逆向き：「〜ことです」「〜かを確認したいです」の中に入れるため、文の終わりをふつうの形（〜した・〜ある）にする
+
+/** 話し言葉の「〜てる」と見分けるための、「て・で」の前に来る音（上の決まりと同じ） */
+const TE_BEFORE = '[っいんしえけげせぜねへべめれきぎじちにびみり見出来着寝]';
+
+/** 話し言葉「〜てる」「〜てます」「〜てない」→「〜ている」「〜ています」「〜ていない」 */
+const COLLOQUIAL: [RegExp, string][] = [
+  [new RegExp(`(${TE_BEFORE})([てで])(ます|ました|ません|ませんでした)$`, 'u'), '$1$2い$3'],
+  [new RegExp(`(${TE_BEFORE})([てで])(る|た)$`, 'u'), '$1$2い$3'],
+  [new RegExp(`(${TE_BEFORE}て|んで)(ない|なかった)$`, 'u'), '$1い$2'],
+];
+
+/** 「ます」の前の音 → [言い切り, 〜た, 〜ない の前]（「書きます」→「書く」「書いた」「書かない」）。「し」は「する」として扱う */
+const GODAN: Record<string, [string, string, string]> = {
+  い: ['う', 'った', 'わ'],
+  き: ['く', 'いた', 'か'],
+  ぎ: ['ぐ', 'いだ', 'が'],
+  し: ['する', 'した', 'し'],
+  ち: ['つ', 'った', 'た'],
+  に: ['ぬ', 'んだ', 'な'],
+  び: ['ぶ', 'んだ', 'ば'],
+  み: ['む', 'んだ', 'ま'],
+  り: ['る', 'った', 'ら'],
+};
+
+/** 「見ます」「できます」「決めます」「人がいます」「しています」のように、そのまま「る」「た」「ない」がつく形 */
+const ICHIDAN = /([えけげせぜてでねへべめれじ]|[見着寝出似煮得来]|(?<!お)[がはもにてで]い|でき|起き|生き|過ぎ|落ち|満ち|延び|伸び|浴び|借り|降り|下り|足り|用い|試み)$/u;
+
+/** 「ます」「ました」「ません」「ませんでした」の前（語幹）から、ふつうの形を作る。見分けられない形は null */
+function plainVerb(stem: string, end: string): string | null {
+  const neg = end.startsWith('ません');
+  const past = end === 'ました' || end === 'ませんでした';
+  const negEnd = past ? 'なかった' : 'ない';
+  // ありません →ない
+  if (/あり$/u.test(stem)) return neg ? stem.slice(0, -2) + negEnd : stem.slice(0, -1) + (past ? 'った' : 'る');
+  // 増えてきます →増えてくる
+  if (/(て|んで)き$/u.test(stem)) return stem.slice(0, -1) + (neg ? 'こ' + negEnd : past ? 'きた' : 'くる');
+  if (ICHIDAN.test(stem)) return stem + (neg ? negEnd : past ? 'た' : 'る');
+  const g = GODAN[stem.slice(-1)];
+  if (!g) return null;
+  const base = stem.slice(0, -1);
+  if (neg) return base + g[2] + negEnd;
+  if (past) return base + (/(行|い)き$/u.test(stem) ? 'った' : g[1]); // 行きました →行った
+  return base + g[0];
+}
+
+/** 1つの文（句点なし）の終わりを、ふつうの形にする（「報道がありました」→「報道があった」、「高いです」→「高い」）。見分けられない形は null */
+export function plainEnd(s: string): string | null {
+  const rule = COLLOQUIAL.find(([re]) => re.test(s));
+  const t = rule ? s.replace(rule[0], rule[1]) : s;
+  const m = t.match(/^(.*?)(ませんでした|ません|ました|ます)$/u);
+  if (m) return plainVerb(m[1], m[2]);
+  if (/でした$/u.test(t)) return t.replace(/でした$/u, 'だった');
+  return t.replace(/(な?[のん])?です$/u, '');
 }

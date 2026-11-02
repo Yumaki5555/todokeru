@@ -1,6 +1,7 @@
 // 台本を作る：目的と入力から、短い台本（あいさつ → 本題 → 記録のお願い → お礼）を組み立てる
 // 文は電話マニュアルの台本・会話例（phoneManual.ts）の言い回しを使う。
 import type { CallDraft, CallPurpose, CallStance, IconName, ScriptPart, ScriptPartKey } from '../types';
+import { plainEnd } from './polite';
 
 export const PURPOSES: {
   id: CallPurpose;
@@ -92,7 +93,9 @@ export function questionPhrase(s: string): string {
   const d = trimEnd(s)
     .replace(/[?？]+$/u, '')
     .replace(/[のん]だろうか$/u, 'のでしょうか')
-    .replace(/だろうか$/u, 'でしょうか');
+    .replace(/だろうか$/u, 'でしょうか')
+    // 「誰が始めたの」→「誰が始めたのか」（「〜のを教えて」にしない）
+    .replace(/([うくぐすつぬぶむるたいな])の$/u, '$1のか');
   if (!d) return '現在の仕組みを教えていただけますか？';
   if (/(ですか|ますか|でしょうか|ませんか)$/u.test(d)) return d + '？';
   if (/(です|ます)$/u.test(d)) return d + 'か？';
@@ -117,6 +120,43 @@ export function questionPhrase(s: string): string {
     return q.replace(/([^ん])だ$/u, '$1な') + 'のか' + ask;
   }
   return q + ask;
+}
+
+/**
+ * 聞きたいことを「〜を確認したいです」の「〜」の形にする（「誰が始めたの」→「誰が始めたのか」、「日程は」→「日程」）。
+ * ていねいな質問の形で、ふつうの形に戻せないときは null
+ */
+export function questionClause(s: string): string | null {
+  let q = trimEnd(s)
+    .replace(/[?？]+$/u, '')
+    .replace(/を?(教えて(ください|ほしい|欲しい)?|知りたい(です)?|確認したい(です)?)$/u, '')
+    .replace(/[のん](でしょう|だろう)か$/u, 'のか')
+    .replace(/(でしょう|だろう)か$/u, 'か');
+  // 「説明会はありますか」「費用はいくらですか」→「説明会はあるか」「費用はいくらか」
+  const polite = q.match(/^(.+(?:ます|ません|ました|ませんでした|です|でした))か$/u);
+  if (polite) {
+    const p = plainEnd(polite[1]);
+    if (!p) return null;
+    q = p + 'か';
+  }
+  if (!q) return null;
+  q = q.replace(/([うくぐすつぬぶむるたいな])の$/u, '$1のか');
+  // 「お金かけ過ぎでは」→「お金かけ過ぎではないか」
+  const notQ = /(では|じゃ)(ない)?(のか|の|か)?$/u;
+  if (notQ.test(q)) return q.replace(notQ, 'ではないか');
+  if (/(過ぎ|すぎ)$/u.test(q)) return q + 'ではないか';
+  // 「説明会はあるのか」「いつから始まるか」→そのまま
+  if (/か$/u.test(q)) return q;
+  // 「やさしい日本語とは」→「やさしい日本語とは何か」
+  if (/とは$/u.test(q)) return q + '何か';
+  // 「日程は」「日程について」→「日程」
+  if (/(について|に関して|は)$/u.test(q)) return q.replace(/(について|に関して|は)$/u, '');
+  // 「費用はいくら」→「費用はいくらか」
+  if (new RegExp(WH.source + '$', 'u').test(q)) return q + 'か';
+  // 「説明会はある」「費用が高い」→「〜のか」
+  if (/(う|く|ぐ|す|つ|ぬ|ぶ|む|る|た|だ|い)$/u.test(q)) return q.replace(/([^ん])だ$/u, '$1な') + 'のか';
+  // 「始めた理由」のような名詞 →そのまま
+  return q;
 }
 
 /**

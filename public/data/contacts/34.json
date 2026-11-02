@@ -49,5 +49,203 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "341002",
+  "municipality_name": "広島市",
+  "contacts": [
+   {
+    "id": "341002-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "082-245-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.hiroshima.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "342041",
+  "municipality_name": "三原市",
+  "contacts": [
+   {
+    "id": "342041-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0848-64-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.mihara.hiroshima.jp/soshiki/4/access.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "342076",
+  "municipality_name": "福山市",
+  "contacts": [
+   {
+    "id": "342076-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "084-921-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.fukuyama.hiroshima.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "342084",
+  "municipality_name": "府中市",
+  "contacts": [
+   {
+    "id": "342084-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0847-44-9099",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.fuchu.hiroshima.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "342092",
+  "municipality_name": "三次市",
+  "contacts": [
+   {
+    "id": "342092-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0824-62-6111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.miyoshi.hiroshima.jp/index.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "342106",
+  "municipality_name": "庄原市",
+  "contacts": [
+   {
+    "id": "342106-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0824-73-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.shobara.hiroshima.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "342122",
+  "municipality_name": "東広島市",
+  "contacts": [
+   {
+    "id": "342122-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "082-422-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.higashihiroshima.lg.jp/toiawase.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "343099",
+  "municipality_name": "坂町",
+  "contacts": [
+   {
+    "id": "343099-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "082-820-1500",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.saka.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "344621",
+  "municipality_name": "世羅町",
+  "contacts": [
+   {
+    "id": "344621-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0847-22-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.sera.hiroshima.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

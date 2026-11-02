@@ -85,21 +85,25 @@ describe('窓口データ', () => {
       })),
     );
     const withVerified = new Set(records.filter((r) => r.contacts.some((c) => c.status === 'verified')).map((r) => r.key));
+    const withShown = new Set(records.filter((r) => r.contacts.some((c) => ['verified', 'review', 'auto_matched'].includes(c.status))).map((r) => r.key));
     const count = (keys: string[]) => keys.filter((k) => withVerified.has(k)).length;
+    const shown = (keys: string[]) => keys.filter((k) => withShown.has(k)).length;
     expect(summary.coverage.agencies.with_verified).toBe(count(agencies.items.map((a) => a.id)));
     expect(summary.coverage.prefectures.with_verified).toBe(count(prefectures.items.map((p) => p.lg_code)));
     expect(summary.coverage.municipalities.with_verified).toBe(count(municipalities.items.map((m) => m.code)));
+    expect(summary.coverage.municipalities.with_shown).toBe(shown(municipalities.items.map((m) => m.code)));
     for (const p of prefectures.items) {
       const munis = municipalities.items.filter((m) => m.pref_code === p.code).map((m) => m.code);
       expect(summary.by_pref[p.code].municipalities).toEqual({
         total: munis.length,
         researched: munis.filter((k) => records.some((r) => r.key === k && r.contacts.length > 0)).length,
         with_verified: count(munis),
+        with_shown: shown(munis),
       });
     }
   });
 
-  it('公式確認済みの窓口は、出典が公式ドメイン（go.jp・lg.jp・pref./city. など、または確認済みの公式ドメイン）', () => {
+  it('公式確認済み・要再確認・自動照合の窓口は、出典が公式ドメイン（go.jp・lg.jp・pref./city. など、または確認済みの公式ドメイン）', () => {
     const extra = new Set(
       (JSON.parse(readFileSync(resolve(__dirname, '../research/official-hosts.json'), 'utf8')) as { hosts: { host: string }[] }).hosts.map(
         (h) => h.host,
@@ -110,7 +114,7 @@ describe('窓口データ', () => {
       return extra.has(h) || /(^|\.)(lg|go)\.jp$/.test(h) || /(^|\.)(pref|city|town|vill|metro)\.[a-z0-9-]+(\.[a-z0-9-]+)*\.jp$/.test(h);
     };
     const all = files.flatMap((f) => read<{ contacts: Contact[] }[]>(`contacts/${f}`).flatMap((r) => r.contacts));
-    const bad = all.filter((c) => (c.status === 'verified' || c.status === 'review') && !official(c.source_url!)).map((c) => c.id);
+    const bad = all.filter((c) => ['verified', 'review', 'auto_matched'].includes(c.status) && !official(c.source_url!)).map((c) => c.id);
     expect(bad).toEqual([]);
   });
 
@@ -170,7 +174,18 @@ describe('窓口1件の点検', () => {
     expect(validateContact({ ...verified, status: 'ok' as never }, '2026-11-01').join()).toContain('status');
   });
 
-  it('画面に連絡先を出すのは確認済み・要再確認で点検に通るものだけ', () => {
+  it('自動照合の代表電話には、出典・照合日・電話番号が必要で、確認日は入れない', () => {
+    const auto: Contact = { ...verified, type: 'general', verified_at: null, matched_at: '2026-11-01', status: 'auto_matched' };
+    expect(validateContact(auto, '2026-11-01')).toEqual([]);
+    expect(validateContact({ ...auto, verified_at: '2026-11-01' }, '2026-11-01').join()).toContain('確認日（verified_at）を入れません');
+    expect(validateContact({ ...auto, matched_at: null }, '2026-11-01').join()).toContain('matched_at');
+    expect(validateContact({ ...auto, phone: null }, '2026-11-01').join()).toContain('電話番号');
+    expect(validateContact({ ...auto, type: 'feedback' }, '2026-11-01').join()).toContain('general');
+    expect(validateContact({ ...verified, matched_at: '2026-11-01' }, '2026-11-01').join()).toContain('自動照合の窓口だけ');
+    expect(isDisplayable(auto)).toBe(true);
+  });
+
+  it('画面に連絡先を出すのは確認済み・要再確認・自動照合で点検に通るものだけ', () => {
     expect(isDisplayable(verified)).toBe(true);
     expect(isDisplayable({ ...verified, status: 'review' })).toBe(true);
     expect(isDisplayable({ ...verified, status: 'unverified' })).toBe(false);

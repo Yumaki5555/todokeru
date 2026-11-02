@@ -13,7 +13,7 @@ import type {
 } from '../types';
 
 export const CONTACT_TYPES: ContactType[] = ['general', 'feedback', 'assembly', 'department'];
-export const CONTACT_STATUSES: ContactStatus[] = ['verified', 'unverified', 'review', 'unavailable', 'discontinued'];
+export const CONTACT_STATUSES: ContactStatus[] = ['verified', 'unverified', 'review', 'unavailable', 'discontinued', 'auto_matched'];
 
 /** 全国地方公共団体コード（5けた）の検査数字を足して6けたにする */
 export function withCheckDigit(code5: string): string {
@@ -67,6 +67,7 @@ export function validateContact(c: unknown, today = todayStr()): string[] {
     if (!(k in x)) e.push(`${k} の項目がありません（不明なら null）`);
     else if (!strOrNull(k)) e.push(`${k} は文字列か null にしてください`);
   }
+  if ('matched_at' in x && !strOrNull('matched_at')) e.push('matched_at は文字列か null にしてください');
   if (e.length) return e;
   const v = x as unknown as Contact;
   if (v.phone !== null && !isPhone(v.phone)) e.push(`電話番号の形が不正です: ${v.phone}`);
@@ -75,21 +76,30 @@ export function validateContact(c: unknown, today = todayStr()): string[] {
   if (v.source_url !== null && !isHttpsUrl(v.source_url)) e.push(`source_url は https の URL にしてください: ${v.source_url}`);
   if (v.postal_code !== null && !RE_POSTAL.test(v.postal_code)) e.push(`郵便番号の形が不正です: ${v.postal_code}`);
   if (v.verified_at !== null && !isPastDate(v.verified_at, today)) e.push(`verified_at（確認日）が不正です: ${v.verified_at}`);
+  if (v.matched_at != null && !isPastDate(v.matched_at, today)) e.push(`matched_at（照合日）が不正です: ${v.matched_at}`);
   const hasMeans = Boolean(v.phone || v.email || v.form_url || v.postal_address);
   if (v.status === 'verified' || v.status === 'review') {
     if (!v.source_url) e.push('確認済み・要再確認の窓口には公式出典URL（source_url）が必要です');
     if (!v.verified_at) e.push('確認済み・要再確認の窓口には確認日（verified_at）が必要です');
     if (!hasMeans) e.push('確認済み・要再確認の窓口には、電話・メール・フォーム・住所のどれかが必要です');
   }
+  if (v.status === 'auto_matched') {
+    // 公式サイトと自動照合した代表電話：出典・照合日・電話番号が必要。人が確かめていないので確認日は持たない
+    if (v.type !== 'general') e.push('自動照合の窓口は代表電話（general）だけです');
+    if (!v.source_url) e.push('自動照合の窓口には公式出典URL（source_url）が必要です');
+    if (!v.matched_at) e.push('自動照合の窓口には照合日（matched_at）が必要です');
+    if (!v.phone) e.push('自動照合の窓口には電話番号が必要です');
+    if (v.verified_at !== null) e.push('自動照合の窓口には確認日（verified_at）を入れません');
+  } else if (v.matched_at != null) e.push('照合日（matched_at）は自動照合の窓口だけに入れます');
   if (v.status === 'unavailable' && (!v.source_url || !v.verified_at)) {
     e.push('「公式連絡先が確認できない」とした窓口にも、調べた公式ページ（source_url）と確認日が必要です');
   }
   return e;
 }
 
-/** 画面に連絡先を出してよい窓口か（公式確認済み・要再確認で、点検に通るものだけ） */
+/** 画面に連絡先を出してよい窓口か（公式確認済み・要再確認・公式サイトと自動照合で、点検に通るものだけ） */
 export function isDisplayable(c: Contact): boolean {
-  return (c.status === 'verified' || c.status === 'review') && validateContact(c).length === 0;
+  return (c.status === 'verified' || c.status === 'review' || c.status === 'auto_matched') && validateContact(c).length === 0;
 }
 
 /** 都道府県ごとの窓口ファイル（contacts/<2けた>.json）を点検する */

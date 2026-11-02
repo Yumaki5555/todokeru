@@ -49,5 +49,577 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "122025",
+  "municipality_name": "銚子市",
+  "contacts": [
+   {
+    "id": "122025-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0479-24-8181",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.choshi.chiba.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "122033",
+  "municipality_name": "市川市",
+  "contacts": [
+   {
+    "id": "122033-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "047-334-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.ichikawa.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "122041",
+  "municipality_name": "船橋市",
+  "contacts": [
+   {
+    "id": "122041-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "047-436-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.funabashi.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "122050",
+  "municipality_name": "館山市",
+  "contacts": [
+   {
+    "id": "122050-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0470-22-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.tateyama.chiba.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "122076",
+  "municipality_name": "松戸市",
+  "contacts": [
+   {
+    "id": "122076-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "047-366-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.matsudo.chiba.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "122084",
+  "municipality_name": "野田市",
+  "contacts": [
+   {
+    "id": "122084-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "04-7125-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.noda.chiba.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "122106",
+  "municipality_name": "茂原市",
+  "contacts": [
+   {
+    "id": "122106-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0475-23-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.mobara.chiba.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "122114",
+  "municipality_name": "成田市",
+  "contacts": [
+   {
+    "id": "122114-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0476-22-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.narita.chiba.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "122131",
+  "municipality_name": "東金市",
+  "contacts": [
+   {
+    "id": "122131-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0475-50-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.togane.chiba.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "122203",
+  "municipality_name": "流山市",
+  "contacts": [
+   {
+    "id": "122203-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "04-7158-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.nagareyama.chiba.jp/information/1008466/1008467/index.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "122220",
+  "municipality_name": "我孫子市",
+  "contacts": [
+   {
+    "id": "122220-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "04-7185-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.abiko.chiba.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "122246",
+  "municipality_name": "鎌ケ谷市",
+  "contacts": [
+   {
+    "id": "122246-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "047-445-1141",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kamagaya.chiba.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "122289",
+  "municipality_name": "四街道市",
+  "contacts": [
+   {
+    "id": "122289-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "043-421-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.yotsukaido.chiba.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "122297",
+  "municipality_name": "袖ケ浦市",
+  "contacts": [
+   {
+    "id": "122297-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0438-62-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.sodegaura.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "122301",
+  "municipality_name": "八街市",
+  "contacts": [
+   {
+    "id": "122301-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "043-443-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.yachimata.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "122335",
+  "municipality_name": "富里市",
+  "contacts": [
+   {
+    "id": "122335-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0476-93-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.tomisato.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "122351",
+  "municipality_name": "匝瑳市",
+  "contacts": [
+   {
+    "id": "122351-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0479-73-0084",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.sosa.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "122360",
+  "municipality_name": "香取市",
+  "contacts": [
+   {
+    "id": "122360-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0478-54-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.katori.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "122386",
+  "municipality_name": "いすみ市",
+  "contacts": [
+   {
+    "id": "122386-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0470-62-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.isumi.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "123293",
+  "municipality_name": "栄町",
+  "contacts": [
+   {
+    "id": "123293-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0476-95-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.sakae.chiba.jp/chosei/jouhou/shinsagikai/page006871.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "123421",
+  "municipality_name": "神崎町",
+  "contacts": [
+   {
+    "id": "123421-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0478-72-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kozaki.chiba.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "123471",
+  "municipality_name": "多古町",
+  "contacts": [
+   {
+    "id": "123471-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0479-76-2611",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.tako.chiba.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "124109",
+  "municipality_name": "横芝光町",
+  "contacts": [
+   {
+    "id": "124109-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0479-84-1211",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.yokoshibahikari.chiba.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "124214",
+  "municipality_name": "一宮町",
+  "contacts": [
+   {
+    "id": "124214-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0475-42-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.ichinomiya.chiba.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "124222",
+  "municipality_name": "睦沢町",
+  "contacts": [
+   {
+    "id": "124222-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0475-44-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.mutsuzawa.chiba.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "124249",
+  "municipality_name": "白子町",
+  "contacts": [
+   {
+    "id": "124249-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0475-33-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.shirako.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

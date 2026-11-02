@@ -49,5 +49,225 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "302015",
+  "municipality_name": "和歌山市",
+  "contacts": [
+   {
+    "id": "302015-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "073-432-0001",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.wakayama.wakayama.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "302023",
+  "municipality_name": "海南市",
+  "contacts": [
+   {
+    "id": "302023-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "073-482-4111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kainan.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "302031",
+  "municipality_name": "橋本市",
+  "contacts": [
+   {
+    "id": "302031-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0736-33-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.hashimoto.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "302058",
+  "municipality_name": "御坊市",
+  "contacts": [
+   {
+    "id": "302058-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0738-22-4111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.gobo.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "302066",
+  "municipality_name": "田辺市",
+  "contacts": [
+   {
+    "id": "302066-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0739-22-5300",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.tanabe.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "303046",
+  "municipality_name": "紀美野町",
+  "contacts": [
+   {
+    "id": "303046-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "073-489-2430",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kimino.wakayama.jp/cgi-bin/inquiry.php/18?page_no=1",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "303445",
+  "municipality_name": "高野町",
+  "contacts": [
+   {
+    "id": "303445-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0736-56-3000",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.koya.wakayama.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "303666",
+  "municipality_name": "有田川町",
+  "contacts": [
+   {
+    "id": "303666-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0737-52-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.aridagawa.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "304018",
+  "municipality_name": "白浜町",
+  "contacts": [
+   {
+    "id": "304018-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0739-43-5555",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.shirahama.wakayama.jp/cgi-bin/inquiry.php/1?page_no=1",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "304042",
+  "municipality_name": "上富田町",
+  "contacts": [
+   {
+    "id": "304042-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0739-47-0550",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kamitonda.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

@@ -49,5 +49,511 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "202029",
+  "municipality_name": "松本市",
+  "contacts": [
+   {
+    "id": "202029-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0263-34-3000",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.matsumoto.nagano.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "202045",
+  "municipality_name": "岡谷市",
+  "contacts": [
+   {
+    "id": "202045-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0266-23-4811",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.okaya.lg.jp/cgi-bin/inquiry.php/1?page_no=1",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "202070",
+  "municipality_name": "須坂市",
+  "contacts": [
+   {
+    "id": "202070-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "026-245-1400",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.suzaka.nagano.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "202118",
+  "municipality_name": "中野市",
+  "contacts": [
+   {
+    "id": "202118-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0269-22-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.nakano.nagano.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "202134",
+  "municipality_name": "飯山市",
+  "contacts": [
+   {
+    "id": "202134-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0269-62-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.iiyama.nagano.jp/contact/contat_aboutsite",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "202151",
+  "municipality_name": "塩尻市",
+  "contacts": [
+   {
+    "id": "202151-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0263-52-0280",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.shiojiri.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "202177",
+  "municipality_name": "佐久市",
+  "contacts": [
+   {
+    "id": "202177-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0267-62-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.saku.nagano.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "202193",
+  "municipality_name": "東御市",
+  "contacts": [
+   {
+    "id": "202193-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0268-62-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.tomi.nagano.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "203092",
+  "municipality_name": "佐久穂町",
+  "contacts": [
+   {
+    "id": "203092-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0267-86-2525",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.sakuho.nagano.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "203211",
+  "municipality_name": "軽井沢町",
+  "contacts": [
+   {
+    "id": "203211-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0267-45-8111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.karuizawa.lg.jp/www/index.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "203505",
+  "municipality_name": "長和町",
+  "contacts": [
+   {
+    "id": "203505-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0268-68-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://town.nagawa.nagano.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "203823",
+  "municipality_name": "辰野町",
+  "contacts": [
+   {
+    "id": "203823-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0266-41-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.tatsuno.lg.jp/index.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "203831",
+  "municipality_name": "箕輪町",
+  "contacts": [
+   {
+    "id": "203831-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0265-79-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.minowa.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "203840",
+  "municipality_name": "飯島町",
+  "contacts": [
+   {
+    "id": "203840-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0265-86-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.iijima.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "203866",
+  "municipality_name": "中川村",
+  "contacts": [
+   {
+    "id": "203866-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0265-88-3001",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.vill.nakagawa.nagano.jp/soshiki/soumu/2330.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "204072",
+  "municipality_name": "阿智村",
+  "contacts": [
+   {
+    "id": "204072-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0265-43-2220",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.vill.achi.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "204226",
+  "municipality_name": "上松町",
+  "contacts": [
+   {
+    "id": "204226-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0264-52-2001",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.agematsu.nagano.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "204307",
+  "municipality_name": "大桑村",
+  "contacts": [
+   {
+    "id": "204307-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0264-55-3080",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.vill.okuwa.lg.jp/inquiry.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "204463",
+  "municipality_name": "麻績村",
+  "contacts": [
+   {
+    "id": "204463-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0263-67-3001",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.vill.omi.nagano.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "204510",
+  "municipality_name": "朝日村",
+  "contacts": [
+   {
+    "id": "204510-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0263-99-2001",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.vill.asahi.nagano.jp/official/sonseijoho/asahimuranoshokai/612.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "204528",
+  "municipality_name": "筑北村",
+  "contacts": [
+   {
+    "id": "204528-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0263-66-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.vill.chikuhoku.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "204820",
+  "municipality_name": "松川村",
+  "contacts": [
+   {
+    "id": "204820-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0261-62-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.vill.matsukawa.nagano.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "205907",
+  "municipality_name": "飯綱町",
+  "contacts": [
+   {
+    "id": "205907-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "026-253-2511",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.iizuna.nagano.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

@@ -49,5 +49,269 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "072028",
+  "municipality_name": "会津若松市",
+  "contacts": [
+   {
+    "id": "072028-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0242-39-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.aizuwakamatsu.fukushima.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "072036",
+  "municipality_name": "郡山市",
+  "contacts": [
+   {
+    "id": "072036-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "024-924-2491",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.koriyama.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "072052",
+  "municipality_name": "白河市",
+  "contacts": [
+   {
+    "id": "072052-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0248-22-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.shirakawa.fukushima.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "072079",
+  "municipality_name": "須賀川市",
+  "contacts": [
+   {
+    "id": "072079-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0248-75-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.sukagawa.fukushima.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "072125",
+  "municipality_name": "南相馬市",
+  "contacts": [
+   {
+    "id": "072125-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0244-22-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.minamisoma.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "073628",
+  "municipality_name": "下郷町",
+  "contacts": [
+   {
+    "id": "073628-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0241-69-1122",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.shimogo.fukushima.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "073687",
+  "municipality_name": "南会津町",
+  "contacts": [
+   {
+    "id": "073687-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0241-62-6100",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.minamiaizu.lg.jp/cgi-bin/inquiry.php/1?page_no=1",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "074217",
+  "municipality_name": "会津坂下町",
+  "contacts": [
+   {
+    "id": "074217-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0242-84-1503",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.aizubange.fukushima.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "074225",
+  "municipality_name": "湯川村",
+  "contacts": [
+   {
+    "id": "074225-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0241-27-8800",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.vill.yugawa.fukushima.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "074471",
+  "municipality_name": "会津美里町",
+  "contacts": [
+   {
+    "id": "074471-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0242-55-1122",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.aizumisato.fukushima.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "075213",
+  "municipality_name": "三春町",
+  "contacts": [
+   {
+    "id": "075213-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0247-62-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.miharu.fukushima.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "075647",
+  "municipality_name": "飯舘村",
+  "contacts": [
+   {
+    "id": "075647-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0244-42-1611",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.vill.iitate.fukushima.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

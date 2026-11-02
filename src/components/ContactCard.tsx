@@ -1,7 +1,7 @@
 // 窓口検索の結果：1つの機関・自治体と、その窓口（代表・広聴・議会事務局）
 import { useEffect, useState, type ReactNode } from 'react';
 import type { Agency, Contact, ContactType, Municipality, Prefecture } from '../types';
-import { AGENCY_CATEGORY_LABEL, CONTACT_TYPE_INFO, STATUS_LABEL, TYPES_FOR_AGENCY, TYPES_FOR_DIET, TYPES_FOR_LOCAL } from '../data/labels';
+import { AGENCY_CATEGORY_LABEL, AUTO_MATCHED_NOTE, CONTACT_TYPE_INFO, STATUS_LABEL, TYPES_FOR_AGENCY, TYPES_FOR_DIET, TYPES_FOR_LOCAL } from '../data/labels';
 import { loadAgencyContacts, loadPrefContacts } from '../data/loaders';
 import { isDisplayable } from '../data/validate';
 import { telHref } from '../lib/text';
@@ -233,6 +233,7 @@ function ContactView({ c }: { c: Contact }) {
         <span className={'badge ' + (c.status === 'verified' ? 'badge-main' : 'badge-warn')}>{STATUS_LABEL[c.status]}</span>
       </p>
       {c.status === 'review' && <p className="contact-warn">情報が変わっている可能性があります。公式ページで確かめてください。</p>}
+      {c.status === 'auto_matched' && <p className="contact-warn">{AUTO_MATCHED_NOTE}</p>}
       {/* 電話・メール・フォームは大きな操作ボタンにする */}
       <ContactActions phone={c.phone} email={c.email} formUrl={c.form_url} />
       <p className="contact-script">
@@ -291,7 +292,7 @@ function ContactView({ c }: { c: Contact }) {
             <span className="sr-only">（外部サイト）</span>
           </a>
         </span>
-        <span>最終確認日：{formatDate(c.verified_at!)}</span>
+        <span>{c.status === 'auto_matched' ? `照合日：${formatDate(c.matched_at!)}` : `最終確認日：${formatDate(c.verified_at!)}`}</span>
       </p>
     </div>
   );

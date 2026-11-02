@@ -49,5 +49,203 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "212016",
+  "municipality_name": "岐阜市",
+  "contacts": [
+   {
+    "id": "212016-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "058-265-4141",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.gifu.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "212024",
+  "municipality_name": "大垣市",
+  "contacts": [
+   {
+    "id": "212024-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0584-81-4111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.ogaki.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "212075",
+  "municipality_name": "美濃市",
+  "contacts": [
+   {
+    "id": "212075-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0575-33-1122",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.mino.gifu.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "212083",
+  "municipality_name": "瑞浪市",
+  "contacts": [
+   {
+    "id": "212083-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0572-68-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.mizunami.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "212199",
+  "municipality_name": "郡上市",
+  "contacts": [
+   {
+    "id": "212199-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0575-67-1121",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.gujo.gifu.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "213616",
+  "municipality_name": "垂井町",
+  "contacts": [
+   {
+    "id": "213616-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0584-22-1151",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.tarui.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "213837",
+  "municipality_name": "安八町",
+  "contacts": [
+   {
+    "id": "213837-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0584-64-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.anpachi.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "214213",
+  "municipality_name": "北方町",
+  "contacts": [
+   {
+    "id": "214213-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "058-323-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kitagata.gifu.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "215058",
+  "municipality_name": "八百津町",
+  "contacts": [
+   {
+    "id": "215058-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0574-43-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.yaotsu.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

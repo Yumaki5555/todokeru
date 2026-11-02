@@ -49,5 +49,159 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "431001",
+  "municipality_name": "熊本市",
+  "contacts": [
+   {
+    "id": "431001-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "096-328-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kumamoto.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "432032",
+  "municipality_name": "人吉市",
+  "contacts": [
+   {
+    "id": "432032-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0966-22-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.hitoyoshi.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "432041",
+  "municipality_name": "荒尾市",
+  "contacts": [
+   {
+    "id": "432041-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0968-63-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.arao.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "432105",
+  "municipality_name": "菊池市",
+  "contacts": [
+   {
+    "id": "432105-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0968-25-7111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kikuchi.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "432148",
+  "municipality_name": "阿蘇市",
+  "contacts": [
+   {
+    "id": "432148-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0967-22-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.aso.kumamoto.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "434043",
+  "municipality_name": "菊陽町",
+  "contacts": [
+   {
+    "id": "434043-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "096-232-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kikuyo.lg.jp/kiji003556/index.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "434248",
+  "municipality_name": "小国町",
+  "contacts": [
+   {
+    "id": "434248-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0967-46-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kumamoto-oguni.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

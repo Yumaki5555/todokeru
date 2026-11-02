@@ -49,5 +49,291 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "222054",
+  "municipality_name": "熱海市",
+  "contacts": [
+   {
+    "id": "222054-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0557-86-6000",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.atami.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "222062",
+  "municipality_name": "三島市",
+  "contacts": [
+   {
+    "id": "222062-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "055-975-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.mishima.shizuoka.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "222071",
+  "municipality_name": "富士宮市",
+  "contacts": [
+   {
+    "id": "222071-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0544-22-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.fujinomiya.lg.jp/info/p003075.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "222089",
+  "municipality_name": "伊東市",
+  "contacts": [
+   {
+    "id": "222089-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0557-36-0111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.ito.shizuoka.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "222097",
+  "municipality_name": "島田市",
+  "contacts": [
+   {
+    "id": "222097-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0547-37-5111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.shimada.shizuoka.jp/gyosei/shisei/shimadashigikai/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "222135",
+  "municipality_name": "掛川市",
+  "contacts": [
+   {
+    "id": "222135-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0537-21-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kakegawa.shizuoka.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "222143",
+  "municipality_name": "藤枝市",
+  "contacts": [
+   {
+    "id": "222143-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "054-643-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.fujieda.shizuoka.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "222194",
+  "municipality_name": "下田市",
+  "contacts": [
+   {
+    "id": "222194-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0558-22-2211",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.shimoda.shizuoka.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "222208",
+  "municipality_name": "裾野市",
+  "contacts": [
+   {
+    "id": "222208-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "055-992-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.susono.shizuoka.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "222232",
+  "municipality_name": "御前崎市",
+  "contacts": [
+   {
+    "id": "222232-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0537-85-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.omaezaki.shizuoka.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "222259",
+  "municipality_name": "伊豆の国市",
+  "contacts": [
+   {
+    "id": "222259-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "055-948-1411",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.izunokuni.shizuoka.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "223255",
+  "municipality_name": "函南町",
+  "contacts": [
+   {
+    "id": "223255-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "055-978-2250",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kannami.shizuoka.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "223417",
+  "municipality_name": "清水町",
+  "contacts": [
+   {
+    "id": "223417-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "055-973-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.shimizu.shizuoka.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

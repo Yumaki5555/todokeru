@@ -49,5 +49,93 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "452017",
+  "municipality_name": "宮崎市",
+  "contacts": [
+   {
+    "id": "452017-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0985-25-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.miyazaki.miyazaki.jp/access.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "452033",
+  "municipality_name": "延岡市",
+  "contacts": [
+   {
+    "id": "452033-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0982-34-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.nobeoka.miyazaki.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "452041",
+  "municipality_name": "日南市",
+  "contacts": [
+   {
+    "id": "452041-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0987-31-1100",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.nichinan.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "453412",
+  "municipality_name": "三股町",
+  "contacts": [
+   {
+    "id": "453412-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0986-52-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.mimata.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

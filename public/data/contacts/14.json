@@ -49,5 +49,291 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "141305",
+  "municipality_name": "川崎市",
+  "contacts": [
+   {
+    "id": "141305-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "044-200-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kawasaki.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "142034",
+  "municipality_name": "平塚市",
+  "contacts": [
+   {
+    "id": "142034-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0463-23-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.hiratsuka.kanagawa.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "142042",
+  "municipality_name": "鎌倉市",
+  "contacts": [
+   {
+    "id": "142042-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0467-23-3000",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kamakura.kanagawa.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "142077",
+  "municipality_name": "茅ヶ崎市",
+  "contacts": [
+   {
+    "id": "142077-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0467-82-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.chigasaki.kanagawa.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "142107",
+  "municipality_name": "三浦市",
+  "contacts": [
+   {
+    "id": "142107-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "046-882-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.miura.kanagawa.jp/soshiki/digitalka/digitalka_joho/325.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "142123",
+  "municipality_name": "厚木市",
+  "contacts": [
+   {
+    "id": "142123-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "046-223-1511",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.atsugi.kanagawa.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "142140",
+  "municipality_name": "伊勢原市",
+  "contacts": [
+   {
+    "id": "142140-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0463-94-4711",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.isehara.kanagawa.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "142158",
+  "municipality_name": "海老名市",
+  "contacts": [
+   {
+    "id": "142158-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "046-231-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.ebina.kanagawa.jp/index.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "142174",
+  "municipality_name": "南足柄市",
+  "contacts": [
+   {
+    "id": "142174-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0465-74-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.minamiashigara.kanagawa.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "142182",
+  "municipality_name": "綾瀬市",
+  "contacts": [
+   {
+    "id": "142182-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0467-77-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.ayase.kanagawa.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "143634",
+  "municipality_name": "松田町",
+  "contacts": [
+   {
+    "id": "143634-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0465-83-1221",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://town.matsuda.kanagawa.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "143642",
+  "municipality_name": "山北町",
+  "contacts": [
+   {
+    "id": "143642-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0465-75-1122",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.yamakita.kanagawa.jp/mailform/inquiry.cgi?so=e003d5e4f89edca0d16026ee2826c566d32f2b39&ref=https%3A%2F%2Fwww.town.yamakita.kanagawa.jp%2Fsoshiki_list.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "143821",
+  "municipality_name": "箱根町",
+  "contacts": [
+   {
+    "id": "143821-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0460-85-7111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.hakone.kanagawa.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

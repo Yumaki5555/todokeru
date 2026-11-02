@@ -49,5 +49,753 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "112038",
+  "municipality_name": "川口市",
+  "contacts": [
+   {
+    "id": "112038-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "048-258-1110",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kawaguchi.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "112062",
+  "municipality_name": "行田市",
+  "contacts": [
+   {
+    "id": "112062-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "048-556-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.gyoda.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "112071",
+  "municipality_name": "秩父市",
+  "contacts": [
+   {
+    "id": "112071-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0494-22-2211",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.chichibu.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "112089",
+  "municipality_name": "所沢市",
+  "contacts": [
+   {
+    "id": "112089-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "04-2998-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.tokorozawa.saitama.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "112101",
+  "municipality_name": "加須市",
+  "contacts": [
+   {
+    "id": "112101-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0480-62-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kazo.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "112127",
+  "municipality_name": "東松山市",
+  "contacts": [
+   {
+    "id": "112127-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0493-23-2221",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.higashimatsuyama.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "112143",
+  "municipality_name": "春日部市",
+  "contacts": [
+   {
+    "id": "112143-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "048-736-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kasukabe.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "112151",
+  "municipality_name": "狭山市",
+  "contacts": [
+   {
+    "id": "112151-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "04-2953-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.sayama.saitama.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "112160",
+  "municipality_name": "羽生市",
+  "contacts": [
+   {
+    "id": "112160-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "048-561-1121",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.hanyu.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "112178",
+  "municipality_name": "鴻巣市",
+  "contacts": [
+   {
+    "id": "112178-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "048-541-1321",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kounosu.saitama.jp/page/3131.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "112186",
+  "municipality_name": "深谷市",
+  "contacts": [
+   {
+    "id": "112186-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "048-571-1211",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.fukaya.saitama.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "112194",
+  "municipality_name": "上尾市",
+  "contacts": [
+   {
+    "id": "112194-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "048-775-5111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.ageo.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "112224",
+  "municipality_name": "越谷市",
+  "contacts": [
+   {
+    "id": "112224-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "048-964-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.koshigaya.saitama.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "112232",
+  "municipality_name": "蕨市",
+  "contacts": [
+   {
+    "id": "112232-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "048-432-3200",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.warabi.saitama.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "112259",
+  "municipality_name": "入間市",
+  "contacts": [
+   {
+    "id": "112259-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "04-2964-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.iruma.saitama.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "112275",
+  "municipality_name": "朝霞市",
+  "contacts": [
+   {
+    "id": "112275-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "048-463-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.asaka.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "112305",
+  "municipality_name": "新座市",
+  "contacts": [
+   {
+    "id": "112305-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "048-477-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.niiza.lg.jp/site/sityouhenotegami/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "112348",
+  "municipality_name": "八潮市",
+  "contacts": [
+   {
+    "id": "112348-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "048-996-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.yashio.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "112356",
+  "municipality_name": "富士見市",
+  "contacts": [
+   {
+    "id": "112356-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "049-251-2711",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.fujimi.saitama.jp/madoguchi_shisetsu/01shisetsu/siyakysho/2010-0510-1001-142.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "112381",
+  "municipality_name": "蓮田市",
+  "contacts": [
+   {
+    "id": "112381-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "048-768-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.hasuda.saitama.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "112402",
+  "municipality_name": "幸手市",
+  "contacts": [
+   {
+    "id": "112402-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0480-43-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.satte.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "112411",
+  "municipality_name": "鶴ヶ島市",
+  "contacts": [
+   {
+    "id": "112411-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "049-271-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.tsurugashima.lg.jp/inq.php",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "112429",
+  "municipality_name": "日高市",
+  "contacts": [
+   {
+    "id": "112429-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "042-989-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.hidaka.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "112437",
+  "municipality_name": "吉川市",
+  "contacts": [
+   {
+    "id": "112437-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "048-982-5111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.yoshikawa.saitama.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "112461",
+  "municipality_name": "白岡市",
+  "contacts": [
+   {
+    "id": "112461-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0480-92-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.shiraoka.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "113247",
+  "municipality_name": "三芳町",
+  "contacts": [
+   {
+    "id": "113247-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "049-258-0019",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.saitama-miyoshi.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "113271",
+  "municipality_name": "越生町",
+  "contacts": [
+   {
+    "id": "113271-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "049-292-3121",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.ogose.saitama.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "113425",
+  "municipality_name": "嵐山町",
+  "contacts": [
+   {
+    "id": "113425-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0493-62-2150",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.ranzan.saitama.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "113476",
+  "municipality_name": "吉見町",
+  "contacts": [
+   {
+    "id": "113476-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0493-54-1511",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.yoshimi.saitama.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "113611",
+  "municipality_name": "横瀬町",
+  "contacts": [
+   {
+    "id": "113611-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0494-25-0111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.yokoze.saitama.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "113638",
+  "municipality_name": "長瀞町",
+  "contacts": [
+   {
+    "id": "113638-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0494-66-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.nagatoro.saitama.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "113816",
+  "municipality_name": "美里町",
+  "contacts": [
+   {
+    "id": "113816-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0495-76-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.saitama-misato.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "114081",
+  "municipality_name": "寄居町",
+  "contacts": [
+   {
+    "id": "114081-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "048-581-2121",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.yorii.saitama.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "114421",
+  "municipality_name": "宮代町",
+  "contacts": [
+   {
+    "id": "114421-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0480-34-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.miyashiro.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

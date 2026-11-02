@@ -49,5 +49,159 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "322016",
+  "municipality_name": "松江市",
+  "contacts": [
+   {
+    "id": "322016-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0852-55-5555",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.matsue.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "322032",
+  "municipality_name": "出雲市",
+  "contacts": [
+   {
+    "id": "322032-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0853-21-2211",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.izumo.shimane.jp/www/toppage/0000000000000/APM03000.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "322041",
+  "municipality_name": "益田市",
+  "contacts": [
+   {
+    "id": "322041-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0856-31-0100",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.masuda.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "322091",
+  "municipality_name": "雲南市",
+  "contacts": [
+   {
+    "id": "322091-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0854-40-1000",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.unnan.shimane.jp/unnan/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "324493",
+  "municipality_name": "邑南町",
+  "contacts": [
+   {
+    "id": "324493-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0855-95-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.ohnan.lg.jp/www/index.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "325058",
+  "municipality_name": "吉賀町",
+  "contacts": [
+   {
+    "id": "325058-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0856-77-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.yoshika.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "325252",
+  "municipality_name": "海士町",
+  "contacts": [
+   {
+    "id": "325252-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "08514-2-0111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.ama.shimane.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

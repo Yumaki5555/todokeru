@@ -49,5 +49,115 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "162051",
+  "municipality_name": "氷見市",
+  "contacts": [
+   {
+    "id": "162051-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0766-74-8100",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.himi.toyama.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "162060",
+  "municipality_name": "滑川市",
+  "contacts": [
+   {
+    "id": "162060-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "076-475-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.namerikawa.toyama.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "162086",
+  "municipality_name": "砺波市",
+  "contacts": [
+   {
+    "id": "162086-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0763-33-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.tonami.toyama.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "163422",
+  "municipality_name": "入善町",
+  "contacts": [
+   {
+    "id": "163422-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0765-72-1100",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.nyuzen.toyama.jp/cgi-bin/inquiry.php/24?page_no=1",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "163431",
+  "municipality_name": "朝日町",
+  "contacts": [
+   {
+    "id": "163431-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0765-83-1100",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.asahi.toyama.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

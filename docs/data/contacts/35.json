@@ -49,5 +49,159 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "352039",
+  "municipality_name": "山口市",
+  "contacts": [
+   {
+    "id": "352039-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "083-922-4111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.yamaguchi.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "352047",
+  "municipality_name": "萩市",
+  "contacts": [
+   {
+    "id": "352047-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0838-25-3131",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.hagi.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "352063",
+  "municipality_name": "防府市",
+  "contacts": [
+   {
+    "id": "352063-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0835-23-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.hofu.yamaguchi.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "352071",
+  "municipality_name": "下松市",
+  "contacts": [
+   {
+    "id": "352071-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0833-45-1700",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kudamatsu.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "352110",
+  "municipality_name": "長門市",
+  "contacts": [
+   {
+    "id": "352110-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0837-22-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.nagato.yamaguchi.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "353051",
+  "municipality_name": "周防大島町",
+  "contacts": [
+   {
+    "id": "353051-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0820-74-1000",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.suo-oshima.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "353418",
+  "municipality_name": "上関町",
+  "contacts": [
+   {
+    "id": "353418-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0820-62-0311",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kaminoseki.lg.jp/%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

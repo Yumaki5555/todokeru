@@ -49,5 +49,445 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "282031",
+  "municipality_name": "明石市",
+  "contacts": [
+   {
+    "id": "282031-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "078-912-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.akashi.lg.jp/shise/koho/homepage/otoiawase.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "282057",
+  "municipality_name": "洲本市",
+  "contacts": [
+   {
+    "id": "282057-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0799-22-3321",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.sumoto.lg.jp/hp/access/index.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "282065",
+  "municipality_name": "芦屋市",
+  "contacts": [
+   {
+    "id": "282065-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0797-31-2121",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.ashiya.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "282073",
+  "municipality_name": "伊丹市",
+  "contacts": [
+   {
+    "id": "282073-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "072-783-1234",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.itami.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "282103",
+  "municipality_name": "加古川市",
+  "contacts": [
+   {
+    "id": "282103-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "079-421-2000",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kakogawa.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "282120",
+  "municipality_name": "赤穂市",
+  "contacts": [
+   {
+    "id": "282120-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0791-43-3201",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.ako.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "282146",
+  "municipality_name": "宝塚市",
+  "contacts": [
+   {
+    "id": "282146-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0797-71-1141",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.takarazuka.hyogo.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "282162",
+  "municipality_name": "高砂市",
+  "contacts": [
+   {
+    "id": "282162-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "079-442-2101",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.takasago.lg.jp/gyoseisite/shiseijoho/koho_kocho/3/1/index.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "282171",
+  "municipality_name": "川西市",
+  "contacts": [
+   {
+    "id": "282171-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "072-740-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kawanishi.hyogo.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "282197",
+  "municipality_name": "三田市",
+  "contacts": [
+   {
+    "id": "282197-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "079-563-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.sanda.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "282201",
+  "municipality_name": "加西市",
+  "contacts": [
+   {
+    "id": "282201-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0790-42-1110",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kasai.hyogo.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "282227",
+  "municipality_name": "養父市",
+  "contacts": [
+   {
+    "id": "282227-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "079-662-3161",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.yabu.hyogo.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "282235",
+  "municipality_name": "丹波市",
+  "contacts": [
+   {
+    "id": "282235-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0795-82-1001",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.tamba.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "282243",
+  "municipality_name": "南あわじ市",
+  "contacts": [
+   {
+    "id": "282243-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0799-43-5001",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.minamiawaji.hyogo.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "282251",
+  "municipality_name": "朝来市",
+  "contacts": [
+   {
+    "id": "282251-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "079-672-3301",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.asago.hyogo.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "282260",
+  "municipality_name": "淡路市",
+  "contacts": [
+   {
+    "id": "282260-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0799-64-0001",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.awaji.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "282286",
+  "municipality_name": "加東市",
+  "contacts": [
+   {
+    "id": "282286-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0795-42-3301",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kato.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "282294",
+  "municipality_name": "たつの市",
+  "contacts": [
+   {
+    "id": "282294-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0791-64-3131",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.tatsuno.lg.jp/gyosei/gaiyo/5449.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "283827",
+  "municipality_name": "播磨町",
+  "contacts": [
+   {
+    "id": "283827-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "079-435-0355",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.harima.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "284467",
+  "municipality_name": "神河町",
+  "contacts": [
+   {
+    "id": "284467-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0790-34-0001",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kamikawa.hyogo.jp/index.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

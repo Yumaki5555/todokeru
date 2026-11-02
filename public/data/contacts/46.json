@@ -49,5 +49,247 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "462012",
+  "municipality_name": "鹿児島市",
+  "contacts": [
+   {
+    "id": "462012-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "099-224-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kagoshima.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "462047",
+  "municipality_name": "枕崎市",
+  "contacts": [
+   {
+    "id": "462047-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0993-72-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.makurazaki.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "462063",
+  "municipality_name": "阿久根市",
+  "contacts": [
+   {
+    "id": "462063-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0996-73-1211",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.akune.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "462136",
+  "municipality_name": "西之表市",
+  "contacts": [
+   {
+    "id": "462136-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0997-22-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.nishinoomote.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "462144",
+  "municipality_name": "垂水市",
+  "contacts": [
+   {
+    "id": "462144-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0994-32-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.tarumizu.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "462209",
+  "municipality_name": "南さつま市",
+  "contacts": [
+   {
+    "id": "462209-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0993-53-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.minamisatsuma.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "464686",
+  "municipality_name": "大崎町",
+  "contacts": [
+   {
+    "id": "464686-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "099-476-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kagoshima-osaki.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "464911",
+  "municipality_name": "南大隅町",
+  "contacts": [
+   {
+    "id": "464911-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0994-24-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.minamiosumi.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "465232",
+  "municipality_name": "大和村",
+  "contacts": [
+   {
+    "id": "465232-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0997-57-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.vill.yamato.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "465291",
+  "municipality_name": "喜界町",
+  "contacts": [
+   {
+    "id": "465291-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0997-65-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kikai.lg.jp/densan/otoiawase.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "465313",
+  "municipality_name": "天城町",
+  "contacts": [
+   {
+    "id": "465313-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0997-85-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.amagi.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

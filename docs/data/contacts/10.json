@@ -49,5 +49,203 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "102032",
+  "municipality_name": "桐生市",
+  "contacts": [
+   {
+    "id": "102032-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0277-46-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kiryu.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "102041",
+  "municipality_name": "伊勢崎市",
+  "contacts": [
+   {
+    "id": "102041-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0270-24-5111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.isesaki.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "102059",
+  "municipality_name": "太田市",
+  "contacts": [
+   {
+    "id": "102059-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0276-47-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.ota.gunma.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "102067",
+  "municipality_name": "沼田市",
+  "contacts": [
+   {
+    "id": "102067-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0278-23-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.numata.gunma.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "102083",
+  "municipality_name": "渋川市",
+  "contacts": [
+   {
+    "id": "102083-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0279-22-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.shibukawa.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "102091",
+  "municipality_name": "藤岡市",
+  "contacts": [
+   {
+    "id": "102091-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0274-22-1211",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.fujioka.gunma.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "103845",
+  "municipality_name": "甘楽町",
+  "contacts": [
+   {
+    "id": "103845-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0274-74-3131",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kanra.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "104248",
+  "municipality_name": "長野原町",
+  "contacts": [
+   {
+    "id": "104248-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0279-82-2244",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.naganohara.gunma.jp/www/index.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "105228",
+  "municipality_name": "明和町",
+  "contacts": [
+   {
+    "id": "105228-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0276-84-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.meiwa.gunma.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

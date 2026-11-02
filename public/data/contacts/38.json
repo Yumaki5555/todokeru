@@ -49,5 +49,203 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "382019",
+  "municipality_name": "松山市",
+  "contacts": [
+   {
+    "id": "382019-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "089-948-6688",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.matsuyama.ehime.jp/shisetsu/shinos/annai.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "382035",
+  "municipality_name": "宇和島市",
+  "contacts": [
+   {
+    "id": "382035-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0895-24-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.uwajima.ehime.jp/site/tenohira-shiyakusho/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "382060",
+  "municipality_name": "西条市",
+  "contacts": [
+   {
+    "id": "382060-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0897-56-5151",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.saijo.ehime.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "382078",
+  "municipality_name": "大洲市",
+  "contacts": [
+   {
+    "id": "382078-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0893-24-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.ozu.ehime.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "382108",
+  "municipality_name": "伊予市",
+  "contacts": [
+   {
+    "id": "382108-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "089-982-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.iyo.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "382159",
+  "municipality_name": "東温市",
+  "contacts": [
+   {
+    "id": "382159-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "089-964-2001",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.toon.ehime.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "384011",
+  "municipality_name": "松前町",
+  "contacts": [
+   {
+    "id": "384011-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "089-985-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.masaki.ehime.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "384844",
+  "municipality_name": "松野町",
+  "contacts": [
+   {
+    "id": "384844-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0895-42-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.matsuno.ehime.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "385069",
+  "municipality_name": "愛南町",
+  "contacts": [
+   {
+    "id": "385069-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0895-72-1211",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.ainan.ehime.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

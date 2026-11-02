@@ -49,5 +49,225 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "472018",
+  "municipality_name": "那覇市",
+  "contacts": [
+   {
+    "id": "472018-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "098-867-0111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.naha.okinawa.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "472051",
+  "municipality_name": "宜野湾市",
+  "contacts": [
+   {
+    "id": "472051-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "098-893-4411",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.ginowan.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "472077",
+  "municipality_name": "石垣市",
+  "contacts": [
+   {
+    "id": "472077-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0980-82-9911",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.ishigaki.okinawa.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "472085",
+  "municipality_name": "浦添市",
+  "contacts": [
+   {
+    "id": "472085-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "098-876-1234",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.urasoe.lg.jp/home",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "472093",
+  "municipality_name": "名護市",
+  "contacts": [
+   {
+    "id": "472093-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0980-53-1212",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.nago.okinawa.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "472123",
+  "municipality_name": "豊見城市",
+  "contacts": [
+   {
+    "id": "472123-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "098-850-0024",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.tomigusuku.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "472140",
+  "municipality_name": "宮古島市",
+  "contacts": [
+   {
+    "id": "472140-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0980-72-3751",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.miyakojima.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "473146",
+  "municipality_name": "金武町",
+  "contacts": [
+   {
+    "id": "473146-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "098-968-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kin.okinawa.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "473626",
+  "municipality_name": "八重瀬町",
+  "contacts": [
+   {
+    "id": "473626-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "098-998-2200",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.yaese.lg.jp/docs/2016012500016/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "473812",
+  "municipality_name": "竹富町",
+  "contacts": [
+   {
+    "id": "473812-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0980-82-6191",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.taketomi.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

@@ -49,5 +49,115 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "242071",
+  "municipality_name": "鈴鹿市",
+  "contacts": [
+   {
+    "id": "242071-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "059-382-1100",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.suzuka.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "242161",
+  "municipality_name": "伊賀市",
+  "contacts": [
+   {
+    "id": "242161-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0595-22-9611",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.iga.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "243248",
+  "municipality_name": "東員町",
+  "contacts": [
+   {
+    "id": "243248-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0594-86-2800",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.toin.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "243418",
+  "municipality_name": "菰野町",
+  "contacts": [
+   {
+    "id": "243418-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "059-391-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www2.town.komono.mie.jp/www/index.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "243434",
+  "municipality_name": "朝日町",
+  "contacts": [
+   {
+    "id": "243434-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "059-377-5651",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www2.town.asahi.mie.jp/www/index.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

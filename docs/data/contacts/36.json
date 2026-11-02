@@ -49,5 +49,159 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "362018",
+  "municipality_name": "徳島市",
+  "contacts": [
+   {
+    "id": "362018-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "088-621-5111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.tokushima.tokushima.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "362034",
+  "municipality_name": "小松島市",
+  "contacts": [
+   {
+    "id": "362034-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0885-32-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.komatsushima.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "362077",
+  "municipality_name": "美馬市",
+  "contacts": [
+   {
+    "id": "362077-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0883-52-1212",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.mima.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "363219",
+  "municipality_name": "佐那河内村",
+  "contacts": [
+   {
+    "id": "363219-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "088-679-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.vill.sanagochi.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "363413",
+  "municipality_name": "石井町",
+  "contacts": [
+   {
+    "id": "363413-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "088-674-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.ishii.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "363839",
+  "municipality_name": "牟岐町",
+  "contacts": [
+   {
+    "id": "363839-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0884-72-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.tokushima-mugi.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "363871",
+  "municipality_name": "美波町",
+  "contacts": [
+   {
+    "id": "363871-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0884-77-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.minami.lg.jp/docs/6395265.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

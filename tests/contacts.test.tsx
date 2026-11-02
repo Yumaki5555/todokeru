@@ -15,11 +15,11 @@ describe('窓口検索', () => {
   const emptySummary: DataSummary = {
     generated_at: '2026-11-01',
     entities: { agencies: 22, prefectures: 47, municipalities: 1741 },
-    contacts: { total: 0, verified: 0, by_status: { verified: 0, unverified: 0, review: 0, unavailable: 0, discontinued: 0 } },
+    contacts: { total: 0, verified: 0, by_status: { verified: 0, unverified: 0, review: 0, unavailable: 0, discontinued: 0, auto_matched: 0 } },
     coverage: {
-      agencies: { total: 22, researched: 0, with_verified: 0 },
-      prefectures: { total: 47, researched: 0, with_verified: 0 },
-      municipalities: { total: 1741, researched: 0, with_verified: 0 },
+      agencies: { total: 22, researched: 0, with_verified: 0, with_shown: 0 },
+      prefectures: { total: 47, researched: 0, with_verified: 0, with_shown: 0 },
+      municipalities: { total: 1741, researched: 0, with_verified: 0, with_shown: 0 },
     },
     by_pref: {},
   };
@@ -37,9 +37,9 @@ describe('窓口検索', () => {
       ...emptySummary,
       contacts: { ...emptySummary.contacts, total: 150, verified: 140 },
       coverage: {
-        agencies: { total: 22, researched: 22, with_verified: 19 },
-        prefectures: { total: 47, researched: 47, with_verified: 46 },
-        municipalities: { total: 1741, researched: 0, with_verified: 0 },
+        agencies: { total: 22, researched: 22, with_verified: 19, with_shown: 19 },
+        prefectures: { total: 47, researched: 47, with_verified: 46, with_shown: 46 },
+        municipalities: { total: 1741, researched: 0, with_verified: 0, with_shown: 0 },
       },
     });
     openContacts();
@@ -211,6 +211,19 @@ describe('窓口データがあるときの表示（テスト用の架空デー�
     const card = await screen.findByRole('article');
     expect(await within(card).findByText(/情報が変わっている可能性があります/)).toBeInTheDocument();
     expect(within(card).getByText('要再確認')).toBeInTheDocument();
+  });
+
+  it('公式サイトと自動照合の代表電話は、その表示と照合日を出し、最終確認日は出さない', async () => {
+    const auto: Contact = { ...base, email: null, form_url: null, postal_code: null, postal_address: null, hours: null, verified_at: null, matched_at: '2026-11-01', status: 'auto_matched' };
+    dataOverrides.set('contacts/13.json', [{ municipality_code: '131083', municipality_name: '江東区', contacts: [auto] }]);
+    openContacts('#/contacts?code=131083');
+    const card = await screen.findByRole('article');
+    expect(await within(card).findByRole('link', { name: /電話をかける\s*：\s*03-0000-0000/ })).toBeInTheDocument();
+    expect(within(card).getByText('公式サイトと自動照合')).toBeInTheDocument();
+    expect(within(card).getByText(/人による確認の前/)).toBeInTheDocument();
+    expect(within(card).getByText(/照合日：2026年11月1日/)).toBeVisible();
+    expect(within(card).queryByText(/最終確認日/)).not.toBeInTheDocument();
+    expect(within(card).queryByText('公式確認済み')).not.toBeInTheDocument();
   });
 
   it('窓口データを読めないときは、もう一度読み込むボタンを出す', async () => {

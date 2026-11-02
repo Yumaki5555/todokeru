@@ -49,5 +49,753 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "011002",
+  "municipality_name": "札幌市",
+  "contacts": [
+   {
+    "id": "011002-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "011-211-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.sapporo.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "012033",
+  "municipality_name": "小樽市",
+  "contacts": [
+   {
+    "id": "012033-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0134-32-4111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.otaru.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "012092",
+  "municipality_name": "夕張市",
+  "contacts": [
+   {
+    "id": "012092-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0123-52-3131",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.yubari.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "012106",
+  "municipality_name": "岩見沢市",
+  "contacts": [
+   {
+    "id": "012106-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0126-23-4111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.iwamizawa.hokkaido.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "012131",
+  "municipality_name": "苫小牧市",
+  "contacts": [
+   {
+    "id": "012131-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0144-32-6111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.tomakomai.hokkaido.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "012165",
+  "municipality_name": "芦別市",
+  "contacts": [
+   {
+    "id": "012165-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0124-22-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.ashibetsu.hokkaido.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "012173",
+  "municipality_name": "江別市",
+  "contacts": [
+   {
+    "id": "012173-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "011-382-4141",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.ebetsu.hokkaido.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "012181",
+  "municipality_name": "赤平市",
+  "contacts": [
+   {
+    "id": "012181-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0125-32-2211",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.akabira.hokkaido.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "012289",
+  "municipality_name": "深川市",
+  "contacts": [
+   {
+    "id": "012289-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "050-1785-6063",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.fukagawa.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "012319",
+  "municipality_name": "恵庭市",
+  "contacts": [
+   {
+    "id": "012319-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0123-33-3131",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.eniwa.hokkaido.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "012335",
+  "municipality_name": "伊達市",
+  "contacts": [
+   {
+    "id": "012335-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0142-23-3331",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.date.hokkaido.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "012351",
+  "municipality_name": "石狩市",
+  "contacts": [
+   {
+    "id": "012351-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0133-72-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.ishikari.hokkaido.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "012360",
+  "municipality_name": "北斗市",
+  "contacts": [
+   {
+    "id": "012360-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0138-73-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.hokuto.hokkaido.jp/index.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "013048",
+  "municipality_name": "新篠津村",
+  "contacts": [
+   {
+    "id": "013048-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0126-57-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.vill.shinshinotsu.hokkaido.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "013455",
+  "municipality_name": "森町",
+  "contacts": [
+   {
+    "id": "013455-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "01374-2-2181",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.hokkaido-mori.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "014061",
+  "municipality_name": "古平町",
+  "contacts": [
+   {
+    "id": "014061-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0135-42-2181",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.furubira.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "014087",
+  "municipality_name": "余市町",
+  "contacts": [
+   {
+    "id": "014087-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0135-21-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.yoichi.hokkaido.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "014249",
+  "municipality_name": "奈井江町",
+  "contacts": [
+   {
+    "id": "014249-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0125-65-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.naie.hokkaido.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "014273",
+  "municipality_name": "由仁町",
+  "contacts": [
+   {
+    "id": "014273-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0123-83-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.yuni.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "014303",
+  "municipality_name": "月形町",
+  "contacts": [
+   {
+    "id": "014303-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0126-53-2321",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.tsukigata.hokkaido.jp/page/1595.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "014389",
+  "municipality_name": "沼田町",
+  "contacts": [
+   {
+    "id": "014389-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0164-35-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.numata.hokkaido.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "014532",
+  "municipality_name": "東神楽町",
+  "contacts": [
+   {
+    "id": "014532-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0166-83-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.higashikagura.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "014591",
+  "municipality_name": "美瑛町",
+  "contacts": [
+   {
+    "id": "014591-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0166-92-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://town.biei.hokkaido.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "014613",
+  "municipality_name": "中富良野町",
+  "contacts": [
+   {
+    "id": "014613-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0167-44-2122",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.nakafurano.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "014826",
+  "municipality_name": "小平町",
+  "contacts": [
+   {
+    "id": "014826-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0164-56-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.obira.hokkaido.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "015113",
+  "municipality_name": "猿払村",
+  "contacts": [
+   {
+    "id": "015113-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "01635-2-3131",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.vill.sarufutsu.hokkaido.jp/hotnews/detail/00000001.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "015164",
+  "municipality_name": "豊富町",
+  "contacts": [
+   {
+    "id": "015164-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0162-82-1001",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.toyotomi.hokkaido.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "015440",
+  "municipality_name": "津別町",
+  "contacts": [
+   {
+    "id": "015440-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0152-76-2713",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.tsubetsu.hokkaido.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "015521",
+  "municipality_name": "佐呂間町",
+  "contacts": [
+   {
+    "id": "015521-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "01587-2-1211",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.saroma.hokkaido.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "015601",
+  "municipality_name": "滝上町",
+  "contacts": [
+   {
+    "id": "015601-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0158-29-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.takinoue.hokkaido.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "015644",
+  "municipality_name": "大空町",
+  "contacts": [
+   {
+    "id": "015644-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0152-74-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.ozora.hokkaido.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "015717",
+  "municipality_name": "豊浦町",
+  "contacts": [
+   {
+    "id": "015717-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0142-83-2121",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.toyoura.hokkaido.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "016411",
+  "municipality_name": "大樹町",
+  "contacts": [
+   {
+    "id": "016411-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "01558-6-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.taiki.hokkaido.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "016462",
+  "municipality_name": "本別町",
+  "contacts": [
+   {
+    "id": "016462-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0156-22-2141",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.honbetsu.hokkaido.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

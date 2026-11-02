@@ -49,5 +49,291 @@
     "note": "出典ページを自動で開けなかったため未確認"
    }
   ]
+ },
+ {
+  "municipality_code": "292036",
+  "municipality_name": "大和郡山市",
+  "contacts": [
+   {
+    "id": "292036-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0743-53-1151",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.yamatokoriyama.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "292044",
+  "municipality_name": "天理市",
+  "contacts": [
+   {
+    "id": "292044-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0743-63-1001",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.tenri.nara.jp/shisei/shinogaiyou/access.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "292079",
+  "municipality_name": "五條市",
+  "contacts": [
+   {
+    "id": "292079-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0747-22-4001",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.gojo.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "292087",
+  "municipality_name": "御所市",
+  "contacts": [
+   {
+    "id": "292087-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0745-62-3001",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.gose.nara.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "292095",
+  "municipality_name": "生駒市",
+  "contacts": [
+   {
+    "id": "292095-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0743-74-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.ikoma.lg.jp/0000002154.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "292109",
+  "municipality_name": "香芝市",
+  "contacts": [
+   {
+    "id": "292109-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0745-76-2001",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kashiba.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "293423",
+  "municipality_name": "平群町",
+  "contacts": [
+   {
+    "id": "293423-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0745-45-1001",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.heguri.nara.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "293440",
+  "municipality_name": "斑鳩町",
+  "contacts": [
+   {
+    "id": "293440-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0745-74-1001",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.ikaruga.nara.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "293458",
+  "municipality_name": "安堵町",
+  "contacts": [
+   {
+    "id": "293458-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0743-57-1511",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.ando.nara.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "293610",
+  "municipality_name": "川西町",
+  "contacts": [
+   {
+    "id": "293610-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0745-44-2211",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.nara-kawanishi.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "293865",
+  "municipality_name": "御杖村",
+  "contacts": [
+   {
+    "id": "293865-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0745-95-2001",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.vill.mitsue.nara.jp/cgi-bin/inquiry.php/10?page_no=1",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "294241",
+  "municipality_name": "上牧町",
+  "contacts": [
+   {
+    "id": "294241-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0745-76-1001",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kanmaki.nara.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "294519",
+  "municipality_name": "上北山村",
+  "contacts": [
+   {
+    "id": "294519-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "07468-2-0001",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://vill.kamikitayama.nara.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

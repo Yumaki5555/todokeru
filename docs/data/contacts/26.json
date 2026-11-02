@@ -49,5 +49,225 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "261009",
+  "municipality_name": "京都市",
+  "contacts": [
+   {
+    "id": "261009-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "075-222-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kyoto.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "262013",
+  "municipality_name": "福知山市",
+  "contacts": [
+   {
+    "id": "262013-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0773-22-6111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.fukuchiyama.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "262030",
+  "municipality_name": "綾部市",
+  "contacts": [
+   {
+    "id": "262030-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0773-42-3280",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.ayabe.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "262102",
+  "municipality_name": "八幡市",
+  "contacts": [
+   {
+    "id": "262102-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "075-983-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.yawata.kyoto.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "262111",
+  "municipality_name": "京田辺市",
+  "contacts": [
+   {
+    "id": "262111-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0774-63-1122",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kyotanabe.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "262129",
+  "municipality_name": "京丹後市",
+  "contacts": [
+   {
+    "id": "262129-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0772-69-0001",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kyotango.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "262145",
+  "municipality_name": "木津川市",
+  "contacts": [
+   {
+    "id": "262145-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0774-72-0501",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kizugawa.lg.jp/0000002081.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "263435",
+  "municipality_name": "井手町",
+  "contacts": [
+   {
+    "id": "263435-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0774-82-2001",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.ide.kyoto.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "263443",
+  "municipality_name": "宇治田原町",
+  "contacts": [
+   {
+    "id": "263443-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0774-88-2250",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.ujitawara.kyoto.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "264652",
+  "municipality_name": "与謝野町",
+  "contacts": [
+   {
+    "id": "264652-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0772-43-9000",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.yosano.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

@@ -10,7 +10,8 @@ export type ContactStatus =
   | 'unverified' // 未確認
   | 'review' // 要再確認
   | 'unavailable' // 公式連絡先が確認できない
-  | 'discontinued'; // 変更・廃止
+  | 'discontinued' // 変更・廃止
+  | 'auto_matched'; // 公式サイトと自動照合（代表電話だけ。人による確認の前）
 
 /** 1つの窓口 */
 export interface Contact {
@@ -25,6 +26,7 @@ export interface Contact {
   hours: string | null; // 受付時間
   source_url: string | null; // 公式出典URL
   verified_at: string | null; // 最終確認日（YYYY-MM-DD）
+  matched_at?: string | null; // 公式サイトと自動照合した日（auto_matched のときだけ。人が確かめた確認日ではない）
   status: ContactStatus;
   note?: string | null;
 }
@@ -93,11 +95,12 @@ export interface DataSummary {
   by_pref: Record<string, { pref: Coverage; municipalities: Coverage }>;
 }
 
-/** 機関・自治体の調査状況（total：全体、researched：窓口の記録あり、with_verified：公式確認済みの窓口が1つ以上） */
+/** 機関・自治体の調査状況（total：全体、researched：窓口の記録あり、with_verified：公式確認済みの窓口が1つ以上、with_shown：画面に出す窓口（確認済み・要再確認・自動照合）が1つ以上） */
 export interface Coverage {
   total: number;
   researched: number;
   with_verified: number;
+  with_shown: number;
 }
 
 // ---- 解説コンテンツ ----
@@ -235,7 +238,7 @@ export interface ScriptPart {
   edited: boolean;
 }
 
-/** 窓口検索から引き継いだ電話先（公式確認済み・要再確認の窓口だけ） */
+/** 窓口検索から引き継いだ電話先（公式確認済み・要再確認・公式サイトと自動照合の窓口だけ） */
 export interface CallTarget {
   contactId: string;
   org: string; // 機関・自治体の名前
@@ -248,8 +251,9 @@ export interface CallTarget {
   postalAddress: string | null;
   hours: string | null;
   sourceUrl: string;
-  verifiedAt: string;
-  status: 'verified' | 'review';
+  verifiedAt: string | null; // 最終確認日（自動照合の窓口は null）
+  matchedAt?: string | null; // 公式サイトと自動照合した日
+  status: 'verified' | 'review' | 'auto_matched';
 }
 
 /** 詳しい整理（台本作成画面のステップ②で任意入力） */

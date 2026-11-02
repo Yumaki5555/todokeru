@@ -49,5 +49,247 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "082074",
+  "municipality_name": "結城市",
+  "contacts": [
+   {
+    "id": "082074-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0296-32-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.yuki.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "082155",
+  "municipality_name": "北茨城市",
+  "contacts": [
+   {
+    "id": "082155-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0293-43-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kitaibaraki.lg.jp/docs/2020102100024/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "082171",
+  "municipality_name": "取手市",
+  "contacts": [
+   {
+    "id": "082171-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0297-74-2141",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.toride.ibaraki.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "082201",
+  "municipality_name": "つくば市",
+  "contacts": [
+   {
+    "id": "082201-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "029-883-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.tsukuba.lg.jp/kurashi/kotsu/1003898/index.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "082244",
+  "municipality_name": "守谷市",
+  "contacts": [
+   {
+    "id": "082244-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0297-45-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.moriya.ibaraki.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "082325",
+  "municipality_name": "神栖市",
+  "contacts": [
+   {
+    "id": "082325-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0299-90-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kamisu.ibaraki.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "082341",
+  "municipality_name": "鉾田市",
+  "contacts": [
+   {
+    "id": "082341-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0291-33-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.hokota.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "083020",
+  "municipality_name": "茨城町",
+  "contacts": [
+   {
+    "id": "083020-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "029-292-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.ibaraki.lg.jp/gyousei/gyousei/machiyakuba/index.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "083097",
+  "municipality_name": "大洗町",
+  "contacts": [
+   {
+    "id": "083097-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "029-267-5111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.oarai.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "083411",
+  "municipality_name": "東海村",
+  "contacts": [
+   {
+    "id": "083411-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "029-282-1711",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.vill.tokai.ibaraki.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "085219",
+  "municipality_name": "八千代町",
+  "contacts": [
+   {
+    "id": "085219-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0296-48-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.ibaraki-yachiyo.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

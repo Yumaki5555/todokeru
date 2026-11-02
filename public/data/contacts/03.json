@@ -49,5 +49,159 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "032158",
+  "municipality_name": "奥州市",
+  "contacts": [
+   {
+    "id": "032158-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0197-24-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.oshu.iwate.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "033014",
+  "municipality_name": "雫石町",
+  "contacts": [
+   {
+    "id": "033014-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "019-692-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.shizukuishi.iwate.jp/inquiry/1/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "033031",
+  "municipality_name": "岩手町",
+  "contacts": [
+   {
+    "id": "033031-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0195-62-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://town.iwate.iwate.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "033219",
+  "municipality_name": "紫波町",
+  "contacts": [
+   {
+    "id": "033219-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "019-672-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.shiwa.iwate.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "034410",
+  "municipality_name": "住田町",
+  "contacts": [
+   {
+    "id": "034410-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0192-46-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.sumita.iwate.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "034835",
+  "municipality_name": "岩泉町",
+  "contacts": [
+   {
+    "id": "034835-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0194-22-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.iwaizumi.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "035033",
+  "municipality_name": "野田村",
+  "contacts": [
+   {
+    "id": "035033-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0194-78-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.vill.noda.iwate.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

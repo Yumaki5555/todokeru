@@ -49,5 +49,269 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "022012",
+  "municipality_name": "青森市",
+  "contacts": [
+   {
+    "id": "022012-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "017-734-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.aomori.aomori.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "022021",
+  "municipality_name": "弘前市",
+  "contacts": [
+   {
+    "id": "022021-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0172-35-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.hirosaki.aomori.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "022039",
+  "municipality_name": "八戸市",
+  "contacts": [
+   {
+    "id": "022039-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0178-43-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.hachinohe.aomori.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "022055",
+  "municipality_name": "五所川原市",
+  "contacts": [
+   {
+    "id": "022055-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0173-35-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.goshogawara.lg.jp/jouhou/other/officemap.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "022063",
+  "municipality_name": "十和田市",
+  "contacts": [
+   {
+    "id": "022063-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0176-23-5111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.towada.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "022071",
+  "municipality_name": "三沢市",
+  "contacts": [
+   {
+    "id": "022071-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0176-53-5111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.misawa.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "023078",
+  "municipality_name": "外ヶ浜町",
+  "contacts": [
+   {
+    "id": "023078-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0174-31-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.sotogahama.lg.jp/toiawase.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "024015",
+  "municipality_name": "野辺地町",
+  "contacts": [
+   {
+    "id": "024015-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0175-64-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.noheji.aomori.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "024082",
+  "municipality_name": "東北町",
+  "contacts": [
+   {
+    "id": "024082-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0176-56-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.tohoku.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "024121",
+  "municipality_name": "おいらせ町",
+  "contacts": [
+   {
+    "id": "024121-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0178-56-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.oirase.aomori.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "024422",
+  "municipality_name": "五戸町",
+  "contacts": [
+   {
+    "id": "024422-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0178-62-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.gonohe.aomori.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "024465",
+  "municipality_name": "階上町",
+  "contacts": [
+   {
+    "id": "024465-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0178-88-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.hashikami.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

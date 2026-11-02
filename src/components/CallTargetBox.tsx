@@ -2,7 +2,7 @@
 // 電話の台本とメールの文面で同じ窓口を使う（kind で見出しや案内の言葉だけ変える）
 import { useEffect, useState } from 'react';
 import type { CallTarget, Contact, IconName } from '../types';
-import { CONTACT_TYPE_INFO, STATUS_LABEL } from '../data/labels';
+import { AUTO_MATCHED_NOTE, CONTACT_TYPE_INFO, STATUS_LABEL } from '../data/labels';
 import { findContact } from '../data/loaders';
 import { isDisplayable } from '../data/validate';
 import type { DraftUpdate } from '../lib/callDraft';
@@ -25,8 +25,9 @@ export function toCallTarget(org: string, c: Contact): CallTarget {
     postalAddress: c.postal_address,
     hours: c.hours,
     sourceUrl: c.source_url!,
-    verifiedAt: c.verified_at!,
-    status: c.status === 'review' ? 'review' : 'verified',
+    verifiedAt: c.verified_at,
+    matchedAt: c.matched_at ?? null,
+    status: c.status === 'review' || c.status === 'auto_matched' ? c.status : 'verified',
   };
 }
 
@@ -104,6 +105,7 @@ export function CallTargetBox({ target, state, kind = 'phone' }: { target: CallT
             <span className={'badge ' + (target.status === 'verified' ? 'badge-main' : 'badge-warn')}>{STATUS_LABEL[target.status]}</span>
           </p>
           {target.status === 'review' && <p className="contact-warn">情報が変わっている可能性があります。公式ページで確かめてください。</p>}
+          {target.status === 'auto_matched' && <p className="contact-warn">{AUTO_MATCHED_NOTE}</p>}
           {kind === 'mail' ? (
             <MailWays target={target} />
           ) : (
@@ -127,7 +129,7 @@ export function CallTargetBox({ target, state, kind = 'phone' }: { target: CallT
                 <span className="sr-only">（外部サイト）</span>
               </a>
             </span>
-            <span>最終確認日：{formatDate(target.verifiedAt)}</span>
+            <span>{target.status === 'auto_matched' ? `照合日：${formatDate(target.matchedAt!)}` : `最終確認日：${formatDate(target.verifiedAt!)}`}</span>
           </p>
           <p className="call-target-change">
             <a href={contactsHref(target.contactId)}>{w.change}</a>

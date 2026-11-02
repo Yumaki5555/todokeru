@@ -49,5 +49,423 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "271004",
+  "municipality_name": "大阪市",
+  "contacts": [
+   {
+    "id": "271004-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "06-6208-8181",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.osaka.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "272027",
+  "municipality_name": "岸和田市",
+  "contacts": [
+   {
+    "id": "272027-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "072-423-2121",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kishiwada.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "272035",
+  "municipality_name": "豊中市",
+  "contacts": [
+   {
+    "id": "272035-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "06-6858-2525",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.toyonaka.osaka.jp/shigikai/index.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "272043",
+  "municipality_name": "池田市",
+  "contacts": [
+   {
+    "id": "272043-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "072-752-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.ikeda.osaka.jp/soshiki/sogoseisaku/hishokoho/shisetsu/1415929740592.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "272051",
+  "municipality_name": "吹田市",
+  "contacts": [
+   {
+    "id": "272051-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "06-6384-1231",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.suita.osaka.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "272060",
+  "municipality_name": "泉大津市",
+  "contacts": [
+   {
+    "id": "272060-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0725-33-1131",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.izumiotsu.lg.jp/izumiotsunabi/genzainoizumiotsu/siyakusyo.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "272086",
+  "municipality_name": "貝塚市",
+  "contacts": [
+   {
+    "id": "272086-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "072-423-2151",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kaizuka.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "272116",
+  "municipality_name": "茨木市",
+  "contacts": [
+   {
+    "id": "272116-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "072-622-8121",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.ibaraki.osaka.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "272141",
+  "municipality_name": "富田林市",
+  "contacts": [
+   {
+    "id": "272141-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0721-25-1000",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.tondabayashi.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "272159",
+  "municipality_name": "寝屋川市",
+  "contacts": [
+   {
+    "id": "272159-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "072-824-1181",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.neyagawa.osaka.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "272167",
+  "municipality_name": "河内長野市",
+  "contacts": [
+   {
+    "id": "272167-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0721-53-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kawachinagano.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "272183",
+  "municipality_name": "大東市",
+  "contacts": [
+   {
+    "id": "272183-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "072-872-2181",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.daito.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "272191",
+  "municipality_name": "和泉市",
+  "contacts": [
+   {
+    "id": "272191-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0725-41-1551",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.osaka-izumi.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "272205",
+  "municipality_name": "箕面市",
+  "contacts": [
+   {
+    "id": "272205-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "072-723-2121",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.minoh.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "272272",
+  "municipality_name": "東大阪市",
+  "contacts": [
+   {
+    "id": "272272-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "06-4309-3000",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.higashiosaka.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "272302",
+  "municipality_name": "交野市",
+  "contacts": [
+   {
+    "id": "272302-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "072-892-0121",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.katano.osaka.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "272329",
+  "municipality_name": "阪南市",
+  "contacts": [
+   {
+    "id": "272329-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "072-471-5678",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.hannan.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "273015",
+  "municipality_name": "島本町",
+  "contacts": [
+   {
+    "id": "273015-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "075-961-5151",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.shimamoto.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "273627",
+  "municipality_name": "田尻町",
+  "contacts": [
+   {
+    "id": "273627-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "072-466-1000",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.tajiri.osaka.jp/toppusita/otoiawase.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

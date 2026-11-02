@@ -49,5 +49,247 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "062014",
+  "municipality_name": "山形市",
+  "contacts": [
+   {
+    "id": "062014-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "023-641-1212",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.yamagata-yamagata.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "062022",
+  "municipality_name": "米沢市",
+  "contacts": [
+   {
+    "id": "062022-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0238-22-5111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.yonezawa.yamagata.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "062049",
+  "municipality_name": "酒田市",
+  "contacts": [
+   {
+    "id": "062049-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0234-22-5111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.sakata.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "063029",
+  "municipality_name": "中山町",
+  "contacts": [
+   {
+    "id": "063029-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "023-662-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.nakayama.yamagata.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "063215",
+  "municipality_name": "河北町",
+  "contacts": [
+   {
+    "id": "063215-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0237-73-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kahoku.yamagata.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "063231",
+  "municipality_name": "朝日町",
+  "contacts": [
+   {
+    "id": "063231-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0237-67-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.asahi.yamagata.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "063614",
+  "municipality_name": "金山町",
+  "contacts": [
+   {
+    "id": "063614-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0233-52-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kaneyama.yamagata.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "063827",
+  "municipality_name": "川西町",
+  "contacts": [
+   {
+    "id": "063827-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0238-42-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kawanishi.yamagata.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "064025",
+  "municipality_name": "白鷹町",
+  "contacts": [
+   {
+    "id": "064025-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0238-85-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.shirataka.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "064033",
+  "municipality_name": "飯豊町",
+  "contacts": [
+   {
+    "id": "064033-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0238-72-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.iide.yamagata.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "064262",
+  "municipality_name": "三川町",
+  "contacts": [
+   {
+    "id": "064262-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0235-66-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.mikawa.yamagata.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

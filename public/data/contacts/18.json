@@ -49,5 +49,137 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "182010",
+  "municipality_name": "福井市",
+  "contacts": [
+   {
+    "id": "182010-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0776-20-5111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.fukui.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "182028",
+  "municipality_name": "敦賀市",
+  "contacts": [
+   {
+    "id": "182028-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0770-21-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.tsuruga.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "182087",
+  "municipality_name": "あわら市",
+  "contacts": [
+   {
+    "id": "182087-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0776-73-1221",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.awara.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "183822",
+  "municipality_name": "池田町",
+  "contacts": [
+   {
+    "id": "183822-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0778-44-6000",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.ikeda.fukui.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "184047",
+  "municipality_name": "南越前町",
+  "contacts": [
+   {
+    "id": "184047-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0778-47-3000",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.minamiechizen.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "184811",
+  "municipality_name": "高浜町",
+  "contacts": [
+   {
+    "id": "184811-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0770-72-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.takahama.fukui.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

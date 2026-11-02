@@ -49,5 +49,181 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "172022",
+  "municipality_name": "七尾市",
+  "contacts": [
+   {
+    "id": "172022-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0767-53-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.nanao.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "172031",
+  "municipality_name": "小松市",
+  "contacts": [
+   {
+    "id": "172031-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0761-22-4111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.komatsu.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "172057",
+  "municipality_name": "珠洲市",
+  "contacts": [
+   {
+    "id": "172057-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0768-82-2222",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.suzu.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "172065",
+  "municipality_name": "加賀市",
+  "contacts": [
+   {
+    "id": "172065-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0761-72-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kaga.ishikawa.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "172103",
+  "municipality_name": "白山市",
+  "contacts": [
+   {
+    "id": "172103-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "076-276-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.hakusan.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "172120",
+  "municipality_name": "野々市市",
+  "contacts": [
+   {
+    "id": "172120-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "076-227-6000",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.nonoichi.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "173843",
+  "municipality_name": "志賀町",
+  "contacts": [
+   {
+    "id": "173843-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0767-32-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.shika.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "174611",
+  "municipality_name": "穴水町",
+  "contacts": [
+   {
+    "id": "174611-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0768-52-0300",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.anamizu.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

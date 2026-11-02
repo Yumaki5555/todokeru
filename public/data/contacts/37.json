@@ -49,5 +49,93 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "372030",
+  "municipality_name": "坂出市",
+  "contacts": [
+   {
+    "id": "372030-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0877-46-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.sakaide.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "372081",
+  "municipality_name": "三豊市",
+  "contacts": [
+   {
+    "id": "372081-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0875-73-3000",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.mitoyo.lg.jp",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "373869",
+  "municipality_name": "宇多津町",
+  "contacts": [
+   {
+    "id": "373869-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0877-49-0511",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.utazu.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "374032",
+  "municipality_name": "琴平町",
+  "contacts": [
+   {
+    "id": "374032-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0877-75-6700",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kotohira.kagawa.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

@@ -49,5 +49,159 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "332046",
+  "municipality_name": "玉野市",
+  "contacts": [
+   {
+    "id": "332046-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0863-32-5588",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.tamano.lg.jp/life/4/21/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "332054",
+  "municipality_name": "笠岡市",
+  "contacts": [
+   {
+    "id": "332054-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0865-69-2121",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kasaoka.okayama.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "332071",
+  "municipality_name": "井原市",
+  "contacts": [
+   {
+    "id": "332071-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0866-62-9500",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.ibara.okayama.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "332089",
+  "municipality_name": "総社市",
+  "contacts": [
+   {
+    "id": "332089-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0866-92-8200",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.soja.okayama.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "332101",
+  "municipality_name": "新見市",
+  "contacts": [
+   {
+    "id": "332101-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0867-72-6111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.niimi.okayama.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "332127",
+  "municipality_name": "瀬戸内市",
+  "contacts": [
+   {
+    "id": "332127-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0869-22-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.setouchi.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "333468",
+  "municipality_name": "和気町",
+  "contacts": [
+   {
+    "id": "333468-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0869-93-1121",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.wake.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

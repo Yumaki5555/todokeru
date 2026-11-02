@@ -49,5 +49,467 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "401307",
+  "municipality_name": "福岡市",
+  "contacts": [
+   {
+    "id": "401307-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "092-711-4111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.fukuoka.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "402028",
+  "municipality_name": "大牟田市",
+  "contacts": [
+   {
+    "id": "402028-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0944-41-2222",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.omuta.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "402036",
+  "municipality_name": "久留米市",
+  "contacts": [
+   {
+    "id": "402036-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0942-30-9000",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kurume.fukuoka.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "402109",
+  "municipality_name": "八女市",
+  "contacts": [
+   {
+    "id": "402109-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0943-23-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.yame.fukuoka.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "402125",
+  "municipality_name": "大川市",
+  "contacts": [
+   {
+    "id": "402125-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0944-87-2101",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.okawa.lg.jp/index.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "402133",
+  "municipality_name": "行橋市",
+  "contacts": [
+   {
+    "id": "402133-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0930-25-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.yukuhashi.fukuoka.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "402150",
+  "municipality_name": "中間市",
+  "contacts": [
+   {
+    "id": "402150-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "093-244-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.nakama.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "402176",
+  "municipality_name": "筑紫野市",
+  "contacts": [
+   {
+    "id": "402176-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "092-923-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.chikushino.fukuoka.jp/index.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "402184",
+  "municipality_name": "春日市",
+  "contacts": [
+   {
+    "id": "402184-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "092-584-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kasuga.fukuoka.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "402231",
+  "municipality_name": "古賀市",
+  "contacts": [
+   {
+    "id": "402231-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "092-942-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.koga.fukuoka.jp/question/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "402249",
+  "municipality_name": "福津市",
+  "contacts": [
+   {
+    "id": "402249-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0940-42-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.fukutsu.lg.jp/3256.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "402265",
+  "municipality_name": "宮若市",
+  "contacts": [
+   {
+    "id": "402265-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0949-32-0510",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.miyawaka.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "402303",
+  "municipality_name": "糸島市",
+  "contacts": [
+   {
+    "id": "402303-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "092-323-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.itoshima.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "403431",
+  "municipality_name": "志免町",
+  "contacts": [
+   {
+    "id": "403431-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "092-935-1001",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.shime.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "403440",
+  "municipality_name": "須恵町",
+  "contacts": [
+   {
+    "id": "403440-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "092-932-1151",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.sue.fukuoka.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "403831",
+  "municipality_name": "岡垣町",
+  "contacts": [
+   {
+    "id": "403831-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "093-282-1211",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.okagaki.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "405442",
+  "municipality_name": "広川町",
+  "contacts": [
+   {
+    "id": "405442-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0943-32-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.hirokawa.fukuoka.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "406040",
+  "municipality_name": "糸田町",
+  "contacts": [
+   {
+    "id": "406040-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0947-26-1231",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.itoda.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "406422",
+  "municipality_name": "吉富町",
+  "contacts": [
+   {
+    "id": "406422-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0979-24-1122",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.yoshitomi.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "406465",
+  "municipality_name": "上毛町",
+  "contacts": [
+   {
+    "id": "406465-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0979-72-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.koge.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "406473",
+  "municipality_name": "築上町",
+  "contacts": [
+   {
+    "id": "406473-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0930-56-0300",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.chikujo.fukuoka.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

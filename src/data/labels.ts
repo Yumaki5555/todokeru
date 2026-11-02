@@ -30,7 +30,11 @@ export const STATUS_LABEL: Record<ContactStatus, string> = {
   review: '要再確認',
   unavailable: '公式連絡先が確認できない',
   discontinued: '変更・廃止',
+  auto_matched: '公式サイトと自動照合',
 };
+
+/** 自動照合の窓口に添える注意 */
+export const AUTO_MATCHED_NOTE = '公式サイトに書かれた番号を機械で照合したものです。人による確認の前のため、公式ページでも確かめてください。';
 
 export const AGENCY_CATEGORY_LABEL: Record<AgencyCategory, string> = {
   cabinet: '内閣に置かれる機関',

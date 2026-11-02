@@ -1120,5 +1120,511 @@
     "note": null
    }
   ]
+ },
+ {
+  "municipality_code": "131229",
+  "municipality_name": "葛飾区",
+  "contacts": [
+   {
+    "id": "131229-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "03-3695-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.katsushika.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "131237",
+  "municipality_name": "江戸川区",
+  "contacts": [
+   {
+    "id": "131237-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "03-3652-1151",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.edogawa.tokyo.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "132012",
+  "municipality_name": "八王子市",
+  "contacts": [
+   {
+    "id": "132012-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "042-626-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.hachioji.tokyo.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "132021",
+  "municipality_name": "立川市",
+  "contacts": [
+   {
+    "id": "132021-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "042-523-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.tachikawa.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "132039",
+  "municipality_name": "武蔵野市",
+  "contacts": [
+   {
+    "id": "132039-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0422-51-5131",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.musashino.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "132047",
+  "municipality_name": "三鷹市",
+  "contacts": [
+   {
+    "id": "132047-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0422-45-1151",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.mitaka.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "132055",
+  "municipality_name": "青梅市",
+  "contacts": [
+   {
+    "id": "132055-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0428-22-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.ome.tokyo.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "132063",
+  "municipality_name": "府中市",
+  "contacts": [
+   {
+    "id": "132063-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "042-364-4111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.fuchu.tokyo.jp/shisetu/chosha/index.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "132098",
+  "municipality_name": "町田市",
+  "contacts": [
+   {
+    "id": "132098-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "042-722-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.machida.tokyo.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "132101",
+  "municipality_name": "小金井市",
+  "contacts": [
+   {
+    "id": "132101-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "042-383-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.koganei.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "132110",
+  "municipality_name": "小平市",
+  "contacts": [
+   {
+    "id": "132110-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "042-341-1211",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kodaira.tokyo.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "132128",
+  "municipality_name": "日野市",
+  "contacts": [
+   {
+    "id": "132128-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "042-585-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.hino.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "132144",
+  "municipality_name": "国分寺市",
+  "contacts": [
+   {
+    "id": "132144-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "042-325-0111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kokubunji.tokyo.jp/shisetsu/shikanren/shiyakusyo/shiyakusyo.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "132187",
+  "municipality_name": "福生市",
+  "contacts": [
+   {
+    "id": "132187-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "042-551-1511",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.fussa.tokyo.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "132195",
+  "municipality_name": "狛江市",
+  "contacts": [
+   {
+    "id": "132195-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "03-3430-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.komae.tokyo.jp/index.cfm/41,876,324,2026,html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "132217",
+  "municipality_name": "清瀬市",
+  "contacts": [
+   {
+    "id": "132217-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "042-492-5111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kiyose.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "132225",
+  "municipality_name": "東久留米市",
+  "contacts": [
+   {
+    "id": "132225-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "042-470-7777",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.higashikurume.lg.jp/shisetsu/shikanren/shiyakusho/1002029.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "132233",
+  "municipality_name": "武蔵村山市",
+  "contacts": [
+   {
+    "id": "132233-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "042-565-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.musashimurayama.lg.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "132276",
+  "municipality_name": "羽村市",
+  "contacts": [
+   {
+    "id": "132276-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "042-555-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.hamura.tokyo.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "132284",
+  "municipality_name": "あきる野市",
+  "contacts": [
+   {
+    "id": "132284-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "042-558-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.akiruno.tokyo.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "133035",
+  "municipality_name": "瑞穂町",
+  "contacts": [
+   {
+    "id": "133035-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "042-557-0501",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.mizuho.tokyo.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "133086",
+  "municipality_name": "奥多摩町",
+  "contacts": [
+   {
+    "id": "133086-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "0428-83-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.okutama.tokyo.jp/1/somuka/koho_kocho/994.html",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
+ },
+ {
+  "municipality_code": "133825",
+  "municipality_name": "御蔵島村",
+  "contacts": [
+   {
+    "id": "133825-general",
+    "type": "general",
+    "department": "代表電話",
+    "phone": "04994-8-2121",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.vill.mikurasima.tokyo.jp/",
+    "verified_at": null,
+    "matched_at": "2026-11-02",
+    "status": "auto_matched",
+    "note": null
+   }
+  ]
  }
 ]

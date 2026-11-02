@@ -1,36 +1,40 @@
 {
- "generated_at": "2026-11-01",
+ "generated_at": "2026-11-02",
  "entities": {
   "agencies": 22,
   "prefectures": 47,
   "municipalities": 1741
  },
  "contacts": {
-  "total": 246,
+  "total": 766,
   "verified": 241,
   "by_status": {
    "verified": 241,
    "unverified": 4,
    "review": 0,
    "unavailable": 1,
-   "discontinued": 0
+   "discontinued": 0,
+   "auto_matched": 520
   }
  },
  "coverage": {
   "agencies": {
    "total": 22,
    "researched": 22,
-   "with_verified": 22
+   "with_verified": 22,
+   "with_shown": 22
   },
   "prefectures": {
    "total": 47,
    "researched": 47,
-   "with_verified": 46
+   "with_verified": 46,
+   "with_shown": 46
   },
   "municipalities": {
    "total": 1741,
-   "researched": 21,
-   "with_verified": 21
+   "researched": 541,
+   "with_verified": 21,
+   "with_shown": 541
   }
  },
  "by_pref": {
@@ -38,564 +42,658 @@
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 35,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 9,
+    "with_verified": 0,
+    "with_shown": 9
    }
   },
   "11": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 63,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 34,
+    "with_verified": 0,
+    "with_shown": 34
    }
   },
   "12": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 54,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 26,
+    "with_verified": 0,
+    "with_shown": 26
    }
   },
   "13": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 62,
-    "researched": 21,
-    "with_verified": 21
+    "researched": 44,
+    "with_verified": 21,
+    "with_shown": 44
    }
   },
   "14": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 33,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 13,
+    "with_verified": 0,
+    "with_shown": 13
    }
   },
   "15": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 30,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 14,
+    "with_verified": 0,
+    "with_shown": 14
    }
   },
   "16": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 15,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 5,
+    "with_verified": 0,
+    "with_shown": 5
    }
   },
   "17": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 19,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 8,
+    "with_verified": 0,
+    "with_shown": 8
    }
   },
   "18": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 17,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 6,
+    "with_verified": 0,
+    "with_shown": 6
    }
   },
   "19": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 27,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 8,
+    "with_verified": 0,
+    "with_shown": 8
    }
   },
   "20": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 77,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 23,
+    "with_verified": 0,
+    "with_shown": 23
    }
   },
   "21": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 42,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 9,
+    "with_verified": 0,
+    "with_shown": 9
    }
   },
   "22": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 35,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 13,
+    "with_verified": 0,
+    "with_shown": 13
    }
   },
   "23": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 54,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 5,
+    "with_verified": 0,
+    "with_shown": 5
    }
   },
   "24": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 29,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 5,
+    "with_verified": 0,
+    "with_shown": 5
    }
   },
   "25": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 19,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 9,
+    "with_verified": 0,
+    "with_shown": 9
    }
   },
   "26": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 26,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 10,
+    "with_verified": 0,
+    "with_shown": 10
    }
   },
   "27": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 43,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 19,
+    "with_verified": 0,
+    "with_shown": 19
    }
   },
   "28": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 41,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 20,
+    "with_verified": 0,
+    "with_shown": 20
    }
   },
   "29": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 0
+    "with_verified": 0,
+    "with_shown": 0
    },
    "municipalities": {
     "total": 39,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 13,
+    "with_verified": 0,
+    "with_shown": 13
    }
   },
   "30": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 30,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 10,
+    "with_verified": 0,
+    "with_shown": 10
    }
   },
   "31": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 19,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 3,
+    "with_verified": 0,
+    "with_shown": 3
    }
   },
   "32": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 19,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 7,
+    "with_verified": 0,
+    "with_shown": 7
    }
   },
   "33": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 27,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 7,
+    "with_verified": 0,
+    "with_shown": 7
    }
   },
   "34": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 23,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 9,
+    "with_verified": 0,
+    "with_shown": 9
    }
   },
   "35": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 19,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 7,
+    "with_verified": 0,
+    "with_shown": 7
    }
   },
   "36": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 24,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 7,
+    "with_verified": 0,
+    "with_shown": 7
    }
   },
   "37": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 17,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 4,
+    "with_verified": 0,
+    "with_shown": 4
    }
   },
   "38": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 20,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 9,
+    "with_verified": 0,
+    "with_shown": 9
    }
   },
   "39": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 34,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 6,
+    "with_verified": 0,
+    "with_shown": 6
    }
   },
   "40": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 60,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 21,
+    "with_verified": 0,
+    "with_shown": 21
    }
   },
   "41": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 20,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 3,
+    "with_verified": 0,
+    "with_shown": 3
    }
   },
   "42": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 21,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 5,
+    "with_verified": 0,
+    "with_shown": 5
    }
   },
   "43": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 45,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 7,
+    "with_verified": 0,
+    "with_shown": 7
    }
   },
   "44": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 18,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 7,
+    "with_verified": 0,
+    "with_shown": 7
    }
   },
   "45": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 26,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 4,
+    "with_verified": 0,
+    "with_shown": 4
    }
   },
   "46": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 43,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 11,
+    "with_verified": 0,
+    "with_shown": 11
    }
   },
   "47": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 41,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 10,
+    "with_verified": 0,
+    "with_shown": 10
    }
   },
   "01": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 179,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 34,
+    "with_verified": 0,
+    "with_shown": 34
    }
   },
   "02": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 40,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 12,
+    "with_verified": 0,
+    "with_shown": 12
    }
   },
   "03": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 33,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 7,
+    "with_verified": 0,
+    "with_shown": 7
    }
   },
   "04": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 35,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 12,
+    "with_verified": 0,
+    "with_shown": 12
    }
   },
   "05": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 25,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 5,
+    "with_verified": 0,
+    "with_shown": 5
    }
   },
   "06": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 35,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 11,
+    "with_verified": 0,
+    "with_shown": 11
    }
   },
   "07": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 59,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 12,
+    "with_verified": 0,
+    "with_shown": 12
    }
   },
   "08": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 44,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 11,
+    "with_verified": 0,
+    "with_shown": 11
    }
   },
   "09": {
    "pref": {
     "total": 1,
     "researched": 1,
-    "with_verified": 1
+    "with_verified": 1,
+    "with_shown": 1
    },
    "municipalities": {
     "total": 25,
-    "researched": 0,
-    "with_verified": 0
+    "researched": 7,
+    "with_verified": 0,
+    "with_shown": 7
    }
   }
  }

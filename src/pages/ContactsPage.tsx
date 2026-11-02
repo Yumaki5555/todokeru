@@ -345,7 +345,7 @@ function AreaPicker({
         {pref && (
           <p className="field-hint">
             {pref.name}の市区町村：{munis.length}
-            {cov && `（連絡先を掲載中：${cov.with_verified}）`}
+            {cov && `（連絡先を掲載中：${cov.with_shown}）`}
           </p>
         )}
       </div>

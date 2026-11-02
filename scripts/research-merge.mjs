@@ -379,6 +379,7 @@ for (const [file, items] of results) {
         changes.push({ date: today, batch: batchId, id: nc.id, change: 'added', status: nc.status });
         continue;
       }
+      if (old.status === 'auto_matched' && nc.status !== 'verified') continue; // 自動照合の代表電話は、公式確認できたときだけ置きかえる
       const diff = {};
       for (const k of SAME_KEYS) if ((old[k] ?? null) !== (nc[k] ?? null)) diff[k] = [old[k] ?? null, nc[k] ?? null];
       if ((old.status === 'verified' || old.status === 'review') && nc.status !== 'verified' && nc.status !== 'unavailable') {

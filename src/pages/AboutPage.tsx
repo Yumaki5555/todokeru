@@ -42,6 +42,7 @@ function ContactCoverage() {
       {`公式確認済みの連絡先がある機関・自治体は、都道府県 ${c.prefectures.with_verified}／${c.prefectures.total}、`}
       {`国の機関 ${c.agencies.with_verified}／${c.agencies.total}、`}
       {`市区町村 ${c.municipalities.with_verified.toLocaleString()}／${c.municipalities.total.toLocaleString()}です。`}
+      {s.contacts.by_status.auto_matched > 0 && `このほか、公式サイトと自動照合した代表電話が ${s.contacts.by_status.auto_matched.toLocaleString()}件あります。`}
       市区町村は、都道府県ごとに順に調べて追加していきます。
     </li>
   );
@@ -106,6 +107,9 @@ export function AboutPage() {
                     掲載する前に、出典ページを開き直し、電話番号・メールアドレス・住所などが実際にそのページに書かれているかを照合しています。照合できなかった項目は載せません。
                   </li>
                   <li>自動で開けないページ（アクセス制限など）は、ブラウザで直接確かめ、その記録を残しています。</li>
+                  <li>
+                    市区町村の代表電話の一部は、公式サイトに「市役所・役場の代表」と書かれた番号を機械で照合したものです。人による確認の前のため「公式サイトと自動照合」と表示し、最終確認日の代わりに照合した日を出します。
+                  </li>
                   <li>代表電話の番号を、広聴や議会事務局の番号として使い回すことはしません。職員個人や議員個人の連絡先は扱いません。</li>
                   <ContactCoverage />
                 </ul>

@@ -3950,14 +3950,32 @@ p.mail-label {
   overflow-wrap: anywhere;
 }
 
-/* 郵送：印刷する手紙。画面には出さず、印刷するときだけ、ほかを消して手紙だけを A4 の紙に出す */
+/* 郵送：差出人の欄（届け方で「郵送」を選んだときだけ出る） */
+.sender-fields {
+  margin-top: 14px;
+}
+
+.sender-fields > .field-hint {
+  margin: 0 0 6px;
+}
+
+/* 郵送：手紙の最後の「以上」（印刷と同じく右に寄せる） */
+.mail-end {
+  margin: 6px 4px 0 0;
+  font-weight: 700;
+  text-align: right;
+}
+
+/* 郵送：印刷する手紙。画面には出さず、印刷するときだけ、ほかを消して手紙だけを A4 の紙に出す。
+   余白は紙の外側（@page）ではなく手紙の内側に持たせる。印刷の画面で「余白：なし」を選んでいても文字が紙のはしに寄らず、
+   紙のはしにサイトのアドレスなど（ヘッダーとフッター）も入らない。2枚目以降も上下に余白をつける（clone） */
 .letter-sheet {
   display: none;
 }
 
 @page letter {
   size: A4 portrait;
-  margin: 20mm 22mm;
+  margin: 0;
 }
 
 @media print {
@@ -3972,7 +3990,11 @@ p.mail-label {
   .letter-sheet {
     display: block;
     page: letter;
+    padding: 30mm 25mm 25mm;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
     color: #000;
+    font-family: 'Yu Mincho', 'YuMincho', 'Hiragino Mincho ProN', 'Noto Serif JP', 'Noto Serif CJK JP', 'MS PMincho', serif;
     font-size: 10.5pt;
     line-height: 1.8;
   }
@@ -3988,7 +4010,36 @@ p.mail-label {
   }
 
   .letter-address {
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
+  }
+
+  /* 差出人は宛先の下、右に寄せる（行の頭はそろえる） */
+  .letter-sender {
+    width: fit-content;
+    max-width: 62%;
+    margin: 0 0 2em auto;
+  }
+
+  /* 差出人が空のとき：手書きで書き込む線 */
+  .letter-blank {
+    width: 78mm;
+    line-height: 2.6;
+  }
+
+  .letter-blank > div {
+    display: flex;
+    gap: 0.5em;
+  }
+
+  .letter-blank dt {
+    flex: none;
+    width: 2.5em;
+  }
+
+  .letter-blank dd {
+    flex: 1;
+    margin: 0;
+    border-bottom: 0.5pt solid #000;
   }
 
   .letter-subject {
@@ -3998,9 +4049,8 @@ p.mail-label {
     text-align: center;
   }
 
-  /* 差出人は右に寄せる（手紙の終わりの名前） */
-  .letter-signature {
-    margin-top: 2em;
+  .letter-end {
+    margin: 1.5em 0 0;
     text-align: right;
   }
 }

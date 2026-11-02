@@ -146,26 +146,41 @@ describe('郵送（手紙）', () => {
     for (const t of [target(koto), target({ department: 'ご意見・ご要望' })]) expect(postAddressee(t)).not.toContain('ご担当者様');
   });
 
-  it('日付・宛先のあとに件名を置き、終わりは「差出人」。メールの宛名は入れない', () => {
+  it('日付・宛先・差出人のあとに件名を置き、最後は「以上」。メールの宛名・署名は入れない', () => {
     vi.useFakeTimers({ toFake: ['Date'] });
     vi.setSystemTime(new Date(2026, 10, 2, 10, 0));
-    const { subject, body } = buildMail(draft({ target: target(koto) }), mail({ method: 'post', name: '山田花子', area: '江東区' }));
+    const m = mail({ method: 'post', name: '山田花子', area: '江東区', postal: '〒135-0016', address: '東京都江東区東陽1-2-3', contact: '03-1234-5678' });
+    const { subject, body } = buildMail(draft({ target: target(koto) }), m);
     const parts = letterParts(subject, body);
-    expect(parts.map((p) => p.key)).toEqual(['date', 'address', 'subject', 'greeting', 'main', 'request', 'closing', 'signature']);
-    expect(parts.map((p) => p.label)).toEqual(['日付', '宛先', '件名', 'あいさつ', '本題', 'お願い', '結び', '差出人']);
+    expect(parts.map((p) => p.key)).toEqual(['date', 'address', 'sender', 'subject', 'greeting', 'main', 'request', 'closing']);
+    expect(parts.map((p) => p.label)).toEqual(['日付', '宛先', '差出人', '件名', 'あいさつ', '本題', 'お願い', '結び']);
     expect(letterText(parts)).toBe(
       [
         '2026年11月2日',
         '〒135-8383\n東京都江東区東陽4-11-28\n江東区\n広聴課 御中',
+        '〒135-0016\n東京都江東区東陽1-2-3\n山田花子\n電話 03-1234-5678',
         '【意見】A計画について',
         '突然のご連絡失礼いたします。\n江東区に住んでいる山田花子と申します。',
         'A計画について、懸念があります。',
         '意見として記録していただけますよう、お願いいたします。',
         'お忙しいところ恐れ入りますが、よろしくお願いいたします。',
-        '山田花子\n江東区在住',
+        '以上',
       ].join('\n\n'),
     );
     expect(letterDate(new Date(2027, 0, 9))).toBe('2027年1月9日');
+  });
+
+  it('差出人は入れた分だけ。住所がなければ「○○在住」、連絡先には「電話」「メール」を足す。何もなければ空でも欄は残す', () => {
+    const sender = (p: Partial<MailDraft>) => mailAutoText(draft(), mail({ method: 'post', ...p }), 'sender');
+    expect(sender({ name: '山田', area: '江東区' })).toBe('江東区在住\n山田');
+    expect(sender({ name: '山田', contact: 'yamada@example.jp' })).toBe('山田\nメール yamada@example.jp');
+    expect(sender({ name: '山田', contact: 'TEL 03-1234-5678' })).toBe('山田\nTEL 03-1234-5678');
+    expect(sender({})).toBe('');
+    const { subject, body } = buildMail(draft({ target: target(koto) }), mail({ method: 'post' }));
+    const parts = letterParts(subject, body);
+    expect(parts.find((p) => p.key === 'sender')).toMatchObject({ text: '', label: '差出人' });
+    // 空の差出人はコピーした文面には入れない
+    expect(letterText(parts)).toMatch(/広聴課 御中\n\n【意見】A計画について/);
   });
 
   it('メールで直した宛名は手紙に使わない。件名・本題などの書き直しは共通で、件名は1行にする', () => {

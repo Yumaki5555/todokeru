@@ -299,8 +299,8 @@ export type MailMethod = 'mail' | 'form' | 'post';
 /** 返信の希望。unset（指定しない）のときは文に入れない */
 export type MailReply = 'unset' | 'want' | 'none';
 
-/** 文面の部分（件名と、本文の上から順）。date（日付）・address（住所つきの宛先）は手紙だけ */
-export type MailPartKey = 'subject' | 'date' | 'to' | 'address' | 'greeting' | 'main' | 'request' | 'closing' | 'signature';
+/** 文面の部分（件名と、本文の上から順）。date（日付）・address（住所つきの宛先）・sender（差出人）は手紙だけ、signature（署名）はメール・フォームだけ */
+export type MailPartKey = 'subject' | 'date' | 'to' | 'address' | 'sender' | 'greeting' | 'main' | 'request' | 'closing' | 'signature';
 
 export interface MailPart {
   key: MailPartKey;
@@ -318,6 +318,9 @@ export interface MailDraft {
   method: MailMethod;
   name: string; // 名前（任意）
   area: string; // 住んでいる市区町村（任意）
+  postal: string; // 手紙の差出人：郵便番号（任意）
+  address: string; // 手紙の差出人：住所（任意）
+  contact: string; // 手紙の差出人：電話番号かメールアドレス（任意）
   reply: MailReply;
   /** 書き直した文（目的ごと。電話の台本で直した文とは別） */
   edits: Partial<Record<CallPurpose, Partial<Record<MailPartKey, string>>>>;

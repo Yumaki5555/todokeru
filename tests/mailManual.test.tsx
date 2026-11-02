@@ -4,7 +4,7 @@ import { fireEvent, render, screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { App } from '../src/App';
 import { FIRST_SAMPLE, MAIL_CHAPTERS } from '../src/content/mailManual';
-import { EMPTY_MAIL, addressee, mailAutoText, postAddressee } from '../src/content/mailText';
+import { EMPTY_MAIL, LETTER_END, addressee, mailAutoText, postAddressee } from '../src/content/mailText';
 import { EMPTY_DRAFT } from '../src/content/callScript';
 import { PHONE_CHAPTERS } from '../src/content/phoneManual';
 import { sampleText } from '../src/lib/text';
@@ -143,6 +143,10 @@ describe('メール・フォーム・郵送：詳しいマニュアル', () => {
     const text = (s: ManualSample, label: string) => s.parts.find((p) => p.label === label)!.text;
     expect(text(mail, '宛名')).toBe(addressee(t));
     expect(text(post, '宛先')).toBe(postAddressee(t));
+    expect(text(post, '差出人')).toBe(
+      mailAutoText(draft, { ...named, method: 'post', postal: '○○○-○○○○', address: '○○県○○市○○町○-○', contact: '○○-○○○○-○○○○' }, 'sender'),
+    );
+    expect(text(post, '終わり')).toBe(LETTER_END);
     expect(text(mail, 'あいさつ')).toBe(mailAutoText(draft, named, 'greeting'));
     expect(text(mail, '署名')).toBe(mailAutoText(draft, named, 'signature'));
     expect(text(mail, '結び')).toBe(mailAutoText(draft, EMPTY_MAIL, 'closing'));

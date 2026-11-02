@@ -1,6 +1,7 @@
 // メール・フォーム・郵送の文面を作る：電話の台本と同じ入力（目的・何について・理由・詳しく整理）から、件名と本文を組み立てる
 // 本題は電話と同じ組み立て（callScript.ts・deepDive.ts）を使い、件名・宛名・名乗り・お願い・結び・署名を足す。
-// 郵送（手紙）は、宛名の代わりに日付と住所つきの宛先を入れ、件名は宛先のあとに置く（印刷の形に合わせる）。
+// 郵送（手紙）は、宛名の代わりに日付と住所つきの宛先を入れ、署名の代わりに差出人（自分の住所・名前・連絡先）を宛先の下に置く。
+// 件名はそのあと、最後は「以上」で終える（役所に出す文書の形。印刷の形に合わせる）。
 import type { CallDraft, CallPurpose, CallTarget, IconName, MailDraft, MailMethod, MailPart, MailPartKey, MailReply } from '../types';
 import { topicText, wantsRecord } from './callScript';
 import { detailedMain } from './deepDive';
@@ -22,6 +23,7 @@ export const MAIL_PART_LABEL: Record<MailPartKey, string> = {
   date: '日付',
   to: '宛名',
   address: '宛先',
+  sender: '差出人',
   greeting: 'あいさつ',
   main: '本題',
   request: 'お願い',
@@ -29,13 +31,13 @@ export const MAIL_PART_LABEL: Record<MailPartKey, string> = {
   signature: '署名',
 };
 
-/** 手紙では、終わりの名前を「差出人」と呼ぶ */
-const POST_LABEL: Partial<Record<MailPartKey, string>> = { signature: '差出人' };
-
 export const EMPTY_MAIL: MailDraft = {
   method: 'mail',
   name: '',
   area: '',
+  postal: '',
+  address: '',
+  contact: '',
   reply: 'unset',
   edits: {},
   memo: { when: '', to: '', subject: '', receipt: '', answer: '' },
@@ -85,6 +87,25 @@ export function postAddressee(t: CallTarget | null): string {
   return [t.postalCode && `〒${t.postalCode}`, t.postalAddress, ...to].filter(Boolean).join('\n');
 }
 
+/** 「電話」「メール」が書いてなければ足す（@があればメール） */
+function contactText(s: string): string {
+  const c = s.trim();
+  if (!c || /^(電話|TEL|メール|E-?mail)/iu.test(c)) return c;
+  return c.includes('@') ? `メール ${c}` : `電話 ${c}`;
+}
+
+/** 手紙の差出人。〒・住所（なければ「○○区在住」）・名前・連絡先の順。何も入れていなければ空（印刷では手書きの欄を出す） */
+export function senderText(mail: MailDraft): string {
+  const postal = mail.postal.trim().replace(/^〒\s*/u, '');
+  const area = areaText(mail.area);
+  return [postal && `〒${postal}`, mail.address.trim() || (area && `${area}在住`), nameText(mail.name), contactText(mail.contact)]
+    .filter(Boolean)
+    .join('\n');
+}
+
+/** 手紙の終わりの印 */
+export const LETTER_END = '以上';
+
 /** 手紙の日付（例：2026年11月2日） */
 export function letterDate(d: Date): string {
   return `${d.getFullYear()}年${d.getMonth() + 1}月${d.getDate()}日`;
@@ -103,6 +124,8 @@ export function mailAutoText(draft: CallDraft, mail: MailDraft, key: MailPartKey
       return addressee(draft.target);
     case 'address':
       return postAddressee(draft.target);
+    case 'sender':
+      return senderText(mail);
     case 'greeting': {
       const who = name ? (area ? `${area}に住んでいる${name}と申します。` : `${name}と申します。`) : area ? `${area}に住んでいる者です。` : '';
       return ['突然のご連絡失礼いたします。', who].filter(Boolean).join('\n');
@@ -129,33 +152,37 @@ export function mailAutoText(draft: CallDraft, mail: MailDraft, key: MailPartKey
 const BODY_ORDER: Record<MailMethod, MailPartKey[]> = {
   mail: ['to', 'greeting', 'main', 'request', 'closing', 'signature'],
   form: ['to', 'greeting', 'main', 'request', 'closing', 'signature'],
-  post: ['date', 'address', 'greeting', 'main', 'request', 'closing', 'signature'],
+  post: ['date', 'address', 'sender', 'greeting', 'main', 'request', 'closing'],
 };
 
 function part(draft: CallDraft, mail: MailDraft, key: MailPartKey): MailPart {
   const edited = mail.edits[draft.purpose]?.[key];
-  const label = (mail.method === 'post' && POST_LABEL[key]) || MAIL_PART_LABEL[key];
-  return { key, label, text: edited ?? mailAutoText(draft, mail, key), edited: edited !== undefined };
+  return { key, label: MAIL_PART_LABEL[key], text: edited ?? mailAutoText(draft, mail, key), edited: edited !== undefined };
 }
 
-/** 件名と、本文の部分（上から順）。入れる文がなく、書き直してもいない部分は出さない */
+/**
+ * 件名と、本文の部分（上から順）。入れる文がなく、書き直してもいない部分は出さない。
+ * 手紙の差出人だけは、空でも出す（入れる場所を見せる。印刷では手書きの欄になる）
+ */
 export function buildMail(draft: CallDraft, mail: MailDraft): { subject: MailPart; body: MailPart[] } {
   return {
     subject: part(draft, mail, 'subject'),
-    body: BODY_ORDER[mail.method].map((k) => part(draft, mail, k)).filter((p) => p.edited || p.text),
+    body: BODY_ORDER[mail.method].map((k) => part(draft, mail, k)).filter((p) => p.edited || p.text || p.key === 'sender'),
   };
 }
 
-/** 手紙の並び：日付・宛先のあとに件名を置く（画面・印刷・コピーで同じ並びにする） */
+const LETTER_HEAD: MailPartKey[] = ['date', 'address', 'sender'];
+
+/** 手紙の並び：日付・宛先・差出人のあとに件名を置く（画面・印刷・コピーで同じ並びにする） */
 export function letterParts(subject: MailPart, body: MailPart[]): MailPart[] {
-  const head = body.filter((p) => p.key === 'date' || p.key === 'address');
-  const rest = body.filter((p) => p.key !== 'date' && p.key !== 'address');
+  const head = body.filter((p) => LETTER_HEAD.includes(p.key));
+  const rest = body.filter((p) => !LETTER_HEAD.includes(p.key));
   return [...head, subject, ...rest];
 }
 
-/** 手紙の文面（件名は1行にする。空にした部分は入れない） */
+/** 手紙の文面（件名は1行にし、最後に「以上」。空の部分は入れない） */
 export function letterText(parts: MailPart[]): string {
-  return bodyText(parts.map((p) => (p.key === 'subject' ? { ...p, text: subjectText(p) } : p)));
+  return `${bodyText(parts.map((p) => (p.key === 'subject' ? { ...p, text: subjectText(p) } : p)))}\n\n${LETTER_END}`;
 }
 
 /** その送り先で、届け方が使えるか（メールアドレス・フォーム・住所が載っているか） */

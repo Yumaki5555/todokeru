@@ -1,12 +1,13 @@
 // 文面を作る：1 目的を選ぶ → 2 内容を入れる → 3 届け方を選ぶ → 4 できた文面（タップして直せる）
 // 1・2 は電話の台本と同じ入力を使う（どちらのページで入れても引き継がれる）。書き直した文は電話の台本とは別に覚える
-// 郵送（手紙）を選んだときは、送るボタンの代わりに「印刷する」を出し、印刷では手紙だけを A4 の紙に出す（LetterSheet）
+// 郵送（手紙）を選んだときは、差出人（自分の住所・連絡先）の欄と「印刷する」を出し、印刷では手紙だけを A4 の紙に出す（LetterSheet）
 import { Fragment, useState } from 'react';
 import { createPortal } from 'react-dom';
 import type { CallDraft, MailDraft, MailMethod, MailPart, MailPartKey } from '../types';
 import { PURPOSES, STANCES, wantsRecord } from '../content/callScript';
 import { METHOD_NOTES } from '../content/mailGuide';
 import {
+  LETTER_END,
   METHODS,
   REPLIES,
   bodyText,
@@ -59,6 +60,8 @@ export function MailMaker({
   const [lastArea] = useState(loadLastArea);
   const findHref = lastArea ? href('/contacts', { tab: 'area', code: lastArea.code }) : href('/contacts');
   const methodMissing = !!t && !methodUsable(t, mail.method);
+  // 返事を頼んでいるのに、返事の届け先（住所・電話・メール）がない
+  const noReplyTo = mail.reply === 'want' && !mail.address.trim() && !mail.contact.trim();
 
   const setEdit = (key: MailPartKey, text: string | undefined) =>
     updateMail((m) => {
@@ -275,6 +278,60 @@ export function MailMaker({
                 <span>{MISSING[mail.method]}</span>
               </p>
             )}
+            {isPost && (
+              <fieldset className="field sender-fields">
+                <legend>
+                  差出人（あなたの住所と連絡先）
+                  <span className="field-opt">なくても大丈夫</span>
+                </legend>
+                <p className="field-hint">
+                  手紙では、宛先の下に自分の住所と名前を書きます。空のままなら、印刷した紙に手書きで書く欄が出ます。名前は②の「名前」を使います。
+                </p>
+                <div className="field">
+                  <label htmlFor="mail-postal">郵便番号</label>
+                  <input
+                    id="mail-postal"
+                    type="text"
+                    inputMode="numeric"
+                    value={mail.postal}
+                    onChange={(e) => updateMail({ postal: e.target.value })}
+                    placeholder="例：135-0016"
+                    autoComplete="postal-code"
+                    enterKeyHint="done"
+                  />
+                </div>
+                <div className="field">
+                  <label htmlFor="mail-address">住所</label>
+                  <input
+                    id="mail-address"
+                    type="text"
+                    value={mail.address}
+                    onChange={(e) => updateMail({ address: e.target.value })}
+                    placeholder="例：東京都江東区東陽1-2-3"
+                    autoComplete="street-address"
+                    enterKeyHint="done"
+                  />
+                </div>
+                <div className="field">
+                  <label htmlFor="mail-contact">電話番号かメールアドレス</label>
+                  <input
+                    id="mail-contact"
+                    type="text"
+                    value={mail.contact}
+                    onChange={(e) => updateMail({ contact: e.target.value })}
+                    placeholder="例：03-1234-5678"
+                    autoComplete="off"
+                    enterKeyHint="done"
+                  />
+                </div>
+                {noReplyTo && (
+                  <p className="maker-notice">
+                    <Icon name="info" />
+                    <span>「返信を希望する」を選んでいます。返事が届くよう、住所か電話番号・メールアドレスを入れてください（印刷してから手書きしても大丈夫です）。</span>
+                  </p>
+                )}
+              </fieldset>
+            )}
           </fieldset>
 
           <p className="privacy-line">
@@ -333,11 +390,17 @@ export function MailMaker({
                       </button>
                     )}
                   </div>
-                  <AutoTextarea aria-labelledby={labelId} value={p.text} onChange={(e) => setEdit(p.key, e.target.value)} />
+                  <AutoTextarea
+                    aria-labelledby={labelId}
+                    value={p.text}
+                    onChange={(e) => setEdit(p.key, e.target.value)}
+                    placeholder={p.key === 'sender' ? '空なら手書きの欄を印刷します' : undefined}
+                  />
                 </li>
               );
             })}
           </ol>
+          {isPost && <p className="mail-end">{LETTER_END}</p>}
           {mail.method === 'form' && (
             <p className="mail-count">
               文字数：件名 {countChars(subjectLine)}字・本文 {countChars(bodyAll)}字<span>（改行や空白も1字に数えています）</span>
@@ -393,23 +456,38 @@ export function MailMaker({
 
 /**
  * 印刷する手紙。画面には出さず、印刷するときだけ、ほかを消してこれだけを A4 の紙に出す（global.css の @media print）。
- * ページの外側（body の直下）に置くので、ブラウザのメニューから印刷しても手紙だけが出る
+ * ページの外側（body の直下）に置くので、ブラウザのメニューから印刷しても手紙だけが出る。
+ * 余白は紙の内側に持たせるので、印刷の画面で「余白：なし」を選んでいても、文字が紙のはしまで寄らない
  */
 function LetterSheet({ parts }: { parts: MailPart[] }) {
   return createPortal(
     <div className="letter-sheet" aria-hidden="true">
       {parts.map((p) => {
         const text = p.key === 'subject' ? subjectText(p) : p.text.trim();
+        if (!text) return p.key === 'sender' ? <SenderBlank key={p.key} /> : null;
         return (
-          text && (
-            <p key={p.key} className={`letter-part letter-${p.key}`}>
-              {text}
-            </p>
-          )
+          <p key={p.key} className={`letter-part letter-${p.key}`}>
+            {text}
+          </p>
         );
       })}
+      <p className="letter-part letter-end">{LETTER_END}</p>
     </div>,
     document.body,
+  );
+}
+
+/** 差出人が空のとき、手書きで書き込む欄 */
+function SenderBlank() {
+  return (
+    <dl className="letter-part letter-sender letter-blank">
+      {['〒', '住所', '名前', '電話'].map((label) => (
+        <div key={label}>
+          <dt>{label}</dt>
+          <dd />
+        </div>
+      ))}
+    </dl>
   );
 }
 

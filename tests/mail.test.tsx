@@ -160,9 +160,35 @@ describe('メール・フォーム：文面を作る', () => {
     expect(sheet.parentElement).toBe(document.body);
     expect(sheet.querySelector('.letter-address')).toHaveTextContent('テスト広聴課 御中');
     expect(sheet.querySelector('.letter-subject')).toHaveTextContent('【意見】○○について');
+    expect(sheet.lastElementChild).toHaveTextContent('以上');
+    // 差出人が空なら、手書きで書く欄を印刷する
+    expect(sheet.querySelector('.letter-blank')).toHaveTextContent('〒住所名前電話');
 
     await userEvent.click(within(m).getByRole('button', { name: '手紙の文面をコピー' }));
     expect(writeText.mock.calls[0][0]).toMatch(/^\d{4}年\d{1,2}月\d{1,2}日\n\n〒135-8383\n東京都江東区東陽4-11-28\n江東区\nテスト広聴課 御中\n\n【意見】○○について\n\n突然の/);
+    expect(writeText.mock.calls[0][0]).toMatch(/\n\n以上$/);
+
+    // 返信を頼むのに連絡先がなければ知らせる。差出人を入れると、宛先の下に入り、手書きの欄は消える
+    await userEvent.click(within(m).getByRole('radio', { name: '返信を希望する' }));
+    expect(within(m).getByText(/返事が届くよう、住所か電話番号・メールアドレスを入れてください/)).toBeInTheDocument();
+    await userEvent.type(within(m).getByRole('textbox', { name: /^名前/ }), '山田花子');
+    await userEvent.type(within(m).getByRole('textbox', { name: '郵便番号' }), '135-0016');
+    await userEvent.type(within(m).getByRole('textbox', { name: '住所' }), '東京都江東区東陽1-2-3');
+    expect(within(m).queryByText(/返事が届くよう/)).not.toBeInTheDocument();
+    expect(within(m).getByRole('textbox', { name: '差出人' })).toHaveValue('〒135-0016\n東京都江東区東陽1-2-3\n山田花子');
+    expect(sheet.querySelector('.letter-sender')).toHaveTextContent('山田花子');
+    expect(sheet.querySelector('.letter-blank')).toBeNull();
+    expect([...sheet.children].map((c) => c.className.replace('letter-part letter-', ''))).toEqual([
+      'date',
+      'address',
+      'sender',
+      'subject',
+      'greeting',
+      'main',
+      'request',
+      'closing',
+      'end',
+    ]);
 
     // メールを選ぶと、手紙は消え、メールアドレスがないことを知らせる
     await userEvent.click(within(m).getByRole('radio', { name: 'メール' }));

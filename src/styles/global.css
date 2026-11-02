@@ -3544,8 +3544,38 @@ html:has(.reader[open]) {
   background: var(--c-bg-sub);
 }
 
-.reader-memo {
+.reader-foot-btns {
   grid-column: 2;
+  display: flex;
+  gap: 8px;
+}
+
+/* せまい画面では、電話をかけるボタンの下にボタンを並べる */
+@media (max-width: 520px) {
+  .reader-foot {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .reader-foot-btns {
+    grid-column: 1;
+  }
+
+  .reader-foot-btns .btn {
+    flex: 1 1 0;
+    padding-inline: 8px;
+  }
+}
+
+/* 困ったときの一言：番号はつけず、見出しの下に一言ずつ */
+.reader-help-title {
+  max-width: 920px;
+  margin: 0 auto 8px;
+  font-weight: 700;
+  color: var(--c-main-dark);
+}
+
+.reader-help li {
+  grid-template-columns: minmax(0, 1fr);
 }
 
 .reader-call {
@@ -3633,6 +3663,54 @@ html:has(.reader[open]) {
 
 .deep-dive-apply {
   width: 100%;
+}
+
+/* 2 の最後：③の本題が自動で変わらなくなっているときのお知らせ */
+.maker-notice {
+  display: flex;
+  gap: 8px;
+  margin: 12px 0 0;
+  padding: 8px 12px;
+  border-left: 4px solid var(--c-main);
+  border-radius: var(--radius-sm);
+  background: var(--c-main-tint);
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.maker-notice .icon {
+  flex: none;
+  margin-top: 0.2em;
+  color: var(--c-main);
+}
+
+/* 3 の台本の下：困ったときの一言（最初は閉じておく） */
+.help-fold {
+  margin-top: 12px;
+}
+
+.help-fold > summary {
+  flex-wrap: wrap;
+}
+
+.help-lines {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding-top: 10px;
+  border-top: 1px solid var(--c-line);
+}
+
+.help-lines dt {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--c-main-deep);
+}
+
+.help-lines dd {
+  margin: 2px 0 0;
+  font-weight: 700;
+  line-height: 1.6;
 }
 
 .deep-dive-done {

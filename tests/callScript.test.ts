@@ -1,6 +1,6 @@
 // 台本を作る：入力から組み立てる文
 import { describe, expect, it } from 'vitest';
-import { EMPTY_DRAFT, buildScript, memoAsText, questionPhrase, reasonPhrase, scriptAsText, topicText } from '../src/content/callScript';
+import { EMPTY_DRAFT, buildScript, helpLines, memoAsText, questionPhrase, reasonPhrase, scriptAsText, topicText } from '../src/content/callScript';
 import type { CallDraft } from '../src/types';
 
 const draft = (patch: Partial<CallDraft>): CallDraft => ({ ...EMPTY_DRAFT, ...patch });
@@ -45,6 +45,31 @@ describe('台本の組み立て', () => {
     expect(questionPhrase('始めた理由を教えてください')).toBe('始めた理由を教えていただけますか？');
     expect(questionPhrase('いつから始まりますか')).toBe('いつから始まりますか？');
     expect(questionPhrase('いつから始まるか')).toBe('いつから始まるかを教えていただけますか？');
+  });
+
+  it('質問の言い方：くだけた聞き方も、ていねいな形にする', () => {
+    expect(questionPhrase('費用はいくら？')).toBe('費用はいくらかを教えていただけますか？');
+    expect(questionPhrase('保護者への説明会はあるのか')).toBe('保護者への説明会はあるのかを教えていただけますか？');
+    expect(questionPhrase('説明会はある')).toBe('説明会はあるのかを教えていただけますか？');
+    expect(questionPhrase('なぜ高い')).toBe('なぜ高いのかを教えていただけますか？');
+    expect(questionPhrase('なぜ必要だ')).toBe('なぜ必要なのかを教えていただけますか？');
+    expect(questionPhrase('説明会の日程は？')).toBe('説明会の日程について教えていただけますか？');
+    expect(questionPhrase('なぜ決めたのだろうか')).toBe('なぜ決めたのでしょうか？');
+    expect(questionPhrase('説明会はあります')).toBe('説明会はありますか？');
+  });
+
+  it('質問する：聞きたいことは「意見」の理由とは別の欄に覚え、目的を切りかえても混ざらない', () => {
+    const d = draft({ topic: 'A計画', detail: '送迎の距離が長くなるため', ask: '' });
+    expect(main({ ...d, purpose: 'question' })).toBe('A計画について、現在の仕組みを教えていただけますか？');
+    expect(main({ ...d, purpose: 'question', ask: '説明会の日程' })).toBe('A計画について、説明会の日程を教えていただけますか？');
+    expect(main({ ...d, ask: '説明会の日程' })).toBe('A計画について、送迎の距離が長くなるという理由から懸念があります。');
+  });
+
+  it('困ったときの一言：代表電話でつないでもらう文は目的に合わせ、担当部署を聞くときは出さない', () => {
+    expect(helpLines(draft({ topic: 'A計画' }))[0].text).toBe('A計画について意見をお伝えしたいのですが、ご担当の部署につないでいただけますか？');
+    expect(helpLines(draft({ purpose: 'question', topic: 'A計画' }))[0].text).toContain('A計画についてお伺いしたいのですが');
+    const dept = helpLines(draft({ purpose: 'department', topic: 'A計画' }));
+    expect(dept.map((h) => h.key)).toEqual(['name', 'other', 'again']);
   });
 
   it('担当部署を確認する：マニュアルの言い回しで聞き、案内のお礼で終える', () => {

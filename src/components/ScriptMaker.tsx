@@ -1,7 +1,8 @@
 // 台本を作る：1 目的を選ぶ → 2 内容を入れる → 3 できた台本（タップして直せる）
 import { Fragment, useEffect, useLayoutEffect, useRef, type TextareaHTMLAttributes } from 'react';
 import type { CallDraft, ScriptPartKey } from '../types';
-import { PURPOSES, STANCES, buildScript, scriptAsText, wantsRecord } from '../content/callScript';
+import { PURPOSES, STANCES, buildScript, helpLines, scriptAsText, wantsRecord } from '../content/callScript';
+import { applyDetailed, mainState } from '../content/deepDive';
 import type { DraftUpdate } from '../lib/callDraft';
 import { DeepDivePanel } from './DeepDivePanel';
 import { CopyButton } from './CopyButton';
@@ -22,6 +23,7 @@ export function ScriptMaker({
   const record = wantsRecord(draft);
   const parts = buildScript(draft, true);
   const t = draft.target;
+  const state = mainState(draft);
 
   const setEdit = (key: ScriptPartKey, text: string | undefined) =>
     update((d) => {
@@ -125,13 +127,36 @@ export function ScriptMaker({
                 <input
                   id="call-detail"
                   type="text"
-                  value={draft.detail}
-                  onChange={(e) => update({ detail: e.target.value })}
+                  value={draft[purpose.detail.key]}
+                  onChange={(e) => update(purpose.detail?.key === 'ask' ? { ask: e.target.value } : { detail: e.target.value })}
                   placeholder={purpose.detail.hint}
                   autoComplete="off"
                   enterKeyHint="done"
                 />
               </div>
+            )}
+            {/* ③の本題が自動で変わらなくなっているときは、ここで知らせる（①②を変えても本題は前のまま） */}
+            {state === 'stale' && (
+              <p className="maker-notice">
+                <Icon name="info" />
+                <span>
+                  ③の本題は、前に「詳しく整理」で反映した文のままです。
+                  <button type="button" className="link-btn" onClick={() => update(applyDetailed)}>
+                    ③に反映し直す
+                  </button>
+                </span>
+              </p>
+            )}
+            {state === 'manual' && (
+              <p className="maker-notice">
+                <Icon name="info" />
+                <span>
+                  ③の本題は手で直した文なので、ここを変えても変わりません。
+                  <button type="button" className="link-btn" onClick={() => setEdit('main', undefined)}>
+                    自動の文に戻す
+                  </button>
+                </span>
+              </p>
             )}
             <DeepDivePanel draft={draft} update={update} />
           </div>
@@ -184,6 +209,20 @@ export function ScriptMaker({
               );
             })}
           </ol>
+          <details className="fold help-fold">
+            <summary>
+              困ったときの一言
+              <span className="field-opt">代表電話・名前を聞かれたとき など</span>
+            </summary>
+            <dl className="help-lines">
+              {helpLines(draft).map((h) => (
+                <div key={h.key}>
+                  <dt>{h.label}</dt>
+                  <dd>{h.text}</dd>
+                </div>
+              ))}
+            </dl>
+          </details>
           <div className="maker-actions">
             <button type="button" className="btn btn-primary btn-big" onClick={onRead}>
               <Icon name="book" />

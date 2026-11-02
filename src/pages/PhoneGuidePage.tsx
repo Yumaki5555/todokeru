@@ -4,7 +4,7 @@
 //   #/guide/phone?for=130001-feedback  窓口検索で選んだ窓口を電話先にする
 import { useEffect, useRef, useState } from 'react';
 import { PHONE_CHAPTERS, PHONE_CHECKLIST, PHONE_FLOW, PHONE_GUIDE } from '../content/phoneManual';
-import { EMPTY_DRAFT, buildScript } from '../content/callScript';
+import { EMPTY_DRAFT, buildScript, helpLines } from '../content/callScript';
 import { GUIDES, guidePath } from '../content/guides';
 import { findContact } from '../data/loaders';
 import { isDisplayable } from '../data/validate';
@@ -186,6 +186,7 @@ export function PhoneGuidePage({ route }: { route: Route }) {
       <ReadAloud
         open={reading}
         parts={buildScript(draft)}
+        help={helpLines(draft)}
         target={draft.target}
         onClose={closeRead}
         onMemo={() => {

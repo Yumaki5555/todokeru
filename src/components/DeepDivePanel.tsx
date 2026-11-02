@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import type { CallDraft, DeepDiveDraft } from '../types';
 import type { DraftUpdate } from '../lib/callDraft';
-import { CHECK_POINTS, EMPTY_DEEP_DIVE, detailedMain, hasDeepDive } from '../content/deepDive';
+import { CHECK_POINTS, EMPTY_DEEP_DIVE, applyDetailed, detailedMain, hasDeepDive } from '../content/deepDive';
 
 export function DeepDivePanel({ draft, update }: { draft: CallDraft; update: DraftUpdate }) {
   const d = { ...EMPTY_DEEP_DIVE, ...draft.deepDive };
@@ -27,13 +27,7 @@ export function DeepDivePanel({ draft, update }: { draft: CallDraft; update: Dra
     if (currentMain !== undefined && currentMain !== main && currentMain !== d.applied) {
       if (!window.confirm('「本題」に手動編集した文章があります。詳しい台本で置き換えますか？')) return;
     }
-    update((previous) => ({
-      edits: {
-        ...previous.edits,
-        [previous.purpose]: { ...previous.edits[previous.purpose], main },
-      },
-      deepDive: { ...EMPTY_DEEP_DIVE, ...previous.deepDive, applied: main },
-    }));
+    update(applyDetailed);
     setApplied(true);
   };
 

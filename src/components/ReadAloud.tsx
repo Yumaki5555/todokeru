@@ -55,12 +55,15 @@ function useWakeLock(on: boolean) {
 export function ReadAloud({
   open,
   parts,
+  help,
   target,
   onClose,
   onMemo,
 }: {
   open: boolean;
   parts: ScriptPart[];
+  /** 困ったときの一言（ボタンで台本と切りかえて見る） */
+  help: { key: string; label: string; text: string }[];
   target: CallTarget | null;
   onClose: () => void;
   onMemo: () => void;
@@ -71,7 +74,8 @@ export function ReadAloud({
   const [chosen, setChosen] = useState<number | null>(savedSize);
   const [fitted, setFitted] = useState(SIZES.length - 1);
   const size = chosen ?? fitted;
-  const lines = parts.filter((p) => p.text.trim());
+  const [showHelp, setShowHelp] = useState(false);
+  const lines = showHelp ? help : parts.filter((p) => p.text.trim());
   const textKey = lines.map((p) => p.text).join('\n');
 
   // 文字の大きさを測る前に開いておく（閉じていると高さが測れない）
@@ -83,6 +87,11 @@ export function ReadAloud({
   }, [open]);
 
   useWakeLock(open);
+
+  // 閉じたら、次に開くときは台本から見せる
+  useEffect(() => {
+    if (!open) setShowHelp(false);
+  }, [open]);
 
   // スクロールせずに読めるよう、画面に収まるいちばん大きな文字を選ぶ
   useLayoutEffect(() => {
@@ -143,12 +152,15 @@ export function ReadAloud({
             </div>
           </div>
           <div className="reader-body" ref={body}>
-            <ol className="reader-lines" ref={list} style={{ fontSize: SIZES[size] + 'px' }}>
+            {showHelp && <p className="reader-help-title">困ったときの一言</p>}
+            <ol className={'reader-lines' + (showHelp ? ' reader-help' : '')} ref={list} style={{ fontSize: SIZES[size] + 'px' }}>
               {lines.map((p, i) => (
                 <li key={p.key}>
-                  <span className="reader-no" aria-hidden="true">
-                    {i + 1}
-                  </span>
+                  {!showHelp && (
+                    <span className="reader-no" aria-hidden="true">
+                      {i + 1}
+                    </span>
+                  )}
                   <span className="reader-label">{p.label}</span>
                   <p className="reader-text">{p.text}</p>
                 </li>
@@ -166,10 +178,16 @@ export function ReadAloud({
                 </span>
               </a>
             )}
-            <button type="button" className="btn btn-secondary reader-memo" onClick={onMemo}>
-              <Icon name="memo" />
-              メモを書く
-            </button>
+            <div className="reader-foot-btns">
+              <button type="button" className="btn btn-secondary" aria-pressed={showHelp} onClick={() => setShowHelp((v) => !v)}>
+                <Icon name={showHelp ? 'book' : 'question'} />
+                {showHelp ? '台本に戻る' : '困ったとき'}
+              </button>
+              <button type="button" className="btn btn-secondary" onClick={onMemo}>
+                <Icon name="memo" />
+                メモを書く
+              </button>
+            </div>
           </div>
         </>
       )}

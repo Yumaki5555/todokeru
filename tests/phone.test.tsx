@@ -76,6 +76,27 @@ describe('電話ガイド：台本を作る', () => {
     expect(part('記録のお願い').value).toBe('この件を記録していただけますか？');
   });
 
+  it('目的を切りかえても、「理由」と「聞きたいこと」は混ざらない', async () => {
+    openPhone();
+    await userEvent.type(screen.getByLabelText('何について？'), 'A計画');
+    await userEvent.type(screen.getByLabelText(/理由は？/), '送迎の距離が長くなるため');
+    await userEvent.click(screen.getByRole('radio', { name: '質問する' }));
+    expect(screen.getByLabelText(/聞きたいことは？/)).toHaveValue('');
+    expect(part('本題').value).toBe('A計画について、現在の仕組みを教えていただけますか？');
+    await userEvent.click(screen.getByRole('radio', { name: '意見を伝える' }));
+    expect(screen.getByLabelText(/理由は？/)).toHaveValue('送迎の距離が長くなるため');
+  });
+
+  it('③の下に「困ったときの一言」（最初は閉じている）があり、代表電話でつないでもらう文は入力に合わせる', async () => {
+    openPhone();
+    await userEvent.type(screen.getByLabelText('何について？'), 'A計画');
+    const fold = within(maker()).getByText('困ったときの一言').closest('details') as HTMLDetailsElement;
+    expect(fold.open).toBe(false);
+    expect(within(fold).getByText('A計画について意見をお伝えしたいのですが、ご担当の部署につないでいただけますか？')).toBeInTheDocument();
+    expect(within(fold).getByText('名前を聞かれたら')).toBeInTheDocument();
+    expect(within(fold).getByText('「担当ではない」と言われたら')).toBeInTheDocument();
+  });
+
   it('担当部署を確認するときは、入力欄は「何について？」だけ', async () => {
     openPhone();
     await userEvent.click(screen.getByRole('radio', { name: '担当部署を確認する' }));
@@ -93,8 +114,13 @@ describe('電話ガイド：台本を作る', () => {
     // 書き直した文は、入力を変えても消えない
     await userEvent.type(screen.getByLabelText('何について？'), 'A計画');
     expect(part('本題').value).toBe('自分の言葉で伝えます。');
-    await userEvent.click(within(maker()).getByRole('button', { name: '自動の文に戻す' }));
+    // ②にも「ここを変えても本題は変わらない」と出す
+    const step2 = within(maker()).getByRole('group', { name: '内容を入れる' });
+    expect(within(step2).getByText(/③の本題は手で直した文なので/)).toBeInTheDocument();
+    const step3 = within(maker()).getByRole('group', { name: /できた台本/ });
+    await userEvent.click(within(step3).getByRole('button', { name: '自動の文に戻す' }));
     expect(part('本題').value).toBe('A計画について、懸念があります。');
+    expect(within(step2).queryByText(/③の本題は手で直した文なので/)).not.toBeInTheDocument();
     expect(within(maker()).queryByRole('button', { name: '自動の文に戻す' })).not.toBeInTheDocument();
   });
 
@@ -132,6 +158,19 @@ describe('電話ガイド：大きな文字で読む', () => {
     await waitFor(() => expect(window.location.hash).toBe('#/guide/phone'));
     expect(reader).not.toHaveAttribute('open');
     expect(screen.getByLabelText('何について？')).toHaveValue('A計画');
+  });
+
+  it('「困ったとき」で困ったときの一言に切りかわり、「台本に戻る」で台本に戻る', async () => {
+    openPhone();
+    await userEvent.type(screen.getByLabelText('何について？'), 'A計画');
+    await userEvent.click(screen.getByRole('button', { name: '大きな文字で読む' }));
+    const reader = await screen.findByRole('dialog', { name: '台本を大きな文字で読む' });
+    await userEvent.click(within(reader).getByRole('button', { name: '困ったとき' }));
+    expect(within(reader).getByText('困ったときの一言')).toBeInTheDocument();
+    expect(within(reader).getByText('A計画について意見をお伝えしたいのですが、ご担当の部署につないでいただけますか？')).toBeInTheDocument();
+    expect(within(reader).queryByText('お忙しいところ失礼します。')).not.toBeInTheDocument();
+    await userEvent.click(within(reader).getByRole('button', { name: '台本に戻る' }));
+    expect(within(reader).getByText('お忙しいところ失礼します。')).toBeInTheDocument();
   });
 
   it('再読み込みしても読む画面と台本が消えない', async () => {
@@ -375,7 +414,7 @@ describe('電話ガイド：もっと詳しく整理する', () => {
     expect(part('本題').value).toBe('A計画について、懸念があります。');
     await userEvent.click(applyButton());
     expect(part('本題').value).toBe(
-      'A計画について、懸念があります。\n私が確認した状況は、次のとおりです。説明会が1回だけだった。\n適用される制度・条例と、その根拠資料を教えていただけますか。',
+      'A計画について、懸念があります。\n私が確認した状況は、次のとおりです。説明会が1回だけでした。\n適用される制度・条例と、その根拠資料を教えていただけますか。',
     );
     expect(within(deep()).getByRole('status')).toHaveTextContent('③の「本題」に反映しました');
     await userEvent.click(within(maker()).getByRole('button', { name: '台本をまとめてコピー' }));
@@ -399,6 +438,22 @@ describe('電話ガイド：もっと詳しく整理する', () => {
     expect(confirm).not.toHaveBeenCalled();
     expect(part('本題').value.match(/特に確認したいことがあります/g)).toHaveLength(1);
     expect(part('本題').value).toContain('現在どのような確認や対応が行われているか');
+  });
+
+  it('反映したあと①②を変えると、②に「前の文のまま」と出て、「③に反映し直す」で新しい内容になる', async () => {
+    openPhone();
+    await userEvent.type(screen.getByLabelText('何について？'), 'A計画');
+    await openDeep();
+    await userEvent.type(screen.getByLabelText('確認できたこと（事実）'), '区報で知った');
+    await userEvent.click(applyButton());
+    const step2 = within(maker()).getByRole('group', { name: '内容を入れる' });
+    expect(within(step2).queryByText(/前に「詳しく整理」で反映した文のままです/)).not.toBeInTheDocument();
+    await userEvent.click(screen.getByRole('radio', { name: '賛成' }));
+    expect(part('本題').value).toContain('懸念があります。');
+    expect(within(step2).getByText(/前に「詳しく整理」で反映した文のままです/)).toBeInTheDocument();
+    await userEvent.click(within(step2).getByRole('button', { name: '③に反映し直す' }));
+    expect(part('本題').value).toBe('A計画について、賛成です。\n私が確認した状況は、次のとおりです。区報で知りました。');
+    expect(within(step2).queryByText(/前に「詳しく整理」で反映した文のままです/)).not.toBeInTheDocument();
   });
 
   it('本題を手で直していたら、置き換える前に確認する（やめると手で直した文が残る）', async () => {

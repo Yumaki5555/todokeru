@@ -253,7 +253,8 @@ export interface CallDraft {
   purpose: CallPurpose;
   stance: CallStance;
   topic: string; // 何について？
-  detail: string; // 理由・聞きたいこと
+  detail: string; // 理由（意見を伝えるとき）
+  ask: string; // 聞きたいこと（質問するとき）
   /** 記録をお願いするか（目的ごと。未設定は「意見なら入れる」） */
   record: Partial<Record<CallPurpose, boolean>>;
   /** 書き直した文（目的ごとに覚えておき、目的を戻すと元に戻る） */

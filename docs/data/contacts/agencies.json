@@ -4,6 +4,21 @@
   "agency_name": "首相官邸",
   "contacts": [
    {
+    "id": "kantei-general",
+    "type": "general",
+    "department": "内閣官房内閣広報室",
+    "phone": null,
+    "email": null,
+    "form_url": null,
+    "postal_code": "100-8968",
+    "postal_address": "東京都千代田区永田町1-6-1",
+    "hours": null,
+    "source_url": "https://www.kantei.go.jp/jp/about/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "首相官邸のホームページを運営している部署です。ホームページに電話番号は載っていません。"
+   },
+   {
     "id": "kantei-feedback",
     "type": "feedback",
     "department": "首相官邸へのご意見・ご感想",

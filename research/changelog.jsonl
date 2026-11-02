@@ -775,3 +775,4 @@
 {"date":"2026-11-03","batch":"manual-admin","id":"soumu-feedback-2","change":"added","status":"verified"}
 {"date":"2026-11-03","batch":"manual-admin","id":"kantei-feedback","change":"added","status":"verified"}
 {"date":"2026-11-03","batch":"manual-admin","id":"cas-feedback-2","change":"deleted","status":"verified"}
+{"date":"2026-11-03","batch":"manual-admin","id":"kantei-general","change":"added","status":"verified"}

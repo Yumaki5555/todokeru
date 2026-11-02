@@ -6,10 +6,10 @@
   "municipalities": 1741
  },
  "contacts": {
-  "total": 768,
-  "verified": 243,
+  "total": 769,
+  "verified": 244,
   "by_status": {
-   "verified": 243,
+   "verified": 244,
    "unverified": 4,
    "review": 0,
    "unavailable": 1,

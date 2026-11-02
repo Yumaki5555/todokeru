@@ -3,10 +3,12 @@ import { useState } from 'react';
 import type { CallDraft, DeepDiveDraft } from '../types';
 import type { DraftUpdate } from '../lib/callDraft';
 import { CHECK_POINTS, EMPTY_DEEP_DIVE, applyDetailed, detailedMain, hasDeepDive } from '../content/deepDive';
+import { PURPOSES } from '../content/callScript';
 
 /** auto：入れた内容をそのまま本文に入れる（メールの文面）。電話の台本は、ボタンを押したときだけ③に反映する */
 export function DeepDivePanel({ draft, update, auto = false }: { draft: CallDraft; update: DraftUpdate; auto?: boolean }) {
   const d = { ...EMPTY_DEEP_DIVE, ...draft.deepDive };
+  const hints = PURPOSES.find((p) => p.id === draft.purpose)!.deepHints;
   const [applied, setApplied] = useState(false);
   const change = (patch: (dd: DeepDiveDraft) => Partial<DeepDiveDraft>) => {
     update((previous) => {
@@ -43,13 +45,13 @@ export function DeepDivePanel({ draft, update, auto = false }: { draft: CallDraf
         <div className="field">
           <label htmlFor="deep-facts">確認できたこと（事実）</label>
           <textarea id="deep-facts" rows={2} value={d.facts}
-            placeholder="例：〇月〇日、夜間に大きな話し声が聞こえた"
+            placeholder={hints.facts}
             onChange={(e) => change(() => ({ facts: e.target.value }))} />
         </div>
         <div className="field">
           <label htmlFor="deep-question">疑問・気になっていること</label>
           <textarea id="deep-question" rows={2} value={d.question}
-            placeholder="例：行政は苦情を受けたとき、どう対応するのか"
+            placeholder={hints.question}
             onChange={(e) => change(() => ({ question: e.target.value }))} />
         </div>
         <fieldset className="deep-dive-points">
@@ -67,13 +69,13 @@ export function DeepDivePanel({ draft, update, auto = false }: { draft: CallDraf
         <div className="field">
           <label htmlFor="deep-desired">どうしてほしい？（任意）</label>
           <textarea id="deep-desired" rows={2} value={d.desired}
-            placeholder="例：対処方法と担当窓口を案内してほしい"
+            placeholder={hints.desired}
             onChange={(e) => change(() => ({ desired: e.target.value }))} />
         </div>
         <div className="field">
           <label htmlFor="deep-source">参考資料・確認先（任意）</label>
           <input id="deep-source" type="text" value={d.source}
-            placeholder="例：市の公式ページ、条例の名称"
+            placeholder={hints.source}
             autoComplete="off"
             onChange={(e) => change(() => ({ source: e.target.value }))} />
         </div>

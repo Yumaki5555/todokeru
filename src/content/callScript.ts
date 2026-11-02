@@ -12,22 +12,36 @@ export const PURPOSES: {
   topicHint: string;
   /** 2つめの入力欄（なければ出さない）。目的ごとに別の欄に覚えておき、切りかえても混ざらないようにする */
   detail?: { key: 'detail' | 'ask'; label: string; hint: string };
+  /** 「もっと詳しく整理する」の入力例。上の入力例と同じ1つの話になるようにそろえる */
+  deepHints: { facts: string; question: string; desired: string; source: string };
 }[] = [
   {
     id: 'opinion',
     label: '意見を伝える',
     parts: ['意見を', '伝える'],
     icon: 'chat',
-    topicHint: '例：○○市の△△計画',
-    detail: { key: 'detail', label: '理由は？', hint: '例：子どもの安全、費用が高すぎる' },
+    topicHint: '例：駅前の再開発計画',
+    detail: { key: 'detail', label: '理由は？', hint: '例：子どもの通学路が危なくなる' },
+    deepHints: {
+      facts: '例：説明会の資料に、工事中は通学路の歩道を閉じると書いてあった',
+      question: '例：工事中、子どもの安全をどう守るのか',
+      desired: '例：通学路の安全対策を示してほしい',
+      source: '例：市の公式ページ、計画の説明資料',
+    },
   },
   {
     id: 'question',
     label: '質問する',
     parts: ['質問する'],
     icon: 'question',
-    topicHint: '例：○○制度',
-    detail: { key: 'ask', label: '聞きたいことは？', hint: '例：始めた理由、いつから始まるか' },
+    topicHint: '例：ごみ袋の有料化',
+    detail: { key: 'ask', label: '聞きたいことは？', hint: '例：有料にする理由、いつから始まるか' },
+    deepHints: {
+      facts: '例：市の広報誌に、来年4月から有料になると書いてあった',
+      question: '例：袋の値段はいくらになるのか',
+      desired: '例：住民向けの説明会を開いてほしい',
+      source: '例：市の広報誌、市の公式ページ',
+    },
   },
   {
     id: 'department',
@@ -35,6 +49,12 @@ export const PURPOSES: {
     parts: ['担当部署を', '確認する'],
     icon: 'building',
     topicHint: '例：家の前の道路の補修',
+    deepHints: {
+      facts: '例：家の前の道路に穴があき、雨の日は水がたまる',
+      question: '例：市道か県道か、どこが直すのか',
+      desired: '例：早めに直してほしい',
+      source: '例：市の公式ページの道路の案内',
+    },
   },
 ];
 

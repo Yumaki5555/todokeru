@@ -433,6 +433,21 @@ function SendAction({ draft, mail, subject, body }: { draft: CallDraft; mail: Ma
       </>
     );
   }
+  if (mail.method === 'form' && t?.formUrl && t.formViaPage) {
+    // 直接開くとエラーになるフォーム：リンクのある公式ページを開いてもらう
+    return (
+      <>
+        <a className="btn btn-primary btn-big" href={t.sourceUrl} target="_blank" rel="noopener noreferrer">
+          <Icon name="form" />
+          フォームのある公式ページを開く
+          <span className="sr-only">（外部サイト・新しいタブで開きます）</span>
+        </a>
+        <p className="field-hint">
+          開いたページの「{t.formViaPage}」を押すと、フォームが開きます（このフォームは役所のページからしか開けない仕組みです）。この画面に戻って、件名と本文をコピーできます。
+        </p>
+      </>
+    );
+  }
   if (mail.method === 'form' && t?.formUrl) {
     return (
       <>

@@ -21,6 +21,11 @@ export interface Contact {
   phone: string | null;
   email: string | null;
   form_url: string | null; // 公式の問い合わせフォーム
+  /**
+   * 直接開くとエラーになるフォーム（役所のページから来た人だけに表示する仕組み）のとき、
+   * 公式ページ（source_url）にある、フォームへのリンクの文字。ボタンは公式ページへ案内する
+   */
+  form_via_page?: string | null;
   postal_code: string | null; // 郵便番号（例：135-8383）
   postal_address: string | null;
   hours: string | null; // 受付時間
@@ -247,6 +252,7 @@ export interface CallTarget {
   phone: string | null;
   email: string | null;
   formUrl: string | null;
+  formViaPage?: string | null; // 公式ページのこの文字のリンクからフォームを開く（Contact.form_via_page）
   postalCode: string | null; // 郵便番号（例：135-8383）
   postalAddress: string | null;
   hours: string | null;

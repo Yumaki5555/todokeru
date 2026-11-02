@@ -92,6 +92,7 @@ function decode(buf, contentType) {
   }
 }
 
+const HEADERS = { 'user-agent': 'Mozilla/5.0 (compatible; todokeru-contact-check/1.0; +https://yumaki5555.github.io/todokeru/)', 'accept-language': 'ja' };
 async function fetchPage(url) {
   if (pageCache.has(url)) return pageCache.get(url);
   const job = (async () => {
@@ -101,7 +102,7 @@ async function fetchPage(url) {
     lastHit.set(host, Date.now());
     try {
       const r = await fetch(url, {
-        headers: { 'user-agent': 'Mozilla/5.0 (compatible; todokeru-contact-check/1.0; +https://yumaki5555.github.io/todokeru/)', 'accept-language': 'ja' },
+        headers: HEADERS,
         redirect: 'follow',
         signal: AbortSignal.timeout(25000),
       });
@@ -174,6 +175,32 @@ async function formOk(formUrl, sourceUrl, page) {
     return { ok: false, why: `フォームのページを開けない（${f.error}）` };
   }
   return { ok: false, why: '出典ページからのリンクを確認できない外部のフォーム' };
+}
+
+// 役所のページから来た人だけに表示するフォーム（直接開くと「正規のアクセス元から閲覧要求されていません」と出る）を見分け、
+// 出典ページにあるフォームへのリンクの文字を返す。サイトのボタンは出典ページへ案内し、この文字を押すよう伝える
+async function formViaPage(formUrl, page) {
+  const u = new URL(formUrl);
+  if (!u.pathname.includes('/cgi-bin/')) return null; // この仕組みのフォームは /cgi-bin/enquetes/・/cgi-bin/contacts/ にある
+  const host = hostOf(formUrl);
+  const wait = (lastHit.get(host) || 0) + 800 - Date.now();
+  if (wait > 0) await sleep(wait);
+  lastHit.set(host, Date.now());
+  let text;
+  try {
+    const r = await fetch(formUrl, { headers: HEADERS, redirect: 'follow', signal: AbortSignal.timeout(25000) });
+    text = toText(decode(new Uint8Array(await r.arrayBuffer()), r.headers.get('content-type') || ''));
+  } catch {
+    return null;
+  }
+  if (!text.includes('正規のアクセス元')) return null;
+  for (const m of page.raw.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)) {
+    const h = m[1].replace(/&amp;/g, '&');
+    if (h !== formUrl && !h.endsWith(u.pathname + u.search)) continue;
+    const label = toText(m[2]).trim().replace(/[。.]$/, '');
+    if (label) return label;
+  }
+  return 'フォームへのリンク';
 }
 
 const pick = (c, k) => (typeof c[k] === 'string' && c[k].trim() !== '' ? c[k].trim() : null);
@@ -270,7 +297,14 @@ async function verifyContact(entity, c0, info, generalOf) {
   if (form) {
     const r = await formOk(form, src, page);
     report.checks.form_url = r.ok ? 'ok' : r.why;
-    if (r.ok) base.form_url = form;
+    if (r.ok) {
+      base.form_url = form;
+      const via = await formViaPage(form, page);
+      if (via) {
+        base.form_via_page = via;
+        report.checks.form_url = `ok（直接は開けないため、出典ページの「${via}」から開く案内にする）`;
+      }
+    }
   }
   const postal = pick(c, 'postal_code');
   if (postal) {
@@ -358,7 +392,7 @@ const missing = plan.targets.filter((t) => !(batch.entities || []).some((e) => e
 for (const t of missing) errors.push(`${t.code} ${t.name}: 調査結果がない`);
 
 // ---- 公開データへの反映 ----
-const SAME_KEYS = ['department', 'phone', 'email', 'form_url', 'postal_code', 'postal_address', 'hours', 'source_url', 'status', 'note'];
+const SAME_KEYS = ['department', 'phone', 'email', 'form_url', 'form_via_page', 'postal_code', 'postal_address', 'hours', 'source_url', 'status', 'note'];
 const changes = [];
 for (const [file, items] of results) {
   const path = `public/data/contacts/${file}.json`;
@@ -428,5 +462,6 @@ if (dry) {
   for (const r of reports.filter((r) => r.status !== 'verified')) console.log(`  ${r.id}: ${r.status} ${r.why || ''}`);
   for (const e of errors) console.log('  ! ' + e);
 }
+for (const r of reports.filter((r) => String(r.checks.form_url || '').includes('直接は開けない'))) console.log(`  ${r.id}: フォームは${r.checks.form_url}`);
 if (!dry) console.log(`書き込み：research/verify/${batchId}.json${changes.length ? '・research/changelog.jsonl' : ''}・research/progress.json・public/data/summary.json・${[...results.keys()].map((f) => `public/data/contacts/${f}.json`).join('・')}`);
 

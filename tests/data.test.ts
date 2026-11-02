@@ -170,6 +170,10 @@ describe('窓口1件の点検', () => {
     expect(validateContact({ ...verified, phone: '03-1234' }, '2026-11-01').join()).toContain('電話番号');
     expect(validateContact({ ...verified, email: 'abc' }, '2026-11-01').join()).toContain('メール');
     expect(validateContact({ ...verified, source_url: 'http://example.jp/' }, '2026-11-01').join()).toContain('https');
+    // 公式ページから開くフォームの印は、フォームと出典があるときだけ
+    expect(validateContact({ ...verified, form_url: 'https://example.jp/form', form_via_page: 'ご意見フォーム' }, '2026-11-01')).toEqual([]);
+    expect(validateContact({ ...verified, form_via_page: 'ご意見フォーム' }, '2026-11-01').join()).toContain('form_via_page');
+    expect(validateContact({ ...verified, form_via_page: 1 }, '2026-11-01').join()).toContain('form_via_page');
     expect(validateContact({ ...verified, verified_at: '2026-12-31' }, '2026-11-01').join()).toContain('確認日');
     expect(validateContact({ ...verified, status: 'ok' as never }, '2026-11-01').join()).toContain('status');
   });

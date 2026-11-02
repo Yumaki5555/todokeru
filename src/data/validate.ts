@@ -68,12 +68,14 @@ export function validateContact(c: unknown, today = todayStr()): string[] {
     else if (!strOrNull(k)) e.push(`${k} は文字列か null にしてください`);
   }
   if ('matched_at' in x && !strOrNull('matched_at')) e.push('matched_at は文字列か null にしてください');
+  if ('form_via_page' in x && !strOrNull('form_via_page')) e.push('form_via_page は文字列か null にしてください');
   if (e.length) return e;
   const v = x as unknown as Contact;
   if (v.phone !== null && !isPhone(v.phone)) e.push(`電話番号の形が不正です: ${v.phone}`);
   if (v.email !== null && !RE_EMAIL.test(v.email)) e.push(`メールアドレスの形が不正です: ${v.email}`);
   if (v.form_url !== null && !isHttpsUrl(v.form_url)) e.push(`form_url は https の URL にしてください: ${v.form_url}`);
   if (v.source_url !== null && !isHttpsUrl(v.source_url)) e.push(`source_url は https の URL にしてください: ${v.source_url}`);
+  if (v.form_via_page && (!v.form_url || !v.source_url)) e.push('form_via_page（公式ページから開くフォーム）には form_url と source_url が必要です');
   if (v.postal_code !== null && !RE_POSTAL.test(v.postal_code)) e.push(`郵便番号の形が不正です: ${v.postal_code}`);
   if (v.verified_at !== null && !isPastDate(v.verified_at, today)) e.push(`verified_at（確認日）が不正です: ${v.verified_at}`);
   if (v.matched_at != null && !isPastDate(v.matched_at, today)) e.push(`matched_at（照合日）が不正です: ${v.matched_at}`);

@@ -109,6 +109,23 @@ describe('メール・フォーム：文面を作る', () => {
     expect(within(m).getByText(/受付番号や確認の画面は/)).toBeInTheDocument();
   });
 
+  it('直接開くとエラーになるフォームは、フォームのある公式ページを開き、押す文字を伝える', async () => {
+    setContact({ form_via_page: '県政へのご意見' });
+    open('#/guide/email?for=131083-feedback');
+    const box = screen.getByRole('region', { name: '送り先' });
+    await within(box).findByText('テスト広聴課');
+    // 送り先の欄でも、公式ページから開くことを伝える
+    const way = within(box).getByText(/の「県政へのご意見」から開く/);
+    expect(within(way).getByRole('link', { name: /公式ページ/ })).toHaveAttribute('href', 'https://example.jp/contact');
+    const m = maker();
+    await userEvent.click(within(m).getByRole('radio', { name: '問い合わせフォーム' }));
+    const page = within(m).getByRole('link', { name: /フォームのある公式ページを開く/ });
+    expect(page).toHaveAttribute('href', 'https://example.jp/contact');
+    expect(page).toHaveAttribute('target', '_blank');
+    expect(within(m).getByText(/開いたページの「県政へのご意見」を押すと、フォームが開きます/)).toBeInTheDocument();
+    expect(within(m).queryByRole('link', { name: /公式フォームを開く/ })).not.toBeInTheDocument();
+  });
+
   it('フォームしかない窓口を選ぶと、届け方はフォームになる', async () => {
     setContact({ email: null });
     open('#/guide/email?for=131083-feedback');

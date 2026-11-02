@@ -766,3 +766,8 @@
 {"date":"2026-11-02","batch":"auto-daihyo","id":"473146-general","change":"added","status":"auto_matched"}
 {"date":"2026-11-02","batch":"auto-daihyo","id":"473626-general","change":"added","status":"auto_matched"}
 {"date":"2026-11-02","batch":"auto-daihyo","id":"473812-general","change":"added","status":"auto_matched"}
+{"date":"2026-11-02","batch":"manual-form-via-page","id":"131091-feedback","change":"updated","fields":{"form_via_page":[null,"区政に関するご意見メール(SSL対応フォーム)"]}}
+{"date":"2026-11-02","batch":"manual-form-via-page","id":"131091-assembly","change":"updated","fields":{"form_via_page":[null,"お問い合わせメール"]}}
+{"date":"2026-11-02","batch":"manual-form-via-page","id":"470007-feedback","change":"updated","fields":{"form_via_page":[null,"お問い合わせは専用フォームをご利用ください"]}}
+{"date":"2026-11-02","batch":"manual-form-via-page","id":"470007-assembly","change":"updated","fields":{"form_via_page":[null,"お問い合わせは専用フォームをご利用ください"]}}
+{"date":"2026-11-02","batch":"manual-form-via-page","id":"030007-feedback","change":"updated","fields":{"form_via_page":[null,"県政への御意見・御提言"]}}

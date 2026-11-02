@@ -21,6 +21,7 @@ export function toCallTarget(org: string, c: Contact): CallTarget {
     phone: c.phone,
     email: c.email,
     formUrl: c.form_url,
+    formViaPage: c.form_via_page ?? null,
     postalCode: c.postal_code,
     postalAddress: c.postal_address,
     hours: c.hours,
@@ -110,7 +111,13 @@ export function CallTargetBox({ target, state, kind = 'phone' }: { target: CallT
             <MailWays target={target} />
           ) : (
             <>
-              <ContactActions phone={target.phone} email={target.email} formUrl={target.formUrl} />
+              <ContactActions
+                phone={target.phone}
+                email={target.email}
+                formUrl={target.formUrl}
+                formViaPage={target.formViaPage}
+                sourceUrl={target.sourceUrl}
+              />
               {target.hours && (
                 <p className="call-target-hours">
                   <Icon name="clock" />
@@ -186,7 +193,16 @@ function MailWays({ target }: { target: CallTarget }) {
           フォーム
         </dt>
         <dd>
-          {target.formUrl ? (
+          {target.formUrl && target.formViaPage ? (
+            <>
+              <a href={target.sourceUrl} target="_blank" rel="noopener noreferrer">
+                公式ページ
+                <Icon name="external" className="icon-inline" />
+                <span className="sr-only">（外部サイト・新しいタブで開きます）</span>
+              </a>
+              の「{target.formViaPage}」から開く（直接は開けないフォームです）
+            </>
+          ) : target.formUrl ? (
             <a href={target.formUrl} target="_blank" rel="noopener noreferrer">
               公式の問い合わせフォーム
               <Icon name="external" className="icon-inline" />

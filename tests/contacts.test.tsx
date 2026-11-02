@@ -203,6 +203,17 @@ describe('窓口データがあるときの表示（テスト用の架空デー�
     expect(links[0]).toHaveAttribute('href', '#/guide/email?for=131083-general');
   });
 
+  it('直接開くとエラーになるフォームは、リンクのある公式ページへ案内し、押す文字を伝える', async () => {
+    dataOverrides.set('contacts/13.json', [
+      { municipality_code: '131083', municipality_name: '江東区', contacts: [{ ...base, form_via_page: '区政へのご意見メール' }] },
+    ]);
+    openContacts('#/contacts?code=131083');
+    const card = await screen.findByRole('article');
+    const form = await within(card).findByRole('link', { name: /問い合わせフォーム/ });
+    expect(form).toHaveAttribute('href', 'https://example.jp/contact');
+    expect(form).toHaveTextContent('公式ページの「区政へのご意見メール」から開く');
+  });
+
   it('要再確認の窓口は注意書きつきで出す', async () => {
     dataOverrides.set('contacts/13.json', [
       { municipality_code: '131083', municipality_name: '江東区', contacts: [{ ...base, status: 'review' }] },

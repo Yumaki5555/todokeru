@@ -235,7 +235,7 @@ function ContactView({ c }: { c: Contact }) {
       {c.status === 'review' && <p className="contact-warn">情報が変わっている可能性があります。公式ページで確かめてください。</p>}
       {c.status === 'auto_matched' && <p className="contact-warn">{AUTO_MATCHED_NOTE}</p>}
       {/* 電話・メール・フォームは大きな操作ボタンにする */}
-      <ContactActions phone={c.phone} email={c.email} formUrl={c.form_url} />
+      <ContactActions phone={c.phone} email={c.email} formUrl={c.form_url} formViaPage={c.form_via_page} sourceUrl={c.source_url} />
       <p className="contact-script">
         <a className="btn btn-secondary btn-small" href={href('/guide/phone', { for: c.id })}>
           <Icon name="memo" />
@@ -298,9 +298,27 @@ function ContactView({ c }: { c: Contact }) {
   );
 }
 
+/** フォームの開き先：直接開くとエラーになるフォームは、リンクのある公式ページへ案内する */
+export function formLink(formUrl: string, formViaPage?: string | null, sourceUrl?: string | null): { url: string; via: string | null } {
+  return formViaPage && sourceUrl ? { url: sourceUrl, via: formViaPage } : { url: formUrl, via: null };
+}
+
 /** 電話・メール・フォームの大きな操作ボタン（発信は利用者が押したときだけ） */
-export function ContactActions({ phone, email, formUrl }: { phone: string | null; email: string | null; formUrl: string | null }) {
+export function ContactActions({
+  phone,
+  email,
+  formUrl,
+  formViaPage,
+  sourceUrl,
+}: {
+  phone: string | null;
+  email: string | null;
+  formUrl: string | null;
+  formViaPage?: string | null;
+  sourceUrl?: string | null;
+}) {
   if (!phone && !email && !formUrl) return null;
+  const form = formUrl ? formLink(formUrl, formViaPage, sourceUrl) : null;
   return (
     <ul className="contact-actions">
       {phone && (
@@ -327,13 +345,13 @@ export function ContactActions({ phone, email, formUrl }: { phone: string | null
           </a>
         </li>
       )}
-      {formUrl && (
+      {form && (
         <li>
-          <a className="act" href={formUrl}>
+          <a className="act" href={form.url}>
             <Icon name="form" />
             <span className="act-text">
               <span className="act-label">問い合わせフォーム</span>
-              <b>公式の受付ページ</b>
+              <b>{form.via ? `公式ページの「${form.via}」から開く` : '公式の受付ページ'}</b>
             </span>
             <Icon name="external" className="act-ext" />
             <span className="sr-only">（外部サイト）</span>

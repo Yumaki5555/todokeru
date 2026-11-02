@@ -295,7 +295,7 @@ export function MailMaker({
                     inputMode="numeric"
                     value={mail.postal}
                     onChange={(e) => updateMail({ postal: e.target.value })}
-                    placeholder="例：135-0016"
+                    placeholder="例：123-4567"
                     autoComplete="postal-code"
                     enterKeyHint="done"
                   />
@@ -307,7 +307,7 @@ export function MailMaker({
                     type="text"
                     value={mail.address}
                     onChange={(e) => updateMail({ address: e.target.value })}
-                    placeholder="例：東京都江東区東陽1-2-3"
+                    placeholder="例：○○県○○市○○町1-2-3"
                     autoComplete="street-address"
                     enterKeyHint="done"
                   />
@@ -319,7 +319,7 @@ export function MailMaker({
                     type="text"
                     value={mail.contact}
                     onChange={(e) => updateMail({ contact: e.target.value })}
-                    placeholder="例：03-1234-5678"
+                    placeholder="例：000-0000-0000"
                     autoComplete="off"
                     enterKeyHint="done"
                   />

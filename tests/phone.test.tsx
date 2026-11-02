@@ -343,3 +343,96 @@ describe('電話ガイド：マニュアル', () => {
     expect(screen.getByText(/電話で個別の事件の判断を変えるよう求めることは、おすすめしません/)).toBeInTheDocument();
   });
 });
+
+describe('電話ガイド：もっと詳しく整理する', () => {
+  const deep = () => within(maker()).getByText('もっと詳しく整理する').closest('details') as HTMLDetailsElement;
+  const applyButton = () => within(deep()).getByRole('button', { name: '③の台本に反映' });
+  async function openDeep() {
+    await userEvent.click(within(deep()).getByText('もっと詳しく整理する'));
+    expect(deep().open).toBe(true);
+  }
+
+  it('②「内容を入れる」の最後にあり、最初は閉じている', () => {
+    openPhone();
+    const step2 = within(maker()).getByRole('group', { name: '内容を入れる' });
+    expect(step2.lastElementChild).toBe(deep());
+    expect(deep().open).toBe(false);
+    // ①②③の構成はそのまま
+    expect(within(maker()).getByRole('group', { name: '目的を選ぶ' })).toBeInTheDocument();
+    expect(within(maker()).getByRole('group', { name: /できた台本/ })).toBeInTheDocument();
+  });
+
+  it('入力して「③の台本に反映」を押すと本題に加わり、コピーと大きな文字で読む画面にも出る', async () => {
+    const writeText = mockClipboard();
+    openPhone();
+    await openDeep();
+    // 「何について？」が空のうちは押せない
+    expect(applyButton()).toBeDisabled();
+    await userEvent.type(screen.getByLabelText('何について？'), 'A計画');
+    await userEvent.type(screen.getByLabelText('確認できたこと（事実）'), '説明会が1回だけだった');
+    await userEvent.click(screen.getByLabelText('法律・条例の根拠'));
+    // 押すまでは本題は変わらない
+    expect(part('本題').value).toBe('A計画について、懸念があります。');
+    await userEvent.click(applyButton());
+    expect(part('本題').value).toBe(
+      'A計画について、懸念があります。\n私が確認した状況は、次のとおりです。説明会が1回だけだった。\n適用される制度・条例と、その根拠資料を教えていただけますか。',
+    );
+    expect(within(deep()).getByRole('status')).toHaveTextContent('③の「本題」に反映しました');
+    await userEvent.click(within(maker()).getByRole('button', { name: '台本をまとめてコピー' }));
+    expect(writeText.mock.calls[0][0]).toContain('私が確認した状況は、次のとおりです。');
+    await userEvent.click(screen.getByRole('button', { name: '大きな文字で読む' }));
+    const reader = await screen.findByRole('dialog', { name: '台本を大きな文字で読む' });
+    expect(within(reader).getByText(/私が確認した状況は/)).toBeInTheDocument();
+  });
+
+  it('反映したあと詳しい整理を直して押し直すと、確認なしで置き換わり、同じ文が重ならない', async () => {
+    openPhone();
+    await userEvent.type(screen.getByLabelText('何について？'), 'A計画');
+    await openDeep();
+    const confirm = vi.spyOn(window, 'confirm').mockReturnValue(false);
+    await userEvent.type(screen.getByLabelText('疑問・気になっていること'), '説明会を増やす予定はあるか');
+    await userEvent.click(applyButton());
+    await userEvent.click(screen.getByLabelText('現在の対応状況'));
+    // 直したあとは「反映しました」を消す
+    expect(within(deep()).queryByRole('status')).not.toBeInTheDocument();
+    await userEvent.click(applyButton());
+    expect(confirm).not.toHaveBeenCalled();
+    expect(part('本題').value.match(/特に確認したいことがあります/g)).toHaveLength(1);
+    expect(part('本題').value).toContain('現在どのような確認や対応が行われているか');
+  });
+
+  it('本題を手で直していたら、置き換える前に確認する（やめると手で直した文が残る）', async () => {
+    openPhone();
+    await userEvent.type(screen.getByLabelText('何について？'), 'A計画');
+    await userEvent.clear(part('本題'));
+    await userEvent.type(part('本題'), '自分の言葉で伝えます。');
+    await openDeep();
+    await userEvent.type(screen.getByLabelText('確認できたこと（事実）'), '説明会が1回だけだった');
+    const confirm = vi.spyOn(window, 'confirm').mockReturnValue(false);
+    await userEvent.click(applyButton());
+    expect(confirm).toHaveBeenCalledTimes(1);
+    expect(part('本題').value).toBe('自分の言葉で伝えます。');
+    confirm.mockReturnValue(true);
+    await userEvent.click(applyButton());
+    expect(part('本題').value).toContain('私が確認した状況は');
+  });
+
+  it('入力は再読み込みしても残り、「入力を消す」で詳しい整理も消える', async () => {
+    const first = openPhone();
+    await userEvent.type(screen.getByLabelText('何について？'), 'A計画');
+    await openDeep();
+    await userEvent.type(screen.getByLabelText('確認できたこと（事実）'), '説明会が1回だけだった');
+    await userEvent.click(screen.getByLabelText('予算・費用'));
+    await userEvent.click(applyButton());
+    first.unmount();
+    openPhone();
+    expect(screen.getByLabelText('確認できたこと（事実）')).toHaveValue('説明会が1回だけだった');
+    expect(screen.getByLabelText('予算・費用')).toBeChecked();
+    vi.spyOn(window, 'confirm').mockReturnValue(true);
+    await userEvent.click(screen.getByRole('button', { name: '入力を消す' }));
+    expect(screen.getByLabelText('確認できたこと（事実）')).toHaveValue('');
+    expect(screen.getByLabelText('予算・費用')).not.toBeChecked();
+    expect(within(deep()).queryByRole('status')).not.toBeInTheDocument();
+    expect(part('本題').value).toBe('○○について、懸念があります。');
+  });
+});

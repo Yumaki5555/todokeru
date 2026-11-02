@@ -77,7 +77,7 @@ export function PhoneGuidePage({ route }: { route: Route }) {
   };
   const clear = () => {
     if (!window.confirm('入力した台本とメモを消しますか？')) return;
-    update((d) => ({ ...EMPTY_DRAFT, purpose: d.purpose, target: d.target }));
+    update((d) => ({ ...EMPTY_DRAFT, deepDive: undefined, purpose: d.purpose, target: d.target }));
   };
 
   const tocItems = [

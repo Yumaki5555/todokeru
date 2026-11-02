@@ -3,6 +3,7 @@ import { Fragment, useEffect, useLayoutEffect, useRef, type TextareaHTMLAttribut
 import type { CallDraft, ScriptPartKey } from '../types';
 import { PURPOSES, STANCES, buildScript, scriptAsText, wantsRecord } from '../content/callScript';
 import type { DraftUpdate } from '../lib/callDraft';
+import { DeepDivePanel } from './DeepDivePanel';
 import { CopyButton } from './CopyButton';
 import { Icon } from './Icon';
 
@@ -132,6 +133,7 @@ export function ScriptMaker({
                 />
               </div>
             )}
+            <DeepDivePanel draft={draft} update={update} />
           </div>
           <p className="privacy-line">
             <Icon name="info" />

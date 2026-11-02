@@ -237,6 +237,17 @@ export interface CallTarget {
   status: 'verified' | 'review';
 }
 
+/** 詳しい整理（台本作成画面のステップ②で任意入力） */
+export interface DeepDiveDraft {
+  facts: string;
+  question: string;
+  desired: string;
+  source: string;
+  points: string[];
+  /** 最後に③の本題へ反映した文（本題を手で直したかを見分けるため） */
+  applied?: string;
+}
+
 /** 台本づくりの入力（この端末のこのタブの中だけに一時保存する） */
 export interface CallDraft {
   purpose: CallPurpose;
@@ -248,6 +259,7 @@ export interface CallDraft {
   /** 書き直した文（目的ごとに覚えておき、目的を戻すと元に戻る） */
   edits: Partial<Record<CallPurpose, Partial<Record<ScriptPartKey, string>>>>;
   target: CallTarget | null;
+  deepDive?: DeepDiveDraft; // sessionStorage へ既存の方法で一時保存
   memo: { when: string; who: string; answer: string };
 }
 

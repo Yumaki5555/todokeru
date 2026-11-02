@@ -236,12 +236,15 @@ function ContactView({ c }: { c: Contact }) {
       {c.status === 'auto_matched' && <p className="contact-warn">{AUTO_MATCHED_NOTE}</p>}
       {/* 電話・メール・フォームは大きな操作ボタンにする */}
       <ContactActions phone={c.phone} email={c.email} formUrl={c.form_url} formViaPage={c.form_via_page} sourceUrl={c.source_url} />
+      {/* 電話の窓口には台本だけ、メール・フォームの窓口には文面だけ。住所しかない窓口は手紙の文面 */}
       <p className="contact-script">
-        <a className="btn btn-secondary btn-small" href={href('/guide/phone', { for: c.id })}>
-          <Icon name="memo" />
-          この窓口向けに台本を作る
-        </a>
-        {(c.email || c.form_url || c.postal_address) && (
+        {c.phone && (
+          <a className="btn btn-secondary btn-small" href={href('/guide/phone', { for: c.id })}>
+            <Icon name="memo" />
+            この窓口向けに台本を作る
+          </a>
+        )}
+        {(c.email || c.form_url || (c.postal_address && !c.phone)) && (
           <a className="btn btn-secondary btn-small" href={href('/guide/email', { for: c.id })}>
             <Icon name="mail" />
             この窓口あての文面を作る

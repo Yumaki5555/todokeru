@@ -587,21 +587,6 @@
     "verified_at": null,
     "status": "unverified",
     "note": "出典の確認待ち"
-   },
-   {
-    "id": "363022-education",
-    "type": "education",
-    "department": "教育委員会",
-    "phone": null,
-    "email": null,
-    "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
-    "hours": null,
-    "source_url": "https://www.kamikatsu.jp/soshiki/",
-    "verified_at": null,
-    "status": "unverified",
-    "note": "出典の確認待ち"
    }
   ]
  },
@@ -1199,21 +1184,6 @@
     "id": "364045-assembly",
     "type": "assembly",
     "department": "議会事務局",
-    "phone": null,
-    "email": null,
-    "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
-    "hours": null,
-    "source_url": null,
-    "verified_at": null,
-    "status": "unverified",
-    "note": null
-   },
-   {
-    "id": "364045-education",
-    "type": "education",
-    "department": "教育委員会",
     "phone": null,
     "email": null,
     "form_url": null,

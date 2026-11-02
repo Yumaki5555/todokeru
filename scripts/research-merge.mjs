@@ -413,6 +413,7 @@ for (const [file, items] of results) {
       const i = rec.contacts.findIndex((c) => c.id === nc.id);
       const old = i >= 0 ? rec.contacts[i] : null;
       if (!old) {
+        if (nc.status === 'unverified' && !REQUIRED.includes(nc.type)) continue; // 警察・教育委員会は確認できたものだけ載せる
         rec.contacts.push(nc);
         changes.push({ date: today, batch: batchId, id: nc.id, change: 'added', status: nc.status });
         continue;

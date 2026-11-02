@@ -3929,21 +3929,6 @@
     "verified_at": null,
     "status": "unverified",
     "note": "出典の確認待ち"
-   },
-   {
-    "id": "014095-education",
-    "type": "education",
-    "department": "教育委員会",
-    "phone": null,
-    "email": null,
-    "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
-    "hours": null,
-    "source_url": "https://www.akaigawa.com/profile/index4.html",
-    "verified_at": null,
-    "status": "unverified",
-    "note": "出典の確認待ち"
    }
   ]
  },
@@ -4211,21 +4196,6 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.maoi-net.jp/gikai/",
-    "verified_at": null,
-    "status": "unverified",
-    "note": "出典の確認待ち"
-   },
-   {
-    "id": "014281-education",
-    "type": "education",
-    "department": "教育委員会学校教育課学務係",
-    "phone": null,
-    "email": null,
-    "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
-    "hours": null,
-    "source_url": "https://www.maoi-net.jp/kosodate_kyoiku/gakko_kyoiku/kyoikuiinkai/",
     "verified_at": null,
     "status": "unverified",
     "note": "出典の確認待ち"
@@ -7987,21 +7957,6 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
-   },
-   {
-    "id": "016080-education",
-    "type": "education",
-    "department": "様似町教育委員会生涯学習課",
-    "phone": null,
-    "email": null,
-    "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
-    "hours": null,
-    "source_url": null,
-    "verified_at": null,
-    "status": "unverified",
-    "note": null
    }
   ]
  },
@@ -8101,21 +8056,6 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.shinhidaka-hokkaido.jp/gikai/",
-    "verified_at": null,
-    "status": "unverified",
-    "note": "出典の確認待ち"
-   },
-   {
-    "id": "016101-education",
-    "type": "education",
-    "department": "様似町教育委員会生涯学習課",
-    "phone": null,
-    "email": null,
-    "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
-    "hours": null,
-    "source_url": "https://www.shinhidaka-hokkaido.jp/hotnews/detail/00008919.html",
     "verified_at": null,
     "status": "unverified",
     "note": "出典の確認待ち"
@@ -8269,21 +8209,6 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.kamishihoro.jp/gikai/",
-    "verified_at": null,
-    "status": "unverified",
-    "note": "出典の確認待ち"
-   },
-   {
-    "id": "016331-education",
-    "type": "education",
-    "department": "教育委員会",
-    "phone": null,
-    "email": null,
-    "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
-    "hours": null,
-    "source_url": "https://www.kamishihoro.jp/entry/00007065",
     "verified_at": null,
     "status": "unverified",
     "note": "出典の確認待ち"
@@ -9103,21 +9028,6 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
-   },
-   {
-    "id": "016616-education",
-    "type": "education",
-    "department": "教育総務係",
-    "phone": null,
-    "email": null,
-    "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
-    "hours": null,
-    "source_url": null,
-    "verified_at": null,
-    "status": "unverified",
-    "note": null
    }
   ]
  },
@@ -9169,21 +9079,6 @@
     "verified_at": null,
     "status": "unverified",
     "note": "出典の確認待ち"
-   },
-   {
-    "id": "016624-education",
-    "type": "education",
-    "department": "厚岸町教育委員会管理課",
-    "phone": null,
-    "email": null,
-    "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
-    "hours": null,
-    "source_url": null,
-    "verified_at": null,
-    "status": "unverified",
-    "note": null
    }
   ]
  },

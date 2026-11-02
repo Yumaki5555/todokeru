@@ -2932,21 +2932,6 @@
     "verified_at": null,
     "status": "unverified",
     "note": "出典の確認待ち"
-   },
-   {
-    "id": "133621-education",
-    "type": "education",
-    "department": "利島村教育委員会",
-    "phone": null,
-    "email": null,
-    "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
-    "hours": null,
-    "source_url": "https://www.toshimamura.org/life/education/education-board.html",
-    "verified_at": null,
-    "status": "unverified",
-    "note": "出典の確認待ち"
    }
   ]
  },
@@ -2995,21 +2980,6 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.niijima.com/soshiki/gikaijimukyoku/index.html",
-    "verified_at": null,
-    "status": "unverified",
-    "note": "出典の確認待ち"
-   },
-   {
-    "id": "133639-education",
-    "type": "education",
-    "department": "新島村役場教育委員会",
-    "phone": null,
-    "email": null,
-    "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
-    "hours": null,
-    "source_url": "https://www.niijima.com/kurashi/lifeevent/kyouiku.html",
     "verified_at": null,
     "status": "unverified",
     "note": "出典の確認待ち"

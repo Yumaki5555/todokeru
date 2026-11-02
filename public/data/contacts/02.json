@@ -931,21 +931,6 @@
     "verified_at": null,
     "status": "unverified",
     "note": "出典の確認待ち"
-   },
-   {
-    "id": "023434-education",
-    "type": "education",
-    "department": "教育委員会",
-    "phone": null,
-    "email": null,
-    "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
-    "hours": null,
-    "source_url": "https://www.nishimeya.jp/19.html",
-    "verified_at": null,
-    "status": "unverified",
-    "note": "出典の確認待ち"
    }
   ]
  },

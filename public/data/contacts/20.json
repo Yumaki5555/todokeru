@@ -2526,21 +2526,6 @@
     "verified_at": null,
     "status": "unverified",
     "note": "出典の確認待ち"
-   },
-   {
-    "id": "204137-education",
-    "type": "education",
-    "department": "天龍村教育委員会",
-    "phone": null,
-    "email": null,
-    "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
-    "hours": null,
-    "source_url": "https://www.vill-tenryu.jp/category/administrative/parenting-education/",
-    "verified_at": null,
-    "status": "unverified",
-    "note": "出典の確認待ち"
    }
   ]
  },
@@ -3166,21 +3151,6 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.village.ikusaka.nagano.jp/gikai/index.html",
-    "verified_at": null,
-    "status": "unverified",
-    "note": "出典の確認待ち"
-   },
-   {
-    "id": "204480-education",
-    "type": "education",
-    "department": "教育委員会",
-    "phone": null,
-    "email": null,
-    "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
-    "hours": null,
-    "source_url": "https://www.village.ikusaka.nagano.jp/gyousei/sosiki.htm",
     "verified_at": null,
     "status": "unverified",
     "note": "出典の確認待ち"

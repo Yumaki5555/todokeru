@@ -674,21 +674,6 @@
     "verified_at": null,
     "status": "unverified",
     "note": "出典の確認待ち"
-   },
-   {
-    "id": "462187-education",
-    "type": "education",
-    "department": "教育部教育総務課教育政策グループ",
-    "phone": null,
-    "email": null,
-    "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
-    "hours": null,
-    "source_url": "https://www.city-kirishima.jp/ed-soumu/kyoiku/kyoikuinkai/tere/tere.html",
-    "verified_at": null,
-    "status": "unverified",
-    "note": "出典の確認待ち"
    }
   ]
  },
@@ -1190,21 +1175,6 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.tokara.jp/profile/administration/gaiyou/",
-    "verified_at": null,
-    "status": "unverified",
-    "note": "出典の確認待ち"
-   },
-   {
-    "id": "463043-education",
-    "type": "education",
-    "department": "教育総務課",
-    "phone": null,
-    "email": null,
-    "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
-    "hours": null,
-    "source_url": "https://www.tokara.jp/education/kyouiku/",
     "verified_at": null,
     "status": "unverified",
     "note": "出典の確認待ち"

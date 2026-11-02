@@ -990,21 +990,6 @@
     "verified_at": null,
     "status": "unverified",
     "note": "出典の確認待ち"
-   },
-   {
-    "id": "423220-education",
-    "type": "education",
-    "department": "教育総務係",
-    "phone": null,
-    "email": null,
-    "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
-    "hours": null,
-    "source_url": "https://www.kawatana.jp/cat05/c5-09/post_265/index.html",
-    "verified_at": null,
-    "status": "unverified",
-    "note": "出典の確認待ち"
    }
   ]
  },
@@ -1155,21 +1140,6 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.sazacho-nagasaki.jp/gikai/default.html",
-    "verified_at": null,
-    "status": "unverified",
-    "note": "出典の確認待ち"
-   },
-   {
-    "id": "423912-education",
-    "type": "education",
-    "department": "教育委員会",
-    "phone": null,
-    "email": null,
-    "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
-    "hours": null,
-    "source_url": "https://www.sazacho-nagasaki.jp/classset002.html",
     "verified_at": null,
     "status": "unverified",
     "note": "出典の確認待ち"

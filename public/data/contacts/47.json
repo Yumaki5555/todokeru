@@ -1756,21 +1756,6 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
-   },
-   {
-    "id": "473561-education",
-    "type": "education",
-    "department": "教育委員会",
-    "phone": null,
-    "email": null,
-    "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
-    "hours": null,
-    "source_url": null,
-    "verified_at": null,
-    "status": "unverified",
-    "note": null
    }
   ]
  },

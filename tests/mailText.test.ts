@@ -1,7 +1,22 @@
 // メール・フォームの文面の組み立て
-import { describe, expect, it } from 'vitest';
+import { afterEach, describe, expect, it, vi } from 'vitest';
 import { EMPTY_DRAFT } from '../src/content/callScript';
-import { EMPTY_MAIL, MAILTO_MAX, addressee, bodyText, buildMail, countChars, mailAutoText, mailMemoAsText, mailtoHref } from '../src/content/mailText';
+import {
+  EMPTY_MAIL,
+  MAILTO_MAX,
+  addressee,
+  bodyText,
+  buildMail,
+  countChars,
+  letterDate,
+  letterParts,
+  letterText,
+  mailAutoText,
+  mailMemoAsText,
+  mailtoHref,
+  methodUsable,
+  postAddressee,
+} from '../src/content/mailText';
 import type { CallDraft, CallTarget, MailDraft } from '../src/types';
 
 const draft = (p: Partial<CallDraft> = {}): CallDraft => ({ ...EMPTY_DRAFT, topic: 'A計画', ...p });
@@ -14,6 +29,8 @@ const target = (p: Partial<CallTarget> = {}): CallTarget => ({
   phone: null,
   email: 'koe@example.jp',
   formUrl: 'https://example.jp/form',
+  postalCode: null,
+  postalAddress: null,
   hours: null,
   sourceUrl: 'https://example.jp/contact',
   verifiedAt: '2026-10-01',
@@ -107,6 +124,67 @@ describe('メールアプリで開くリンク', () => {
     expect(m.withBody).toBe(false);
     expect(m.href).toBe(`mailto:koe@example.jp?subject=${encodeURIComponent('件名')}`);
     expect(m.href.length).toBeLessThanOrEqual(MAILTO_MAX);
+  });
+});
+
+describe('郵送（手紙）', () => {
+  const koto = { postalCode: '135-8383', postalAddress: '東京都江東区東陽4-11-28' };
+  afterEach(() => {
+    vi.useRealTimers();
+  });
+
+  it('宛先は〒・住所・機関名・部署名。部署や機関あては「御中」で、「ご担当者様」と重ねない', () => {
+    expect(postAddressee(target(koto))).toBe('〒135-8383\n東京都江東区東陽4-11-28\n江東区\n広聴課 御中');
+    expect(postAddressee(target({ org: '北海道', department: '代表電話（総合案内）', postalCode: '060-8588', postalAddress: '北海道札幌市中央区北3条西6丁目' }))).toBe(
+      '〒060-8588\n北海道札幌市中央区北3条西6丁目\n北海道 御中',
+    );
+    // 住所が載っていない窓口・郵便番号だけない窓口は、ある分だけ
+    expect(postAddressee(target())).toBe('江東区\n広聴課 御中');
+    expect(postAddressee(target({ postalAddress: '東京都江東区東陽4-11-28' }))).toBe('東京都江東区東陽4-11-28\n江東区\n広聴課 御中');
+    // 送り先が決まっていなければ「ご担当者様」だけ
+    expect(postAddressee(null)).toBe('ご担当者様');
+    for (const t of [target(koto), target({ department: 'ご意見・ご要望' })]) expect(postAddressee(t)).not.toContain('ご担当者様');
+  });
+
+  it('日付・宛先のあとに件名を置き、終わりは「差出人」。メールの宛名は入れない', () => {
+    vi.useFakeTimers({ toFake: ['Date'] });
+    vi.setSystemTime(new Date(2026, 10, 2, 10, 0));
+    const { subject, body } = buildMail(draft({ target: target(koto) }), mail({ method: 'post', name: '山田花子', area: '江東区' }));
+    const parts = letterParts(subject, body);
+    expect(parts.map((p) => p.key)).toEqual(['date', 'address', 'subject', 'greeting', 'main', 'request', 'closing', 'signature']);
+    expect(parts.map((p) => p.label)).toEqual(['日付', '宛先', '件名', 'あいさつ', '本題', 'お願い', '結び', '差出人']);
+    expect(letterText(parts)).toBe(
+      [
+        '2026年11月2日',
+        '〒135-8383\n東京都江東区東陽4-11-28\n江東区\n広聴課 御中',
+        '【意見】A計画について',
+        '突然のご連絡失礼いたします。\n江東区に住んでいる山田花子と申します。',
+        'A計画について、懸念があります。',
+        '意見として記録していただけますよう、お願いいたします。',
+        'お忙しいところ恐れ入りますが、よろしくお願いいたします。',
+        '山田花子\n江東区在住',
+      ].join('\n\n'),
+    );
+    expect(letterDate(new Date(2027, 0, 9))).toBe('2027年1月9日');
+  });
+
+  it('メールで直した宛名は手紙に使わない。件名・本題などの書き直しは共通で、件名は1行にする', () => {
+    const m = mail({ method: 'post', edits: { opinion: { to: '手で直した宛名', subject: '直した\n件名', main: '手で直した本題です。' } } });
+    const { subject, body } = buildMail(draft({ target: target(koto) }), m);
+    const text = letterText(letterParts(subject, body));
+    expect(text).not.toContain('手で直した宛名');
+    expect(text).toContain('広聴課 御中\n\n直した 件名\n\n');
+    expect(text).toContain('手で直した本題です。');
+    // メールに戻すと、直した宛名が戻る
+    expect(buildMail(draft({ target: target(koto) }), { ...m, method: 'mail' }).body[0].text).toBe('手で直した宛名');
+  });
+
+  it('届け方が使えるかは、メールアドレス・フォーム・住所が載っているかで決める', () => {
+    const onlyPost = target({ email: null, formUrl: null, ...koto });
+    expect(methodUsable(onlyPost, 'post')).toBe(true);
+    expect(methodUsable(onlyPost, 'mail')).toBe(false);
+    expect(methodUsable(onlyPost, 'form')).toBe(false);
+    expect(methodUsable(target(), 'post')).toBe(false);
   });
 });
 

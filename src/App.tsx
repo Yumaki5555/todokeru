@@ -19,7 +19,7 @@ export function resolvePage(route: Route): { title: string | null; element: Reac
   const { path } = route;
   if (path === '/') return { title: null, element: <HomePage /> };
   if (path === '/guide/phone') return { title: 'はじめての行政電話ガイド', element: <PhoneGuidePage route={route} /> };
-  if (path === '/guide/email') return { title: 'メール・フォームで届ける', element: <MailGuidePage route={route} /> };
+  if (path === '/guide/email') return { title: 'メール・フォーム・郵送で届ける', element: <MailGuidePage route={route} /> };
   if (path === '/contacts') return { title: '全国の窓口を探す', element: <ContactsPage route={route} /> };
   if (path === '/about') return { title: 'このサイトについて', element: <AboutPage /> };
   const m = /^\/guide\/([a-z-]+)$/.exec(path);

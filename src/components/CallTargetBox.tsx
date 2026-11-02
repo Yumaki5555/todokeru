@@ -21,6 +21,8 @@ export function toCallTarget(org: string, c: Contact): CallTarget {
     phone: c.phone,
     email: c.email,
     formUrl: c.form_url,
+    postalCode: c.postal_code,
+    postalAddress: c.postal_address,
     hours: c.hours,
     sourceUrl: c.source_url!,
     verifiedAt: c.verified_at!,
@@ -158,12 +160,12 @@ export function CallTargetBox({ target, state, kind = 'phone' }: { target: CallT
   );
 }
 
-/** 送り先のメールアドレスとフォーム（送るボタンは「できた文面」の下に出す） */
+/** 送り先のメールアドレス・フォーム・住所（送るボタンや印刷は「できた文面」の下に出す） */
 function MailWays({ target }: { target: CallTarget }) {
-  if (!target.email && !target.formUrl) {
+  if (!target.email && !target.formUrl && !target.postalAddress) {
     return (
       <p className="contact-warn">
-        この窓口には、メールアドレスも問い合わせフォームも載っていません。送り先を変えるか、電話で届けてください。
+        この窓口には、メールアドレスも問い合わせフォームも住所も載っていません。送り先を変えるか、電話で届けてください。
       </p>
     );
   }
@@ -191,6 +193,17 @@ function MailWays({ target }: { target: CallTarget }) {
           ) : (
             'この窓口には載っていません'
           )}
+        </dd>
+      </div>
+      <div>
+        <dt>
+          <Icon name="letter" />
+          住所
+        </dt>
+        <dd>
+          {target.postalAddress
+            ? `${target.postalCode ? `〒${target.postalCode} ` : ''}${target.postalAddress}`
+            : 'この窓口には載っていません'}
         </dd>
       </div>
     </dl>

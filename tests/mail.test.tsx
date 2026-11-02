@@ -43,7 +43,7 @@ describe('メール・フォーム：文面を作る', () => {
   it('送り先を選ぶ前でも件名・本文を作ってコピーできる。送るボタンは送り先を選んでから', async () => {
     const writeText = mockClipboard();
     open('#/guide/email');
-    expect(screen.getByRole('heading', { level: 1, name: 'メール・フォームで届ける' })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { level: 1, name: 'メール・フォーム・郵送で届ける' })).toBeInTheDocument();
     const m = maker();
     expect(within(m).getByRole('link', { name: '先に送り先を探す' })).toHaveAttribute('href', '#/contacts');
     expect(within(m).queryByRole('link', { name: 'メールアプリで開く' })).not.toBeInTheDocument();
@@ -114,6 +114,54 @@ describe('メール・フォーム：文面を作る', () => {
     open('#/guide/email?for=131083-feedback');
     await within(screen.getByRole('region', { name: '送り先' })).findByText('テスト広聴課');
     await waitFor(() => expect(within(maker()).getByRole('radio', { name: '問い合わせフォーム' })).toBeChecked());
+  });
+
+  it('住所しかない窓口から来ると郵送になり、手紙の形で印刷できる（文字数ではなく印刷と郵送の注意を出す）', async () => {
+    const writeText = mockClipboard();
+    const print = vi.fn();
+    vi.stubGlobal('print', print);
+    setContact({ phone: null, email: null, form_url: null, postal_code: '135-8383', postal_address: '東京都江東区東陽4-11-28' });
+    open('#/guide/email?for=131083-feedback');
+    const box = screen.getByRole('region', { name: '送り先' });
+    await within(box).findByText('テスト広聴課');
+    expect(within(box).getByText('〒135-8383 東京都江東区東陽4-11-28')).toBeInTheDocument();
+    const m = maker();
+    await waitFor(() => expect(within(m).getByRole('radio', { name: '郵送（手紙）' })).toBeChecked());
+    expect(within(m).getByRole('textbox', { name: '宛先' })).toHaveValue('〒135-8383\n東京都江東区東陽4-11-28\n江東区\nテスト広聴課 御中');
+    expect(within(m).queryByRole('textbox', { name: '宛名' })).not.toBeInTheDocument();
+    expect((within(m).getByRole('textbox', { name: '日付' }) as HTMLTextAreaElement).value).toMatch(/^\d{4}年\d{1,2}月\d{1,2}日$/);
+    expect(within(m).getByRole('textbox', { name: '件名' })).toHaveValue('【意見】○○について');
+    expect(within(m).queryByText(/文字数：/)).not.toBeInTheDocument();
+    expect(within(m).queryByRole('link', { name: 'メールアプリで開く' })).not.toBeInTheDocument();
+    expect(within(m).getByText(/最後に「御中」/)).toBeInTheDocument();
+    expect(within(m).queryByText(/受付番号や確認の画面は/)).not.toBeInTheDocument();
+
+    await userEvent.click(within(m).getByRole('button', { name: '印刷する' }));
+    expect(print).toHaveBeenCalledTimes(1);
+    // 印刷する手紙は、ページの外側に置く（印刷ではこれだけを出す）
+    const sheet = document.querySelector('.letter-sheet')!;
+    expect(sheet.parentElement).toBe(document.body);
+    expect(sheet.querySelector('.letter-address')).toHaveTextContent('テスト広聴課 御中');
+    expect(sheet.querySelector('.letter-subject')).toHaveTextContent('【意見】○○について');
+
+    await userEvent.click(within(m).getByRole('button', { name: '手紙の文面をコピー' }));
+    expect(writeText.mock.calls[0][0]).toMatch(/^\d{4}年\d{1,2}月\d{1,2}日\n\n〒135-8383\n東京都江東区東陽4-11-28\n江東区\nテスト広聴課 御中\n\n【意見】○○について\n\n突然の/);
+
+    // メールを選ぶと、手紙は消え、メールアドレスがないことを知らせる
+    await userEvent.click(within(m).getByRole('radio', { name: 'メール' }));
+    expect(document.querySelector('.letter-sheet')).toBeNull();
+    expect(within(m).getByText(/メールアドレスが載っていません/)).toBeInTheDocument();
+    vi.unstubAllGlobals();
+  });
+
+  it('住所のない窓口で郵送を選ぶと、住所を確かめて書き足すよう知らせる', async () => {
+    setContact();
+    open('#/guide/email?for=131083-feedback');
+    await within(screen.getByRole('region', { name: '送り先' })).findByText('テスト広聴課');
+    const m = maker();
+    await userEvent.click(within(m).getByRole('radio', { name: '郵送（手紙）' }));
+    expect(within(m).getByText(/住所が載っていません。公式ページで住所を確かめて/)).toBeInTheDocument();
+    expect(within(m).getByRole('textbox', { name: '宛先' })).toHaveValue('江東区\nテスト広聴課 御中');
   });
 
   it('送ったあとの記録は、日時・送り先・件名が入った状態で開き、まとめてコピーできる', async () => {

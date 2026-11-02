@@ -184,6 +184,25 @@ describe('窓口データがあるときの表示（テスト用の架空デー�
     expect(within(card).queryByText(/03-2222-2222/)).not.toBeInTheDocument();
   });
 
+  it('住所しかない窓口にも「この窓口あての文面を作る」を出す（郵送で届けられる）。電話しかない窓口には出さない', async () => {
+    const only = { ...base, phone: null, email: null, form_url: null };
+    dataOverrides.set('contacts/13.json', [
+      {
+        municipality_code: '131083',
+        municipality_name: '江東区',
+        contacts: [
+          { ...only, department: '住所だけの窓口' },
+          { ...only, id: '131083-feedback', type: 'feedback', department: '電話だけの窓口', phone: '03-3333-3333', postal_code: null, postal_address: null },
+        ],
+      },
+    ]);
+    openContacts('#/contacts?code=131083');
+    const card = await screen.findByRole('article');
+    const links = await within(card).findAllByRole('link', { name: 'この窓口あての文面を作る' });
+    expect(links).toHaveLength(1);
+    expect(links[0]).toHaveAttribute('href', '#/guide/email?for=131083-general');
+  });
+
   it('要再確認の窓口は注意書きつきで出す', async () => {
     dataOverrides.set('contacts/13.json', [
       { municipality_code: '131083', municipality_name: '江東区', contacts: [{ ...base, status: 'review' }] },

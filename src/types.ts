@@ -135,7 +135,9 @@ export type IconName =
   | 'scale'
   | 'question'
   | 'clock'
-  | 'form';
+  | 'form'
+  | 'letter'
+  | 'print';
 
 export type GuideSlug = 'phone' | 'email' | 'public-comment' | 'petition' | 'disclosure' | 'signature';
 
@@ -231,6 +233,8 @@ export interface CallTarget {
   phone: string | null;
   email: string | null;
   formUrl: string | null;
+  postalCode: string | null; // 郵便番号（例：135-8383）
+  postalAddress: string | null;
   hours: string | null;
   sourceUrl: string;
   verifiedAt: string;
@@ -264,14 +268,14 @@ export interface CallDraft {
   memo: { when: string; who: string; person: string; answer: string }; // person：対応した人
 }
 
-/** 文面の届け方（郵送はあとで追加する） */
-export type MailMethod = 'mail' | 'form';
+/** 文面の届け方（post：郵送の手紙） */
+export type MailMethod = 'mail' | 'form' | 'post';
 
 /** 返信の希望。unset（指定しない）のときは文に入れない */
 export type MailReply = 'unset' | 'want' | 'none';
 
-/** メールの文面の部分（件名と、本文の上から順） */
-export type MailPartKey = 'subject' | 'to' | 'greeting' | 'main' | 'request' | 'closing' | 'signature';
+/** 文面の部分（件名と、本文の上から順）。date（日付）・address（住所つきの宛先）は手紙だけ */
+export type MailPartKey = 'subject' | 'date' | 'to' | 'address' | 'greeting' | 'main' | 'request' | 'closing' | 'signature';
 
 export interface MailPart {
   key: MailPartKey;

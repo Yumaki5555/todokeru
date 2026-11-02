@@ -3828,3 +3828,58 @@ p.mail-label {
   margin: 0;
   overflow-wrap: anywhere;
 }
+
+/* 郵送：印刷する手紙。画面には出さず、印刷するときだけ、ほかを消して手紙だけを A4 の紙に出す */
+.letter-sheet {
+  display: none;
+}
+
+@page letter {
+  size: A4 portrait;
+  margin: 20mm 22mm;
+}
+
+@media print {
+  body:has(> .letter-sheet) {
+    background: #fff;
+  }
+
+  body:has(> .letter-sheet) > :not(.letter-sheet) {
+    display: none !important;
+  }
+
+  .letter-sheet {
+    display: block;
+    page: letter;
+    color: #000;
+    font-size: 10.5pt;
+    line-height: 1.8;
+  }
+
+  .letter-part {
+    margin: 0 0 1em;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+  }
+
+  .letter-date {
+    text-align: right;
+  }
+
+  .letter-address {
+    margin-bottom: 2em;
+  }
+
+  .letter-subject {
+    margin-bottom: 2em;
+    font-size: 12pt;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  /* 差出人は右に寄せる（手紙の終わりの名前） */
+  .letter-signature {
+    margin-top: 2em;
+    text-align: right;
+  }
+}

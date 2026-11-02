@@ -1,10 +1,24 @@
 // 文面を作る：1 目的を選ぶ → 2 内容を入れる → 3 届け方を選ぶ → 4 できた文面（タップして直せる）
 // 1・2 は電話の台本と同じ入力を使う（どちらのページで入れても引き継がれる）。書き直した文は電話の台本とは別に覚える
+// 郵送（手紙）を選んだときは、送るボタンの代わりに「印刷する」を出し、印刷では手紙だけを A4 の紙に出す（LetterSheet）
 import { Fragment, useState } from 'react';
-import type { CallDraft, MailDraft, MailPartKey } from '../types';
+import { createPortal } from 'react-dom';
+import type { CallDraft, MailDraft, MailMethod, MailPart, MailPartKey } from '../types';
 import { PURPOSES, STANCES, wantsRecord } from '../content/callScript';
 import { METHOD_NOTES } from '../content/mailGuide';
-import { METHODS, REPLIES, bodyText, buildMail, countChars, mailHelpLines, mailtoHref, subjectText } from '../content/mailText';
+import {
+  METHODS,
+  REPLIES,
+  bodyText,
+  buildMail,
+  countChars,
+  letterParts,
+  letterText,
+  mailHelpLines,
+  mailtoHref,
+  methodUsable,
+  subjectText,
+} from '../content/mailText';
 import type { DraftUpdate } from '../lib/callDraft';
 import { loadLastArea } from '../lib/lastArea';
 import type { MailDraftUpdate } from '../lib/mailDraft';
@@ -13,6 +27,13 @@ import { CopyButton } from './CopyButton';
 import { DeepDivePanel } from './DeepDivePanel';
 import { Icon } from './Icon';
 import { AutoTextarea } from './ScriptMaker';
+
+/** 選んだ届け方が、送り先に載っていないとき */
+const MISSING: Record<MailMethod, string> = {
+  mail: 'この送り先には、メールアドレスが載っていません。文面はコピーして使えます。',
+  form: 'この送り先には、問い合わせフォームが載っていません。文面はコピーして使えます。',
+  post: 'この送り先には、住所が載っていません。公式ページで住所を確かめて、④の宛先に書き足してください。',
+};
 
 export function MailMaker({
   draft,
@@ -31,11 +52,13 @@ export function MailMaker({
   const { subject, body } = buildMail(draft, mail);
   const subjectLine = subjectText(subject);
   const bodyAll = bodyText(body);
+  const isPost = mail.method === 'post';
+  // 手紙は、件名も日付・宛先のあとに並べる（印刷と同じ並び）
+  const parts = isPost ? letterParts(subject, body) : body;
   const t = draft.target;
   const [lastArea] = useState(loadLastArea);
   const findHref = lastArea ? href('/contacts', { tab: 'area', code: lastArea.code }) : href('/contacts');
-  const methodLabel = mail.method === 'mail' ? 'メールアドレス' : '問い合わせフォーム';
-  const methodMissing = !!t && (mail.method === 'mail' ? !t.email : !t.formUrl);
+  const methodMissing = !!t && !methodUsable(t, mail.method);
 
   const setEdit = (key: MailPartKey, text: string | undefined) =>
     updateMail((m) => {
@@ -249,10 +272,9 @@ export function MailMaker({
             {methodMissing && (
               <p className="maker-notice">
                 <Icon name="info" />
-                <span>この送り先には、{methodLabel}が載っていません。文面はコピーして使えます。</span>
+                <span>{MISSING[mail.method]}</span>
               </p>
             )}
-            <p className="field-hint">郵送（手紙）は準備中です。</p>
           </fieldset>
 
           <p className="privacy-line">
@@ -272,22 +294,32 @@ export function MailMaker({
             できた文面
             <span className="maker-step-note">文はタップして直せます</span>
           </p>
-          <div className="mail-label-row">
-            <label className="mail-label" htmlFor="mail-subject">
-              件名
-            </label>
-            {subject.edited && (
-              <button type="button" className="link-btn" onClick={() => setEdit('subject', undefined)}>
-                自動の文に戻す
-              </button>
-            )}
-          </div>
-          <input id="mail-subject" type="text" className="part-text" value={subject.text} onChange={(e) => setEdit('subject', e.target.value)} />
+          {!isPost && (
+            <>
+              <div className="mail-label-row">
+                <label className="mail-label" htmlFor="mail-subject">
+                  件名
+                </label>
+                {subject.edited && (
+                  <button type="button" className="link-btn" onClick={() => setEdit('subject', undefined)}>
+                    自動の文に戻す
+                  </button>
+                )}
+              </div>
+              <input
+                id="mail-subject"
+                type="text"
+                className="part-text"
+                value={subject.text}
+                onChange={(e) => setEdit('subject', e.target.value)}
+              />
+            </>
+          )}
           <p className="mail-label" id="mail-body-h">
-            本文
+            {isPost ? '手紙の文面' : '本文'}
           </p>
           <ol className="script-parts" aria-labelledby="mail-body-h">
-            {body.map((p) => {
+            {parts.map((p) => {
               const labelId = `mail-part-${p.key}`;
               return (
                 <li key={p.key} className="part">
@@ -328,13 +360,25 @@ export function MailMaker({
               ))}
             </dl>
           </details>
-          <div className="maker-actions">
-            <SendAction draft={draft} mail={mail} subject={subjectLine} body={bodyAll} />
-            <div className="maker-subactions">
-              <CopyButton text={subjectLine} label="件名をコピー" />
-              <CopyButton text={bodyAll} label="本文をコピー" />
+          {isPost ? (
+            <div className="maker-actions">
+              <button type="button" className="btn btn-primary btn-big" onClick={() => window.print()}>
+                <Icon name="print" />
+                印刷する
+              </button>
+              <div className="maker-subactions">
+                <CopyButton text={letterText(parts)} label="手紙の文面をコピー" />
+              </div>
             </div>
-          </div>
+          ) : (
+            <div className="maker-actions">
+              <SendAction draft={draft} mail={mail} subject={subjectLine} body={bodyAll} />
+              <div className="maker-subactions">
+                <CopyButton text={subjectLine} label="件名をコピー" />
+                <CopyButton text={bodyAll} label="本文をコピー" />
+              </div>
+            </div>
+          )}
           <ul className="mail-notes" aria-label="送るときの注意">
             {METHOD_NOTES[mail.method].map((n) => (
               <li key={n}>{n}</li>
@@ -342,7 +386,30 @@ export function MailMaker({
           </ul>
         </div>
       </div>
+      {isPost && <LetterSheet parts={parts} />}
     </section>
+  );
+}
+
+/**
+ * 印刷する手紙。画面には出さず、印刷するときだけ、ほかを消してこれだけを A4 の紙に出す（global.css の @media print）。
+ * ページの外側（body の直下）に置くので、ブラウザのメニューから印刷しても手紙だけが出る
+ */
+function LetterSheet({ parts }: { parts: MailPart[] }) {
+  return createPortal(
+    <div className="letter-sheet" aria-hidden="true">
+      {parts.map((p) => {
+        const text = p.key === 'subject' ? subjectText(p) : p.text.trim();
+        return (
+          text && (
+            <p key={p.key} className={`letter-part letter-${p.key}`}>
+              {text}
+            </p>
+          )
+        );
+      })}
+    </div>,
+    document.body,
   );
 }
 

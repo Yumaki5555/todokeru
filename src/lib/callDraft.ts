@@ -11,7 +11,9 @@ export function loadDraft(): CallDraft {
     const raw = window.sessionStorage.getItem(KEY);
     if (!raw) return EMPTY_DRAFT;
     const d = JSON.parse(raw) as Partial<CallDraft>;
-    return { ...EMPTY_DRAFT, ...d, memo: { ...EMPTY_DRAFT.memo, ...d.memo } };
+    // 郵送を追加する前に保存した送り先には住所の項目がないので、「載っていない」として補う
+    const target = d.target ? { ...d.target, postalCode: d.target.postalCode ?? null, postalAddress: d.target.postalAddress ?? null } : null;
+    return { ...EMPTY_DRAFT, ...d, target, memo: { ...EMPTY_DRAFT.memo, ...d.memo } };
   } catch {
     return EMPTY_DRAFT;
   }

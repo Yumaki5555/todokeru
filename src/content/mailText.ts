@@ -1,5 +1,6 @@
-// メール・フォームの文面を作る：電話の台本と同じ入力（目的・何について・理由・詳しく整理）から、件名と本文を組み立てる
+// メール・フォーム・郵送の文面を作る：電話の台本と同じ入力（目的・何について・理由・詳しく整理）から、件名と本文を組み立てる
 // 本題は電話と同じ組み立て（callScript.ts・deepDive.ts）を使い、件名・宛名・名乗り・お願い・結び・署名を足す。
+// 郵送（手紙）は、宛名の代わりに日付と住所つきの宛先を入れ、件名は宛先のあとに置く（印刷の形に合わせる）。
 import type { CallDraft, CallPurpose, CallTarget, IconName, MailDraft, MailMethod, MailPart, MailPartKey, MailReply } from '../types';
 import { topicText, wantsRecord } from './callScript';
 import { detailedMain } from './deepDive';
@@ -7,6 +8,7 @@ import { detailedMain } from './deepDive';
 export const METHODS: { id: MailMethod; label: string; icon: IconName }[] = [
   { id: 'mail', label: 'メール', icon: 'mail' },
   { id: 'form', label: '問い合わせフォーム', icon: 'form' },
+  { id: 'post', label: '郵送（手紙）', icon: 'letter' },
 ];
 
 export const REPLIES: { id: MailReply; label: string }[] = [
@@ -17,13 +19,18 @@ export const REPLIES: { id: MailReply; label: string }[] = [
 
 export const MAIL_PART_LABEL: Record<MailPartKey, string> = {
   subject: '件名',
+  date: '日付',
   to: '宛名',
+  address: '宛先',
   greeting: 'あいさつ',
   main: '本題',
   request: 'お願い',
   closing: '結び',
   signature: '署名',
 };
+
+/** 手紙では、終わりの名前を「差出人」と呼ぶ */
+const POST_LABEL: Partial<Record<MailPartKey, string>> = { signature: '差出人' };
 
 export const EMPTY_MAIL: MailDraft = {
   method: 'mail',
@@ -54,15 +61,33 @@ function areaText(s: string): string {
     .trim();
 }
 
-/**
- * 宛名。窓口名が「〜課」「〜窓口」のような部署の名前なら「○○市\n△△課 ご担当者様」。
- * 「ご意見・ご要望」「代表電話」のような名前は宛名にならないので「○○市 ご担当者様」にする
- */
+/** 窓口名が「〜課」「〜窓口」のような部署の名前ならその名前。「ご意見・ご要望」「代表電話」のような名前は宛名にならないので空 */
+function deptName(t: CallTarget): string {
+  const dept = t.department.replace(/[（(][^）)]*[）)]/gu, '').trim();
+  return /(課|室|局|部|係|班|所|センター|事務局|担当|グループ|コーナー|窓口|議会)$/u.test(dept) ? dept : '';
+}
+
+/** 宛名。部署の名前があれば「○○市\n△△課 ご担当者様」、なければ「○○市 ご担当者様」 */
 export function addressee(t: CallTarget | null): string {
   if (!t) return 'ご担当者様';
-  const dept = t.department.replace(/[（(][^）)]*[）)]/gu, '').trim();
-  if (/(課|室|局|部|係|班|所|センター|事務局|担当|グループ|コーナー|窓口|議会)$/u.test(dept)) return `${t.org}\n${dept} ご担当者様`;
-  return `${t.org} ご担当者様`;
+  const dept = deptName(t);
+  return dept ? `${t.org}\n${dept} ご担当者様` : `${t.org} ご担当者様`;
+}
+
+/**
+ * 手紙の宛先。〒・住所（載っていれば）・機関名・部署名の順。
+ * 部署や機関あては「御中」で、「ご担当者様」は重ねない。送り先が決まっていなければ「ご担当者様」だけ
+ */
+export function postAddressee(t: CallTarget | null): string {
+  if (!t) return 'ご担当者様';
+  const dept = deptName(t);
+  const to = dept ? [t.org, `${dept} 御中`] : [`${t.org} 御中`];
+  return [t.postalCode && `〒${t.postalCode}`, t.postalAddress, ...to].filter(Boolean).join('\n');
+}
+
+/** 手紙の日付（例：2026年11月2日） */
+export function letterDate(d: Date): string {
+  return `${d.getFullYear()}年${d.getMonth() + 1}月${d.getDate()}日`;
 }
 
 /** 自動で作る文（書き直す前の文）。入れる文がない部分は空 */
@@ -72,8 +97,12 @@ export function mailAutoText(draft: CallDraft, mail: MailDraft, key: MailPartKey
   switch (key) {
     case 'subject':
       return SUBJECT[draft.purpose](topicText(draft.topic));
+    case 'date':
+      return letterDate(new Date());
     case 'to':
       return addressee(draft.target);
+    case 'address':
+      return postAddressee(draft.target);
     case 'greeting': {
       const who = name ? (area ? `${area}に住んでいる${name}と申します。` : `${name}と申します。`) : area ? `${area}に住んでいる者です。` : '';
       return ['突然のご連絡失礼いたします。', who].filter(Boolean).join('\n');
@@ -97,19 +126,41 @@ export function mailAutoText(draft: CallDraft, mail: MailDraft, key: MailPartKey
   }
 }
 
-const BODY_ORDER: MailPartKey[] = ['to', 'greeting', 'main', 'request', 'closing', 'signature'];
+const BODY_ORDER: Record<MailMethod, MailPartKey[]> = {
+  mail: ['to', 'greeting', 'main', 'request', 'closing', 'signature'],
+  form: ['to', 'greeting', 'main', 'request', 'closing', 'signature'],
+  post: ['date', 'address', 'greeting', 'main', 'request', 'closing', 'signature'],
+};
 
 function part(draft: CallDraft, mail: MailDraft, key: MailPartKey): MailPart {
   const edited = mail.edits[draft.purpose]?.[key];
-  return { key, label: MAIL_PART_LABEL[key], text: edited ?? mailAutoText(draft, mail, key), edited: edited !== undefined };
+  const label = (mail.method === 'post' && POST_LABEL[key]) || MAIL_PART_LABEL[key];
+  return { key, label, text: edited ?? mailAutoText(draft, mail, key), edited: edited !== undefined };
 }
 
 /** 件名と、本文の部分（上から順）。入れる文がなく、書き直してもいない部分は出さない */
 export function buildMail(draft: CallDraft, mail: MailDraft): { subject: MailPart; body: MailPart[] } {
   return {
     subject: part(draft, mail, 'subject'),
-    body: BODY_ORDER.map((k) => part(draft, mail, k)).filter((p) => p.edited || p.text),
+    body: BODY_ORDER[mail.method].map((k) => part(draft, mail, k)).filter((p) => p.edited || p.text),
   };
+}
+
+/** 手紙の並び：日付・宛先のあとに件名を置く（画面・印刷・コピーで同じ並びにする） */
+export function letterParts(subject: MailPart, body: MailPart[]): MailPart[] {
+  const head = body.filter((p) => p.key === 'date' || p.key === 'address');
+  const rest = body.filter((p) => p.key !== 'date' && p.key !== 'address');
+  return [...head, subject, ...rest];
+}
+
+/** 手紙の文面（件名は1行にする。空にした部分は入れない） */
+export function letterText(parts: MailPart[]): string {
+  return bodyText(parts.map((p) => (p.key === 'subject' ? { ...p, text: subjectText(p) } : p)));
+}
+
+/** その送り先で、届け方が使えるか（メールアドレス・フォーム・住所が載っているか） */
+export function methodUsable(t: CallTarget, m: MailMethod): boolean {
+  return m === 'mail' ? !!t.email : m === 'form' ? !!t.formUrl : !!t.postalAddress;
 }
 
 /** 件名は1行にする */

@@ -240,7 +240,7 @@ function ContactView({ c }: { c: Contact }) {
           <Icon name="memo" />
           この窓口向けに台本を作る
         </a>
-        {(c.email || c.form_url) && (
+        {(c.email || c.form_url || c.postal_address) && (
           <a className="btn btn-secondary btn-small" href={href('/guide/email', { for: c.id })}>
             <Icon name="mail" />
             この窓口あての文面を作る

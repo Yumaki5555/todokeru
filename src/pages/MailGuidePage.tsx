@@ -1,4 +1,4 @@
-// メール・フォームのガイド「メール・フォームで届ける」
+// メール・フォーム・郵送のガイド「メール・フォーム・郵送で届ける」
 // 上から順に：文面を作る → 送り先 → 送る前に確かめる → 送ったあとの記録 → ほかの届け方（電話のページと同じ並び）
 //   #/guide/email?for=130001-feedback  窓口検索で選んだ窓口を送り先にする
 // 目的・内容・送り先は電話の台本と共通（電話の台本を作ったあとに「文章で届けたい」と思っても、書き直さずに済む）
@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 import { EMPTY_DRAFT } from '../content/callScript';
 import { GUIDES, guidePath } from '../content/guides';
 import { MAIL_CHECKLIST, MAIL_GUIDE } from '../content/mailGuide';
-import { EMPTY_MAIL, buildMail, subjectText } from '../content/mailText';
+import { EMPTY_MAIL, METHODS, buildMail, methodUsable, subjectText } from '../content/mailText';
 import { useCallDraft } from '../lib/callDraft';
 import { useMailDraft } from '../lib/mailDraft';
 import { href, type Route } from '../router';
@@ -27,13 +27,13 @@ export function MailGuidePage({ route }: { route: Route }) {
   const targetState = useTargetFromLink(route.query.get('for'), PATH, update);
   const t = draft.target;
 
-  // 送り先が変わったら、その窓口で使える届け方にする（メールアドレスがなくフォームだけ、など）
+  // 送り先が変わったら、その窓口で使える届け方にする（メールアドレスがなくフォームだけ、住所だけ、など）
   useEffect(() => {
     if (!t) return;
     updateMail((m) => {
-      if (m.method === 'mail' && !t.email && t.formUrl) return { method: 'form' };
-      if (m.method === 'form' && !t.formUrl && t.email) return { method: 'mail' };
-      return {};
+      if (methodUsable(t, m.method)) return {};
+      const next = METHODS.find((x) => methodUsable(t, x.id));
+      return next ? { method: next.id } : {};
     });
     // 窓口を選び直したときだけ見直す（同じ窓口のまま利用者が選んだ届け方は変えない）
   }, [t?.contactId]);

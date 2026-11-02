@@ -16,9 +16,9 @@ export const GUIDES: GuideMenuItem[] = [
   },
   {
     slug: 'email',
-    title: 'メール・フォーム',
-    short: 'メール・フォーム',
-    summary: '件名と本文を作って、メールや公式の問い合わせフォームで届ける。郵送は準備中。',
+    title: 'メール・フォーム・郵送',
+    short: 'メール・フォーム・郵送',
+    summary: '件名と本文を作って、メールや公式の問い合わせフォーム、郵送の手紙で届ける。',
     status: 'published',
     icon: 'mail',
     roadmapStep: 5,

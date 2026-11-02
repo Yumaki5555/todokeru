@@ -32,6 +32,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "cas-feedback-2",
+    "type": "feedback",
+    "department": "首相官邸へのご意見・ご感想",
+    "phone": null,
+    "email": null,
+    "form_url": "https://www.kantei.go.jp/jp/forms/goiken_ssl.html",
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.kantei.go.jp/jp/forms/goiken_ssl.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "2,000文字以内。内容に応じて関係する省庁に転送されます。返信が必ずあるわけではありません。"
    }
   ]
  },
@@ -176,6 +191,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "soumu-feedback-2",
+    "type": "feedback",
+    "department": "行政相談（国の行政への苦情・意見・要望）",
+    "phone": null,
+    "email": null,
+    "form_url": "https://www.soumu.go.jp/form/hyouka/gyousei-form.html",
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.soumu.go.jp/main_sosiki/hyouka/soudan.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "総務省行政評価局の受付です。はじめにメールアドレスを入れると、相談内容を書くページのURLがメールで届きます。匿名でも相談できます。閉庁日の相談は開庁日のあとの対応です。"
    }
   ]
  },

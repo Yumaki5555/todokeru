@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-11-02",
+ "generated_at": "2026-11-03",
  "entities": {
   "agencies": 22,
   "prefectures": 47,
   "municipalities": 1741
  },
  "contacts": {
-  "total": 766,
-  "verified": 241,
+  "total": 768,
+  "verified": 243,
   "by_status": {
-   "verified": 241,
+   "verified": 243,
    "unverified": 4,
    "review": 0,
    "unavailable": 1,

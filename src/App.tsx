@@ -10,6 +10,7 @@ import { AboutPage } from './pages/AboutPage';
 import { ComingSoonPage } from './pages/ComingSoonPage';
 import { ContactsPage } from './pages/ContactsPage';
 import { HomePage } from './pages/HomePage';
+import { MailGuidePage } from './pages/MailGuidePage';
 import { NotFoundPage } from './pages/NotFoundPage';
 import { PhoneGuidePage } from './pages/PhoneGuidePage';
 
@@ -18,6 +19,7 @@ export function resolvePage(route: Route): { title: string | null; element: Reac
   const { path } = route;
   if (path === '/') return { title: null, element: <HomePage /> };
   if (path === '/guide/phone') return { title: 'はじめての行政電話ガイド', element: <PhoneGuidePage route={route} /> };
+  if (path === '/guide/email') return { title: 'メール・フォームで届ける', element: <MailGuidePage route={route} /> };
   if (path === '/contacts') return { title: '全国の窓口を探す', element: <ContactsPage route={route} /> };
   if (path === '/about') return { title: 'このサイトについて', element: <AboutPage /> };
   const m = /^\/guide\/([a-z-]+)$/.exec(path);

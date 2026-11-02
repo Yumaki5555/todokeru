@@ -3735,3 +3735,96 @@ html:has(.reader[open]) {
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+/* 台本の下：コピーと「この内容で文面を作る」を横に並べる */
+.maker-subactions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 12px;
+}
+
+.contact-script {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* メール・フォームの文面 */
+.maker-start {
+  margin: 8px 0 0;
+  font-size: var(--fs-small);
+  line-height: 1.6;
+}
+
+.maker-start a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  margin-left: 4px;
+  font-weight: 600;
+}
+
+/* 読み上げない文なので、台本より小さく、太字にしない */
+.mail-maker .part-text {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.mail-maker .stance-chip .icon {
+  margin-right: 4px;
+  vertical-align: -0.15em;
+}
+
+.mail-label-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 8px;
+  min-height: 36px;
+}
+
+.mail-label {
+  margin: 0;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: var(--c-main-deep);
+}
+
+p.mail-label {
+  margin: 14px 0 4px;
+}
+
+.mail-count {
+  margin: 10px 0 0;
+  font-size: var(--fs-small);
+  font-weight: 700;
+}
+
+.mail-count span {
+  font-weight: 400;
+  color: var(--c-text-sub);
+}
+
+.mail-notes {
+  display: grid;
+  gap: 4px;
+  margin: 14px 0 0;
+  padding-left: 1.2em;
+  font-size: var(--fs-small);
+  line-height: 1.6;
+}
+
+.help-lines dd .copy-row {
+  margin-top: 6px;
+}
+
+.mail-ways {
+  margin-top: 8px;
+}
+
+.mail-ways dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}

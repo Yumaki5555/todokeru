@@ -264,5 +264,36 @@ export interface CallDraft {
   memo: { when: string; who: string; person: string; answer: string }; // person：対応した人
 }
 
+/** 文面の届け方（郵送はあとで追加する） */
+export type MailMethod = 'mail' | 'form';
+
+/** 返信の希望。unset（指定しない）のときは文に入れない */
+export type MailReply = 'unset' | 'want' | 'none';
+
+/** メールの文面の部分（件名と、本文の上から順） */
+export type MailPartKey = 'subject' | 'to' | 'greeting' | 'main' | 'request' | 'closing' | 'signature';
+
+export interface MailPart {
+  key: MailPartKey;
+  label: string;
+  text: string;
+  /** 利用者が書き直した文かどうか */
+  edited: boolean;
+}
+
+/**
+ * メールの文面づくりで、電話の台本と別に覚えるもの（この端末のこのタブの中だけに一時保存する）
+ * 目的・何について・理由・詳しく整理・送り先は、電話の台本（CallDraft）と共通
+ */
+export interface MailDraft {
+  method: MailMethod;
+  name: string; // 名前（任意）
+  area: string; // 住んでいる市区町村（任意）
+  reply: MailReply;
+  /** 書き直した文（目的ごと。電話の台本で直した文とは別） */
+  edits: Partial<Record<CallPurpose, Partial<Record<MailPartKey, string>>>>;
+  memo: { when: string; to: string; subject: string; receipt: string; answer: string }; // receipt：フォームの受付番号
+}
+
 /** 監修の確認状態 */
 export type SupervisionStatus = 'confirmed' | 'pending' | 'none';

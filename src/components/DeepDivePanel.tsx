@@ -4,7 +4,8 @@ import type { CallDraft, DeepDiveDraft } from '../types';
 import type { DraftUpdate } from '../lib/callDraft';
 import { CHECK_POINTS, EMPTY_DEEP_DIVE, applyDetailed, detailedMain, hasDeepDive } from '../content/deepDive';
 
-export function DeepDivePanel({ draft, update }: { draft: CallDraft; update: DraftUpdate }) {
+/** auto：入れた内容をそのまま本文に入れる（メールの文面）。電話の台本は、ボタンを押したときだけ③に反映する */
+export function DeepDivePanel({ draft, update, auto = false }: { draft: CallDraft; update: DraftUpdate; auto?: boolean }) {
   const d = { ...EMPTY_DEEP_DIVE, ...draft.deepDive };
   const [applied, setApplied] = useState(false);
   const change = (patch: (dd: DeepDiveDraft) => Partial<DeepDiveDraft>) => {
@@ -76,14 +77,20 @@ export function DeepDivePanel({ draft, update }: { draft: CallDraft; update: Dra
             autoComplete="off"
             onChange={(e) => change(() => ({ source: e.target.value }))} />
         </div>
-        <button type="button" className="btn btn-secondary deep-dive-apply" onClick={apply} disabled={!canApply}>
-          ③の台本に反映
-        </button>
-        {!draft.topic.trim() && <p className="deep-dive-help">上の「何について？」を入れると押せます。</p>}
-        {applied && currentMain === main && (
-          <p className="deep-dive-done" role="status">③の「本題」に反映しました。文章は直接修正できます。</p>
+        {auto ? (
+          <p className="deep-dive-help">入れた内容は、④の本文の「本題」に自動で入ります。</p>
+        ) : (
+          <>
+            <button type="button" className="btn btn-secondary deep-dive-apply" onClick={apply} disabled={!canApply}>
+              ③の台本に反映
+            </button>
+            {!draft.topic.trim() && <p className="deep-dive-help">上の「何について？」を入れると押せます。</p>}
+            {applied && currentMain === main && (
+              <p className="deep-dive-done" role="status">③の「本題」に反映しました。文章は直接修正できます。</p>
+            )}
+            <p className="deep-dive-help">反映はボタンを押したときだけ行います。変更後はもう一度押してください。手動編集済みの本題がある場合は確認します。</p>
+          </>
         )}
-        <p className="deep-dive-help">反映はボタンを押したときだけ行います。変更後はもう一度押してください。手動編集済みの本題がある場合は確認します。</p>
       </div>
     </details>
   );

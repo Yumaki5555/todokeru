@@ -4,6 +4,7 @@ import type { CallDraft, ScriptPartKey } from '../types';
 import { PURPOSES, STANCES, buildScript, helpLines, scriptAsText, wantsRecord } from '../content/callScript';
 import { applyDetailed, mainState } from '../content/deepDive';
 import type { DraftUpdate } from '../lib/callDraft';
+import { href } from '../router';
 import { DeepDivePanel } from './DeepDivePanel';
 import { CopyButton } from './CopyButton';
 import { Icon } from './Icon';
@@ -229,7 +230,14 @@ export function ScriptMaker({
               <Icon name="book" />
               大きな文字で読む
             </button>
-            <CopyButton text={scriptAsText(buildScript(draft))} label="台本をまとめてコピー" hint="メールやフォームに使うとき" />
+            {/* 文章で届けたくなったら、同じ入力のままメールの文面へ（電話用に直した文は台本に残す） */}
+            <div className="maker-subactions">
+              <CopyButton text={scriptAsText(buildScript(draft))} label="台本をコピー" />
+              <a className="btn btn-secondary btn-small" href={href('/guide/email')}>
+                <Icon name="mail" />
+                この内容で文面を作る
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -238,7 +246,7 @@ export function ScriptMaker({
 }
 
 /** 文の長さに合わせて高さが変わる入力欄 */
-function AutoTextarea(props: TextareaHTMLAttributes<HTMLTextAreaElement> & { value: string }) {
+export function AutoTextarea(props: TextareaHTMLAttributes<HTMLTextAreaElement> & { value: string }) {
   const ref = useRef<HTMLTextAreaElement>(null);
   const fit = () => {
     const el = ref.current;

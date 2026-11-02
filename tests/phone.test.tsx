@@ -36,7 +36,7 @@ describe('電話ガイド：台本を作る', () => {
     expect(within(m).getByText(/入力した内容は送信しません。このタブを閉じるまで、この端末にだけ一時保存します/)).toBeInTheDocument();
   });
 
-  it('1行ずつのコピーはなく、コピーは「台本をまとめてコピー」の1つだけ', async () => {
+  it('1行ずつのコピーはなく、コピーは「台本をコピー」の1つだけ。横に「この内容で文面を作る」', async () => {
     const writeText = mockClipboard();
     openPhone();
     expect(screen.queryByRole('button', { name: 'この台本をコピー' })).not.toBeInTheDocument();
@@ -48,6 +48,7 @@ describe('電話ガイド：台本を作る', () => {
       'お忙しいところ失礼します。\nA計画について、懸念があります。\n意見として記録をお願いします。\nご対応ありがとうございました。',
     );
     expect(await within(maker()).findByRole('button', { name: 'コピーしました' })).toBeInTheDocument();
+    expect(within(maker()).getByRole('link', { name: 'この内容で文面を作る' })).toHaveAttribute('href', '#/guide/email');
   });
 
   it('入力すると、あいさつ・本題・記録のお願い・お礼がつながった台本になる', async () => {
@@ -442,7 +443,7 @@ describe('電話ガイド：もっと詳しく整理する', () => {
       'A計画について、懸念があります。\n説明会が1回だけだったことを確認しました。\n適用される制度・条例と、その根拠資料を教えていただけますか？',
     );
     expect(within(deep()).getByRole('status')).toHaveTextContent('③の「本題」に反映しました');
-    await userEvent.click(within(maker()).getByRole('button', { name: '台本をまとめてコピー' }));
+    await userEvent.click(within(maker()).getByRole('button', { name: '台本をコピー' }));
     expect(writeText.mock.calls[0][0]).toContain('説明会が1回だけだったことを確認しました。');
     await userEvent.click(screen.getByRole('button', { name: '大きな文字で読む' }));
     const reader = await screen.findByRole('dialog', { name: '台本を大きな文字で読む' });

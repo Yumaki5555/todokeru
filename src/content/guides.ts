@@ -16,13 +16,13 @@ export const GUIDES: GuideMenuItem[] = [
   },
   {
     slug: 'email',
-    title: 'メール・郵送',
-    short: 'メール・郵送',
-    summary: '件名の書き方、質問と意見の違い、宛先の確かめ方。',
-    status: 'coming',
+    title: 'メール・フォーム',
+    short: 'メール・フォーム',
+    summary: '件名と本文を作って、メールや公式の問い合わせフォームで届ける。郵送は準備中。',
+    status: 'published',
     icon: 'mail',
     roadmapStep: 5,
-    plannedTopics: ['件名の書き方', '質問と意見の違い', '宛先の確認', '丁寧で簡潔な文章', '郵送先の確認'],
+    plannedTopics: [],
   },
   {
     slug: 'public-comment',

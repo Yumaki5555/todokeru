@@ -2,17 +2,16 @@
 // 上から順に：マニュアル監修 → 台本を作る → 大きな文字で読む → 電話先 → かける前に確かめる → 電話のあとのメモ → 詳しいマニュアル（必要な人だけ開く）
 //   #/guide/phone?view=read        大きな文字で読む画面を開いた状態
 //   #/guide/phone?for=130001-feedback  窓口検索で選んだ窓口を電話先にする
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import { PHONE_CHAPTERS, PHONE_CHECKLIST, PHONE_FLOW, PHONE_GUIDE } from '../content/phoneManual';
 import { EMPTY_DRAFT, buildScript, helpLines } from '../content/callScript';
 import { GUIDES, guidePath } from '../content/guides';
-import { findContact } from '../data/loaders';
-import { isDisplayable } from '../data/validate';
 import { useCallDraft } from '../lib/callDraft';
+import { clearMailDraft } from '../lib/mailDraft';
 import { scrollToSection } from '../lib/dom';
 import { href, navigate, type Route } from '../router';
 import { CallMemo } from '../components/CallMemo';
-import { CallTargetBox, toCallTarget } from '../components/CallTargetBox';
+import { CallTargetBox, useTargetFromLink } from '../components/CallTargetBox';
 import { Checklist } from '../components/Checklist';
 import { Icon } from '../components/Icon';
 import { PageEndNav } from '../components/Links';
@@ -29,33 +28,10 @@ let openedByButton = false;
 
 export function PhoneGuidePage({ route }: { route: Route }) {
   const [draft, update] = useCallDraft();
-  const [targetState, setTargetState] = useState<'idle' | 'loading' | 'error'>('idle');
   const reading = route.query.get('view') === 'read';
-  const forId = route.query.get('for');
   const memoAfterClose = useRef(false);
-
   // 窓口検索の「この窓口向けに台本を作る」から来たとき：選んだ窓口を電話先に入れる（入力中の台本はそのまま）
-  useEffect(() => {
-    if (!forId) return;
-    let alive = true;
-    setTargetState('loading');
-    findContact(forId).then(
-      (r) => {
-        if (!alive) return;
-        if (r && isDisplayable(r.contact)) {
-          update({ target: toCallTarget(r.org, r.contact) });
-          setTargetState('idle');
-        } else {
-          setTargetState('error');
-        }
-        navigate(href(PATH), { replace: true });
-      },
-      () => alive && setTargetState('error'),
-    );
-    return () => {
-      alive = false;
-    };
-  }, [forId, update]);
+  const targetState = useTargetFromLink(route.query.get('for'), PATH, update);
 
   // 読む画面を閉じたら（ブラウザの「戻る」でも）、頼まれていればメモ欄を開く
   useEffect(() => {
@@ -78,6 +54,8 @@ export function PhoneGuidePage({ route }: { route: Route }) {
   const clear = () => {
     if (!window.confirm('入力した台本とメモを消しますか？')) return;
     update((d) => ({ ...EMPTY_DRAFT, deepDive: undefined, purpose: d.purpose, target: d.target }));
+    // メールの文面も同じ入力を使うので、名乗りや書き直した文もあわせて消す
+    clearMailDraft();
   };
 
   const tocItems = [

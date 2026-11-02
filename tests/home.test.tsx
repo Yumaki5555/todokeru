@@ -71,9 +71,9 @@ describe('トップページ', () => {
     render(<App />);
     const sec = document.getElementById('methods')!;
     const cards = within(sec).getAllByRole('listitem');
-    expect(cards.map((c) => c.textContent)).toEqual(['電話', 'メール・郵送準備中', 'パブコメ準備中', '請願・陳情準備中', '情報公開請求準備中', '署名準備中']);
+    expect(cards.map((c) => c.textContent)).toEqual(['電話', 'メール・フォーム', 'パブコメ準備中', '請願・陳情準備中', '情報公開請求準備中', '署名準備中']);
     expect(within(cards[0]).getByRole('link', { name: '電話のかけ方' })).toHaveAttribute('href', '#/guide/phone');
-    expect(within(sec).getAllByText('準備中')).toHaveLength(5);
+    expect(within(sec).getAllByText('準備中')).toHaveLength(4);
     expect(within(sec).getByRole('link', { name: 'パブコメの書き方（準備中）' })).toHaveAttribute('href', '#/guide/public-comment');
     for (const g of GUIDES) expect(screen.queryByText(g.summary)).not.toBeInTheDocument();
   });

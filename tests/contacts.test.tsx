@@ -175,6 +175,8 @@ describe('窓口データがあるときの表示（テスト用の架空デー�
     const toScript = within(card).getAllByRole('link', { name: 'この窓口向けに台本を作る' });
     expect(toScript).toHaveLength(1);
     expect(toScript[0]).toHaveAttribute('href', '#/guide/phone?for=131083-general');
+    // メールかフォームがある窓口は、その窓口あての文面づくりへも進める
+    expect(within(card).getByRole('link', { name: 'この窓口あての文面を作る' })).toHaveAttribute('href', '#/guide/email?for=131083-general');
     // 未確認の窓口は番号を出さない
     expect(within(card).queryByText(/03-1111-1111/)).not.toBeInTheDocument();
     expect(within(card).getByText(/公式の確認待ちのため表示していません/)).toBeInTheDocument();

@@ -298,6 +298,7 @@ export const PHONE_CHAPTERS: ManualChapter[] = [
           '文書でも残したいときは、メールやフォームで同じ内容を送る',
         ],
       },
+      { kind: 'link', label: '文章でも送るときは（メール・フォーム・郵送の第3章・第7章）', to: '/guide/email?s=ch3' },
     ],
   },
 ];

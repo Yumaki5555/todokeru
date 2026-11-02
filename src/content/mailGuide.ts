@@ -3,7 +3,7 @@ import type { MailMethod } from '../types';
 
 export const MAIL_GUIDE = {
   title: 'メール・フォーム・郵送で届ける',
-  subtitle: '件名と本文を作って、そのまま使える。手紙は印刷もできる。',
+  subtitle: 'まず、聞きたいことを一文で。',
 };
 
 /** 届け方ごとの注意（選んだ方法の分だけ出す） */

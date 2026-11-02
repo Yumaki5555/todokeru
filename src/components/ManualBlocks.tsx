@@ -1,9 +1,11 @@
-// 電話マニュアルの本文（段落・箇条書き・台本・会話例など）を表示する
-import type { ReactElement } from 'react';
-import type { ManualBlock } from '../types';
+// 電話・文章のマニュアルの本文（段落・箇条書き・台本・会話例・文面の見本など）を表示する
+import { useId, useState, type ReactElement } from 'react';
+import type { ManualBlock, ManualSample } from '../types';
+import { sampleText } from '../lib/text';
+import { CopyButton } from './CopyButton';
 import { ScriptExample } from './ScriptExample';
 import { Icon } from './Icon';
-import { SmartLink } from './Links';
+import { JumpLink, SmartLink } from './Links';
 
 export function ManualBlocks({ blocks }: { blocks: ManualBlock[] }) {
   const out: ReactElement[] = [];
@@ -84,14 +86,67 @@ function Block({ block: b }: { block: ManualBlock }) {
           <span>{b.text}</span>
         </p>
       );
-    case 'link':
+    case 'link': {
+      const label = (
+        <>
+          {b.label}
+          <Icon name="arrow-right" className="icon-inline" />
+        </>
+      );
       return (
         <p className="mlink">
-          <SmartLink to={b.to}>
-            {b.label}
-            <Icon name="arrow-right" className="icon-inline" />
-          </SmartLink>
+          {b.section ? (
+            <JumpLink path={b.to} id={b.section}>
+              {label}
+            </JumpLink>
+          ) : (
+            <SmartLink to={b.to}>{label}</SmartLink>
+          )}
         </p>
       );
+    }
+    case 'sample':
+      return <SampleBlock title={b.title} items={b.items} />;
   }
+}
+
+/** 文面の見本。部分ごとにラベルを付けて縦に並べ、見本が2つ以上あれば同じ枠の中で切りかえる */
+function SampleBlock({ title, items }: { title: string; items: ManualSample[] }) {
+  const [id, setId] = useState(items[0].id);
+  const name = useId();
+  const s = items.find((x) => x.id === id) ?? items[0];
+  return (
+    <figure className="sample" aria-label={title}>
+      <figcaption className="mlist-title">{title}</figcaption>
+      {items.length > 1 && (
+        <fieldset className="sample-switch">
+          <legend className="sr-only">見本を切りかえる</legend>
+          <div className="stance-chips">
+            {items.map((x) => (
+              <label key={x.id} className="stance-chip">
+                <input type="radio" name={name} value={x.id} checked={x.id === s.id} onChange={() => setId(x.id)} />
+                <span>{x.label}</span>
+              </label>
+            ))}
+          </div>
+        </fieldset>
+      )}
+      <dl className="sample-parts">
+        {s.parts.map((p) => (
+          <div key={p.label}>
+            <dt>{p.label}</dt>
+            <dd>{p.text}</dd>
+          </div>
+        ))}
+      </dl>
+      {s.notes && (
+        <ul className="sample-notes">
+          {s.notes.map((n) => (
+            <li key={n}>{n}</li>
+          ))}
+        </ul>
+      )}
+      <CopyButton key={s.id} text={sampleText(s)} label="まとめてコピー" />
+    </figure>
+  );
 }

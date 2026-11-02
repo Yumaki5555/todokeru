@@ -185,6 +185,15 @@ export interface Script {
   note?: string;
 }
 
+/** マニュアルの文面の見本（一通の完成例）。届け方などを切りかえて見せる1つ分 */
+export interface ManualSample {
+  id: string;
+  label: string;
+  /** 上から順に並べる部分。field：件名のように本文とは別の欄に入れる部分（コピーではラベルも付ける） */
+  parts: { label: string; text: string; field?: boolean }[];
+  notes?: string[];
+}
+
 export type ManualBlock =
   | { kind: 'p'; text: string }
   | { kind: 'list'; title?: string; tone?: 'do' | 'dont'; items: string[] }
@@ -192,7 +201,9 @@ export type ManualBlock =
   | { kind: 'dialog'; title: string; lines: { who: 'me' | 'staff'; text: string }[] }
   | { kind: 'terms'; items: { term: string; desc: string }[] }
   | { kind: 'note'; text: string }
-  | { kind: 'link'; label: string; to: string };
+  /** section があれば、to のページの中のその見出しへ移動する（同じページの中のリンク） */
+  | { kind: 'link'; label: string; to: string; section?: string }
+  | { kind: 'sample'; title: string; items: ManualSample[] };
 
 export interface ManualChapter {
   id: string;

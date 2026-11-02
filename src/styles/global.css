@@ -1812,6 +1812,72 @@ p.lead {
   min-height: 44px;
 }
 
+/* 文面の見本（一通の完成例）：部分ごとにラベルを付けて縦に並べる。長いアドレスも折り返し、横にはみ出さない */
+.sample {
+  margin: 16px 0;
+  padding: 14px 16px;
+  min-width: 0;
+  border: 2px solid var(--c-main-line);
+  border-radius: var(--radius);
+  background: #fff;
+}
+
+.sample > figcaption {
+  font-weight: 700;
+}
+
+.sample-switch {
+  min-width: 0;
+  margin: 8px 0 0;
+  padding: 0;
+  border: 0;
+}
+
+.sample-parts {
+  display: grid;
+  gap: 8px;
+  margin: 12px 0 0;
+}
+
+.sample-parts > div {
+  min-width: 0;
+}
+
+.sample-parts dt {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--c-main-deep);
+}
+
+.sample-parts dd {
+  margin: 2px 0 0;
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  background: var(--c-bg-sub);
+  line-height: 1.7;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.sample-notes {
+  display: grid;
+  gap: 4px;
+  margin: 12px 0;
+  padding-left: 1.2em;
+  font-size: var(--fs-small);
+  line-height: 1.6;
+  color: var(--c-text-sub);
+}
+
+.sample > .copy-row {
+  margin-top: 12px;
+}
+
+/* はじめて文章で送る人への案内（電話のページの監修欄と同じ形で、文字は小さめ） */
+.manual-intro .supervisor-label {
+  font-size: var(--fs-body);
+}
+
 /* 電話の流れ（準備 → 電話 → 意見・質問 → 記録依頼 → お礼）
    スマホでは縦に、広い画面では横に並べる */
 .call-flow {
@@ -2363,7 +2429,8 @@ p.lead {
   .site-footer,
   .page-end-nav,
   .toc-actions,
-  .script-actions {
+  .script-actions,
+  .sample > .copy-row {
     display: none;
   }
   .chapter:not([open]) > .chapter-body {

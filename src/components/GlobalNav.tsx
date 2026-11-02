@@ -4,6 +4,7 @@ import { href } from '../router';
 export const NAV_ITEMS = [
   { path: '/', label: 'トップ' },
   { path: '/guide/phone', label: '電話のかけ方' },
+  { path: '/guide/email', label: 'メール・手紙' },
   { path: '/contacts', label: '窓口を探す' },
   { path: '/about', label: 'このサイトについて' },
 ];

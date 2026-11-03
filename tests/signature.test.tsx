@@ -105,6 +105,17 @@ describe('署名の方法', () => {
     expect(within(sec).getByText(/手数料（システム利用料25%など）を引いて発起人に届きます/)).toBeInTheDocument();
     expect(within(sec).getByText(/非公開でも、発起人が管理する署名簿には名前が載ります/)).toBeInTheDocument();
     expect(within(sec).getByText(/2026年11月4日に/)).toBeInTheDocument();
+    // 第3段階で足した項目：毎月の支払い・寄付する側の費用と返金・署名簿・やめるとき
+    expect(within(sec).getByText(/毎月払いの「月額会員」の案内が出ることがあります（解約はアカウント設定から）/)).toBeInTheDocument();
+    expect(within(sec).getByText(/寄付額とは別に110円がかかる活動があります。寄付は原則として返金されません/)).toBeInTheDocument();
+    for (const label of ['署名簿', 'やめるとき']) expect(within(sec).getAllByText(label)).toHaveLength(2);
+    expect(within(sec).getByText(/署名が10人以上集まった活動や、寄付があった活動は、非公開・削除ができません/)).toBeInTheDocument();
+  });
+
+  it('公開前チェックの立ち上げボタンも名前順（Change.org→Voice）', () => {
+    open();
+    const sec = document.getElementById('check-start')!;
+    expect(within(sec).getAllByRole('link').map((a) => a.textContent?.replace('（外部サイト）', ''))).toEqual(['Change.orgで立ち上げる', 'Voiceで立ち上げる']);
   });
 
   it('署名文のひな形をコピーできる', async () => {

@@ -300,13 +300,13 @@ export function SignatureGuidePage() {
             </h3>
             <Checklist title="公開する前に" items={START_CHECKLIST} doneText={START_DONE} meter />
             <p className="step-more">
-              <SmartLink to={LINKS.voiceStart} className="btn btn-primary">
-                <Icon name="signature" />
-                Voiceで立ち上げる
-              </SmartLink>
               <SmartLink to={LINKS.changeStart} className="btn btn-primary">
                 <Icon name="signature" />
                 Change.orgで立ち上げる
+              </SmartLink>
+              <SmartLink to={LINKS.voiceStart} className="btn btn-primary">
+                <Icon name="signature" />
+                Voiceで立ち上げる
               </SmartLink>
             </p>
           </section>

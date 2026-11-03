@@ -5,14 +5,22 @@
 //     本名でも仮名でも可。非公開を選んでも、発起人が管理する署名簿には名前が載る（署名簿：名前・メールの先頭3文字・署名日、住所を集める活動は都道府県・市区町村）。
 //     取り消しは署名完了メールの専用リンク（ログインして署名した人はマイページ）。受付終了後はできないことがある。
 //     エールは任意。寄付を募集している活動は、システム利用料25%・決済手数料3.6%・振込手数料550円を引いて発起人へ（2021年9月1日以降の活動）。
-//     寄付を募集していない活動への寄付（拡散エール）は運営が受け取る（利用規約 第7条7項）。
+//     寄付を募集していない活動への寄付（拡散エール）は運営が受け取る（利用規約 第7条7項、2026/10/22改定版）。
+//     2025年7月1日以降に作られた対象活動へのカード寄付は、寄付額とは別にシステム維持費110円が加わる。寄付は原則として返金なし。署名を取り消しても寄付は取り消されない。
+//     発起人の受け取り：署名を提出先へ届ける（原則）→完了報告→入金依頼→本人確認。募集期間の終了から90日以内に申請しないと受け取れない（利用規約 第7条6項）。
 //     AIフォーム：400文字以内→「AIで下書きを作る」→追加質問（最大4問・スキップ可）→「この文章で署名活動を始める」で登録・ログイン。
 //     無料・未ログイン1日3回／ログイン1日5回。AIの文章がそのまま公開されることはない。署名簿はPDF・CSVで出力し、発起人が届ける。
+//     署名が10名以上・エールがある活動などは、非公開・削除ができない。応援メッセージは公開を選んだときだけページに出る（発起人は読める）。
+//     （Voiceのヘルプは 2026年8月27〜29日更新のものを確認）
 //   ・Change.org（運営：Change.org, PBC）ヘルプ・プライバシーポリシー：賛同は無料・姓、名、メール。初めての賛同でアカウントが自動で作られ、確認メールのリンクで有効。
 //     名前を表示しない賛同ができるが、氏名と都市名（または郵便番号）・賛同日は発信者に共有される。メールアドレスは共有されない（発信者が団体のときは提供を選ぶ画面が出る）。
 //     取り消しは賛同時のメールのリンク（30日間）、過ぎたらヘルプへ問い合わせ。
-//     プロモーション支援のお金は Change.org に支払われ、発信者には渡らない。払わなくても賛同は有効。
-//     立ち上げは無料。「AIサポート機能」がタイトル・本文・画像の下書きを提案（AI機能だけの料金の記載はない）。賛同者リストはダウンロードでき、提出は発信者が行う。
+//     プロモーション支援のお金は Change.org に支払われ、発信者には渡らない。払わなくても賛同は有効。プロモーション支援は1回払いで、
+//     そのあと月額会員（継続課金）の案内が出ることがある。解約はアカウント設定（account_settings/contributions）から。発信者へ寄付する仕組みはない。
+//     賛同時の所在地は IP アドレスから自動で入り、直せる。コメントは署名ページに出て、賛同者リストにも入る。
+//     立ち上げは無料。「AIサポート機能」がタイトル・本文・画像の下書きを提案（AI機能だけの料金・回数の記載はない）。
+//     賛同者リストは CSV（立ち上げから24時間後から、メールのURLは7日間有効）。提出は発信者が行う。「終了」はページが残り再開も可、削除はサポートへ依頼・復元不可。
+//     （Change.orgのヘルプは 2026年3〜8月更新。日本語のプライバシーポリシーは 2020年8月6日発効のままだが、ヘルプと食い違いはない）
 //   ・地方自治法 第74条・第74条の2・第74条の3、施行令 第92条、総務省「直接請求制度」：条例の制定改廃の請求は有権者の50分の1以上、
 //     議会の解散・解職は原則3分の1以上。決められた様式の署名簿に有権者が自署し、署名収集者が直接署名させる。選挙管理委員会が審査する。電子で集める規定はない。
 //   ・地方自治法 第124条・請願法 第2条：請願は議員の紹介が必要。署名簿を求める規定はない。
@@ -47,13 +55,17 @@ export const OFFICIAL = {
   voiceYell: { label: 'Voice「エールについて」', url: 'https://voice.charity/help/donations-yell/about-yell' },
   voiceReceive: { label: 'Voice「エールの受け取り」（手数料）', url: 'https://voice.charity/help/start-a-petition/receive-yell' },
   voiceSubmit: { label: 'Voice「署名簿のダウンロードと提出」', url: 'https://voice.charity/help/start-a-petition/download-and-submit-signatures' },
+  voiceDonate: { label: 'Voice「エールをする方法」（システム維持費）', url: 'https://voice.charity/help/donations-yell/how-to-donate' },
+  voicePublish: { label: 'Voice「公開・非公開・削除」', url: 'https://voice.charity/help/start-a-petition/publish-unpublish-delete' },
   voiceTos: { label: 'Voice「利用規約」', url: 'https://voice.charity/informations/tos' },
-  changeSign: { label: 'Change.org「オンライン署名に賛同する方法」', url: 'https://help.change.org/ja_JP/how-to-sign-a-petition' },
+  changeSign: { label: 'Change.org「オンライン署名に賛同する方法」', url: 'https://help.change.org/ja_JP/getting-started/how-to-sign-a-petition' },
   changeConfirm: { label: 'Change.org「賛同の確認（メール認証）」', url: 'https://help.change.org/ja_JP/signing-supporting/confirming-your-signature' },
   changeStart: { label: 'Change.org「オンライン署名の始め方」', url: 'https://help.change.org/ja_JP/getting-started/how-to-start-a-petition' },
   changePrivacy: { label: 'Change.org「プライバシーとデータ保護」', url: 'https://help.change.org/ja_JP/legal-compliance/privacy-data-protection' },
   changeRemove: { label: 'Change.org「賛同の取り消し」', url: 'https://help.change.org/ja_JP/signing-supporting/removing-your-signature-from-a-petition' },
   changePromote: { label: 'Change.org「プロモーション支援について」', url: 'https://help.change.org/ja_JP/billing-membership/promoting-a-petition' },
+  changeMember: { label: 'Change.org「月額会員プログラム」（解約）', url: 'https://help.change.org/ja_JP/billing-membership/changeorg-membership-program' },
+  changeClose: { label: 'Change.org「成功宣言／終了と再開」', url: 'https://help.change.org/ja_JP/managing-your-petition/changing-petition-status-closing-declaring-victory-reopening' },
   changeDownload: { label: 'Change.org「賛同者リストのダウンロード」', url: 'https://help.change.org/ja_JP/managing-your-petition/download-your-signatures' },
   changeLegal: { label: 'Change.org「発信者の法的責任」', url: 'https://help.change.org/ja_JP/legal-compliance/legal-responsibilities-for-petition-starters' },
   changePolicy: { label: 'Change.org「プライバシーポリシー」', url: 'https://www.change.org/policies/privacy' },
@@ -137,7 +149,7 @@ export const JOIN_STEPS: SignatureStep[] = [
     icon: 'check',
     title: '賛同したあと',
     text: '確認メールのリンクを開いたか、もう一度確かめます。広めたいときは、SNSなどで共有できます。',
-    notes: ['寄付や有料の支援をしなくても、署名は有効です。'],
+    notes: ['署名のあとに、寄付や有料の支援の案内が出ることがあります。しなくても署名は有効なので、画面を閉じてかまいません。'],
   },
 ];
 
@@ -172,7 +184,7 @@ export const START_STEPS: SignatureStep[] = [
     no: 3,
     icon: 'sparkle',
     title: 'VoiceのAIを使ってみよう',
-    text: '困っていることを短く書くだけで、AIがタイトルや本文の下書きを作ります。',
+    text: 'Voiceのサイトにある、無料のAI機能です。困っていることを短く書くだけで、タイトルや本文の下書きを作ります。',
     howto: [
       'Voiceのトップページを開き、「変えたいこと・困っていること」に入力する（400文字以内・短くてOK）',
       '「AIで下書きを作る」を押す',
@@ -183,7 +195,7 @@ export const START_STEPS: SignatureStep[] = [
     example: '〇〇市の公園の安全対策を改善してほしい',
     notes: [
       'AIフォームは無料です。使えるのは1日3回まで（ログインすると5回まで）です。',
-      'AIの文章が、そのまま公開されることはありません。事実・数字・提出先は、自分で確かめてから使います。',
+      'AIの文章が、そのまま公開されることはありません。名前・数字・引用・提出先は、自分で確かめて直してから使います。',
     ],
     links: [
       { label: 'VoiceのAIで署名文を作る', icon: 'sparkle', to: LINKS.voiceTop, primary: true },
@@ -311,14 +323,22 @@ export const SITES: { title: string; lead: string; cards: SignatureSite[]; check
       name: 'Change.org',
       url: 'https://www.change.org/',
       rows: [
-        { label: '署名のしかた', text: '姓・名・メールを入れて賛同。初めてのときはアカウントが自動で作られ、確認メールのリンクで有効になります。' },
         {
-          label: '名前の公開',
-          text: '名前を表示しない賛同もできます。その場合も、氏名と都市名（または郵便番号）・賛同日は発信者に伝わります。発信者が、提出先に名前とおおよその所在地を伝えることもあります。',
+          label: '署名のしかた',
+          text: '姓・名・メールを入れて賛同。所在地はIPアドレス（ネット上の住所）から自動で入り、直せます。初めてのときはアカウントが自動で作られ、確認メールのリンクで有効になります。',
+        },
+        {
+          label: '名前・コメント',
+          text: '名前を表示しない賛同もできます。その場合も、氏名と都市名（または郵便番号）・賛同日は発信者に伝わります。発信者が、提出先に名前とおおよその所在地を伝えることもあります。コメントは署名ページに出て、賛同者リストにも入ります。',
         },
         { label: 'メール', text: 'メールアドレスは発信者に共有されません（発信者が団体のときは、提供するかを選ぶ画面が出ます）。' },
-        { label: '支援のお金', text: '有料の「プロモーション支援」のお金はChange.orgに支払われ、発信者には渡りません。払わなくても賛同は有効です。' },
+        {
+          label: '支援のお金',
+          text: '有料の「プロモーション支援」（1回払い）のお金はChange.orgに支払われ、発信者には渡りません。そのあと毎月払いの「月額会員」の案内が出ることがあります（解約はアカウント設定から）。払わなくても賛同は有効です。',
+        },
         { label: 'AIの手伝い', text: '「AIサポート機能」が、タイトル・本文・画像の下書きを提案します。自分で書くこともできます。' },
+        { label: '署名簿', text: '賛同者リストを表のファイル（CSV）でダウンロードできます（立ち上げて24時間後から）。提出は発信者が行います。' },
+        { label: 'やめるとき', text: '「終了」で受付を止められます（ページは残り、再開もできます）。削除はサポートへの依頼が必要で、元に戻せません。' },
         { label: '運営', text: 'Change.org, PBC（アメリカ）' },
       ],
     },
@@ -328,15 +348,17 @@ export const SITES: { title: string; lead: string; cards: SignatureSite[]; check
       rows: [
         { label: '署名のしかた', text: '名前とメールを入れて署名。アカウントがなくても署名でき、ログインしていないときは確認メールのURLを開くと完了します。' },
         {
-          label: '名前の公開',
-          text: '名前を非公開にできます。非公開でも、発起人が管理する署名簿には名前が載ります（署名日なども。住所を集める活動では都道府県・市区町村も）。',
+          label: '名前・コメント',
+          text: '名前を非公開にできます。非公開でも、発起人が管理する署名簿には名前が載ります（署名日なども。住所を集める活動では都道府県・市区町村も）。応援メッセージは、公開を選んだときだけページに出ます（発起人は読めます）。',
         },
         { label: 'メール', text: '署名簿に載るのは、メールアドレスの先頭3文字だけです。全体は発起人に渡りません。' },
         {
           label: '支援のお金',
-          text: '「エール」（寄付）は任意です。寄付を募っている活動では、手数料（システム利用料25%など）を引いて発起人に届きます。寄付を募っていない活動への寄付は、Voiceの運営が受け取ります。',
+          text: '「エール」（寄付）は任意です。寄付を募っている活動では、手数料（システム利用料25%など）を引いて発起人に届きます。寄付を募っていない活動への寄付は、Voiceの運営が受け取ります。カードで寄付すると、寄付額とは別に110円がかかる活動があります。寄付は原則として返金されません。',
         },
         { label: 'AIの手伝い', text: '「AIフォーム」が、タイトル・本文・訴え先などの下書きを作ります。無料で、1日3回まで（ログインすると5回まで）。' },
+        { label: '署名簿', text: '発起人のマイページから、署名簿をPDFかCSVで出せます。提出は発起人が行います。' },
+        { label: 'やめるとき', text: '非公開や削除ができます。ただし、署名が10人以上集まった活動や、寄付があった活動は、非公開・削除ができません。' },
         { label: '運営', text: '一般社団法人Social Good（日本）' },
       ],
     },
@@ -377,7 +399,7 @@ export const KINDS: { title: string; cards: { icon: IconName; title: string; sub
 export const FAQ: { q: string; a: string }[] = [
   {
     q: '署名にお金はかかる？',
-    a: 'VoiceもChange.orgも、署名は無料です。Voiceの「エール」（寄付）や、Change.orgの「プロモーション支援」は任意で、しなくても署名は有効です。',
+    a: 'VoiceもChange.orgも、署名は無料です。Voiceの「エール」（寄付）や、Change.orgの「プロモーション支援」は任意で、しなくても署名は有効です。払うときは、画面に出る届け先と金額を確かめます。Change.orgの「月額会員」は毎月の支払いで、アカウント設定から解約できます。',
   },
   {
     q: '本名で署名しなければいけない？',
@@ -393,7 +415,7 @@ export const FAQ: { q: string; a: string }[] = [
   },
   {
     q: '署名を取り消せる？',
-    a: 'できます。Voiceは署名完了メールの専用リンクから（受付が終わったあとはできないことがあります）。Change.orgは賛同したときのメールのリンクから（30日間。過ぎたらヘルプに問い合わせ）。',
+    a: 'できます。Voiceは署名完了メールの専用リンクから（受付が終わったあとはできないことがあります）。Change.orgは賛同したときのメールのリンクから（30日間。過ぎたらヘルプに問い合わせ）。署名を取り消しても、済んだ寄付は取り消されません。',
   },
   { q: '署名が集まったら、必ず実現する？', a: 'いいえ。署名は「これだけの人が望んでいる」と伝えるものです。実現するかどうかは、提出先が判断します。' },
   {
@@ -420,18 +442,22 @@ export const SOURCES = {
     OFFICIAL.voiceCancel,
     OFFICIAL.voiceMail,
     OFFICIAL.voiceYell,
+    OFFICIAL.voiceDonate,
     OFFICIAL.voiceReceive,
     OFFICIAL.voiceAi,
     OFFICIAL.voiceStart,
     OFFICIAL.voiceSubmit,
+    OFFICIAL.voicePublish,
     OFFICIAL.voiceTos,
     OFFICIAL.changeSign,
     OFFICIAL.changeConfirm,
     OFFICIAL.changePrivacy,
     OFFICIAL.changeRemove,
     OFFICIAL.changePromote,
+    OFFICIAL.changeMember,
     OFFICIAL.changeStart,
     OFFICIAL.changeDownload,
+    OFFICIAL.changeClose,
     OFFICIAL.changeLegal,
     OFFICIAL.changePolicy,
     OFFICIAL.soumu,
@@ -462,4 +488,5 @@ export const AFTER_PUBLISH = [
   '集まった署名は、サイトから署名簿（賛同者リスト）をダウンロードして、発起人が自分で提出先に届けます。',
   '届ける前に、提出先が受け付ける様式や受け取り方を確かめます。',
   '提出したことや、その後の回答・対応も、賛同した人に伝えます。',
+  'Voiceで寄付（エール）を受け取るには、署名の提出・完了報告・本人確認などが必要です。募集が終わってから90日以内に入金を申請します。',
 ];

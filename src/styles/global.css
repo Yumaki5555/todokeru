@@ -1686,7 +1686,8 @@ a.way-chip:hover {
   color: var(--c-main-dark);
 }
 
-.toc-actions {
+.toc-actions,
+.soon-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;

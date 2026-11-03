@@ -2,7 +2,6 @@
 // 上から順に：① 3分でわかる → ② AIを使ってみよう → ③ もっと詳しく調べる（必要な人だけ開く） → ④ 提出する
 //   #/guide/public-comment?s=prompts  AIへの指示文の選択から表示
 // 文章と指示文は content/pubcomManual.ts にまとめてある。
-import { useState } from 'react';
 import { GUIDES, guidePath } from '../content/guides';
 import {
   AI_KEY,
@@ -28,6 +27,7 @@ import {
   templateText,
 } from '../content/pubcomManual';
 import { scrollToSection } from '../lib/dom';
+import { useSessionChoice } from '../lib/sessionChoice';
 import { href } from '../router';
 import type { PromptId, PubcomRevision } from '../types';
 import { Checklist } from '../components/Checklist';
@@ -41,7 +41,7 @@ import { PromptPicker } from '../components/PromptPicker';
 const PATH = '/guide/public-comment';
 
 export function PublicCommentGuidePage() {
-  const [promptId, setPromptId] = useState<PromptId>(DEFAULT_PROMPT);
+  const [promptId, setPromptId] = useSessionChoice<PromptId>('todokeru:prompt:pubcom:v1', DEFAULT_PROMPT, PROMPTS.map((p) => p.id));
   // 「AIでできること」から：その指示文を選んで、指示文の選択へ移る
   const pickPrompt = (id: PromptId) => {
     setPromptId(id);

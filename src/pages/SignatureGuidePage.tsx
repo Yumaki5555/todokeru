@@ -3,7 +3,7 @@
 // ① 3分でわかる → ② やってみよう → ③ もっと詳しく → ④ 署名する・公開する
 //   #/guide/signature?s=start  立ち上げの手順から表示
 // 文章と指示文は content/signatureManual.ts にまとめてある。
-import { useRef, useState } from 'react';
+import { useRef } from 'react';
 import { GUIDES, guidePath } from '../content/guides';
 import {
   AFTER_PUBLISH,
@@ -31,6 +31,7 @@ import {
   templateText,
 } from '../content/signatureManual';
 import { scrollToSection } from '../lib/dom';
+import { useSessionChoice } from '../lib/sessionChoice';
 import { href } from '../router';
 import type { IconName, SignaturePromptId, SignatureStep } from '../types';
 import { Checklist } from '../components/Checklist';
@@ -52,7 +53,7 @@ const BAR: JumpItem[] = [
 ];
 
 export function SignatureGuidePage() {
-  const [promptId, setPromptId] = useState<SignaturePromptId>(DEFAULT_PROMPT);
+  const [promptId, setPromptId] = useSessionChoice<SignaturePromptId>('todokeru:prompt:signature:v1', DEFAULT_PROMPT, SIGNATURE_PROMPTS.map((p) => p.id));
   const topNav = useRef<HTMLElement>(null);
   const area = useScrollSpy(['join', 'start', 'more']);
   // 「AIでできること」から：その指示文を選んで、指示文の選択へ移る

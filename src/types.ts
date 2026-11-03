@@ -165,6 +165,7 @@ export interface GuideMenuItem {
   icon: IconName;
   roadmapStep: number; // 開発ロードマップ上の STEP
   plannedTopics: string[]; // 準備中ページで示す「予定している内容」
+  meanwhile?: string[]; // 準備中ページで先に伝えておくこと（ほかの方法との違いなど）
   related?: RelatedLink[]; // すぐに使える既存サイト
 }
 

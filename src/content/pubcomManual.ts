@@ -132,7 +132,7 @@ export const AI_STEPS: PubcomAiStep[] = [
   { no: 6, icon: 'shield', title: '別のAIでも検証する', me: '複数の回答を比べる', ai: '別の視点から事実・法令・根拠を確かめる', prompt: 'recheck' },
 ];
 
-export const AI_KEY = { strong: '意見を決めるのは、あなた。', rest: 'AIは調べる・整理する・確かめるための道具です。' };
+export const AI_KEY = { strong: '意見を決めるのは、あなた。', rest: 'AIは調べる・整理する・確かめるための道具です。使わなくても意見は出せます。' };
 
 /** AIへの指示文。選択肢の並び順もこの順 */
 export const PROMPTS: PubcomPrompt[] = [

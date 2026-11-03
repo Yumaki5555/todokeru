@@ -24,6 +24,15 @@ describe('準備中のガイド', () => {
     });
   }
 
+  it('情報公開請求は、問い合わせとの違いを先に伝え、電話・メールのガイドへ行ける', () => {
+    open('#/guide/disclosure');
+    const first = screen.getByRole('heading', { name: '先に知っておきたいこと' }).nextElementSibling as HTMLElement;
+    expect(within(first).getAllByRole('listitem')).toHaveLength(2);
+    expect(first).toHaveTextContent('電話やメールで尋ねる');
+    expect(screen.getByRole('link', { name: 'はじめての行政電話ガイド' })).toHaveAttribute('href', '#/guide/phone');
+    expect(screen.getByRole('link', { name: 'メール・フォーム・郵送で届ける' })).toHaveAttribute('href', '#/guide/email');
+  });
+
   it('パブコメのガイドからパブコメ掲示板へ行ける', () => {
     open('#/guide/public-comment');
     expect(screen.getAllByRole('link', { name: /パブコメ掲示板/ })[0]).toHaveAttribute('href', 'https://yumaki5555.github.io/pubcome/');

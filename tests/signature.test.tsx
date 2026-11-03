@@ -131,6 +131,14 @@ describe('署名の方法', () => {
     expect(writeText).toHaveBeenCalledTimes(4);
   });
 
+  it('選んだ指示文は、ほかのページへ行って戻っても残る', async () => {
+    const view = open();
+    await userEvent.click(screen.getByRole('radio', { name: /自分の署名文を作りたい/ }));
+    view.unmount();
+    open();
+    expect(screen.getByRole('radio', { name: /自分の署名文を作りたい/ })).toBeChecked();
+  });
+
   it('「指示文を見る」で、その目的の指示文を選んだ状態になる', async () => {
     open();
     await userEvent.click(screen.getByRole('button', { name: /指示文を見る\s*（自分の署名文を作りたい）/ }));

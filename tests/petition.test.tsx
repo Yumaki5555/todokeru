@@ -90,6 +90,15 @@ describe('請願・陳情の書き方', () => {
     for (const p of PETITION_PROMPTS) expect(p.text).not.toMatch(/〒|様$/m);
   });
 
+  it('選んだ指示文は、ほかのページへ行って戻っても残る。AIは使わなくてよいと伝える', async () => {
+    const view = open();
+    expect(screen.getByText(/AIは使わなくても大丈夫です/)).toBeInTheDocument();
+    await userEvent.click(screen.getByRole('radio', { name: /陳情書・請願書を作りたい/ }));
+    view.unmount();
+    open();
+    expect(screen.getByRole('radio', { name: /陳情書・請願書を作りたい/ })).toBeChecked();
+  });
+
   it('「AIで文章を作る」で、陳情書・請願書の指示文を選んだ状態になる', async () => {
     open();
     await userEvent.click(screen.getByRole('button', { name: 'AIで文章を作る' }));

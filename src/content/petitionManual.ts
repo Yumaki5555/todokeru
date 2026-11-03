@@ -310,7 +310,7 @@ export const DEFAULT_PROMPT: PetitionPromptId = 'choose';
 
 export const findPrompt = (id: PetitionPromptId) => PETITION_PROMPTS.find((p) => p.id === id) ?? PETITION_PROMPTS[0];
 
-export const PROMPT_LEAD = 'コピーした文章をChatGPTなどのAIに貼り付け、自分の要望や資料を書き足して使います。';
+export const PROMPT_LEAD = 'AIは使わなくても大丈夫です。使うときは、コピーした文章をChatGPTなどのAIに貼り付け、自分の要望や資料を書き足して使います。';
 
 // ---- ③ もっと詳しく ----
 

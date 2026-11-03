@@ -2,7 +2,6 @@
 // パブコメの書き方と同じ並び：① 3分でわかる → ② 書いてみよう → ③ もっと詳しく → ④ 提出する
 //   #/guide/petition?s=prompts  AIへの指示文の選択から表示
 // 文章と指示文は content/petitionManual.ts にまとめてある。
-import { useState } from 'react';
 import { GUIDES, guidePath } from '../content/guides';
 import {
   AFTER_FLOW,
@@ -28,6 +27,7 @@ import {
   templateText,
 } from '../content/petitionManual';
 import { scrollToSection } from '../lib/dom';
+import { useSessionChoice } from '../lib/sessionChoice';
 import { href } from '../router';
 import type { PetitionCard, PetitionPromptId, PetitionStep } from '../types';
 import { Checklist } from '../components/Checklist';
@@ -41,7 +41,7 @@ import { PromptPicker } from '../components/PromptPicker';
 const PATH = '/guide/petition';
 
 export function PetitionGuidePage() {
-  const [promptId, setPromptId] = useState<PetitionPromptId>(DEFAULT_PROMPT);
+  const [promptId, setPromptId] = useSessionChoice<PetitionPromptId>('todokeru:prompt:petition:v1', DEFAULT_PROMPT, PETITION_PROMPTS.map((p) => p.id));
   // 「AIでできること」などから：その指示文を選んで、指示文の選択へ移る
   const pickPrompt = (id: PetitionPromptId) => {
     setPromptId(id);

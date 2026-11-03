@@ -24,6 +24,17 @@ export function ComingSoonPage({ guide }: { guide: GuideMenuItem }) {
         </div>
       </div>
 
+      {guide.meanwhile && guide.meanwhile.length > 0 && (
+        <section className="section" aria-labelledby="first-h">
+          <h2 id="first-h" className="section-title">先に知っておきたいこと</h2>
+          <ul>
+            {guide.meanwhile.map((t) => (
+              <li key={t}>{t}</li>
+            ))}
+          </ul>
+        </section>
+      )}
+
       {guide.related && guide.related.length > 0 && (
         <section className="section" aria-labelledby="now-h">
           <h2 id="now-h" className="section-title">今すぐ使えるサイト</h2>
@@ -55,10 +66,14 @@ export function ComingSoonPage({ guide }: { guide: GuideMenuItem }) {
 
       <section className="section" aria-labelledby="mean-h">
         <h2 id="mean-h" className="section-title">いま使えるガイド</h2>
-        <p>
+        <p className="soon-actions">
           <a className="btn btn-secondary" href={href(guidePath('phone'))}>
             <Icon name="phone" />
             はじめての行政電話ガイド
+          </a>
+          <a className="btn btn-secondary" href={href(guidePath('email'))}>
+            <Icon name="mail" />
+            メール・フォーム・郵送で届ける
           </a>
         </p>
       </section>

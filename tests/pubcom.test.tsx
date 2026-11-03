@@ -97,6 +97,16 @@ describe('パブコメの書き方', () => {
     expect(sel.getRangeAt(0).toString()).toBe(PROMPTS[0].text.trimEnd());
   });
 
+  it('選んだ指示文は、ほかのページへ行って戻っても、再読み込みしても残る。AIは使わなくてよいと伝える', async () => {
+    const view = open();
+    expect(screen.getByText(/使わなくても意見は出せます/)).toBeInTheDocument();
+    await userEvent.click(screen.getByRole('radio', { name: /もっと深く調べたい/ }));
+    view.unmount();
+    open('#/guide/public-comment');
+    expect(screen.getByRole('radio', { name: /もっと深く調べたい/ })).toBeChecked();
+    expect(promptText()).toHaveAccessibleName('AIへの指示文（もっと深く調べたい）');
+  });
+
   it('「AIでできること」や再検証のボタンから、その指示文を選んだ状態になる', async () => {
     open();
     await userEvent.click(screen.getByRole('button', { name: '「別のAIで再検証したい」の指示文を使う' }));

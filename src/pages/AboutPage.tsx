@@ -177,7 +177,6 @@ export function AboutPage() {
           <Sec id="roadmap" title="今後の予定">
             <ol className="plan-list">
               <li>全国の窓口データの整備（国の機関・都道府県・市区町村・議会の、代表・広聴・議会事務局の窓口）</li>
-              <li>パブコメの書き方</li>
               <li>請願・陳情の書き方</li>
               <li>メール・郵送、情報公開請求、署名の方法など</li>
               <li>「日本を知る。」の各サイトとの連携（地域を選んだ状態で窓口を開くなど）</li>

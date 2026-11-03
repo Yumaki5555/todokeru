@@ -1,7 +1,18 @@
-// 電話前チェックリスト（チェックの状態はこの画面の中だけ。保存も送信もしない）
+// 電話前・提出前のチェックリスト（チェックの状態はこの画面の中だけ。保存も送信もしない）
+// doneText：すべてチェックしたときの言葉　meter：何項目まで済んだかを棒でも見せる
 import { useId, useState } from 'react';
 
-export function Checklist({ title, items }: { title: string; items: string[] }) {
+export function Checklist({
+  title,
+  items,
+  doneText = '落ち着いて、1行の台本から始めましょう。',
+  meter = false,
+}: {
+  title: string;
+  items: string[];
+  doneText?: string;
+  meter?: boolean;
+}) {
   const [checked, setChecked] = useState<boolean[]>(() => items.map(() => false));
   const baseId = useId();
   const count = checked.filter(Boolean).length;
@@ -26,9 +37,14 @@ export function Checklist({ title, items }: { title: string; items: string[] }) 
           );
         })}
       </ul>
+      {meter && (
+        <div className="meter checklist-meter" aria-hidden="true">
+          <span style={{ width: `${(count / items.length) * 100}%` }} />
+        </div>
+      )}
       <div className="checklist-foot">
         <p className="checklist-count" role="status" aria-live="polite">
-          {all ? `${items.length}項目すべて確認できました。落ち着いて、1行の台本から始めましょう。` : `${items.length}項目中 ${count}項目を確認済み`}
+          {all ? `${items.length}項目すべて確認できました。${doneText}` : `${items.length}項目中 ${count}項目を確認済み`}
         </p>
         <button type="button" className="btn btn-secondary btn-small" onClick={() => setChecked(items.map(() => false))} disabled={count === 0}>
           チェックをすべて外す

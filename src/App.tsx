@@ -13,6 +13,7 @@ import { HomePage } from './pages/HomePage';
 import { MailGuidePage } from './pages/MailGuidePage';
 import { NotFoundPage } from './pages/NotFoundPage';
 import { PhoneGuidePage } from './pages/PhoneGuidePage';
+import { PublicCommentGuidePage } from './pages/PublicCommentGuidePage';
 
 /** URL のパスから、表示するページと題名を決める */
 export function resolvePage(route: Route): { title: string | null; element: ReactElement } {
@@ -20,6 +21,7 @@ export function resolvePage(route: Route): { title: string | null; element: Reac
   if (path === '/') return { title: null, element: <HomePage /> };
   if (path === '/guide/phone') return { title: 'はじめての行政電話ガイド', element: <PhoneGuidePage route={route} /> };
   if (path === '/guide/email') return { title: 'メール・フォーム・郵送で届ける', element: <MailGuidePage route={route} /> };
+  if (path === '/guide/public-comment') return { title: 'パブコメの書き方', element: <PublicCommentGuidePage /> };
   if (path === '/contacts') return { title: '全国の窓口を探す', element: <ContactsPage route={route} /> };
   if (path === '/about') return { title: 'このサイトについて', element: <AboutPage /> };
   const m = /^\/guide\/([a-z-]+)$/.exec(path);

@@ -4128,3 +4128,723 @@ p.mail-label {
     text-align: right;
   }
 }
+
+/* ---- パブコメの書き方 ---- */
+/* 4つの入り口（スマホは2×2、広い画面は横に4つ） */
+.pc-menu {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 8px;
+}
+
+@media (min-width: 760px) {
+  .pc-menu {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 10px;
+  }
+}
+
+.pc-menu li {
+  min-width: 0;
+}
+
+.pc-menu-link {
+  display: grid;
+  justify-items: center;
+  align-content: start;
+  gap: 4px;
+  height: 100%;
+  padding: 12px 8px;
+  border: 2px solid var(--c-main);
+  border-radius: var(--radius);
+  background: #fff;
+  color: var(--c-text);
+  text-decoration: none;
+  text-align: center;
+}
+
+.pc-menu-link:hover {
+  background: var(--c-main-tint);
+  color: var(--c-text);
+}
+
+.pc-menu-icon {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--c-main);
+  color: #fff;
+}
+
+.pc-menu-icon .icon {
+  width: 24px;
+  height: 24px;
+}
+
+.pc-menu-text {
+  display: grid;
+  line-height: 1.4;
+}
+
+.pc-menu-text b {
+  font-size: 1rem;
+}
+
+.pc-menu-text > span {
+  font-size: 0.8125rem;
+  color: var(--c-text-sub);
+}
+
+/* 小さな丸数字 */
+.pc-num {
+  display: inline-grid;
+  place-items: center;
+  flex: none;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 4px;
+  border-radius: 50%;
+  background: var(--c-main-dark);
+  color: #fff;
+  font-size: 0.8125rem;
+  line-height: 1;
+  vertical-align: 0.1em;
+}
+
+/* 4つのまとまり */
+.pc-part {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 2px solid var(--c-main-line);
+}
+
+.pc-part-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+.pc-part-no {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--c-main);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+
+.pc-part-head h2 {
+  font-size: clamp(1.375rem, 1.2rem + 0.8vw, 1.625rem);
+}
+
+.pc-sub {
+  margin-top: 24px;
+  scroll-margin-top: 12px;
+}
+
+.pc-sub-title {
+  font-size: 1.1875rem;
+  margin-bottom: 8px;
+  padding-left: 10px;
+  border-left: 5px solid var(--c-main);
+}
+
+.pc-lead {
+  margin: 0 0 12px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+/* 知っておきたいこと（アイコン＋見出し＋1文） */
+.pc-facts {
+  list-style: none;
+  display: grid;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+@media (min-width: 520px) {
+  .pc-facts {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 880px) {
+  .pc-facts {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.pc-facts li {
+  display: grid;
+  grid-template-columns: 40px minmax(0, 1fr);
+  align-items: start;
+  gap: 10px;
+  min-width: 0;
+  padding: 10px 12px;
+  border: 1px solid var(--c-line);
+  border-radius: var(--radius-sm);
+  background: #fff;
+  line-height: 1.5;
+}
+
+.pc-facts b {
+  display: block;
+  font-size: 0.9375rem;
+}
+
+.pc-facts li > span:last-child > span {
+  display: block;
+  font-size: 0.875rem;
+  color: var(--c-text-sub);
+}
+
+.pc-sources {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 16px;
+  margin: 10px 0 0;
+  font-size: 0.875rem;
+}
+
+.pc-sources a {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  min-height: 36px;
+}
+
+/* 流れの図（スマホは縦、広い画面は横に4つ） */
+.pc-flow {
+  margin: 4px 0 0;
+}
+
+@media (min-width: 560px) {
+  .pc-flow {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+/* 書き方の4ステップ */
+.pc-steps {
+  margin-top: 8px;
+}
+
+.step h4 {
+  font-size: 1.125rem;
+  margin-bottom: 2px;
+}
+
+.pc-chips {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 8px 0 0;
+}
+
+.pc-chips li {
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: var(--c-main-tint);
+  color: var(--c-main-deep);
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.pc-example {
+  margin: 8px 0 0;
+  padding: 6px 12px 8px;
+  border-left: 4px solid var(--c-main-line);
+  border-radius: var(--radius-sm);
+  background: var(--c-bg-sub);
+  line-height: 1.6;
+}
+
+.pc-example p {
+  margin: 0;
+}
+
+.pc-example-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--c-main-dark);
+}
+
+.pc-step-note {
+  margin: 8px 0 0;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: var(--c-text-sub);
+}
+
+/* 「AIでできること」 */
+.pc-ai-tip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 8px;
+  margin: 10px 0 0;
+  padding: 4px 10px;
+  border: 1px dashed var(--c-main-line);
+  border-radius: var(--radius-sm);
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.pc-ai-tip-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 700;
+  color: var(--c-main-dark);
+}
+
+.pc-ai-tip-label .icon {
+  width: 18px;
+  height: 18px;
+}
+
+.pc-ai-go {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  min-height: 40px;
+  padding: 0 2px;
+  border: 0;
+  background: none;
+  color: var(--c-link);
+  font: inherit;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.pc-ai-go:hover {
+  color: var(--c-link-hover);
+}
+
+/* 現行案 → 修正提案 */
+.pc-revision {
+  display: grid;
+  gap: 6px;
+  margin: 10px 0 0;
+}
+
+@media (min-width: 600px) {
+  .pc-revision {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .pc-rev-reason {
+    grid-column: 1 / -1;
+  }
+}
+
+.pc-revision > div {
+  min-width: 0;
+}
+
+.pc-revision dt {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--c-text-sub);
+}
+
+.pc-revision dd {
+  margin: 2px 0 0;
+  padding: 6px 10px;
+  border-radius: var(--radius-sm);
+  background: var(--c-bg-sub);
+  line-height: 1.6;
+}
+
+.pc-rev-after dt {
+  color: var(--c-main-dark);
+}
+
+.pc-rev-after dd {
+  border: 2px solid var(--c-main);
+  background: var(--c-main-tint);
+  font-weight: 700;
+}
+
+.pc-rev-reason dd {
+  padding: 0;
+  background: none;
+}
+
+.pc-template-note {
+  margin: 8px 0 0;
+  padding: 0;
+}
+
+/* 伝わりにくい意見と検討しやすい意見 */
+.pc-compare {
+  margin-top: 4px;
+}
+
+.pc-quote {
+  margin: 4px 0 8px;
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  background: #fff;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.pc-quote::before {
+  content: '「';
+}
+
+.pc-quote::after {
+  content: '」';
+}
+
+.pc-compare-note {
+  margin: 8px 0 0;
+  font-size: 0.875rem;
+  color: var(--c-text-sub);
+}
+
+.pc-summary {
+  margin: 16px 0 8px;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--c-main-deep);
+}
+
+.pc-formula {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+}
+
+.pc-formula-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.pc-formula-item b {
+  padding: 4px 12px;
+  border: 2px solid var(--c-main);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--c-main-deep);
+  font-size: 0.9375rem;
+  white-space: nowrap;
+}
+
+.pc-plus {
+  color: var(--c-main);
+  font-weight: 700;
+}
+
+.pc-formula-result {
+  flex-basis: 100%;
+  text-align: center;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: var(--c-text-sub);
+}
+
+/* AIはどこで使う？（あなたとAIの役割） */
+.pc-ai-steps {
+  list-style: none;
+  display: grid;
+  gap: 8px;
+}
+
+@media (min-width: 560px) {
+  .pc-ai-steps {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 900px) {
+  .pc-ai-steps {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.pc-ai-steps > li {
+  display: grid;
+  align-content: start;
+  gap: 6px;
+  min-width: 0;
+  padding: 10px 12px 4px;
+  border: 1px solid var(--c-line);
+  border-radius: var(--radius);
+  background: #fff;
+}
+
+.pc-ai-title {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.pc-ai-title .icon {
+  width: 20px;
+  height: 20px;
+  color: var(--c-main-dark);
+}
+
+.pc-roles {
+  display: grid;
+  gap: 4px;
+  margin: 0;
+}
+
+.pc-roles > div {
+  display: grid;
+  grid-template-columns: 3.6em minmax(0, 1fr);
+  align-items: start;
+  gap: 8px;
+}
+
+.pc-roles dt {
+  margin-top: 0.15em;
+  padding: 1px 0;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.pc-role-me {
+  border: 1.5px solid var(--c-main);
+  color: var(--c-main-deep);
+}
+
+.pc-role-ai {
+  border: 1.5px solid var(--c-main);
+  background: var(--c-main);
+  color: #fff;
+}
+
+.pc-roles dd {
+  margin: 0;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+.pc-ai-steps .pc-ai-go {
+  justify-self: start;
+  font-size: 0.875rem;
+}
+
+.pc-key {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 14px 0 0;
+  padding: 12px 16px;
+  border: 2px solid var(--c-main);
+  border-radius: var(--radius);
+  background: var(--c-main-tint);
+  line-height: 1.6;
+}
+
+.pc-key > .icon {
+  margin-top: 0.2em;
+  color: var(--c-main-dark);
+}
+
+.pc-key b {
+  display: block;
+  font-size: 1.125rem;
+  color: var(--c-main-deep);
+}
+
+/* AIへの指示文 */
+.pc-prompts {
+  display: grid;
+  gap: 12px;
+}
+
+.pc-prompt-pick {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.pc-prompt-pick legend {
+  margin-bottom: 6px;
+  padding: 0;
+  font-weight: 700;
+}
+
+.pc-chip-no {
+  margin-right: 4px;
+}
+
+.pc-prompt-panel {
+  display: grid;
+  gap: 10px;
+  min-width: 0;
+  padding: 14px 16px;
+  border: 2px solid var(--c-main-line);
+  border-radius: var(--radius);
+  background: #fff;
+}
+
+.pc-prompt-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 10px;
+  margin: 0;
+}
+
+.pc-prompt-kicker {
+  padding: 0 8px;
+  border-radius: 999px;
+  background: var(--c-main-tint);
+  color: var(--c-main-deep);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.pc-prompt-head b {
+  font-size: 1.125rem;
+  color: var(--c-main-deep);
+}
+
+.pc-prompt-when {
+  margin: -6px 0 0;
+  font-size: 0.875rem;
+  color: var(--c-text-sub);
+}
+
+.pc-prompt-text {
+  margin: 0;
+  padding: 12px 14px;
+  border: 1px solid var(--c-line);
+  border-radius: var(--radius-sm);
+  background: var(--c-bg-sub);
+  font-family: inherit;
+  font-size: 0.9375rem;
+  line-height: 1.7;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.pc-prompt-text:focus-visible {
+  outline: 3px solid var(--c-focus);
+  outline-offset: 2px;
+}
+
+.pc-paste {
+  list-style: none;
+  display: grid;
+  gap: 4px;
+  counter-reset: paste;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.pc-paste li {
+  display: grid;
+  grid-template-columns: 1.6em minmax(0, 1fr);
+  gap: 6px;
+  counter-increment: paste;
+}
+
+.pc-paste li::before {
+  content: counter(paste);
+  display: grid;
+  place-items: center;
+  width: 1.5em;
+  height: 1.5em;
+  margin-top: 0.05em;
+  border-radius: 50%;
+  background: var(--c-main);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+/* もっと詳しく調べる */
+.pc-research .pc-block {
+  margin: 8px 0 0;
+}
+
+.pc-warning {
+  background: var(--c-warn-bg);
+  color: var(--c-text);
+  font-weight: 700;
+}
+
+.pc-warning > .icon {
+  color: var(--c-warn);
+}
+
+/* 提出する */
+.checklist-meter {
+  margin-top: 10px;
+}
+
+.pc-methods {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+.pc-methods li {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  border: 1px solid var(--c-line);
+  border-radius: 999px;
+  background: #fff;
+  font-size: 0.9375rem;
+  font-weight: 700;
+}
+
+.pc-methods .icon {
+  width: 18px;
+  height: 18px;
+  color: var(--c-main-dark);
+}
+
+.pc-points {
+  list-style: none;
+  display: grid;
+  gap: 6px;
+}
+
+.pc-points li {
+  display: grid;
+  grid-template-columns: 22px minmax(0, 1fr);
+  gap: 8px;
+  line-height: 1.6;
+}
+
+.pc-points .icon {
+  margin-top: 0.2em;
+  color: var(--c-main);
+}

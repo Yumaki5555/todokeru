@@ -1,9 +1,22 @@
-// まとめてコピーするボタン（台本・通話メモで使う）
+// まとめてコピーするボタン（台本・通話メモ・AIへの指示文で使う）
+// onFail：コピーできなかったとき（呼び出し側で文字を選択状態にするなど）
 import { useEffect, useRef, useState } from 'react';
 import { copyText } from '../lib/dom';
 import { Icon } from './Icon';
 
-export function CopyButton({ text, label, hint }: { text: string; label: string; hint?: string }) {
+export function CopyButton({
+  text,
+  label,
+  hint,
+  buttonClass = 'btn btn-secondary btn-small',
+  onFail,
+}: {
+  text: string;
+  label: string;
+  hint?: string;
+  buttonClass?: string;
+  onFail?: () => void;
+}) {
   const [state, setState] = useState<'idle' | 'done' | 'fail'>('idle');
   const timer = useRef<number | undefined>(undefined);
   useEffect(() => () => window.clearTimeout(timer.current), []);
@@ -11,13 +24,14 @@ export function CopyButton({ text, label, hint }: { text: string; label: string;
   async function onCopy() {
     const ok = await copyText(text);
     setState(ok ? 'done' : 'fail');
+    if (!ok) onFail?.();
     window.clearTimeout(timer.current);
     timer.current = window.setTimeout(() => setState('idle'), 4000);
   }
 
   return (
     <div className="copy-row">
-      <button type="button" className="btn btn-secondary btn-small" onClick={onCopy}>
+      <button type="button" className={buttonClass} onClick={onCopy}>
         <Icon name={state === 'done' ? 'check' : 'copy'} />
         {state === 'done' ? 'コピーしました' : label}
       </button>

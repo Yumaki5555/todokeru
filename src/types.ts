@@ -149,7 +149,9 @@ export type IconName =
   | 'form'
   | 'letter'
   | 'print'
-  | 'shield';
+  | 'shield'
+  | 'sparkle'
+  | 'user';
 
 export type GuideSlug = 'phone' | 'email' | 'public-comment' | 'petition' | 'disclosure' | 'signature';
 
@@ -347,3 +349,73 @@ export interface MailDraft {
 
 /** 監修の確認状態 */
 export type SupervisionStatus = 'confirmed' | 'pending' | 'none';
+
+// ---- パブコメの書き方 ----
+export type PromptId = 'understand' | 'write' | 'deep' | 'check' | 'recheck';
+
+/** AIへの指示文（目的を選ぶと切りかわる） */
+export interface PubcomPrompt {
+  id: PromptId;
+  label: string;
+  /** どんなときに使うか（1行） */
+  when: string;
+  /** コピーする全文 */
+  text: string;
+}
+
+/** 図の1こま（アイコン＋短い言葉） */
+export interface PubcomFigItem {
+  icon: IconName;
+  label: string;
+  sub?: string;
+}
+
+/** 現行案と修正案の見比べ */
+export interface PubcomRevision {
+  before: string;
+  after: string;
+  reason: string;
+}
+
+/** 「AIでできること」の小さな案内（押すと、その指示文を選んだ状態にする） */
+export interface PubcomAiTip {
+  text: string;
+  prompt: PromptId;
+}
+
+/** 書き方の4ステップ */
+export interface PubcomStep {
+  no: number;
+  icon: IconName;
+  title: string;
+  text: string;
+  examples?: string[];
+  chips?: string[];
+  revision?: PubcomRevision;
+  note?: string;
+  ai: PubcomAiTip;
+}
+
+/** AIはどこで使う？（あなたとAIの役割分担） */
+export interface PubcomAiStep {
+  no: number;
+  icon: IconName;
+  title: string;
+  me: string;
+  ai: string;
+  prompt: PromptId;
+}
+
+/** もっと詳しく調べる（必要な人だけ開く） */
+export interface PubcomResearch {
+  id: string;
+  icon: IconName;
+  title: string;
+  lead: string;
+  listTitle: string;
+  items: string[];
+  links?: { label: string; url: string }[];
+  revision?: PubcomRevision;
+  notes?: string[];
+  ai: PubcomAiTip;
+}

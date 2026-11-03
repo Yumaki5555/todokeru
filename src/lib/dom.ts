@@ -3,16 +3,22 @@
 const reduceMotion = () =>
   typeof window.matchMedia === 'function' && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-/** id の要素までスクロールし、キーボード操作の位置（フォーカス）も移す。閉じた章は開く */
+/** id の要素までスクロールし、キーボード操作の位置（フォーカス）も移す。閉じた章は開く
+ *  入力欄のときは画面の中ほどに出し、フォーカスはその欄を含むまとまりへ（スマホでキーボードが急に開かないように） */
 export function scrollToSection(id: string): boolean {
-  const el = document.getElementById(id);
+  let el = document.getElementById(id);
   if (!el) return false;
+  // 最後に入力した欄を覚えているまとまり（data-return）は、その欄へ戻る
+  const back = el.dataset.return ? document.getElementById(el.dataset.return) : null;
+  if (back) el = back;
   const details = el.closest('details');
   if (details && !details.open) details.open = true;
   if (el instanceof HTMLDetailsElement && !el.open) el.open = true;
-  el.scrollIntoView?.({ behavior: reduceMotion() ? 'auto' : 'smooth', block: 'start' });
-  if (!el.hasAttribute('tabindex')) el.setAttribute('tabindex', '-1');
-  el.focus({ preventScroll: true });
+  const field = el.matches('input, textarea, select');
+  el.scrollIntoView?.({ behavior: reduceMotion() ? 'auto' : 'smooth', block: field ? 'center' : 'start' });
+  const target = field ? (el.closest<HTMLElement>('fieldset, [role="group"]') ?? el) : el;
+  if (!target.hasAttribute('tabindex')) target.setAttribute('tabindex', '-1');
+  target.focus({ preventScroll: true });
   return true;
 }
 

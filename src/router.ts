@@ -60,6 +60,19 @@ export function navigate(to: string, opts: { replace?: boolean } = {}): void {
   }
 }
 
+/** 履歴を1つ増やして URL だけ変える（画面の移動は呼ぶ側がすでに済ませているとき。「戻る」で前の位置へ戻れる） */
+export function pushHash(to: string): void {
+  const target = to.startsWith('#') ? to : '#' + to;
+  if (window.location.hash === target) return;
+  try {
+    history.pushState(null, '', target);
+  } catch {
+    window.location.hash = target;
+    return;
+  }
+  window.dispatchEvent(new Event(EVENT));
+}
+
 function subscribe(cb: () => void) {
   window.addEventListener('hashchange', cb);
   window.addEventListener(EVENT, cb);

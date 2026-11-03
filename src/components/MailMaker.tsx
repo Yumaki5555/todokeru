@@ -94,7 +94,7 @@ export function MailMaker({
 
       <div className="maker-grid">
         <div className="maker-inputs">
-          <fieldset className="maker-step">
+          <fieldset className="maker-step" id="maker-purpose">
             <legend className="maker-step-title">
               <span className="step-badge" data-n="1" aria-hidden="true" />
               目的を選ぶ
@@ -250,7 +250,7 @@ export function MailMaker({
             </fieldset>
           </div>
 
-          <fieldset className="maker-step">
+          <fieldset className="maker-step" id="maker-method">
             <legend className="maker-step-title">
               <span className="step-badge" data-n="3" aria-hidden="true" />
               届け方を選ぶ

@@ -1,6 +1,6 @@
 // メール・フォーム・郵送のガイド：詳しいマニュアル（第0〜7章）
 import { describe, expect, it, vi } from 'vitest';
-import { fireEvent, render, screen, within } from '@testing-library/react';
+import { render, screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { App } from '../src/App';
 import { FIRST_SAMPLE, MAIL_CHAPTERS } from '../src/content/mailManual';
@@ -65,11 +65,13 @@ describe('メール・フォーム・郵送：詳しいマニュアル', () => {
     expect(items.map((li) => li.querySelector('b')!.textContent)).toEqual(['準備', '書く', '読み直す', '送る', '控えを残す']);
   });
 
-  it('「目的から探す」の目次：8章と、最後に「送る前に確かめたい」', () => {
+  it('「目的から探す」の目次：8章と、最後に「送る前に確かめたい」、その下に「文面作成に戻る」', () => {
     open();
     const toc = screen.getByRole('navigation', { name: '目的から探す' });
     const links = within(toc).getAllByRole('link');
-    expect(links).toHaveLength(9);
+    expect(links).toHaveLength(10);
+    expect(links[9]).toHaveAccessibleName('文面作成に戻る');
+    expect(links[9]).toHaveAttribute('href', '#/guide/email?s=maker');
     MAIL_CHAPTERS.forEach((c, i) => {
       expect(links[i]).toHaveTextContent(`第${c.no}章${c.purpose}`);
       expect(links[i]).toHaveAttribute('href', `#/guide/email?s=${c.id}`);
@@ -104,10 +106,8 @@ describe('メール・フォーム・郵送：詳しいマニュアル', () => {
     // 文面づくりより上にある
     const maker = screen.getByRole('region', { name: '文面を作る' });
     expect(intro.compareDocumentPosition(maker) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
-    const jump = within(intro).getByRole('link', { name: '詳しいマニュアルを読む（全8章）' });
-    expect(jump).toHaveAttribute('href', '#/guide/email?s=manual');
-    fireEvent.click(jump);
-    expect(document.activeElement).toBe(document.getElementById('manual'));
+    // マニュアルへの移動は、上部の移動メニュー「書き方を読む」にまとめた
+    expect(within(intro).queryByRole('link')).not.toBeInTheDocument();
   });
 
   it('一通の完成例：メール／問い合わせフォーム／郵送（手紙）を同じ枠の中で切りかえ、まとめてコピーできる', async () => {

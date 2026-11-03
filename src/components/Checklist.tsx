@@ -1,19 +1,40 @@
-// 電話前・提出前のチェックリスト（チェックの状態はこの画面の中だけ。保存も送信もしない）
+// 電話前・提出前のチェックリスト（チェックの状態はこの画面の中だけ。送信はしない）
 // doneText：すべてチェックしたときの言葉　meter：何項目まで済んだかを棒でも見せる
-import { useId, useState } from 'react';
+// storageKey：指定したときだけ、このタブの中に一時保存する（ほかのページへ行って戻っても残る）
+import { useEffect, useId, useState } from 'react';
+
+function loadChecked(key: string | undefined, n: number): boolean[] {
+  try {
+    const saved = key ? (JSON.parse(window.sessionStorage.getItem(key) || 'null') as unknown) : null;
+    if (Array.isArray(saved) && saved.length === n) return saved.map(Boolean);
+  } catch {
+    // 読めなければ、すべて外した状態から
+  }
+  return Array.from({ length: n }, () => false);
+}
 
 export function Checklist({
   title,
   items,
   doneText = '落ち着いて、1行の台本から始めましょう。',
   meter = false,
+  storageKey,
 }: {
   title: string;
   items: string[];
   doneText?: string;
   meter?: boolean;
+  storageKey?: string;
 }) {
-  const [checked, setChecked] = useState<boolean[]>(() => items.map(() => false));
+  const [checked, setChecked] = useState<boolean[]>(() => loadChecked(storageKey, items.length));
+  useEffect(() => {
+    if (!storageKey) return;
+    try {
+      window.sessionStorage.setItem(storageKey, JSON.stringify(checked));
+    } catch {
+      // 保存できない設定のブラウザでは、この画面の中だけ
+    }
+  }, [storageKey, checked]);
   const baseId = useId();
   const count = checked.filter(Boolean).length;
   const all = count === items.length;

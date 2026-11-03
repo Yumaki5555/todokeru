@@ -3,6 +3,7 @@ import { useEffect, useMemo, useRef, type ReactElement } from 'react';
 import { findGuide } from './content/guides';
 import { parseHash, useHash, type Route } from './router';
 import { scrollToSection } from './lib/dom';
+import { restoreSpot, savedSpot, startScrollMemory } from './lib/scrollMemory';
 import { SITE } from './site';
 import { SiteFooter } from './components/SiteFooter';
 import { SiteHeader } from './components/SiteHeader';
@@ -44,10 +45,19 @@ export function App() {
   }, [page.title]);
 
   // ページが変わったら先頭から表示し、キーボード操作の位置をページの見出しへ移す
+  useEffect(() => startScrollMemory(), []);
+
   useEffect(() => {
     const first = prevPath.current === null;
     const changed = prevPath.current !== route.path;
     prevPath.current = route.path;
+    // 「戻る」「進む」・再読み込みで来たときは、前に見ていた位置へ（新しく開いたページには覚えた位置がない）
+    const spot = savedSpot();
+    if (spot) {
+      if (changed && !first) document.getElementById('page-top')?.focus({ preventScroll: true });
+      restoreSpot(spot);
+      return;
+    }
     if (section) {
       // #/guide/phone?s=ch3 のように見出しの指定があれば、その見出しへ
       requestAnimationFrame(() => scrollToSection(section));

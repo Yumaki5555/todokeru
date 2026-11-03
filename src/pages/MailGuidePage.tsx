@@ -3,19 +3,24 @@
 // （電話のページと同じ並び）
 //   #/guide/email?for=130001-feedback  窓口検索で選んだ窓口を送り先にする
 //   #/guide/email?s=ch3                 マニュアルの第3章を開いた状態
+// 上部の「文面を作る・送り先を探す・書き方を読む」と、スマホの画面下の小さなメニューで行き来する。
+// 「文面を作る」へ戻ると、最後に入力した欄へ戻る（useReturnField）。移動は履歴に残るので、ブラウザの「戻る」でも前の位置へ戻れる
 // 目的・内容・送り先は電話の台本と共通（電話の台本を作ったあとに「文章で届けたい」と思っても、書き直さずに済む）
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import { EMPTY_DRAFT } from '../content/callScript';
 import { GUIDES, guidePath } from '../content/guides';
 import { MAIL_CHECKLIST, MAIL_GUIDE } from '../content/mailGuide';
 import { MAIL_CHAPTERS, MAIL_FLOW } from '../content/mailManual';
 import { EMPTY_MAIL, METHODS, buildMail, methodUsable, subjectText } from '../content/mailText';
 import { useCallDraft } from '../lib/callDraft';
+import { scrollToSection } from '../lib/dom';
 import { useMailDraft } from '../lib/mailDraft';
+import { useReturnField } from '../lib/returnField';
 import { href, type Route } from '../router';
 import { CallTargetBox, useTargetFromLink } from '../components/CallTargetBox';
 import { Checklist } from '../components/Checklist';
 import { Icon } from '../components/Icon';
+import { JumpBar, JumpNav, useScrollSpy, type JumpItem } from '../components/JumpNav';
 import { JumpLink, PageEndNav } from '../components/Links';
 import { MailMaker } from '../components/MailMaker';
 import { MailMemo } from '../components/MailMemo';
@@ -25,12 +30,39 @@ import { Toc } from '../components/Toc';
 
 const PATH = '/guide/email';
 
+const JUMPS: JumpItem[] = [
+  { id: 'maker', icon: 'memo', label: '文面を作る' },
+  { id: 'call-target', icon: 'search', label: '送り先を探す' },
+  { id: 'manual', icon: 'book', label: '書き方を読む' },
+];
+// 画面下の小さなメニューは短いことばで。マニュアルを読んでいる間は「目次」へ
+const BAR: JumpItem[] = [
+  { id: 'maker', icon: 'memo', label: '文面作成' },
+  { id: 'call-target', icon: 'search', label: '送り先' },
+];
+const BAR_MANUAL: JumpItem = { id: 'manual', icon: 'book', label: 'マニュアル' };
+const BAR_TOC: JumpItem = { id: 'manual-toc', area: 'manual', icon: 'list', label: '目次' };
+// いまどこを見ているか（「送る前に確かめる」と記録の間は、どのボタンにも印を付けない）
+const AREAS = ['maker', 'call-target', 'checklist', 'manual'];
+const CHAPTER_IDS = MAIL_CHAPTERS.map((c) => c.id);
+
 export function MailGuidePage({ route }: { route: Route }) {
   const [draft, update] = useCallDraft();
   const [mail, updateMail] = useMailDraft();
   // 窓口検索の「この窓口あての文面を作る」から来たとき：選んだ窓口を送り先に入れる（入力中の文面はそのまま）
   const targetState = useTargetFromLink(route.query.get('for'), PATH, update);
   const t = draft.target;
+  useReturnField('maker', 'todokeru:mail-return:v1');
+  const topNav = useRef<HTMLElement>(null);
+  const area = useScrollSpy(AREAS);
+  const chapter = useScrollSpy(CHAPTER_IDS);
+  const inManual = area === 'manual';
+
+  // 窓口検索の「この窓口あての文面を作る」から来たときは、ページの先頭ではなく文面を作る欄（最後に入力した欄）から
+  useEffect(() => {
+    if (route.query.get('for')) window.setTimeout(() => scrollToSection('maker'), 0);
+    // 来たときだけ（送り先を入れたあと URL から for を消しても動かない）
+  }, []);
 
   // 送り先が変わったら、その窓口で使える届け方にする（メールアドレスがなくフォームだけ、住所だけ、など）
   useEffect(() => {
@@ -69,6 +101,7 @@ export function MailGuidePage({ route }: { route: Route }) {
         <PageHead title={MAIL_GUIDE.title} sub={MAIL_GUIDE.subtitle} />
         <ManualIntro />
       </div>
+      <JumpNav path={PATH} items={JUMPS} current={area} navRef={topNav} />
 
       <MailMaker draft={draft} update={update} mail={mail} updateMail={updateMail} onClear={clear} />
       <CallTargetBox kind="mail" target={t} state={targetState} />
@@ -80,8 +113,8 @@ export function MailGuidePage({ route }: { route: Route }) {
           <span className="field-opt">{MAIL_CHECKLIST.length}項目</span>
         </summary>
         <div className="pre-call-body">
-          <p className="muted">チェックはこの画面の中だけで、保存や送信はされません。</p>
-          <Checklist title="送る前に" items={MAIL_CHECKLIST} />
+          <p className="muted">チェックはこのタブの中だけに残り、送信はされません。</p>
+          <Checklist title="送る前に" items={MAIL_CHECKLIST} storageKey="todokeru:mail-checklist:v1" />
         </div>
       </details>
       <MailMemo draft={draft} mail={mail} updateMail={updateMail} subject={subjectText(buildMail(draft, mail).subject)} />
@@ -107,8 +140,14 @@ export function MailGuidePage({ route }: { route: Route }) {
             </ol>
           </div>
 
-          <aside className="doc-aside">
-            <Toc path={PATH} items={tocItems} title="目的から探す" className="toc-compact toc-side" />
+          <aside className="doc-aside" id="manual-toc">
+            <Toc path={PATH} items={tocItems} title="目的から探す" className="toc-compact toc-side" current={inManual ? chapter : null} push>
+              {/* 広い画面だけ（狭い画面は画面下のメニューから戻る） */}
+              <JumpLink path={PATH} id="maker" push className="back-link toc-back">
+                <Icon name="arrow-up" />
+                文面作成に戻る
+              </JumpLink>
+            </Toc>
           </aside>
 
           <div className="doc-body">
@@ -155,6 +194,7 @@ export function MailGuidePage({ route }: { route: Route }) {
         </div>
       </section>
       <PageEndNav />
+      <JumpBar path={PATH} items={[...BAR, inManual ? BAR_TOC : BAR_MANUAL]} current={area} topRef={topNav} />
     </div>
   );
 }
@@ -170,10 +210,6 @@ function ManualIntro() {
         <p className="supervisor-label">はじめて文章で送る人へ</p>
         <p className="supervisor-sub">このマニュアルは当サイトが独自にまとめたもので、監修は受けていません。</p>
       </div>
-      <JumpLink path={PATH} id="manual" className="btn btn-secondary btn-small supervisor-jump">
-        <Icon name="book" />
-        詳しいマニュアルを読む（全{MAIL_CHAPTERS.length}章）
-      </JumpLink>
     </aside>
   );
 }

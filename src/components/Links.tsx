@@ -1,6 +1,6 @@
 // リンクの部品：サイト内リンク・外部リンク・ページ内リンク・3つの「戻る」
 import type { ReactNode } from 'react';
-import { href, sectionHref } from '../router';
+import { href, pushHash, sectionHref } from '../router';
 import { scrollToPageTop, scrollToSection } from '../lib/dom';
 import { SITE } from '../site';
 import { Icon } from './Icon';
@@ -26,16 +26,33 @@ export function SmartLink({ to, className, children }: { to: string; className?:
   );
 }
 
-/** 同じページの中の見出しへ移動するリンク */
-export function JumpLink({ path, id, className, children }: { path: string; id: string; className?: string; children: ReactNode }) {
+/** 同じページの中の見出しへ移動するリンク
+ *  push：移動を履歴に残す（ブラウザの「戻る」で、押す前の位置へ戻れる）　current：いま見ている場所の印 */
+export function JumpLink({
+  path,
+  id,
+  className,
+  push = false,
+  current = false,
+  children,
+}: {
+  path: string;
+  id: string;
+  className?: string;
+  push?: boolean;
+  current?: boolean;
+  children: ReactNode;
+}) {
   return (
     <a
       className={className}
       href={sectionHref(path, id)}
+      aria-current={current ? 'location' : undefined}
       onClick={(e) => {
         if (e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) return; // 新しいタブで開く操作はそのまま
         e.preventDefault();
         scrollToSection(id);
+        if (push) pushHash(sectionHref(path, id));
       }}
     >
       {children}

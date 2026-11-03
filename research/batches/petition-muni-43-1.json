@@ -1,0 +1,582 @@
+{
+ "batch": "petition-muni-43-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "431001",
+   "name": "熊本市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kumamoto.jp/list04085.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "432024",
+   "name": "八代市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.yatsushiro.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "432032",
+   "name": "人吉市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hitoyoshi.lg.jp/shisei/gikaijyoho/seigan_chinjyo",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "432041",
+   "name": "荒尾市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "荒尾市議会",
+     "phone": "0968-63-1628",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.arao.lg.jp/shisei/senkyo-gikai-kansa/gikai/chinjo/page305.html",
+     "evidence": "議会 事務局 電話: 0968-63-1628",
+     "note": "ページの題名：陳情・請願 - 荒尾市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "432059",
+   "name": "水俣市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.minamata.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "432067",
+   "name": "玉名市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "玉名市議会事務局",
+     "phone": "0968-75-1155",
+     "email": null,
+     "form_url": null,
+     "postal_code": "865-8501",
+     "postal_address": "熊本県玉名市岩崎163",
+     "hours": null,
+     "source_url": "https://www.city.tamana.lg.jp/q/aview/450/847.html",
+     "evidence": "議会事務局 住所:〒865-8501 熊本県玉名市岩崎163 電話番号:0968-75-1155",
+     "note": "ページの題名：請願・陳情を提出するには|玉名市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "432083",
+   "name": "山鹿市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "山鹿市議会事務局",
+     "phone": "0968-43-1634",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.yamaga.kumamoto.jp/gikai/kiji00320/index.html",
+     "evidence": "議会事務局:電話(0968)43-1634にお問い合わせく",
+     "note": "ページの題名：請願・陳情について / 市議会サイト / 山鹿市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "432105",
+   "name": "菊池市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "菊池市議会係",
+     "phone": "0968-25-2325",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kikuchi.lg.jp/article/view/1423/1041.html",
+     "evidence": "議会係 電話番号:0968-25-2325",
+     "note": "ページの題名：請願・陳情|菊池市公式ウェブサイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "432113",
+   "name": "宇土市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.uto.lg.jp/category/list/1252.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "432121",
+   "name": "上天草市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "上天草市議会事務局",
+     "phone": "0964-26-5536",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kamiamakusa.kumamoto.jp/q/aview/106/7562.html",
+     "evidence": "議会事務局 電話番号:0964-26-5536 この記事に関す",
+     "note": "ページの題名：請願・陳情について|上天草市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "432130",
+   "name": "宇城市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.uki.kumamoto.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "432148",
+   "name": "阿蘇市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "阿蘇市議会事務局",
+     "phone": "0967-22-3279",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.aso.kumamoto.jp/municipal/city_council/city_council/petition/",
+     "evidence": "議会事務局 電話 0967-22-3279",
+     "note": "ページの題名：請願・陳情 – 阿蘇市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "432156",
+   "name": "天草市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.amakusa.kumamoto.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "432164",
+   "name": "合志市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "合志市議会事務局",
+     "phone": "096-248-2038",
+     "email": null,
+     "form_url": null,
+     "postal_code": "861-1195",
+     "postal_address": "熊本県合志市竹迫2140番地",
+     "hours": null,
+     "source_url": "https://www.city.koshi.lg.jp/gikai/kiji00313262/index.html",
+     "evidence": "議会事務局 〒861-1195 熊本県合志市竹迫2140番地 TEL:096-248-2038 FAX:096",
+     "note": "ページの題名：請願・陳情 / 市議会 / 合志市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "433489",
+   "name": "美里町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kumamoto-misato.lg.jp/soshiki/gikai_jimukyoku/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "433641",
+   "name": "玉東町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.gyokuto.kumamoto.jp/list00130.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "433675",
+   "name": "南関町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "南関町議会事務局",
+     "phone": "0968-57-8508",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.nankan.lg.jp/tyosei/gikai/gaiyo/1779.html",
+     "evidence": "議会事務局 電話: 0968-57-8508",
+     "note": "ページの題名：陳情・請願など - 南関町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "433683",
+   "name": "長洲町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.nagasu.lg.jp/soshiki/soumu/oshirase/173805889321439/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "433691",
+   "name": "和水町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.nagomi.lg.jp/chougikai",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "434035",
+   "name": "大津町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "大津町議会事務局",
+     "phone": "096-293-8989",
+     "email": null,
+     "form_url": null,
+     "postal_code": "869-1292",
+     "postal_address": "熊本県菊池郡大津町大字大津1233",
+     "hours": null,
+     "source_url": "https://www.town.ozu.kumamoto.jp/site/ozugikai/2604.html",
+     "evidence": "議会事務局 〒869-1292熊本県菊池郡大津町大字大津1233 Tel:096-293-8989Fax:096-",
+     "note": "ページの題名：請願・陳情提出の手引き - 大津町議会 - 大津町ホームページ(議会事務局)"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "434043",
+   "name": "菊陽町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "菊陽町議会事務局",
+     "phone": "096-232-4919",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kikuyo.lg.jp/gikai/kiji003232/index.html",
+     "evidence": "議会事務局 熊本県菊池郡菊陽町大字久保田2800番地 (本館3階) 電話:096-232-4919 FAX:096",
+     "note": "ページの題名：請願・陳情(案内) / 町議会 / 菊陽町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "434230",
+   "name": "南小国町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "南小国町議会事務局",
+     "phone": "0967-42-1125",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.minamioguni.lg.jp/gikai/seigan-chinjou.html",
+     "evidence": "議会事務局 電話番号:0967-42-1125",
+     "note": "ページの題名：請願・陳情について | 議会 | 熊本県阿蘇郡南小国町 公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "434248",
+   "name": "小国町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kumamoto-oguni.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,757 @@
+{
+ "batch": "petition-muni-01-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "011002",
+   "name": "札幌市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "札幌市議会事務局",
+     "phone": "011-211-3162",
+     "email": null,
+     "form_url": null,
+     "postal_code": "060-8611",
+     "postal_address": "札幌市中央区北1条西2丁目 札幌市役所本庁舎16階",
+     "hours": null,
+     "source_url": "https://www.city.sapporo.jp/gikai/html/seiganchinjo.html",
+     "evidence": "議会事務局 〒060-8611 札幌市中…条西2丁目 札幌市役所本庁舎16階 電話:011-211-3162(総務課)、31",
+     "note": "ページの題名：議会へ要望する(請願と陳情)/札幌市議会／同じ組織のほかの番号：011-211-3166・011-211-3164"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "012025",
+   "name": "函館市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hakodate.hokkaido.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "012033",
+   "name": "小樽市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "小樽市議会事務局",
+     "phone": "0134-32-4111",
+     "email": "gikai@city.otaru.lg.jp",
+     "form_url": null,
+     "postal_code": "047-8660",
+     "postal_address": "小樽市花園2丁目12番1号",
+     "hours": null,
+     "source_url": "https://www.city.otaru.lg.jp/docs/2020120100228/",
+     "evidence": "議会事務局 住所:〒047-8660 小樽市花園2丁目12番1号 TEL:0134-32-4111内線503・50",
+     "note": "ページの題名：請願・陳情の提出について | 小樽市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "012041",
+   "name": "旭川市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "旭川市議会事務局議事調査課",
+     "phone": "0166-25-6318",
+     "email": null,
+     "form_url": null,
+     "postal_code": "070-8525",
+     "postal_address": "旭川市7条通9丁目 総合庁舎8階",
+     "hours": null,
+     "source_url": "https://www.city.asahikawa.hokkaido.jp/council/6300/d052622.html",
+     "evidence": "旭川市議会事務局議事調査課 〒070-8525 旭川市7条通9丁目 総合庁舎8階 電話番号: 0166-25-6318",
+     "note": "ページの題名：請願・陳情 | 旭川市議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "012050",
+   "name": "室蘭市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.muroran.lg.jp/administration/?content=2684",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "012068",
+   "name": "釧路市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "釧路市議会事務局",
+     "phone": "0154-31-4581",
+     "email": "gi-gikai@city.kushiro.lg.jp",
+     "form_url": null,
+     "postal_code": "085-8505",
+     "postal_address": "北海道釧路市黒金町7丁目5番地",
+     "hours": null,
+     "source_url": "https://www.city.kushiro.lg.jp/shigikai/seigan_chinjyou/index.html",
+     "evidence": "議会事務局 〒085-8505 北海道釧路市黒金町7丁目5番地 電話/0154-31-4581",
+     "note": "ページの題名：請願・陳情の提出方法|釧路市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "012076",
+   "name": "帯広市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "帯広市議会事務局総務課議事係",
+     "phone": "0155-65-4221",
+     "email": null,
+     "form_url": null,
+     "postal_code": "080-8670",
+     "postal_address": "帯広市西5条南7丁目1番地",
+     "hours": null,
+     "source_url": "https://www.city.obihiro.hokkaido.jp/shisei/shigikai/tetsuduki/1001276.html",
+     "evidence": "議会事務局総務課議事係 〒080-8670 帯広市西5条南7丁目1番地 電話:0155-65-4221 ファクス:01",
+     "note": "ページの題名：請願・陳情について| 帯広市ホームページ 十勝"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "012084",
+   "name": "北見市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kitami.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "012092",
+   "name": "夕張市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.yubari.lg.jp/adv/ba.php?id=8",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "012106",
+   "name": "岩見沢市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "岩見沢市議会事務局",
+     "phone": "0126-35-4907",
+     "email": null,
+     "form_url": null,
+     "postal_code": "068-8686",
+     "postal_address": "北海道岩見沢市鳩が丘1丁目1番1号",
+     "hours": null,
+     "source_url": "https://www.city.iwamizawa.hokkaido.jp/soshiki/gikai_jimukyoku/iwamizawashigikai/3483.html",
+     "evidence": "議会事務局 〒068-8686 北海道岩見沢市鳩が丘1丁目1番1号 直通電話:0126-35-4907",
+     "note": "ページの題名：請願・陳情/岩見沢市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "012114",
+   "name": "網走市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "網走市議会事務局総務議事係",
+     "phone": "0152-44-3326",
+     "email": null,
+     "form_url": null,
+     "postal_code": "093-8555",
+     "postal_address": "網走市南5条東1丁目10番地",
+     "hours": null,
+     "source_url": "https://www.city.abashiri.hokkaido.jp/site/gikai/1565.html",
+     "evidence": "事務局議会事務局総務議事係 〒093-8555網走市南5条東1丁目10番地 Tel:0152-44-3326Fax:0152",
+     "note": "ページの題名：市議会への請願・陳情 - 網走市議会 - 網走市公式サイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "012122",
+   "name": "留萌市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.e-rumoi.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "012131",
+   "name": "苫小牧市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "苫小牧市議会事務局",
+     "phone": "0144-32-6785",
+     "email": null,
+     "form_url": null,
+     "postal_code": "053-8722",
+     "postal_address": "北海道苫小牧市旭町4丁目5番6号 市役所南庁舎10階",
+     "hours": null,
+     "source_url": "https://www.city.tomakomai.hokkaido.jp/gikai/seigan/",
+     "evidence": "苫小牧市議会事務局 〒053-8722 北海道苫小牧市旭町4丁目5番6号 市役所南庁舎10階 電話 0144-32-6785",
+     "note": "ページの題名：請願・陳情/苫小牧市議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "012149",
+   "name": "稚内市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "稚内市議会グループ",
+     "phone": "0162-23-6489",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.wakkanai.hokkaido.jp/gikai/boucho/seiganchinjo/",
+     "evidence": "議会グループ 0162-23-6489(直通)",
+     "note": "ページの題名：請願・陳情のしかた | 稚内市議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "012157",
+   "name": "美唄市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.bibai.hokkaido.jp/site/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "012165",
+   "name": "芦別市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ashibetsu.hokkaido.jp/shisei/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "012173",
+   "name": "江別市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "江別市議会 総務課議事係",
+     "phone": "011-381-1051",
+     "email": null,
+     "form_url": null,
+     "postal_code": "067-8674",
+     "postal_address": "北海道江別市高砂町6番地",
+     "hours": null,
+     "source_url": "https://www.city.ebetsu.hokkaido.jp/site/gikai/2004.html",
+     "evidence": "総務課議事係 〒067-8674 北海…町6番地 江別市役所本庁舎3階 Tel:011-381-1051 Fax:011",
+     "note": "ページの題名：請願・陳情とは | 北海道江別市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "012181",
+   "name": "赤平市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.akabira.hokkaido.jp/docs/2013011700065b.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "012190",
+   "name": "紋別市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://mombetsu.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "012203",
+   "name": "士別市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "士別市議会事務局",
+     "phone": "0165-23-3009",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.shibetsu.lg.jp/soshikikarasagasu/gikaijimukyoku/1526.html",
+     "evidence": "議会事務局 電話番号 0165-23-3009",
+     "note": "ページの題名：請願・陳情/士別市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "012211",
+   "name": "名寄市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.city.nayoro.lg.jp/assembly/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "012220",
+   "name": "三笠市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.mikasa.hokkaido.jp/banner_click.php?url=assembly%2F&id=8&type=2",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "012238",
+   "name": "根室市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nemuro.hokkaido.jp/lifeinfo/15140.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "012246",
+   "name": "千歳市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "千歳市議会事務局総務課",
+     "phone": "0123-24-0773",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.chitose.lg.jp/c70/1002791/1002819/1002820/1003586.html",
+     "evidence": "議会事務局総務課 電話番号:0123-24-0773(直通)",
+     "note": "ページの題名：請願・陳情|北海道千歳市公式ウェブサイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "012254",
+   "name": "滝川市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "滝川市議会事務局",
+     "phone": "0125-28-8048",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.takikawa.lg.jp/page/2853.html",
+     "evidence": "議会事務局へお問い合わせください。(Tel0125-28-8048(直通))",
+     "note": "ページの題名：請願・陳情について - 滝川市役所 公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "012262",
+   "name": "砂川市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "砂川市議会 議事係",
+     "phone": "0125-74-8796",
+     "email": null,
+     "form_url": null,
+     "postal_code": "073-0195",
+     "postal_address": "北海道砂川市西7条北2丁目1-1",
+     "hours": null,
+     "source_url": "https://www.city.sunagawa.hokkaido.jp/shisei/shigikai/seigan_chinjou.html",
+     "evidence": "議事係〔4階〕 〒073-0195 北海道砂川市西7条北2丁目1-1 TEL 0125-74-8796 FAX 012",
+     "note": "ページの題名：請願・陳情について|市政情報|砂川市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "012271",
+   "name": "歌志内市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.utashinai.hokkaido.jp/hotnews/category/152.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "012289",
+   "name": "深川市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "深川市議会庶務係",
+     "phone": "0164-26-2282",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.fukagawa.lg.jp/gikai/about/i1r7hk00000004o5.html",
+     "evidence": "議会庶務係 電話: 0164-26-2282",
+     "note": "ページの題名：請願と陳情 | 深川市議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "012297",
+   "name": "富良野市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.furano.hokkaido.jp/shigikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "012301",
+   "name": "登別市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.noboribetsu-shigikai.org/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

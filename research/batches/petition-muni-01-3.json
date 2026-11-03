@@ -1,0 +1,757 @@
+{
+ "batch": "petition-muni-01-3",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "013986",
+   "name": "喜茂別町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kimobetsu.hokkaido.jp/town/detail.php?content=180",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "013994",
+   "name": "京極町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town-kyogoku.jp/life/5/25/82/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "014001",
+   "name": "倶知安町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kutchan.hokkaido.jp/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "014010",
+   "name": "共和町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kyowa.hokkaido.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "014028",
+   "name": "岩内町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.iwanai.hokkaido.jp/%e7%94%ba%e6%94%bf%e6%83%85%e5%a0%b1/%e5%b2%a9%e5%86%85%e7%94%ba%e8%ad%b0%e4%bc%9a/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "014036",
+   "name": "泊村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.tomari.hokkaido.jp/machizukuri/gikai/gikaidayori/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "014044",
+   "name": "神恵内村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.kamoenai.hokkaido.jp/banner_click.php?url=%2Fhotnews%2Fdetail%2F00000902.html&id=10&type=3",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "014052",
+   "name": "積丹町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shakotan.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "014061",
+   "name": "古平町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "古平町議会事務局",
+     "phone": "0135-42-2170",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.furubira.lg.jp/town/detail.php?id=60",
+     "evidence": "議会事務局 TEL:0135-42-2170 FAX:013",
+     "note": "ページの題名：請願と陳情|町議会|町政情報|北海道古平町オフィシャルホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "014079",
+   "name": "仁木町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "仁木町議会 総務議事係",
+     "phone": "0135-32-3954",
+     "email": "gikai02-niki@town.niki.hokkaido.jp",
+     "form_url": null,
+     "postal_code": "048-2492",
+     "postal_address": "北海道余市郡仁木町西町1丁目36番地1",
+     "hours": null,
+     "source_url": "https://www.town.niki.hokkaido.jp/section/gikai/irv97600000004we.html",
+     "evidence": "総務議事係 住所:郵便番号048-249…余市郡仁木町西町1丁目36番地1 電話番号:0135-32-3954",
+     "note": "ページの題名：請願・陳情 |仁木町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "014087",
+   "name": "余市町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.yoichi.hokkaido.jp/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "014095",
+   "name": "赤井川村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.akaigawa.com/kurashi/gikai_jimukyoku/index19.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "014231",
+   "name": "南幌町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.nanporo.hokkaido.jp/about/politics/council/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "014249",
+   "name": "奈井江町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.naie.hokkaido.jp/oshirase/2047/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "014257",
+   "name": "上砂川町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://town.kamisunagawa.hokkaido.jp/gikai_jimukyoku/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "014273",
+   "name": "由仁町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.yuni.lg.jp/chosei/gikai",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "014281",
+   "name": "長沼町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.maoi-net.jp/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "014290",
+   "name": "栗山町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kuriyama.hokkaido.jp/soshiki/13/480.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "014303",
+   "name": "月形町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "月形町議会事務局",
+     "phone": "0126-53-2321",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.tsukigata.hokkaido.jp/page/1608.html",
+     "evidence": "議会事務局 Tel:0126-53-2321Fax:0126",
+     "note": "ページの題名：請願・陳情 - 月形町ホームページ(議会事務局)"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "014311",
+   "name": "浦臼町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.urausu.hokkaido.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "014320",
+   "name": "新十津川町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shintotsukawa.lg.jp/hotnews/detail/00000607.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "014338",
+   "name": "妹背牛町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.moseushi.hokkaido.jp/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "014346",
+   "name": "秩父別町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.chippubetsu.hokkaido.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "014362",
+   "name": "雨竜町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "雨竜町議会担当",
+     "phone": "0125-77-2215",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.uryu.hokkaido.jp/docs/seigan.html",
+     "evidence": "議会担当 電話: 0125-77-2215",
+     "note": "ページの題名：請願書等の提出について - 北海道雨竜町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "014371",
+   "name": "北竜町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "北竜町議会事務局",
+     "phone": "0164-34-7035",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hokuryu.hokkaido.jp/chosei/seigan-tinjyou/",
+     "evidence": "議会事務局 〒078-2512 北海道雨竜郡北竜町字和11番地1 TEL:0164-34-7035",
+     "note": "ページの題名：請願・陳情の手続き | 北竜町公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "014389",
+   "name": "沼田町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.numata.hokkaido.jp/section/gikai/ujj7s300000013iy.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "014524",
+   "name": "鷹栖町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.takasu.hokkaido.jp/adv/ba.php?id=8",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "014532",
+   "name": "東神楽町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.higashikagura.lg.jp/c2_kurashi/shisetsu/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "014541",
+   "name": "当麻町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "当麻町議会事務局議事係",
+     "phone": "0166-84-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.tohma.hokkaido.jp/parliament/1426",
+     "evidence": "議会事務局議事係 〒078-1393 北…郡当麻町3条東2丁目11番1号 電話番号 0166-84-2111",
+     "note": "ページの題名：請願・陳情 | 当麻町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "014559",
+   "name": "比布町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.pippu.hokkaido.jp/cms/section/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

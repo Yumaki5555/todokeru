@@ -1,0 +1,657 @@
+{
+ "batch": "petition-muni-20-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "202011",
+   "name": "長野市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "長野市議会事務局",
+     "phone": "026-224-5056",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nagano.nagano.jp/n440500/shigikai/p005446.html",
+     "evidence": "議会事務局 総務議事調査課 長野市大字鶴賀緑町1613番地 第一庁舎7階 電話番号:026-224-5056",
+     "note": "ページの題名：請願・陳情のご案内 - 長野市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "202029",
+   "name": "松本市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "松本市議会事務局",
+     "phone": "0263-34-3210",
+     "email": null,
+     "form_url": null,
+     "postal_code": "390-8620",
+     "postal_address": "長野県松本市丸の内3番7号",
+     "hours": null,
+     "source_url": "https://www.city.matsumoto.nagano.jp/site/gikai/4159.html",
+     "evidence": "議会事務局代表 〒390-8620 長野県松本市丸の内3番7号(東庁舎3階) Tel:0263-34-3210",
+     "note": "ページの題名：請願・陳情の提出について - 松本市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "202037",
+   "name": "上田市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "上田市議会事務局",
+     "phone": "0268-22-0452",
+     "email": null,
+     "form_url": null,
+     "postal_code": "386-8601",
+     "postal_address": "長野県上田市大手一丁目11番16号",
+     "hours": null,
+     "source_url": "https://www.city.ueda.nagano.jp/site/gikai/4736.html",
+     "evidence": "議会事務局代表 〒386-8601長野県上田市大手一丁目11番16号 Tel:0268-22-0452Fax:0268",
+     "note": "ページの題名：請願・陳情 - ようこそ上田市議会へ - 上田市ホームページ(議会事務局)"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "202045",
+   "name": "岡谷市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.okaya.lg.jp/okayashigikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "202053",
+   "name": "飯田市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.iida.lg.jp/adv/ba.php?id=62",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "202061",
+   "name": "諏訪市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "諏訪市議会",
+     "phone": "0266-52-4141",
+     "email": "suwashigikai@city.suwa.lg.jp",
+     "form_url": null,
+     "postal_code": "392-8511",
+     "postal_address": "諏訪市高島1-22-30",
+     "hours": null,
+     "source_url": "https://www.city.suwa.lg.jp/site/gikai/4297.html",
+     "evidence": "議会棟2階 Tel:0266-52-4141(内線:521,",
+     "note": "ページの題名：市議会への請願及び陳情の提出について - 諏訪市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "202070",
+   "name": "須坂市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "須坂市議会事務局",
+     "phone": "026-248-9014",
+     "email": null,
+     "form_url": null,
+     "postal_code": "382-8511",
+     "postal_address": "長野県須坂市大字須坂1528番地の1",
+     "hours": null,
+     "source_url": "https://www.city.suzaka.nagano.jp/shigikai/oshirase/98.html",
+     "evidence": "議会事務局 所在地:〒382-8511 長野県須坂市大字須坂1528番地の1 電話番号:026-248-9014 ファックス:0",
+     "note": "ページの題名：請願・陳情のご案内/須坂市ホームページ - 長野県須坂市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "202088",
+   "name": "小諸市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.komoro.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "202096",
+   "name": "伊那市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.inacity.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "202100",
+   "name": "駒ヶ根市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.komagane.nagano.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "202118",
+   "name": "中野市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "中野市議会事務局 庶務係",
+     "phone": "0269-22-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nakano.nagano.jp/shigikai/2017103100016/",
+     "evidence": "議会事務局 庶務係 TEL:0269-22-2111",
+     "note": "ページの題名：請願・陳情 | 長野県中野市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "202126",
+   "name": "大町市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "大町市議会事務局",
+     "phone": "0261-22-0420",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.omachi.nagano.jp/shigikai/shokai/shokai/kn2b16cp0q34mygb6pm3y7mn",
+     "evidence": "議会事務局 電話番号 : 0261-22-0420(内線581)",
+     "note": "ページの題名：請願・陳情の手続き | 大町市公式サイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "202134",
+   "name": "飯山市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.iiyama.nagano.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "202142",
+   "name": "茅野市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "茅野市議会 議事係",
+     "phone": "0266-72-2101",
+     "email": null,
+     "form_url": null,
+     "postal_code": "391-8501",
+     "postal_address": "茅野市塚原二丁目6番1号",
+     "hours": null,
+     "source_url": "https://www.city.chino.lg.jp/site/chino-cc/403.html",
+     "evidence": "議事係 〒391-8501茅野市塚原二丁目6番1号 Tel:0266-72-2101(内線351・3",
+     "note": "ページの題名：請願と陳情について - 茅野市議会 - 茅野市ホームページ(議会事務局)"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "202151",
+   "name": "塩尻市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "塩尻市議会事務局",
+     "phone": "0263-52-0706",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.shiojiri.lg.jp/site/gikai/1540.html",
+     "evidence": "議会事務局 電話:0263-52-0706へお問い合わせく",
+     "note": "ページの題名：請願・陳情の出し方/塩尻市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "202177",
+   "name": "佐久市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "佐久市議会事務局",
+     "phone": "0267-62-3495",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.saku.nagano.jp/shigikai/gikaijoho/seigantinjyou/seiganntou.html",
+     "evidence": "議会事務局(0267-62-3495)",
+     "note": "ページの題名：請願・陳情等 | 佐久市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "202185",
+   "name": "千曲市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.chikuma.lg.jp/soshiki/gikai_jimukyoku/chikumashigikai/1834.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "202193",
+   "name": "東御市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tomi.nagano.jp/category/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "202207",
+   "name": "安曇野市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.azumino.nagano.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "203033",
+   "name": "小海町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "小海町議会事務局",
+     "phone": "0267-92-2578",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.koumi-town.jp/office2/archives/gikai/post-721.html",
+     "evidence": "議会事務局 電話 0267-92-2578",
+     "note": "ページの題名：陳情の取り扱いについて | 小海町公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "203041",
+   "name": "川上村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.kawakami.nagano.jp/www/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "203050",
+   "name": "南牧村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.minamimakimura.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "203068",
+   "name": "南相木村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.minamiaiki.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "203076",
+   "name": "北相木村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.vill.kitaaiki.nagano.jp/sonsei/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "203092",
+   "name": "佐久穂町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.sakuho.nagano.jp/choseijoho/chogikai/gikaidayori",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "203211",
+   "name": "軽井沢町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.karuizawa.lg.jp/adv/ba.php?id=6&ef1=5",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

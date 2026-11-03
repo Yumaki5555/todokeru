@@ -1,0 +1,532 @@
+{
+ "batch": "petition-muni-11-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "111007",
+   "name": "さいたま市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "さいたま市議会 議事課",
+     "phone": "048-829-1753",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.saitama.lg.jp/gikai/004/001/p017607.html",
+     "evidence": "議事課 電話番号:048-829-1753ファックス:04",
+     "note": "ページの題名：さいたま市議会/陳情について"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112011",
+   "name": "川越市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "川越市議会 議事担当",
+     "phone": "049-224-6067",
+     "email": null,
+     "form_url": null,
+     "postal_code": "350-8601",
+     "postal_address": "川越市元町1丁目3番地1",
+     "hours": null,
+     "source_url": "https://www.city.kawagoe.saitama.jp/shigikai/g-about/1007564.html",
+     "evidence": "議事担当 〒350-8601 川越市元町1丁目3番地1 電話番号:049-224-6067 ファクス番号:",
+     "note": "ページの題名：請願、陳情等|川越市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112020",
+   "name": "熊谷市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "熊谷市議会事務局",
+     "phone": "048-524-1573",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kumagaya.lg.jp/shigikai/seigan_tinjo.html",
+     "evidence": "議会事務局 電話:048-524-1573(直通) ファク",
+     "note": "ページの題名：請願や陳情のしかた:熊谷市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112038",
+   "name": "川口市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://kawaguchi.gsl-service.net/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112062",
+   "name": "行田市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.gyoda.lg.jp/soshiki/gikai_jimukyoku/gikai/7380.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112071",
+   "name": "秩父市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "秩父市議会事務局",
+     "phone": "0494-25-5224",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.chichibu.lg.jp/dd.aspx?menuid=1937",
+     "evidence": "議会事務局 所在地/〒368-8686…4階) 電話番号/0494-25-52240494-25-5224 FAX/ 04",
+     "note": "ページの題名：請願・陳情の提出方法/秩父市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112089",
+   "name": "所沢市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "所沢市議会事務局",
+     "phone": "04-2998-9256",
+     "email": "a9256@city.tokorozawa.lg.jp",
+     "form_url": null,
+     "postal_code": "359-8501",
+     "postal_address": "所沢市並木一丁目1番地の1 低層棟3階",
+     "hours": null,
+     "source_url": "https://www.city.tokorozawa.saitama.jp/shigikai/minasanto/seigantinjou.html",
+     "evidence": "議会事務局 住所:〒359-8501 所沢市並木一丁目1番地の1 低層棟3階 電話:04-2998-9256",
+     "note": "ページの題名：所沢市ホームページ 請願・陳情"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112097",
+   "name": "飯能市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hanno.lg.jp/shiseijoho/shigikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112101",
+   "name": "加須市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "加須市議会 議事課",
+     "phone": "0480-62-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.city.kazo.lg.jp/soshiki/gikai/14719.html",
+     "evidence": "議事課(本庁舎4階) 〒 347-8501 埼玉県加須市三俣二丁目1番地1 電話番号:0480-62-1111(代表) ファッ",
+     "note": "ページの題名：請願・陳情/加須市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112119",
+   "name": "本庄市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.honjo.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112127",
+   "name": "東松山市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "東松山市議会事務局",
+     "phone": "0493-21-1418",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.higashimatsuyama.lg.jp/site/shigikai/2984.html",
+     "evidence": "議会事務局 埼玉県東松山市松葉町1-1-58 東松山市役所本庁舎3階 Tel:0493-21-1418Fax:0493",
+     "note": "ページの題名：請願・陳情 - 東松山市議会 - 東松山市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112143",
+   "name": "春日部市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "春日部市議会",
+     "phone": "048-736-1111",
+     "email": "gikai@city.kasukabe.lg.jp",
+     "form_url": null,
+     "postal_code": "344-8577",
+     "postal_address": "埼玉県春日部市中央七丁目2番地1 市議会へのアクセス",
+     "hours": null,
+     "source_url": "https://www.kasukabe-shigikai.jp/seiganteishutsu.asp",
+     "evidence": "議会へのアクセス 電話番号:048-736-1111 (内線:761",
+     "note": "ページの題名：請願・陳情について|春日部市議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112151",
+   "name": "狭山市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "狭山市議会事務局",
+     "phone": "04-2968-6572",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.sayama.saitama.jp/gikai/shgikai/seigan.html",
+     "evidence": "議会事務局 狭山市入間川1丁目23番5号 電話:04-2968-6572",
+     "note": "ページの題名：請願・陳情 狭山市公式ウェブサイト／同じ組織のほかの番号：04-2953-1111"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112160",
+   "name": "羽生市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hanyu.lg.jp/categories/bunya/shigikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112178",
+   "name": "鴻巣市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "鴻巣市議会総務課",
+     "phone": "048-541-1321",
+     "email": null,
+     "form_url": null,
+     "postal_code": "365-8601",
+     "postal_address": "埼玉県鴻巣市中央1-1",
+     "hours": null,
+     "source_url": "https://www.city.kounosu.saitama.jp/site/gikai/7884.html",
+     "evidence": "議会総務課 〒365-8601埼玉県鴻巣市中央1-1(本庁舎5階) Tel:048-541-1321Fax:048-",
+     "note": "ページの題名：陳情・請願 - 鴻巣市議会 - 鴻巣市公式ホームページ(議会総務課)"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112186",
+   "name": "深谷市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "深谷市議会事務局",
+     "phone": "048-574-6662",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.fukaya.saitama.jp/gikai/seigan_chinjo/1391403716936.html",
+     "evidence": "議会事務局 〒366-8501 埼玉県深谷市仲町11-1 電話:048-574-6662",
+     "note": "ページの題名：請願・陳情の提出方法/深谷市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112194",
+   "name": "上尾市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "上尾市議会",
+     "phone": "048-775-9452",
+     "email": null,
+     "form_url": null,
+     "postal_code": "362-8501",
+     "postal_address": "埼玉県上尾市本町3-1-1",
+     "hours": null,
+     "source_url": "https://www.city.ageo.lg.jp/site/shigikai/062111022201.html",
+     "evidence": "議会 〒362-8501 埼玉県上尾市本町3-1-1Tel:048-775-9452Fax:048-",
+     "note": "ページの題名：請願と陳情 - 上尾市Webサイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112216",
+   "name": "草加市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "草加市議会",
+     "phone": "048-922-2457",
+     "email": null,
+     "form_url": null,
+     "postal_code": "340-8550",
+     "postal_address": "埼玉県草加市高砂一丁目1番1号 本庁舎9階 市議会へのアクセス",
+     "hours": null,
+     "source_url": "http://www.soka-shigikai.jp/seiganchinjo.asp",
+     "evidence": "議会へのアクセス 電話番号:048-922-2457 (総務) 04",
+     "note": "ページの題名：請願・陳情の出し方|草加市議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112224",
+   "name": "越谷市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "越谷市議会 議事課",
+     "phone": "048-963-9261",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.koshigaya.saitama.jp/gikai/aramasi/sosiki_05.html",
+     "evidence": "議事課(本庁舎7階) 電話:048-963-9261",
+     "note": "ページの題名：請願・陳情について | 越谷市議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112232",
+   "name": "蕨市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://warabi.gijiroku.com/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112241",
+   "name": "戸田市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "戸田市議会事務局",
+     "phone": "048-441-1800",
+     "email": null,
+     "form_url": null,
+     "postal_code": "335-8588",
+     "postal_address": "埼玉県戸田市上戸田1丁目18番1号",
+     "hours": null,
+     "source_url": "https://www2.city.toda.saitama.jp/gikai/toda-f9fzqijq2awo0kaj/GD038/GD038_001?contents=000007&menu=000041",
+     "evidence": "議会事務局 住所 〒335-8588 埼玉県戸田市上戸田1丁目18番1号 電話番号 048-441-1800",
+     "note": "ページの題名：請願・陳情 戸田市議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

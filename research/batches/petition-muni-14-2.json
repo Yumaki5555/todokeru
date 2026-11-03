@@ -1,0 +1,407 @@
+{
+ "batch": "petition-muni-14-2",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "142174",
+   "name": "南足柄市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "南足柄市議会",
+     "phone": "0465-73-8038",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.minamiashigara.kanagawa.jp/gikai/seigan/seigan_chinjyou.html",
+     "evidence": "議会班 電話番号:0465-73-8038",
+     "note": "ページの題名：請願・陳情 | 南足柄市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "142182",
+   "name": "綾瀬市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "綾瀬市議会 議事担当",
+     "phone": "0467-70-5644",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ayase.kanagawa.jp/gyoseijoho/shigikai/seigan_chinjonotetsuzuki/9316.html",
+     "evidence": "議事担当 電話番号:0467-70-5644",
+     "note": "ページの題名：請願・陳情の手続き/綾瀬市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "143014",
+   "name": "葉山町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "葉山町議会事務局",
+     "phone": "046-876-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hayama.lg.jp/gikai/tetuduki/6562.html",
+     "evidence": "議会事務局(電話046-876-1111)までお問い合わ",
+     "note": "ページの題名：請願・陳情/葉山町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "143219",
+   "name": "寒川町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "寒川町議会事務局総務担当",
+     "phone": "0467-37-5501",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.samukawa.kanagawa.jp/soshiki/gikai/gikaijimu/somu/info/gikai_tetuduki/1361846711076.html",
+     "evidence": "議会事務局総務担当 住所:253-0196 神奈川県高座郡寒川町宮山165番地 電話:0467-37-5501",
+     "note": "ページの題名：請願・陳情のしおり/寒川町ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "143413",
+   "name": "大磯町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.oiso.kanagawa.jp/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "143421",
+   "name": "二宮町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "二宮町議会事務局庶務課",
+     "phone": "0463-75-9267",
+     "email": "gikai@town.ninomiya.kanagawa.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ninomiya.kanagawa.jp/gikai/0000000882.html",
+     "evidence": "二宮町議会事務局庶務課庶務班 住所: 〒…6 神奈川県中郡二宮町二宮961 電話: 0463-75-9267",
+     "note": "ページの題名：請願・陳情 | 二宮町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "143618",
+   "name": "中井町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.nakai.kanagawa.jp/soshiki/gikaijimukyoku/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "143626",
+   "name": "大井町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "大井町議会事務局",
+     "phone": "0465-85-5000",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.oi.kanagawa.jp/site/gikai/seigann-tuite.html",
+     "evidence": "議会事務局 〒258-8501 神奈川県足柄上郡大井町金子1995番地 代表 Tel:0465-85-5000Fax:0465",
+     "note": "ページの題名：請願・陳情について - 神奈川県大井町ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "143634",
+   "name": "松田町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "松田町議会事務局",
+     "phone": "0465-84-1335",
+     "email": null,
+     "form_url": null,
+     "postal_code": "258-8585",
+     "postal_address": "神奈川県足柄上郡松田町松田惣領2037番地",
+     "hours": null,
+     "source_url": "https://town.matsuda.kanagawa.jp/site/gikai/seigan-chinjou.html",
+     "evidence": "議会事務局 〒258-8585 神奈川県足柄上郡松田町松田惣領2037番地 Tel:0465-84-1335",
+     "note": "ページの題名：請願と陳情 - 松田町公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "143642",
+   "name": "山北町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "山北町議会事務局",
+     "phone": "0465-75-3653",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.yamakita.kanagawa.jp/0000000028.html",
+     "evidence": "議会事務局議事班 電話: 0465-75-3653",
+     "note": "ページの題名：請願・陳情について | 山北町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "143669",
+   "name": "開成町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kaisei.kanagawa.jp/forms/top/top.aspx",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "143821",
+   "name": "箱根町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hakone.kanagawa.jp/www/contents/1769477593761/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "143839",
+   "name": "真鶴町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "真鶴町議会事務局",
+     "phone": "0465-68-1131",
+     "email": null,
+     "form_url": null,
+     "postal_code": "259-0202",
+     "postal_address": "神奈川県足柄下郡真鶴町岩244番地の1",
+     "hours": null,
+     "source_url": "https://www.town.manazuru.kanagawa.jp/chosei_gikai/gikai/2775.html",
+     "evidence": "議会事務局 住所:〒259-0202 神奈川県足柄下郡真鶴町岩244番地の1 電話:0465-68-1131",
+     "note": "ページの題名：請願・陳情/真鶴町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "143847",
+   "name": "湯河原町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "湯河原町議会事務局",
+     "phone": "0465-63-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "259-0392",
+     "postal_address": "神奈川県足柄下郡湯河原町中央二丁目2番地1",
+     "hours": null,
+     "source_url": "https://www.town.yugawara.kanagawa.jp/site/yugawara-gikai/1403.html",
+     "evidence": "議会事務局 〒259-0392神奈川県足柄下郡湯河原町中央二丁目2番地1 Tel:0465-63-2111(内線214)F",
+     "note": "ページの題名：請願・陳情 - 四季彩のまち湯河原公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "144011",
+   "name": "愛川町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "愛川町議会事務局",
+     "phone": "046-285-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.aikawa.kanagawa.jp/assembly/boutyou/6113.html",
+     "evidence": "議会事務局 〒243-0392 神奈川県愛甲郡愛川町角田251-1 電話番号:046-285-2111",
+     "note": "ページの題名：請願・陳情の手続き/愛川町ホームページ／同じ組織のほかの番号：046-285-6927"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "144029",
+   "name": "清川村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "清川村議会事務局",
+     "phone": "046-288-1576",
+     "email": null,
+     "form_url": null,
+     "postal_code": "243-0195",
+     "postal_address": "神奈川県愛甲郡清川村煤ヶ谷2216",
+     "hours": null,
+     "source_url": "https://www.town.kiyokawa.kanagawa.jp/gikai/bocho_seigan/1077.html",
+     "evidence": "議会事務局 〒243-0195 神奈川県…川村煤ヶ谷2216 清川村役場3階 電話番号046-288-1576 ファックス:0",
+     "note": "ページの題名：請願・陳情の手続き/清川村"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

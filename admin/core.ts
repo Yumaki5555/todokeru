@@ -5,6 +5,7 @@
 import type { Agency, AgencyCategory, Contact, ContactStatus, ContactType, Municipality, Prefecture } from '../src/types.ts';
 import {
   CONTACT_TYPE_INFO,
+  EXTRA_TYPES_FOR_DIET,
   EXTRA_TYPES_FOR_MUNI,
   EXTRA_TYPES_FOR_PREF,
   STATUS_LABEL,
@@ -70,7 +71,7 @@ export interface ChangeLogEntry {
 }
 
 export const BATCH = 'manual-admin';
-export const TYPE_ORDER: ContactType[] = ['general', 'feedback', 'assembly', 'police', 'education', 'department'];
+export const TYPE_ORDER: ContactType[] = ['general', 'feedback', 'assembly', 'petition', 'police', 'education', 'department'];
 /** サイトの画面に出す確認状態（ここに入る窓口は、出典が公式のページでないといけない） */
 const SHOWN: ContactStatus[] = ['verified', 'review', 'auto_matched'];
 /** 人が確かめられなかったときに research-merge が付ける補足（確かめ直したら消す） */
@@ -95,7 +96,8 @@ export function listEntities(prefectures: Prefecture[], municipalities: Municipa
 export function allowedTypes(e: Entity): ContactType[] {
   if (e.kind === 'pref') return [...TYPES_FOR_LOCAL, ...EXTRA_TYPES_FOR_PREF];
   if (e.kind === 'muni') return [...TYPES_FOR_LOCAL, ...EXTRA_TYPES_FOR_MUNI];
-  return e.category === 'diet' ? TYPES_FOR_DIET : TYPES_FOR_AGENCY;
+  if (e.category === 'diet') return [...TYPES_FOR_DIET, ...EXTRA_TYPES_FOR_DIET];
+  return TYPES_FOR_AGENCY;
 }
 
 export function findRecord(records: ContactRecord[], e: Entity): ContactRecord | undefined {

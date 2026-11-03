@@ -94,7 +94,7 @@ function pending() {
     try {
       const x = JSON.parse(line.slice(1));
       if (x.batch !== 'manual-admin') continue;
-      const key = x.id.replace(/-(general|feedback|assembly|police|education|department)(-\d+)?$/, '');
+      const key = x.id.replace(/-(general|feedback|assembly|petition|police|education|department)(-\d+)?$/, '');
       items.push({ ...x, entityName: byKey.get(key)?.name || key, prefName: byKey.get(key)?.pref_name || null });
     } catch {
       /* 記録の形でない行は飛ばす */

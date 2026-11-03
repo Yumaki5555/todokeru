@@ -1,0 +1,145 @@
+{
+ "batch": "petition-muni-37-1",
+ "checked_at": "2026-11-03",
+ "result": {
+  "entities": 17,
+  "contacts": 17,
+  "verified": 5,
+  "unverified": 12,
+  "unavailable": 0,
+  "errors": 0
+ },
+ "errors": [],
+ "reports": [
+  {
+   "id": "372013-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "372021-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "372030-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "372048-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "372056-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "372064-petition",
+   "agent_status": "fetch_failed",
+   "checks": {},
+   "status": "unverified",
+   "why": "出典ページを開けない（fetch failed）"
+  },
+  {
+   "id": "372072-petition",
+   "agent_status": "found",
+   "checks": {},
+   "status": "unverified",
+   "why": "公式ドメインか自動で判定できない（www.higashikagawa.jp）"
+  },
+  {
+   "id": "372081-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "373222-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "373249-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "373419-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "373648-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "373869-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "373877-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "374032-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "374041-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "374067-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  }
+ ]
+}

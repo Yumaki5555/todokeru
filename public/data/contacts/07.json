@@ -149,6 +149,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "072028-petition",
+    "type": "petition",
+    "department": "会津若松市議会事務局",
+    "phone": "0242-39-1323",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.aizuwakamatsu.fukushima.jp/docs/2007080600609/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -190,6 +205,21 @@
     "id": "072036-assembly",
     "type": "assembly",
     "department": "議会事務局議会事務局 総務議事課",
+    "phone": "024-924-2521",
+    "email": "soumugiji-giji@city.koriyama.lg.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.koriyama.lg.jp/site/gikai/2722.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "072036-petition",
+    "type": "petition",
+    "department": "郡山市議会事務局 総務議事課",
     "phone": "024-924-2521",
     "email": "soumugiji-giji@city.koriyama.lg.jp",
     "form_url": null,
@@ -251,6 +281,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "072044-petition",
+    "type": "petition",
+    "department": "いわき市議会事務局",
+    "phone": "0246-22-7535",
+    "email": "gikai-somugiji@city.iwaki.lg.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.iwaki.lg.jp/www/contents/1787709775875/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -299,6 +344,21 @@
     "postal_address": "福島県白河市八幡小路7-1",
     "hours": null,
     "source_url": "https://www.city.shirakawa.fukushima.jp/page/page010633.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "072052-petition",
+    "type": "petition",
+    "department": "白河市議会 議事係",
+    "phone": "0248-28-5545",
+    "email": null,
+    "form_url": null,
+    "postal_code": "961-8602",
+    "postal_address": "福島県白河市八幡小路7-1",
+    "hours": null,
+    "source_url": "https://www.city.shirakawa.fukushima.jp/page/page000543.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -485,6 +545,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "072095-petition",
+    "type": "petition",
+    "department": "相馬市議会 議事係",
+    "phone": "0244-37-2177",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.soma.fukushima.jp/kanrenn_soshiki/somashigikai/seigan_chinjo_bocho/2599.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -526,6 +601,21 @@
     "id": "072109-assembly",
     "type": "assembly",
     "department": "議会事務局 議事調査係",
+    "phone": "0243-55-5144",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.nihonmatsu.lg.jp/gikai/seigan_chinjyo/page001073.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "072109-petition",
+    "type": "petition",
+    "department": "二本松市議会 議事調査係",
     "phone": "0243-55-5144",
     "email": null,
     "form_url": null,
@@ -638,6 +728,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "072125-petition",
+    "type": "petition",
+    "department": "南相馬市議会 議事係",
+    "phone": "0244-24-5311",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.minamisoma.lg.jp/portal/admin/shigikai/4132.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -686,6 +791,21 @@
     "postal_address": "伊達市保原町字舟橋180番地 議会棟3階",
     "hours": null,
     "source_url": "https://www.city.fukushima-date.lg.jp/site/gikai/87962.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "072133-petition",
+    "type": "petition",
+    "department": "伊達市議会事務局",
+    "phone": "024-575-1217",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.fukushima-date.lg.jp/site/gikai/1008.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -842,6 +962,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "073032-petition",
+    "type": "petition",
+    "department": "国見町議会事務局",
+    "phone": "024-585-3295",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kunimi.fukushima.jp/site/gikai/24.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -893,6 +1028,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "073083-petition",
+    "type": "petition",
+    "department": "川俣町議会事務局",
+    "phone": "024-566-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kawamata.lg.jp/site/gikai/tinjou-seigan-2.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -934,6 +1084,21 @@
     "id": "073229-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0243-24-8103",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.vill.otama.fukushima.jp/otama_songikai/seigan_chinjo/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "073229-petition",
+    "type": "petition",
+    "department": "大玉村議会事務局",
     "phone": "0243-24-8103",
     "email": null,
     "form_url": null,
@@ -1058,6 +1223,21 @@
     "postal_address": "福島県岩瀬郡天栄村大字下松本字原畑78番地",
     "hours": null,
     "source_url": "https://www.vill.tenei.fukushima.jp/site/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "073440-petition",
+    "type": "petition",
+    "department": "天栄村議会事務局",
+    "phone": "0248-82-2101",
+    "email": null,
+    "form_url": null,
+    "postal_code": "962-0592",
+    "postal_address": "福島県天栄村大字下松本字原畑78番地",
+    "hours": null,
+    "source_url": "https://www.vill.tenei.fukushima.jp/site/gikai/gikai-seigan.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1907,6 +2087,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "074616-petition",
+    "type": "petition",
+    "department": "西郷村議会事務局",
+    "phone": "0248-25-2980",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.vill.nishigo.fukushima.jp/sonseijoho/nishigomuragikai/seigan_chinjo/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -2060,6 +2255,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "074667-petition",
+    "type": "petition",
+    "department": "矢吹町議会事務局",
+    "phone": "0248-42-2118",
+    "email": null,
+    "form_url": null,
+    "postal_code": "969-0296",
+    "postal_address": "福島県西白河郡矢吹町一本木101",
+    "hours": null,
+    "source_url": "https://www.town.yabuki.fukushima.jp/page/page000030.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -2162,6 +2372,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "074829-petition",
+    "type": "petition",
+    "department": "矢祭町議会事務局",
+    "phone": "0247-46-4578",
+    "email": null,
+    "form_url": null,
+    "postal_code": "963-5192",
+    "postal_address": "福島県東白川郡矢祭町大字東舘字舘本66",
+    "hours": null,
+    "source_url": "https://www.town.yamatsuri.fukushima.jp/page/page000156.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -2203,6 +2428,21 @@
     "id": "074837-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0247-43-2150",
+    "email": null,
+    "form_url": null,
+    "postal_code": "963-5492",
+    "postal_address": "福島県東白川郡塙町大字塙字大町三丁目21番地",
+    "hours": null,
+    "source_url": "https://www.town.hanawa.fukushima.jp/page/page000469.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "074837-petition",
+    "type": "petition",
+    "department": "塙町議会事務局",
     "phone": "0247-43-2150",
     "email": null,
     "form_url": null,
@@ -2261,6 +2501,21 @@
     "postal_address": "鮫川村大字赤坂中野字新宿39番地5 役場庁舎2階",
     "hours": null,
     "source_url": "https://www.vill.samegawa.fukushima.jp/section.php?code=8",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "074845-petition",
+    "type": "petition",
+    "department": "鮫川村議会事務局",
+    "phone": "0247-49-3115",
+    "email": null,
+    "form_url": null,
+    "postal_code": "963-8401",
+    "postal_address": "鮫川村大字赤坂中野字新宿39番地5 役場庁舎2階",
+    "hours": null,
+    "source_url": "https://www.vill.samegawa.fukushima.jp/sonseijoho/gikai/page000158.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -2414,6 +2669,21 @@
     "postal_address": "福島県石川郡平田村大字永田字切田116",
     "hours": null,
     "source_url": "https://www.vill.hirata.fukushima.jp/site/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "075035-petition",
+    "type": "petition",
+    "department": "平田村議会事務局",
+    "phone": "0247-55-3558",
+    "email": null,
+    "form_url": null,
+    "postal_code": "963-8292",
+    "postal_address": "福島県石川郡平田村大字永田字切田116",
+    "hours": null,
+    "source_url": "https://www.vill.hirata.fukushima.jp/site/gikai/4675.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -3143,6 +3413,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.vill.iitate.fukushima.jp/site/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "075647-petition",
+    "type": "petition",
+    "department": "飯舘村議会事務局",
+    "phone": "0244-42-1628",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.vill.iitate.fukushima.jp/site/gikai/16.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null

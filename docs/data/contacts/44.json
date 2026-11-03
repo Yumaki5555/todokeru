@@ -47,6 +47,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "440001-petition",
+    "type": "petition",
+    "department": "大分県議会 議事課",
+    "phone": "097-506-5023",
+    "email": null,
+    "form_url": null,
+    "postal_code": "870-0022",
+    "postal_address": "大分県大分市大手町3丁目1番1号",
+    "hours": null,
+    "source_url": "https://www.pref.oita.jp/site/gikai/oshirase-seiganchinjou.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -88,6 +103,21 @@
     "id": "442011-assembly",
     "type": "assembly",
     "department": "議会事務局議事課",
+    "phone": "097-537-5645",
+    "email": "gikaigiji@city.oita.oita.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.oita.oita.jp/o186/shigikai/seganchinjo/1341818373163.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "442011-petition",
+    "type": "petition",
+    "department": "大分市議会 議事課",
     "phone": "097-537-5645",
     "email": "gikaigiji@city.oita.oita.jp",
     "form_url": null,
@@ -161,6 +191,21 @@
     "postal_address": "大分県別府市上野口町1-15",
     "hours": null,
     "source_url": "https://www.city.beppu.oita.jp/gikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "442020-petition",
+    "type": "petition",
+    "department": "別府市議会事務局",
+    "phone": "0977-21-1547",
+    "email": "sec-cc@city.beppu.lg.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.beppu.oita.jp/gikai/08seigantinjyou/01petition/index.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -317,6 +362,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "442054-petition",
+    "type": "petition",
+    "department": "佐伯市議会事務局",
+    "phone": "0972-22-3643",
+    "email": "gikai@city.saiki.lg.jp",
+    "form_url": null,
+    "postal_code": "876-8585",
+    "postal_address": "大分県佐伯市中村南町1番1号",
+    "hours": null,
+    "source_url": "https://www.city.saiki.oita.jp/gikai/kiji0032107/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -358,6 +418,21 @@
     "id": "442062-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0972-72-1070",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.usuki.oita.jp/docs/2014020300550/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "442062-petition",
+    "type": "petition",
+    "department": "臼杵市議会事務局",
     "phone": "0972-72-1070",
     "email": null,
     "form_url": null,
@@ -434,6 +509,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "442071-petition",
+    "type": "petition",
+    "department": "津久見市議会事務局",
+    "phone": "0972-82-9518",
+    "email": null,
+    "form_url": null,
+    "postal_code": "879-2435",
+    "postal_address": "大分県津久見市宮本町20番15号",
+    "hours": null,
+    "source_url": "https://www.city.tsukumi.oita.jp/site/gikai/7690.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -485,6 +575,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "442089-petition",
+    "type": "petition",
+    "department": "竹田市議会事務局",
+    "phone": "0974-63-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.taketa.oita.jp/shisei_machizukuri/taketashigikai/9/1178.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -588,6 +693,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "442101-petition",
+    "type": "petition",
+    "department": "杵築市議会 議事係",
+    "phone": "0978-62-3795",
+    "email": null,
+    "form_url": null,
+    "postal_code": "873-0001",
+    "postal_address": "大分県杵築市大字杵築377番地1",
+    "hours": null,
+    "source_url": "https://www.city.kitsuki.lg.jp/shiseimachidukuri/shigikai/seigan_chinjo/2582.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -636,6 +756,21 @@
     "postal_address": "大分県宇佐市大字上田1030番地の1 本庁舎4階",
     "hours": null,
     "source_url": "https://www.city.usa.oita.jp/sougo/soshiki/20/gikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "442119-petition",
+    "type": "petition",
+    "department": "宇佐市議会事務局 庶務係",
+    "phone": "0978-32-2328",
+    "email": null,
+    "form_url": null,
+    "postal_code": "879-0492",
+    "postal_address": "大分県宇佐市大字上田1030番地の1 本庁舎4階",
+    "hours": null,
+    "source_url": "https://www.city.usa.oita.jp/sougo/soshiki/20/gikai/6/2752.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -935,6 +1070,21 @@
     "id": "444618-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0973-76-3814",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kokonoe.oita.jp/docs/2016122100380/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "444618-petition",
+    "type": "petition",
+    "department": "九重町議会事務局",
     "phone": "0973-76-3814",
     "email": null,
     "form_url": null,

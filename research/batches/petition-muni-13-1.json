@@ -1,0 +1,532 @@
+{
+ "batch": "petition-muni-13-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "131016",
+   "name": "千代田区",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "千代田区議会 議事担当",
+     "phone": "03-5211-4296",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://gikai-chiyoda-tokyo.jp/minasan/seigan/",
+     "evidence": "議事担当 電話番号:03-5211-4296(直通)",
+     "note": "ページの題名：請願・陳情|千代田区議会／同じ組織のほかの番号：03-3264-2111"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "131024",
+   "name": "中央区",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "中央区議会議会局議事係",
+     "phone": "03-3546-5556",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.kugikai.city.chuo.lg.jp/seigan/seigan.html",
+     "evidence": "区議会議会局議事係 電話:03-3546-5556",
+     "note": "ページの題名：請願・陳情の提出方法 | 傍聴と請願・陳情 | 中央区議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "131032",
+   "name": "港区",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "港区議会事務局",
+     "phone": "03-3578-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.gikai.city.minato.tokyo.jp/category/2-1-0-0-0.html",
+     "evidence": "議会事務局 電話番号:03-3578-2111(代表)(組織一",
+     "note": "ページの題名：請願・陳情 | 港区議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "131041",
+   "name": "新宿区",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "新宿区議会 議事係",
+     "phone": "03-5273-4026",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.shinjuku.lg.jp/kusei/gikai01_000108.html",
+     "evidence": "議事係 電話:03-5273-4026",
+     "note": "ページの題名：請願・陳情について:新宿区"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "131059",
+   "name": "文京区",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "文京区議会事務局",
+     "phone": "03-5803-1312",
+     "email": null,
+     "form_url": null,
+     "postal_code": "112-8555",
+     "postal_address": "東京都文京区春日1丁目16番21号文京シビックセンター23階南側",
+     "hours": null,
+     "source_url": "https://www.city.bunkyo.lg.jp/kugikai/p007425.html",
+     "evidence": "区議会事務局 〒112-8555 東京都文京区春日1丁目16番21号文京シビックセンター23階南側 電話番号: 03-5803-1312",
+     "note": "ページの題名：陳情の提出 | 文京区"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "131067",
+   "name": "台東区",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "台東区議会事務局",
+     "phone": "03-5246-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "110-8615",
+     "postal_address": "東京都台東区東上野4丁目5番6号",
+     "hours": null,
+     "source_url": "https://www.city.taito.lg.jp/kugikai/seigan/index.html",
+     "evidence": "議会事務局 〒110-8615東京都台東区東上野4丁目5番6号 電話:03-5246-1111(代表)",
+     "note": "ページの題名：区議会への請願・陳情 台東区議会ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "131075",
+   "name": "墨田区",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "墨田区議会事務局議事調査担当",
+     "phone": "03-5608-6351",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.sumida.lg.jp/kugikai/sinsa_report/index.html",
+     "evidence": "区議会事務局議事調査担当 電話:03-5608-6351",
+     "note": "ページの題名：請願・陳情 墨田区公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "131083",
+   "name": "江東区",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "江東区議会事務局調査係",
+     "phone": "03-3647-3548",
+     "email": null,
+     "form_url": null,
+     "postal_code": "135-8383",
+     "postal_address": "東京都江東区東陽 4丁目11番28号",
+     "hours": null,
+     "source_url": "https://www.city.koto.lg.jp/kuse/kugikai/segan/chinjo/index.html",
+     "evidence": "区議会事務局調査係 〒135-8383 東京都江東区東陽 4丁目11番28号電話番号:03-3647-3548",
+     "note": "ページの題名：請願・陳情|江東区"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "131091",
+   "name": "品川区",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "品川区議会事務局",
+     "phone": "03-3777-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "140-8715",
+     "postal_address": "東京都品川区広町2-1-36",
+     "hours": null,
+     "source_url": "https://gikai.city.shinagawa.tokyo.jp/guidance/seigan_tinjo_guidance",
+     "evidence": "議会事務局 〒140-8715 東京都品川区広町2-1-36 TEL03-3777-1111 (代表)",
+     "note": "ページの題名：請願・陳情のご案内 | 品川区議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "131105",
+   "name": "目黒区",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "目黒区議会事務局",
+     "phone": "03-5722-9414",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.meguro.tokyo.jp/kugikai/kusei/kugikai/tinzyouteisyutuhouhou.html",
+     "evidence": "区議会事務局 議事・調査係 電話:03-5722-9414",
+     "note": "ページの題名：請願・陳情の提出方法 | 目黒区"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "131113",
+   "name": "大田区",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ota.tokyo.jp/gikai/segan_chinjo/teisyutu.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "131121",
+   "name": "世田谷区",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "世田谷区議会事務局",
+     "phone": "03-5432-2779",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.setagaya.lg.jp/02030/18262.html",
+     "evidence": "議会事務局 電話番号:03-5432-2779",
+     "note": "ページの題名：請願・陳情 | 世田谷区公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "131130",
+   "name": "渋谷区",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://shibukugi.tokyo/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "131148",
+   "name": "中野区",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://kugikai-nakano.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "131156",
+   "name": "杉並区",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "杉並区議会事務局",
+     "phone": "03-3312-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "166-8570",
+     "postal_address": "東京都杉並区阿佐谷南1丁目15番1号",
+     "hours": null,
+     "source_url": "https://www.city.suginami.tokyo.jp/kugikai/s117/3832.html",
+     "evidence": "議会事務局 〒166-8570東京都杉並区阿佐谷南1丁目15番1号 電話番号:03-3312-2111(代表)ファクス",
+     "note": "ページの題名：請願・陳情|杉並区公式ホームページ／同じ組織のほかの番号：03-5307-0320"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "131164",
+   "name": "豊島区",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "豊島区議会総務課議事グループ",
+     "phone": "03-3981-1453",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.toshima.lg.jp/368/kuse/gikai/004617.html",
+     "evidence": "議会総務課議事グループ 電話番号:03-3981-1453",
+     "note": "ページの題名：請願・陳情の手続き|豊島区公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "131172",
+   "name": "北区",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kita.lg.jp/assembly/about/1015113.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "131181",
+   "name": "荒川区",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "荒川区議会事務局企画調査係",
+     "phone": "03-3802-3111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "116-8501",
+     "postal_address": "荒川区荒川二丁目2番3号",
+     "hours": null,
+     "source_url": "https://www.city.arakawa.tokyo.jp/a053/gikaisenkyo/kugikai/seiganchinjo.html",
+     "evidence": "議会事務局企画調査係 〒116-850…荒川二丁目2番3号(本庁舎5階) 電話番号:03-3802-3111(内線:3616",
+     "note": "ページの題名：請願・陳情/荒川区公式サイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "131199",
+   "name": "板橋区",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "板橋区議会 議事係",
+     "phone": "03-3579-2702",
+     "email": null,
+     "form_url": null,
+     "postal_code": "173-8501",
+     "postal_address": "東京都板橋区板橋二丁目66番1号",
+     "hours": null,
+     "source_url": "https://www.city.itabashi.tokyo.jp/kugikai/bouchou/1020908.html",
+     "evidence": "議事係 〒173-8501 東京都板橋区板橋二丁目66番1号 電話:03-3579-2702 ファクス:03",
+     "note": "ページの題名：請願・陳情とは|板橋区公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "131202",
+   "name": "練馬区",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "練馬区議会",
+     "phone": "03-5984-4732",
+     "email": null,
+     "form_url": null,
+     "postal_code": "176-8501",
+     "postal_address": "東京都練馬区豊玉北6丁目12番1号",
+     "hours": null,
+     "source_url": "https://www.city.nerima.tokyo.jp/gikai/seigan/index.html",
+     "evidence": "議会 Nerima city Asse…1 東京都練馬区豊玉北6丁目12番1号電話:03-5984-4732ファクス:03-",
+     "note": "ページの題名：請願・陳情のご案内:練馬区議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "131211",
+   "name": "足立区",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "足立区議会 議事係",
+     "phone": "03-3880-5797",
+     "email": "gj-kyoku@city.adachi.tokyo.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.gikai-adachi.jp/seiganchinjo.asp",
+     "evidence": "議事係 電話 03-3880-5797(直通)",
+     "note": "ページの題名：足立区議会 請願・陳情の提出／同じ組織のほかの番号：03-3880-5995"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

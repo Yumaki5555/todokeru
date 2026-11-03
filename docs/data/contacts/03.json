@@ -100,6 +100,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "032018-petition",
+    "type": "petition",
+    "department": "盛岡市議会事務局 議事総務課",
+    "phone": "019-613-8315",
+    "email": null,
+    "form_url": null,
+    "postal_code": "020-8530",
+    "postal_address": "盛岡市内丸12-2 盛岡市役所本館3階",
+    "hours": null,
+    "source_url": "https://www.city.morioka.iwate.jp/shisei/shigikai/seigan_chinjo/1014532.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -266,6 +281,21 @@
     "postal_address": "岩手県花巻市花城町9番30号",
     "hours": null,
     "source_url": "https://www.city.hanamaki.iwate.jp/shigikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "032051-petition",
+    "type": "petition",
+    "department": "花巻市議会事務局",
+    "phone": "0198-41-3598",
+    "email": null,
+    "form_url": null,
+    "postal_code": "025-8601",
+    "postal_address": "花巻市花城町9番30号",
+    "hours": null,
+    "source_url": "https://www.city.hanamaki.iwate.jp/shigikai/1004078.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -575,6 +605,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "032115-petition",
+    "type": "petition",
+    "department": "釜石市議会事務局",
+    "phone": "0193-52-0117",
+    "email": null,
+    "form_url": null,
+    "postal_code": "026-8686",
+    "postal_address": "岩手県釜石市天神町5番20号",
+    "hours": null,
+    "source_url": "https://www.city.kamaishi.iwate.jp/shigikai/docs/2013033000020/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -677,6 +722,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "032140-petition",
+    "type": "petition",
+    "department": "八幡平市議会事務局",
+    "phone": "0195-74-2429",
+    "email": null,
+    "form_url": null,
+    "postal_code": "028-7397",
+    "postal_address": "岩手県八幡平市野駄21-170",
+    "hours": null,
+    "source_url": "https://www.city.hachimantai.lg.jp/site/gikai/1022.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -718,6 +778,21 @@
     "id": "032158-assembly",
     "type": "assembly",
     "department": "議会事務局 議事調査係",
+    "phone": "0197-34-1575",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.oshu.iwate.jp/gikai/4183.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "032158-petition",
+    "type": "petition",
+    "department": "奥州市議会 議事調査係",
     "phone": "0197-34-1575",
     "email": null,
     "form_url": null,
@@ -776,6 +851,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.takizawa.iwate.jp/shigikai",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "032166-petition",
+    "type": "petition",
+    "department": "滝沢市議会 議事総務課",
+    "phone": "019-656-6591",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.takizawa.iwate.jp/shigikai/gikai-katsudo/seigan-teishutsu",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -983,6 +1073,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "033219-petition",
+    "type": "petition",
+    "department": "紫波町議会事務局",
+    "phone": "019-672-6866",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.shiwa.iwate.jp/chosei/1/10_2/1162.html/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1034,6 +1139,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "033227-petition",
+    "type": "petition",
+    "department": "矢巾町議会",
+    "phone": "019-697-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "028-3692",
+    "postal_address": "岩手県紫波郡矢巾町大字南矢幅第13地割123番地",
+    "hours": null,
+    "source_url": "https://www.town.yahaba.iwate.jp/soshiki/gikai/yahabagikai/seigan/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -1136,6 +1256,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "033812-petition",
+    "type": "petition",
+    "department": "金ケ崎町議会事務局",
+    "phone": "0197-42-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "029-4592",
+    "postal_address": "岩手県胆沢郡金ケ崎町西根南町22-1 金ケ崎町役場 4階",
+    "hours": null,
+    "source_url": "https://www.town.kanegasaki.iwate.jp/gikai/seigan.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -1228,6 +1363,21 @@
     "id": "034410-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0192-46-3754",
+    "email": "gikai@town.sumita.iwate.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.sumita.iwate.jp/docs/2015021700097/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "034410-petition",
+    "type": "petition",
+    "department": "住田町議会事務局",
     "phone": "0192-46-3754",
     "email": "gikai@town.sumita.iwate.jp",
     "form_url": null,
@@ -1340,6 +1490,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "034827-petition",
+    "type": "petition",
+    "department": "山田町議会事務局",
+    "phone": "0193-82-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.yamada.iwate.jp/docs/91.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1381,6 +1546,21 @@
     "id": "034835-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0194-22-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "027-0595",
+    "postal_address": "岩手県下閉伊郡岩泉町岩泉字惣畑59-5 本庁舎3階",
+    "hours": null,
+    "source_url": "https://www.town.iwaizumi.lg.jp/docs/2016021700155/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "034835-petition",
+    "type": "petition",
+    "department": "岩泉町議会事務局",
     "phone": "0194-22-2111",
     "email": null,
     "form_url": null,
@@ -1727,6 +1907,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "035076-petition",
+    "type": "petition",
+    "department": "洋野町議会事務局",
+    "phone": "0194-65-5922",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.hirono.iwate.jp/doc/2022060600011/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1767,6 +1962,21 @@
    {
     "id": "035246-assembly",
     "type": "assembly",
+    "department": "一戸町議会",
+    "phone": "0195-33-4863",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.ichinohe.iwate.jp/gyoseijoho/2/1406.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "035246-petition",
+    "type": "petition",
     "department": "一戸町議会",
     "phone": "0195-33-4863",
     "email": null,

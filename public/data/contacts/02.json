@@ -47,6 +47,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "020001-petition",
+    "type": "petition",
+    "department": "青森県議会事務局調査課",
+    "phone": "017-734-9796",
+    "email": "g_chosa@pref.aomori.lg.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.pref.aomori.lg.jp/soshiki/gikai/segan-chinjo.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -200,6 +215,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "022039-petition",
+    "type": "petition",
+    "department": "八戸市議会 議事調査グループ",
+    "phone": "0178-43-9161",
+    "email": null,
+    "form_url": null,
+    "postal_code": "031-8686",
+    "postal_address": "青森県八戸市内丸一丁目1番1号 市庁本館3階",
+    "hours": null,
+    "source_url": "https://www.city.hachinohe.aomori.jp/gyoseijoho/hachinoheshigikai/seigan_chinjo/10903.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -248,6 +278,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.kuroishi.aomori.jp/shisei/gikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "022047-petition",
+    "type": "petition",
+    "department": "黒石市議会 総務議事係",
+    "phone": "0172-52-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kuroishi.aomori.jp/shisei/gikai/seigan_tinjou.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -303,6 +348,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "022055-petition",
+    "type": "petition",
+    "department": "五所川原市議会事務局議会総務係",
+    "phone": "0173-35-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.goshogawara.lg.jp/gikai/seiganntinnjou.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -351,6 +411,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.towada.lg.jp/shisei/gikai/gikaidayori/2026-1030-1759-176.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "022063-petition",
+    "type": "petition",
+    "department": "十和田市議会事務局",
+    "phone": "0176-51-6781",
+    "email": "gikai@city.towada.lg.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.towada.lg.jp/shisei/gikai/seigan.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -405,6 +480,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "022071-petition",
+    "type": "petition",
+    "department": "三沢市議会事務局",
+    "phone": "0176-53-5111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "033-8666",
+    "postal_address": "青森県三沢市桜町1-1-38",
+    "hours": null,
+    "source_url": "https://www.city.misawa.lg.jp/index.cfm/24,0,116,274,html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -446,6 +536,21 @@
     "id": "022080-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0175-22-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.mutsu.lg.jp/gikai/seigan/seigansho_seido.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "022080-petition",
+    "type": "petition",
+    "department": "むつ市議会事務局",
     "phone": "0175-22-1111",
     "email": null,
     "form_url": null,
@@ -506,6 +611,21 @@
     "source_url": "https://www.city.tsugaru.aomori.jp/joho/mokuteki/administration/shigikai/index.html",
     "verified_at": null,
     "status": "unverified",
+    "note": null
+   },
+   {
+    "id": "022098-petition",
+    "type": "petition",
+    "department": "つがる市議会事務局",
+    "phone": "0173-42-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.tsugaru.aomori.jp/joho/mokuteki/administration/shigikai/seigan/8776.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -609,6 +729,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "023019-petition",
+    "type": "petition",
+    "department": "平内町議会事務局",
+    "phone": "017-755-2119",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.hiranai.aomori.jp/chosei/gikai/2467.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -657,6 +792,21 @@
     "postal_address": "青森県東津軽郡今別町大字今別字今別167番地",
     "hours": null,
     "source_url": "https://www.town.imabetsu.lg.jp/gyousei/gikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "023035-petition",
+    "type": "petition",
+    "department": "今別町議会事務局",
+    "phone": "0174-35-2001",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.imabetsu.lg.jp/gyousei/gikai/seigan.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -763,6 +913,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "023078-petition",
+    "type": "petition",
+    "department": "外ヶ浜町議会事務局",
+    "phone": "0174-31-1230",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.sotogahama.lg.jp/gyosei/gikai/seigan.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -804,6 +969,21 @@
     "id": "023213-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0173-82-0906",
+    "email": null,
+    "form_url": null,
+    "postal_code": "038-2792",
+    "postal_address": "青森県西津軽郡鰺ヶ沢町大字舞戸町字鳴戸321番地",
+    "hours": null,
+    "source_url": "https://www.town.ajigasawa.lg.jp/about_town/gikai/segan_chinjo.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "023213-petition",
+    "type": "petition",
+    "department": "鰺ヶ沢町議会事務局",
     "phone": "0173-82-0906",
     "email": null,
     "form_url": null,
@@ -864,6 +1044,21 @@
     "source_url": "https://www.town.fukaura.lg.jp/category/bunya/gikai/",
     "verified_at": null,
     "status": "unverified",
+    "note": null
+   },
+   {
+    "id": "023230-petition",
+    "type": "petition",
+    "department": "深浦町議会事務局",
+    "phone": "0173-74-4418",
+    "email": "fukaura001@town.fukaura.lg.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.fukaura.lg.jp/doc/2024052000014/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -1290,6 +1485,21 @@
     "note": null
    },
    {
+    "id": "024015-petition",
+    "type": "petition",
+    "department": "野辺地町議会事務局",
+    "phone": "0175-64-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.noheji.aomori.jp/life/chosei/gikai/2684",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
+   },
+   {
     "id": "024015-education",
     "type": "education",
     "department": "教育委員会",
@@ -1599,6 +1809,21 @@
     "id": "024121-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0178-56-2112",
+    "email": null,
+    "form_url": null,
+    "postal_code": "039-2192",
+    "postal_address": "青森県上北郡おいらせ町中下田135-2 直通",
+    "hours": null,
+    "source_url": "https://www.town.oirase.aomori.jp/site/gikai/seigann.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "024121-petition",
+    "type": "petition",
+    "department": "おいらせ町議会事務局",
     "phone": "0178-56-2112",
     "email": null,
     "form_url": null,

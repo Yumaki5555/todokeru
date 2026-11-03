@@ -1,0 +1,407 @@
+{
+ "batch": "petition-muni-03-2",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "033219",
+   "name": "紫波町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "紫波町議会事務局",
+     "phone": "019-672-6866",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shiwa.iwate.jp/chosei/1/10_2/1162.html/",
+     "evidence": "議会事務局、監査委員事務局 〒028-3…波郡 紫波町紫波中央駅前二丁目3-1 電話:019-672-6866(直通)",
+     "note": "ページの題名：請願・陳情のしかた/紫波町|【請願・陳情・意見書】請願・陳情のしかた|紫波町議会|町政情報|紫波町役場"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "033227",
+   "name": "矢巾町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "矢巾町議会",
+     "phone": "019-697-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "028-3692",
+     "postal_address": "岩手県紫波郡矢巾町大字南矢幅第13地割123番地",
+     "hours": null,
+     "source_url": "https://www.town.yahaba.iwate.jp/soshiki/gikai/yahabagikai/seigan/",
+     "evidence": "議会 〒028-3692 岩手県紫波郡矢巾町大字南矢幅第13地割123番地 TEL:019-697-2111(代表) FAX",
+     "note": "ページの題名：請願・陳情の手続き|矢巾町議会|議会事務局|各課から探す|矢巾町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "033669",
+   "name": "西和賀町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.nishiwaga.lg.jp/kurashi_tetsuzuki/yakuba_madoguchiannai/1864.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "033812",
+   "name": "金ケ崎町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "金ケ崎町議会事務局",
+     "phone": "0197-42-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "029-4592",
+     "postal_address": "岩手県胆沢郡金ケ崎町西根南町22-1 金ケ崎町役場 4階",
+     "hours": null,
+     "source_url": "https://www.town.kanegasaki.iwate.jp/gikai/seigan.html",
+     "evidence": "議会事務局 住所:〒029-4592 岩…根南町22-1 金ケ崎町役場 4階 TEL:0197-42-2111",
+     "note": "ページの題名：請願と陳情 | 金ケ崎町役場"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "034029",
+   "name": "平泉町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hiraizumi.iwate.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "034410",
+   "name": "住田町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "住田町議会事務局",
+     "phone": "0192-46-3754",
+     "email": "gikai@town.sumita.iwate.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.sumita.iwate.jp/docs/2015021700097/",
+     "evidence": "議会事務局 電話:0192-46-3754",
+     "note": "ページの題名：請願書・陳情書 | 住田町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "034614",
+   "name": "大槌町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.otsuchi.iwate.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "034827",
+   "name": "山田町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "山田町議会事務局",
+     "phone": "0193-82-3111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.yamada.iwate.jp/docs/91.html",
+     "evidence": "議会事務局 電話: 0193-82-3111",
+     "note": "ページの題名：請願(要望)書の提出 - 岩手県山田町ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "034835",
+   "name": "岩泉町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "岩泉町議会事務局",
+     "phone": "0194-22-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "027-0595",
+     "postal_address": "岩手県下閉伊郡岩泉町岩泉字惣畑59-5 本庁舎3階",
+     "hours": null,
+     "source_url": "https://www.town.iwaizumi.lg.jp/docs/2016021700155/",
+     "evidence": "議会事務局 住所:〒027-0595 岩…泉町岩泉字惣畑59-5 本庁舎3階 TEL:0194-22-2111 内線 事務局:",
+     "note": "ページの題名：請願(陳情)の書き方 | 岩泉町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "034843",
+   "name": "田野畑村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.tanohata.iwate.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "034851",
+   "name": "普代村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.fudai.iwate.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "035017",
+   "name": "軽米町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.karumai.iwate.jp/article/gyosei/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "035033",
+   "name": "野田村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.noda.iwate.jp/soshiki/gikaijimukyoku/nodasongikai/302.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "035068",
+   "name": "九戸村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.kunohe.iwate.jp/gyousei/50_gikaijimukyoku/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "035076",
+   "name": "洋野町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "洋野町議会事務局",
+     "phone": "0194-65-5922",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hirono.iwate.jp/doc/2022060600011/",
+     "evidence": "議会事務局 郵便番号:028-7995 住所:岩手県九戸郡洋野町種市23-27 種市庁舎2階 TEL:0194-65-5922",
+     "note": "ページの題名：議会への請願・陳情のご案内 | 岩手県洋野町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "035246",
+   "name": "一戸町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "一戸町議会",
+     "phone": "0195-33-4863",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ichinohe.iwate.jp/gyoseijoho/2/1406.html",
+     "evidence": "議会 事務局 〒028-5311 岩手県二戸郡一戸町高善寺字大川鉢24番地9 電話番号:0195-33-4863",
+     "note": "ページの題名：請願・陳情の仕方/一戸町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

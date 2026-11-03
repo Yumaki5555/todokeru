@@ -98,6 +98,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "292010-petition",
+    "type": "petition",
+    "department": "奈良市議会事務局",
+    "phone": "0742-34-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "630-8580",
+    "postal_address": "奈良市二条大路南一丁目1-1",
+    "hours": null,
+    "source_url": "https://www.city.nara.lg.jp/site/narasigikai/7675.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -146,6 +161,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.yamatotakada.nara.jp/shisei/yamatotakadashigikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "292028-petition",
+    "type": "petition",
+    "department": "大和高田市議会事務局",
+    "phone": "0745-22-1101",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.yamatotakada.nara.jp/shisei/yamatotakadashigikai/2980.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -252,6 +282,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "292044-petition",
+    "type": "petition",
+    "department": "天理市議会事務局",
+    "phone": "0743-63-1001",
+    "email": null,
+    "form_url": null,
+    "postal_code": "632-8555",
+    "postal_address": "奈良県天理市川原城町605番地 市役所6階",
+    "hours": null,
+    "source_url": "https://www.city.tenri.nara.jp/kakuka/gikaijimukyoku/shigikai/petition/1393313816180.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    },
    {
     "id": "292044-education",
@@ -369,6 +414,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "292061-petition",
+    "type": "petition",
+    "department": "桜井市議会 議事課",
+    "phone": "0744-42-9132",
+    "email": null,
+    "form_url": null,
+    "postal_code": "633-8585",
+    "postal_address": "桜井市大字粟殿432-1",
+    "hours": null,
+    "source_url": "https://www.city.sakurai.lg.jp/sosiki/gikaijimukyoku/seigantinjyou/1395754474436.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -420,6 +480,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "292079-petition",
+    "type": "petition",
+    "department": "五條市議会事務局",
+    "phone": "0747-22-4001",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.gojo.lg.jp/shigikai/bouchou_seigan_chinjyou/4713.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -461,6 +536,21 @@
     "id": "292087-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0745-62-3001",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.gose.nara.jp/0000000251.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "292087-petition",
+    "type": "petition",
+    "department": "御所市議会事務局",
     "phone": "0745-62-3001",
     "email": null,
     "form_url": null,
@@ -538,6 +628,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "292095-petition",
+    "type": "petition",
+    "department": "生駒市議会事務局",
+    "phone": "0743-74-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.ikoma.lg.jp/gikai/0000009231.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -586,6 +691,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.kashiba.lg.jp/site/shigikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "292109-petition",
+    "type": "petition",
+    "department": "香芝市議会総務課",
+    "phone": "0745-44-3341",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kashiba.lg.jp/site/shigikai/6829.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -654,6 +774,21 @@
     "source_url": "https://www.city.katsuragi.nara.jp/shisei/shigikai/index.html",
     "verified_at": null,
     "status": "unverified",
+    "note": null
+   },
+   {
+    "id": "292117-petition",
+    "type": "petition",
+    "department": "葛城市議会事務局",
+    "phone": "0745-44-5018",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.katsuragi.nara.jp/shisei/shigikai/8/4163.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -810,6 +945,21 @@
     "note": null
    },
    {
+    "id": "293423-petition",
+    "type": "petition",
+    "department": "平群町議会事務局",
+    "phone": "0745-45-0012",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.heguri.nara.jp/site/gikai/1855.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "293423-education",
     "type": "education",
     "department": "教育委員会総務課",
@@ -925,6 +1075,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "293440-petition",
+    "type": "petition",
+    "department": "斑鳩町議会事務局",
+    "phone": "0745-74-1001",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.ikaruga.nara.jp/0000000054.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -976,6 +1141,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "293458-petition",
+    "type": "petition",
+    "department": "安堵町議会事務局",
+    "phone": "0743-57-1511",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.ando.nara.jp/0000001842.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -1134,6 +1314,21 @@
     "id": "293636-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0744-34-2119",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.tawaramoto.nara.jp/prefectural_assembly/4008.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "293636-petition",
+    "type": "petition",
+    "department": "田原本町議会事務局",
     "phone": "0744-34-2119",
     "email": null,
     "form_url": null,
@@ -1552,6 +1747,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "294276-petition",
+    "type": "petition",
+    "department": "河合町議会事務局",
+    "phone": "0745-57-0200",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kawai.nara.jp/10/1031.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1593,6 +1803,21 @@
     "id": "294411-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0746-32-3081",
+    "email": null,
+    "form_url": null,
+    "postal_code": "639-3192",
+    "postal_address": "奈良県吉野郡吉野町大字上市80番地の1",
+    "hours": null,
+    "source_url": "https://www.town.yoshino.nara.jp/gikai/136.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "294411-petition",
+    "type": "petition",
+    "department": "吉野町議会事務局",
     "phone": "0746-32-3081",
     "email": null,
     "form_url": null,

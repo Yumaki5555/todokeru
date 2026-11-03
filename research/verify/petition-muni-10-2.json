@@ -1,0 +1,149 @@
+{
+ "batch": "petition-muni-10-2",
+ "checked_at": "2026-11-03",
+ "result": {
+  "entities": 17,
+  "contacts": 17,
+  "verified": 9,
+  "unverified": 8,
+  "unavailable": 0,
+  "errors": 0
+ },
+ "errors": [],
+ "reports": [
+  {
+   "id": "103845-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "104213-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "104248-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "104256-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "104264-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "104281-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "104299-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "104434-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "104442-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "104485-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "104493-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "104647-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "105210-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "105228-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "105236-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "105244-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "105252-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  }
+ ]
+}

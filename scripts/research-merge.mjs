@@ -41,17 +41,17 @@ const municipalities = readJson('public/data/master/municipalities.json').items;
 const agencies = readJson('public/data/master/agencies.json').items;
 const targetCodes = new Set(plan.targets.map((t) => t.code));
 
-// 警察・教育委員会は見つかったときだけ書けばよい（調査結果がなくても誤りにしない）
+// 請願・陳情の届け先・警察・教育委員会は見つかったときだけ書けばよい（調査結果がなくても誤りにしない）
 const REQUIRED = ['general', 'feedback', 'assembly'];
 
 /** 機関・自治体を調べる（コード・名前・調べる窓口の種類・保存先ファイル） */
 function lookup(code) {
   const a = agencies.find((x) => x.id === code);
-  if (a) return { name: a.name, types: a.category === 'diet' ? ['general'] : ['general', 'feedback'], file: 'agencies', key: 'agency' };
+  if (a) return { name: a.name, ...(a.category === 'diet' ? { types: ['general', 'petition'], required: ['general'] } : { types: ['general', 'feedback'] }), file: 'agencies', key: 'agency' };
   const p = prefectures.find((x) => x.lg_code === code);
-  if (p) return { name: p.name, types: ['general', 'feedback', 'assembly', 'police', 'education'], required: REQUIRED, file: p.code, key: 'municipality' };
+  if (p) return { name: p.name, types: ['general', 'feedback', 'assembly', 'petition', 'police', 'education'], required: REQUIRED, file: p.code, key: 'municipality' };
   const m = municipalities.find((x) => x.code === code);
-  if (m) return { name: m.name, types: ['general', 'feedback', 'assembly', 'education'], required: REQUIRED, file: m.pref_code, key: 'municipality' };
+  if (m) return { name: m.name, types: ['general', 'feedback', 'assembly', 'petition', 'education'], required: REQUIRED, file: m.pref_code, key: 'municipality' };
   return null;
 }
 
@@ -218,7 +218,7 @@ async function verifyContact(entity, c0, info, generalOf) {
   const base = {
     id,
     type: c.type,
-    department: pick(c, 'department') || { general: '代表窓口', feedback: '広聴・ご意見窓口', assembly: '議会事務局', police: '警察本部', education: '教育委員会' }[c.type],
+    department: pick(c, 'department') || { general: '代表窓口', feedback: '広聴・ご意見窓口', assembly: '議会事務局', petition: '議会事務局', police: '警察本部', education: '教育委員会' }[c.type],
     phone: null,
     email: null,
     form_url: null,
@@ -349,10 +349,12 @@ async function verifyContact(entity, c0, info, generalOf) {
 }
 
 // ---- 実行 ----
-const TYPE_ORDER = ['general', 'feedback', 'assembly', 'police', 'education', 'department'];
+const TYPE_ORDER = ['general', 'feedback', 'assembly', 'petition', 'police', 'education', 'department'];
 const reports = [];
 const errors = [];
 const results = new Map(); // file → [{ code, name, contacts }]
+const current = new Map();
+const currentRecords = (file) => (current.has(file) ? current : current.set(file, readJson(`public/data/contacts/${file}.json`))).get(file);
 
 for (const entity of batch.entities || []) {
   const info = lookup(entity.code);
@@ -380,7 +382,12 @@ for (const entity of batch.entities || []) {
     seen.add(c.type);
     return true;
   });
-  const general = list.find((c) => c.type === 'general');
+  // 代表電話：今回の調査結果に無ければ（請願・陳情の届け先だけの調査など）、掲載中の代表電話と比べる
+  const general =
+    list.find((c) => c.type === 'general') ||
+    currentRecords(info.file)
+      .find((r) => (r.agency_id ?? r.municipality_code) === entity.code)
+      ?.contacts.find((c) => c.type === 'general' && ['verified', 'review', 'auto_matched'].includes(c.status));
   const generalOf = general ? { phone: pick(general, 'phone'), source_url: general.source_url } : null;
   for (const c of list) {
     const { contact, report } = await verifyContact(entity, c, info, generalOf);
@@ -413,7 +420,7 @@ for (const [file, items] of results) {
       const i = rec.contacts.findIndex((c) => c.id === nc.id);
       const old = i >= 0 ? rec.contacts[i] : null;
       if (!old) {
-        if (nc.status === 'unverified' && !REQUIRED.includes(nc.type)) continue; // 警察・教育委員会は確認できたものだけ載せる
+        if (nc.status === 'unverified' && !REQUIRED.includes(nc.type)) continue; // 請願・陳情の届け先・警察・教育委員会は確認できたものだけ載せる
         rec.contacts.push(nc);
         changes.push({ date: today, batch: batchId, id: nc.id, change: 'added', status: nc.status });
         continue;

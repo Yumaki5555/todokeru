@@ -3,9 +3,9 @@
 
 /**
  * 窓口の種類。最初の3種類が基本で、どの自治体にも欄を出す。
- * 警察・公安委員会（police：都道府県だけ）と教育委員会（education）は、連絡先を載せた自治体にだけ欄を出す。担当部署（department）は将来用
+ * 請願・陳情の届け先（petition：都道府県・市区町村・国会）、警察・公安委員会（police：都道府県だけ）と教育委員会（education）は、連絡先を載せたところにだけ欄を出す。担当部署（department）は将来用
  */
-export type ContactType = 'general' | 'feedback' | 'assembly' | 'police' | 'education' | 'department';
+export type ContactType = 'general' | 'feedback' | 'assembly' | 'petition' | 'police' | 'education' | 'department';
 
 /** 窓口情報の確認状態 */
 export type ContactStatus =

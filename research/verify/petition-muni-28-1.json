@@ -1,0 +1,190 @@
+{
+ "batch": "petition-muni-28-1",
+ "checked_at": "2026-11-03",
+ "result": {
+  "entities": 21,
+  "contacts": 21,
+  "verified": 12,
+  "unverified": 9,
+  "unavailable": 0,
+  "errors": 0
+ },
+ "errors": [],
+ "reports": [
+  {
+   "id": "281000-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "282014-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "282022-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "282031-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "282049-petition",
+   "agent_status": "found",
+   "checks": {},
+   "status": "unverified",
+   "why": "公式ドメインか自動で判定できない（www.nishi.or.jp）"
+  },
+  {
+   "id": "282057-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "282065-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "282073-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "282081-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "282090-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "282103-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "282120-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "282138-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "282146-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "282154-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "282162-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "282171-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "282189-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "282197-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "282201-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "282219-petition",
+   "agent_status": "fetch_failed",
+   "checks": {},
+   "status": "unverified",
+   "why": "公式ドメインか自動で判定できない（www.youtube.com）"
+  }
+ ]
+}

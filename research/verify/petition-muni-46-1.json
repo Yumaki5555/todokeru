@@ -1,0 +1,192 @@
+{
+ "batch": "petition-muni-46-1",
+ "checked_at": "2026-11-03",
+ "result": {
+  "entities": 22,
+  "contacts": 22,
+  "verified": 12,
+  "unverified": 10,
+  "unavailable": 0,
+  "errors": 0
+ },
+ "errors": [],
+ "reports": [
+  {
+   "id": "462012-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "462039-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "462047-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "462063-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "462080-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "email": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "462101-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "462136-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "462144-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "462152-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "462161-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "462179-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "462187-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "公式ドメインか自動で判定できない（www.city-kirishima.jp）"
+  },
+  {
+   "id": "462195-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "462209-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "462217-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "462225-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "462233-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "462241-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "462250-petition",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "463035-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "公式ドメインか自動で判定できない（mishimamura.com）"
+  },
+  {
+   "id": "463043-petition",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "公式ドメインか自動で判定できない（www.tokara.jp）"
+  },
+  {
+   "id": "463922-petition",
+   "agent_status": "found",
+   "checks": {},
+   "status": "unverified",
+   "why": "公式ドメインか自動で判定できない（www.satsuma-net.jp）"
+  }
+ ]
+}

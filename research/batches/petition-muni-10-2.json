@@ -1,0 +1,432 @@
+{
+ "batch": "petition-muni-10-2",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "103845",
+   "name": "甘楽町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kanra.lg.jp/gikai-jimu/gikai/news/20221020085837.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "104213",
+   "name": "中之条町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "中之条町議会事務局",
+     "phone": "0279-75-8836",
+     "email": null,
+     "form_url": null,
+     "postal_code": "377-0494",
+     "postal_address": "群馬県吾妻郡中之条町大字中之条町1091 3階",
+     "hours": null,
+     "source_url": "https://www.town.nakanojo.gunma.jp/site/nakanojo-gikai/1236.html",
+     "evidence": "議会事務局代表 〒377-0494群馬県吾妻郡中之条町大字中之条町1091 3階 電話:0279-75-8836Fax:0279",
+     "note": "ページの題名：請願・陳情について|中之条町議会 - 中之条町議会 - 中之条町公式サイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "104248",
+   "name": "長野原町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "長野原町議会事務局",
+     "phone": "0279-82-3019",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.naganohara.gunma.jp/administration/?content=328",
+     "evidence": "議会事務局 電話:0279-82-3019",
+     "note": "ページの題名：請願・陳情|長野原町議会|群馬県長野原町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "104256",
+   "name": "嬬恋村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.tsumagoi.gunma.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "104264",
+   "name": "草津町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kusatsu.gunma.jp/li/050/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "104281",
+   "name": "高山村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "高山村議会事務局",
+     "phone": "0279-63-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://vill.takayama.gunma.jp/gikai/seigan.html",
+     "evidence": "議会事務局へ 電話0279-63-2111",
+     "note": "ページの題名：議会への請願・陳情|高山村議会|群馬県"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "104299",
+   "name": "東吾妻町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "東吾妻町議会事務局",
+     "phone": "0279-68-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.higashiagatsuma.gunma.jp/www/gikai/contents/1204215378331/index.html",
+     "evidence": "議会事務局 電話番号: 0279-68-2111",
+     "note": "ページの題名：請願陳情のしかた | 東吾妻町議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "104434",
+   "name": "片品村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.katashina.gunma.jp/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "104442",
+   "name": "川場村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.kawaba.gunma.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "104485",
+   "name": "昭和村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.showa.gunma.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "104493",
+   "name": "みなかみ町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "みなかみ町議会事務局",
+     "phone": "0278-25-5023",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.minakami.gunma.jp/politics/08gikai/2016-1014-1905-11.html",
+     "evidence": "議会事務局 0278-25-5023 0278-2",
+     "note": "ページの題名：請願・陳情 | 町議会 | みなかみ町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "104647",
+   "name": "玉村町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "玉村町議会事務局",
+     "phone": "0270-64-7716",
+     "email": null,
+     "form_url": null,
+     "postal_code": "370-1192",
+     "postal_address": "群馬県佐波郡玉村町大字下新田201",
+     "hours": null,
+     "source_url": "https://www.town.tamamura.lg.jp/docs/2019110600022/",
+     "evidence": "議会事務局 住所:〒370-1192 群馬県佐波郡玉村町大字下新田201 TEL:0270-64-7716",
+     "note": "ページの題名：請願・陳情:玉村町議会 | 玉村町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "105210",
+   "name": "板倉町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "板倉町議会 庶務議事係",
+     "phone": "0276-82-6154",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.itakura.gunma.jp/cont/s034000/d034010/20121206205758.html",
+     "evidence": "庶務議事係 電話:0276-82-6154 (ダイヤルイン",
+     "note": "ページの題名：請願・陳情等の書式及び取り扱い - 板倉町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "105228",
+   "name": "明和町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.meiwa.gunma.jp/life/soshiki/gikai/meiwamachigikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "105236",
+   "name": "千代田町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "千代田町議会事務局",
+     "phone": "0276-86-7009",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.chiyoda.gunma.jp/gikai/gikai12.html",
+     "evidence": "議会事務局 電話:0276-86-7009",
+     "note": "ページの題名：町議会への請願・陳情 | 千代田町議会 | 群馬県千代田町公式ウェブサイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "105244",
+   "name": "大泉町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "大泉町議会事務局",
+     "phone": "0276-63-3111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "370-0595",
+     "postal_address": "群馬県邑楽郡大泉町日の出51番1号",
+     "hours": null,
+     "source_url": "https://www.town.oizumi.gunma.jp/g001/090/040/20200714164617.html",
+     "evidence": "議会事務局 電話番号:0276-63-3111",
+     "note": "ページの題名：請願・陳情について|大泉町議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "105252",
+   "name": "邑楽町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ora.gunma.jp/s049/070/150150/seigan-tinjyo.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

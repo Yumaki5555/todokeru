@@ -47,6 +47,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "130001-petition",
+    "type": "petition",
+    "department": "東京都議会議会局管理部広報課",
+    "phone": "03-5320-7126",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.gikai.metro.tokyo.lg.jp/petition.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -96,6 +111,21 @@
     "hours": null,
     "source_url": "https://gikai-chiyoda-tokyo.jp/minasan/iken/",
     "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "131016-petition",
+    "type": "petition",
+    "department": "千代田区議会 議事担当",
+    "phone": "03-5211-4296",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://gikai-chiyoda-tokyo.jp/minasan/seigan/",
+    "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
    }
@@ -149,6 +179,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "131024-petition",
+    "type": "petition",
+    "department": "中央区議会議会局議事係",
+    "phone": "03-3546-5556",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.kugikai.city.chuo.lg.jp/seigan/seigan.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -198,6 +243,21 @@
     "hours": null,
     "source_url": "https://www.gikai.city.minato.tokyo.jp/",
     "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "131032-petition",
+    "type": "petition",
+    "department": "港区議会事務局",
+    "phone": "03-3578-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.gikai.city.minato.tokyo.jp/category/2-1-0-0-0.html",
+    "verified_at": "2026-11-03",
     "status": "verified",
     "note": "代表電話と同じ番号です"
    }
@@ -251,6 +311,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "131041-petition",
+    "type": "petition",
+    "department": "新宿区議会 議事係",
+    "phone": "03-5273-4026",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.shinjuku.lg.jp/kusei/gikai01_000108.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -300,6 +375,21 @@
     "hours": null,
     "source_url": "https://www.city.bunkyo.lg.jp/kugikai/index.html",
     "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "131059-petition",
+    "type": "petition",
+    "department": "文京区議会事務局",
+    "phone": "03-5803-1312",
+    "email": null,
+    "form_url": null,
+    "postal_code": "112-8555",
+    "postal_address": "東京都文京区春日1丁目16番21号文京シビックセンター23階南側",
+    "hours": null,
+    "source_url": "https://www.city.bunkyo.lg.jp/kugikai/p007425.html",
+    "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
    },
@@ -368,6 +458,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "131067-petition",
+    "type": "petition",
+    "department": "台東区議会事務局",
+    "phone": "03-5246-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "110-8615",
+    "postal_address": "東京都台東区東上野4丁目5番6号",
+    "hours": null,
+    "source_url": "https://www.city.taito.lg.jp/kugikai/seigan/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -419,6 +524,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "131075-petition",
+    "type": "petition",
+    "department": "墨田区議会事務局議事調査担当",
+    "phone": "03-5608-6351",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.sumida.lg.jp/kugikai/sinsa_report/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -468,6 +588,21 @@
     "hours": null,
     "source_url": "https://www.city.koto.lg.jp/kugikai/index.html",
     "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "131083-petition",
+    "type": "petition",
+    "department": "江東区議会事務局調査係",
+    "phone": "03-3647-3548",
+    "email": null,
+    "form_url": null,
+    "postal_code": "135-8383",
+    "postal_address": "東京都江東区東陽 4丁目11番28号",
+    "hours": null,
+    "source_url": "https://www.city.koto.lg.jp/kuse/kugikai/segan/chinjo/index.html",
+    "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
    }
@@ -523,6 +658,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "131091-petition",
+    "type": "petition",
+    "department": "品川区議会事務局",
+    "phone": "03-3777-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "140-8715",
+    "postal_address": "東京都品川区広町2-1-36",
+    "hours": null,
+    "source_url": "https://gikai.city.shinagawa.tokyo.jp/guidance/seigan_tinjo_guidance",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -572,6 +722,21 @@
     "hours": null,
     "source_url": "https://www.city.meguro.tokyo.jp/kugikai/kusei/gaiyou/kugikai.html",
     "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "131105-petition",
+    "type": "petition",
+    "department": "目黒区議会事務局",
+    "phone": "03-5722-9414",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.meguro.tokyo.jp/kugikai/kusei/kugikai/tinzyouteisyutuhouhou.html",
+    "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
    }
@@ -674,6 +839,21 @@
     "hours": null,
     "source_url": "https://www.city.setagaya.lg.jp/gikai/index.html",
     "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "131121-petition",
+    "type": "petition",
+    "department": "世田谷区議会事務局",
+    "phone": "03-5432-2779",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.setagaya.lg.jp/02030/18262.html",
+    "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
    },
@@ -846,6 +1026,21 @@
     "note": "代表電話と同じ番号です"
    },
    {
+    "id": "131156-petition",
+    "type": "petition",
+    "department": "杉並区議会事務局",
+    "phone": "03-3312-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "166-8570",
+    "postal_address": "東京都杉並区阿佐谷南1丁目15番1号",
+    "hours": null,
+    "source_url": "https://www.city.suginami.tokyo.jp/kugikai/s117/3832.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
+   },
+   {
     "id": "131156-education",
     "type": "education",
     "department": "教育委員会事務局教育総務課",
@@ -908,6 +1103,21 @@
     "hours": null,
     "source_url": "https://www.city.toshima.lg.jp/366/kuse/soshiki/kugikai/006592.html",
     "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "131164-petition",
+    "type": "petition",
+    "department": "豊島区議会総務課議事グループ",
+    "phone": "03-3981-1453",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.toshima.lg.jp/368/kuse/gikai/004617.html",
+    "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
    }
@@ -1012,6 +1222,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "131181-petition",
+    "type": "petition",
+    "department": "荒川区議会事務局企画調査係",
+    "phone": "03-3802-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "116-8501",
+    "postal_address": "荒川区荒川二丁目2番3号",
+    "hours": null,
+    "source_url": "https://www.city.arakawa.tokyo.jp/a053/gikaisenkyo/kugikai/seiganchinjo.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -1061,6 +1286,21 @@
     "hours": "月曜から金曜の午前8時30分から午後5時（祝日と年末年始を除く）",
     "source_url": "https://www.city.itabashi.tokyo.jp/kusei/soshiki/1007049.html",
     "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "131199-petition",
+    "type": "petition",
+    "department": "板橋区議会 議事係",
+    "phone": "03-3579-2702",
+    "email": null,
+    "form_url": null,
+    "postal_code": "173-8501",
+    "postal_address": "東京都板橋区板橋二丁目66番1号",
+    "hours": null,
+    "source_url": "https://www.city.itabashi.tokyo.jp/kugikai/bouchou/1020908.html",
+    "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
    }
@@ -1114,6 +1354,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "131202-petition",
+    "type": "petition",
+    "department": "練馬区議会",
+    "phone": "03-5984-4732",
+    "email": null,
+    "form_url": null,
+    "postal_code": "176-8501",
+    "postal_address": "東京都練馬区豊玉北6丁目12番1号",
+    "hours": null,
+    "source_url": "https://www.city.nerima.tokyo.jp/gikai/seigan/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1163,6 +1418,21 @@
     "hours": null,
     "source_url": "https://www.gikai-adachi.jp/jimukyoku.asp",
     "verified_at": "2026-11-01",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "131211-petition",
+    "type": "petition",
+    "department": "足立区議会 議事係",
+    "phone": "03-3880-5797",
+    "email": "gj-kyoku@city.adachi.tokyo.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.gikai-adachi.jp/seiganchinjo.asp",
+    "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
    }
@@ -1267,6 +1537,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "131237-petition",
+    "type": "petition",
+    "department": "江戸川区議会",
+    "phone": "03-5662-6736",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.gikai.city.edogawa.tokyo.jp/g07_OshiraseView.asp?SrchID=619",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1315,6 +1600,21 @@
     "postal_address": "八王子市元本郷町三丁目24番1号",
     "hours": null,
     "source_url": "https://www.city.hachioji.tokyo.jp/contents/shigikai_1/siminnnomisasam/seigann/p026066.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "132012-petition",
+    "type": "petition",
+    "department": "八王子市議会事務局議事課",
+    "phone": "042-620-7312",
+    "email": null,
+    "form_url": null,
+    "postal_code": "192-8501",
+    "postal_address": "八王子市元本郷町三丁目24番1号",
+    "hours": null,
+    "source_url": "https://www.city.hachioji.tokyo.jp/contents/shigikai_1/siminnnomisasam/seigann/p010680.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1370,6 +1670,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "132021-petition",
+    "type": "petition",
+    "department": "立川市議会事務局",
+    "phone": "042-528-4343",
+    "email": null,
+    "form_url": null,
+    "postal_code": "190-8666",
+    "postal_address": "東京都立川市泉町1156-9",
+    "hours": null,
+    "source_url": "https://www.city.tachikawa.lg.jp/shigikai/gian/1007179.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1418,6 +1733,21 @@
     "postal_address": "東京都武蔵野市緑町2-2-28",
     "hours": null,
     "source_url": "https://www.city.musashino.lg.jp/shigikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "132039-petition",
+    "type": "petition",
+    "department": "武蔵野市議会 議事係",
+    "phone": "0422-60-1883",
+    "email": null,
+    "form_url": null,
+    "postal_code": "180-8777",
+    "postal_address": "東京都武蔵野市緑町2-2-28",
+    "hours": null,
+    "source_url": "https://www.city.musashino.lg.jp/shigikai/gian_seigan_chinzyo/1001225.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1523,6 +1853,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "132055-petition",
+    "type": "petition",
+    "department": "青梅市議会事務局議事係",
+    "phone": "0428-22-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.ome.tokyo.jp/site/gikai/50346.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -1571,6 +1916,21 @@
     "postal_address": "東京都府中市宮西町2丁目24番地",
     "hours": null,
     "source_url": "https://www.city.fuchu.tokyo.jp/gikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "132063-petition",
+    "type": "petition",
+    "department": "府中市議会事務局",
+    "phone": "042-335-4505",
+    "email": "gikaisyomu01@city.fuchu.tokyo.jp",
+    "form_url": null,
+    "postal_code": "183-8703",
+    "postal_address": "東京都府中市宮西町2丁目24番地",
+    "hours": null,
+    "source_url": "https://www.city.fuchu.tokyo.jp/gikai/minasan/seigantinzyo/seigan.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1793,6 +2153,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "132101-petition",
+    "type": "petition",
+    "department": "小金井市議会事務局議事係",
+    "phone": "042-387-9947",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.koganei.lg.jp/shisei/gikaijimukyoku/teianhoho/seigan_chinzyo.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1892,6 +2267,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.hino.lg.jp/shigikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "132128-petition",
+    "type": "petition",
+    "department": "日野市議会事務局議事係",
+    "phone": "042-514-8026",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.hino.lg.jp/shigikai/oshirase/1000879.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1997,6 +2387,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "132144-petition",
+    "type": "petition",
+    "department": "国分寺市議会事務局 調査担当",
+    "phone": "042-312-8707",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kokubunji.tokyo.jp/shigikai/seigan/1018831.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -2099,6 +2504,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "132187-petition",
+    "type": "petition",
+    "department": "福生市議会 議事係",
+    "phone": "042-551-1525",
+    "email": null,
+    "form_url": null,
+    "postal_code": "197-8501",
+    "postal_address": "東京都福生市本町5",
+    "hours": null,
+    "source_url": "https://www.city.fussa.tokyo.jp/assembly/everybody/1000443.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -2148,6 +2568,21 @@
     "postal_address": "狛江市和泉本町1-1-5",
     "hours": null,
     "source_url": "https://www.city.komae.tokyo.jp/index.cfm/49,html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "132195-petition",
+    "type": "petition",
+    "department": "狛江市議会事務局",
+    "phone": "03-3430-1128",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.komae.tokyo.jp/index.cfm/49,0,402,2586,html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -2202,6 +2637,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "132209-petition",
+    "type": "petition",
+    "department": "東大和市議会事務局議事係",
+    "phone": "042-563-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "207-8585",
+    "postal_address": "東京都東大和市中央3-930",
+    "hours": null,
+    "source_url": "https://www.city.higashiyamato.lg.jp/shisei/gikai/1008121/1005780.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -2243,6 +2693,21 @@
     "id": "132217-assembly",
     "type": "assembly",
     "department": "議会事務局議事係",
+    "phone": "042-497-2567",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kiyose.lg.jp/sigikai/gikaitetsuzuki/1005988.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "132217-petition",
+    "type": "petition",
+    "department": "清瀬市議会事務局議事係",
     "phone": "042-497-2567",
     "email": null,
     "form_url": null,
@@ -2302,6 +2767,21 @@
     "postal_address": "東京都東久留米市本町3-3-1",
     "hours": null,
     "source_url": "https://www.city.higashikurume.lg.jp/gikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "132225-petition",
+    "type": "petition",
+    "department": "東久留米市議会 議事係",
+    "phone": "042-470-7789",
+    "email": null,
+    "form_url": null,
+    "postal_code": "203-8555",
+    "postal_address": "東京都東久留米市本町3-3-1",
+    "hours": null,
+    "source_url": "https://www.city.higashikurume.lg.jp/gikai/annai/1004005.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -2373,6 +2853,21 @@
     "note": "代表電話と同じ番号です"
    },
    {
+    "id": "132233-petition",
+    "type": "petition",
+    "department": "武蔵村山市議会事務局議事係",
+    "phone": "042-565-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.musashimurayama.lg.jp/shisei/shigikai/1003316.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
+   },
+   {
     "id": "132233-education",
     "type": "education",
     "department": "教育政策係",
@@ -2437,6 +2932,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "132241-petition",
+    "type": "petition",
+    "department": "多摩市議会 議事係",
+    "phone": "042-338-6890",
+    "email": null,
+    "form_url": null,
+    "postal_code": "206-8666",
+    "postal_address": "東京都多摩市関戸六丁目12番地1",
+    "hours": null,
+    "source_url": "https://www.city.tama.lg.jp/shigikai/bocho/1010507/1006733.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -2488,6 +2998,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "132250-petition",
+    "type": "petition",
+    "department": "稲城市議会事務局",
+    "phone": "042-378-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "206-8601",
+    "postal_address": "東京都稲城市東長沼2111番地",
+    "hours": null,
+    "source_url": "https://www.city.inagi.tokyo.jp/gikai/shimin_gikai/1009542.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -2539,6 +3064,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "132276-petition",
+    "type": "petition",
+    "department": "羽村市議会事務局",
+    "phone": "042-555-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.hamura.tokyo.jp/0000001466.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -2587,6 +3127,21 @@
     "postal_address": "東京都あきる野市二宮350番地",
     "hours": null,
     "source_url": "https://www.city.akiruno.tokyo.jp/soshiki_list.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "132284-petition",
+    "type": "petition",
+    "department": "あきる野市議会事務局",
+    "phone": "042-558-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.akiruno.tokyo.jp/0000002009.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": "代表電話と同じ番号です"
@@ -2656,6 +3211,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "132292-petition",
+    "type": "petition",
+    "department": "西東京市議会 議事係",
+    "phone": "042-460-9861",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.nishitokyo.lg.jp/sigikai/about/seigan_chinjo.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -2704,6 +3274,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.town.mizuho.tokyo.jp/tyosei/gikaiold/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "133035-petition",
+    "type": "petition",
+    "department": "瑞穂町議会 議事係",
+    "phone": "042-557-7693",
+    "email": null,
+    "form_url": null,
+    "postal_code": "190-1292",
+    "postal_address": "東京都西多摩郡瑞穂町大字箱根ケ崎2335番地",
+    "hours": null,
+    "source_url": "https://www.town.mizuho.tokyo.jp/gikai/procedure/p000382.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -2773,6 +3358,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "133051-petition",
+    "type": "petition",
+    "department": "日の出町議会事務局庶務議事係",
+    "phone": "042-588-5148",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.hinode.tokyo.jp/0000000368.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -2824,6 +3424,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "133078-petition",
+    "type": "petition",
+    "department": "檜原村議会 議事係",
+    "phone": "042-598-1011",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.vill.hinohara.tokyo.jp/0000000637.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -3132,6 +3747,21 @@
     "note": null
    },
    {
+    "id": "133817-petition",
+    "type": "petition",
+    "department": "三宅村議会事務局",
+    "phone": "04994-5-0956",
+    "email": null,
+    "form_url": null,
+    "postal_code": "100-1212",
+    "postal_address": "東京都三宅島三宅村阿古497",
+    "hours": null,
+    "source_url": "https://www.vill.miyake.tokyo.jp/kakuka/gikai/seigan.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "133817-education",
     "type": "education",
     "department": "教育委員会",
@@ -3246,6 +3876,21 @@
     "source_url": "https://www.town.hachijo.tokyo.jp/chousei/chougikai/",
     "verified_at": null,
     "status": "unverified",
+    "note": null
+   },
+   {
+    "id": "134015-petition",
+    "type": "petition",
+    "department": "八丈町議会事務局",
+    "phone": "04996-2-2788",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.hachijo.tokyo.jp/chousei/chougikai/boutan-sanka/chinjo-tangan/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]

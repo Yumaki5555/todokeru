@@ -47,6 +47,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "220001-petition",
+    "type": "petition",
+    "department": "静岡県議会議事課",
+    "phone": "054-221-3481",
+    "email": "gikai_giji@pref.shizuoka.lg.jp",
+    "form_url": null,
+    "postal_code": "420-8601",
+    "postal_address": "静岡市葵区追手町9-6",
+    "hours": null,
+    "source_url": "https://www.pref.shizuoka.jp/kensei/kengikai/gikaishikumi/1030970.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -149,6 +164,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "221309-petition",
+    "type": "petition",
+    "department": "浜松市役所議会事務局調査法制課",
+    "phone": "053-457-2513",
+    "email": null,
+    "form_url": null,
+    "postal_code": "430-8652",
+    "postal_address": "浜松市中央区元城町103-2",
+    "hours": null,
+    "source_url": "https://www.city.hamamatsu.shizuoka.jp/gikai/mokuji/seiganchinjyo.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -197,6 +227,21 @@
     "postal_address": "静岡県沼津市御幸町16-1",
     "hours": null,
     "source_url": "https://www.city.numazu.shizuoka.jp/shisei/g-shigiki/g-sigiki/index.htm",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "222038-petition",
+    "type": "petition",
+    "department": "沼津市議会事務局",
+    "phone": "055-934-4711",
+    "email": null,
+    "form_url": null,
+    "postal_code": "410-8601",
+    "postal_address": "静岡県沼津市御幸町16-1",
+    "hours": null,
+    "source_url": "https://www.city.numazu.shizuoka.jp/shisei/g-shigiki/g-sigiki/boucho/seigan.htm",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -266,6 +311,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "222054-petition",
+    "type": "petition",
+    "department": "熱海市議会事務局",
+    "phone": "0557-86-6644",
+    "email": null,
+    "form_url": null,
+    "postal_code": "413-8550",
+    "postal_address": "熱海市中央町1-1",
+    "hours": null,
+    "source_url": "https://www.city.atami.lg.jp/shigikai/goannai/1002537.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -314,6 +374,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.mishima.shizuoka.jp/adv/ba.php?id=12",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "222062-petition",
+    "type": "petition",
+    "department": "三島市議会事務局",
+    "phone": "055-983-2600",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.mishima.shizuoka.jp/site/gikai/4540.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -369,6 +444,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "222071-petition",
+    "type": "petition",
+    "department": "富士宮市議会事務局議事係",
+    "phone": "0544-22-1191",
+    "email": null,
+    "form_url": null,
+    "postal_code": "418-8601",
+    "postal_address": "静岡県富士宮市弓沢町150番地",
+    "hours": null,
+    "source_url": "https://www.city.fujinomiya.lg.jp/4010100000/p003441.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -410,6 +500,21 @@
     "id": "222089-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0557-32-1981",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.ito.shizuoka.jp/gyosei/soshikikarasagasu/gikaijimukyoku/shiseijoho/1/557.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "222089-petition",
+    "type": "petition",
+    "department": "伊東市議会事務局",
     "phone": "0557-32-1981",
     "email": null,
     "form_url": null,
@@ -522,6 +627,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "222101-petition",
+    "type": "petition",
+    "department": "富士市議会事務局 議事調査担当",
+    "phone": "0545-55-2878",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.fuji.shizuoka.jp/5105000000/p007176.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -563,6 +683,21 @@
     "id": "222119-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0538-37-4822",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.iwata.shizuoka.jp/shigikai/seigan_chinjou/1005427.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "222119-petition",
+    "type": "petition",
+    "department": "磐田市議会事務局",
     "phone": "0538-37-4822",
     "email": null,
     "form_url": null,
@@ -741,6 +876,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "222143-petition",
+    "type": "petition",
+    "department": "藤枝市議会事務局",
+    "phone": "054-643-3552",
+    "email": null,
+    "form_url": null,
+    "postal_code": "426-8722",
+    "postal_address": "藤枝市岡出山1-11-1",
+    "hours": null,
+    "source_url": "https://www.city.fujieda.shizuoka.jp/shigikai/G005/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -833,6 +983,21 @@
     "id": "222160-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0538-44-3143",
+    "email": "gikai@city.fukuroi.shizuoka.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.fukuroi.shizuoka.jp/soshiki/35/2/seiganchinjyou.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "222160-petition",
+    "type": "petition",
+    "department": "袋井市議会事務局",
     "phone": "0538-44-3143",
     "email": "gikai@city.fukuroi.shizuoka.jp",
     "form_url": null,
@@ -945,6 +1110,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "222208-petition",
+    "type": "petition",
+    "department": "裾野市議会事務局",
+    "phone": "055-995-1839",
+    "email": null,
+    "form_url": null,
+    "postal_code": "410-1192",
+    "postal_address": "静岡県裾野市佐野1059 裾野市役所5階",
+    "hours": null,
+    "source_url": "https://www.city.susono.shizuoka.jp/shisei/2/1/18047.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -993,6 +1173,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/gikaijimukyoku/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "222216-petition",
+    "type": "petition",
+    "department": "湖西市議会 議事係",
+    "phone": "053-576-4791",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/gikaijimukyoku/gyomuannai/seigan/1683.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1149,6 +1344,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "222241-petition",
+    "type": "petition",
+    "department": "菊川市議会事務局",
+    "phone": "0537-35-0941",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kikugawa.shizuoka.jp/gikaijimu/seigann.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1251,6 +1461,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "222267-petition",
+    "type": "petition",
+    "department": "牧之原市議会事務局",
+    "phone": "0548-53-2650",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.makinohara.shizuoka.jp/soshiki/35/937.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1292,6 +1517,21 @@
     "id": "223018-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0557-95-6307",
+    "email": null,
+    "form_url": null,
+    "postal_code": "413-0411",
+    "postal_address": "静岡県賀茂郡東伊豆町稲取3354番地",
+    "hours": null,
+    "source_url": "https://www.town.higashiizu.lg.jp/gikai/chinjyo_youbo/1120.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "223018-petition",
+    "type": "petition",
+    "department": "東伊豆町議会事務局",
     "phone": "0557-95-6307",
     "email": null,
     "form_url": null,
@@ -1523,6 +1763,21 @@
     "note": null
    },
    {
+    "id": "223069-petition",
+    "type": "petition",
+    "department": "西伊豆町議会事務局",
+    "phone": "0558-52-1962",
+    "email": "gikai@town.nishiizu.lg.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.nishiizu.shizuoka.jp/kakuka/gikai/seigan.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "223069-education",
     "type": "education",
     "department": "教育委員会",
@@ -1577,6 +1832,21 @@
     "id": "223255-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "055-979-8122",
+    "email": null,
+    "form_url": null,
+    "postal_code": "419-0192",
+    "postal_address": "静岡県田方郡函南町平井717番地の13",
+    "hours": null,
+    "source_url": "https://www.town.kannami.shizuoka.jp/gikai/1146.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "223255-petition",
+    "type": "petition",
+    "department": "函南町議会事務局",
     "phone": "055-979-8122",
     "email": null,
     "form_url": null,

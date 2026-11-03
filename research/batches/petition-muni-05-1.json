@@ -1,0 +1,632 @@
+{
+ "batch": "petition-muni-05-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "052019",
+   "name": "秋田市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "秋田市議会 議事課",
+     "phone": "018-888-5784",
+     "email": null,
+     "form_url": null,
+     "postal_code": "010-8560",
+     "postal_address": "秋田市山王一丁目1番1号 本庁舎5階",
+     "hours": null,
+     "source_url": "https://www.city.akita.lg.jp/shigikai/seigan-chinjo/1012673.html",
+     "evidence": "議事課 〒010-8560 秋田市山王一丁目1番1号 本庁舎5階 電話:018-888-5784",
+     "note": "ページの題名：市議会への請願・陳情などについて|秋田市公式サイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "052027",
+   "name": "能代市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "能代市議会事務局",
+     "phone": "0185-89-2922",
+     "email": "gikai@city.noshiro.lg.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.noshiro.lg.jp/city/gikai/seigan-chinjo/1403",
+     "evidence": "議会事務局で行います。 提出先:議会事務局 〒016-8501 能代市上町1番3号 電話:0185-89-2922",
+     "note": "ページの題名：請願・陳情の提出について - 能代市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "052035",
+   "name": "横手市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "横手市議会事務局議事課総務係",
+     "phone": "0182-32-2535",
+     "email": null,
+     "form_url": null,
+     "postal_code": "013-8601",
+     "postal_address": "秋田県横手市中央町8番2号",
+     "hours": null,
+     "source_url": "https://www.city.yokote.lg.jp/shigikai/1001551/1004071.html",
+     "evidence": "議会事務局議事課総務係 〒013-86…横手市中央町8番2号(本庁舎6階) 電話:0182-32-2535 ファクス:01",
+     "note": "ページの題名：請願・陳情について|横手市公式サイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "052043",
+   "name": "大館市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "大館市議会 議事調査係",
+     "phone": "0186-43-7108",
+     "email": "giji@city.odate.lg.jp",
+     "form_url": null,
+     "postal_code": "017-8555",
+     "postal_address": "秋田県大館市字中城20番地",
+     "hours": null,
+     "source_url": "https://www.city.odate.lg.jp/city/soshiki/gikaizimu/seigan",
+     "evidence": "議事調査係 〒017-8555 秋田県大館市字中城20番地 TEL:0186-43-7108FAX:0186",
+     "note": "ページの題名：市議会への請願・陳情 | 大館市公式サイト|観光・市政・暮らし情報|大館というところ。"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "052060",
+   "name": "男鹿市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.oga.akita.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "052078",
+   "name": "湯沢市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city-yuzawa.jp/site/gikai/583.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "052094",
+   "name": "鹿角市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "鹿角市議会事務局",
+     "phone": "0186-30-0280",
+     "email": null,
+     "form_url": null,
+     "postal_code": "018-5292",
+     "postal_address": "秋田県鹿角市花輪字荒田4番地1",
+     "hours": null,
+     "source_url": "https://www.city.kazuno.lg.jp/soshiki/gikai/gyomu/1/1_1/1436.html",
+     "evidence": "議会事務局 〒018-5292 秋田県鹿角市花輪字荒田4番地1 電話:0186-30-0280 ファックス:0",
+     "note": "ページの題名：請願・陳情ガイド/鹿角市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "052108",
+   "name": "由利本荘市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.yurihonjo.lg.jp/1000002/1001861/1003124.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "052116",
+   "name": "潟上市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "潟上市議会事務局",
+     "phone": "018-853-5330",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.katagami.lg.jp/gyosei/gyoseijoho/shigikai/2847.html",
+     "evidence": "議会事務局 電話:018-853-5330",
+     "note": "ページの題名：請願と陳情/潟上市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "052124",
+   "name": "大仙市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "大仙市議会事務局",
+     "phone": "0187-63-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.daisen.lg.jp/archive/contents-7187",
+     "evidence": "議会事務局(電話0187-63-1111)まで問い合わせ",
+     "note": "ページの題名：請願・陳情の提出方法 | 大仙市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "052132",
+   "name": "北秋田市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "北秋田市議会事務局",
+     "phone": "0186-62-6624",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kitaakita.akita.jp/archive/contents-20",
+     "evidence": "議会事務局 電話番号:0186-62-6624",
+     "note": "ページの題名：請願と陳情 | 北秋田市ホームページ 住民が主役のもりのまち"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "052141",
+   "name": "にかほ市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nikaho.akita.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "052159",
+   "name": "仙北市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "仙北市議会事務局",
+     "phone": "0187-43-0334",
+     "email": null,
+     "form_url": null,
+     "postal_code": "014-1298",
+     "postal_address": "秋田県仙北市田沢湖生保内字宮ノ後30",
+     "hours": null,
+     "source_url": "https://www.city.semboku.akita.jp/government/assembly/chinjyo.html",
+     "evidence": "議会事務局 〒014-1298 秋田県仙北市田沢湖生保内字宮ノ後30 電話:0187-43-0334",
+     "note": "ページの題名：請願・陳情について 行政情報 | 仙北市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "053031",
+   "name": "小坂町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kosaka.akita.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "053279",
+   "name": "上小阿仁村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.kamikoani.akita.jp/forms/top/top.aspx",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "053465",
+   "name": "藤里町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.fujisato.akita.jp/town/c613/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "053481",
+   "name": "三種町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.mitane.akita.jp/gyoseijoho/gikai/annai/1466.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "053490",
+   "name": "八峰町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.happo.lg.jp/archive/p20260122141156",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "053619",
+   "name": "五城目町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "五城目町議会事務局 庶務係",
+     "phone": "018-852-5411",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.gojome.akita.jp/town/gikai/seigantinzyou/816",
+     "evidence": "議会事務局 庶務係 TEL:018-852-5411",
+     "note": "ページの題名：陳情・要望等について - 五城目町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "053635",
+   "name": "八郎潟町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hachirogata.akita.jp/madoguchi/1001574.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "053660",
+   "name": "井川町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ikawa.akita.jp/adv/ba.php?id=6",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "053686",
+   "name": "大潟村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.ogata.akita.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "054348",
+   "name": "美郷町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "美郷町議会事務局",
+     "phone": "0187-84-4912",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.misato.akita.jp/archive/contents-225/",
+     "evidence": "議会事務局 TEL:0187-84-4912 内線:2103",
+     "note": "ページの題名：請願・陳情・要望 | 秋田県美郷町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "054631",
+   "name": "羽後町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "羽後町議会事務局",
+     "phone": "0183-62-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "012-1131",
+     "postal_address": "秋田県雄勝郡羽後町西馬音内字中野177",
+     "hours": null,
+     "source_url": "https://www.town.ugo.lg.jp/administration/detail.html?id=2228&category_id=51",
+     "evidence": "議会事務局 〒012-1131 秋田県雄勝郡羽後町西馬音内字中野177 TEL:0183-62-2111 内線:411",
+     "note": "ページの題名：請願・陳情の提出期限 | 羽後町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "054640",
+   "name": "東成瀬村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "東成瀬村議会事務局",
+     "phone": "0182-47-3411",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://vill.higashinaruse.lg.jp/villager/post-35682/",
+     "evidence": "議会事務局 TEL:0182-47-3411 FAX:018",
+     "note": "ページの題名：請願・陳情について | 東成瀬村役場"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

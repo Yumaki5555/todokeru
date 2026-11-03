@@ -1,0 +1,457 @@
+{
+ "batch": "petition-muni-22-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "221007",
+   "name": "静岡市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.shizuoka.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "221309",
+   "name": "浜松市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "浜松市役所議会事務局調査法制課",
+     "phone": "053-457-2513",
+     "email": null,
+     "form_url": null,
+     "postal_code": "430-8652",
+     "postal_address": "浜松市中央区元城町103-2",
+     "hours": null,
+     "source_url": "https://www.city.hamamatsu.shizuoka.jp/gikai/mokuji/seiganchinjyo.html",
+     "evidence": "市役所議会事務局調査法制課 〒430-8652 浜松市中央区元城町103-2 電話番号:053-457-2513",
+     "note": "ページの題名：請願・陳情・要望/浜松市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "222038",
+   "name": "沼津市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "沼津市議会事務局",
+     "phone": "055-934-4711",
+     "email": null,
+     "form_url": null,
+     "postal_code": "410-8601",
+     "postal_address": "静岡県沼津市御幸町16-1",
+     "hours": null,
+     "source_url": "https://www.city.numazu.shizuoka.jp/shisei/g-shigiki/g-sigiki/boucho/seigan.htm",
+     "evidence": "議会事務局 〒410-8601 静岡県沼津市御幸町16-1 電話:055-934-4711",
+     "note": "ページの題名：請願・陳情/沼津市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "222054",
+   "name": "熱海市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "熱海市議会事務局",
+     "phone": "0557-86-6644",
+     "email": null,
+     "form_url": null,
+     "postal_code": "413-8550",
+     "postal_address": "熱海市中央町1-1",
+     "hours": null,
+     "source_url": "https://www.city.atami.lg.jp/shigikai/goannai/1002537.html",
+     "evidence": "議会事務局 〒413-8550 熱海市中央町1-1 電話:0557-86-6644 ファクス:05",
+     "note": "ページの題名：請願・陳情・意見書のご提出|熱海市公式ウェブサイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "222062",
+   "name": "三島市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "三島市議会事務局",
+     "phone": "055-983-2600",
+     "email": null,
+     "form_url": null,
+     "postal_code": "411-8666",
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.mishima.shizuoka.jp/site/gikai/4540.html",
+     "evidence": "議会事務局代表 〒411-8666静岡県三島市北田町4−47 Tel:055-983-2600Fax:055-",
+     "note": "ページの題名：請願・陳情について - 三島市議会 - 三島市公式ホームページ(議会事務局)"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "222071",
+   "name": "富士宮市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "富士宮市議会事務局議事係",
+     "phone": "0544-22-1191",
+     "email": null,
+     "form_url": null,
+     "postal_code": "418-8601",
+     "postal_address": "静岡県富士宮市弓沢町150番地",
+     "hours": null,
+     "source_url": "https://www.city.fujinomiya.lg.jp/4010100000/p003441.html",
+     "evidence": "市議会事務局議事係 〒418-8601 …市弓沢町150番地(市役所2階) 電話番号:0544-22-1191",
+     "note": "ページの題名：請願と陳情 | 静岡県富士宮市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "222089",
+   "name": "伊東市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "伊東市議会事務局",
+     "phone": "0557-32-1981",
+     "email": "gikai@city.ito.shizuoka.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ito.shizuoka.jp/gyosei/soshikikarasagasu/gikaijimukyoku/shiseijoho/1/557.html",
+     "evidence": "議会事務局 〒414-8555 静岡県伊東市大原2-1-1 電話番号:0557-32-1981",
+     "note": "ページの題名：請願・陳情、決議・意見書とは?/伊東市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "222097",
+   "name": "島田市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.shimada.shizuoka.jp/gyosei/shisei/shimadashigikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "222101",
+   "name": "富士市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "富士市議会事務局 議事調査担当",
+     "phone": "0545-55-2878",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.fuji.shizuoka.jp/5105000000/p007176.html",
+     "evidence": "議会事務局 議事調査担当 市庁舎9階南側 電話番号:0545-55-2878",
+     "note": "ページの題名：請願(陳情)の出し方 | 静岡県富士市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "222119",
+   "name": "磐田市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "磐田市議会事務局",
+     "phone": "0538-37-4822",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.iwata.shizuoka.jp/shigikai/seigan_chinjou/1005427.html",
+     "evidence": "議会事務局 〒438-8650 静岡…間:午前8時30分~午後5時15分 電話:0538-37-4822",
+     "note": "ページの題名：請願・陳情|磐田市公式ウェブサイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "222127",
+   "name": "焼津市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.yaizu.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "222135",
+   "name": "掛川市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kakegawa.shizuoka.jp/gyosei/shisei/shigikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "222143",
+   "name": "藤枝市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "藤枝市議会事務局",
+     "phone": "054-643-3552",
+     "email": null,
+     "form_url": null,
+     "postal_code": "426-8722",
+     "postal_address": "藤枝市岡出山1-11-1",
+     "hours": null,
+     "source_url": "https://www.city.fujieda.shizuoka.jp/shigikai/G005/index.html",
+     "evidence": "議会事務局 住所:〒426-8722 藤枝市岡出山1-11-1 電話:054-643-3552",
+     "note": "ページの題名：請願・陳情/藤枝市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "222151",
+   "name": "御殿場市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.gotemba.lg.jp/gikai",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "222160",
+   "name": "袋井市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "袋井市議会事務局",
+     "phone": "0538-44-3143",
+     "email": "gikai@city.fukuroi.shizuoka.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.fukuroi.shizuoka.jp/soshiki/35/2/seiganchinjyou.html",
+     "evidence": "議会事務局(電話0538-44-3143)までお問い合わ",
+     "note": "ページの題名：市議会への請願、陳情/袋井市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "222194",
+   "name": "下田市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.shimoda.shizuoka.jp/category/090000shigikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "222208",
+   "name": "裾野市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "裾野市議会事務局",
+     "phone": "055-995-1839",
+     "email": null,
+     "form_url": null,
+     "postal_code": "410-1192",
+     "postal_address": "静岡県裾野市佐野1059 裾野市役所5階",
+     "hours": null,
+     "source_url": "https://www.city.susono.shizuoka.jp/shisei/2/1/18047.html",
+     "evidence": "議会事務局 〒410-1192 静岡県裾野市佐野1059 裾野市役所5階 電話:055-995-1839",
+     "note": "ページの題名：請願・陳情の手続きについて/裾野市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "222216",
+   "name": "湖西市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "湖西市議会 議事係",
+     "phone": "053-576-4791",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/gikaijimukyoku/gyomuannai/seigan/1683.html",
+     "evidence": "議事係 〒431-0492 静岡県湖西市吉美3268番地 電話番号:053-576-4791 ファクス番号:",
+     "note": "ページの題名：請願と陳情の方法/湖西市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

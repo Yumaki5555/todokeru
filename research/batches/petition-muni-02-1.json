@@ -1,0 +1,507 @@
+{
+ "batch": "petition-muni-02-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "022012",
+   "name": "青森市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.aomori.aomori.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "022021",
+   "name": "弘前市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hirosaki.aomori.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "022039",
+   "name": "八戸市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "八戸市議会 議事調査グループ",
+     "phone": "0178-43-9161",
+     "email": null,
+     "form_url": null,
+     "postal_code": "031-8686",
+     "postal_address": "青森県八戸市内丸一丁目1番1号 市庁本館3階",
+     "hours": null,
+     "source_url": "https://www.city.hachinohe.aomori.jp/gyoseijoho/hachinoheshigikai/seigan_chinjo/10903.html",
+     "evidence": "議事調査グループ 電話:0178-43-9161 ファックス:0",
+     "note": "ページの題名：1 請願・陳情の提出方法/八戸市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "022047",
+   "name": "黒石市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "黒石市議会 総務議事係",
+     "phone": "0172-52-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kuroishi.aomori.jp/shisei/gikai/seigan_tinjou.html",
+     "evidence": "総務議事係 電話番号:0172-52-2111",
+     "note": "ページの題名：請願・陳情について - 黒石市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "022055",
+   "name": "五所川原市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "五所川原市議会事務局議会総務係",
+     "phone": "0173-35-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.goshogawara.lg.jp/gikai/seiganntinnjou.html",
+     "evidence": "議会事務局議会総務係 電話 0173-35-2111",
+     "note": "ページの題名：請願・陳情について - 五所川原市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "022063",
+   "name": "十和田市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "十和田市議会事務局",
+     "phone": "0176-51-6781",
+     "email": "gikai@city.towada.lg.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.towada.lg.jp/shisei/gikai/seigan.html",
+     "evidence": "議会事務局 電話:0176-51-6781",
+     "note": "ページの題名：請願等の提出方法について|青森県十和田市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "022071",
+   "name": "三沢市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "三沢市議会事務局",
+     "phone": "0176-53-5111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "033-8666",
+     "postal_address": "青森県三沢市桜町1-1-38",
+     "hours": null,
+     "source_url": "https://www.city.misawa.lg.jp/index.cfm/24,0,116,274,html",
+     "evidence": "議会事務局 所在地:〒033-8666 青森県三沢市桜町1-1-38 電話番号:0176-53-5111(内線:321)",
+     "note": "ページの題名：請願・陳情のご案内 - 三沢市ウェブサイト -Misawa City-"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "022080",
+   "name": "むつ市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "むつ市議会事務局",
+     "phone": "0175-22-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.mutsu.lg.jp/gikai/seigan/seigansho_seido.html",
+     "evidence": "議会事務局 〒035-8686 青森県むつ市中央一丁目8-1 電話:0175-22-1111(代表)",
+     "note": "ページの題名：請願書等の制度|市議会|むつ市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "022098",
+   "name": "つがる市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "つがる市議会事務局",
+     "phone": "0173-42-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tsugaru.aomori.jp/joho/mokuteki/administration/shigikai/seigan/8776.html",
+     "evidence": "議会事務局 郵便番号:038-3192 ​​​​​​​住所:青森県つがる市木造若緑61番地1(市役所3階) 電話:0173-42-2111",
+     "note": "ページの題名：請願と陳情の提出方法・ながれ/つがる市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "022101",
+   "name": "平川市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hirakawa.lg.jp/bunka/katsudou/youth_gikai_index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "023019",
+   "name": "平内町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "平内町議会事務局",
+     "phone": "017-755-2119",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hiranai.aomori.jp/chosei/gikai/2467.html",
+     "evidence": "議会事務局 〒039-3393 青森県東津軽郡平内町大字小湊字小湊63 電話番号:017-755-2119",
+     "note": "ページの題名：請願・陳情/平内町ウェブサイト-Hiranai Town-"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "023035",
+   "name": "今別町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "今別町議会事務局",
+     "phone": "0174-35-2001",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.imabetsu.lg.jp/gyousei/gikai/seigan.html",
+     "evidence": "議会事務局 電話番号:0174-35-2001",
+     "note": "ページの題名：町議会への請願・陳情 | 今別町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "023043",
+   "name": "蓬田村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.yomogita.lg.jp/sonsei/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "023078",
+   "name": "外ヶ浜町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "外ヶ浜町議会事務局",
+     "phone": "0174-31-1230",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.sotogahama.lg.jp/gyosei/gikai/seigan.html",
+     "evidence": "議会事務局 電話番号 0174-31-1230",
+     "note": "ページの題名：請願・陳情について|外ヶ浜町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "023213",
+   "name": "鰺ヶ沢町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "鰺ヶ沢町議会事務局",
+     "phone": "0173-82-0906",
+     "email": null,
+     "form_url": null,
+     "postal_code": "038-2792",
+     "postal_address": "青森県西津軽郡鰺ヶ沢町大字舞戸町字鳴戸321番地",
+     "hours": null,
+     "source_url": "https://www.town.ajigasawa.lg.jp/about_town/gikai/segan_chinjo.html",
+     "evidence": "議会事務局 住所:〒038-2792 青…郡鰺ヶ沢町大字舞戸町字鳴戸321番地 電話:0173-82-0906",
+     "note": "ページの題名：請願・陳情 鰺ヶ沢町ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "023230",
+   "name": "深浦町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "深浦町議会事務局",
+     "phone": "0173-74-4418",
+     "email": "fukaura001@town.fukaura.lg.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.fukaura.lg.jp/doc/2024052000014/",
+     "evidence": "議会事務局 住所:青森県西津軽郡深浦町大字深浦字苗代沢84-2 TEL:0173-74-4418",
+     "note": "ページの題名：請願・陳情 | 深浦町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "023434",
+   "name": "西目屋村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.nishimeya.jp/19.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "023612",
+   "name": "藤崎町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.fujisaki.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "023621",
+   "name": "大鰐町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.town.owani.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "023671",
+   "name": "田舎館村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "田舎館村議会事務局",
+     "phone": "0172-58-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.vill.inakadate.lg.jp/docs/2023062200049/",
+     "evidence": "議会事務局 電話:0172-58-2111",
+     "note": "ページの題名：陳情・請願について | 田舎館村"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

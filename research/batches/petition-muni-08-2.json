@@ -1,0 +1,557 @@
+{
+ "batch": "petition-muni-08-2",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "082279",
+   "name": "筑西市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.chikusei.lg.jp/gyousei/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "082287",
+   "name": "坂東市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.bando.lg.jp/page/page006143.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "082295",
+   "name": "稲敷市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "稲敷市議会事務局",
+     "phone": "029-892-2000",
+     "email": null,
+     "form_url": null,
+     "postal_code": "300-0595",
+     "postal_address": "稲敷市犬塚1570番地1",
+     "hours": null,
+     "source_url": "https://www.city.inashiki.lg.jp/page/page000353.html",
+     "evidence": "議会事務局です。 稲敷市役所 4階 〒3…595 稲敷市犬塚1570番地1 電話番号:029-892-2000(代表)",
+     "note": "ページの題名：請願・陳情 | 稲敷市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "082309",
+   "name": "かすみがうら市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "かすみがうら市議会事務局",
+     "phone": "0299-59-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "315-8512",
+     "postal_address": "茨城県かすみがうら市上土田461",
+     "hours": null,
+     "source_url": "https://www.city.kasumigaura.lg.jp/page/dir003587.html",
+     "evidence": "議会事務局 〒315-8512 茨城県かすみがうら市上土田461 【電話番号】 0299-59-2111 / 029-8",
+     "note": "ページの題名：請願・陳情 | かすみがうら市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "082317",
+   "name": "桜川市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "桜川市議会事務局",
+     "phone": "0296-75-3111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.sakuragawa.lg.jp/gikai/page000302.html",
+     "evidence": "議会事務局(TEL0296-75-3111 内線2510)",
+     "note": "ページの題名：請願・陳情について | 桜川市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "082325",
+   "name": "神栖市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kamisu.ibaraki.jp/shisei/parliament/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "082333",
+   "name": "行方市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.namegata.ibaraki.jp/n-gikai/gikai-kaigi-info/gikai-kaikiniitei/page015946.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "082341",
+   "name": "鉾田市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "鉾田市議会事務局",
+     "phone": "0291-36-7939",
+     "email": null,
+     "form_url": null,
+     "postal_code": "311-1592",
+     "postal_address": "鉾田市鉾田1444番地1",
+     "hours": null,
+     "source_url": "https://www.city.hokota.lg.jp/page/page000032.html",
+     "evidence": "議会事務局です。 市役所本庁舎 3階 〒…592 鉾田市鉾田1444番地1 電話番号:0291-36-7939 ファクス番号:",
+     "note": "ページの題名：請願・陳情 | 鉾田市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "082350",
+   "name": "つくばみらい市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "つくばみらい市議会事務局",
+     "phone": "0297-58-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tsukubamirai.lg.jp/gikai/page000838.html",
+     "evidence": "議会事務局 〒300-2492 茨城県つくばみらい市加藤237番地 電話番号: 0297-58-2111",
+     "note": "ページの題名：請願・陳情の案内 | つくばみらい市議会 | つくばみらい市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "082368",
+   "name": "小美玉市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "小美玉市議会事務局",
+     "phone": "0299-48-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "319-0192",
+     "postal_address": "茨城県小美玉市堅倉835",
+     "hours": null,
+     "source_url": "https://gikai.city.omitama.ibaraki.jp/0000/info-0000003234-4.html",
+     "evidence": "議会事務局 住所: 〒319-0192 茨城県小美玉市堅倉835 電話: 0299-48-1111 (内線:130",
+     "note": "ページの題名：請願・陳情 | 小美玉市議会 公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "083020",
+   "name": "茨城町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "茨城町議会事務局",
+     "phone": "029-292-1111",
+     "email": "i-gikai@town.ibaraki.lg.jp",
+     "form_url": null,
+     "postal_code": "311-3192",
+     "postal_address": "茨城県東茨城郡茨城町大字小堤1080番地",
+     "hours": null,
+     "source_url": "https://www.town.ibaraki.lg.jp/gyousei/gyousei/gikai/001994.html",
+     "evidence": "議会事務局 住所: 〒311-3192 …茨城郡茨城町大字小堤1080番地 電話: 029-292-1111 (内線:301",
+     "note": "ページの題名：請願・陳情について | 茨城町行政サイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "083097",
+   "name": "大洗町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "大洗町議会事務局",
+     "phone": "029-267-5111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.oarai.lg.jp/oaraigikai/%e8%ab%8b%e9%a1%98%e3%83%bb%e9%99%b3%e6%83%85",
+     "evidence": "議会事務局〒311-1392 茨城県東…浜町 6881-275 [MAP] TEL:029-267-5111(代表)",
+     "note": "ページの題名：請願・陳情 | 大洗町議会公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "083101",
+   "name": "城里町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shirosato.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "083411",
+   "name": "東海村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "東海村議会事務局",
+     "phone": "029-282-1711",
+     "email": null,
+     "form_url": null,
+     "postal_code": "319-1192",
+     "postal_address": "茨城県那珂郡東海村東海三丁目7番1号",
+     "hours": null,
+     "source_url": "https://www.vill.tokai.ibaraki.jp/tokaimuragikai/seigan/1883.html",
+     "evidence": "議会事務局 〒319-1192 茨城県那珂郡東海村東海三丁目7番1号 電話番号:029-282-1711",
+     "note": "ページの題名：請願・陳情/東海村／同じ組織のほかの番号：029-287-0844"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "083640",
+   "name": "大子町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.daigo.ibaraki.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "084425",
+   "name": "美浦村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.miho.lg.jp/gyousei/gyousei-news/page016216.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "084433",
+   "name": "阿見町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "阿見町議会事務局",
+     "phone": "029-888-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ami.lg.jp/0000000299.html",
+     "evidence": "議会事務局 電話: 029-888-1111(330~332",
+     "note": "ページの題名：請願・陳情 | 茨城県阿見町ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "084476",
+   "name": "河内町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "河内町議会事務局",
+     "phone": "0297-84-6965",
+     "email": null,
+     "form_url": null,
+     "postal_code": "300-1392",
+     "postal_address": "茨城県稲敷郡河内町源清田1183",
+     "hours": null,
+     "source_url": "https://www.town.ibaraki-kawachi.lg.jp/page/page000029.html",
+     "evidence": "議会事務局です。 本庁舎 2F 〒300-1392 茨城県稲敷郡河内町源清田1183 電話番号:0297-84-6965",
+     "note": "ページの題名：請願・陳情 | 河内町公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "085219",
+   "name": "八千代町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ibaraki-yachiyo.lg.jp/page/dir000410.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "085421",
+   "name": "五霞町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.goka.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "085464",
+   "name": "境町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ibaraki-sakai.lg.jp/page/dir000146.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "085642",
+   "name": "利根町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "利根町議会",
+     "phone": "0297-68-2211",
+     "email": null,
+     "form_url": null,
+     "postal_code": "300-1696",
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.tone.ibaraki.jp/parliament/seigan-chinjou/page002754.html",
+     "evidence": "議会棟1F 電話番号:0297(68)2211",
+     "note": "ページの題名：請願 陳情 | 利根町議会 | 利根町公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

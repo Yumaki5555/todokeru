@@ -173,8 +173,8 @@ describe('画面の操作を反映する', () => {
 
   it('警察は都道府県だけ、教育委員会は都道府県・市区町村で登録できる', () => {
     const tokyo: Entity = { key: '130001', name: '東京都', kind: 'pref', file: '13', pref_code: '13', pref_name: '東京都' };
-    expect(allowedTypes(tokyo)).toEqual(['general', 'feedback', 'assembly', 'police', 'education']);
-    expect(allowedTypes(koto)).toEqual(['general', 'feedback', 'assembly', 'education']);
+    expect(allowedTypes(tokyo)).toEqual(['general', 'feedback', 'assembly', 'petition', 'police', 'education']);
+    expect(allowedTypes(koto)).toEqual(['general', 'feedback', 'assembly', 'petition', 'education']);
     const police = { type: 'police' as const, department: '警視庁 総合相談センター', phone: '03-3501-0110', source_url: 'https://www.keishicho.metro.tokyo.lg.jp/sodan/' };
     const p = applyAction([], tokyo, { kind: 'add', input: input(police) }, opts);
     expect(p.errors).toEqual([]);
@@ -183,6 +183,21 @@ describe('画面の操作を反映する', () => {
     const edu = applyAction(records(), koto, { kind: 'add', input: input({ type: 'education', department: '教育委員会事務局 庶務課' }) }, opts);
     expect(edu.errors).toEqual([]);
     expect(koto1(edu.records).map((c) => c.id)).toEqual(['131083-general', '131083-education']);
+  });
+
+  it('請願・陳情の届け先は、都道府県・市区町村と国会で登録でき、国会以外の機関では止める', () => {
+    const shugiin: Entity = { key: 'shugiin', name: '衆議院', kind: 'agency', file: 'agencies', category: 'diet', official_url: 'https://www.shugiin.go.jp/' };
+    const mhlw: Entity = { key: 'mhlw', name: '厚生労働省', kind: 'agency', file: 'agencies', category: 'ministry', official_url: 'https://www.mhlw.go.jp/' };
+    expect(allowedTypes(shugiin)).toEqual(['general', 'petition']);
+    expect(allowedTypes(mhlw)).toEqual(['general', 'feedback']);
+    const petition = { type: 'petition' as const, department: '議会事務局 議事係', phone: '03-3647-9111', source_url: 'https://www.city.koto.lg.jp/gikai/seigan.html' };
+    const k = applyAction(records(), koto, { kind: 'add', input: input(petition) }, opts);
+    expect(k.errors).toEqual([]);
+    expect(koto1(k.records).map((c) => c.id)).toEqual(['131083-general', '131083-petition']);
+    const s = applyAction([], shugiin, { kind: 'add', input: input({ ...petition, department: '衆議院議事部請願課', phone: '03-3581-5111', source_url: 'https://www.shugiin.go.jp/seigan.htm' }) }, opts);
+    expect(s.errors).toEqual([]);
+    expect(s.records[0].contacts[0].id).toBe('shugiin-petition');
+    expect(applyAction([], mhlw, { kind: 'add', input: input({ ...petition, source_url: 'https://www.mhlw.go.jp/' }) }, opts).errors.join()).toContain('サイトに出ません');
   });
 
   it('何も変えなければ記録を残さない', () => {

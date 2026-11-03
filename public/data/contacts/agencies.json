@@ -788,6 +788,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "shugiin-petition",
+    "type": "petition",
+    "department": "衆議院議事部請願課",
+    "phone": "03-3581-5111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "100-0014",
+    "postal_address": "東京都千代田区永田町1-7-1",
+    "hours": null,
+    "source_url": "https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/tetuzuki/seigan.htm",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "電話は代表番号です。内線は、請願が68000・68001、陳情が68012・68013。請願書は議員の紹介で出します（提出の手続きは議員・議員秘書が行います）。陳情書は「衆議院議長宛」で郵送できます。"
    }
   ]
  },
@@ -809,6 +824,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "sangiin-petition",
+    "type": "petition",
+    "department": "議長あて（議員の紹介で提出）",
+    "phone": "03-3581-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "100-0014",
+    "postal_address": "東京都千代田区永田町1-7-1",
+    "hours": null,
+    "source_url": "https://www.sangiin.go.jp/jpn/annai/seigan_ikenn/seigan.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "電話は大代表です。請願書は議員の紹介で出します（提出の手続きは議員・議員秘書が行います）。"
    }
   ]
  }

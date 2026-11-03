@@ -230,6 +230,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "172031-petition",
+    "type": "petition",
+    "department": "小松市議会",
+    "phone": "0761-24-8138",
+    "email": null,
+    "form_url": null,
+    "postal_code": "923-8650",
+    "postal_address": "石川県小松市小馬出町91番地",
+    "hours": null,
+    "source_url": "https://www.city.komatsu.lg.jp/citycouncil/sub/5/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -383,6 +398,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "172065-petition",
+    "type": "petition",
+    "department": "加賀市議会事務局",
+    "phone": "0761-72-7965",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kaga.ishikawa.jp/gikai/oshirase/7051.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -475,6 +505,21 @@
     "id": "172090-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "076-283-7126",
+    "email": null,
+    "form_url": null,
+    "postal_code": "929-1195",
+    "postal_address": "石川県かほく市宇野気ニ81番地",
+    "hours": null,
+    "source_url": "https://www.city.kahoku.lg.jp/006/635/d001333.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "172090-petition",
+    "type": "petition",
+    "department": "かほく市議会事務局",
     "phone": "076-283-7126",
     "email": null,
     "form_url": null,
@@ -637,6 +682,21 @@
     "source_url": "https://www.city.nonoichi.lg.jp/life/4/40/",
     "verified_at": null,
     "status": "unverified",
+    "note": null
+   },
+   {
+    "id": "172120-petition",
+    "type": "petition",
+    "department": "野々市市議会事務局",
+    "phone": "076-227-6141",
+    "email": null,
+    "form_url": null,
+    "postal_code": "921-8510",
+    "postal_address": "野々市市三納一丁目1番地庶務調査係",
+    "hours": null,
+    "source_url": "https://www.city.nonoichi.lg.jp/site/sub-gikai/1378.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -806,6 +866,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "173657-petition",
+    "type": "petition",
+    "department": "内灘町議会事務局",
+    "phone": "076-286-6715",
+    "email": null,
+    "form_url": null,
+    "postal_code": "920-0292",
+    "postal_address": "石川県河北郡内灘町字大学1丁目2番地1",
+    "hours": null,
+    "source_url": "https://www.town.uchinada.lg.jp/site/gikai/1122.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -854,6 +929,21 @@
     "postal_address": "石川県羽咋郡志賀町末吉千古1番地1 本庁舎2",
     "hours": null,
     "source_url": "https://www.town.shika.lg.jp/adv/ba.php?id=11",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "173843-petition",
+    "type": "petition",
+    "department": "志賀町議会事務局",
+    "phone": "0767-32-9270",
+    "email": null,
+    "form_url": null,
+    "postal_code": "925-0198",
+    "postal_address": "石川県羽咋郡志賀町末吉千古1番地1 本庁舎2",
+    "hours": null,
+    "source_url": "https://www.town.shika.lg.jp/site/gikai/1082.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1007,6 +1097,21 @@
     "postal_address": "石川県鳳珠郡穴水町字川島ラの174番地",
     "hours": null,
     "source_url": "https://www.town.anamizu.lg.jp/site/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "174611-petition",
+    "type": "petition",
+    "department": "穴水町議会事務局",
+    "phone": "0768-52-3700",
+    "email": null,
+    "form_url": null,
+    "postal_code": "927-8601",
+    "postal_address": "石川県鳳珠郡穴水町字川島ラの174番地",
+    "hours": null,
+    "source_url": "https://www.town.anamizu.lg.jp/site/gikai/100413.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null

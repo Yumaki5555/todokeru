@@ -1,0 +1,482 @@
+{
+ "batch": "petition-muni-35-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "352012",
+   "name": "下関市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "下関市議会 議事課",
+     "phone": "083-231-4121",
+     "email": "no-reply@pref.yamaguchi.lg.jp",
+     "form_url": null,
+     "postal_code": "750-8521",
+     "postal_address": "下関市南部町1番1号",
+     "hours": null,
+     "source_url": "https://www.city.shimonoseki.lg.jp/site/gikai/3010.html",
+     "evidence": "議事課代表 〒750-8521下関市南部町1番1号 Tel:083-231-4121Fax:083-",
+     "note": "ページの題名：請願・陳情の出し方 - 下関市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "352021",
+   "name": "宇部市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "宇部市議会 議事総務課",
+     "phone": "0836-34-8805",
+     "email": null,
+     "form_url": null,
+     "postal_code": "755-8601",
+     "postal_address": "宇部市常盤町一丁目7番1号",
+     "hours": null,
+     "source_url": "https://www.city.ube.yamaguchi.jp/shisei/1006704/1006804.html",
+     "evidence": "議事総務課 〒755-8601 宇部市常…行事調整、その他庶務に関すること 電話番号:0836-34-8805 ファクス番号:",
+     "note": "ページの題名：10 市議会への請願・陳情の提出|宇部市公式ウェブサイト／同じ組織のほかの番号：0836-34-8812"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "352039",
+   "name": "山口市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "山口市議会 議事担当",
+     "phone": "083-934-2855",
+     "email": null,
+     "form_url": null,
+     "postal_code": "753-8650",
+     "postal_address": "山口市亀山町2番1号 山口市役所本庁舎6階",
+     "hours": null,
+     "source_url": "https://www.city.yamaguchi.lg.jp/site/gikai/114510.html",
+     "evidence": "議事担当 Tel:083-934-2855Fax:083-",
+     "note": "ページの題名：請願・陳情・要望の出し方 - 山口市ウェブサイト／同じ組織のほかの番号：083-934-2854"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "352047",
+   "name": "萩市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "萩市議会 議事係",
+     "phone": "0838-25-3365",
+     "email": null,
+     "form_url": null,
+     "postal_code": "758-8555",
+     "postal_address": "山口県萩市大字江向510番地",
+     "hours": null,
+     "source_url": "https://www.city.hagi.lg.jp/site/gikai/12.html",
+     "evidence": "議事係 Tel:0838-25-3365",
+     "note": "ページの題名：請願・陳情 - 萩市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "352063",
+   "name": "防府市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "防府市議会",
+     "phone": "0835-25-2182",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hofu.yamaguchi.jp/site/sigikai/seigan-tinjyo.html",
+     "evidence": "議会棟) 電話(0835)25-2182 Fax(083",
+     "note": "ページの題名：請願や陳情・要望をすることができます - 防府市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "352071",
+   "name": "下松市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "下松市議会 議事総務課議事総務係",
+     "phone": "0833-45-1874",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kudamatsu.lg.jp/gikai/gikai/seigan.html",
+     "evidence": "議事総務課議事総務係 山口県下松市大手町3丁目3番3号 電話番号:0833-45-1874",
+     "note": "ページの題名：山口県下松市/請願・陳情をされるみなさんへ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "352080",
+   "name": "岩国市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.iwakunishigikai.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "352101",
+   "name": "光市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "光市議会事務局",
+     "phone": "0833-72-1611",
+     "email": null,
+     "form_url": null,
+     "postal_code": "743-8501",
+     "postal_address": "光市中央六丁目1番1号",
+     "hours": null,
+     "source_url": "https://www.city.hikari.lg.jp/shisei/shimin/shigikai/8732.html",
+     "evidence": "議会事務局 住所:〒743-8501 光市中央六丁目1番1号 電話番号:0833-72-1611(議事係)、16",
+     "note": "ページの題名：請願・陳情/光市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "352110",
+   "name": "長門市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "長門市議会事務局",
+     "phone": "0837-23-1248",
+     "email": null,
+     "form_url": null,
+     "postal_code": "759-4192",
+     "postal_address": "長門市東深川1339番地2",
+     "hours": null,
+     "source_url": "https://www.city.nagato.yamaguchi.jp/site/gikai/1462.html",
+     "evidence": "議会事務局 〒759-4192長門市東深川1339番地2 Tel:0837‐23‐1248Fax:0837",
+     "note": "ページの題名：市議会への請願・陳情について - 長門市議会 - 長門市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "352128",
+   "name": "柳井市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "柳井市議会事務局",
+     "phone": "0820-22-2129",
+     "email": null,
+     "form_url": null,
+     "postal_code": "742-8714",
+     "postal_address": "山口県柳井市南町一丁目10番2号 庁舎5階",
+     "hours": null,
+     "source_url": "https://www.city-yanai.jp/site/shigikai/seigan.html",
+     "evidence": "議会事務局議会事務局 〒742-8714山口県柳井市南町一丁目10番2号 庁舎5階 Tel:0820-22-2129",
+     "note": "ページの題名：請願・陳情書の書き方 - 柳井市議会 - 柳井市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "352136",
+   "name": "美祢市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www2.city.mine.lg.jp/gyosei/shigikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "352152",
+   "name": "周南市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "周南市議会 議事担当",
+     "phone": "0834-22-8503",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.shunan.lg.jp/site/gk/4718.html",
+     "evidence": "議事担当 Tel:0834-22-8503",
+     "note": "ページの題名：請願・陳情 - 山口県周南市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "352161",
+   "name": "山陽小野田市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "山陽小野田市議会事務局",
+     "phone": "0836-82-1182",
+     "email": null,
+     "form_url": null,
+     "postal_code": "756-8601",
+     "postal_address": "山口県山陽小野田市日の出一丁目1番1号 庁舎3階",
+     "hours": null,
+     "source_url": "https://www.city.sanyo-onoda.lg.jp/site/sigikai/seigan.html",
+     "evidence": "議会事務局 〒756-8601山口県山陽小野田市日の出一丁目1番1号 庁舎3階 代表 Tel:0836-82-1182",
+     "note": "ページの題名：請願と陳情 - 山口県山陽小野田市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "353051",
+   "name": "周防大島町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "周防大島町議会事務局議事課",
+     "phone": "0820-74-1003",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.suo-oshima.lg.jp/site/gikai/2389.html",
+     "evidence": "議会事務局議事課議事班 Tel:0820-74-1003Fax:0820",
+     "note": "ページの題名：請願や陳情があるとき - 周防大島町議会 - 周防大島町公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "353213",
+   "name": "和木町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "和木町議会事務局",
+     "phone": "0827-52-2137",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.waki.lg.jp/site/gikai/332.html",
+     "evidence": "議会事務局代表 〒740-8501 山口県玖珂郡和木町和木1丁目1番1号Tel:0827-52-2137Fax:0827",
+     "note": "ページの題名：請願と陳情 - 和木町ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "353418",
+   "name": "上関町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kaminoseki.lg.jp/%e7%b5%84%e7%b9%94%e5%9b%b3%e3%83%bb%e9%80%a3%e7%b5%a1%e5%85%88.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "353434",
+   "name": "田布施町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.tabuse.lg.jp/site/gikai/list9-83.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "353442",
+   "name": "平生町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hirao.lg.jp/soshiki/gikai/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "355020",
+   "name": "阿武町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.abu.lg.jp/guide//?id=gikai",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

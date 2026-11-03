@@ -49,6 +49,21 @@
     "note": null
    },
    {
+    "id": "010006-petition",
+    "type": "petition",
+    "department": "北海道議会事務局議事課",
+    "phone": "011-204-5685",
+    "email": null,
+    "form_url": null,
+    "postal_code": "060-0002",
+    "postal_address": "札幌市中央区北2条西6丁目",
+    "hours": null,
+    "source_url": "https://www.gikai.pref.hokkaido.lg.jp/toiawase/seigan1.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "010006-police",
     "type": "police",
     "department": "《北海道警察本部》代表電話",
@@ -132,14 +147,14 @@
    {
     "id": "011002-feedback",
     "type": "feedback",
-    "department": "札幌市総務局広報部広報課",
-    "phone": "011-211-2036",
+    "department": "市民の声を聞く課",
+    "phone": "011-211-2042",
     "email": null,
-    "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "form_url": "https://www.city.sapporo.jp/somu/shiminnokoe/iken/shiseiteian.html",
+    "postal_code": "060-8611",
+    "postal_address": "札幌市中央区北1条西2丁目 札幌市役所本庁舎1階",
     "hours": null,
-    "source_url": "https://www.city.sapporo.jp/koho_kocho/index.html",
+    "source_url": "https://www.city.sapporo.jp/somu/shiminnokoe/iken/teian.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -155,6 +170,21 @@
     "postal_address": "札幌市中央区北1条西2丁目札幌市役所本庁舎16階",
     "hours": null,
     "source_url": "https://www.city.sapporo.jp/gikai/html/koho.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "011002-petition",
+    "type": "petition",
+    "department": "札幌市議会事務局",
+    "phone": "011-211-3162",
+    "email": null,
+    "form_url": null,
+    "postal_code": "060-8611",
+    "postal_address": "札幌市中央区北1条西2丁目 札幌市役所本庁舎16階",
+    "hours": null,
+    "source_url": "https://www.city.sapporo.jp/gikai/html/seiganchinjo.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -275,6 +305,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "012033-petition",
+    "type": "petition",
+    "department": "小樽市議会事務局",
+    "phone": "0134-32-4111",
+    "email": "gikai@city.otaru.lg.jp",
+    "form_url": null,
+    "postal_code": "047-8660",
+    "postal_address": "小樽市花園2丁目12番1号",
+    "hours": null,
+    "source_url": "https://www.city.otaru.lg.jp/docs/2020120100228/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -315,6 +360,21 @@
    {
     "id": "012041-assembly",
     "type": "assembly",
+    "department": "旭川市議会事務局議事調査課",
+    "phone": "0166-25-6318",
+    "email": null,
+    "form_url": null,
+    "postal_code": "070-8525",
+    "postal_address": "旭川市7条通9丁目 総合庁舎8階",
+    "hours": null,
+    "source_url": "https://www.city.asahikawa.hokkaido.jp/council/6300/d052622.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "012041-petition",
+    "type": "petition",
     "department": "旭川市議会事務局議事調査課",
     "phone": "0166-25-6318",
     "email": null,
@@ -428,6 +488,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "012068-petition",
+    "type": "petition",
+    "department": "釧路市議会事務局",
+    "phone": "0154-31-4581",
+    "email": "gi-gikai@city.kushiro.lg.jp",
+    "form_url": null,
+    "postal_code": "085-8505",
+    "postal_address": "北海道釧路市黒金町7丁目5番地",
+    "hours": null,
+    "source_url": "https://www.city.kushiro.lg.jp/shigikai/seigan_chinjyou/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -469,6 +544,21 @@
     "id": "012076-assembly",
     "type": "assembly",
     "department": "議会事務局総務課議事係",
+    "phone": "0155-65-4221",
+    "email": null,
+    "form_url": null,
+    "postal_code": "080-8670",
+    "postal_address": "帯広市西5条南7丁目1番地",
+    "hours": null,
+    "source_url": "https://www.city.obihiro.hokkaido.jp/shisei/shigikai/tetsuduki/1001276.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "012076-petition",
+    "type": "petition",
+    "department": "帯広市議会事務局総務課議事係",
     "phone": "0155-65-4221",
     "email": null,
     "form_url": null,
@@ -632,6 +722,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "012106-petition",
+    "type": "petition",
+    "department": "岩見沢市議会事務局",
+    "phone": "0126-35-4907",
+    "email": null,
+    "form_url": null,
+    "postal_code": "068-8686",
+    "postal_address": "北海道岩見沢市鳩が丘1丁目1番1号",
+    "hours": null,
+    "source_url": "https://www.city.iwamizawa.hokkaido.jp/soshiki/gikai_jimukyoku/iwamizawashigikai/3483.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -680,6 +785,21 @@
     "postal_address": "網走市南5条東1丁目10番地",
     "hours": null,
     "source_url": "https://www.city.abashiri.hokkaido.jp/adv/ba.php?id=12",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "012114-petition",
+    "type": "petition",
+    "department": "網走市議会事務局総務議事係",
+    "phone": "0152-44-3326",
+    "email": null,
+    "form_url": null,
+    "postal_code": "093-8555",
+    "postal_address": "網走市南5条東1丁目10番地",
+    "hours": null,
+    "source_url": "https://www.city.abashiri.hokkaido.jp/site/gikai/1565.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -785,6 +905,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "012131-petition",
+    "type": "petition",
+    "department": "苫小牧市議会事務局",
+    "phone": "0144-32-6785",
+    "email": null,
+    "form_url": null,
+    "postal_code": "053-8722",
+    "postal_address": "北海道苫小牧市旭町4丁目5番6号 市役所南庁舎10階",
+    "hours": null,
+    "source_url": "https://www.city.tomakomai.hokkaido.jp/gikai/seigan/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -833,6 +968,21 @@
     "postal_address": "北海道稚内市中央3丁目2番1号 稚内市議会事務局",
     "hours": null,
     "source_url": "https://www.city.wakkanai.hokkaido.jp/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "012149-petition",
+    "type": "petition",
+    "department": "稚内市議会グループ",
+    "phone": "0162-23-6489",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.wakkanai.hokkaido.jp/gikai/boucho/seiganchinjo/",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -989,6 +1139,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "012173-petition",
+    "type": "petition",
+    "department": "江別市議会 総務課議事係",
+    "phone": "011-381-1051",
+    "email": null,
+    "form_url": null,
+    "postal_code": "067-8674",
+    "postal_address": "北海道江別市高砂町6番地",
+    "hours": null,
+    "source_url": "https://www.city.ebetsu.hokkaido.jp/site/gikai/2004.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1132,6 +1297,21 @@
     "id": "012203-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0165-23-3009",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.shibetsu.lg.jp/soshikikarasagasu/gikaijimukyoku/1526.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "012203-petition",
+    "type": "petition",
+    "department": "士別市議会事務局",
     "phone": "0165-23-3009",
     "email": null,
     "form_url": null,
@@ -1361,6 +1541,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "012246-petition",
+    "type": "petition",
+    "department": "千歳市議会事務局総務課",
+    "phone": "0123-24-0773",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.chitose.lg.jp/c70/1002791/1002819/1002820/1003586.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1412,6 +1607,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "012254-petition",
+    "type": "petition",
+    "department": "滝川市議会事務局",
+    "phone": "0125-28-8048",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.takikawa.lg.jp/page/2853.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1460,6 +1670,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.sunagawa.hokkaido.jp/shisei/shigikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "012262-petition",
+    "type": "petition",
+    "department": "砂川市議会 議事係",
+    "phone": "0125-74-8796",
+    "email": null,
+    "form_url": null,
+    "postal_code": "073-0195",
+    "postal_address": "北海道砂川市西7条北2丁目1-1",
+    "hours": null,
+    "source_url": "https://www.city.sunagawa.hokkaido.jp/shisei/shigikai/seigan_chinjou.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1577,6 +1802,21 @@
     "postal_address": "北海道深川市2条17番17号",
     "hours": null,
     "source_url": "https://www.city.fukagawa.lg.jp/cms/section/gikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "012289-petition",
+    "type": "petition",
+    "department": "深川市議会庶務係",
+    "phone": "0164-26-2282",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.fukagawa.lg.jp/gikai/about/i1r7hk00000004o5.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1784,6 +2024,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "012335-petition",
+    "type": "petition",
+    "department": "伊達市議会庶務課総務議事係",
+    "phone": "0142-82-3348",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.date.hokkaido.jp/gikai/detail/00000440.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1883,6 +2138,21 @@
     "postal_address": "北海道石狩市花川北6条1丁目30番地2 石狩市役所5階",
     "hours": null,
     "source_url": "https://www.city.ishikari.hokkaido.jp/shisei/shiseiunei/1001908/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "012351-petition",
+    "type": "petition",
+    "department": "石狩市議会事務局",
+    "phone": "0133-72-3181",
+    "email": null,
+    "form_url": null,
+    "postal_code": "061-3292",
+    "postal_address": "北海道石狩市花川北6条1丁目30番地2 石狩市役所5階",
+    "hours": null,
+    "source_url": "https://www.city.ishikari.hokkaido.jp/shisei/shiseiunei/1001908/1001984/1004334.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -2477,6 +2747,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "013463-petition",
+    "type": "petition",
+    "department": "八雲町議会事務局",
+    "phone": "0137-62-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "049-3192",
+    "postal_address": "北海道二海郡八雲町住初町138番地",
+    "hours": null,
+    "source_url": "https://www.town.yakumo.lg.jp/site/gikai/content0644.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -3761,6 +4046,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "014061-petition",
+    "type": "petition",
+    "department": "古平町議会事務局",
+    "phone": "0135-42-2170",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.furubira.lg.jp/town/detail.php?id=60",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -3809,6 +4109,21 @@
     "postal_address": "北海道余市郡仁木町西町1丁目36番地1",
     "hours": null,
     "source_url": "https://www.town.niki.hokkaido.jp/section/gikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "014079-petition",
+    "type": "petition",
+    "department": "仁木町議会 総務議事係",
+    "phone": "0135-32-3954",
+    "email": "gikai02-niki@town.niki.hokkaido.jp",
+    "form_url": null,
+    "postal_code": "048-2492",
+    "postal_address": "北海道余市郡仁木町西町1丁目36番地1",
+    "hours": null,
+    "source_url": "https://www.town.niki.hokkaido.jp/section/gikai/irv97600000004we.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -4302,6 +4617,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "014303-petition",
+    "type": "petition",
+    "department": "月形町議会事務局",
+    "phone": "0126-53-2321",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.tsukigata.hokkaido.jp/page/1608.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -4572,6 +4902,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "014362-petition",
+    "type": "petition",
+    "department": "雨竜町議会担当",
+    "phone": "0125-77-2215",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.uryu.hokkaido.jp/docs/seigan.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -4620,6 +4965,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.town.hokuryu.hokkaido.jp/chosei/gikai-gaiyou/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "014371-petition",
+    "type": "petition",
+    "department": "北竜町議会事務局",
+    "phone": "0164-34-7035",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.hokuryu.hokkaido.jp/chosei/seigan-tinjyou/",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -4817,6 +5177,21 @@
     "id": "014541-assembly",
     "type": "assembly",
     "department": "議会事務局議事係",
+    "phone": "0166-84-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.tohma.hokkaido.jp/parliament/1426",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "014541-petition",
+    "type": "petition",
+    "department": "当麻町議会事務局議事係",
     "phone": "0166-84-2111",
     "email": null,
     "form_url": null,
@@ -6144,6 +6519,21 @@
     "note": null
    },
    {
+    "id": "015113-petition",
+    "type": "petition",
+    "department": "猿払村議会事務局",
+    "phone": "01635-2-3366",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.vill.sarufutsu.hokkaido.jp/hotnews/detail/00004430.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "015113-education",
     "type": "education",
     "department": "教育委員会",
@@ -6514,6 +6904,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "015199-petition",
+    "type": "petition",
+    "department": "利尻富士町議会事務局",
+    "phone": "0163-82-2512",
+    "email": "gikai@town.rishirifuji.hokkaido.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.rishirifuji.hokkaido.jp/rishirifuji/1353.htm",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -6616,6 +7021,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "015431-petition",
+    "type": "petition",
+    "department": "美幌町議会事務局",
+    "phone": "0152-77-6559",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.bihoro.hokkaido.jp/site/gikai/9712.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -6657,6 +7077,21 @@
     "id": "015440-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0152-77-8393",
+    "email": null,
+    "form_url": null,
+    "postal_code": "092-0292",
+    "postal_address": "北海道網走郡津別町字幸町41",
+    "hours": null,
+    "source_url": "https://www.town.tsubetsu.hokkaido.jp/choseijoho/tsubetsugikai/1743.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "015440-petition",
+    "type": "petition",
+    "department": "津別町議会事務局",
     "phone": "0152-77-8393",
     "email": null,
     "form_url": null,
@@ -6784,6 +7219,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "015466-petition",
+    "type": "petition",
+    "department": "清里町議会事務局",
+    "phone": "0152-25-2188",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kiyosato.hokkaido.jp/administration/?content=360",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -6832,6 +7282,21 @@
     "postal_address": "北海道斜里郡小清水町元町2丁目1番1号",
     "hours": null,
     "source_url": "https://www.town.koshimizu.hokkaido.jp/banner_click.php?url=%2Fgikai%2F&id=24&type=3",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "015474-petition",
+    "type": "petition",
+    "department": "小清水町議会",
+    "phone": "0152-62-4477",
+    "email": null,
+    "form_url": null,
+    "postal_code": "099-3698",
+    "postal_address": "北海道斜里郡小清水町元町2丁目1番1号",
+    "hours": null,
+    "source_url": "https://www.town.koshimizu.hokkaido.jp/gikai/detail/00000323.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -7324,6 +7789,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "015636-petition",
+    "type": "petition",
+    "department": "雄武町議会事務局",
+    "phone": "0158-84-2121",
+    "email": null,
+    "form_url": null,
+    "postal_code": "098-1792",
+    "postal_address": "北海道紋別郡雄武町本町",
+    "hours": null,
+    "source_url": "https://www.town.oumu.hokkaido.jp/gyoseijoho/omuchogikai/886.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -7579,6 +8059,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "015814-petition",
+    "type": "petition",
+    "department": "厚真町議会事務局",
+    "phone": "0145-27-2485",
+    "email": null,
+    "form_url": null,
+    "postal_code": "059-1692",
+    "postal_address": "北海道勇払郡厚真町京町120番地",
+    "hours": null,
+    "source_url": "https://www.town.atsuma.lg.jp/site/gikai/1559.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -7780,6 +8275,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.town.hidaka.hokkaido.jp/council/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "016012-petition",
+    "type": "petition",
+    "department": "日高町議会グループ",
+    "phone": "01456-2-6500",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.hidaka.hokkaido.jp/administration/?content=306",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -8293,6 +8803,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "016349-petition",
+    "type": "petition",
+    "department": "鹿追町議会事務局",
+    "phone": "0156-66-4039",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.shikaoi.lg.jp/gikai/seigan/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -8497,6 +9022,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "016381-petition",
+    "type": "petition",
+    "department": "中札内村議会事務局",
+    "phone": "0155-67-2497",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.vill.nakasatsunai.hokkaido.jp/gikai/bouchou/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -8599,6 +9139,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": "出典ページを自動で開けなかったため未確認"
+   },
+   {
+    "id": "016411-petition",
+    "type": "petition",
+    "department": "大樹町議会事務局",
+    "phone": "01558-6-5035",
+    "email": null,
+    "form_url": null,
+    "postal_code": "089-2195",
+    "postal_address": "北海道広尾郡大樹町東本通33番地",
+    "hours": null,
+    "source_url": "https://www.town.taiki.hokkaido.jp/choseijoho/taikichogikai/1693.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -8647,6 +9202,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.town.hiroo.lg.jp/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "016420-petition",
+    "type": "petition",
+    "department": "広尾町議会事務局",
+    "phone": "01558-2-0180",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.hiroo.lg.jp/gikai/bouchou/",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -8701,6 +9271,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "016438-petition",
+    "type": "petition",
+    "department": "幕別町議会事務局",
+    "phone": "0155-54-6626",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.makubetsu.lg.jp/gikai/gikainews/seigan/2041.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -8751,6 +9336,21 @@
     "source_url": "https://www.town.hokkaido-ikeda.lg.jp/kikan/gikai/",
     "verified_at": null,
     "status": "unverified",
+    "note": null
+   },
+   {
+    "id": "016446-petition",
+    "type": "petition",
+    "department": "池田町議会 議事係",
+    "phone": "015-572-3161",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.hokkaido-ikeda.lg.jp/kikan/gikai/chogikai/959.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -8851,6 +9451,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.town.honbetsu.hokkaido.jp/web/parliament/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "016462-petition",
+    "type": "petition",
+    "department": "本別町議会事務局",
+    "phone": "0156-22-8123",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.honbetsu.hokkaido.jp/web/parliament/parliament09.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -9310,6 +9925,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.vill.tsurui.lg.jp/muranoshokai_sonsei/tsuruimuragikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "016675-petition",
+    "type": "petition",
+    "department": "鶴居村議会事務局",
+    "phone": "0154-64-2511",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.vill.tsurui.lg.jp/muranoshokai_sonsei/tsuruimuragikai/1137.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null

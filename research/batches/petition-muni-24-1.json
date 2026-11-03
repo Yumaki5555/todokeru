@@ -1,0 +1,732 @@
+{
+ "batch": "petition-muni-24-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "242012",
+   "name": "津市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.gikai.city.tsu.mie.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "242021",
+   "name": "四日市市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.yokkaichi.lg.jp/cgi-bin/jump.cgi?http://www.city.yokkaichi.mie.jp/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "242039",
+   "name": "伊勢市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "伊勢市議会事務局",
+     "phone": "0596-21-5630",
+     "email": null,
+     "form_url": null,
+     "postal_code": "516-8601",
+     "postal_address": "伊勢市岩渕1丁目7番29号 本館3階",
+     "hours": null,
+     "source_url": "https://www.city.ise.mie.jp/gikai/kaigi/seigan/index.html",
+     "evidence": "議会事務局 〒516-8601 伊勢市岩渕1丁目7番29号 本館3階 電話番号:0596-21-5630 ファクス:05",
+     "note": "ページの題名：請願・陳情|伊勢市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "242047",
+   "name": "松阪市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "松阪市議会事務局",
+     "phone": "0598-53-4434",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.matsusaka.mie.jp/site/gikai/seigantinjyou.html",
+     "evidence": "議会事務局(電話0598-53-4434)までお問い合わ",
+     "note": "ページの題名：請願・陳情について - 松阪市議会 - お肉のまち 松阪市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "242055",
+   "name": "桑名市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "桑名市議会事務局",
+     "phone": "0594-24-1304",
+     "email": null,
+     "form_url": null,
+     "postal_code": "511-8601",
+     "postal_address": "三重県桑名市中央町二丁目37番地",
+     "hours": null,
+     "source_url": "https://www.city.kuwana.lg.jp/gikai/bouchou/chinjou.html",
+     "evidence": "議会事務局〒511-8601 三重県桑名市中央町二丁目37番地 電話番号 : 0594-24-1304",
+     "note": "ページの題名：請願・陳情/桑名市議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "242071",
+   "name": "鈴鹿市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "鈴鹿市議会 議事課",
+     "phone": "059-382-7600",
+     "email": null,
+     "form_url": null,
+     "postal_code": "513-8701",
+     "postal_address": "三重県鈴鹿市神戸一丁目18番18号",
+     "hours": null,
+     "source_url": "https://www.city.suzuka.lg.jp/gikai/1007681.html",
+     "evidence": "議事課 〒513-8701 三重県鈴鹿市神戸一丁目18番18号 電話番号:059-382-7600 ファクス番号:",
+     "note": "ページの題名：請願と陳情|鈴鹿市公式ウェブサイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "242080",
+   "name": "名張市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nabari.lg.jp/110/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "242098",
+   "name": "尾鷲市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "尾鷲市役所議会事務局",
+     "phone": "0597-23-8211",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.owase.lg.jp/0000000797.html",
+     "evidence": "尾鷲市役所議会事務局議会事務局議事・調査係 電話: 0597-23-8211",
+     "note": "ページの題名：請願・陳情について | 尾鷲市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "242101",
+   "name": "亀山市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "亀山市議会事務局",
+     "phone": "0595-84-5059",
+     "email": "gijichousa@city.kameyama.mie.jp",
+     "form_url": null,
+     "postal_code": "519-0195",
+     "postal_address": "三重県亀山市本丸町577番地",
+     "hours": null,
+     "source_url": "https://www.city.kameyama.mie.jp/gikai/info/2014122800927/seigan.html",
+     "evidence": "議会事務局 〒519-0195 三重県亀山市本丸町577番地 TEL:0595-84-5059(直通) FAX",
+     "note": "ページの題名：請願・陳情 | 亀山市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "242110",
+   "name": "鳥羽市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "鳥羽市議会 議事総務係",
+     "phone": "0599-25-1206",
+     "email": null,
+     "form_url": null,
+     "postal_code": "517-0011",
+     "postal_address": "三重県鳥羽市鳥羽三丁目1番1号",
+     "hours": null,
+     "source_url": "https://www.city.toba.mie.jp/gyosei_joho/shigikai/5/4995.html",
+     "evidence": "議事総務係 〒517-0011 三重県鳥羽市鳥羽三丁目1番1号 電話番号:0599-25-1206",
+     "note": "ページの題名：傍聴と請願・陳情/鳥羽市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "242128",
+   "name": "熊野市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "熊野市議会事務局",
+     "phone": "0597-89-4111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "519-4392",
+     "postal_address": "三重県熊野市井戸町796",
+     "hours": null,
+     "source_url": "https://www.city.kumano.lg.jp/administration/?content=146",
+     "evidence": "議会事務局 〒519-4392 三重県熊野市井戸町796 電話番号:0597-89-4111",
+     "note": "ページの題名：請願・陳情|熊野市議会|熊野市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "242144",
+   "name": "いなべ市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "いなべ市議会事務局 議事課",
+     "phone": "0594-86-7848",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.inabe.mie.jp/gikai/1014808/1002623.html",
+     "evidence": "議会事務局 議事課 [いなべ市役所] 電話:0594-86-7848",
+     "note": "ページの題名：請願・陳情の提出|いなべ市公式ウェブサイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "242152",
+   "name": "志摩市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "志摩市議会 議事課",
+     "phone": "0599-44-0250",
+     "email": null,
+     "form_url": null,
+     "postal_code": "517-0592",
+     "postal_address": "三重県志摩市阿児町鵜方3098番地22",
+     "hours": null,
+     "source_url": "https://www.city.shima.mie.jp/shimashigikai/1454325026676.html",
+     "evidence": "議事課 〒517-0592 三重県志摩市阿児町鵜方3098番地22 電話番号:0599-44-0250",
+     "note": "ページの題名：請願・陳情/志摩市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "242161",
+   "name": "伊賀市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "伊賀市議会事務局",
+     "phone": "0595-22-9687",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.iga.lg.jp/0000000188.html",
+     "evidence": "議会事務局 電話: 0595-22-9687",
+     "note": "ページの題名：請願・陳情について | 三重県伊賀市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "243035",
+   "name": "木曽岬町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kisosaki.lg.jp/soshiki/8-6-0-0-0_1.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "243248",
+   "name": "東員町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "東員町議会事務局",
+     "phone": "0594-86-2813",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.toin.lg.jp/gikai/2464.html",
+     "evidence": "議会事務局 電話番号:0594-86-2813",
+     "note": "ページの題名：陳情・請願について/東員町ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "243418",
+   "name": "菰野町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "菰野町議会",
+     "phone": "059-391-1170",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://gikai-town-komono.com/petition/",
+     "evidence": "投稿フィード コメントフィード WordPress.org 059-391-1170",
+     "note": "ページの題名：請願と陳情 | 菰野町議会公式サイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "243434",
+   "name": "朝日町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www2.town.asahi.mie.jp/www/genre/1539742925334/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "243442",
+   "name": "川越町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kawagoe.mie.jp/gyousei/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "244414",
+   "name": "多気町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.taki.mie.jp/life/kakukayori/5292.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "244422",
+   "name": "明和町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.meiwa.mie.jp/contact.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "244431",
+   "name": "大台町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "大台町議会事務局",
+     "phone": "0598-82-3790",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.odaitown.jp/soshiki/yakuba/3/4/794.html",
+     "evidence": "議会事務局 〒519-2404 三重県多気郡大台町佐原750番地 電話:0598-82-3790",
+     "note": "ページの題名：請願・陳情について/大台町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "244619",
+   "name": "玉城町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://kizuna.town.tamaki.mie.jp/chosei/senkyogikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "244708",
+   "name": "度会町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.watarai.lg.jp/category_list.php?frmCd=8-0-0-0-0",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "244716",
+   "name": "大紀町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "大紀町議会事務局",
+     "phone": "0598-86-2248",
+     "email": null,
+     "form_url": null,
+     "postal_code": "519-2703",
+     "postal_address": "三重県度会郡大紀町滝原1610番地1",
+     "hours": null,
+     "source_url": "https://www.town.taiki.mie.jp/soshiki/gikai/gyomu/gikai/323.html",
+     "evidence": "議会事務局 〒519-2703 三重県度会郡大紀町滝原1610番地1 電話番号:0598-86-2248",
+     "note": "ページの題名：議会に対して請願・陳情があるとき/大紀町ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "244724",
+   "name": "南伊勢町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "南伊勢町議会事務局",
+     "phone": "0599-66-1781",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.minamiise.lg.jp/admin/shoshiki/gikaijimu/seiganntoyouboutinnjyounituite/index.html",
+     "evidence": "議会事務局(南勢庁舎) 〒516-0194 三重県度会郡南伊勢町五ヶ所浦3057 電話:0599-66-1781",
+     "note": "ページの題名：請願と要望・陳情について/南伊勢町／同じ組織のほかの番号：0599-66-1111"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "245437",
+   "name": "紀北町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.mie-kihoku.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "245615",
+   "name": "御浜町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.mihama.mie.jp/640.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "245623",
+   "name": "紀宝町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kiho.lg.jp/government/council/?page_id=140",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

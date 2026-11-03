@@ -1,0 +1,657 @@
+{
+ "batch": "petition-muni-26-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "261009",
+   "name": "京都市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kyoto.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "262013",
+   "name": "福知山市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.fukuchiyama.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "262021",
+   "name": "舞鶴市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "舞鶴市役所議会事務局総務課",
+     "phone": "0773-66-1060",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.maizuru.kyoto.jp/sigikai/0000001207.html",
+     "evidence": "舞鶴市役所議会事務局総務課 電話: 0773-66-1060",
+     "note": "ページの題名：請願・陳情の方法 | 舞鶴市 公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "262030",
+   "name": "綾部市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ayabe.lg.jp/0000002051.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "262048",
+   "name": "宇治市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "宇治市議会事務局",
+     "phone": "0774-20-8747",
+     "email": null,
+     "form_url": null,
+     "postal_code": "611-8501",
+     "postal_address": "京都府宇治市宇治琵琶33番地",
+     "hours": null,
+     "source_url": "https://www.city.uji.kyoto.jp/soshiki/2/3175.html",
+     "evidence": "議会事務局 〒611-8501京都府宇治市宇治琵琶33番地 Tel:0774-20-8747(直通)Fax:",
+     "note": "ページの題名：請願と陳情とは - 宇治市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "262056",
+   "name": "宮津市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "宮津市議会事務局",
+     "phone": "0772-45-1639",
+     "email": null,
+     "form_url": null,
+     "postal_code": "626-8501",
+     "postal_address": "京都府宮津市字柳縄手345番地の1",
+     "hours": null,
+     "source_url": "https://www.city.miyazu.kyoto.jp/site/gikai/5670.html",
+     "evidence": "議会事務局 〒626-8501京都府宮津市字柳縄手345番地の1Tel:0772-45-1639Fax:0772",
+     "note": "ページの題名：請願・陳情 - 宮津市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "262064",
+   "name": "亀岡市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kameoka.kyoto.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "262072",
+   "name": "城陽市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "城陽市議会事務局",
+     "phone": "0774-56-4000",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.joyo.kyoto.jp/gikai/gikai/seigan.htm",
+     "evidence": "議会事務局(電話0774-56-4000)にお問い合わせ",
+     "note": "ページの題名：請願・陳情(城陽市議会)"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "262081",
+   "name": "向日市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "向日市議会事務局",
+     "phone": "075-874-3540",
+     "email": null,
+     "form_url": null,
+     "postal_code": "617-8665",
+     "postal_address": "京都府向日市寺戸町中野20番地",
+     "hours": null,
+     "source_url": "https://www.city.muko.kyoto.jp/site/shigikai/1107.html",
+     "evidence": "議会事務局直通 〒617‐8665京都府向日市寺戸町中野20番地 Tel:075-874-3540Fax:075-",
+     "note": "ページの題名：請願・陳情書の出し方 - 向日市議会 - 向日市公式ホームページ(議会事務局)／同じ組織のほかの番号：075-931-1111"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "262099",
+   "name": "長岡京市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "長岡京市議会事務局議事調査係",
+     "phone": "075-955-9731",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nagaokakyo.lg.jp/0000000872.html",
+     "evidence": "事務局議会事務局議事調査係 本庁舎5階 電話: 075-955-9731",
+     "note": "ページの題名：請願・陳情 | 長岡京市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "262102",
+   "name": "八幡市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "八幡市議会事務局",
+     "phone": "075-983-5532",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.yawata.kyoto.jp/0000000202.html",
+     "evidence": "議会事務局 電話: 075-983-5532 ファックス:",
+     "note": "ページの題名：市議会への請願・陳情について | 八幡市役所"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "262111",
+   "name": "京田辺市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "京田辺市議会事務局",
+     "phone": "0774-64-1380",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kyotanabe.lg.jp/0000000397.html",
+     "evidence": "議会事務局 電話: (庶務/議事)0774-64-1380",
+     "note": "ページの題名：請願 | 京田辺市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "262129",
+   "name": "京丹後市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kyotango.lg.jp/shigikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "262137",
+   "name": "南丹市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "南丹市議会事務局",
+     "phone": "0771-68-0059",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nantan.kyoto.jp/www/gove/144/006/000/index_70343.html",
+     "evidence": "議会事務局 TEL:0771-68-0059",
+     "note": "ページの題名：請願と陳情:南丹市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "262145",
+   "name": "木津川市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "木津川市議会事務局",
+     "phone": "0774-75-1240",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kizugawa.lg.jp/0000001663.html",
+     "evidence": "議会事務局 電話: 0774-75-1240",
+     "note": "ページの題名：議会への請願・陳情 | 木津川市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "263036",
+   "name": "大山崎町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "大山崎町議会係",
+     "phone": "075-956-2101",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.town.oyamazaki.kyoto.jp/annai/gikaijimukyoku/gikaikakari/seigan/index.html",
+     "evidence": "議会係 〒618-8501 京都府乙訓郡大山崎町字円明寺小字夏目3番地 電話番号:(075)956-2101(代表) ファッ",
+     "note": "ページの題名：請願・陳情/大山崎町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "263222",
+   "name": "久御山町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "久御山町議会事務局",
+     "phone": "075-631-9996",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kumiyama.lg.jp/0000000151.html",
+     "evidence": "議会事務局(3階) 電話: 075(631)9996、0774(45",
+     "note": "ページの題名：請願・陳情 | 久御山町ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "263435",
+   "name": "井手町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ide.kyoto.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "263443",
+   "name": "宇治田原町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ujitawara.kyoto.jp/soshiki/gikaijimukyoku/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "263648",
+   "name": "笠置町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "笠置町議会事務局",
+     "phone": "0743-95-2304",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.town.kasagi.lg.jp/contents_detail.php?co=kak&frmId=27",
+     "evidence": "議会事務局 電話: 0743-95-2304",
+     "note": "ページの題名：請願 陳情 | 笠置町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "263656",
+   "name": "和束町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "和束町議会事務局",
+     "phone": "0774-78-3003",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.wazuka.lg.jp/kakukanogoannai/gikaijimukyoku/machigikai/5/786.html",
+     "evidence": "議会事務局 電話番号:0774-78-3003",
+     "note": "ページの題名：請願・陳情について/和束町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "263664",
+   "name": "精華町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "精華町議会",
+     "phone": "0774-95-1908",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.seika.kyoto.jp/gikai/about/chinjou_seigan/index.html",
+     "evidence": "議会 〒619-0285 京都府相楽郡…小字北尻70番地 (精華町役場6階) 電話:0774-95-1908",
+     "note": "ページの題名：陳情・請願/精華町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "263672",
+   "name": "南山城村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.minamiyamashiro.lg.jp/category/25-0-0-0-0-0-0-0-0-0.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "264075",
+   "name": "京丹波町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kyotamba.kyoto.jp/kakukakarasagasu/gikaijimukyoku/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "264636",
+   "name": "伊根町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ine.kyoto.jp/chosei/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "264652",
+   "name": "与謝野町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.yosano.lg.jp/administration/parliament/petition/",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

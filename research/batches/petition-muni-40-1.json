@@ -1,0 +1,757 @@
+{
+ "batch": "petition-muni-40-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "401005",
+   "name": "北九州市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "北九州市議会事務局",
+     "phone": "093-582-2621",
+     "email": null,
+     "form_url": null,
+     "postal_code": "803-8501",
+     "postal_address": "北九州市小倉北区城内1番1号",
+     "hours": null,
+     "source_url": "https://www.city.kitakyushu.lg.jp/sigikai/menu11_0005.html",
+     "evidence": "議会事務局 住所 :〒803-8501 北九州市小倉北区城内1番1号 電話番号 :093-582-2621",
+     "note": "ページの題名：請願・陳情 - 北九州市議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "401307",
+   "name": "福岡市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "福岡市議会事務局議事課",
+     "phone": "092-711-4746",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://gikai.city.fukuoka.lg.jp/schedule/petition",
+     "evidence": "議会事務局議事課 TEL 092-711-4746 FAX 092",
+     "note": "ページの題名：請願・陳情 – 福岡市議会／同じ組織のほかの番号：092-711-4749"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "402028",
+   "name": "大牟田市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.omuta.lg.jp/list00448.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "402036",
+   "name": "久留米市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "久留米市議会事務局",
+     "phone": "0942-30-9305",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kurume.fukuoka.jp/1100keikaku/2040shigikai/3050seigan/2007-0801-1658-375.html",
+     "evidence": "議会事務局 電話番号:0942-30-9305 FAX番号:0",
+     "note": "ページの題名：久留米市議会:請願・陳情をするには"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "402044",
+   "name": "直方市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nogata.fukuoka.jp/sigikai/_1256/_2764.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "402052",
+   "name": "飯塚市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "飯塚市議会事務局議事調査係",
+     "phone": "0948-22-0214",
+     "email": null,
+     "form_url": null,
+     "postal_code": "820-8501",
+     "postal_address": "福岡県飯塚市新立岩5番5号",
+     "hours": null,
+     "source_url": "https://www.city.iizuka.lg.jp/site/shigikai/1670.html",
+     "evidence": "議会議会事務局議事調査係 〒820-8501福岡県飯塚市新立岩5番5号 Tel:0948-22-0214Fax:0948",
+     "note": "ページの題名：請願・陳情 - 飯塚市議会 - 飯塚市(議会事務局)"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "402061",
+   "name": "田川市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.joho.tagawa.fukuoka.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "402079",
+   "name": "柳川市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "柳川市議会 総務議事係",
+     "phone": "0944-77-8192",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.yanagawa.fukuoka.jp/shisei/shigikai/shigikai_seigan.html",
+     "evidence": "総務議事係 電話: 0944-77-8192",
+     "note": "ページの題名：請願・陳情 - 柳川市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "402109",
+   "name": "八女市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "八女市議会事務局",
+     "phone": "0943-23-4922",
+     "email": null,
+     "form_url": null,
+     "postal_code": "834-8585",
+     "postal_address": "福岡県八女市本町647番地",
+     "hours": null,
+     "source_url": "https://www.city.yame.fukuoka.jp/shisei/12/6/1457320338516.html",
+     "evidence": "議会事務局 〒834-8585 福岡県八女市本町647番地 電話番号:0943-23-4922",
+     "note": "ページの題名：請願、陳情/八女市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "402117",
+   "name": "筑後市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "筑後市議会事務担当",
+     "phone": "0942-53-4013",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.chikugo.lg.jp/gikai/_7096.html",
+     "evidence": "議会事務担当 電話 0942-53-4013",
+     "note": "ページの題名：請願・陳情|筑後市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "402125",
+   "name": "大川市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "大川市議会事務局 庶務係",
+     "phone": "0944-85-5622",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.okawa.lg.jp/s078/010/090/20141218174818.html",
+     "evidence": "議会事務局 庶務係 直通電話:0944-85-5622",
+     "note": "ページの題名：請願・陳情 - 大川市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "402133",
+   "name": "行橋市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "行橋市議会事務局",
+     "phone": "0930-25-9633",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.yukuhashi.fukuoka.jp/site/sigikai/1791.html",
+     "evidence": "議会事務局代表 福岡県行橋市中央一丁目1番1号 Tel:0930-25-9633Fax:0930",
+     "note": "ページの題名：請願・陳情について - 行橋市議会 - 行橋市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "402141",
+   "name": "豊前市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.buzen.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "402150",
+   "name": "中間市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "中間市議会事務局",
+     "phone": "093-246-6220",
+     "email": null,
+     "form_url": null,
+     "postal_code": "809-8501",
+     "postal_address": "福岡県中間市中間一丁目1番1号",
+     "hours": null,
+     "source_url": "https://www.city.nakama.lg.jp/site/gikai/1050.html",
+     "evidence": "議会事務局 〒809-8501福岡県中間市中間一丁目1番1号 Tel:093-246-6220Fax:093-",
+     "note": "ページの題名：請願・陳情 - 中間市議会 - 中間市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "402168",
+   "name": "小郡市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "小郡市議会 議事グループ",
+     "phone": "0942-72-1100",
+     "email": null,
+     "form_url": null,
+     "postal_code": "838-0198",
+     "postal_address": "小郡市小郡255番地1",
+     "hours": null,
+     "source_url": "https://www.city.ogori.fukuoka.jp/3046/3065/3066",
+     "evidence": "議事グループ 〒838-0198 小郡市小郡255番地1(本館3階) 電話:0942-72-1100 / ファクス:",
+     "note": "ページの題名：請願・陳情とは :: 小郡市役所"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "402176",
+   "name": "筑紫野市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "筑紫野市議会事務局議事課",
+     "phone": "092-923-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "818-8686",
+     "postal_address": "福岡県筑紫野市石崎1-1-1",
+     "hours": null,
+     "source_url": "https://www.city.chikushino.fukuoka.jp/soshiki/1/2546.html",
+     "evidence": "議会事務局議事課代表 〒818-8686 福岡県筑紫野市石崎1-1-1 Tel:092-923-1111Fax:092-",
+     "note": "ページの題名：請願・陳情 - 筑紫野市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "402184",
+   "name": "春日市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kasuga.fukuoka.jp/gikai/seigan/index.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "402192",
+   "name": "大野城市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "大野城市議会事務局",
+     "phone": "092-580-1938",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.onojo.fukuoka.jp/gikai/list00829.html",
+     "evidence": "議会事務局 〒816-8510 福岡県大野城市曙町二丁目2-1 大野城市役所 本館4階 電話アイコン 電話番号:092-580-1938",
+     "note": "ページの題名：請願・陳情の提出 / 議会サイト / 大野城市役所公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "402206",
+   "name": "宗像市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.munakata.lg.jp/list00450.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "402214",
+   "name": "太宰府市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "太宰府市議会 議事課庶務係",
+     "phone": "092-921-2121",
+     "email": null,
+     "form_url": null,
+     "postal_code": "818-0198",
+     "postal_address": "太宰府市観世音寺一丁目1番1号",
+     "hours": null,
+     "source_url": "https://www.city.dazaifu.lg.jp/site/gikai/3217.html",
+     "evidence": "議事課庶務係 〒818-0198太宰府市観世音寺一丁目1番1号 Tel:092-921-2121Fax:092-",
+     "note": "ページの題名：請願陳情とは - 福岡県太宰府市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "402231",
+   "name": "古賀市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.koga.fukuoka.jp/assembly/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "402249",
+   "name": "福津市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "福津市議会",
+     "phone": "0940-43-8144",
+     "email": null,
+     "form_url": null,
+     "postal_code": "811-3293",
+     "postal_address": "福津市中央1丁目1番1号",
+     "hours": null,
+     "source_url": "https://www.city.fukutsu.lg.jp/gikai/bocho/2368.html",
+     "evidence": "議会 〒811-3293 福岡県福津市中央1丁目1番1号 電話番号:0940-43-8144",
+     "note": "ページの題名：請願・陳情/福津市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "402257",
+   "name": "うきは市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "うきは市議会",
+     "phone": "0943-75-4990",
+     "email": null,
+     "form_url": null,
+     "postal_code": "839-1393",
+     "postal_address": "福岡県うきは市吉井町新治316",
+     "hours": null,
+     "source_url": "https://www.city.ukiha.fukuoka.jp/gikai/kiji0035602/index.html",
+     "evidence": "議会 〒839-1393 福岡県うきは市吉井町新治316 Tel:0943-75-4990(直通) Fax",
+     "note": "ページの題名：請願・陳情 / 市議会 / うきは市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "402265",
+   "name": "宮若市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.miyawaka.lg.jp/gikai/default.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "402273",
+   "name": "嘉麻市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kama.lg.jp/site/gikai/list70-237.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "402281",
+   "name": "朝倉市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.asakura.lg.jp/site/gikai/3064.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "402290",
+   "name": "みやま市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "みやま市議会事務局",
+     "phone": "0944-64-1541",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.miyama.lg.jp/s011/shisei/160/060/20200101145000.html",
+     "evidence": "議会事務局係 電話番号:0944-64-1541",
+     "note": "ページの題名：請願・陳情|みやま市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "402303",
+   "name": "糸島市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.itoshima.lg.jp/li/shisei/030/soshiki/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "402311",
+   "name": "那珂川市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "那珂川市議会事務局議会担当",
+     "phone": "092-953-2211",
+     "email": "gikai@city-nakagawa.fukuoka.jp",
+     "form_url": null,
+     "postal_code": "811-1292",
+     "postal_address": "福岡県那珂川市西隈1丁目1番1号",
+     "hours": null,
+     "source_url": "https://www.city.nakagawa.lg.jp/site/gikai/seigan-tinjo.html",
+     "evidence": "議会議会事務局議会担当 〒811-129…kagawa.fukuoka.jp Tel:092-953-2211Fax:092-",
+     "note": "ページの題名：請願・陳情 - 那珂川市議会 - 那珂川市ホームページ(議会事務局)"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "403415",
+   "name": "宇美町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.umi.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

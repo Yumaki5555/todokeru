@@ -1,0 +1,257 @@
+{
+ "batch": "petition-pref-02",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "110001",
+   "name": "埼玉県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "埼玉県議会事務局議事課委員会担当",
+     "phone": "048-830-6238",
+     "email": "a6230-03@pref.saitama.lg.jp",
+     "form_url": null,
+     "postal_code": "330-9301",
+     "postal_address": "さいたま市浦和区高砂3-15-1",
+     "hours": null,
+     "source_url": "https://www.pref.saitama.lg.jp/e1601/gikai-seigan.html",
+     "evidence": "埼玉県議会事務局議事課委員会担当(議事堂1階) 〒330-9301 さいたま市浦和区高砂3-15-1 電話 048-830-6238",
+     "note": "ページの題名：請願・陳情のご案内 - 埼玉県議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "120006",
+   "name": "千葉県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "千葉県議会事務局議事課",
+     "phone": "043-223-2518",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.pref.chiba.lg.jp/gikai/giji/aramashi/seigan.html",
+     "evidence": "議会事務局議事課委員会班(電話番号:043-223-2518)(土曜・日曜・",
+     "note": "ページの題名：請願・陳情/千葉県／同じ組織のほかの番号：043-223-2523"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "130001",
+   "name": "東京都",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "東京都議会議会局管理部広報課",
+     "phone": "03-5320-7126",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.gikai.metro.tokyo.lg.jp/petition.html",
+     "evidence": "京都議会議会局管理部広報課 〒163-8…新宿区西新宿二丁目8番1号 交通案内 電話 03-5320-7126 | Fax 0",
+     "note": "ページの題名：請願・陳情 | 東京都議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "140007",
+   "name": "神奈川県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "神奈川県議会 議事課委員会グループ",
+     "phone": "045-210-7546",
+     "email": null,
+     "form_url": null,
+     "postal_code": "231-8588",
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.pref.kanagawa.jp/gikai/p80218.html",
+     "evidence": "議事課委員会グループ TEL:045-210-7546(直通)",
+     "note": "ページの題名：神奈川県議会 請願・陳情 - 神奈川県ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "150002",
+   "name": "新潟県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "新潟県議会事務局",
+     "phone": "025-280-5527",
+     "email": null,
+     "form_url": null,
+     "postal_code": "950-8570",
+     "postal_address": "新潟市中央区新光町4番地1",
+     "hours": null,
+     "source_url": "https://www.pref.niigata.lg.jp/site/gikai/1208797282267.html",
+     "evidence": "議会事務局 〒950-8570 新潟市中央区新光町4番地1 電話番号:025-280-5527ファクシミリ:0",
+     "note": "ページの題名：請願・陳情 - 新潟県ホームページ／同じ組織のほかの番号：025-280-5526"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "160008",
+   "name": "富山県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "富山県議会事務局",
+     "phone": "076-444-3405",
+     "email": null,
+     "form_url": null,
+     "postal_code": "930-8501",
+     "postal_address": "富山市新総曲輪1-7",
+     "hours": null,
+     "source_url": "https://www.pref.toyama.jp/0100/gikai/structure/chinjo.html",
+     "evidence": "議会事務局 〒930-8501 富山市新総曲輪1-7 電話番号:076-444-3405",
+     "note": "ページの題名：請願と陳情|富山県議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "170003",
+   "name": "石川県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.pref.ishikawa.lg.jp/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "180009",
+   "name": "福井県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "福井県議会議会局議事調査課",
+     "phone": "0776-20-0608",
+     "email": "gijicho@pref.fukui.lg.jp",
+     "form_url": null,
+     "postal_code": "910-8580",
+     "postal_address": "福井市大手3丁目17番1号",
+     "hours": null,
+     "source_url": "https://www.pref.fukui.lg.jp/doc/gikai-giji/seigan/index.html",
+     "evidence": "福井県議会議会局議事調査課 〒910-8…3丁目17番1号(地図・アクセス) 代表電話0776-20-0608 | FAX番号",
+     "note": "ページの題名：請願・陳情 | 福井県議会ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "190004",
+   "name": "山梨県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "山梨県議会事務局",
+     "phone": "055-223-1812",
+     "email": null,
+     "form_url": null,
+     "postal_code": "400-8501",
+     "postal_address": "甲府市丸の内1-6-1",
+     "hours": null,
+     "source_url": "https://www.pref.yamanashi.jp/gikaisom/seigan_chinjou.html",
+     "evidence": "議会事務局 住所:〒400-8501 甲府市丸の内1-6-1 電話番号:055(223)1812 ファクス番号:",
+     "note": "ページの題名：山梨県/請願・陳情"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "200000",
+   "name": "長野県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.pref.nagano.lg.jp/gikai/chosa/otoiawase.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

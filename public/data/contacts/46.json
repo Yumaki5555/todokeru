@@ -98,6 +98,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "462012-petition",
+    "type": "petition",
+    "department": "鹿児島市議会 議事課",
+    "phone": "099-216-1456",
+    "email": null,
+    "form_url": null,
+    "postal_code": "892-8677",
+    "postal_address": "鹿児島市山下町11-1",
+    "hours": null,
+    "source_url": "https://www.city.kagoshima.lg.jp/gikai/giji/shigikai/bocho/segan.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -146,6 +161,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.kanoya.lg.jp/giji/shise/gikai/gaiyo/gikai.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "462039-petition",
+    "type": "petition",
+    "department": "鹿屋市議会事務局議事調査係",
+    "phone": "0994-31-1143",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kanoya.lg.jp/giji/shise/gikai/segan.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -212,6 +242,21 @@
     "postal_address": "枕崎市千代田町27番地",
     "hours": null,
     "source_url": "https://www.city.makurazaki.lg.jp/adv/ba.php?id=70",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "462047-petition",
+    "type": "petition",
+    "department": "枕崎市議会事務局",
+    "phone": "0993-72-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "898-8501",
+    "postal_address": "枕崎市千代田町27番地",
+    "hours": null,
+    "source_url": "https://www.city.makurazaki.lg.jp/site/gikai/6422.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": "代表電話と同じ番号です"
@@ -314,6 +359,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.kagoshima-izumi.lg.jp/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "462080-petition",
+    "type": "petition",
+    "department": "出水市議会事務局",
+    "phone": "0996-63-4074",
+    "email": "gikai_c@city.izumi.kagoshima.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kagoshima-izumi.lg.jp/page/page_09092.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -470,6 +530,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "462144-petition",
+    "type": "petition",
+    "department": "垂水市役所議会事務局議事係",
+    "phone": "0994-32-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.tarumizu.lg.jp/gikaigiji/shise/shigi/segan/chinjou.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -521,6 +596,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "462152-petition",
+    "type": "petition",
+    "department": "薩摩川内市議会事務局",
+    "phone": "0996-23-5111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "895-8650",
+    "postal_address": "鹿児島県薩摩川内市神田町3番22号",
+    "hours": null,
+    "source_url": "https://www.city.satsumasendai.lg.jp/shigikai/3/1/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -562,6 +652,21 @@
     "id": "462161-assembly",
     "type": "assembly",
     "department": "議会事務局総務係",
+    "phone": "099-248-9435",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.hioki.kagoshima.jp/gikai/shisejoho/shigikai/segan.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "462161-petition",
+    "type": "petition",
+    "department": "日置市議会事務局総務係",
     "phone": "099-248-9435",
     "email": null,
     "form_url": null,
@@ -727,6 +832,21 @@
     "note": null
    },
    {
+    "id": "462195-petition",
+    "type": "petition",
+    "department": "いちき串木野市議会事務局",
+    "phone": "0996-33-5648",
+    "email": null,
+    "form_url": null,
+    "postal_code": "896-8601",
+    "postal_address": "鹿児島県いちき串木野市昭和通133番地1",
+    "hours": null,
+    "source_url": "https://www.city.ichikikushikino.lg.jp/gikai1/shise/gikai/seigantinjyou.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "462195-education",
     "type": "education",
     "department": "教育総務係",
@@ -844,6 +964,21 @@
     "note": null
    },
    {
+    "id": "462217-petition",
+    "type": "petition",
+    "department": "志布志市議会事務局",
+    "phone": "099-472-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "899-7192",
+    "postal_address": "鹿児島県志布志市志布志町志布志二丁目1番1号",
+    "hours": null,
+    "source_url": "https://www.city.shibushi.lg.jp/site/gikai/28417.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "462217-education",
     "type": "education",
     "department": "教育総務課総務施設グループ",
@@ -910,6 +1045,21 @@
     "note": null
    },
    {
+    "id": "462225-petition",
+    "type": "petition",
+    "department": "奄美市議会事務局",
+    "phone": "0997-52-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.amami.lg.jp/gikai/20150717.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
+   },
+   {
     "id": "462225-education",
     "type": "education",
     "department": "教育委員会教育総務課",
@@ -964,6 +1114,21 @@
     "id": "462233-assembly",
     "type": "assembly",
     "department": "議会事務局 議事係",
+    "phone": "0993-78-3074",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.minamikyushu.lg.jp/gyoseijoho/minamikyushushigikai/4287.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "462233-petition",
+    "type": "petition",
+    "department": "南九州市議会 議事係",
     "phone": "0993-78-3074",
     "email": null,
     "form_url": null,
@@ -1066,6 +1231,21 @@
     "id": "462250-assembly",
     "type": "assembly",
     "department": "議会事務局議会庶務課",
+    "phone": "0995-66-3197",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.aira.lg.jp/gchosa/gyosei/gikai/seigan.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "462250-petition",
+    "type": "petition",
+    "department": "姶良市議会 議事調査係",
     "phone": "0995-66-3197",
     "email": null,
     "form_url": null,
@@ -1328,6 +1508,21 @@
     "postal_address": "鹿児島県姶良郡湧水町中津川603番地",
     "hours": null,
     "source_url": "https://www.town.yusui.kagoshima.jp/site/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "464520-petition",
+    "type": "petition",
+    "department": "湧水町議会事務局",
+    "phone": "0995-75-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "899-6192",
+    "postal_address": "鹿児島県姶良郡湧水町中津川603番地",
+    "hours": null,
+    "source_url": "https://www.town.yusui.kagoshima.jp/soshiki/5/255.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1637,6 +1832,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "465011-petition",
+    "type": "petition",
+    "department": "中種子町議会事務局議事係",
+    "phone": "0997-27-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "891-3692",
+    "postal_address": "鹿児島県熊毛郡中種子町野間5186番地",
+    "hours": null,
+    "source_url": "https://town.nakatane.kagoshima.jp/gikai/machinojoho/gikai/segan-chinjo/teshutsu.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -1739,6 +1949,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "465054-petition",
+    "type": "petition",
+    "department": "屋久島町議会事務局",
+    "phone": "0997-43-5900",
+    "email": null,
+    "form_url": null,
+    "postal_code": "891-4292",
+    "postal_address": "鹿児島県熊毛郡屋久島町小瀬田849番地20",
+    "hours": null,
+    "source_url": "https://www.town.yakushima.kagoshima.jp/gyosei/gikai/2889.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1780,6 +2005,21 @@
     "id": "465232-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0997-57-2216",
+    "email": null,
+    "form_url": null,
+    "postal_code": "894-3192",
+    "postal_address": "鹿児島県大島郡大和村大和浜100番地",
+    "hours": null,
+    "source_url": "https://www.vill.yamato.lg.jp/gikai/sonse/yamatosongikai/segan-chinjo.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "465232-petition",
+    "type": "petition",
+    "department": "大和村議会事務局",
     "phone": "0997-57-2216",
     "email": null,
     "form_url": null,
@@ -2225,6 +2465,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.town.wadomari.lg.jp/gikai/wadomaricho/gikai/gikaidayori.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "465330-petition",
+    "type": "petition",
+    "department": "和泊町議会事務局",
+    "phone": "0997-92-2569",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.wadomari.lg.jp/gikai/wadomaricho/gikai/segan.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null

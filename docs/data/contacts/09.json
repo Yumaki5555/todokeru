@@ -47,6 +47,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "090000-petition",
+    "type": "petition",
+    "department": "栃木県議会",
+    "phone": "028-623-3761",
+    "email": "gikai@pref.tochigi.lg.jp",
+    "form_url": null,
+    "postal_code": "320-8501",
+    "postal_address": "宇都宮市塙田1-1-20 県庁舎議会議事堂2階",
+    "hours": null,
+    "source_url": "https://www.pref.tochigi.lg.jp/p01/assembly/akusesu/seigan/seigan1.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -96,6 +111,21 @@
     "postal_address": "宇都宮市旭1丁目1番5号",
     "hours": null,
     "source_url": "https://www.city.utsunomiya.lg.jp/gikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "092011-petition",
+    "type": "petition",
+    "department": "宇都宮市議会事務局政策調査課",
+    "phone": "028-632-2611",
+    "email": null,
+    "form_url": null,
+    "postal_code": "320-8540",
+    "postal_address": "宇都宮市旭1丁目1番5号",
+    "hours": null,
+    "source_url": "https://www.city.utsunomiya.lg.jp/gikai/iken/1035597.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -216,6 +246,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "092037-petition",
+    "type": "petition",
+    "department": "栃木市議会 議事調査係",
+    "phone": "0282-21-2505",
+    "email": null,
+    "form_url": null,
+    "postal_code": "328-8686",
+    "postal_address": "栃木市万町9-25 本庁舎4階",
+    "hours": null,
+    "source_url": "https://www.city.tochigi.lg.jp/site/gikai/1195.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -318,6 +363,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "092053-petition",
+    "type": "petition",
+    "department": "鹿沼市議会",
+    "phone": "0289-63-2202",
+    "email": "gikai-jimu@city.kanuma.lg.jp",
+    "form_url": null,
+    "postal_code": "322-8601",
+    "postal_address": "栃木県鹿沼市今宮町1688-1",
+    "hours": null,
+    "source_url": "https://www.city.kanuma.tochigi.jp/0320/info-0000000007-0.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -369,6 +429,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "092061-petition",
+    "type": "petition",
+    "department": "日光市議会事務局議事課議事係",
+    "phone": "0288-21-5140",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.nikko.lg.jp/gikai/seigan_chinjo/6022.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -410,6 +485,21 @@
     "id": "092088-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0285-22-9463",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.oyama.tochigi.jp/gikai/seigan-chinjo/page003149.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "092088-petition",
+    "type": "petition",
+    "department": "小山市議会事務局",
     "phone": "0285-22-9463",
     "email": null,
     "form_url": null,
@@ -573,6 +663,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "092118-petition",
+    "type": "petition",
+    "department": "矢板市議会事務局",
+    "phone": "0287-43-6216",
+    "email": null,
+    "form_url": null,
+    "postal_code": "329-2192",
+    "postal_address": "栃木県矢板市本町5番4号",
+    "hours": null,
+    "source_url": "https://www.city.yaita.tochigi.jp/site/gikai/tinjou.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -690,6 +795,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "092142-petition",
+    "type": "petition",
+    "department": "さくら市議会事務局",
+    "phone": "028-681-1123",
+    "email": null,
+    "form_url": null,
+    "postal_code": "329-1392",
+    "postal_address": "栃木県さくら市氏家2771番地",
+    "hours": null,
+    "source_url": "https://www.city.tochigi-sakura.lg.jp/government/000050/000297/000459/p001509.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -738,6 +858,21 @@
     "postal_address": "那須烏山市大金240 南那須庁舎3階",
     "hours": null,
     "source_url": "https://www.city.nasukarasuyama.lg.jp/city-council/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "092151-petition",
+    "type": "petition",
+    "department": "那須烏山市議会事務局",
+    "phone": "0287-88-7114",
+    "email": null,
+    "form_url": null,
+    "postal_code": "321-0595",
+    "postal_address": "那須烏山市大金240 南那須庁舎3階",
+    "hours": null,
+    "source_url": "https://www.city.nasukarasuyama.lg.jp/city-council/petitions/",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -884,6 +1019,21 @@
     "id": "093424-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0285-72-8858",
+    "email": null,
+    "form_url": null,
+    "postal_code": "321-4293",
+    "postal_address": "栃木県芳賀郡益子町大字益子2030番地",
+    "hours": null,
+    "source_url": "https://www.town.mashiko.lg.jp:443/page/page001115.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "093424-petition",
+    "type": "petition",
+    "department": "益子町議会事務局",
     "phone": "0285-72-8858",
     "email": null,
     "form_url": null,
@@ -1047,6 +1197,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "093459-petition",
+    "type": "petition",
+    "department": "芳賀町議会事務局",
+    "phone": "028-677-6023",
+    "email": null,
+    "form_url": null,
+    "postal_code": "321-3392",
+    "postal_address": "栃木県芳賀郡芳賀町大字祖母井1020",
+    "hours": null,
+    "source_url": "https://www.town.tochigi-haga.lg.jp/gikai/seigan_chinjou.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1088,6 +1253,21 @@
     "id": "093611-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0282-81-1866",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.mibu.tochigi.jp/docs/2014122500025/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "093611-petition",
+    "type": "petition",
+    "department": "壬生町議会 議事係",
     "phone": "0282-81-1866",
     "email": null,
     "form_url": null,
@@ -1149,6 +1329,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "093645-petition",
+    "type": "petition",
+    "department": "野木町議会事務局",
+    "phone": "0280-57-4106",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.nogi.lg.jp/cyousei/gikai/page000394.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1190,6 +1385,21 @@
     "id": "093840-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0287-45-1110",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.shioya.tochigi.jp/info/85",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "093840-petition",
+    "type": "petition",
+    "department": "塩谷町議会事務局",
     "phone": "0287-45-1110",
     "email": null,
     "form_url": null,
@@ -1248,6 +1458,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.town.takanezawa.tochigi.jp/gyosei/gikai/kaigi/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "093866-petition",
+    "type": "petition",
+    "department": "高根沢町議会事務局",
+    "phone": "028-675-8111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.takanezawa.tochigi.jp/gyosei/gikai/kaigi/seigan.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1345,6 +1570,21 @@
     "department": "議会事務局 庶務議事係",
     "phone": "0287-92-1170",
     "email": null,
+    "form_url": null,
+    "postal_code": "324-0692",
+    "postal_address": "栃木県那須郡那珂川町馬頭555",
+    "hours": null,
+    "source_url": "https://www.town.tochigi-nakagawa.lg.jp/0080/info-0000000439-0.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "094111-petition",
+    "type": "petition",
+    "department": "那珂川町議会 庶務議事係",
+    "phone": "0287-92-1170",
+    "email": "gikai@town.tochigi-nakagawa.lg.jp",
     "form_url": null,
     "postal_code": "324-0692",
     "postal_address": "栃木県那須郡那珂川町馬頭555",

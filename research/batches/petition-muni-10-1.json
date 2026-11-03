@@ -1,0 +1,457 @@
+{
+ "batch": "petition-muni-10-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "102016",
+   "name": "前橋市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.maebashi.gunma.jp/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "102024",
+   "name": "高崎市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "高崎市議会議会事務局議事課",
+     "phone": "027-321-1281",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.takasaki.gunma.jp/site/gikai/4844.html",
+     "evidence": "高崎市議会議会事務局議事課 群馬県高崎市高松町35番地1 Tel:027-321-1281Fax:027-",
+     "note": "ページの題名：請願・陳情 - 高崎市議会 - 高崎市公式ホームページ(議会事務局)"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "102032",
+   "name": "桐生市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "桐生市議会 議事課",
+     "phone": "0277-32-3538",
+     "email": null,
+     "form_url": null,
+     "postal_code": "376-8501",
+     "postal_address": "群馬県桐生市織姫町1番1号",
+     "hours": null,
+     "source_url": "https://www.city.kiryu.lg.jp/shigikai/about/1003769.html",
+     "evidence": "議事課(4階) 〒376-8501 群馬県桐生市織姫町1番1号 電話:0277-32-3538",
+     "note": "ページの題名：請願・陳情|桐生市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "102041",
+   "name": "伊勢崎市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.isesaki.lg.jp/gyoseijoho/yakusho_madoguchiannai/14753.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "102059",
+   "name": "太田市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "太田市議会議会総務課総務係",
+     "phone": "0276-47-1806",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ota.gunma.jp/site/shigikai/3572.html",
+     "evidence": "太田市議会議会総務課総務係 群馬県太田市浜町2番35号 低層棟4階 Tel:0276-47-1806Fax:0276",
+     "note": "ページの題名：請願・陳情 - 太田市議会 - 太田市ホームページ(議会総務課)"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "102067",
+   "name": "沼田市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.numata.gunma.jp/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "102075",
+   "name": "館林市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tatebayashi.gunma.jp/li/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "102083",
+   "name": "渋川市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "渋川市議会 議事係",
+     "phone": "0279-22-2483",
+     "email": null,
+     "form_url": null,
+     "postal_code": "377-8501",
+     "postal_address": "群馬県渋川市石原80番地",
+     "hours": null,
+     "source_url": "https://www.city.shibukawa.lg.jp/gikai-site/gikai/000429/p002657.html",
+     "evidence": "議事係 住所: 〒377-8501 群馬県渋川市石原80番地 電話: 0279-22-2483",
+     "note": "ページの題名：請願と陳情 | 渋川市議会／同じ組織のほかの番号：0279-22-2111"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "102091",
+   "name": "藤岡市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "藤岡市議会事務局",
+     "phone": "0274-40-2377",
+     "email": null,
+     "form_url": null,
+     "postal_code": "375-8601",
+     "postal_address": "群馬県藤岡市中栗須327番地",
+     "hours": null,
+     "source_url": "https://www.city.fujioka.gunma.jp/shiseijoho/shigikai/2/5101.html",
+     "evidence": "議会事務局 住所:〒375-8601群馬県藤岡市中栗須327番地 電話番号:0274-40-2377",
+     "note": "ページの題名：請願・陳情/藤岡市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "102105",
+   "name": "富岡市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tomioka.lg.jp/www/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "102113",
+   "name": "安中市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "安中市議会事務局",
+     "phone": "027-382-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.annaka.lg.jp/site/gikai/2318.html",
+     "evidence": "議会事務局代表 群馬県安中市安中2-13-7 Tel:027-382-1111",
+     "note": "ページの題名：請願・陳情 - 安中市議会 - 安中市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "102121",
+   "name": "みどり市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "みどり市議会事務局",
+     "phone": "0277-76-1970",
+     "email": null,
+     "form_url": null,
+     "postal_code": "376-0192",
+     "postal_address": "群馬県みどり市大間々町大間々1511番地",
+     "hours": null,
+     "source_url": "https://www.city.midori.gunma.jp/shisei/1001670/1003228/1003229.html",
+     "evidence": "議会事務局 〒376-0192 群馬県みどり市大間々町大間々1511番地 電話:0277-76-1970",
+     "note": "ページの題名：請願・陳情 |群馬県みどり市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "103446",
+   "name": "榛東村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "榛東村議会事務局",
+     "phone": "0279-54-2211",
+     "email": "gikai@vill.shinto.gunma.jp",
+     "form_url": null,
+     "postal_code": "370-3593",
+     "postal_address": "群馬県北群馬郡榛東村大字新井790番地1",
+     "hours": null,
+     "source_url": "https://www.vill.shinto.gunma.jp/gikai/assembly/000289/p000356.html",
+     "evidence": "議会事務局 住所: 〒370-3593 …群馬郡榛東村大字新井790番地1 電話: 0279-54-2211",
+     "note": "ページの題名：請願・陳情の手続き案内 | 榛東村議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "103454",
+   "name": "吉岡町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.yoshioka.gunma.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "103667",
+   "name": "上野村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.uenomura.jp/admin/politics/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "103675",
+   "name": "神流町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "神流町議会事務局",
+     "phone": "0274-57-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kanna.gunma.jp/gyouseijouhou/kannatyougikai/524.html",
+     "evidence": "議会事務局 群馬県多野郡神流町万場90番地6 電話:0274-57-2111",
+     "note": "ページの題名：請願・陳情書/神流町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "103829",
+   "name": "下仁田町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "下仁田町議会事務局",
+     "phone": "0274-82-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shimonita.lg.jp/gikai/m01/m07/04.html",
+     "evidence": "議会事務局 郵便番号:370-2601 所在地:下仁田町大字下仁田682 電話番号:0274-82-2111(代表)ダイヤル",
+     "note": "ページの題名：下仁田町ホームページ : 請願・陳情を提出するには"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "103837",
+   "name": "南牧村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://nanmoku.ne.jp/sonsei/gaiyou/assembly_secretariat/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

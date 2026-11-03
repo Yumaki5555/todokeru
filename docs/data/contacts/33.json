@@ -100,6 +100,21 @@
     "note": null
    },
    {
+    "id": "331007-petition",
+    "type": "petition",
+    "department": "岡山市議会 議事課",
+    "phone": "086-803-1531",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.okayama.jp/gikai/0000015936.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "331007-education",
     "type": "education",
     "department": "局教育総務部教育企画総務課",
@@ -161,6 +176,21 @@
     "postal_address": "倉敷市西中新田640番地",
     "hours": null,
     "source_url": "https://www.city.kurashiki.okayama.jp/cityinfo/assembly/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "332020-petition",
+    "type": "petition",
+    "department": "倉敷市議会 議事調査課",
+    "phone": "086-426-3706",
+    "email": "cins@city.kurashiki.okayama.jp",
+    "form_url": null,
+    "postal_code": "710-8565",
+    "postal_address": "倉敷市西中新田640番地",
+    "hours": null,
+    "source_url": "https://www.city.kurashiki.okayama.jp/cityinfo/assembly/1014291/1008340.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -317,6 +347,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "332054-petition",
+    "type": "petition",
+    "department": "笠岡市議会事務局",
+    "phone": "0865-69-2161",
+    "email": null,
+    "form_url": null,
+    "postal_code": "714-8601",
+    "postal_address": "岡山県笠岡市中央町1-1",
+    "hours": null,
+    "source_url": "https://www.city.kasaoka.okayama.jp/soshiki/48/3668.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -419,6 +464,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "332089-petition",
+    "type": "petition",
+    "department": "総社市議会議会事務局議事係",
+    "phone": "0866-92-8332",
+    "email": null,
+    "form_url": null,
+    "postal_code": "719-1192",
+    "postal_address": "総社市中央一丁目1番1号",
+    "hours": null,
+    "source_url": "https://www.city.soja.okayama.jp/site/gikai/5086.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -467,6 +527,21 @@
     "postal_address": "岡山県高梁市松原通2043",
     "hours": null,
     "source_url": "https://www.city.takahashi.lg.jp/site/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "332097-petition",
+    "type": "petition",
+    "department": "高梁市議会事務局",
+    "phone": "0866-21-0277",
+    "email": "gikai@city.takahashi.lg.jp",
+    "form_url": null,
+    "postal_code": "716-8501",
+    "postal_address": "岡山県高梁市松原通2043",
+    "hours": null,
+    "source_url": "https://www.city.takahashi.lg.jp/site/gikai/seigan-tinzyou.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -536,6 +611,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "332101-petition",
+    "type": "petition",
+    "department": "新見市議会事務局",
+    "phone": "0867-72-6151",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.niimi.okayama.jp/gyosei/gyosei_detail/index/258",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -584,6 +674,21 @@
     "postal_address": "備前市東片上126番地",
     "hours": null,
     "source_url": "https://www.city.bizen.okayama.jp/soshiki/23/40299.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "332119-petition",
+    "type": "petition",
+    "department": "備前市議会事務局議事係",
+    "phone": "0869-64-1803",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.bizen.okayama.jp/soshiki/23/378.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -653,6 +758,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "332127-petition",
+    "type": "petition",
+    "department": "瀬戸内市議会事務局",
+    "phone": "0869-22-0979",
+    "email": null,
+    "form_url": null,
+    "postal_code": "701-4292",
+    "postal_address": "瀬戸内市邑久町尾張300番地1",
+    "hours": null,
+    "source_url": "https://www.city.setouchi.lg.jp/site/setouchishigikai/3722.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -694,6 +814,21 @@
     "id": "332135-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "086-955-2945",
+    "email": null,
+    "form_url": null,
+    "postal_code": "709-0898",
+    "postal_address": "岡山県赤磐市下市344",
+    "hours": null,
+    "source_url": "https://www.city.akaiwa.lg.jp/shisei/gikai/about/2513.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "332135-petition",
+    "type": "petition",
+    "department": "赤磐市議会事務局",
     "phone": "086-955-2945",
     "email": null,
     "form_url": null,
@@ -770,6 +905,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "332143-petition",
+    "type": "petition",
+    "department": "真庭市議会事務局",
+    "phone": "0867-42-1272",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.maniwa.lg.jp/site/shigikai/2346.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -821,6 +971,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "332151-petition",
+    "type": "petition",
+    "department": "美作市議会事務局",
+    "phone": "0868-72-0922",
+    "email": null,
+    "form_url": null,
+    "postal_code": "707-8501",
+    "postal_address": "岡山県美作市美来1番地",
+    "hours": null,
+    "source_url": "https://www.city.mimasaka.lg.jp/shisei/shigikai/seigan/1450227402636.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -869,6 +1034,21 @@
     "postal_address": "岡山県浅口市鴨方町六条院中3050",
     "hours": null,
     "source_url": "https://www.city.asakuchi.lg.jp/site/asakuchishigikai/2453.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "332160-petition",
+    "type": "petition",
+    "department": "浅口市議会事務局",
+    "phone": "0865-44-7010",
+    "email": null,
+    "form_url": null,
+    "postal_code": "719-0295",
+    "postal_address": "岡山県浅口市鴨方町六条院中3050",
+    "hours": null,
+    "source_url": "https://www.city.asakuchi.lg.jp/site/asakuchishigikai/2530.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -971,6 +1151,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.town.hayashima.lg.jp/gyosei_joho/yakusho_madoguchi/3604.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "334235-petition",
+    "type": "petition",
+    "department": "早島町議会事務局",
+    "phone": "086-482-2608",
+    "email": null,
+    "form_url": null,
+    "postal_code": "701-0303",
+    "postal_address": "岡山県都窪郡早島町前潟360-1",
+    "hours": null,
+    "source_url": "https://www.town.hayashima.lg.jp/gyosei_joho/gikai/3881.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1193,6 +1388,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "336068-petition",
+    "type": "petition",
+    "department": "鏡野町議会事務局",
+    "phone": "0868-54-2926",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kagamino.lg.jp/site/gikai/2139.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1243,6 +1453,21 @@
     "source_url": "https://www.town.shoo.lg.jp/site/gikai/",
     "verified_at": null,
     "status": "unverified",
+    "note": null
+   },
+   {
+    "id": "336220-petition",
+    "type": "petition",
+    "department": "勝央町議会事務局",
+    "phone": "0868-38-1754",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.shoo.lg.jp/site/gikai/1154.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -1511,6 +1736,21 @@
     "postal_address": "岡山県加賀郡吉備中央町豊野1-2",
     "hours": null,
     "source_url": "https://www.town.kibichuo.lg.jp/site/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "336815-petition",
+    "type": "petition",
+    "department": "吉備中央町議会事務局",
+    "phone": "0866-54-2081",
+    "email": null,
+    "form_url": null,
+    "postal_code": "716-1192",
+    "postal_address": "岡山県加賀郡吉備中央町豊野1-2",
+    "hours": null,
+    "source_url": "https://www.town.kibichuo.lg.jp/site/gikai/6644.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null

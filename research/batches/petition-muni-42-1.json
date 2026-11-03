@@ -1,0 +1,532 @@
+{
+ "batch": "petition-muni-42-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "422011",
+   "name": "長崎市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "長崎市議会事務局議事調査課",
+     "phone": "095-829-1200",
+     "email": null,
+     "form_url": null,
+     "postal_code": "850-8685",
+     "postal_address": "長崎県長崎市魚の町4-1",
+     "hours": null,
+     "source_url": "https://www.city.nagasaki.lg.jp/site/gikai/4250.html",
+     "evidence": "議会事務局議事調査課代表 〒850-8685長崎県長崎市魚の町4-1(5階) Tel:095-829-1200Fax:095-",
+     "note": "ページの題名：陳情の提出方法 - 長崎市議会 - 長崎市ウェブサイト(議事調査課)"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "422029",
+   "name": "佐世保市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.sasebo.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "422037",
+   "name": "島原市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.shimabara.lg.jp/gikai/page2524.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "422045",
+   "name": "諫早市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.isahaya.nagasaki.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "422053",
+   "name": "大村市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.omura.nagasaki.jp/shise/shigikai/segan/index.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "422070",
+   "name": "平戸市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hirado.nagasaki.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "422088",
+   "name": "松浦市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city-matsuura.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "422096",
+   "name": "対馬市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tsushima.nagasaki.jp/gyousei/soshiki/soumu/somuka/gaiyo/3334.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "422100",
+   "name": "壱岐市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "壱岐市議会事務局",
+     "phone": "0920-42-1114",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.iki.nagasaki.jp/soshiki/gikai_jimukyoku/shigikai/566.html",
+     "evidence": "議会事務局 〒811-5521 壱岐市勝本町西戸触182番地5 西部開発総合センター1階 電話番号:0920-42-1114",
+     "note": "ページの題名：壱岐市議会 請願書(陳情書)の提出について/壱岐市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "422118",
+   "name": "五島市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "五島市議会事務局 庶務係",
+     "phone": "0959-72-7923",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.goto.nagasaki.jp/s001/010/010/010/070/20190316024455.html",
+     "evidence": "議会事務局 庶務係・議事係 郵便番号:853-8501 長崎県五島市福江町1番1号(本庁舎) 直通電話:0959-72-7923",
+     "note": "ページの題名：請願書・陳情書の書式例|五島市 まるごとう"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "422126",
+   "name": "西海市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.saikai.nagasaki.jp/shisei/joho/1/2710.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "422134",
+   "name": "雲仙市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.unzen.nagasaki.jp/kiji0032678/index.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "422142",
+   "name": "南島原市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.minamishimabara.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "423076",
+   "name": "長与町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "長与町議会事務局",
+     "phone": "095-883-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "851-2185",
+     "postal_address": "長崎県西彼杵郡長与町嬉里郷659番地1",
+     "hours": null,
+     "source_url": "https://webtown.nagayo.jp/gikai/list00431.html",
+     "evidence": "長与町議会事務局 〒851-2185 長崎県西彼杵郡長与町嬉里郷659番地1(長与町役場4F) TEL:095-883-1111",
+     "note": "ページの題名：請願・陳情 / 長与町議会 / 長与町ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "423084",
+   "name": "時津町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "時津町議会事務局",
+     "phone": "095-882-3959",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.togitsu.nagasaki.jp/gyoseijoho/chogikai/2693.html",
+     "evidence": "議会事務局 〒851-2198 長崎県西彼杵郡時津町浦郷274-1 電話番号:095-882-3959(直通)",
+     "note": "ページの題名：請願・陳情の手続き/時津町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "423211",
+   "name": "東彼杵町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.sonogi.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "423220",
+   "name": "川棚町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.kawatana.jp/cat05/c5-09/post_265/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "423238",
+   "name": "波佐見町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hasami.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "423831",
+   "name": "小値賀町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ojika.lg.jp/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "423912",
+   "name": "佐々町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.sazacho-nagasaki.jp/gikai/default.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "424111",
+   "name": "新上五島町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "新上五島町議会",
+     "phone": "0959-53-1119",
+     "email": null,
+     "form_url": null,
+     "postal_code": "857-4495",
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://official.shinkamigoto.net/goto_chosei_full.php?eid=00241&wcid=l00002x6z2",
+     "evidence": "議会班 住所 〒857-4495 …町青方郷1585番地1 [地図] 電話 0959-53-1119",
+     "note": "ページの題名：請願と陳情 | 新上五島町公式サイト | 長崎県 五島列島 しんかみごとうちょう"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

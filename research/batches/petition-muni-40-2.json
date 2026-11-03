@@ -1,0 +1,757 @@
+{
+ "batch": "petition-muni-40-2",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "403423",
+   "name": "篠栗町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "篠栗町議会事務局",
+     "phone": "092-947-1390",
+     "email": null,
+     "form_url": null,
+     "postal_code": "811-2492",
+     "postal_address": "福岡県糟屋郡篠栗町中央一丁目1番1号",
+     "hours": null,
+     "source_url": "https://www.town.sasaguri.fukuoka.jp/soshiki/gikai/1196.html",
+     "evidence": "議会事務局 〒811-2492 福岡県糟屋郡篠栗町中央一丁目1番1号 電話番号:092-947-1390",
+     "note": "ページの題名：請願・陳情/篠栗町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "403431",
+   "name": "志免町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shime.lg.jp/adv/ba.php?id=13",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "403440",
+   "name": "須恵町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "須恵町議会事務局",
+     "phone": "092-932-1151",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.sue.fukuoka.jp/soshiki/gikaijimukyoku/suechogikai/seiganchinjoutou/3405.html",
+     "evidence": "議会事務局(監査委員事務局) 〒811-…県糟屋郡須恵町大字須恵771番地 電話番号:092-932-1151(内線411)",
+     "note": "ページの題名：請願・陳情等について/須恵町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "403458",
+   "name": "新宮町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shingu.fukuoka.jp/gyosei/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "403482",
+   "name": "久山町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "久山町議会事務局",
+     "phone": "092-976-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "811-2592",
+     "postal_address": "福岡県糟屋郡久山町大字久原3632番地",
+     "hours": null,
+     "source_url": "https://www.town.hisayama.fukuoka.jp/gyosei/gyosei_joho/hisayama_gikai/2367.html",
+     "evidence": "議会事務局 〒811-2592 福岡県糟屋郡久山町大字久原3632番地 電話番号:092-976-1111",
+     "note": "ページの題名：傍聴・請願・陳情/久山町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "403491",
+   "name": "粕屋町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kasuya.fukuoka.jp/li/080/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "403814",
+   "name": "芦屋町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "芦屋町議会事務局 事務係",
+     "phone": "093-223-3579",
+     "email": null,
+     "form_url": null,
+     "postal_code": "807-0198",
+     "postal_address": "福岡県遠賀郡芦屋町幸町2番20号",
+     "hours": null,
+     "source_url": "https://www.town.ashiya.lg.jp/site/gikai/2002.html",
+     "evidence": "議会事務局議会事務局 事務係 〒807-0198福岡県遠賀郡芦屋町幸町2番20号 Tel:093-223-3579",
+     "note": "ページの題名：請願とは - 芦屋町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "403822",
+   "name": "水巻町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.mizumaki.lg.jp/li/gyosei/030/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "403831",
+   "name": "岡垣町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "岡垣町議会事務局",
+     "phone": "093-282-1211",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.okagaki.lg.jp/s038/seigan-tinjyou.html",
+     "evidence": "議会事務局にお問い合わせください。 お問い合わせ先 議会事務局 事務係 電話番号:093-282-1211",
+     "note": "ページの題名：請願・陳情の制度と手続き - 岡垣町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "403849",
+   "name": "遠賀町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.onga.lg.jp/site/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "404012",
+   "name": "小竹町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "小竹町議会事務局",
+     "phone": "0949-62-1967",
+     "email": "gikai@town.kotake.lg.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://town.kotake.lg.jp/gikai/hpkiji/pub/List.aspx?c_id=3&class_set_id=6&class_id=545",
+     "evidence": "議会事務局 電話:0949-62-1967",
+     "note": "ページの題名：請願・陳情の案内 / 町議会TOP / 小竹町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "404021",
+   "name": "鞍手町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kurate.lg.jp/gikai/kousaihi/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "404217",
+   "name": "桂川町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.keisen.fukuoka.jp/gikai/shigoto.php",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "404471",
+   "name": "筑前町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.chikuzen.fukuoka.jp/li/100/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "404489",
+   "name": "東峰村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://vill.toho-info.com/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "405035",
+   "name": "大刀洗町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.tachiarai.fukuoka.jp/list00623.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "405221",
+   "name": "大木町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "大木町議会事務局",
+     "phone": "0944-32-1249",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.town.ooki.lg.jp/soshiki/gikai/gikai/seiganchinjyo/3667.html",
+     "evidence": "議会事務局 〒830-0416 福岡県三潴郡大木町大字八町牟田255-1 電話番号:0944‐32‐1249",
+     "note": "ページの題名：請願・陳情の手続き/大木町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "405442",
+   "name": "広川町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hirokawa.fukuoka.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "406015",
+   "name": "香春町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kawara.fukuoka.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "406023",
+   "name": "添田町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.soeda.fukuoka.jp/adv/ba.php?id=22",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "406040",
+   "name": "糸田町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.itoda.lg.jp/administration/board",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "406058",
+   "name": "川崎町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.gikai-kawasaki.com/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "406082",
+   "name": "大任町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.oto.fukuoka.jp/list00189.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "406091",
+   "name": "赤村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.akamura.net/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "406104",
+   "name": "福智町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.fukuchi.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "406210",
+   "name": "苅田町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "苅田町議会 議事担当",
+     "phone": "093-434-1981",
+     "email": null,
+     "form_url": null,
+     "postal_code": "800-0392",
+     "postal_address": "福岡県京都郡苅田町富久町1丁目19-1",
+     "hours": null,
+     "source_url": "https://www.town.kanda.lg.jp/site/gikai/1701.html",
+     "evidence": "議事担当 〒800-0392福岡県京都郡苅田町富久町1丁目19-1 Tel:093-434-1981",
+     "note": "ページの題名：請願・陳情 - 苅田町議会 - 苅田町(議会事務局)"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "406252",
+   "name": "みやこ町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.miyako.lg.jp/genre/0010/0051/0002-6.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "406422",
+   "name": "吉富町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.yoshitomi.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "406465",
+   "name": "上毛町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.koge.lg.jp/chosei/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "406473",
+   "name": "築上町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.chikujo.fukuoka.jp/s031/020/070/020/R08/gikai.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

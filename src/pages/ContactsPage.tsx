@@ -97,8 +97,8 @@ export function ContactsPage({ route }: { route: Route }) {
       </section>
 
       <details className="fold fold-section">
-        <summary>窓口の種類（代表・広聴・議会事務局・警察・教育委員会）</summary>
-        <p className="muted">警察・公安委員会と教育委員会は、連絡先を載せた地域にだけ出します。</p>
+        <summary>窓口の種類（代表・広聴・議会事務局・請願・陳情・警察・教育委員会）</summary>
+        <p className="muted">請願・陳情の届け先、警察・公安委員会、教育委員会は、連絡先を載せたところにだけ出します。</p>
         <dl className="type-cards">
           {[...TYPES_FOR_LOCAL, ...EXTRA_TYPES_FOR_PREF].map((t) => (
             <div key={t}>

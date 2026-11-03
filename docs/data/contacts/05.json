@@ -99,6 +99,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "052019-petition",
+    "type": "petition",
+    "department": "秋田市議会 議事課",
+    "phone": "018-888-5784",
+    "email": null,
+    "form_url": null,
+    "postal_code": "010-8560",
+    "postal_address": "秋田市山王一丁目1番1号 本庁舎5階",
+    "hours": null,
+    "source_url": "https://www.city.akita.lg.jp/shigikai/seigan-chinjo/1012673.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -140,6 +155,21 @@
     "id": "052027-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0185-89-2922",
+    "email": "gikai@city.noshiro.lg.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.noshiro.lg.jp/city/gikai/seigan-chinjo/1403",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "052027-petition",
+    "type": "petition",
+    "department": "能代市議会事務局",
     "phone": "0185-89-2922",
     "email": "gikai@city.noshiro.lg.jp",
     "form_url": null,
@@ -201,6 +231,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "052035-petition",
+    "type": "petition",
+    "department": "横手市議会事務局議事課総務係",
+    "phone": "0182-32-2535",
+    "email": null,
+    "form_url": null,
+    "postal_code": "013-8601",
+    "postal_address": "秋田県横手市中央町8番2号",
+    "hours": null,
+    "source_url": "https://www.city.yokote.lg.jp/shigikai/1001551/1004071.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -244,6 +289,21 @@
     "department": "議会事務局 議事調査係",
     "phone": "0186-43-7108",
     "email": null,
+    "form_url": null,
+    "postal_code": "017-8555",
+    "postal_address": "秋田県大館市字中城20番地",
+    "hours": null,
+    "source_url": "https://www.city.odate.lg.jp/city/soshiki/gikaizimu/seigan",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "052043-petition",
+    "type": "petition",
+    "department": "大館市議会 議事調査係",
+    "phone": "0186-43-7108",
+    "email": "giji@city.odate.lg.jp",
     "form_url": null,
     "postal_code": "017-8555",
     "postal_address": "秋田県大館市字中城20番地",
@@ -405,6 +465,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "052094-petition",
+    "type": "petition",
+    "department": "鹿角市議会事務局",
+    "phone": "0186-30-0280",
+    "email": null,
+    "form_url": null,
+    "postal_code": "018-5292",
+    "postal_address": "秋田県鹿角市花輪字荒田4番地1",
+    "hours": null,
+    "source_url": "https://www.city.kazuno.lg.jp/soshiki/gikai/gyomu/1/1_1/1436.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -508,6 +583,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "052116-petition",
+    "type": "petition",
+    "department": "潟上市議会事務局",
+    "phone": "018-853-5330",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.katagami.lg.jp/gyosei/gyoseijoho/shigikai/2847.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -559,6 +649,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "052124-petition",
+    "type": "petition",
+    "department": "大仙市議会事務局",
+    "phone": "0187-63-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.daisen.lg.jp/archive/contents-7187",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -607,6 +712,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.kitaakita.akita.jp/genre/shigikai/syoukai",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "052132-petition",
+    "type": "petition",
+    "department": "北秋田市議会事務局",
+    "phone": "0186-62-6624",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kitaakita.akita.jp/archive/contents-20",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -724,6 +844,21 @@
     "postal_address": "秋田県仙北市田沢湖生保内字宮ノ後30",
     "hours": null,
     "source_url": "https://www.city.semboku.akita.jp/government/assembly/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "052159-petition",
+    "type": "petition",
+    "department": "仙北市議会事務局",
+    "phone": "0187-43-0334",
+    "email": null,
+    "form_url": null,
+    "postal_code": "014-1298",
+    "postal_address": "秋田県仙北市田沢湖生保内字宮ノ後30",
+    "hours": null,
+    "source_url": "https://www.city.semboku.akita.jp/government/assembly/chinjyo.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1048,6 +1183,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "053619-petition",
+    "type": "petition",
+    "department": "五城目町議会事務局 庶務係",
+    "phone": "018-852-5411",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.gojome.akita.jp/town/gikai/seigantinzyou/816",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1252,6 +1402,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "054348-petition",
+    "type": "petition",
+    "department": "美郷町議会事務局",
+    "phone": "0187-84-4912",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.misato.akita.jp/archive/contents-225/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1303,6 +1468,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "054631-petition",
+    "type": "petition",
+    "department": "羽後町議会事務局",
+    "phone": "0183-62-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "012-1131",
+    "postal_address": "秋田県雄勝郡羽後町西馬音内字中野177",
+    "hours": null,
+    "source_url": "https://www.town.ugo.lg.jp/administration/detail.html?id=2228&category_id=51",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -1344,6 +1524,21 @@
     "id": "054640-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0182-47-3411",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://vill.higashinaruse.lg.jp/villager/post-35682/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "054640-petition",
+    "type": "petition",
+    "department": "東成瀬村議会事務局",
     "phone": "0182-47-3411",
     "email": null,
     "form_url": null,

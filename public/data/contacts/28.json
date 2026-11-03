@@ -47,6 +47,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "280003-petition",
+    "type": "petition",
+    "department": "兵庫県議会事務局議事課",
+    "phone": "078-362-3714",
+    "email": "Gikaigijika@pref.hyogo.lg.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://web.pref.hyogo.lg.jp/gikai/goannai/chinjosegan.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -189,6 +204,21 @@
    {
     "id": "282022-assembly",
     "type": "assembly",
+    "department": "尼崎市議会",
+    "phone": "06-6489-6112",
+    "email": null,
+    "form_url": null,
+    "postal_code": "660-8501",
+    "postal_address": "兵庫県尼崎市東七松町1丁目23番1号 議会棟1階",
+    "hours": null,
+    "source_url": "https://www.city.amagasaki.hyogo.jp/gikai/1001054/1014639.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "282022-petition",
+    "type": "petition",
     "department": "尼崎市議会",
     "phone": "06-6489-6112",
     "email": null,
@@ -354,6 +384,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "282057-petition",
+    "type": "petition",
+    "department": "洲本市議会事務局",
+    "phone": "0799-22-3334",
+    "email": null,
+    "form_url": null,
+    "postal_code": "656-8686",
+    "postal_address": "兵庫県洲本市本町三丁目4番10号",
+    "hours": null,
+    "source_url": "https://www.city.sumoto.lg.jp/soshiki/2/1409.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -395,6 +440,21 @@
     "id": "282065-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0797-38-2001",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.ashiya.lg.jp/shigi/seiganchinjou.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "282065-petition",
+    "type": "petition",
+    "department": "芦屋市議会事務局",
     "phone": "0797-38-2001",
     "email": null,
     "form_url": null,
@@ -453,6 +513,21 @@
     "postal_address": "伊丹市千僧1-1",
     "hours": null,
     "source_url": "https://www.city.itami.lg.jp/SOSIKI/SHIGIKAI/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "282073-petition",
+    "type": "petition",
+    "department": "伊丹市議会事務局",
+    "phone": "072-783-1344",
+    "email": null,
+    "form_url": null,
+    "postal_code": "664-8503",
+    "postal_address": "伊丹市千僧1-1",
+    "hours": null,
+    "source_url": "https://www.city.itami.lg.jp/SOSIKI/SHIGIKAI/1548741433505.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -522,6 +597,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "282081-petition",
+    "type": "petition",
+    "department": "相生市議会事務局",
+    "phone": "0791-23-7122",
+    "email": null,
+    "form_url": null,
+    "postal_code": "678-8585",
+    "postal_address": "兵庫県相生市旭1丁目1番3号",
+    "hours": null,
+    "source_url": "https://www.city.aioi.lg.jp/site/gikai/seigan-chinjyo.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -570,6 +660,21 @@
     "postal_address": "豊岡市中央町2番4号",
     "hours": null,
     "source_url": "https://www.city.toyooka.lg.jp/shigikai/1003800.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "282090-petition",
+    "type": "petition",
+    "department": "豊岡市議会事務局 総務係",
+    "phone": "0796-23-1119",
+    "email": null,
+    "form_url": null,
+    "postal_code": "668-8666",
+    "postal_address": "豊岡市中央町2番4号",
+    "hours": null,
+    "source_url": "https://www.city.toyooka.lg.jp/shigikai/1033174/1033175.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -690,6 +795,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "282120-petition",
+    "type": "petition",
+    "department": "赤穂市議会事務局",
+    "phone": "0791-43-6876",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.ako.lg.jp/gikai/segan/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -741,6 +861,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "282138-petition",
+    "type": "petition",
+    "department": "西脇市議会事務局",
+    "phone": "0795-22-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.nishiwaki.lg.jp/kakukanogoannai/gikaijimukyoku/seigan.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    },
    {
     "id": "282138-education",
@@ -809,6 +944,21 @@
     "note": null
    },
    {
+    "id": "282146-petition",
+    "type": "petition",
+    "department": "宝塚市議会事務局 総務課",
+    "phone": "0797-77-2034",
+    "email": null,
+    "form_url": null,
+    "postal_code": "665-8665",
+    "postal_address": "宝塚市東洋町1番1号 本庁舎4階",
+    "hours": null,
+    "source_url": "https://www.city.takarazuka.hyogo.jp/1060687/gikai/minnanogikai/1000990.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "282146-education",
     "type": "education",
     "department": "教育企画課",
@@ -870,6 +1020,21 @@
     "postal_address": "兵庫県三木市上の丸町10番30号 三木市役所 6階",
     "hours": null,
     "source_url": "https://www.city.miki.lg.jp/soshiki/53/60951.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "282154-petition",
+    "type": "petition",
+    "department": "三木市議会事務局",
+    "phone": "0794-89-2309",
+    "email": null,
+    "form_url": null,
+    "postal_code": "673-0492",
+    "postal_address": "兵庫県三木市上の丸町10番30号 三木市役所 6階",
+    "hours": null,
+    "source_url": "https://www.city.miki.lg.jp/soshiki/53/3935.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -966,6 +1131,21 @@
     "id": "282171-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "072-740-1250",
+    "email": null,
+    "form_url": null,
+    "postal_code": "666-8501",
+    "postal_address": "川西市中央町12番1号 市役所6階",
+    "hours": null,
+    "source_url": "https://www.city.kawanishi.hyogo.jp/gikai/sei_tin.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "282171-petition",
+    "type": "petition",
+    "department": "川西市議会事務局",
     "phone": "072-740-1250",
     "email": null,
     "form_url": null,
@@ -1146,6 +1326,21 @@
     "note": null
    },
    {
+    "id": "282201-petition",
+    "type": "petition",
+    "department": "加西市議会事務局",
+    "phone": "0790-42-8790",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kasai.hyogo.jp/site/gikai/3083.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "282201-education",
     "type": "education",
     "department": "教育総務課",
@@ -1312,6 +1507,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "282235-petition",
+    "type": "petition",
+    "department": "丹波市議会 議事総務課",
+    "phone": "0795-82-1472",
+    "email": null,
+    "form_url": null,
+    "postal_code": "669-3692",
+    "postal_address": "兵庫県丹波市氷上町成松字甲賀1番地",
+    "hours": null,
+    "source_url": "https://www.city.tamba.lg.jp/soshiki/gijisomuka/gyomuannai/2/2_1/2952.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1360,6 +1570,21 @@
     "postal_address": "南あわじ市市善光寺22番地1",
     "hours": null,
     "source_url": "https://www.city.minamiawaji.hyogo.jp/adv/ba.php?id=99",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "282243-petition",
+    "type": "petition",
+    "department": "南あわじ市議会事務局",
+    "phone": "0799-43-5005",
+    "email": null,
+    "form_url": null,
+    "postal_code": "656-0492",
+    "postal_address": "南あわじ市市善光寺22番地1",
+    "hours": null,
+    "source_url": "https://www.city.minamiawaji.hyogo.jp/site/gikai/seigan.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1429,6 +1654,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "282251-petition",
+    "type": "petition",
+    "department": "朝来市議会事務局議事係",
+    "phone": "079-672-1930",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.asago.hyogo.jp/site/gikai/list49-178.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1479,6 +1719,21 @@
     "source_url": "https://www.city.awaji.lg.jp/site/gikai/",
     "verified_at": null,
     "status": "unverified",
+    "note": null
+   },
+   {
+    "id": "282260-petition",
+    "type": "petition",
+    "department": "淡路市議会 議事課",
+    "phone": "0799-64-2502",
+    "email": null,
+    "form_url": null,
+    "postal_code": "656-2292",
+    "postal_address": "淡路市生穂新島8番地",
+    "hours": null,
+    "source_url": "https://www.city.awaji.lg.jp/site/gikai/46941.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -1597,6 +1852,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "282286-petition",
+    "type": "petition",
+    "department": "加東市議会事務局",
+    "phone": "0795-43-0385",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kato.lg.jp/gikai/boutyo_seigan/1542109316548.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1646,6 +1916,21 @@
     "postal_address": "兵庫県たつの市龍野町富永1005-1",
     "hours": null,
     "source_url": "https://www.city.tatsuno.lg.jp/soshiki/1042/gyomu/1/4/1763.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "282294-petition",
+    "type": "petition",
+    "department": "たつの市議会事務局 総務係",
+    "phone": "0791-64-3177",
+    "email": null,
+    "form_url": null,
+    "postal_code": "679-4192",
+    "postal_address": "兵庫県たつの市龍野町富永1005-1",
+    "hours": null,
+    "source_url": "https://www.city.tatsuno.lg.jp/soshiki/1042/gyomu/1/4/2937.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1802,6 +2087,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "283819-petition",
+    "type": "petition",
+    "department": "稲美町議会 議事係",
+    "phone": "079-492-9147",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.hyogo-inami.lg.jp/0000002214.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1850,6 +2150,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.town.harima.lg.jp/gikaijimukyoku/chosejoho/gikai/gikai.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "283827-petition",
+    "type": "petition",
+    "department": "播磨町議会事務局",
+    "phone": "079-435-2387",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.harima.lg.jp/gikaijimukyoku/chosejoho/gikai/segan.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1904,6 +2219,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "284424-petition",
+    "type": "petition",
+    "department": "市川町議会",
+    "phone": "0790-26-1010",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.ichikawa.lg.jp/info/69",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    },
    {
     "id": "284424-education",
@@ -1970,6 +2300,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "284432-petition",
+    "type": "petition",
+    "department": "福崎町議会事務局",
+    "phone": "0790-22-0560",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.fukusaki.hyogo.jp/0000000857.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -2011,6 +2356,21 @@
     "id": "284467-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0790-34-0213",
+    "email": null,
+    "form_url": null,
+    "postal_code": "679-3116",
+    "postal_address": "兵庫県神崎郡神河町寺前64番地",
+    "hours": null,
+    "source_url": "https://www.town.kamikawa.hyogo.jp/0000000555.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "284467-petition",
+    "type": "petition",
+    "department": "神河町議会事務局",
     "phone": "0790-34-0213",
     "email": null,
     "form_url": null,
@@ -2074,6 +2434,21 @@
     "note": null
    },
    {
+    "id": "284645-petition",
+    "type": "petition",
+    "department": "太子町議会",
+    "phone": "079-277-1010",
+    "email": null,
+    "form_url": null,
+    "postal_code": "671-1592",
+    "postal_address": "兵庫県揖保郡太子町鵤280番地1",
+    "hours": null,
+    "source_url": "https://www.town.hyogo-taishi.lg.jp/soshikikarasagasu/taishityougikai/seiganntinnzyou/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "284645-education",
     "type": "education",
     "department": "教育委員会管理課",
@@ -2128,6 +2503,21 @@
     "id": "284815-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0791-52-3512",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kamigori.hyogo.jp/tyoseizyoho/gikai/2889.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "284815-petition",
+    "type": "petition",
+    "department": "上郡町議会事務局",
     "phone": "0791-52-3512",
     "email": null,
     "form_url": null,

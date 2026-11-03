@@ -1,0 +1,257 @@
+{
+ "batch": "petition-pref-01",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "010006",
+   "name": "北海道",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "北海道議会事務局議事課",
+     "phone": "011-204-5685",
+     "email": null,
+     "form_url": null,
+     "postal_code": "060-0002",
+     "postal_address": "札幌市中央区北2条西6丁目",
+     "hours": null,
+     "source_url": "https://www.gikai.pref.hokkaido.lg.jp/toiawase/seigan1.html",
+     "evidence": "北海道議会事務局議事課 〒060-0002札幌市中央区北2条西6丁目 電話: 011-204-5685",
+     "note": "ページの題名：請願・陳情等の提出について - 北海道議会事務局"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "020001",
+   "name": "青森県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "青森県議会事務局調査課",
+     "phone": "017-734-9796",
+     "email": "g_chosa@pref.aomori.lg.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.pref.aomori.lg.jp/soshiki/gikai/segan-chinjo.html",
+     "evidence": "青森県議会事務局調査課 電話:017-734-9796 FAX:017",
+     "note": "ページの題名：請願・陳情|青森県庁ウェブサイト Aomori Prefectural Government"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "030007",
+   "name": "岩手県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.pref.iwate.jp/soshiki/gikai/1016218.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "040002",
+   "name": "宮城県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "宮城県議会 議事課",
+     "phone": "022-211-3582",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.pref.miyagi.jp/site/kengikai/seigan.html",
+     "evidence": "議事課 委員会班 電話番号:022-211-3582",
+     "note": "ページの題名：請願・陳情 - 宮城県議会／同じ組織のほかの番号：022-211-3571"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "050008",
+   "name": "秋田県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.pref.akita.lg.jp/pages/archive/259",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "060003",
+   "name": "山形県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "山形県議会 議事調査課",
+     "phone": "023-630-2840",
+     "email": null,
+     "form_url": null,
+     "postal_code": "990-8570",
+     "postal_address": "山形市松波二丁目8-1",
+     "hours": null,
+     "source_url": "https://www.pref.yamagata.jp/600006/kensei/assembly/variousguides/annai-1.html",
+     "evidence": "議事調査課 023-630-2840 [本会議・委",
+     "note": "ページの題名：請願・陳情提出についてのご案内 | 山形県議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "070009",
+   "name": "福島県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.pref.fukushima.lg.jp/site/gikai/seigan-tinjyou.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "080004",
+   "name": "茨城県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.pref.ibaraki.jp/gikai/seido/index.htm",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "090000",
+   "name": "栃木県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "栃木県議会",
+     "phone": "028-623-3761",
+     "email": "gikai@pref.tochigi.lg.jp",
+     "form_url": null,
+     "postal_code": "320-8501",
+     "postal_address": "宇都宮市塙田1-1-20 県庁舎議会議事堂2階",
+     "hours": null,
+     "source_url": "https://www.pref.tochigi.lg.jp/p01/assembly/akusesu/seigan/seigan1.html",
+     "evidence": "議会議事堂2階 電話番号:028-623-3761",
+     "note": "ページの題名：栃木県/請願・陳情の提出方法"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "100005",
+   "name": "群馬県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "群馬県議会事務局",
+     "phone": "027-226-4111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "371-8570",
+     "postal_address": "前橋市大手町1-1-1",
+     "hours": null,
+     "source_url": "https://www.pref.gunma.jp/site/gikai/25700.html",
+     "evidence": "議会事務局 〒371-8570 前橋市大手町1-1-1 027-226-4111(総務課)、02",
+     "note": "ページの題名：請願・陳情の手引き - 群馬県議会 - 群馬県ホームページ／同じ組織のほかの番号：027-226-4131"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,657 @@
+{
+ "batch": "petition-muni-45-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "452017",
+   "name": "宮崎市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "宮崎市議会事務局",
+     "phone": "0985-21-1853",
+     "email": "50cyousa@city.miyazaki.miyazaki.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.miyazaki.miyazaki.jp/parliament/petition/388.html",
+     "evidence": "議会事務局 住所:宮崎市橘通西1-1-1 電話:(0985)21-1853 FAX:(09",
+     "note": "ページの題名：請願・陳情 - 宮崎市 [Miyazaki City]／同じ組織のほかの番号：0985-21-1887"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "452025",
+   "name": "都城市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "都城市議会 議事担当",
+     "phone": "0986-23-7869",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.miyakonojo.miyazaki.jp/site/gikai/3348.html",
+     "evidence": "議事担当 宮崎県都城市姫城町6街区21号 電話:0986-23-7869ファクス:098",
+     "note": "ページの題名：市議会における請願と陳情を紹介します - 宮崎県都城市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "452033",
+   "name": "延岡市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "延岡市議会事務局",
+     "phone": "0982-22-7029",
+     "email": null,
+     "form_url": null,
+     "postal_code": "882-8686",
+     "postal_address": "宮崎県延岡市東本小路2番地1",
+     "hours": null,
+     "source_url": "https://www.city.nobeoka.miyazaki.jp/site/gikai/1429.html",
+     "evidence": "議会事務局(代表) 〒882-8686宮崎県延岡市東本小路2番地1 Tel:0982-22-7029Fax:0982",
+     "note": "ページの題名：請願書と陳情書 - 延岡市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "452041",
+   "name": "日南市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nichinan.lg.jp/gyoseijoho/nichinanshigikai/8/2912.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "452050",
+   "name": "小林市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kobayashi.lg.jp/gyoseijoho/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "452068",
+   "name": "日向市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.hyugacity.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "452076",
+   "name": "串間市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kushima.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "452084",
+   "name": "西都市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.saito.lg.jp/shiseigyosei/shigikai/post-174",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "452092",
+   "name": "えびの市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ebino.lg.jp/gyosei_shisei/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "453412",
+   "name": "三股町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.mimata.lg.jp/contents/2705.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "453617",
+   "name": "高原町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.takaharu.lg.jp/site/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "453820",
+   "name": "国富町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kunitomi.miyazaki.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "453838",
+   "name": "綾町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.aya.miyazaki.jp/soshiki/gikaizimukyoku/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "454010",
+   "name": "高鍋町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "高鍋町議会事務局",
+     "phone": "0983-26-2020",
+     "email": null,
+     "form_url": null,
+     "postal_code": "884-8655",
+     "postal_address": "宮崎県児湯郡高鍋町大字上江8437番地",
+     "hours": null,
+     "source_url": "https://www.town.takanabe.lg.jp/soshiki/gikai/1/630.html",
+     "evidence": "議会事務局 〒884-8655 宮崎県児湯郡高鍋町大字上江8437番地 電話:0983-26-2020",
+     "note": "ページの題名：請願・陳情/高鍋町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "454028",
+   "name": "新富町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "新富町議会事務局",
+     "phone": "0983-33-6139",
+     "email": null,
+     "form_url": null,
+     "postal_code": "889-1493",
+     "postal_address": "宮崎県児湯郡新富町大字上富田7491番地 庁舎3階",
+     "hours": null,
+     "source_url": "https://www.town.shintomi.lg.jp/chosei/gikai/2087.html",
+     "evidence": "議会事務局 〒889-1493 宮崎県児湯郡新富町大字上富田7491番地 庁舎3階 電話番号:0983-33-6139",
+     "note": "ページの題名：請願・陳情について/新富町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "454036",
+   "name": "西米良村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.nishimera.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "454044",
+   "name": "木城町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "木城町議会 議事調査係",
+     "phone": "0983-32-2213",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kijo.lg.jp/sosikikarasagasu/gikaizimukyoku/1/469.html",
+     "evidence": "議事調査係 電話番号:0983-32-2213",
+     "note": "ページの題名：請願・陳情/木城町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "454052",
+   "name": "川南町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "川南町議会事務局",
+     "phone": "0983-27-8017",
+     "email": null,
+     "form_url": null,
+     "postal_code": "889-1301",
+     "postal_address": "川南町大字川南13680-1",
+     "hours": null,
+     "source_url": "https://www.town.kawaminami.miyazaki.jp/soshiki/11/1025.html",
+     "evidence": "議会事務局代表 〒889-1301川南町大字川南13680-1Tel:0983-27-8017Fax:0983",
+     "note": "ページの題名：請願・陳情等 - 川南町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "454061",
+   "name": "都農町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.tsuno.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "454214",
+   "name": "門川町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "門川町議会事務局",
+     "phone": "0982-63-1140",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kadogawa.lg.jp/administration/parliament/page003406.html",
+     "evidence": "議会事務局 TEL:0982-63-1140(内線2301)",
+     "note": "ページの題名：請願書・陳情書 | 門川町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "454290",
+   "name": "諸塚村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.morotsuka.miyazaki.jp/sonsei/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "454303",
+   "name": "椎葉村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.shiiba.miyazaki.jp/assembly/index.php",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "454311",
+   "name": "美郷町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.miyazaki-misato.lg.jp/gikai/default.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "454419",
+   "name": "高千穂町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town-takachiho.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "454427",
+   "name": "日之影町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hinokage.lg.jp/categories/chousei/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "454435",
+   "name": "五ヶ瀬町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "五ヶ瀬町議会事務局",
+     "phone": "0982-82-1711",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.gokase.miyazaki.jp/kakuka/gikai/gikai/seigantinjou.html",
+     "evidence": "議会事務局 電話番号:0982-82-1711",
+     "note": "ページの題名：請願・陳情の案内/五ヶ瀬町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

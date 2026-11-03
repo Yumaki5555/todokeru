@@ -1,0 +1,507 @@
+{
+ "batch": "petition-muni-41-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "412015",
+   "name": "佐賀市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.saga.lg.jp/shisei/sagashioshiru/8/380.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "412023",
+   "name": "唐津市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.karatsu.lg.jp/site/shigikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "412031",
+   "name": "鳥栖市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tosu.lg.jp/site/assembly/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "412040",
+   "name": "多久市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.taku.lg.jp/site/parliament/23072.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "412058",
+   "name": "伊万里市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "伊万里市議会事務局",
+     "phone": "0955-23-2594",
+     "email": "gikai@city.imari.lg.jp",
+     "form_url": null,
+     "postal_code": "848-8501",
+     "postal_address": "佐賀県伊万里市立花町1355番地1",
+     "hours": null,
+     "source_url": "https://www.city.imari.lg.jp/2873.htm",
+     "evidence": "議会事務局 所在地/〒848-8501 佐賀県伊万里市立花町1355番地1 電話番号/0955-23-2594 電話番号/09",
+     "note": "ページの題名：請願・陳情/伊万里市議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "412066",
+   "name": "武雄市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.takeo.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "412074",
+   "name": "鹿島市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "鹿島市議会事務局",
+     "phone": "0954-63-2104",
+     "email": null,
+     "form_url": null,
+     "postal_code": "849-1312",
+     "postal_address": "佐賀県鹿島市大字納富分2643番地1",
+     "hours": null,
+     "source_url": "https://www.city.saga-kashima.lg.jp/main/383.html",
+     "evidence": "議会事務局 〒849-1312 佐賀県鹿島市大字納富分2643番地1 電話:0954-63-2104 ファックス:0",
+     "note": "ページの題名：請願・陳情の手続き | 鹿島市[佐賀県]"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "412082",
+   "name": "小城市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ogi.lg.jp/main/1357.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "412091",
+   "name": "嬉野市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ureshino.lg.jp/gikai.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "412104",
+   "name": "神埼市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kanzaki.saga.jp/main/27.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "413275",
+   "name": "吉野ヶ里町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.yoshinogari.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "413411",
+   "name": "基山町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "基山町議会事務局",
+     "phone": "0942-92-6543",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kiyama.lg.jp/gikai/kiji003170/index.html",
+     "evidence": "議会事務局 〒841-0204 佐賀県三養基郡基山町大字宮浦666番地 TEL:0942-92-6543 FAX:094",
+     "note": "ページの題名：請願・陳情 / 町議会TOP / 基山町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "413453",
+   "name": "上峰町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kamimine.lg.jp/list00202.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "413461",
+   "name": "みやき町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.miyaki.lg.jp/chosei/_4369.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "413879",
+   "name": "玄海町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "玄海町議会事務局",
+     "phone": "0955-52-2194",
+     "email": null,
+     "form_url": null,
+     "postal_code": "847-1421",
+     "postal_address": "佐賀県東松浦郡玄海町諸浦348番地",
+     "hours": null,
+     "source_url": "https://www.town.genkai.lg.jp/soshiki/12/58723.html",
+     "evidence": "議会事務局 〒847-1421佐賀県東松浦郡玄海町諸浦348番地 代表 Tel:0955-52-2194",
+     "note": "ページの題名：議会への請願と陳情 - 玄海町ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "414018",
+   "name": "有田町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.arita.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "414239",
+   "name": "大町町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.omachi.lg.jp/gikai/default.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "414247",
+   "name": "江北町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kouhoku.saga.jp/kiji003548/index.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "414255",
+   "name": "白石町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shiroishi.lg.jp/chousei_machi/gikai.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "414417",
+   "name": "太良町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "太良町議会事務局",
+     "phone": "0954-67-2151",
+     "email": null,
+     "form_url": null,
+     "postal_code": "849-1698",
+     "postal_address": "佐賀県藤津郡太良町大字多良1番地6",
+     "hours": null,
+     "source_url": "https://www.town.tara.lg.jp/chosei/_1010/_1215.html",
+     "evidence": "議会事務局 〒849-1698 佐賀県藤…多良1番地6(太良町役場 3階) 電話番号:0954-67-2151",
+     "note": "ページの題名：請願・陳情の仕方 |太良町ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

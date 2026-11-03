@@ -251,6 +251,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "082040-petition",
+    "type": "petition",
+    "department": "古河市議会事務局",
+    "phone": "0280-22-5111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "306-8601",
+    "postal_address": "茨城県古河市長谷町38番18号",
+    "hours": null,
+    "source_url": "https://www.city.ibaraki-koga.lg.jp/soshiki/shigikaijimukyoku/14/2794.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -353,6 +368,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "082074-petition",
+    "type": "petition",
+    "department": "結城市議会事務局",
+    "phone": "0296-32-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "307-8501",
+    "postal_address": "茨城県結城市中央町二丁目3番地",
+    "hours": null,
+    "source_url": "https://www.city.yuki.lg.jp/assembly/tetsuzuki/page000098.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -401,6 +431,21 @@
     "postal_address": "茨城県龍ケ崎市3710番地",
     "hours": null,
     "source_url": "https://www.city.ryugasaki.ibaraki.jp/shigikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "082082-petition",
+    "type": "petition",
+    "department": "龍ケ崎市議会事務局",
+    "phone": "0297-64-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "301-8611",
+    "postal_address": "茨城県龍ケ崎市3710番地",
+    "hours": null,
+    "source_url": "https://www.city.ryugasaki.ibaraki.jp/shigikai/message/seigan-chinjo.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -740,6 +785,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "082163-petition",
+    "type": "petition",
+    "department": "笠間市議会事務局",
+    "phone": "0296-77-1101",
+    "email": null,
+    "form_url": null,
+    "postal_code": "309-1792",
+    "postal_address": "笠間市中央三丁目2番1号",
+    "hours": null,
+    "source_url": "https://www.city.kasama.lg.jp/page/page000023.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -791,6 +851,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "082171-petition",
+    "type": "petition",
+    "department": "取手市議会事務局",
+    "phone": "0297-74-2141",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.toride.ibaraki.jp/gikai/shise/shicho/shigikai/gaiyo/segan/teshutsu.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -841,6 +916,21 @@
     "source_url": "https://www.city.ushiku.lg.jp/shisei/senkyo-gikai/gikai/page003001.html",
     "verified_at": null,
     "status": "unverified",
+    "note": null
+   },
+   {
+    "id": "082198-petition",
+    "type": "petition",
+    "department": "牛久市議会 庶務議事課",
+    "phone": "029-873-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "300-1292",
+    "postal_address": "茨城県牛久市中央3丁目15番地1 本庁舎 4階",
+    "hours": null,
+    "source_url": "https://www.city.ushiku.lg.jp/shisei/senkyo-gikai/gikai/page004259.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -893,6 +983,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "082201-petition",
+    "type": "petition",
+    "department": "つくば市議会",
+    "phone": "029-883-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.tsukuba.lg.jp/shisei/shigikai/seigan/1002617.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -942,6 +1047,21 @@
     "postal_address": "茨城県ひたちなか市東石川2丁目10番1号",
     "hours": null,
     "source_url": "https://www.city.hitachinaka.lg.jp/gikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "082210-petition",
+    "type": "petition",
+    "department": "ひたちなか市議会事務局",
+    "phone": "029-273-0111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "312-8501",
+    "postal_address": "茨城県ひたちなか市東石川2丁目10番1号",
+    "hours": null,
+    "source_url": "https://www.city.hitachinaka.lg.jp/gikai/g_info/1001769.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1047,6 +1167,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "082236-petition",
+    "type": "petition",
+    "department": "潮来市議会事務局",
+    "phone": "0299-63-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "311-2493",
+    "postal_address": "茨城県潮来市辻626 潮来市役所 本庁舎 3階",
+    "hours": null,
+    "source_url": "https://www.city.itako.lg.jp/gikai/page000985.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1096,6 +1231,21 @@
     "postal_address": "茨城県守谷市大柏950番地の1",
     "hours": null,
     "source_url": "https://www.city.moriya.ibaraki.jp/gikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "082244-petition",
+    "type": "petition",
+    "department": "守谷市議会事務局",
+    "phone": "0297-45-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "302-0198",
+    "postal_address": "茨城県守谷市大柏950番地の1",
+    "hours": null,
+    "source_url": "https://www.city.moriya.ibaraki.jp/gikai/seigan/1007105/index.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": "代表電話と同じ番号です"
@@ -1150,6 +1300,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "082252-petition",
+    "type": "petition",
+    "department": "常陸大宮市議会事務局",
+    "phone": "0295-52-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "319-2292",
+    "postal_address": "常陸大宮市中富町3135-6 本庁4階",
+    "hours": null,
+    "source_url": "https://www.city.hitachiomiya.lg.jp/gikai/page000396.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1198,6 +1363,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.naka.lg.jp/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "082261-petition",
+    "type": "petition",
+    "department": "那珂市議会事務局",
+    "phone": "029-298-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.naka.lg.jp/gikai/seiga-chinjou/page000131.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1356,6 +1536,21 @@
     "note": null
    },
    {
+    "id": "082295-petition",
+    "type": "petition",
+    "department": "稲敷市議会事務局",
+    "phone": "029-892-2000",
+    "email": null,
+    "form_url": null,
+    "postal_code": "300-0595",
+    "postal_address": "稲敷市犬塚1570番地1",
+    "hours": null,
+    "source_url": "https://www.city.inashiki.lg.jp/page/page000353.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
+   },
+   {
     "id": "082295-education",
     "type": "education",
     "department": "教育政策課",
@@ -1420,6 +1615,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "082309-petition",
+    "type": "petition",
+    "department": "かすみがうら市議会事務局",
+    "phone": "0299-59-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "315-8512",
+    "postal_address": "茨城県かすみがうら市上土田461",
+    "hours": null,
+    "source_url": "https://www.city.kasumigaura.lg.jp/page/dir003587.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1468,6 +1678,21 @@
     "postal_address": "桜川市岩瀬64番地2岩瀬第2庁舎 3階",
     "hours": null,
     "source_url": "https://www.city.sakuragawa.lg.jp/gikai/page002506.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "082317-petition",
+    "type": "petition",
+    "department": "桜川市議会事務局",
+    "phone": "0296-75-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.sakuragawa.lg.jp/gikai/page000302.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1641,6 +1866,21 @@
     "note": null
    },
    {
+    "id": "082341-petition",
+    "type": "petition",
+    "department": "鉾田市議会事務局",
+    "phone": "0291-36-7939",
+    "email": null,
+    "form_url": null,
+    "postal_code": "311-1592",
+    "postal_address": "鉾田市鉾田1444番地1",
+    "hours": null,
+    "source_url": "https://www.city.hokota.lg.jp/page/page000032.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "082341-education",
     "type": "education",
     "department": "鉾田市教育委員会",
@@ -1702,6 +1942,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.tsukubamirai.lg.jp/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "082350-petition",
+    "type": "petition",
+    "department": "つくばみらい市議会事務局",
+    "phone": "0297-58-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.tsukubamirai.lg.jp/gikai/page000838.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1771,6 +2026,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "082368-petition",
+    "type": "petition",
+    "department": "小美玉市議会事務局",
+    "phone": "0299-48-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "319-0192",
+    "postal_address": "茨城県小美玉市堅倉835",
+    "hours": null,
+    "source_url": "https://gikai.city.omitama.ibaraki.jp/0000/info-0000003234-4.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1812,6 +2082,21 @@
     "id": "083020-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "029-292-1111",
+    "email": "i-gikai@town.ibaraki.lg.jp",
+    "form_url": null,
+    "postal_code": "311-3192",
+    "postal_address": "茨城県東茨城郡茨城町大字小堤1080番地",
+    "hours": null,
+    "source_url": "https://www.town.ibaraki.lg.jp/gyousei/gyousei/gikai/001994.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "083020-petition",
+    "type": "petition",
+    "department": "茨城町議会事務局",
     "phone": "029-292-1111",
     "email": "i-gikai@town.ibaraki.lg.jp",
     "form_url": null,
@@ -1975,6 +2260,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "083411-petition",
+    "type": "petition",
+    "department": "東海村議会事務局",
+    "phone": "029-282-1711",
+    "email": null,
+    "form_url": null,
+    "postal_code": "319-1192",
+    "postal_address": "茨城県那珂郡東海村東海三丁目7番1号",
+    "hours": null,
+    "source_url": "https://www.vill.tokai.ibaraki.jp/tokaimuragikai/seigan/1883.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -2130,6 +2430,21 @@
     "note": null
    },
    {
+    "id": "084433-petition",
+    "type": "petition",
+    "department": "阿見町議会事務局",
+    "phone": "029-888-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.ami.lg.jp/0000000299.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "084433-education",
     "type": "education",
     "department": "教育委員会",
@@ -2184,6 +2499,21 @@
     "id": "084476-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0297-84-6965",
+    "email": null,
+    "form_url": null,
+    "postal_code": "300-1392",
+    "postal_address": "茨城県稲敷郡河内町源清田1183",
+    "hours": null,
+    "source_url": "https://www.town.ibaraki-kawachi.lg.jp/page/page000029.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "084476-petition",
+    "type": "petition",
+    "department": "河内町議会事務局",
     "phone": "0297-84-6965",
     "email": null,
     "form_url": null,
@@ -2412,6 +2742,21 @@
     "source_url": "https://www.town.tone.ibaraki.jp/parliament/",
     "verified_at": null,
     "status": "unverified",
+    "note": null
+   },
+   {
+    "id": "085642-petition",
+    "type": "petition",
+    "department": "利根町議会",
+    "phone": "0297-68-2211",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.tone.ibaraki.jp/parliament/seigan-chinjou/page002754.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]

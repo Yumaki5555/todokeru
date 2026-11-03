@@ -1,0 +1,432 @@
+{
+ "batch": "petition-muni-03-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "032018",
+   "name": "盛岡市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "盛岡市議会事務局 議事総務課",
+     "phone": "019-613-8315",
+     "email": null,
+     "form_url": null,
+     "postal_code": "020-8530",
+     "postal_address": "盛岡市内丸12-2 盛岡市役所本館3階",
+     "hours": null,
+     "source_url": "https://www.city.morioka.iwate.jp/shisei/shigikai/seigan_chinjo/1014532.html",
+     "evidence": "議会事務局 議事総務課 〒020-8530 盛岡市内丸12-2 盛岡市役所本館3階 電話番号:019-613-8315",
+     "note": "ページの題名：請願・陳情について|盛岡市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "032026",
+   "name": "宮古市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.miyako.iwate.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "032034",
+   "name": "大船渡市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ofunato.iwate.jp/genre/category/administration/shiseiunei/council",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "032051",
+   "name": "花巻市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "花巻市議会事務局",
+     "phone": "0198-41-3598",
+     "email": null,
+     "form_url": null,
+     "postal_code": "025-8601",
+     "postal_address": "花巻市花城町9番30号",
+     "hours": null,
+     "source_url": "https://www.city.hanamaki.iwate.jp/shigikai/1004078.html",
+     "evidence": "議会事務局(市役所本庁舎3階) 電話 0198-41-3598(直通)",
+     "note": "ページの題名：請願・陳情のご案内|花巻市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "032069",
+   "name": "北上市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kitakami.iwate.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "032077",
+   "name": "久慈市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kuji.iwate.jp/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "032085",
+   "name": "遠野市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tono.iwate.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "032093",
+   "name": "一関市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ichinoseki.iwate.jp/genre/shisei-jouhou/shigikai",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "032107",
+   "name": "陸前高田市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.rikuzentakata.iwate.jp/shisei_shinokeikaku/shigikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "032115",
+   "name": "釜石市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "釜石市議会事務局",
+     "phone": "0193-52-0117",
+     "email": null,
+     "form_url": null,
+     "postal_code": "026-8686",
+     "postal_address": "岩手県釜石市天神町5番20号",
+     "hours": null,
+     "source_url": "https://www.city.kamaishi.iwate.jp/shigikai/docs/2013033000020/",
+     "evidence": "議会事務局 住所:〒026-8686 岩手県釜石市天神町5番20号 TEL:0193-52-0117",
+     "note": "ページの題名：請願・陳情 | 釜石市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "032131",
+   "name": "二戸市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ninohe.lg.jp/menu/21",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "032140",
+   "name": "八幡平市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "八幡平市議会事務局",
+     "phone": "0195-74-2429",
+     "email": null,
+     "form_url": null,
+     "postal_code": "028-7397",
+     "postal_address": "岩手県八幡平市野駄21-170",
+     "hours": null,
+     "source_url": "https://www.city.hachimantai.lg.jp/site/gikai/1022.html",
+     "evidence": "議会事務局代表 〒028-7397岩手県八幡平市野駄21-170 Tel:0195-74-2429Fax:0195",
+     "note": "ページの題名：請願・陳情の手続き - 八幡平市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "032158",
+   "name": "奥州市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "奥州市議会 議事調査係",
+     "phone": "0197-34-1575",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.oshu.iwate.jp/gikai/4183.html",
+     "evidence": "議事調査係 〒023-8501 岩手県奥州市水沢大手町1-1 電話番号:0197-34-1575",
+     "note": "ページの題名：請願・陳情の手続き/奥州市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "032166",
+   "name": "滝沢市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "滝沢市議会 議事総務課",
+     "phone": "019-656-6591",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.takizawa.iwate.jp/shigikai/gikai-katsudo/seigan-teishutsu",
+     "evidence": "議事総務課 電話 019-656-6591",
+     "note": "ページの題名：請願・陳情 | 滝沢市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "033014",
+   "name": "雫石町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shizukuishi.iwate.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "033022",
+   "name": "葛巻町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kuzumaki.lg.jp/category/bunya/shigoto/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "033031",
+   "name": "岩手町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://town.iwate.iwate.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

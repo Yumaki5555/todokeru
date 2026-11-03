@@ -6,10 +6,10 @@
   "municipalities": 1741
  },
  "contacts": {
-  "total": 5682,
-  "verified": 2663,
+  "total": 6466,
+  "verified": 3447,
   "by_status": {
-   "verified": 2663,
+   "verified": 3447,
    "unverified": 2980,
    "review": 0,
    "unavailable": 1,
@@ -33,8 +33,8 @@
   "municipalities": {
    "total": 1741,
    "researched": 1741,
-   "with_verified": 1287,
-   "with_shown": 1297
+   "with_verified": 1304,
+   "with_shown": 1313
   }
  },
  "by_pref": {
@@ -48,8 +48,8 @@
    "municipalities": {
     "total": 35,
     "researched": 35,
-    "with_verified": 25,
-    "with_shown": 25
+    "with_verified": 26,
+    "with_shown": 26
    }
   },
   "11": {
@@ -62,8 +62,8 @@
    "municipalities": {
     "total": 63,
     "researched": 63,
-    "with_verified": 58,
-    "with_shown": 58
+    "with_verified": 60,
+    "with_shown": 60
    }
   },
   "12": {
@@ -76,8 +76,8 @@
    "municipalities": {
     "total": 54,
     "researched": 54,
-    "with_verified": 50,
-    "with_shown": 50
+    "with_verified": 51,
+    "with_shown": 51
    }
   },
   "13": {
@@ -90,8 +90,8 @@
    "municipalities": {
     "total": 62,
     "researched": 62,
-    "with_verified": 55,
-    "with_shown": 55
+    "with_verified": 56,
+    "with_shown": 56
    }
   },
   "14": {
@@ -104,7 +104,7 @@
    "municipalities": {
     "total": 33,
     "researched": 33,
-    "with_verified": 29,
+    "with_verified": 30,
     "with_shown": 30
    }
   },
@@ -244,8 +244,8 @@
    "municipalities": {
     "total": 29,
     "researched": 29,
-    "with_verified": 22,
-    "with_shown": 22
+    "with_verified": 23,
+    "with_shown": 23
    }
   },
   "25": {
@@ -286,8 +286,8 @@
    "municipalities": {
     "total": 43,
     "researched": 43,
-    "with_verified": 38,
-    "with_shown": 39
+    "with_verified": 40,
+    "with_shown": 41
    }
   },
   "28": {
@@ -370,8 +370,8 @@
    "municipalities": {
     "total": 27,
     "researched": 27,
-    "with_verified": 23,
-    "with_shown": 23
+    "with_verified": 24,
+    "with_shown": 24
    }
   },
   "34": {
@@ -468,8 +468,8 @@
    "municipalities": {
     "total": 60,
     "researched": 60,
-    "with_verified": 48,
-    "with_shown": 48
+    "with_verified": 50,
+    "with_shown": 50
    }
   },
   "41": {
@@ -566,8 +566,8 @@
    "municipalities": {
     "total": 41,
     "researched": 41,
-    "with_verified": 27,
-    "with_shown": 28
+    "with_verified": 28,
+    "with_shown": 29
    }
   },
   "01": {
@@ -594,8 +594,8 @@
    "municipalities": {
     "total": 40,
     "researched": 40,
-    "with_verified": 28,
-    "with_shown": 28
+    "with_verified": 29,
+    "with_shown": 29
    }
   },
   "03": {
@@ -650,8 +650,8 @@
    "municipalities": {
     "total": 35,
     "researched": 35,
-    "with_verified": 28,
-    "with_shown": 28
+    "with_verified": 29,
+    "with_shown": 29
    }
   },
   "07": {
@@ -678,8 +678,8 @@
    "municipalities": {
     "total": 44,
     "researched": 44,
-    "with_verified": 36,
-    "with_shown": 36
+    "with_verified": 38,
+    "with_shown": 38
    }
   },
   "09": {

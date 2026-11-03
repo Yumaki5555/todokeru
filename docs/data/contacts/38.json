@@ -47,6 +47,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "380008-petition",
+    "type": "petition",
+    "department": "愛媛県議会",
+    "phone": "089-912-2835",
+    "email": null,
+    "form_url": null,
+    "postal_code": "790-8570",
+    "postal_address": "愛媛県松山市一番町4丁目4-2",
+    "hours": null,
+    "source_url": "https://www.pref.ehime.jp/site/gikai/12613.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -96,6 +111,21 @@
     "postal_address": "愛媛県松山市二番町四丁目7-2 別館5階",
     "hours": null,
     "source_url": "https://www.city.matsuyama.ehime.jp/shisei/kakukaichiran/shigikai/202003-hatsugen.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "382019-petition",
+    "type": "petition",
+    "department": "松山市議会事務局",
+    "phone": "089-948-6651",
+    "email": "gikai@city.matsuyama.ehime.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.matsuyama.ehime.jp/shigikai/info/seiganchinjo.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -253,6 +283,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "382043-petition",
+    "type": "petition",
+    "department": "八幡浜市議会事務局",
+    "phone": "0894-22-5998",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.yawatahama.ehime.jp/gikai/2018031600012/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -301,6 +346,21 @@
     "postal_address": "愛媛県新居浜市一宮町一丁目5番1号",
     "hours": null,
     "source_url": "https://www.city.niihama.lg.jp/site/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "382051-petition",
+    "type": "petition",
+    "department": "新居浜市議会事務局",
+    "phone": "0897-65-1320",
+    "email": null,
+    "form_url": null,
+    "postal_code": "792-8585",
+    "postal_address": "愛媛県新居浜市一宮町一丁目5番1号",
+    "hours": null,
+    "source_url": "https://www.city.niihama.lg.jp/site/gikai/seiganchinjyouboutyou.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -459,6 +519,21 @@
     "note": null
    },
    {
+    "id": "382108-petition",
+    "type": "petition",
+    "department": "伊予市議会事務局",
+    "phone": "089-982-6551",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.iyo.lg.jp/gikai/shise/gikai/segan.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "382108-education",
     "type": "education",
     "department": "教育委員会事務局学校教育課",
@@ -571,6 +646,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.seiyo.ehime.jp/shisei/shigikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "382141-petition",
+    "type": "petition",
+    "department": "西予市議会事務局",
+    "phone": "0894-62-6413",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.seiyo.ehime.jp/shisei/shigikai/seigan_chinjo/3156.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null

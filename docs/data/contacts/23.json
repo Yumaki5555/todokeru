@@ -252,6 +252,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "232033-petition",
+    "type": "petition",
+    "department": "一宮市議会局議事調査課",
+    "phone": "0586-28-9139",
+    "email": null,
+    "form_url": null,
+    "postal_code": "491-8501",
+    "postal_address": "愛知県一宮市本町2丁目5番6号 一宮市役所本庁舎12階",
+    "hours": null,
+    "source_url": "https://www.city.ichinomiya.aichi.jp/shigikai/1000081/1005022.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -764,6 +779,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "232131-petition",
+    "type": "petition",
+    "department": "西尾市議会 議事課",
+    "phone": "0563-65-2182",
+    "email": null,
+    "form_url": null,
+    "postal_code": "445-8501",
+    "postal_address": "西尾市寄住町下田22番地",
+    "hours": null,
+    "source_url": "https://www.city.nishio.aichi.jp/gikai/nittei/1004369.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1118,6 +1148,21 @@
     "postal_address": "愛知県新城市字東入船115番地",
     "hours": null,
     "source_url": "https://www.city.shinshiro.lg.jp/shigikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "232211-petition",
+    "type": "petition",
+    "department": "新城市議会 議事調査課",
+    "phone": "0536-23-7657",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.shinshiro.lg.jp/shigikai/bouchou/seigan-chinjyo.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1783,6 +1828,21 @@
     "source_url": "https://www.city.kitanagoya.lg.jp/gikai/index.html",
     "verified_at": null,
     "status": "unverified",
+    "note": null
+   },
+   {
+    "id": "232343-petition",
+    "type": "petition",
+    "department": "北名古屋市議会 議事課",
+    "phone": "0568-23-6115",
+    "email": "giji@city.kitanagoya.lg.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kitanagoya.lg.jp/gikai/other/seigan/1005488.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -2597,6 +2657,21 @@
     "postal_address": "愛知県知多郡武豊町字長尾山2番地",
     "hours": null,
     "source_url": "https://www.town.taketoyo.lg.jp/gikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "234478-petition",
+    "type": "petition",
+    "department": "武豊町議会事務局",
+    "phone": "0569-72-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "470-2392",
+    "postal_address": "愛知県知多郡武豊町字長尾山2番地",
+    "hours": null,
+    "source_url": "https://www.town.taketoyo.lg.jp/gikai/1004034/1002805.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null

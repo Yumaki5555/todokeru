@@ -47,6 +47,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "370002-petition",
+    "type": "petition",
+    "department": "香川県議会 議事課",
+    "phone": "087-832-3679",
+    "email": null,
+    "form_url": null,
+    "postal_code": "760-8570",
+    "postal_address": "香川県高松市番町四丁目1番10号",
+    "hours": null,
+    "source_url": "https://www.pref.kagawa.lg.jp/gikai/annai/3_1.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -332,6 +347,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "372056-petition",
+    "type": "petition",
+    "department": "観音寺市議会事務局議事係",
+    "phone": "0875-23-3913",
+    "email": null,
+    "form_url": null,
+    "postal_code": "768-8601",
+    "postal_address": "香川県観音寺市坂本町一丁目1番1号",
+    "hours": null,
+    "source_url": "https://www.city.kanonji.kagawa.jp/site/gikai/1285.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -485,6 +515,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "372081-petition",
+    "type": "petition",
+    "department": "三豊市議会事務局",
+    "phone": "0875-73-3009",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.mitoyo.lg.jp/gikai/shinsei/chinjou.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -628,6 +673,21 @@
     "id": "373419-assembly",
     "type": "assembly",
     "department": "議会事務局 議事係",
+    "phone": "087-891-3311",
+    "email": null,
+    "form_url": null,
+    "postal_code": "761-0692",
+    "postal_address": "香川県木田郡三木町大字氷上310番地",
+    "hours": null,
+    "source_url": "https://www.town.miki.lg.jp/life/dtl.php?hdnKey=1058",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "373419-petition",
+    "type": "petition",
+    "department": "三木町議会 議事係",
     "phone": "087-891-3311",
     "email": null,
     "form_url": null,
@@ -923,6 +983,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "374041-petition",
+    "type": "petition",
+    "department": "多度津町議会事務局",
+    "phone": "0877-33-0701",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.tadotsu.kagawa.jp/choseijoho/tadotsuchogikai/1258.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -971,6 +1046,21 @@
     "postal_address": "香川県仲多度郡まんのう町吉野下430番地 4階",
     "hours": null,
     "source_url": "https://www.town.manno.lg.jp/adv/ba.php?id=11&ef1=2",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "374067-petition",
+    "type": "petition",
+    "department": "まんのう町議会事務局",
+    "phone": "0877-73-0109",
+    "email": null,
+    "form_url": null,
+    "postal_code": "766-8503",
+    "postal_address": "香川県仲多度郡まんのう町吉野下430番地 4階",
+    "hours": null,
+    "source_url": "https://www.town.manno.lg.jp/site/gikai/1658.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null

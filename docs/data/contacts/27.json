@@ -47,6 +47,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "270008-petition",
+    "type": "petition",
+    "department": "大阪府議会事務局 議事課",
+    "phone": "06-6944-9351",
+    "email": null,
+    "form_url": null,
+    "postal_code": "540-8570",
+    "postal_address": "大阪市中央区大手前2丁目1-22",
+    "hours": null,
+    "source_url": "https://www.pref.osaka.lg.jp/o170020/gikai_giji/oshirase/seigan.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -164,6 +179,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "271403-petition",
+    "type": "petition",
+    "department": "堺市議会 議事課",
+    "phone": "072-228-7812",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.sakai.lg.jp/shigikai/seiganchinjo/seigan.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -215,6 +245,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "272027-petition",
+    "type": "petition",
+    "department": "岸和田市議会議会事務局総務課議事担当",
+    "phone": "072-423-9668",
+    "email": null,
+    "form_url": null,
+    "postal_code": "596-8510",
+    "postal_address": "大阪府岸和田市岸城町7番1号 岸和田市役所新館3階",
+    "hours": null,
+    "source_url": "https://www.city.kishiwada.lg.jp/site/gikai/ikensyo.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -256,6 +301,21 @@
    {
     "id": "272035-assembly",
     "type": "assembly",
+    "department": "豊中市議会",
+    "phone": "06-6858-2633",
+    "email": null,
+    "form_url": null,
+    "postal_code": "561-8501",
+    "postal_address": "豊中市中桜塚3丁目1番1号 議会棟",
+    "hours": null,
+    "source_url": "https://www.city.toyonaka.osaka.jp/shigikai/shimin/tinjou.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "272035-petition",
+    "type": "petition",
     "department": "豊中市議会",
     "phone": "06-6858-2633",
     "email": null,
@@ -371,6 +431,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "272051-petition",
+    "type": "petition",
+    "department": "吹田市議会事務局",
+    "phone": "06-6384-1231",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.suita.osaka.jp/shigikai/1017063/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    },
    {
     "id": "272051-education",
@@ -503,6 +578,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "272078-petition",
+    "type": "petition",
+    "department": "高槻市議会事務局",
+    "phone": "072-674-7213",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.takatsuki.osaka.jp/site/takatsukishigikai/1068.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -607,6 +697,21 @@
     "note": null
    },
    {
+    "id": "272094-petition",
+    "type": "petition",
+    "department": "守口市議会事務局",
+    "phone": "06-6992-1782",
+    "email": null,
+    "form_url": null,
+    "postal_code": "570-8666",
+    "postal_address": "大阪府守口市京阪本通2-5-5",
+    "hours": null,
+    "source_url": "https://www.city.moriguchi.osaka.jp/kakukanoannai/gikaijimukyoku/1/11945.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "272094-education",
     "type": "education",
     "department": "教育総務課",
@@ -671,6 +776,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "272108-petition",
+    "type": "petition",
+    "department": "枚方市議会 議事広報課",
+    "phone": "072-841-1528",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.hirakata.osaka.jp/0000001089.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -712,6 +832,21 @@
     "id": "272116-assembly",
     "type": "assembly",
     "department": "市議会事務局 議事課",
+    "phone": "072-620-1671",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.ibaraki.osaka.jp/shisei_info/gikai/56342.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "272116-petition",
+    "type": "petition",
+    "department": "茨木市議会事務局 議事課",
     "phone": "072-620-1671",
     "email": null,
     "form_url": null,
@@ -771,6 +906,21 @@
     "postal_address": "大阪府八尾市本町1-1-1",
     "hours": null,
     "source_url": "https://www.city.yao.osaka.jp/shisei/yaoshigikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "272124-petition",
+    "type": "petition",
+    "department": "八尾市議会 議事政策課",
+    "phone": "072-924-3885",
+    "email": null,
+    "form_url": null,
+    "postal_code": "581-0003",
+    "postal_address": "大阪府八尾市本町1-1-1",
+    "hours": null,
+    "source_url": "https://www.city.yao.osaka.jp/shisei/yaoshigikai/1009490/1009492.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -837,6 +987,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.izumisano.lg.jp/shigikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "272132-petition",
+    "type": "petition",
+    "department": "泉佐野市議会事務局",
+    "phone": "072-463-1212",
+    "email": "gikai@city.izumisano.lg.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.izumisano.lg.jp/shigikai/seigan_tinjou/seigan_tinjou.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -942,6 +1107,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "272159-petition",
+    "type": "petition",
+    "department": "寝屋川市議会",
+    "phone": "072-824-0010",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.neyagawa.osaka.jp/organization_list/kaikei_gikai_iinkai/gikaizimu/neyagawashigikai/1423552799149.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -990,6 +1170,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.kawachinagano.lg.jp/site/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "272167-petition",
+    "type": "petition",
+    "department": "河内長野市議会総務課",
+    "phone": "0721-53-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kawachinagano.lg.jp/site/gikai/5359.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": "代表電話と同じ番号です"
@@ -1044,6 +1239,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "272175-petition",
+    "type": "petition",
+    "department": "松原市議会事務局",
+    "phone": "072-334-1550",
+    "email": null,
+    "form_url": null,
+    "postal_code": "580-8501",
+    "postal_address": "大阪府松原市阿保1丁目1番1号",
+    "hours": null,
+    "source_url": "https://www.city.matsubara.lg.jp/docs/page3365.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -1197,6 +1407,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "272205-petition",
+    "type": "petition",
+    "department": "箕面市議会事務局議事課",
+    "phone": "072-724-6705",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.minoh.lg.jp/giji/gaiyou/seigan-tinjyou.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1248,6 +1473,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "272213-petition",
+    "type": "petition",
+    "department": "柏原市議会事務局",
+    "phone": "072-972-1501",
+    "email": "gikai@city.kashiwara.lg.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kashiwara.lg.jp/docs/2022013100025/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -1605,6 +1845,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "272281-petition",
+    "type": "petition",
+    "department": "泉南市議会事務局",
+    "phone": "072-483-0008",
+    "email": "gikai@city.sennan.lg.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://gikai.city.sennan.osaka.jp/1959",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1656,6 +1911,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "272299-petition",
+    "type": "petition",
+    "department": "四條畷市議会事務局",
+    "phone": "072-877-2121",
+    "email": null,
+    "form_url": null,
+    "postal_code": "575-8501",
+    "postal_address": "大阪府四條畷市中野本町1番1号 本館3階",
+    "hours": null,
+    "source_url": "https://www.city.shijonawate.lg.jp/page/53-2057.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -1773,6 +2043,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "272311-petition",
+    "type": "petition",
+    "department": "大阪狭山市議会事務局",
+    "phone": "072-360-4453",
+    "email": "gikai@city.osakasayama.osaka.jp",
+    "form_url": null,
+    "postal_code": "589-8501",
+    "postal_address": "大阪府大阪狭山市狭山一丁目2384番地の1",
+    "hours": null,
+    "source_url": "https://www.gikai-web.com/osakasayama/044seigan.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1814,6 +2099,21 @@
     "id": "272329-assembly",
     "type": "assembly",
     "department": "議会事務局 庶務課",
+    "phone": "072-471-5680",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.hannan.lg.jp/shigikai/annai/seigan/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "272329-petition",
+    "type": "petition",
+    "department": "阪南市議会事務局 庶務課",
     "phone": "072-471-5680",
     "email": null,
     "form_url": null,
@@ -1875,6 +2175,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "273015-petition",
+    "type": "petition",
+    "department": "島本町議会事務局議会総務課",
+    "phone": "075-962-6315",
+    "email": null,
+    "form_url": null,
+    "postal_code": "618-8570",
+    "postal_address": "大阪府三島郡島本町桜井二丁目1番1号",
+    "hours": null,
+    "source_url": "https://www.town.shimamoto.lg.jp/soshiki/20/12142.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1916,6 +2231,21 @@
     "id": "273210-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "072-739-3430",
+    "email": null,
+    "form_url": null,
+    "postal_code": "563-0292",
+    "postal_address": "大阪府豊能郡豊能町余野414番地の1 本庁舎2階",
+    "hours": null,
+    "source_url": "https://www.town.toyono.osaka.jp/gyousei/gikai/about/page000418.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "273210-petition",
+    "type": "petition",
+    "department": "豊能町議会事務局",
     "phone": "072-739-3430",
     "email": null,
     "form_url": null,
@@ -2028,6 +2358,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "273414-petition",
+    "type": "petition",
+    "department": "忠岡町議会事務局",
+    "phone": "0725-22-1122",
+    "email": null,
+    "form_url": null,
+    "postal_code": "595-0805",
+    "postal_address": "大阪府泉北郡忠岡町忠岡東1-34-1",
+    "hours": null,
+    "source_url": "https://www.town.tadaoka.osaka.jp/gyousei/gikai/seigan_cinjou/2203.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -2078,6 +2423,21 @@
     "source_url": "https://www.town.kumatori.lg.jp/gyosei_joho/kumatori_gikai/index.html",
     "verified_at": null,
     "status": "unverified",
+    "note": null
+   },
+   {
+    "id": "273619-petition",
+    "type": "petition",
+    "department": "熊取町議会総務グループ",
+    "phone": "072-452-9023",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kumatori.lg.jp/soshiki/gikai_somu/gyomu/kumatori_gikai/seigan_chinjo/1981.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -2283,6 +2643,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "273821-petition",
+    "type": "petition",
+    "department": "河南町議会事務局",
+    "phone": "0721-93-2500",
+    "email": "gikai@town.kanan.osaka.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kanan.osaka.jp/gyoseijoho/gikai/4523.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -2331,6 +2706,21 @@
     "postal_address": "大阪府南河内郡千早赤阪村大字水分180番地",
     "hours": null,
     "source_url": "https://www.vill.chihayaakasaka.osaka.jp/kakuka/gikai/2_1/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "273830-petition",
+    "type": "petition",
+    "department": "千早赤阪村議会事務局",
+    "phone": "0721-26-7168",
+    "email": null,
+    "form_url": null,
+    "postal_code": "585-8501",
+    "postal_address": "大阪府南河内郡千早赤阪村大字水分180番地",
+    "hours": null,
+    "source_url": "https://www.vill.chihayaakasaka.osaka.jp/kakuka/gikai/2_1/2384.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null

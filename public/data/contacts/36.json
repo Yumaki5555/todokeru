@@ -47,6 +47,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "360007-petition",
+    "type": "petition",
+    "department": "徳島県議会 議事課",
+    "phone": "088-621-3007",
+    "email": null,
+    "form_url": null,
+    "postal_code": "770-8570",
+    "postal_address": "徳島市万代町1-1",
+    "hours": null,
+    "source_url": "https://www.pref.tokushima.lg.jp/gikai/information/seigan.html/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -98,6 +113,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "362018-petition",
+    "type": "petition",
+    "department": "徳島市議会 議事調査課",
+    "phone": "088-621-5115",
+    "email": null,
+    "form_url": null,
+    "postal_code": "770-8571",
+    "postal_address": "徳島県徳島市幸町2丁目5番地",
+    "hours": null,
+    "source_url": "https://www.city.tokushima.tokushima.jp/shigikai/kakusyu_tetuduki/seigan.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -139,6 +169,21 @@
     "id": "362026-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "088-684-1234",
+    "email": "gikai@city.naruto.i-tokushima.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.naruto.lg.jp/gikai/docs/2025122500335/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "362026-petition",
+    "type": "petition",
+    "department": "鳴門市議会事務局",
     "phone": "088-684-1234",
     "email": "gikai@city.naruto.i-tokushima.jp",
     "form_url": null,
@@ -385,6 +430,21 @@
     "note": null
    },
    {
+    "id": "362069-petition",
+    "type": "petition",
+    "department": "阿波市議会",
+    "phone": "0883-36-8750",
+    "email": null,
+    "form_url": null,
+    "postal_code": "771-1695",
+    "postal_address": "徳島県阿波市市場町切幡字古田201番地1",
+    "hours": null,
+    "source_url": "https://www.city.awa.lg.jp/gikai/docs/2025103000014/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "362069-education",
     "type": "education",
     "department": "教育総務課",
@@ -448,6 +508,21 @@
     "source_url": "https://www.city.mima.lg.jp/gyosei/shisei/gikai/",
     "verified_at": null,
     "status": "unverified",
+    "note": null
+   },
+   {
+    "id": "362077-petition",
+    "type": "petition",
+    "department": "美馬市議会事務局",
+    "phone": "0883-52-8004",
+    "email": "gikai@mima.i-tokushima.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.mima.lg.jp/gyosei/docs/1471880.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -704,6 +779,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "363413-petition",
+    "type": "petition",
+    "department": "石井町議会事務局",
+    "phone": "088-674-7500",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.ishii.lg.jp/docs/2018110800159/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -745,6 +835,21 @@
     "id": "363421-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "088-676-1511",
+    "email": "gikai@kamiyama.i-tokushima.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kamiyama.lg.jp/docs/2025040100334/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "363421-petition",
+    "type": "petition",
+    "department": "神山町議会事務局",
     "phone": "088-676-1511",
     "email": "gikai@kamiyama.i-tokushima.jp",
     "form_url": null,
@@ -1028,6 +1133,21 @@
     "note": null
    },
    {
+    "id": "364011-petition",
+    "type": "petition",
+    "department": "松茂町議会事務局",
+    "phone": "088-699-8720",
+    "email": "gikai@matsushige.i-tokushima.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.matsushige.tokushima.jp/docs/2015112600084/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "364011-education",
     "type": "education",
     "department": "教育総務課",
@@ -1091,6 +1211,21 @@
     "source_url": "https://www.town.kitajima.lg.jp/gikai/",
     "verified_at": null,
     "status": "unverified",
+    "note": null
+   },
+   {
+    "id": "364029-petition",
+    "type": "petition",
+    "department": "北島町議会事務局",
+    "phone": "088-698-9811",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kitajima.lg.jp/docs/1040.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]

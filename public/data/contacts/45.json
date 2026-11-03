@@ -47,6 +47,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "450006-petition",
+    "type": "petition",
+    "department": "宮崎県議会 議事課",
+    "phone": "0985-26-7216",
+    "email": null,
+    "form_url": null,
+    "postal_code": "880-8501",
+    "postal_address": "宮崎市橘通東2-10-1",
+    "hours": null,
+    "source_url": "https://www.pref.miyazaki.lg.jp/gikai/about/petition/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -96,6 +111,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.miyazaki.miyazaki.jp/parliament/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "452017-petition",
+    "type": "petition",
+    "department": "宮崎市議会事務局",
+    "phone": "0985-21-1853",
+    "email": "50cyousa@city.miyazaki.miyazaki.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.miyazaki.miyazaki.jp/parliament/petition/388.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -150,6 +180,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "452025-petition",
+    "type": "petition",
+    "department": "都城市議会 議事担当",
+    "phone": "0986-23-7869",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.miyakonojo.miyazaki.jp/site/gikai/3348.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -198,6 +243,21 @@
     "postal_address": "宮崎県延岡市東本小路2番地1",
     "hours": null,
     "source_url": "https://www.city.nobeoka.miyazaki.jp/site/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "452033-petition",
+    "type": "petition",
+    "department": "延岡市議会事務局",
+    "phone": "0982-22-7029",
+    "email": null,
+    "form_url": null,
+    "postal_code": "882-8686",
+    "postal_address": "宮崎県延岡市東本小路2番地1",
+    "hours": null,
+    "source_url": "https://www.city.nobeoka.miyazaki.jp/site/gikai/1429.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -792,6 +852,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "454010-petition",
+    "type": "petition",
+    "department": "高鍋町議会事務局",
+    "phone": "0983-26-2020",
+    "email": null,
+    "form_url": null,
+    "postal_code": "884-8655",
+    "postal_address": "宮崎県児湯郡高鍋町大字上江8437番地",
+    "hours": null,
+    "source_url": "https://www.town.takanabe.lg.jp/soshiki/gikai/1/630.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -833,6 +908,21 @@
     "id": "454028-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0983-33-6139",
+    "email": null,
+    "form_url": null,
+    "postal_code": "889-1493",
+    "postal_address": "宮崎県児湯郡新富町大字上富田7491番地 庁舎3階",
+    "hours": null,
+    "source_url": "https://www.town.shintomi.lg.jp/chosei/gikai/2087.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "454028-petition",
+    "type": "petition",
+    "department": "新富町議会事務局",
     "phone": "0983-33-6139",
     "email": null,
     "form_url": null,
@@ -945,6 +1035,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "454044-petition",
+    "type": "petition",
+    "department": "木城町議会 議事調査係",
+    "phone": "0983-32-2213",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kijo.lg.jp/sosikikarasagasu/gikaizimukyoku/1/469.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -993,6 +1098,21 @@
     "postal_address": "川南町大字川南13680-1",
     "hours": null,
     "source_url": "https://www.town.kawaminami.miyazaki.jp/site/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "454052-petition",
+    "type": "petition",
+    "department": "川南町議会事務局",
+    "phone": "0983-27-8017",
+    "email": null,
+    "form_url": null,
+    "postal_code": "889-1301",
+    "postal_address": "川南町大字川南13680-1",
+    "hours": null,
+    "source_url": "https://www.town.kawaminami.miyazaki.jp/soshiki/11/1025.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1098,6 +1218,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "454214-petition",
+    "type": "petition",
+    "department": "門川町議会事務局",
+    "phone": "0982-63-1140",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kadogawa.lg.jp/administration/parliament/page003406.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -1404,6 +1539,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "454435-petition",
+    "type": "petition",
+    "department": "五ヶ瀬町議会事務局",
+    "phone": "0982-82-1711",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.gokase.miyazaki.jp/kakuka/gikai/gikai/seigantinjou.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    },
    {
     "id": "454435-education",

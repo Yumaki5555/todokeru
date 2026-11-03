@@ -1,0 +1,532 @@
+{
+ "batch": "petition-muni-11-3",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "113263",
+   "name": "毛呂山町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.moroyama.saitama.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "113271",
+   "name": "越生町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "越生町議会事務局",
+     "phone": "049-292-3121",
+     "email": null,
+     "form_url": null,
+     "postal_code": "350-0494",
+     "postal_address": "越生町大字越生900番地2",
+     "hours": null,
+     "source_url": "https://www.town.ogose.saitama.jp/chousei/gikai/tangan/1453290407830.html",
+     "evidence": "議会事務局 〒350-0494 越生町大字越生900番地2 電話番号: 049-292-3121",
+     "note": "ページの題名：請願・陳情書/越生町ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "113417",
+   "name": "滑川町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "滑川町議会事務局",
+     "phone": "0493-56-6913",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.namegawa.saitama.jp/choseijoho/gikai/seigan_chinjosho/1390.html",
+     "evidence": "議会事務局 〒355-8585 埼玉県比企郡滑川町大字福田750-1 電話番号:0493-56-6913",
+     "note": "ページの題名：請願・陳情書/滑川町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "113425",
+   "name": "嵐山町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "嵐山町議会事務局",
+     "phone": "0493-62-4587",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ranzan.saitama.jp/0000004881.html",
+     "evidence": "議会事務局 電話: 0493-62-4587",
+     "note": "ページの題名：請願、陳情手続き | 嵐山町(らんざんまち)ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "113433",
+   "name": "小川町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ogawa.saitama.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "113468",
+   "name": "川島町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "川島町議会事務局",
+     "phone": "049-299-1759",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kawajima.saitama.jp/5805.htm",
+     "evidence": "議会事務局 TEL:049-299-1759",
+     "note": "ページの題名：請願書の提出/ 川島町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "113476",
+   "name": "吉見町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.yoshimi.saitama.jp/soshiki/gikaijimukyoku/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "113484",
+   "name": "鳩山町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "鳩山町議会事務局",
+     "phone": "049-296-1213",
+     "email": null,
+     "form_url": null,
+     "postal_code": "350-0392",
+     "postal_address": "埼玉県比企郡鳩山町大字大豆戸184番地16",
+     "hours": null,
+     "source_url": "https://www.town.hatoyama.saitama.jp/gyousei/gikai/seigan_shikata.html",
+     "evidence": "議会事務局 〒350-0392 埼玉県比企郡鳩山町大字大豆戸184番地16 電話番号:049-296-1213",
+     "note": "ページの題名：請願の仕方 | 鳩山町公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "113492",
+   "name": "ときがわ町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.tokigawa.lg.jp/forms/top/top.aspx",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "113611",
+   "name": "横瀬町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.yokoze.saitama.jp/yokoze/about-yokoze/63100",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "113620",
+   "name": "皆野町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "皆野町議会事務局",
+     "phone": "0494-62-1467",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.minano.saitama.jp/section/gikai/577/",
+     "evidence": "議会事務局 お問い合わせ先 電話番号:0494-62-1467",
+     "note": "ページの題名：請願・陳情 | 秩父音頭のふる里 皆野町 埼玉県秩父郡皆野町ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "113638",
+   "name": "長瀞町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "長瀞町議会事務局",
+     "phone": "0494-66-3111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.nagatoro.saitama.jp/nagatorochougikai/gikai_seigan/",
+     "evidence": "議会事務局 電話番号 0494-66-3111",
+     "note": "ページの題名：請願・陳情 | 長瀞町役場"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "113654",
+   "name": "小鹿野町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ogano.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "113697",
+   "name": "東秩父村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.higashichichibu.saitama.jp/site/gikai/gikai.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "113816",
+   "name": "美里町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "美里町議会事務局",
+     "phone": "0495-76-5136",
+     "email": "gikai@town.saitama-misato.lg.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.saitama-misato.lg.jp/0000000410.html",
+     "evidence": "議会事務局 電話: 0495-76-5136 ファクス: 0",
+     "note": "ページの題名：請願・陳情 | 埼玉県児玉郡美里町 ~美しい里の町~"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "113832",
+   "name": "神川町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kamikawa.saitama.jp/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "113859",
+   "name": "上里町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kamisato.saitama.jp/1793.htm",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "114081",
+   "name": "寄居町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "寄居町議会事務局",
+     "phone": "048-581-2121",
+     "email": null,
+     "form_url": null,
+     "postal_code": "369-1292",
+     "postal_address": "埼玉県大里郡寄居町大字寄居1180-1",
+     "hours": null,
+     "source_url": "https://www.town.yorii.saitama.jp/site/gikai/seigan-chinjo.html",
+     "evidence": "議会事務局代表 〒369-1292埼玉県大里郡寄居町大字寄居1180-1 Tel:048-581-2121(内線341・3",
+     "note": "ページの題名：請願・陳情書の作成方法について - 寄居町公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "114421",
+   "name": "宮代町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "宮代町議会事務局",
+     "phone": "0480-34-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.miyashiro.lg.jp/0000002686.html",
+     "evidence": "議会事務局 電話: 0480-34-1111(代表)内線30",
+     "note": "ページの題名：請願・陳情について | 埼玉県宮代町~首都圏でいちばん人が輝く町~"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "114642",
+   "name": "杉戸町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "杉戸町議会事務局",
+     "phone": "0480-33-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "345-8502",
+     "postal_address": "埼玉県北葛飾郡杉戸町清地2-9-29",
+     "hours": null,
+     "source_url": "https://www.town.sugito.lg.jp/site/gikai/6079.html",
+     "evidence": "議会事務局連絡先 〒345-8502埼玉県北葛飾郡杉戸町清地2-9-29 Tel:0480-33-1111Fax:0480",
+     "note": "ページの題名：請願・陳情(議会事務局) - 杉戸町議会 - 杉戸町公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "114651",
+   "name": "松伏町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.matsubushi.lg.jp/category/6-14-0-0-0-0-0-0-0-0.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

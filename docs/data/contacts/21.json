@@ -99,6 +99,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "212016-petition",
+    "type": "petition",
+    "department": "岐阜市議会総務課",
+    "phone": "058-214-6237",
+    "email": null,
+    "form_url": null,
+    "postal_code": "500-8701",
+    "postal_address": "岐阜市司町40番地1 市庁舎4階",
+    "hours": null,
+    "source_url": "https://www.city.gifu.lg.jp/info/shigikai/1009452/1009453.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -150,6 +165,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "212024-petition",
+    "type": "petition",
+    "department": "大垣市議会事務局",
+    "phone": "0584-47-8073",
+    "email": null,
+    "form_url": null,
+    "postal_code": "503-8601",
+    "postal_address": "岐阜県大垣市丸の内2丁目29番地",
+    "hours": null,
+    "source_url": "https://www.city.ogaki.lg.jp/gikai/category/10-10-0-0-0.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -198,6 +228,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.takayama.lg.jp/gikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "212032-petition",
+    "type": "petition",
+    "department": "高山市議会事務局",
+    "phone": "0577-35-3152",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.takayama.lg.jp/gikai/1002468/1002470.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -267,6 +312,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "212041-petition",
+    "type": "petition",
+    "department": "多治見市議会グループ",
+    "phone": "0572-22-9899",
+    "email": null,
+    "form_url": null,
+    "postal_code": "507-8703",
+    "postal_address": "多治見市日ノ出町2丁目15番地",
+    "hours": null,
+    "source_url": "https://www.city.tajimi.lg.jp/shisei/gikai/1008178/1008179.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -318,6 +378,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "212059-petition",
+    "type": "petition",
+    "department": "関市役所事務局議会事務局",
+    "phone": "0575-23-9068",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.seki.lg.jp/0000001420.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -359,6 +434,21 @@
     "id": "212067-assembly",
     "type": "assembly",
     "department": "市議会事務局議会総務課",
+    "phone": "0573-66-1133",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.nakatsugawa.lg.jp/shisei/citycouncil/3051.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "212067-petition",
+    "type": "petition",
+    "department": "中津川市議会事務局議会総務課",
     "phone": "0573-66-1133",
     "email": null,
     "form_url": null,
@@ -435,6 +525,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "212075-petition",
+    "type": "petition",
+    "department": "美濃市議会事務局",
+    "phone": "0575-33-1122",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.mino.gifu.jp/docs/1716.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -486,6 +591,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "212083-petition",
+    "type": "petition",
+    "department": "瑞浪市議会事務局 総務課",
+    "phone": "0572-67-1112",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.mizunami.lg.jp/shigikai/shigikai/1003400.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -534,6 +654,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.hashima.lg.jp/3523.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "212091-petition",
+    "type": "petition",
+    "department": "羽島市議会総務課",
+    "phone": "058-392-1121",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.hashima.lg.jp/2623.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -690,6 +825,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "212121-petition",
+    "type": "petition",
+    "department": "土岐市議会事務局",
+    "phone": "0572-54-1273",
+    "email": null,
+    "form_url": null,
+    "postal_code": "509-5192",
+    "postal_address": "土岐市土岐津町土岐口2101",
+    "hours": null,
+    "source_url": "https://www.city.toki.lg.jp/shisei/gikai/1004935/1002190.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -738,6 +888,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.kakamigahara.lg.jp/shisei/shigikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "212130-petition",
+    "type": "petition",
+    "department": "各務原市議会総務課",
+    "phone": "058-383-2001",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kakamigahara.lg.jp/shisei/shigikai/1006003/1006004.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1028,6 +1193,21 @@
     "note": null
    },
    {
+    "id": "212181-petition",
+    "type": "petition",
+    "department": "本巣市議会事務局 総務課",
+    "phone": "058-323-8103",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.motosu.lg.jp/0000000402.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "212181-education",
     "type": "education",
     "department": "教育総務課",
@@ -1140,6 +1320,21 @@
     "postal_address": "岐阜県下呂市森960番地",
     "hours": null,
     "source_url": "https://www.city.gero.lg.jp/site/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "212202-petition",
+    "type": "petition",
+    "department": "下呂市議会総務課",
+    "phone": "0576-24-2222",
+    "email": null,
+    "form_url": null,
+    "postal_code": "509-2295",
+    "postal_address": "岐阜県下呂市森960番地",
+    "hours": null,
+    "source_url": "https://www.city.gero.lg.jp/site/gikai/1746.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1260,6 +1455,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "213021-petition",
+    "type": "petition",
+    "department": "岐南町議会事務局",
+    "phone": "058-247-1682",
+    "email": "gikai@town.ginan.lg.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.ginan.lg.jp/1331.htm",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1301,6 +1511,21 @@
     "id": "213039-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "058-388-1110",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kasamatsu.gifu.jp/docs/2013011100070/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "213039-petition",
+    "type": "petition",
+    "department": "笠松町議会事務局",
     "phone": "058-388-1110",
     "email": null,
     "form_url": null,
@@ -1359,6 +1584,21 @@
     "postal_address": "岐阜県養老郡養老町高田798番地",
     "hours": null,
     "source_url": "https://www.town.yoro.gifu.jp/government/assembly/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "213411-petition",
+    "type": "petition",
+    "department": "養老町議会事務局",
+    "phone": "0584-32-5084",
+    "email": null,
+    "form_url": null,
+    "postal_code": "503-1392",
+    "postal_address": "岐阜県養老郡養老町高田798番地",
+    "hours": null,
+    "source_url": "https://www.town.yoro.gifu.jp/government/assembly/1002263/1002267.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1634,6 +1874,21 @@
     "note": null
    },
    {
+    "id": "213837-petition",
+    "type": "petition",
+    "department": "安八町議会事務局",
+    "phone": "0584-64-4931",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.anpachi.lg.jp/0000000225.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "213837-education",
     "type": "education",
     "department": "安八町教育委員会",
@@ -1851,6 +2106,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "214213-petition",
+    "type": "petition",
+    "department": "北方町議会事務局",
+    "phone": "058-323-1117",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kitagata.gifu.jp/gyoseijoho/gikai/2672.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1950,6 +2220,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.town.tomika.gifu.jp/docs/221.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "215023-petition",
+    "type": "petition",
+    "department": "富加町議会事務局",
+    "phone": "0574-54-2161",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.tomika.gifu.jp/docs/222.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -2249,6 +2534,21 @@
     "id": "215210-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0574-67-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.mitake.lg.jp/portal/town/parliament/post0003666/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "215210-petition",
+    "type": "petition",
+    "department": "御嵩町議会事務局",
     "phone": "0574-67-2111",
     "email": null,
     "form_url": null,

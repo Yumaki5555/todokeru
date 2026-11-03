@@ -1,0 +1,532 @@
+{
+ "batch": "petition-muni-21-2",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "213021",
+   "name": "岐南町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "岐南町議会事務局",
+     "phone": "058-247-1682",
+     "email": "gikai@town.ginan.lg.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ginan.lg.jp/1331.htm",
+     "evidence": "議会事務局 TEL:058-247-1682",
+     "note": "ページの題名：請願・陳情/ 岐南町公式ホームページ ぎなんねっと"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "213039",
+   "name": "笠松町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "笠松町議会事務局",
+     "phone": "058-388-1110",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kasamatsu.gifu.jp/docs/2013011100070/",
+     "evidence": "議会事務局 電話:058-388-1110",
+     "note": "ページの題名：請願と陳情の提出方法 | 笠松町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "213411",
+   "name": "養老町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "養老町議会事務局",
+     "phone": "0584-32-5084",
+     "email": null,
+     "form_url": null,
+     "postal_code": "503-1392",
+     "postal_address": "岐阜県養老郡養老町高田798番地",
+     "hours": null,
+     "source_url": "https://www.town.yoro.gifu.jp/government/assembly/1002263/1002267.html",
+     "evidence": "議会事務局 〒503-1392 岐阜県養老郡養老町高田798番地 電話番号:0584-32-5084 ファクス番号:",
+     "note": "ページの題名：請願・陳情の提出|養老町公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "213616",
+   "name": "垂井町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.tarui.lg.jp/site/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "213624",
+   "name": "関ケ原町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.sekigahara.gifu.jp/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "213811",
+   "name": "神戸町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.godo.gifu.jp/contents/gikai/gikai01.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "213829",
+   "name": "輪之内町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://town.wanouchi.gifu.jp/portal/town/parliament/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "213837",
+   "name": "安八町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "安八町議会事務局",
+     "phone": "0584-64-4931",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.anpachi.lg.jp/0000000225.html",
+     "evidence": "議会事務局 住所: 岐阜県安八郡安八町氷取161番地 電話: 0584-64-4931",
+     "note": "ページの題名：請願と陳情 | 安八町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "214019",
+   "name": "揖斐川町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ibigawa.lg.jp/site/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "214035",
+   "name": "大野町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "大野町議会事務局",
+     "phone": "0585-35-5361",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town-ono.jp/0000000126.html",
+     "evidence": "議会事務局 電話: 0585-35-5361 ファックス:",
+     "note": "ページの題名：請願・陳情の提出について | 大野町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "214043",
+   "name": "池田町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.gifu-ikeda.lg.jp/0000003736.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "214213",
+   "name": "北方町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "北方町議会事務局",
+     "phone": "058-323-1117",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kitagata.gifu.jp/gyoseijoho/gikai/2672.html",
+     "evidence": "議会事務局 〒501‐0492 岐阜県本巣郡北方町長谷川1丁目1番地 電話番号:058-323-1117",
+     "note": "ページの題名：請願、陳情の提出について/北方町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "215015",
+   "name": "坂祝町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://sakahogi-town.stream.jfit.co.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "215023",
+   "name": "富加町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "富加町議会事務局",
+     "phone": "0574-54-2161",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.tomika.gifu.jp/docs/222.html",
+     "evidence": "議会事務局 電話: 0574-54-2161",
+     "note": "ページの題名：議会への請願・陳情 - 富加町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "215031",
+   "name": "川辺町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.kawabe-gifu.jp/?page_id=827&sosiki=gikai",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "215040",
+   "name": "七宗町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "七宗町議会事務局",
+     "phone": "0574-48-1489",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.hichiso.jp/top/gyosei/parlament/petition/",
+     "evidence": "議会事務局 TEL:0574-48-1489 FAX:057",
+     "note": "ページの題名：請願・陳情 | TOP | 七宗町公式ウエブサイト ( official site)"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "215058",
+   "name": "八百津町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.yaotsu.lg.jp/4058.htm",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "215066",
+   "name": "白川町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.shirakawa.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "215074",
+   "name": "東白川村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.higashishirakawa.gifu.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "215210",
+   "name": "御嵩町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "御嵩町議会事務局",
+     "phone": "0574-67-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.mitake.lg.jp/portal/town/parliament/post0003666/",
+     "evidence": "議会事務局 電話 0574-67-2111",
+     "note": "ページの題名：請願・陳情 | 御嵩町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "216046",
+   "name": "白川村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://shirakawa-go.org/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

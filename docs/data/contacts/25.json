@@ -47,6 +47,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "250007-petition",
+    "type": "petition",
+    "department": "滋賀県議会事務局議事課",
+    "phone": "077-528-4090",
+    "email": "gikai@pref.shiga.lg.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.shigaken-gikai.jp/seiganchinjo.asp",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -150,6 +165,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "252026-petition",
+    "type": "petition",
+    "department": "彦根市議会課",
+    "phone": "0749-30-6130",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.hikone.lg.jp/shisei/gikai/12/5797.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -200,6 +230,21 @@
     "source_url": "https://www.city.nagahama.lg.jp/category/2-0-0-0-0.html",
     "verified_at": null,
     "status": "unverified",
+    "note": null
+   },
+   {
+    "id": "252034-petition",
+    "type": "petition",
+    "department": "長浜市議会事務局",
+    "phone": "0749-65-6547",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.nagahama.lg.jp/0000002100.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -303,6 +348,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "252069-petition",
+    "type": "petition",
+    "department": "草津市議会 議事庶務係",
+    "phone": "077-561-2413",
+    "email": null,
+    "form_url": null,
+    "postal_code": "525-8588",
+    "postal_address": "滋賀県草津市草津三丁目13番30号",
+    "hours": null,
+    "source_url": "https://www.city.kusatsu.shiga.jp/shigikai/guide/seigan-chinjyo.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -344,6 +404,21 @@
     "id": "252077-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "077-582-1151",
+    "email": null,
+    "form_url": null,
+    "postal_code": "524-8585",
+    "postal_address": "滋賀県守山市吉身二丁目5番22号",
+    "hours": null,
+    "source_url": "https://www.city.moriyama.lg.jp/shiseijouhou/shigikai/1003141/1003356.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "252077-petition",
+    "type": "petition",
+    "department": "守山市議会事務局",
     "phone": "077-582-1151",
     "email": null,
     "form_url": null,
@@ -458,6 +533,21 @@
     "note": null
    },
    {
+    "id": "252093-petition",
+    "type": "petition",
+    "department": "甲賀市議会事務局",
+    "phone": "0748-69-2258",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.koka.lg.jp/item/24971.htm",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "252093-education",
     "type": "education",
     "department": "甲賀市教育委員会",
@@ -521,6 +611,21 @@
     "source_url": "https://www.city.yasu.lg.jp/gyoseijoho/gikai/index.html",
     "verified_at": null,
     "status": "unverified",
+    "note": null
+   },
+   {
+    "id": "252107-petition",
+    "type": "petition",
+    "department": "野洲市議会事務局",
+    "phone": "077-587-6034",
+    "email": null,
+    "form_url": null,
+    "postal_code": "520-2395",
+    "postal_address": "滋賀県野洲市小篠原2100番地1 本館3階",
+    "hours": null,
+    "source_url": "https://www.city.yasu.lg.jp/soshiki/gikai/seigan/1450765797831.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -726,6 +831,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "252140-petition",
+    "type": "petition",
+    "department": "米原市議会事務局",
+    "phone": "0749-53-5134",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.maibara.lg.jp/soshiki/gikai/gikai/seigan/1911.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -767,6 +887,21 @@
     "id": "253839-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0748-52-6551",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.shiga-hino.lg.jp/0000006537.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "253839-petition",
+    "type": "petition",
+    "department": "日野町議会事務局",
     "phone": "0748-52-6551",
     "email": null,
     "form_url": null,
@@ -825,6 +960,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.town.ryuoh.shiga.jp/parliament/gikaidayori/gikaidayori.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "253847-petition",
+    "type": "petition",
+    "department": "竜王町議会事務局",
+    "phone": "0748-58-3713",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.ryuoh.shiga.jp/parliament/seigan/seigan.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1037,6 +1187,21 @@
     "id": "254436-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0749-48-8126",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.taga.lg.jp/choseijoho/tagachogikai/6/1598.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "254436-petition",
+    "type": "petition",
+    "department": "多賀町議会事務局",
     "phone": "0749-48-8126",
     "email": null,
     "form_url": null,

@@ -47,6 +47,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "150002-petition",
+    "type": "petition",
+    "department": "新潟県議会事務局",
+    "phone": "025-280-5527",
+    "email": null,
+    "form_url": null,
+    "postal_code": "950-8570",
+    "postal_address": "新潟市中央区新光町4番地1",
+    "hours": null,
+    "source_url": "https://www.pref.niigata.lg.jp/site/gikai/1208797282267.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -200,6 +215,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "152048-petition",
+    "type": "petition",
+    "department": "三条市議会 議事調査係",
+    "phone": "0256-34-5583",
+    "email": null,
+    "form_url": null,
+    "postal_code": "955-8686",
+    "postal_address": "新潟県三条市旭町2-3-1",
+    "hours": null,
+    "source_url": "https://www.city.sanjo.niigata.jp/shisei/shigikai/5507.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -248,6 +278,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.kashiwazaki.lg.jp/shigikai/gikainokohokocho/45841.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "152056-petition",
+    "type": "petition",
+    "department": "柏崎市議会事務局",
+    "phone": "0257-21-2340",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kashiwazaki.lg.jp/shigikai/seigan_chinjo/31497.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -351,6 +396,21 @@
     "postal_address": "新潟県小千谷市城内2丁目7番5号",
     "hours": null,
     "source_url": "https://www.city.ojiya.niigata.jp/site/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "152081-petition",
+    "type": "petition",
+    "department": "小千谷市議会事務局庶務議事係",
+    "phone": "0258-83-3505",
+    "email": null,
+    "form_url": null,
+    "postal_code": "947-8501",
+    "postal_address": "新潟県小千谷市城内2丁目7番5号",
+    "hours": null,
+    "source_url": "https://www.city.ojiya.niigata.jp/site/gikai/seigan-chinjo.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -471,6 +531,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "152102-petition",
+    "type": "petition",
+    "department": "十日町市議会 議事係",
+    "phone": "025-757-3119",
+    "email": null,
+    "form_url": null,
+    "postal_code": "948-8501",
+    "postal_address": "新潟県十日町市千歳町3丁目3番地",
+    "hours": null,
+    "source_url": "https://www.city.tokamachi.lg.jp/shisei_machizukuri/tokamachishigikai/2657.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -512,6 +587,21 @@
     "id": "152111-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0258-62-1700",
+    "email": null,
+    "form_url": null,
+    "postal_code": "954-8686",
+    "postal_address": "新潟県見附市昭和町2丁目1番1号",
+    "hours": null,
+    "source_url": "https://www.city.mitsuke.niigata.jp/site/gikai/2803.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "152111-petition",
+    "type": "petition",
+    "department": "見附市議会事務局",
     "phone": "0258-62-1700",
     "email": null,
     "form_url": null,
@@ -588,6 +678,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "152129-petition",
+    "type": "petition",
+    "department": "村上市議会事務局",
+    "phone": "0254-53-3219",
+    "email": null,
+    "form_url": null,
+    "postal_code": "958-8501",
+    "postal_address": "新潟県村上市三之町1番1号",
+    "hours": null,
+    "source_url": "https://www.city.murakami.lg.jp/site/shigikai/gikai-tetsuduki.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -636,6 +741,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.tsubame.niigata.jp/keikaku/gikai/6449.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "152137-petition",
+    "type": "petition",
+    "department": "燕市議会 議事課",
+    "phone": "0256-77-8341",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.tsubame.niigata.jp/keikaku/gikai/7812.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -691,6 +811,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "152161-petition",
+    "type": "petition",
+    "department": "糸魚川市議会事務局議会係",
+    "phone": "025-552-1511",
+    "email": null,
+    "form_url": null,
+    "postal_code": "941-8501",
+    "postal_address": "新潟県糸魚川市一の宮1-2-5 庁舎5階",
+    "hours": null,
+    "source_url": "https://www.city.itoigawa.lg.jp/site/gikai/2825.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -793,6 +928,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "152188-petition",
+    "type": "petition",
+    "department": "五泉市議会事務局",
+    "phone": "0250-43-3911",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.gosen.lg.jp/parliament/6622.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -841,6 +991,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.joetsu.niigata.jp/site/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "152226-petition",
+    "type": "petition",
+    "department": "上越市議会事務局議事係",
+    "phone": "025-520-5804",
+    "email": "gikai@city.joetsu.lg.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.joetsu.niigata.jp/site/gikai/seigannchinnzyou.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -910,6 +1075,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "152234-petition",
+    "type": "petition",
+    "department": "阿賀野市議会事務局",
+    "phone": "0250-61-2489",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.agano.niigata.jp/shisei_machizukuri/gikai/gikainogaiyo/3241.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -958,6 +1138,21 @@
     "postal_address": "佐渡市千種232",
     "hours": null,
     "source_url": "https://www.city.sado.niigata.jp/site/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "152242-petition",
+    "type": "petition",
+    "department": "佐渡市議会事務局庶務係",
+    "phone": "0259-67-7555",
+    "email": null,
+    "form_url": null,
+    "postal_code": "952-1292",
+    "postal_address": "佐渡市千種232",
+    "hours": null,
+    "source_url": "https://www.city.sado.niigata.jp/site/gikai/2724.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1116,6 +1311,21 @@
     "note": null
    },
    {
+    "id": "152277-petition",
+    "type": "petition",
+    "department": "胎内市議会事務局議会係",
+    "phone": "0254-43-6111",
+    "email": "gikai@city.tainai.lg.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.tainai.niigata.jp/gyose/gikai/segan.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
+   },
+   {
     "id": "152277-education",
     "type": "education",
     "department": "教育委員会学校教育課庶務係",
@@ -1180,6 +1390,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "153079-petition",
+    "type": "petition",
+    "department": "聖籠町議会事務局",
+    "phone": "0254-27-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.seiro.niigata.jp/7/11/962.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -1231,6 +1456,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "153427-petition",
+    "type": "petition",
+    "department": "弥彦村議会事務局",
+    "phone": "0256-94-1028",
+    "email": "gikai@vill.yahiko.niigata.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.vill.yahiko.niigata.jp/administration/?content=505",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1272,6 +1512,21 @@
     "id": "153613-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0256-57-6300",
+    "email": "t3001@town.tagami.lg.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.tagami.niigata.jp/gikai/docs/8684.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "153613-petition",
+    "type": "petition",
+    "department": "田上町議会事務局",
     "phone": "0256-57-6300",
     "email": "t3001@town.tagami.lg.jp",
     "form_url": null,
@@ -1385,6 +1640,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "154059-petition",
+    "type": "petition",
+    "department": "出雲崎町議会事務局",
+    "phone": "0258-78-3112",
+    "email": "gikai@town.izumozaki.niigata.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.izumozaki.niigata.jp/gikai/goannai.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1487,6 +1757,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "154822-petition",
+    "type": "petition",
+    "department": "津南町議会事務局",
+    "phone": "025-765-5581",
+    "email": null,
+    "form_url": null,
+    "postal_code": "949-8292",
+    "postal_address": "新潟県中魚沼郡津南町大字下船渡戊585番地",
+    "hours": null,
+    "source_url": "https://www.town.tsunan.niigata.jp/site/gikai/seigan.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1586,6 +1871,21 @@
     "postal_address": "新潟県岩船郡関川村大字下関912番地",
     "hours": null,
     "source_url": "https://www.vill.sekikawa.niigata.jp:443/709/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "155811-petition",
+    "type": "petition",
+    "department": "関川村議会事務局",
+    "phone": "0254-64-1494",
+    "email": "gikai@vill.sekikawa.lg.jp",
+    "form_url": null,
+    "postal_code": "959-3292",
+    "postal_address": "新潟県岩船郡関川村大字下関912番地",
+    "hours": null,
+    "source_url": "https://www.vill.sekikawa.niigata.jp:443/709/72/index.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null

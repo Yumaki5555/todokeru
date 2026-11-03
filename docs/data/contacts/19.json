@@ -47,6 +47,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "190004-petition",
+    "type": "petition",
+    "department": "山梨県議会事務局",
+    "phone": "055-223-1812",
+    "email": null,
+    "form_url": null,
+    "postal_code": "400-8501",
+    "postal_address": "甲府市丸の内1-6-1",
+    "hours": null,
+    "source_url": "https://www.pref.yamanashi.jp/gikaisom/seigan_chinjou.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -95,6 +110,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.kofu.lg.jp/shise/gikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "192015-petition",
+    "type": "petition",
+    "department": "甲府市議会局議会総室議事課議事係",
+    "phone": "055-237-5888",
+    "email": null,
+    "form_url": null,
+    "postal_code": "400-8585",
+    "postal_address": "甲府市丸の内一丁目18番1号",
+    "hours": null,
+    "source_url": "https://www.city.kofu.lg.jp/k086/p006082.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -251,6 +281,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "192058-petition",
+    "type": "petition",
+    "department": "山梨市議会事務局",
+    "phone": "0553-22-1111",
+    "email": "gikai@city.yamanashi.lg.jp",
+    "form_url": null,
+    "postal_code": "405-8501",
+    "postal_address": "山梨県山梨市小原西843",
+    "hours": null,
+    "source_url": "https://www.city.yamanashi.yamanashi.jp/site/assembly/1334.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -299,6 +344,21 @@
     "postal_address": "山梨県大月市大月二丁目6番20号",
     "hours": null,
     "source_url": "https://www.city.otsuki.yamanashi.jp/shigikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "192066-petition",
+    "type": "petition",
+    "department": "大月市議会事務局",
+    "phone": "0554-23-1057",
+    "email": null,
+    "form_url": null,
+    "postal_code": "401-8601",
+    "postal_address": "山梨県大月市大月二丁目6番20号",
+    "hours": null,
+    "source_url": "https://www.city.otsuki.yamanashi.jp/shigikai/seigan_chinjyou.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -406,6 +466,21 @@
     "note": null
    },
    {
+    "id": "192082-petition",
+    "type": "petition",
+    "department": "南アルプス市議会事務局",
+    "phone": "055-282-6452",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.minami-alps.yamanashi.jp/docs/2152.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "192082-education",
     "type": "education",
     "department": "教育総務担当",
@@ -468,6 +543,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.hokuto.yamanashi.jp/life/soshiki/dep/gikai/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "192091-petition",
+    "type": "petition",
+    "department": "北杜市議会事務局",
+    "phone": "0551-42-1303",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.hokuto.yamanashi.jp/docs/1095.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -627,6 +717,21 @@
     "note": null
    },
    {
+    "id": "192121-petition",
+    "type": "petition",
+    "department": "上野原市議会事務局庶務議事担当",
+    "phone": "0554-62-3344",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.uenohara.yamanashi.jp/site/shigikai/2273.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "192121-education",
     "type": "education",
     "department": "学校教育課教育総務担当",
@@ -691,6 +796,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "192139-petition",
+    "type": "petition",
+    "department": "甲州市議会事務局",
+    "phone": "0553-32-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.koshu.yamanashi.jp/docs/2015061700026/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -739,6 +859,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.chuo.yamanashi.jp/benriservice/facilitymap/bunya/koukyousisetsu/684.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "192147-petition",
+    "type": "petition",
+    "department": "中央市議会事務局",
+    "phone": "055-274-8516",
+    "email": null,
+    "form_url": null,
+    "postal_code": "409-3892",
+    "postal_address": "中央市臼井阿原301番地1",
+    "hours": null,
+    "source_url": "https://www.city.chuo.yamanashi.jp/introduction/shigikai/10246.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1015,6 +1150,21 @@
     "note": null
    },
    {
+    "id": "193682-petition",
+    "type": "petition",
+    "department": "富士川町議会 議事調査担当",
+    "phone": "0556-22-7211",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.fujikawa.yamanashi.jp/docs_chougikai/2023081600356/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "193682-education",
     "type": "education",
     "department": "教育総務課",
@@ -1076,6 +1226,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.town.showa.yamanashi.jp/site/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "193844-petition",
+    "type": "petition",
+    "department": "昭和町議会事務局",
+    "phone": "055-275-8842",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.showa.yamanashi.jp/site/gikai/1168.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1397,6 +1562,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.town.fujikawaguchiko.lg.jp/ka/list.php?ka_id=23",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "194301-petition",
+    "type": "petition",
+    "department": "富士河口湖町議会事務局",
+    "phone": "0555-72-3167",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.fujikawaguchiko.lg.jp/info/info.php?if_id=428&ca_id=16",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null

@@ -1,0 +1,432 @@
+{
+ "batch": "petition-muni-14-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "141003",
+   "name": "横浜市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.yokohama.lg.jp/city-info/yokohamashi/org/gikai/soshiki-gyomu/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "141305",
+   "name": "川崎市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kawasaki.jp/shisei/category/40-0-0-0-0-0-0-0-0-0.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "141500",
+   "name": "相模原市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "相模原市議会総務課",
+     "phone": "042-769-8277",
+     "email": null,
+     "form_url": null,
+     "postal_code": "252-5277",
+     "postal_address": "神奈川県相模原市中央区中央2-11-15 市役所本館2階",
+     "hours": null,
+     "source_url": "https://www.sagamihara-shigikai.jp/doc/2013120600324/",
+     "evidence": "議会総務課 TEL:042-769-8277 FAX:042",
+     "note": "ページの題名：請願と陳情の手続き | 相模原市議会／同じ組織のほかの番号：042-769-8278"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "142018",
+   "name": "横須賀市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "横須賀市議会 議事課",
+     "phone": "046-822-9394",
+     "email": null,
+     "form_url": null,
+     "postal_code": "238-8550",
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.yokosuka.kanagawa.jp/7860/g_info/l100000956.html",
+     "evidence": "議事課」で届きます> 電話番号:046-822-9394",
+     "note": "ページの題名：請願・陳情のご案内|横須賀市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "142034",
+   "name": "平塚市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "平塚市議会",
+     "phone": "0463-21-8791",
+     "email": null,
+     "form_url": null,
+     "postal_code": "254-8686",
+     "postal_address": "神奈川県平塚市浅間町9番1号 本館8階",
+     "hours": null,
+     "source_url": "https://www.city.hiratsuka.kanagawa.jp/gikai/page-c_02222.html",
+     "evidence": "議会局 〒254-8686 神奈川県平塚市浅間町9番1号 本館8階 直通電話:0463-21-8791",
+     "note": "ページの題名：請願・陳情の提出方法 | 平塚市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "142042",
+   "name": "鎌倉市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "鎌倉市議会事務局",
+     "phone": "0467-23-3000",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kamakura.kanagawa.jp/gikai/tinzyou2.html",
+     "evidence": "議会事務局 鎌倉市御成町18-10 本庁舎2階 電話番号:0467-23-3000",
+     "note": "ページの題名：鎌倉市/提案や要望を聞いてもらうには?(請願・陳情の提出方法)"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "142051",
+   "name": "藤沢市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "藤沢市議会",
+     "phone": "0466-25-1111",
+     "email": "fj-giji@city.fujisawa.lg.jp",
+     "form_url": null,
+     "postal_code": "251-8601",
+     "postal_address": "神奈川県藤沢市朝日町1-1 市議会へのアクセス",
+     "hours": null,
+     "source_url": "https://shigikai.city.fujisawa.kanagawa.jp/seiganchinjo.asp",
+     "evidence": "議会へのアクセス 電話番号(内線):0466-25-1111 内線5622",
+     "note": "ページの題名：請願・陳情の手続|藤沢市議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "142069",
+   "name": "小田原市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.odawara.kanagawa.jp/citycounc/acommittee/acommittee-data/tinjyou.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "142077",
+   "name": "茅ヶ崎市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "茅ヶ崎市議会事務局 総務担当",
+     "phone": "0467-81-7211",
+     "email": null,
+     "form_url": null,
+     "postal_code": "253-8686",
+     "postal_address": "茅ヶ崎市茅ヶ崎一丁目1番1号",
+     "hours": null,
+     "source_url": "https://www.city.chigasaki.kanagawa.jp/gikai/1066595/index.html",
+     "evidence": "議会事務局 総務担当 市役所本庁舎6階 〒253-8686 茅ヶ崎市茅ヶ崎一丁目1番1号 電話:0467-81-7211",
+     "note": "ページの題名：請願・陳情|茅ヶ崎市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "142085",
+   "name": "逗子市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "逗子市議会事務局",
+     "phone": "046-872-8141",
+     "email": null,
+     "form_url": null,
+     "postal_code": "249-8686",
+     "postal_address": "神奈川県逗子市逗子5丁目2番16号",
+     "hours": null,
+     "source_url": "https://www.city.zushi.kanagawa.jp/shisei/gikai/1005534/1005537.html",
+     "evidence": "議会事務局 〒249-8686 神奈川県逗子市逗子5丁目2番16号 電話番号:046-872-8141",
+     "note": "ページの題名：請願・陳情の提出方法|逗子市公式サイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "142107",
+   "name": "三浦市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "三浦市議会事務局",
+     "phone": "046-882-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.miura.kanagawa.jp/soshiki/gikaijimukyoku/408.html",
+     "evidence": "議会事務局(046-882-1111内線462)まで",
+     "note": "ページの題名：請願と陳情/三浦市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "142115",
+   "name": "秦野市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "秦野市議会 議事担当",
+     "phone": "0463-82-9652",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hadano.kanagawa.jp/gikai/seigan-chinjo/2412.html",
+     "evidence": "議事担当 電話番号:0463-82-9652",
+     "note": "ページの題名：請願・陳情の提出/秦野市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "142123",
+   "name": "厚木市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "厚木市議会 議事調査係",
+     "phone": "046-225-2701",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.atsugi.kanagawa.jp/shigikai/13/1/37204.html",
+     "evidence": "議事調査係 〒243-8511 厚木市中町3-17-17(市役所本庁舎5階) 電話番号:046-225-2701",
+     "note": "ページの題名：請願・陳情について/厚木市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "142131",
+   "name": "大和市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "大和市議会 議事係",
+     "phone": "046-260-5503",
+     "email": null,
+     "form_url": null,
+     "postal_code": "242-8601",
+     "postal_address": "大和市下鶴間1-1-1",
+     "hours": null,
+     "source_url": "https://www.city.yamato.lg.jp/gyosei/soshik/29/shigikai/shigikainitsuite/4367.html",
+     "evidence": "議事係 〒242-8601 大和市下鶴間1-1-1 (本庁舎5階 案内図) 電話:046-260-5503",
+     "note": "ページの題名：請願・陳情手続き/大和市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "142140",
+   "name": "伊勢原市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.isehara.kanagawa.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "142158",
+   "name": "海老名市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://ebina.gijiroku.com/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "142166",
+   "name": "座間市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "座間市議会 庶務議事係",
+     "phone": "046-252-8872",
+     "email": null,
+     "form_url": null,
+     "postal_code": "252-8566",
+     "postal_address": "座間市緑ケ丘一丁目1番1号",
+     "hours": null,
+     "source_url": "https://www.city.zama.kanagawa.jp/shigikai/bocho/1005881.html",
+     "evidence": "庶務議事係 〒252-8566 座間市緑ケ丘一丁目1番1号 電話番号:046-252-8872 ファクス番号:",
+     "note": "ページの題名：市議会への請願・陳情|座間市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

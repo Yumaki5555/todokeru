@@ -1,0 +1,682 @@
+{
+ "batch": "petition-muni-19-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "192015",
+   "name": "甲府市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "甲府市議会局議会総室議事課議事係",
+     "phone": "055-237-5888",
+     "email": null,
+     "form_url": null,
+     "postal_code": "400-8585",
+     "postal_address": "甲府市丸の内一丁目18番1号",
+     "hours": null,
+     "source_url": "https://www.city.kofu.lg.jp/k086/p006082.html",
+     "evidence": "議会局議会総室議事課議事係 〒400-…一丁目18番1号(本庁舎10階) 電話番号:055-237-5888",
+     "note": "ページの題名：請願・陳情について/甲府市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "192023",
+   "name": "富士吉田市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.fujiyoshida.yamanashi.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "192040",
+   "name": "都留市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tsuru.yamanashi.jp/shimin/shisei/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "192058",
+   "name": "山梨市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "山梨市議会事務局",
+     "phone": "0553-22-1111",
+     "email": "gikai@city.yamanashi.lg.jp",
+     "form_url": null,
+     "postal_code": "405-8501",
+     "postal_address": "山梨県山梨市小原西843",
+     "hours": null,
+     "source_url": "https://www.city.yamanashi.yamanashi.jp/site/assembly/1334.html",
+     "evidence": "議会事務局 〒405-8501 山梨県山梨市小原西843 Tel:0553-22-1111(代) 内線 1",
+     "note": "ページの題名：請願書・陳情書の提出 - 山梨市議会 - 山梨市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "192066",
+   "name": "大月市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "大月市議会事務局",
+     "phone": "0554-23-1057",
+     "email": null,
+     "form_url": null,
+     "postal_code": "401-8601",
+     "postal_address": "山梨県大月市大月二丁目6番20号",
+     "hours": null,
+     "source_url": "https://www.city.otsuki.yamanashi.jp/shigikai/seigan_chinjyou.html",
+     "evidence": "議会事務局 〒401-8601 山梨県大月市大月二丁目6番20号 ダイヤルイン:0554-23-1057",
+     "note": "ページの題名：請願・陳情"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "192074",
+   "name": "韮崎市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nirasaki.lg.jp/soshikiichiran/somuka/keiyakukanzaitanto/9225.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "192082",
+   "name": "南アルプス市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "南アルプス市議会事務局",
+     "phone": "055-282-6452",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.minami-alps.yamanashi.jp/docs/2152.html",
+     "evidence": "議会事務局 電話: 055-282-6452",
+     "note": "ページの題名：請願・陳情・要望 - 山梨県 南アルプス市 -人がつどい 次世代につなぐ 活力あふれるまち-"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "192091",
+   "name": "北杜市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "北杜市議会事務局",
+     "phone": "0551-42-1303",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hokuto.yamanashi.jp/docs/1095.html",
+     "evidence": "議会事務局(TEL:0551-42-1303)へお問い合わせ",
+     "note": "ページの題名：請願・陳情(要望) - 山梨県北杜市公式サイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "192104",
+   "name": "甲斐市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kai.yamanashi.jp/adv/ba.php?id=44",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "192112",
+   "name": "笛吹市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.fuefuki.yamanashi.jp/shisejoho/shigikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "192121",
+   "name": "上野原市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "上野原市議会事務局庶務議事担当",
+     "phone": "0554-62-3344",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.uenohara.yamanashi.jp/site/shigikai/2273.html",
+     "evidence": "事務局議会事務局庶務議事担当 Tel:0554-62-3344Fax:0554",
+     "note": "ページの題名：請願・陳情 - 上野原市議会 - 上野原市公式ホームページ(議会事務局)"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "192139",
+   "name": "甲州市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "甲州市議会事務局",
+     "phone": "0553-32-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.koshu.yamanashi.jp/docs/2015061700026/",
+     "evidence": "議会事務局・監査委員事務局 郵便番号:4…梨県甲州市塩山上於曽1085番地1 TEL:0553-32-2111(代表)",
+     "note": "ページの題名：請願・陳情 | 甲州市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "192147",
+   "name": "中央市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "中央市議会事務局",
+     "phone": "055-274-8516",
+     "email": null,
+     "form_url": null,
+     "postal_code": "409-3892",
+     "postal_address": "中央市臼井阿原301番地1",
+     "hours": null,
+     "source_url": "https://www.city.chuo.yamanashi.jp/introduction/shigikai/10246.html",
+     "evidence": "議会事務局 〒409-3892 中央市臼井阿原301番地1 電話:055-274-8516",
+     "note": "ページの題名：請願・陳情/山梨県中央市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "193461",
+   "name": "市川三郷町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.town.ichikawamisato.yamanashi.jp/40administration/03kansaiinn/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "193640",
+   "name": "早川町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hayakawa.yamanashi.jp/town/public/town-hall.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "193658",
+   "name": "身延町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.minobu.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "193666",
+   "name": "南部町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.nanbu.yamanashi.jp/kakuka/gikai/gikaidayori.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "193682",
+   "name": "富士川町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "富士川町議会 議事調査担当",
+     "phone": "0556-22-7211",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.fujikawa.yamanashi.jp/docs_chougikai/2023081600356/",
+     "evidence": "議事調査担当 郵便番号:400-0592…県南巨摩郡富士川町天神中條1134 TEL:0556-22-7211",
+     "note": "ページの題名：請願・陳情 | 山梨県 富士川町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "193844",
+   "name": "昭和町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "昭和町議会事務局",
+     "phone": "055-275-8842",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.showa.yamanashi.jp/site/gikai/1168.html",
+     "evidence": "議会事務局 〒409-3880 山梨県中巨摩郡昭和町押越542-2 Tel:055-275-8842Fax:055-",
+     "note": "ページの題名：請願 / 陳情について - 人が集まるまち昭和町公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "194221",
+   "name": "道志村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.vill.doshi.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "194239",
+   "name": "西桂町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.nishikatsura.yamanashi.jp/forms/top/top.aspx",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "194247",
+   "name": "忍野村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.oshino.lg.jp/soshiki/2.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "194255",
+   "name": "山中湖村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.yamanakako.lg.jp/mg/16",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "194298",
+   "name": "鳴沢村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.narusawa.yamanashi.jp/gyosei/information.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "194301",
+   "name": "富士河口湖町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "富士河口湖町議会事務局",
+     "phone": "0555-72-3167",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.fujikawaguchiko.lg.jp/info/info.php?if_id=428&ca_id=16",
+     "evidence": "議会事務局 〒401-0392 山…郡富士河口湖町船津1700番地 電話 : 0555-72-3167(直通)",
+     "note": "ページの題名：請願・陳情を提出される方に | 富士河口湖町公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "194425",
+   "name": "小菅村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.vill.kosuge.yamanashi.jp/living/gikai",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "194433",
+   "name": "丹波山村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.tabayama.yamanashi.jp/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

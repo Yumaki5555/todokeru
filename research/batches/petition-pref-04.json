@@ -1,0 +1,232 @@
+{
+ "batch": "petition-pref-04",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "310000",
+   "name": "鳥取県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "鳥取県議会事務局",
+     "phone": "0857-26-7460",
+     "email": "gikaisoumu@pref.tottori.lg.jp",
+     "form_url": null,
+     "postal_code": "680-8570",
+     "postal_address": "鳥取県鳥取市東町1-220",
+     "hours": null,
+     "source_url": "https://www.pref.tottori.lg.jp/75934.htm",
+     "evidence": "議会事務局 〒680-8570 鳥取県鳥取市東町1-220 電話番号:0857-26-7460 0857-26",
+     "note": "ページの題名：県議会への請願・陳情/とりネット/鳥取県公式サイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "320005",
+   "name": "島根県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "島根県議会",
+     "phone": "0852-22-5356",
+     "email": "kengikai@pref.shimane.lg.jp",
+     "form_url": null,
+     "postal_code": "690-8501",
+     "postal_address": "島根県松江市殿町1番地",
+     "hours": null,
+     "source_url": "https://www.pref.shimane.lg.jp/gikai/gaido/houhou.html",
+     "evidence": "議会 住所 〒690-8501 島根県松江市殿町1番地 TEL 0852-22-5356",
+     "note": "ページの題名：島根県:請願・陳情のしかた(トップ / 島根県議会 / 県議会の紹介)"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "330001",
+   "name": "岡山県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.pref.okayama.jp/site/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "340006",
+   "name": "広島県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "広島県議会事務局",
+     "phone": "082-228-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "730-8509",
+     "postal_address": "広島市中区基町10-52",
+     "hours": null,
+     "source_url": "https://www.pref.hiroshima.lg.jp/site/gikai/gikai-gikai-ti.html",
+     "evidence": "議会事務局 〒730-8509広島市中区基町10-52Tel:082-228-2111(県庁代表)免責",
+     "note": "ページの題名：請願・陳情 | 広島県議会／同じ組織のほかの番号：082-513-4731"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "350001",
+   "name": "山口県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "山口県議会事務局議事調査課",
+     "phone": "083-933-4130",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.pref.yamaguchi.lg.jp/site/gikai/25273.html",
+     "evidence": "議会事務局議事調査課(Tel 083-933-4130)へご連絡をお願",
+     "note": "ページの題名：請願・陳情 - 山口県ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "360007",
+   "name": "徳島県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "徳島県議会 議事課",
+     "phone": "088-621-3007",
+     "email": null,
+     "form_url": null,
+     "postal_code": "770-8570",
+     "postal_address": "徳島市万代町1-1",
+     "hours": null,
+     "source_url": "https://www.pref.tokushima.lg.jp/gikai/information/seigan.html/",
+     "evidence": "議事課):088-621-3007 電話番号(政策",
+     "note": "ページの題名：請願および陳情|徳島県議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "370002",
+   "name": "香川県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "香川県議会 議事課",
+     "phone": "087-832-3679",
+     "email": null,
+     "form_url": null,
+     "postal_code": "760-8570",
+     "postal_address": "香川県高松市番町四丁目1番10号",
+     "hours": null,
+     "source_url": "https://www.pref.kagawa.lg.jp/gikai/annai/3_1.html",
+     "evidence": "議事課 : 087-832-3679政務調査課 :",
+     "note": "ページの題名：請願と陳情の方法|香川県議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "380008",
+   "name": "愛媛県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "愛媛県議会",
+     "phone": "089-912-2835",
+     "email": null,
+     "form_url": null,
+     "postal_code": "790-8570",
+     "postal_address": "愛媛県松山市一番町4丁目4-2",
+     "hours": null,
+     "source_url": "https://www.pref.ehime.jp/site/gikai/12613.html",
+     "evidence": "議会 〒790-8570 愛媛県松山市一番町4丁目4-2 Tel:(089)912-2835Fax:(089",
+     "note": "ページの題名：請願・陳情 - 愛媛県議会 - 愛媛県庁公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "390003",
+   "name": "高知県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "高知県議会",
+     "phone": "088-823-9537",
+     "email": null,
+     "form_url": null,
+     "postal_code": "780-8570",
+     "postal_address": "高知県高知市丸ノ内1-2-20",
+     "hours": null,
+     "source_url": "https://gikai.pref.kochi.lg.jp/procedure/petition.html",
+     "evidence": "議会議事堂1階) 電話番号:088(823)9537",
+     "note": "ページの題名：請願と陳情 | 高知県議会／同じ組織のほかの番号：088-823-9536"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

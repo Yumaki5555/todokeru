@@ -1,0 +1,532 @@
+{
+ "batch": "petition-muni-47-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "472018",
+   "name": "那覇市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "那覇市議会 議事管理課",
+     "phone": "098-862-8153",
+     "email": null,
+     "form_url": null,
+     "postal_code": "900-8585",
+     "postal_address": "沖縄県那覇市泉崎1丁目1番1号",
+     "hours": null,
+     "source_url": "https://www.city.naha.okinawa.jp/sigikai/teireikai/1005777/1005778.html",
+     "evidence": "議事管理課:098-862-8153",
+     "note": "ページの題名：請願と陳情|那覇市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "472051",
+   "name": "宜野湾市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "宜野湾市議会事務局",
+     "phone": "098-893-4411",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ginowan.lg.jp/shisei/gikai/5/4812.html",
+     "evidence": "議会事務局 連絡先 098-893-4411(代表)",
+     "note": "ページの題名：請願・陳情/宜野湾市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "472077",
+   "name": "石垣市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "石垣市議会事務局",
+     "phone": "0980-82-4054",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/gikai/seigan/index.html",
+     "evidence": "議会事務局(0980-82-4054)",
+     "note": "ページの題名：請願・陳情/石垣市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "472085",
+   "name": "浦添市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "浦添市議会",
+     "phone": "098-851-5057",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.urasoe.lg.jp/gikai/609e7bb33d59ae2434bfea02/",
+     "evidence": "議会棟2階 TEL:098-851-5057",
+     "note": "ページの題名：請願・陳情のご案内 | 浦添市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "472093",
+   "name": "名護市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "名護市議会事務局",
+     "phone": "0980-53-1212",
+     "email": null,
+     "form_url": null,
+     "postal_code": "905-8540",
+     "postal_address": "沖縄県名護市港一丁目1番1号",
+     "hours": null,
+     "source_url": "https://www.city.nago.okinawa.jp/soshiki/gikai-nav/2018070300126/",
+     "evidence": "議会事務局 〒905-8540 沖縄県名護市港一丁目1番1号 TEL : (0980) 53-1212〈代表〉内線30",
+     "note": "ページの題名：請願・陳情 | 名護市役所"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "472107",
+   "name": "糸満市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "糸満市議会事務局",
+     "phone": "098-840-8100",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.itoman.lg.jp/soshiki/37/1165.html",
+     "evidence": "議会事務局 沖縄県糸満市潮崎町1丁目1番地 市役所4階 Tel:098-840-8100Fax:098-",
+     "note": "ページの題名：議会に請願・陳情が提出できます - 糸満市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "472115",
+   "name": "沖縄市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "沖縄市議会 議事課",
+     "phone": "098-939-1212",
+     "email": null,
+     "form_url": null,
+     "postal_code": "904-8501",
+     "postal_address": "沖縄県沖縄市仲宗根町26番1号",
+     "hours": null,
+     "source_url": "https://www.city.okinawa.okinawa.jp/k046/shiseijouhou/shigikai/139/421.html",
+     "evidence": "議事課 〒904-8501 沖縄県沖縄市仲宗根町26番1号 電話番号:098-939-1212",
+     "note": "ページの題名：請願・陳情について | 沖縄市役所"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "472123",
+   "name": "豊見城市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "豊見城市議会事務局",
+     "phone": "098-850-0025",
+     "email": null,
+     "form_url": null,
+     "postal_code": "901-0292",
+     "postal_address": "沖縄県豊見城市宜保一丁目1番地1",
+     "hours": null,
+     "source_url": "https://www.city.tomigusuku.lg.jp/gyoseijoho/shigikai/seiganntinnzyou/3077.html",
+     "evidence": "議会事務局 〒901-0292 沖縄県豊見城市宜保一丁目1番地1 電話番号:098-850-0025",
+     "note": "ページの題名：請願・陳情/豊見城市役所 公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "472131",
+   "name": "うるま市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "うるま市議会事務局議事課",
+     "phone": "098-973-3511",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.uruma.lg.jp/shigikai/854.html",
+     "evidence": "議会事務局議事課 沖縄県うるま市みどり町一丁目1番1号うるま市役所 西棟4階 電話番号:098-973-3511",
+     "note": "ページの題名：請願・陳情『請願・陳情の手引き』 | うるま市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "472140",
+   "name": "宮古島市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.miyakojima.lg.jp/gyosei/gikai/seigan.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "472158",
+   "name": "南城市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nanjo.okinawa.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "473014",
+   "name": "国頭村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.kunigami.okinawa.jp/category/songikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "473022",
+   "name": "大宜味村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "大宜味村議会事務局",
+     "phone": "0980-44-3117",
+     "email": "gikai@vill.ogimi.lg.jp",
+     "form_url": null,
+     "postal_code": "905-1392",
+     "postal_address": "沖縄県国頭郡大宜味村字大兼久157番地",
+     "hours": null,
+     "source_url": "http://ogimi-gikai.sakura.ne.jp/site/%e8%ab%8b%e9%a1%98%e3%83%bb%e9%99%b3%e6%83%85%e3%81%ae%e6%89%8b%e7%b6%9a%e3%81%8d/",
+     "evidence": "議会事務局) TEL:0980-44-3117",
+     "note": "ページの題名：請願・陳情の手続き | 大宜味村議会ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "473031",
+   "name": "東村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.higashi.okinawa.jp/soshikikarasagasu/gikaijimukyoku/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "473065",
+   "name": "今帰仁村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.nakijin.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "473081",
+   "name": "本部町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.motobu.okinawa.jp/doc/2023103100017/",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "473111",
+   "name": "恩納村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.onna.okinawa.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "473138",
+   "name": "宜野座村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.ginoza.okinawa.jp/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "473146",
+   "name": "金武町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "金武町議会事務局",
+     "phone": "098-968-2292",
+     "email": null,
+     "form_url": null,
+     "postal_code": "904-1292",
+     "postal_address": "沖縄県国頭郡金武町字金武1番地",
+     "hours": null,
+     "source_url": "https://www.town.kin.okinawa.jp/gyoseijoho/gikai/692.html",
+     "evidence": "議会事務局 〒904-1292 沖縄県国頭郡金武町字金武1番地 TEL:098-968-2292 FAX:098",
+     "note": "ページの題名：請願・陳情について/金武町 Official Site"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "473154",
+   "name": "伊江村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://iegikai.iejima.org/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "473243",
+   "name": "読谷村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.yomitan.okinawa.jp/gyosei_joho/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

@@ -47,6 +47,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "110001-petition",
+    "type": "petition",
+    "department": "埼玉県議会事務局議事課委員会担当",
+    "phone": "048-830-6238",
+    "email": "a6230-03@pref.saitama.lg.jp",
+    "form_url": null,
+    "postal_code": "330-9301",
+    "postal_address": "さいたま市浦和区高砂3-15-1",
+    "hours": null,
+    "source_url": "https://www.pref.saitama.lg.jp/e1601/gikai-seigan.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -97,6 +112,21 @@
     "source_url": "https://www.city.saitama.lg.jp/gikai/index.html",
     "verified_at": null,
     "status": "unverified",
+    "note": null
+   },
+   {
+    "id": "111007-petition",
+    "type": "petition",
+    "department": "さいたま市議会 議事課",
+    "phone": "048-829-1753",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.saitama.lg.jp/gikai/004/001/p017607.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -150,6 +180,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "112011-petition",
+    "type": "petition",
+    "department": "川越市議会 議事担当",
+    "phone": "049-224-6067",
+    "email": null,
+    "form_url": null,
+    "postal_code": "350-8601",
+    "postal_address": "川越市元町1丁目3番地1",
+    "hours": null,
+    "source_url": "https://www.city.kawagoe.saitama.jp/shigikai/g-about/1007564.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -191,6 +236,21 @@
     "id": "112020-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "048-524-1573",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kumagaya.lg.jp/shigikai/seigan_tinjo.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "112020-petition",
+    "type": "petition",
+    "department": "熊谷市議会事務局",
     "phone": "048-524-1573",
     "email": null,
     "form_url": null,
@@ -354,6 +414,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "112071-petition",
+    "type": "petition",
+    "department": "秩父市議会事務局",
+    "phone": "0494-25-5224",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.chichibu.lg.jp/dd.aspx?menuid=1937",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -402,6 +477,21 @@
     "postal_address": "埼玉県所沢市並木一丁目1番地の1",
     "hours": null,
     "source_url": "https://www.city.tokorozawa.saitama.jp/shigikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "112089-petition",
+    "type": "petition",
+    "department": "所沢市議会事務局",
+    "phone": "04-2998-9256",
+    "email": "a9256@city.tokorozawa.lg.jp",
+    "form_url": null,
+    "postal_code": "359-8501",
+    "postal_address": "所沢市並木一丁目1番地の1 低層棟3階",
+    "hours": null,
+    "source_url": "https://www.city.tokorozawa.saitama.jp/shigikai/minasanto/seigantinjou.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -609,6 +699,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "112127-petition",
+    "type": "petition",
+    "department": "東松山市議会事務局",
+    "phone": "0493-21-1418",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.higashimatsuyama.lg.jp/site/shigikai/2984.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -660,6 +765,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "112143-petition",
+    "type": "petition",
+    "department": "春日部市議会",
+    "phone": "048-736-1111",
+    "email": "gikai@city.kasukabe.lg.jp",
+    "form_url": null,
+    "postal_code": "344-8577",
+    "postal_address": "埼玉県春日部市中央七丁目2番地1 市議会へのアクセス",
+    "hours": null,
+    "source_url": "https://www.kasukabe-shigikai.jp/seiganteishutsu.asp",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    },
    {
     "id": "112143-education",
@@ -726,6 +846,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "112151-petition",
+    "type": "petition",
+    "department": "狭山市議会事務局",
+    "phone": "04-2968-6572",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.sayama.saitama.jp/gikai/shgikai/seigan.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    },
    {
     "id": "112151-education",
@@ -861,6 +996,21 @@
     "note": null
    },
    {
+    "id": "112178-petition",
+    "type": "petition",
+    "department": "鴻巣市議会総務課",
+    "phone": "048-541-1321",
+    "email": null,
+    "form_url": null,
+    "postal_code": "365-8601",
+    "postal_address": "埼玉県鴻巣市中央1-1",
+    "hours": null,
+    "source_url": "https://www.city.kounosu.saitama.jp/site/gikai/7884.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
+   },
+   {
     "id": "112178-education",
     "type": "education",
     "department": "教育部教育総務課総務担当",
@@ -925,6 +1075,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "112186-petition",
+    "type": "petition",
+    "department": "深谷市議会事務局",
+    "phone": "048-574-6662",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.fukaya.saitama.jp/gikai/seigan_chinjo/1391403716936.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -973,6 +1138,21 @@
     "postal_address": "埼玉県上尾市本町3-1-1",
     "hours": null,
     "source_url": "https://www.city.ageo.lg.jp/site/shigikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "112194-petition",
+    "type": "petition",
+    "department": "上尾市議会",
+    "phone": "048-775-9452",
+    "email": null,
+    "form_url": null,
+    "postal_code": "362-8501",
+    "postal_address": "埼玉県上尾市本町3-1-1",
+    "hours": null,
+    "source_url": "https://www.city.ageo.lg.jp/site/shigikai/062111022201.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1093,6 +1273,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "112224-petition",
+    "type": "petition",
+    "department": "越谷市議会 議事課",
+    "phone": "048-963-9261",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.koshigaya.saitama.jp/gikai/aramasi/sosiki_05.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1197,6 +1392,21 @@
     "note": null
    },
    {
+    "id": "112241-petition",
+    "type": "petition",
+    "department": "戸田市議会事務局",
+    "phone": "048-441-1800",
+    "email": null,
+    "form_url": null,
+    "postal_code": "335-8588",
+    "postal_address": "埼玉県戸田市上戸田1丁目18番1号",
+    "hours": null,
+    "source_url": "https://www2.city.toda.saitama.jp/gikai/toda-f9fzqijq2awo0kaj/GD038/GD038_001?contents=000007&menu=000041",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "112241-education",
     "type": "education",
     "department": "教育総務課",
@@ -1261,6 +1471,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "112259-petition",
+    "type": "petition",
+    "department": "入間市議会運営委員会",
+    "phone": "04-2964-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.iruma.saitama.jp/gyosei_joho/83/7709.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -1312,6 +1537,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "112275-petition",
+    "type": "petition",
+    "department": "朝霞市議会事務局議会総務課議事係",
+    "phone": "048-463-0549",
+    "email": null,
+    "form_url": null,
+    "postal_code": "351-8501",
+    "postal_address": "埼玉県朝霞市本町1-1-1",
+    "hours": null,
+    "source_url": "https://www.city.asaka.lg.jp/site/shigikai/seiganchinjou.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1360,6 +1600,21 @@
     "postal_address": "埼玉県志木市中宗岡1丁目1番1号",
     "hours": null,
     "source_url": "https://www.city.shiki.lg.jp/adv/ba.php?id=9",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "112283-petition",
+    "type": "petition",
+    "department": "志木市議会事務局",
+    "phone": "048-473-1117",
+    "email": null,
+    "form_url": null,
+    "postal_code": "353-8501",
+    "postal_address": "埼玉県志木市中宗岡1丁目1番1号",
+    "hours": null,
+    "source_url": "https://www.city.shiki.lg.jp/site/gikai/1296.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1429,6 +1684,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "112291-petition",
+    "type": "petition",
+    "department": "和光市議会 議事調査担当",
+    "phone": "048-424-9108",
+    "email": null,
+    "form_url": null,
+    "postal_code": "351-0192",
+    "postal_address": "和光市広沢1-5 議事堂2階",
+    "hours": null,
+    "source_url": "https://www.city.wako.lg.jp/shisei/1006222/1006443/1006446.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1470,6 +1740,21 @@
     "id": "112305-assembly",
     "type": "assembly",
     "department": "市議会事務局議事調査係",
+    "phone": "048-477-7367",
+    "email": null,
+    "form_url": null,
+    "postal_code": "352-8623",
+    "postal_address": "埼玉県新座市野火止一丁目1番1号 本庁舎5階",
+    "hours": null,
+    "source_url": "https://www.city.niiza.lg.jp/soshiki/52/gikai-seigan-tinjyo-7uketukejikannhennkou.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "112305-petition",
+    "type": "petition",
+    "department": "新座市議会事務局議事調査係",
     "phone": "048-477-7367",
     "email": null,
     "form_url": null,
@@ -1531,6 +1816,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "112313-petition",
+    "type": "petition",
+    "department": "桶川市議会 議事係",
+    "phone": "048-788-4964",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.okegawa.lg.jp/shisei/shigikai/boushouseigan/4615.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1582,6 +1882,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "112321-petition",
+    "type": "petition",
+    "department": "久喜市議会 議事係",
+    "phone": "0480-22-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "346-8501",
+    "postal_address": "久喜市下早見85番地の3",
+    "hours": null,
+    "source_url": "https://www.city.kuki.lg.jp/shigikai/1006503.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -1630,6 +1945,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.kitamoto.lg.jp/shigikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "112330-petition",
+    "type": "petition",
+    "department": "北本市議会事務局",
+    "phone": "048-594-5560",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kitamoto.lg.jp/shigikai/seigan_chinjo/1416921759502.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1684,6 +2014,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "112348-petition",
+    "type": "petition",
+    "department": "八潮市議会事務局 議事調査課",
+    "phone": "048-996-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "340-8588",
+    "postal_address": "埼玉県八潮市中央一丁目2番地1",
+    "hours": null,
+    "source_url": "https://www.city.yashio.lg.jp/gikai/seigan_chinjo.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -1733,6 +2078,21 @@
     "postal_address": "埼玉県富士見市大字鶴馬1800番地の1",
     "hours": null,
     "source_url": "https://www.city.fujimi.saitama.jp/shigikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "112356-petition",
+    "type": "petition",
+    "department": "富士見市議会事務局",
+    "phone": "049-265-7800",
+    "email": null,
+    "form_url": null,
+    "postal_code": "354-8511",
+    "postal_address": "埼玉県富士見市大字鶴馬1800番地の1 市庁舎1階",
+    "hours": null,
+    "source_url": "https://www.city.fujimi.saitama.jp/shigikai/shimingikai/2010-0511-1421-141.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1853,6 +2213,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "112381-petition",
+    "type": "petition",
+    "department": "蓮田市議会事務局庶務担当",
+    "phone": "048-768-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.hasuda.saitama.jp/gikai/shise/shigikai/seigan.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -1904,6 +2279,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "112399-petition",
+    "type": "petition",
+    "department": "坂戸市議会事務局",
+    "phone": "049-283-1331",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.sakado.lg.jp/site/sakadogikai/820.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -1952,6 +2342,21 @@
     "postal_address": "埼玉県幸手市東4-6-8",
     "hours": null,
     "source_url": "https://www.city.satte.lg.jp/parliament/7/1593.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "112402-petition",
+    "type": "petition",
+    "department": "幸手市議会事務局",
+    "phone": "0480-43-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "340-0192",
+    "postal_address": "埼玉県幸手市東4-6-8",
+    "hours": null,
+    "source_url": "https://www.city.satte.lg.jp/parliament/7/1592.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": "代表電話と同じ番号です"
@@ -2022,6 +2427,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "112411-petition",
+    "type": "petition",
+    "department": "鶴ヶ島市議会事務局",
+    "phone": "049-271-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.tsurugashima.lg.jp/gikai/page001144.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -2063,6 +2483,21 @@
     "id": "112429-assembly",
     "type": "assembly",
     "department": "議会担当",
+    "phone": "042-989-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "350-1292",
+    "postal_address": "日高市大字南平沢1020番地",
+    "hours": null,
+    "source_url": "https://www.city.hidaka.lg.jp/hidakacity_parliament/procedure/2939.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "112429-petition",
+    "type": "petition",
+    "department": "日高市議会担当",
     "phone": "042-989-2111",
     "email": null,
     "form_url": null,
@@ -2124,6 +2559,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "112437-petition",
+    "type": "petition",
+    "department": "吉川市議会事務局",
+    "phone": "048-982-9421",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.yoshikawa.saitama.jp/index.cfm/34,367,271,html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -2175,6 +2625,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "112453-petition",
+    "type": "petition",
+    "department": "ふじみ野市議会 議事調査係",
+    "phone": "049-262-9046",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.fujimino.saitama.jp/shinojoho/shigikai/boucho_seigan_chinjo/3166.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -2216,6 +2681,21 @@
     "id": "112461-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0480-92-1111",
+    "email": "gikaijimukyoku@city.shiraoka.lg.jp",
+    "form_url": null,
+    "postal_code": "349-0292",
+    "postal_address": "埼玉県白岡市千駄野432番地",
+    "hours": null,
+    "source_url": "https://www.city.shiraoka.lg.jp/shiseijoho/shigikai/2430.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "112461-petition",
+    "type": "petition",
+    "department": "白岡市議会事務局",
     "phone": "0480-92-1111",
     "email": "gikaijimukyoku@city.shiraoka.lg.jp",
     "form_url": null,
@@ -2430,6 +2910,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "113271-petition",
+    "type": "petition",
+    "department": "越生町議会事務局",
+    "phone": "049-292-3121",
+    "email": null,
+    "form_url": null,
+    "postal_code": "350-0494",
+    "postal_address": "越生町大字越生900番地2",
+    "hours": null,
+    "source_url": "https://www.town.ogose.saitama.jp/chousei/gikai/tangan/1453290407830.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -2481,6 +2976,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "113417-petition",
+    "type": "petition",
+    "department": "滑川町議会事務局",
+    "phone": "0493-56-6913",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.namegawa.saitama.jp/choseijoho/gikai/seigan_chinjosho/1390.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -2522,6 +3032,21 @@
     "id": "113425-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0493-62-4587",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.ranzan.saitama.jp/0000004881.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "113425-petition",
+    "type": "petition",
+    "department": "嵐山町議会事務局",
     "phone": "0493-62-4587",
     "email": null,
     "form_url": null,
@@ -2649,6 +3174,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "113468-petition",
+    "type": "petition",
+    "department": "川島町議会事務局",
+    "phone": "049-299-1759",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kawajima.saitama.jp/5805.htm",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -2741,6 +3281,21 @@
     "id": "113484-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "049-296-1213",
+    "email": null,
+    "form_url": null,
+    "postal_code": "350-0392",
+    "postal_address": "埼玉県比企郡鳩山町大字大豆戸184番地16",
+    "hours": null,
+    "source_url": "https://www.town.hatoyama.saitama.jp/gyousei/gikai/seigan_shikata.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "113484-petition",
+    "type": "petition",
+    "department": "鳩山町議会事務局",
     "phone": "049-296-1213",
     "email": null,
     "form_url": null,
@@ -2906,6 +3461,21 @@
     "note": null
    },
    {
+    "id": "113620-petition",
+    "type": "petition",
+    "department": "皆野町議会事務局",
+    "phone": "0494-62-1467",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.minano.saitama.jp/section/gikai/577/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "113620-education",
     "type": "education",
     "department": "教育委員会",
@@ -2960,6 +3530,21 @@
     "id": "113638-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0494-66-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.nagatoro.saitama.jp/nagatorochougikai/gikai_seigan/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "113638-petition",
+    "type": "petition",
+    "department": "長瀞町議会事務局",
     "phone": "0494-66-3111",
     "email": null,
     "form_url": null,
@@ -3153,6 +3738,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "113816-petition",
+    "type": "petition",
+    "department": "美里町議会事務局",
+    "phone": "0495-76-5136",
+    "email": "gikai@town.saitama-misato.lg.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.saitama-misato.lg.jp/0000000410.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -3321,6 +3921,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "114081-petition",
+    "type": "petition",
+    "department": "寄居町議会事務局",
+    "phone": "048-581-2121",
+    "email": null,
+    "form_url": null,
+    "postal_code": "369-1292",
+    "postal_address": "埼玉県大里郡寄居町大字寄居1180-1",
+    "hours": null,
+    "source_url": "https://www.town.yorii.saitama.jp/site/gikai/seigan-chinjo.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -3362,6 +3977,21 @@
     "id": "114421-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0480-34-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.miyashiro.lg.jp/0000002686.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "114421-petition",
+    "type": "petition",
+    "department": "宮代町議会事務局",
     "phone": "0480-34-1111",
     "email": null,
     "form_url": null,
@@ -3435,6 +4065,21 @@
     "postal_address": "埼玉県北葛飾郡杉戸町清地2-9-29",
     "hours": null,
     "source_url": "https://www.town.sugito.lg.jp/site/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "114642-petition",
+    "type": "petition",
+    "department": "杉戸町議会事務局",
+    "phone": "0480-33-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "345-8502",
+    "postal_address": "埼玉県北葛飾郡杉戸町清地2-9-29",
+    "hours": null,
+    "source_url": "https://www.town.sugito.lg.jp/site/gikai/6079.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null

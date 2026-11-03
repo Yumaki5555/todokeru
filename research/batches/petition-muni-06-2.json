@@ -1,0 +1,432 @@
+{
+ "batch": "petition-muni-06-2",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "063240",
+   "name": "大江町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "大江町議会事務局",
+     "phone": "0237-62-2228",
+     "email": null,
+     "form_url": null,
+     "postal_code": "990-1101",
+     "postal_address": "山形県西村山郡大江町大字左沢882-1",
+     "hours": null,
+     "source_url": "https://www.town.oe.yamagata.jp/government/chousei/council/112",
+     "evidence": "議会事務局 〒990-1101 山形県西村山郡大江町大字左沢882-1 TEL : 0237-62-2228FAX : 02",
+     "note": "ページの題名：請願・陳情 | 大江町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "063410",
+   "name": "大石田町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.oishida.yamagata.jp/chousei/chousei/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "063614",
+   "name": "金山町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "金山町議会事務局",
+     "phone": "0233-29-5638",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kaneyama.yamagata.jp/kaneyamamachigikai/1212.html",
+     "evidence": "金山町議会事務局 〒999-5402 金山町大字金山324-1(金山町役場内) 電話番号:0233-29-5638",
+     "note": "ページの題名：町議会への請願(陳情)/四季奏でるまち。金山 - 山形県金山町公式ウェブサイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "063622",
+   "name": "最上町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://town.mogami.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "063631",
+   "name": "舟形町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.funagata.yamagata.jp/li/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "063649",
+   "name": "真室川町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "真室川町議会事務局",
+     "phone": "0233-62-2220",
+     "email": null,
+     "form_url": null,
+     "postal_code": "999-5312",
+     "postal_address": "山形県最上郡真室川町大字新町124番4",
+     "hours": null,
+     "source_url": "https://www.town.mamurogawa.yamagata.jp/chosei/gikai/seiganntinnjo/5310.html",
+     "evidence": "議会事務局 〒999-5312 山形県最上郡真室川町大字新町124番4 電話番号:0233-62-2220",
+     "note": "ページの題名：請願と陳情の手続き/真室川町公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "063657",
+   "name": "大蔵村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.ohkura.yamagata.jp/gyoseijoho/okurasongikai/1029.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "063665",
+   "name": "鮭川村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.sakegawa.yamagata.jp/council/bocho-seigan/",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "063673",
+   "name": "戸沢村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.tozawa.yamagata.jp/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "063819",
+   "name": "高畠町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.takahata.yamagata.jp/site/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "063827",
+   "name": "川西町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kawanishi.yamagata.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "064017",
+   "name": "小国町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "小国町議会事務局",
+     "phone": "0238-62-2448",
+     "email": null,
+     "form_url": null,
+     "postal_code": "999-1363",
+     "postal_address": "山形県西置賜郡小国町大字小国小坂町2-70",
+     "hours": null,
+     "source_url": "https://www.town.oguni.yamagata.jp/site/gikai/1248.html",
+     "evidence": "議会事務局 〒999-1363 山形県西置賜郡小国町大字小国小坂町2-70 Tel:0238-62-2448Fax:0238",
+     "note": "ページの題名：陳情請願について - 小国町ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "064025",
+   "name": "白鷹町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "白鷹町議会",
+     "phone": "0238-85-6135",
+     "email": "gikaijimu@so.town.shirataka.yamagata.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shirataka.lg.jp/1137.htm",
+     "evidence": "議会の本会議の議事や委員会に関すること 電話番号:0238-85-6135(直通)",
+     "note": "ページの題名：町議会への請願・陳情|白鷹町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "064033",
+   "name": "飯豊町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "飯豊町議会 議事室",
+     "phone": "0238-87-0527",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.iide.yamagata.jp/004/sonotagikainikannsurukoto.html",
+     "evidence": "議事室 TEL/0238-87-0527(直通)",
+     "note": "ページの題名：傍聴・請願等の手続きについて"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "064262",
+   "name": "三川町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "三川町議会事務局",
+     "phone": "0235-35-7039",
+     "email": null,
+     "form_url": null,
+     "postal_code": "997-1301",
+     "postal_address": "山形県東田川郡三川町大字横山字西田85番地",
+     "hours": null,
+     "source_url": "https://www.town.mikawa.yamagata.jp/gikai/seigan-tinjyo.html",
+     "evidence": "議会事務局 〒997-1301 山形県東田川郡三川町大字横山字西田85番地 電話:0235-35-7039 ファックス:0",
+     "note": "ページの題名：請願・陳情等:三川町公式サイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "064289",
+   "name": "庄内町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shonai.lg.jp/gyousei/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "064611",
+   "name": "遊佐町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.yuza.yamagata.jp/genre/gikai",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

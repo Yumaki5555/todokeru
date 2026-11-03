@@ -1,0 +1,432 @@
+{
+ "batch": "petition-muni-18-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "182010",
+   "name": "福井市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "福井市議会 議事調査課",
+     "phone": "0776-20-5510",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.fukui.lg.jp/sisei/gikai/seigan/p004047.html",
+     "evidence": "議事調査課 電話番号 0776-20-5510 | ファクス番",
+     "note": "ページの題名：請願・陳情の手続き"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "182028",
+   "name": "敦賀市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "敦賀市議会事務局",
+     "phone": "0770-22-8157",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tsuruga.lg.jp/site/gikai/3017.html",
+     "evidence": "議会議会事務局 敦賀市 中央町2丁目1番1号 庁舎4階 電話:0770-22-8157",
+     "note": "ページの題名：議会への請願・陳情 - 敦賀市議会 - 敦賀市ホームページ(議会事務局)"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "182044",
+   "name": "小浜市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "小浜市議会事務局",
+     "phone": "0770-64-6035",
+     "email": "gikai@city.obama.lg.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www1.city.obama.fukui.jp/gikai/p000000r.html",
+     "evidence": "議会事務局 電話番号0770-64-6035",
+     "note": "ページの題名：請願・陳情 | 小浜市議会ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "182052",
+   "name": "大野市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "大野市議会事務局",
+     "phone": "0779-64-4830",
+     "email": "gikaijim@city.fukui-ono.lg.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ono.fukui.jp/shisei/shigikai/seigan.html",
+     "evidence": "議会事務局 福井県大野市天神町1番1号 電話番号:0779-64-4830",
+     "note": "ページの題名：請願・陳情の提出方法 大野市公式ウェブサイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "182061",
+   "name": "勝山市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "勝山市議会事務局",
+     "phone": "0779-88-8100",
+     "email": null,
+     "form_url": null,
+     "postal_code": "911-8501",
+     "postal_address": "勝山市元町1丁目1番1号 市役所3階",
+     "hours": null,
+     "source_url": "https://www.city.katsuyama.fukui.jp/site/sigikai/879.html",
+     "evidence": "議会事務局 〒911-8501勝山市元町1丁目1番1号 市役所3階 Tel:0779-88-8100Fax:0779",
+     "note": "ページの題名：請願・陳情 - 恐竜のまち 勝山市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "182079",
+   "name": "鯖江市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "鯖江市議会 議事調査グループ",
+     "phone": "0778-53-2249",
+     "email": null,
+     "form_url": null,
+     "postal_code": "916-8666",
+     "postal_address": "鯖江市西山町13番1号",
+     "hours": null,
+     "source_url": "https://www.city.sabae.fukui.jp/about_city/shigikai/seigan-chinjo.html",
+     "evidence": "議事調査グループ TEL:0778-53-2249",
+     "note": "ページの題名：請願・陳情 – めがねのまちさばえ 鯖江市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "182087",
+   "name": "あわら市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "あわら市議会事務局",
+     "phone": "0776-73-8045",
+     "email": "gikai@city.awara.lg.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.awara.lg.jp/gikai/seiganchinjyo/p001882.html",
+     "evidence": "議会事務局 電話番号:0776-73-8045 ファックス:0",
+     "note": "ページの題名：請願・陳情 | あわら市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "182095",
+   "name": "越前市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "越前市議会事務局",
+     "phone": "0778-22-3426",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.echizen.lg.jp/office/110/010/seigan-tinjou.html",
+     "evidence": "議会事務局 0778-22-3426",
+     "note": "ページの題名：請願・陳情の案内 - 越前市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "182109",
+   "name": "坂井市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "坂井市議会事務局",
+     "phone": "0776-50-3001",
+     "email": "0776-50-3001gikai@city.fukui-sakai.lg.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.fukui-sakai.lg.jp/gikai/annai/seigan-chinjo-tetsuzuki/index.html",
+     "evidence": "議会事務局0776-50-3001gikai@ci",
+     "note": "ページの題名：福井県坂井市/請願・陳情の手続きについて"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "183229",
+   "name": "永平寺町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "永平寺町議会",
+     "phone": "0776-61-3950",
+     "email": "gikai@town.eiheiji.fukui.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.eiheiji-gikai.jp/assembly/petition",
+     "evidence": "議会Facebookページ 永平寺町…県吉田郡永平寺町松岡春日1-4 TEL. 0776-61-3950",
+     "note": "ページの題名：請願・陳情とは|永平寺町議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "183822",
+   "name": "池田町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ikeda.fukui.jp/gyousei/gyousei/1946/p002652.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "184047",
+   "name": "南越前町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.minamiechizen.lg.jp/tyougikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "184233",
+   "name": "越前町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.echizen.fukui.jp/chousei/04/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "184420",
+   "name": "美浜町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "美浜町議会事務局",
+     "phone": "0770-32-6711",
+     "email": null,
+     "form_url": null,
+     "postal_code": "919-1192",
+     "postal_address": "福井県三方郡美浜町郷市25-25",
+     "hours": null,
+     "source_url": "https://www.town.fukui-mihama.lg.jp/site/town-council/3822.html",
+     "evidence": "議会事務局) 〒919-1192福井県三方郡美浜町郷市25-25Tel:0770-32-6711",
+     "note": "ページの題名：請願・陳情について - 福井県美浜町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "184811",
+   "name": "高浜町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.takahama.fukui.jp/syozoku.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "184837",
+   "name": "おおい町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "おおい町議会事務局",
+     "phone": "0770-77-4060",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ohi.fukui.jp/1002/1007/1217/78/p17746.html",
+     "evidence": "議会事務局 電話番号:0770-77-4060",
+     "note": "ページの題名：請願・陳情 | おおい町公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "185019",
+   "name": "若狭町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.fukui-wakasa.lg.jp/gyoseijoho/wakasachogikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

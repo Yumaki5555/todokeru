@@ -1,0 +1,482 @@
+{
+ "batch": "petition-muni-17-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "172014",
+   "name": "金沢市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www4.city.kanazawa.lg.jp/shiseijoho/kanazawashinoshokai/soshikibetsugyomuannai/9983.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "172022",
+   "name": "七尾市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nanao.lg.jp/gikaijimu/shise/shigikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "172031",
+   "name": "小松市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "小松市議会",
+     "phone": "0761-24-8138",
+     "email": null,
+     "form_url": null,
+     "postal_code": "923-8650",
+     "postal_address": "石川県小松市小馬出町91番地",
+     "hours": null,
+     "source_url": "https://www.city.komatsu.lg.jp/citycouncil/sub/5/index.html",
+     "evidence": "議会 〒923-8650 石川県小松市小馬出町91番地 電話:0761-24-8138",
+     "note": "ページの題名：請願陳情の手続き/小松市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "172049",
+   "name": "輪島市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.wajima.ishikawa.jp/docs/2013032600023/",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "172057",
+   "name": "珠洲市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.suzu.lg.jp/site/gikai/1557.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "172065",
+   "name": "加賀市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "加賀市議会事務局",
+     "phone": "0761-72-7965",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kaga.ishikawa.jp/gikai/oshirase/7051.html",
+     "evidence": "議会事務局 電話番号:0761-72-7965 ファクス番号:",
+     "note": "ページの題名：加賀市議会への請願・陳情/加賀市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "172073",
+   "name": "羽咋市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hakui.lg.jp/soshiki/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "172090",
+   "name": "かほく市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "かほく市議会事務局",
+     "phone": "076-283-7126",
+     "email": null,
+     "form_url": null,
+     "postal_code": "929-1195",
+     "postal_address": "石川県かほく市宇野気ニ81番地",
+     "hours": null,
+     "source_url": "https://www.city.kahoku.lg.jp/006/635/d001333.html",
+     "evidence": "議会事務局 〒929-1195 石川県かほく市宇野気ニ81番地 電話番号:076-283-7126",
+     "note": "ページの題名：請願・陳情について | 石川県かほく市公式サイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "172103",
+   "name": "白山市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hakusan.lg.jp/shigikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "172111",
+   "name": "能美市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nomi.lg.jp/shisei/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "172120",
+   "name": "野々市市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "野々市市議会事務局",
+     "phone": "076-227-6141",
+     "email": null,
+     "form_url": null,
+     "postal_code": "921-8510",
+     "postal_address": "野々市市三納一丁目1番地庶務調査係",
+     "hours": null,
+     "source_url": "https://www.city.nonoichi.lg.jp/site/sub-gikai/1378.html",
+     "evidence": "議会事務局 〒921-8510野々市市三納一丁目1番地庶務調査係Tel:076-227-6141",
+     "note": "ページの題名：請願と陳情 - 野々市市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "173240",
+   "name": "川北町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.town.kawakita.ishikawa.jp/gyosei1/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "173614",
+   "name": "津幡町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.tsubata.lg.jp/page/1727.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "173657",
+   "name": "内灘町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "内灘町議会事務局",
+     "phone": "076-286-6715",
+     "email": null,
+     "form_url": null,
+     "postal_code": "920-0292",
+     "postal_address": "石川県河北郡内灘町字大学1丁目2番地1",
+     "hours": null,
+     "source_url": "https://www.town.uchinada.lg.jp/site/gikai/1122.html",
+     "evidence": "議会事務局代表 〒920-0292石川県河北郡内灘町字大学1丁目2番地1 Tel:076-286-6715Fax:076-",
+     "note": "ページの題名：請願・陳情の方法 - 内灘町公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "173843",
+   "name": "志賀町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "志賀町議会事務局",
+     "phone": "0767-32-9270",
+     "email": null,
+     "form_url": null,
+     "postal_code": "925-0198",
+     "postal_address": "石川県羽咋郡志賀町末吉千古1番地1 本庁舎2",
+     "hours": null,
+     "source_url": "https://www.town.shika.lg.jp/site/gikai/1082.html",
+     "evidence": "本庁舎議会事務局代表 〒925-0198 石川県羽咋郡志賀町末吉千古1番地1 本庁舎2 Tel:0767-32-9270",
+     "note": "ページの題名：請願・陳情 - 志賀町議会 - 志賀町ホームページ(議会事務局)"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "173860",
+   "name": "宝達志水町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.hodatsushimizu.jp/soshiki/gikaijimukyoku/644.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "174076",
+   "name": "中能登町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.nakanoto.ishikawa.jp/contact/5315.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "174611",
+   "name": "穴水町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "穴水町議会事務局",
+     "phone": "0768-52-3700",
+     "email": null,
+     "form_url": null,
+     "postal_code": "927-8601",
+     "postal_address": "石川県鳳珠郡穴水町字川島ラの174番地",
+     "hours": null,
+     "source_url": "https://www.town.anamizu.lg.jp/site/gikai/100413.html",
+     "evidence": "議会事務局代表 〒927-8601石川県鳳珠郡穴水町字川島ラの174番地 Tel:0768-52-3700Fax:0768",
+     "note": "ページの題名：請願・陳情|穴水町議会|穴水町(議会事務局)"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "174637",
+   "name": "能登町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.noto.lg.jp/chosei/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

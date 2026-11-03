@@ -1,0 +1,557 @@
+{
+ "batch": "petition-muni-27-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "271004",
+   "name": "大阪市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.osaka.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "271403",
+   "name": "堺市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "堺市議会 議事課",
+     "phone": "072-228-7812",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.sakai.lg.jp/shigikai/seiganchinjo/seigan.html",
+     "evidence": "議事課 電話番号:072-228-7812",
+     "note": "ページの題名：請願・陳情のご案内 堺市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "272027",
+   "name": "岸和田市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "岸和田市議会議会事務局総務課議事担当",
+     "phone": "072-423-9668",
+     "email": null,
+     "form_url": null,
+     "postal_code": "596-8510",
+     "postal_address": "大阪府岸和田市岸城町7番1号 岸和田市役所新館3階",
+     "hours": null,
+     "source_url": "https://www.city.kishiwada.lg.jp/site/gikai/ikensyo.html",
+     "evidence": "市議会議会事務局総務課議事担当 〒596-8510大阪府岸和田市岸城町7番1号 岸和田市役所新館3階 Tel:072-423-9668",
+     "note": "ページの題名：意見書・決議・請願・抗議文 - 岸和田市議会 - 岸和田市公式ウェブサイト(議会事務局総務課)"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "272035",
+   "name": "豊中市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "豊中市議会",
+     "phone": "06-6858-2633",
+     "email": null,
+     "form_url": null,
+     "postal_code": "561-8501",
+     "postal_address": "豊中市中桜塚3丁目1番1号 議会棟",
+     "hours": null,
+     "source_url": "https://www.city.toyonaka.osaka.jp/shigikai/shimin/tinjou.html",
+     "evidence": "議会棟 電話:06-6858-2633",
+     "note": "ページの題名：請願・陳情 豊中市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "272043",
+   "name": "池田市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ikeda.osaka.jp/soshiki/gikai/ikedashigikai/21042.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "272051",
+   "name": "吹田市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "吹田市議会事務局",
+     "phone": "06-6384-1231",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.suita.osaka.jp/shigikai/1017063/index.html",
+     "evidence": "議会事務局 〒564-8550 大阪府吹田市泉町1丁目3番40号 代表電話:06-6384-1231 内線2307、",
+     "note": "ページの題名：請願・陳情|吹田市公式ウェブサイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "272060",
+   "name": "泉大津市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://izumiotsu.gsl-service.net/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "272078",
+   "name": "高槻市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "高槻市議会事務局",
+     "phone": "072-674-7213",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.takatsuki.osaka.jp/site/takatsukishigikai/1068.html",
+     "evidence": "議会事務局代表 大阪府高槻市桃園町2番1号 高槻市役所 本館2階 Tel:072-674-7213",
+     "note": "ページの題名：請願・陳情について - 高槻市議会 - 高槻市ホームページ(議会事務局)"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "272086",
+   "name": "貝塚市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kaizuka.lg.jp/shigikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "272094",
+   "name": "守口市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "守口市議会事務局",
+     "phone": "06-6992-1782",
+     "email": null,
+     "form_url": null,
+     "postal_code": "570-8666",
+     "postal_address": "大阪府守口市京阪本通2-5-5",
+     "hours": null,
+     "source_url": "https://www.city.moriguchi.osaka.jp/kakukanoannai/gikaijimukyoku/1/11945.html",
+     "evidence": "議会事務局 〒570-8666 大阪府守…-5-5 守口市役所9階北エリア 電話番号 06-6992-1782",
+     "note": "ページの題名：請願・陳情/守口市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "272108",
+   "name": "枚方市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "枚方市議会 議事広報課",
+     "phone": "072-841-1528",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hirakata.osaka.jp/0000001089.html",
+     "evidence": "議事広報課 電話: 072-841-1528",
+     "note": "ページの題名：請願・陳情 | 枚方市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "272116",
+   "name": "茨木市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "茨木市議会事務局 議事課",
+     "phone": "072-620-1671",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ibaraki.osaka.jp/shisei_info/gikai/56342.html",
+     "evidence": "市議会事務局 議事課 〒567-8505 大阪府茨木市駅前三丁目8番13号 茨木市役所本館4階 電話:072-620-1671",
+     "note": "ページの題名：請願・陳情の手続き/茨木市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "272124",
+   "name": "八尾市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "八尾市議会 議事政策課",
+     "phone": "072-924-3885",
+     "email": null,
+     "form_url": null,
+     "postal_code": "581-0003",
+     "postal_address": "大阪府八尾市本町1-1-1",
+     "hours": null,
+     "source_url": "https://www.city.yao.osaka.jp/shisei/yaoshigikai/1009490/1009492.html",
+     "evidence": "議事政策課 〒581-0003大阪府八尾市本町1-1-1 電話番号:072-924-3885 ファクス番号:",
+     "note": "ページの題名：請願・陳情・意見書要請|大阪府八尾市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "272132",
+   "name": "泉佐野市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "泉佐野市議会事務局",
+     "phone": "072-463-1212",
+     "email": "gikai@city.izumisano.lg.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.izumisano.lg.jp/shigikai/seigan_tinjou/seigan_tinjou.html",
+     "evidence": "議会事務局 <e-mail:gikai@…zumisano.lg.jp> 電話番号:(072)463-1212(内線:2531",
+     "note": "ページの題名：請願・陳情とは/泉佐野市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "272141",
+   "name": "富田林市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tondabayashi.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "272159",
+   "name": "寝屋川市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "寝屋川市議会",
+     "phone": "072-824-0010",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.neyagawa.osaka.jp/organization_list/kaikei_gikai_iinkai/gikaizimu/neyagawashigikai/1423552799149.html",
+     "evidence": "議会棟2階) 電話:072-824-0010",
+     "note": "ページの題名：請願・陳情・要望の提出/寝屋川市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "272167",
+   "name": "河内長野市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "河内長野市議会総務課",
+     "phone": "0721-53-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kawachinagano.lg.jp/site/gikai/5359.html",
+     "evidence": "議会総務課代表 〒586-8501 大…wachinagano.lg.jp Tel:0721-53-1111Fax:0721",
+     "note": "ページの題名：請願・陳情 - 河内長野市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "272175",
+   "name": "松原市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "松原市議会事務局",
+     "phone": "072-334-1550",
+     "email": null,
+     "form_url": null,
+     "postal_code": "580-8501",
+     "postal_address": "大阪府松原市阿保1丁目1番1号",
+     "hours": null,
+     "source_url": "https://www.city.matsubara.lg.jp/docs/page3365.html",
+     "evidence": "議会事務局 〒580-8501大阪府松原市阿保1丁目1番1号 電話: 072-334-1550(代表)",
+     "note": "ページの題名：請願と陳情 - 松原市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "272183",
+   "name": "大東市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://daito.gijiroku.com/gikai",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "272191",
+   "name": "和泉市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.gijiroku.jp/izumi/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "272205",
+   "name": "箕面市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "箕面市議会事務局議事課",
+     "phone": "072-724-6705",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.minoh.lg.jp/giji/gaiyou/seigan-tinjyou.html",
+     "evidence": "議会事務局議事課 箕面市西小路4‐6‐1 電話番号:072-724-6705",
+     "note": "ページの題名：請願と陳情/箕面市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "272213",
+   "name": "柏原市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "柏原市議会事務局",
+     "phone": "072-972-1501",
+     "email": "gikai@city.kashiwara.lg.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kashiwara.lg.jp/docs/2022013100025/",
+     "evidence": "議会事務局 TEL:072-972-1501",
+     "note": "ページの題名：請願と陳情 | 大阪府柏原市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

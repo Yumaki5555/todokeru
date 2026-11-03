@@ -1,0 +1,207 @@
+{
+ "batch": "petition-pref-05",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "400009",
+   "name": "福岡県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "福岡県議会",
+     "phone": "092-643-3832",
+     "email": "gchosa2@pref.fukuoka.lg.jp",
+     "form_url": null,
+     "postal_code": "812-8574",
+     "postal_address": "福岡県福岡市博多区東公園7-7",
+     "hours": null,
+     "source_url": "https://www.gikai.pref.fukuoka.lg.jp/site/oshirase/seigan.html",
+     "evidence": "議会への行き方) Tel:092-643-3832 E-mail:",
+     "note": "ページの題名：請願・陳情について - 福岡県議会公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "410004",
+   "name": "佐賀県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.pref.saga.lg.jp/gikai/default.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "420000",
+   "name": "長崎県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.pref.nagasaki.jp/organization/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "430005",
+   "name": "熊本県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "熊本県議会事務局",
+     "phone": "096-333-2614",
+     "email": null,
+     "form_url": null,
+     "postal_code": "862-8570",
+     "postal_address": "熊本県熊本市中央区水前寺6丁目18番1号",
+     "hours": null,
+     "source_url": "https://www.pref.kumamoto.jp/site/gikai/7686.html",
+     "evidence": "議会事務局Tel:096-333-2614 Fax:096",
+     "note": "ページの題名：請願と陳情 - 熊本県ホームページ／同じ組織のほかの番号：096-333-2618・096-333-2626"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "440001",
+   "name": "大分県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "大分県議会 議事課",
+     "phone": "097-506-5023",
+     "email": null,
+     "form_url": null,
+     "postal_code": "870-0022",
+     "postal_address": "大分県大分市大手町3丁目1番1号",
+     "hours": null,
+     "source_url": "https://www.pref.oita.jp/site/gikai/oshirase-seiganchinjou.html",
+     "evidence": "議事課・委員会班 Tel:097-506-5023",
+     "note": "ページの題名：請願・陳情の手続 - 大分県議会 - 大分県ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "450006",
+   "name": "宮崎県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "宮崎県議会 議事課",
+     "phone": "0985-26-7216",
+     "email": null,
+     "form_url": null,
+     "postal_code": "880-8501",
+     "postal_address": "宮崎市橘通東2-10-1",
+     "hours": null,
+     "source_url": "https://www.pref.miyazaki.lg.jp/gikai/about/petition/index.html",
+     "evidence": "議事課)0985-26-7216",
+     "note": "ページの題名：宮崎県議会:請願・陳情の案内"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "460001",
+   "name": "鹿児島県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.pref.kagoshima.jp/gikai/toiawase.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "470007",
+   "name": "沖縄県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "沖縄県議会",
+     "phone": "098-866-2574",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.pref.okinawa.lg.jp/kensei/gikai/1024937/1017077.html",
+     "evidence": "議会棟2階) 電話:098-866-2574",
+     "note": "ページの題名：請願・陳情の提出期限について|沖縄県公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

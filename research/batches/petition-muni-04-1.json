@@ -1,0 +1,457 @@
+{
+ "batch": "petition-muni-04-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "041009",
+   "name": "仙台市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.gikai.city.sendai.jp/council_guide/seigan.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "042021",
+   "name": "石巻市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "石巻市議会事務局",
+     "phone": "0225-95-5080",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ishinomaki.lg.jp/cont/30101000/4111/4111.html",
+     "evidence": "議会事務局 電話番号:0225-95-5080(直通)",
+     "note": "ページの題名：請願・陳情の方法 - 石巻市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "042030",
+   "name": "塩竈市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.shiogama.miyagi.jp/soshiki/48/41623.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "042056",
+   "name": "気仙沼市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "気仙沼市議会 議事調査係",
+     "phone": "0226-22-3457",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.kesennuma.miyagi.jp/sec/s155/010/010/040/020/20200108115943.html",
+     "evidence": "議事調査係 電話番号:0226-22-3457",
+     "note": "ページの題名：請願(陳情)について - 気仙沼市役所"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "042064",
+   "name": "白石市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.shiroishi.miyagi.jp/site/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "042072",
+   "name": "名取市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "名取市議会事務局",
+     "phone": "022-384-2109",
+     "email": null,
+     "form_url": null,
+     "postal_code": "981-1292",
+     "postal_address": "名取市増田字柳田80",
+     "hours": null,
+     "source_url": "https://www.city.natori.miyagi.jp/site/gikai/3566.html",
+     "evidence": "議会事務局代表 〒981-1292名取市増田字柳田80 Tel:022-384-2109Fax:022-",
+     "note": "ページの題名：請願・陳情をするときは - 名取市議会 - 名取市公式ホームページ(議会事務局)"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "042081",
+   "name": "角田市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "角田市議会事務局",
+     "phone": "0224-63-2124",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kakuda.lg.jp/soshiki/19/77.html",
+     "evidence": "議会事務局 代表 Tel:0224-63-2124",
+     "note": "ページの題名：請願書・陳情書の提出 - 角田市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "042099",
+   "name": "多賀城市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "多賀城市議会事務局",
+     "phone": "022-368-1141",
+     "email": null,
+     "form_url": null,
+     "postal_code": "985-8531",
+     "postal_address": "宮城県多賀城市中央二丁目1-1",
+     "hours": null,
+     "source_url": "https://www.city.tagajo.miyagi.jp/shise/shigikai/segan/index.html",
+     "evidence": "議会事務局 〒985-8531宮城県多賀城市中央二丁目1-1 電話:022-368-1141(代表)",
+     "note": "ページの題名：多賀城市議会/請願・陳情"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "042111",
+   "name": "岩沼市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.iwanuma.miyagi.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "042129",
+   "name": "登米市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "登米市議会事務局",
+     "phone": "0220-22-1913",
+     "email": "gikaijimu@city.tome.miyagi.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tome.miyagi.jp/gikaijimu/shisejoho/gyose/shigikai/seganchinjo/seigann_chinnjyou.html",
+     "evidence": "議会事務局 電話番号:0220-22-1913",
+     "note": "ページの題名：登米市/請願・陳情・意見書等"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "042137",
+   "name": "栗原市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.kuriharacity.jp/w032/010/010/070/313.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "042145",
+   "name": "東松島市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "東松島市議会事務局",
+     "phone": "0225-82-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "981-0503",
+     "postal_address": "宮城県東松島市矢本字上河戸36番地1 東松島市役所",
+     "hours": null,
+     "source_url": "https://www.city.higashimatsushima.miyagi.jp/gikai/seigan-chinjo.html",
+     "evidence": "議会事務局 〒981-0503 宮城県東松島市矢本字上河戸36-1 電話:0225-82-1111(内線1311~",
+     "note": "ページの題名：請願・陳情の手続き:東松島市公式ウェブサイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "042153",
+   "name": "大崎市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "大崎市議会事務局",
+     "phone": "0229-23-2236",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.osaki.miyagi.jp/shisei/shiseijoho/sigikai/21586.html",
+     "evidence": "議会事務局 〒989-6188 大崎市古川七日町1-1 市役所本庁舎5階 電話番号:0229-23-2236",
+     "note": "ページの題名：請願と陳情/大崎市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "042161",
+   "name": "富谷市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.tomiya-city.miyagi.jp/contact.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "043010",
+   "name": "蔵王町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "蔵王町議会事務局",
+     "phone": "0224-33-3006",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.zao.miyagi.jp/kurashi_guide/gikai_senkyo/gikai/boutyou.html",
+     "evidence": "議会事務局(電話:0224-33-3006)にご確認くださ",
+     "note": "ページの題名：傍聴、請願・陳情のしかた 蔵王町ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "043028",
+   "name": "七ヶ宿町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "七ヶ宿町議会事務局",
+     "phone": "0224-37-2197",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://town.shichikashuku.miyagi.jp/town/gikai/seigan.html",
+     "evidence": "議会事務局電話:0224-37-2197",
+     "note": "ページの題名：請願・陳情について | 宮城県七ヶ宿町WEBサイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "043214",
+   "name": "大河原町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ogawara.miyagi.jp/2292.htm",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "043222",
+   "name": "村田町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.murata.miyagi.jp/cyosei/gikai/gikai_tyukei/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

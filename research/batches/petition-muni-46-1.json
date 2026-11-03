@@ -1,0 +1,557 @@
+{
+ "batch": "petition-muni-46-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "462012",
+   "name": "鹿児島市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "鹿児島市議会 議事課",
+     "phone": "099-216-1456",
+     "email": null,
+     "form_url": null,
+     "postal_code": "892-8677",
+     "postal_address": "鹿児島市山下町11-1",
+     "hours": null,
+     "source_url": "https://www.city.kagoshima.lg.jp/gikai/giji/shigikai/bocho/segan.html",
+     "evidence": "議事課 〒892-8677 鹿児島市山下町11-1 電話番号:099-216-1456",
+     "note": "ページの題名：請願書・陳情書の作成・提出|鹿児島市議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "462039",
+   "name": "鹿屋市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "鹿屋市議会事務局議事調査係",
+     "phone": "0994-31-1143",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kanoya.lg.jp/giji/shise/gikai/segan.html",
+     "evidence": "鹿屋市議会事務局議事調査係 電話番号:0994-31-1143",
+     "note": "ページの題名：請願・陳情/鹿屋市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "462047",
+   "name": "枕崎市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "枕崎市議会事務局",
+     "phone": "0993-72-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "898-8501",
+     "postal_address": "枕崎市千代田町27番地",
+     "hours": null,
+     "source_url": "https://www.city.makurazaki.lg.jp/site/gikai/6422.html",
+     "evidence": "議会事務局 〒898-8501 枕崎市千代田町27番地 Tel:0993-72-1111(内線241・2",
+     "note": "ページの題名：請願・陳情 - 枕崎市ホームページ／同じ組織のほかの番号：0993-76-1046"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "462063",
+   "name": "阿久根市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.akune.lg.jp/shiseijoho/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "462080",
+   "name": "出水市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "出水市議会事務局",
+     "phone": "0996-63-4074",
+     "email": "gikai_c@city.izumi.kagoshima.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kagoshima-izumi.lg.jp/page/page_09092.html",
+     "evidence": "議会事務局 出水市緑町1番3号2階 電話:0996-63-4074",
+     "note": "ページの題名：請願・陳情について|鹿児島県出水市 みんなでつくる活力都市 住みたいまち 出水市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "462101",
+   "name": "指宿市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ibusuki.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "462136",
+   "name": "西之表市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nishinoomote.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "462144",
+   "name": "垂水市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "垂水市役所議会事務局議事係",
+     "phone": "0994-32-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tarumizu.lg.jp/gikaigiji/shise/shigi/segan/chinjou.html",
+     "evidence": "垂水市役所議会事務局議事係 鹿児島県垂水市上町114 電話番号:0994-32-1111",
+     "note": "ページの題名：鹿児島県垂水市/請願・陳情の手続き"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "462152",
+   "name": "薩摩川内市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "薩摩川内市議会事務局",
+     "phone": "0996-23-5111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "895-8650",
+     "postal_address": "鹿児島県薩摩川内市神田町3番22号",
+     "hours": null,
+     "source_url": "https://www.city.satsumasendai.lg.jp/shigikai/3/1/index.html",
+     "evidence": "議会事務局 〒895-8650 鹿児島県薩摩川内市神田町3番22号 電話番号:0996-23-5111",
+     "note": "ページの題名：請願・陳情/薩摩川内市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "462161",
+   "name": "日置市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "日置市議会事務局総務係",
+     "phone": "099-248-9435",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hioki.kagoshima.jp/gikai/shisejoho/shigikai/segan.html",
+     "evidence": "議会事務局総務係 899-2592 日置市伊集院町郡一丁目100番地 電話番号:099-248-9435",
+     "note": "ページの題名：請願・陳情|鹿児島県日置市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "462179",
+   "name": "曽於市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.soo.kagoshima.jp/gyousei/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "462187",
+   "name": "霧島市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city-kirishima.jp/hisyokouhou/shise/shigikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "462195",
+   "name": "いちき串木野市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "いちき串木野市議会事務局",
+     "phone": "0996-33-5648",
+     "email": null,
+     "form_url": null,
+     "postal_code": "896-8601",
+     "postal_address": "鹿児島県いちき串木野市昭和通133番地1",
+     "hours": null,
+     "source_url": "https://www.city.ichikikushikino.lg.jp/gikai1/shise/gikai/seigantinjyou.html",
+     "evidence": "議会事務局 〒896-8601 鹿児島県いちき串木野市昭和通133番地1 電話:0996-33-5648",
+     "note": "ページの題名：いちき串木野市/請願・陳情"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "462209",
+   "name": "南さつま市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.minamisatsuma.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "462217",
+   "name": "志布志市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "志布志市議会事務局",
+     "phone": "099-472-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "899-7192",
+     "postal_address": "鹿児島県志布志市志布志町志布志二丁目1番1号",
+     "hours": null,
+     "source_url": "https://www.city.shibushi.lg.jp/site/gikai/28417.html",
+     "evidence": "議会事務局議会グループ 〒899-719…布志市志布志町志布志二丁目1番1号 Tel:099-472-1111【内線502・5",
+     "note": "ページの題名：請願・陳情 - 志布志市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "462225",
+   "name": "奄美市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "奄美市議会事務局",
+     "phone": "0997-52-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.amami.lg.jp/gikai/20150717.html",
+     "evidence": "議会事務局 894-8555 奄美市名瀬幸町25-8 電話番号:0997-52-1111",
+     "note": "ページの題名：請願・陳情について/鹿児島県奄美市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "462233",
+   "name": "南九州市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "南九州市議会 議事係",
+     "phone": "0993-78-3074",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.minamikyushu.lg.jp/gyoseijoho/minamikyushushigikai/4287.html",
+     "evidence": "議事係】 電話番号:0993-78-3074",
+     "note": "ページの題名：請願・陳情/南九州市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "462241",
+   "name": "伊佐市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.isa.kagoshima.jp/politics/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "462250",
+   "name": "姶良市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "姶良市議会 議事調査係",
+     "phone": "0995-66-3197",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.aira.lg.jp/gchosa/gyosei/gikai/seigan.html",
+     "evidence": "議事調査係 899-5492 鹿児島県姶良市宮島町25番地 電話番号:0995-66-3197",
+     "note": "ページの題名：姶良市/請願・陳情"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "463035",
+   "name": "三島村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://mishimamura.com/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "463043",
+   "name": "十島村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.tokara.jp/profile/administration/gaiyou/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "463922",
+   "name": "さつま町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "さつま町議会 議事係",
+     "phone": "0996-24-8911",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.satsuma-net.jp/machinosugata/gikai/4252.html",
+     "evidence": "議事係 〒895-1803 鹿児島県薩摩郡さつま町宮之城屋地1565番地2 電話番号:0996-24-8911",
+     "note": "ページの題名：請願・陳情/さつま町公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

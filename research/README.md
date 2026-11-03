@@ -39,3 +39,5 @@
 - 第3段階（東京都・神奈川県・埼玉県・千葉県・大阪府の市区町村）から未着手。
 - 2026-11-03：第3段階の残り（76バッチ・1,699市区町村）を AI なしの `todokeru_tools/08_make_batch.py <バッチID>` で調べ、`npm run research:merge` で照合・反映（全84バッチ merged）。公式確認 1,797件、見つからなかったものは未確認（auto_not_found＝「連絡先なし」にはしない）。教育委員会は見つかったときだけ書く。
   再調査は `python todokeru_tools/08_make_batch.py <バッチID>` → `npm run research:merge -- <バッチID> --dry` → 反映。
+- 2026-11-03：第5段階「請願・陳情の届け先」。AI なしの `python todokeru_tools/09_petition_batch.py all`（元のバッチID を並べても可）が、議会のページ → 「請願」「陳情」へのリンク先とたどり、題名と本文で出し方の案内のページか確かめてから、議会事務局・議事課などと同じ行の番号を拾って `research/batches/petition-<元のバッチID>.json` を書く（progress.json に計画も足す）。
+  照合・反映は他と同じ `npm run research:merge -- petition-<元のバッチID>`。見つからなかったものは載せない（未確認の欄も足さない）。衆議院・参議院は管理画面と同じ手順で登録（batch "manual-admin"）。

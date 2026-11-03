@@ -47,6 +47,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "100005-petition",
+    "type": "petition",
+    "department": "群馬県議会事務局",
+    "phone": "027-226-4111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "371-8570",
+    "postal_address": "前橋市大手町1-1-1",
+    "hours": null,
+    "source_url": "https://www.pref.gunma.jp/site/gikai/25700.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -151,6 +166,21 @@
     "note": null
    },
    {
+    "id": "102024-petition",
+    "type": "petition",
+    "department": "高崎市議会議会事務局議事課",
+    "phone": "027-321-1281",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.takasaki.gunma.jp/site/gikai/4844.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "102024-education",
     "type": "education",
     "department": "教育委員会教育総務課",
@@ -212,6 +242,21 @@
     "postal_address": "群馬県桐生市織姫町1番1号",
     "hours": null,
     "source_url": "https://www.city.kiryu.lg.jp/shigikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "102032-petition",
+    "type": "petition",
+    "department": "桐生市議会 議事課",
+    "phone": "0277-32-3538",
+    "email": null,
+    "form_url": null,
+    "postal_code": "376-8501",
+    "postal_address": "群馬県桐生市織姫町1番1号",
+    "hours": null,
+    "source_url": "https://www.city.kiryu.lg.jp/shigikai/about/1003769.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -314,6 +359,21 @@
     "postal_address": "群馬県太田市浜町2-35",
     "hours": null,
     "source_url": "https://www.city.ota.gunma.jp/site/shigikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "102059-petition",
+    "type": "petition",
+    "department": "太田市議会議会総務課総務係",
+    "phone": "0276-47-1806",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.ota.gunma.jp/site/shigikai/3572.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -470,6 +530,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "102083-petition",
+    "type": "petition",
+    "department": "渋川市議会 議事係",
+    "phone": "0279-22-2483",
+    "email": null,
+    "form_url": null,
+    "postal_code": "377-8501",
+    "postal_address": "群馬県渋川市石原80番地",
+    "hours": null,
+    "source_url": "https://www.city.shibukawa.lg.jp/gikai-site/gikai/000429/p002657.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -518,6 +593,21 @@
     "postal_address": "群馬県藤岡市中栗須327番地",
     "hours": null,
     "source_url": "https://www.city.fujioka.gunma.jp/shiseijoho/shigikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "102091-petition",
+    "type": "petition",
+    "department": "藤岡市議会事務局",
+    "phone": "0274-40-2377",
+    "email": null,
+    "form_url": null,
+    "postal_code": "375-8601",
+    "postal_address": "群馬県藤岡市中栗須327番地",
+    "hours": null,
+    "source_url": "https://www.city.fujioka.gunma.jp/shiseijoho/shigikai/2/5101.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -638,6 +728,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "102113-petition",
+    "type": "petition",
+    "department": "安中市議会事務局",
+    "phone": "027-382-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.annaka.lg.jp/site/gikai/2318.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -689,6 +794,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "102121-petition",
+    "type": "petition",
+    "department": "みどり市議会事務局",
+    "phone": "0277-76-1970",
+    "email": null,
+    "form_url": null,
+    "postal_code": "376-0192",
+    "postal_address": "群馬県みどり市大間々町大間々1511番地",
+    "hours": null,
+    "source_url": "https://www.city.midori.gunma.jp/shisei/1001670/1003228/1003229.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -737,6 +857,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.vill.shinto.gunma.jp/gikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "103446-petition",
+    "type": "petition",
+    "department": "榛東村議会事務局",
+    "phone": "0279-54-2211",
+    "email": "gikai@vill.shinto.gunma.jp",
+    "form_url": null,
+    "postal_code": "370-3593",
+    "postal_address": "群馬県北群馬郡榛東村大字新井790番地1",
+    "hours": null,
+    "source_url": "https://www.vill.shinto.gunma.jp/gikai/assembly/000289/p000356.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -893,6 +1028,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "103675-petition",
+    "type": "petition",
+    "department": "神流町議会事務局",
+    "phone": "0274-57-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kanna.gunma.jp/gyouseijouhou/kannatyougikai/524.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -934,6 +1084,21 @@
     "id": "103829-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0274-82-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.shimonita.lg.jp/gikai/m01/m07/04.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "103829-petition",
+    "type": "petition",
+    "department": "下仁田町議会事務局",
     "phone": "0274-82-2111",
     "email": null,
     "form_url": null,
@@ -1097,6 +1262,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "104213-petition",
+    "type": "petition",
+    "department": "中之条町議会事務局",
+    "phone": "0279-75-8836",
+    "email": null,
+    "form_url": null,
+    "postal_code": "377-0494",
+    "postal_address": "群馬県吾妻郡中之条町大字中之条町1091 3階",
+    "hours": null,
+    "source_url": "https://www.town.nakanojo.gunma.jp/site/nakanojo-gikai/1236.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1138,6 +1318,21 @@
     "id": "104248-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0279-82-3019",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.naganohara.gunma.jp/administration/?content=328",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "104248-petition",
+    "type": "petition",
+    "department": "長野原町議会事務局",
     "phone": "0279-82-3019",
     "email": null,
     "form_url": null,
@@ -1301,6 +1496,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "104281-petition",
+    "type": "petition",
+    "department": "高山村議会事務局",
+    "phone": "0279-63-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://vill.takayama.gunma.jp/gikai/seigan.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -1352,6 +1562,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "104299-petition",
+    "type": "petition",
+    "department": "東吾妻町議会事務局",
+    "phone": "0279-68-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.higashiagatsuma.gunma.jp/www/gikai/contents/1204215378331/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -1571,6 +1796,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "104493-petition",
+    "type": "petition",
+    "department": "みなかみ町議会事務局",
+    "phone": "0278-25-5023",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.minakami.gunma.jp/politics/08gikai/2016-1014-1905-11.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1619,6 +1859,21 @@
     "postal_address": "群馬県佐波郡玉村町大字下新田201",
     "hours": null,
     "source_url": "https://www.town.tamamura.lg.jp/category/bunya/chosei/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "104647-petition",
+    "type": "petition",
+    "department": "玉村町議会事務局",
+    "phone": "0270-64-7716",
+    "email": null,
+    "form_url": null,
+    "postal_code": "370-1192",
+    "postal_address": "群馬県佐波郡玉村町大字下新田201",
+    "hours": null,
+    "source_url": "https://www.town.tamamura.lg.jp/docs/2019110600022/",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1672,6 +1927,21 @@
     "source_url": "https://www.town.itakura.gunma.jp/d000070/index.html",
     "verified_at": null,
     "status": "unverified",
+    "note": null
+   },
+   {
+    "id": "105210-petition",
+    "type": "petition",
+    "department": "板倉町議会 庶務議事係",
+    "phone": "0276-82-6154",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.itakura.gunma.jp/cont/s034000/d034010/20121206205758.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -1775,6 +2045,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "105236-petition",
+    "type": "petition",
+    "department": "千代田町議会事務局",
+    "phone": "0276-86-7009",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.chiyoda.gunma.jp/gikai/gikai12.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1823,6 +2108,21 @@
     "postal_address": "群馬県邑楽郡大泉町日の出51番1号",
     "hours": null,
     "source_url": "https://www.town.oizumi.gunma.jp/g001/li/100/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "105244-petition",
+    "type": "petition",
+    "department": "大泉町議会事務局",
+    "phone": "0276-63-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "370-0595",
+    "postal_address": "群馬県邑楽郡大泉町日の出51番1号",
+    "hours": null,
+    "source_url": "https://www.town.oizumi.gunma.jp/g001/090/040/20200714164617.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null

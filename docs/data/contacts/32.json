@@ -47,6 +47,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "320005-petition",
+    "type": "petition",
+    "department": "島根県議会",
+    "phone": "0852-22-5356",
+    "email": "kengikai@pref.shimane.lg.jp",
+    "form_url": null,
+    "postal_code": "690-8501",
+    "postal_address": "島根県松江市殿町1番地",
+    "hours": null,
+    "source_url": "https://www.pref.shimane.lg.jp/gikai/gaido/houhou.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -95,6 +110,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.matsue.lg.jp/gyoseijoho/matsueshigikai/9944.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "322016-petition",
+    "type": "petition",
+    "department": "松江市議会 議事調査課",
+    "phone": "0852-55-5433",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.matsue.lg.jp/soshikikarasagasu/gikaijimukyoku_gijichosaka/matsueshigikai/5/2954.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -148,6 +178,21 @@
     "source_url": "https://www.city.hamada.shimane.jp/www/gikai/index.html",
     "verified_at": null,
     "status": "unverified",
+    "note": null
+   },
+   {
+    "id": "322024-petition",
+    "type": "petition",
+    "department": "浜田市議会事務局",
+    "phone": "0855-25-9800",
+    "email": "gikai@city.hamada.lg.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.hamada.shimane.jp/www/gikai/contents/1731023779477/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -215,6 +260,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "322032-petition",
+    "type": "petition",
+    "department": "出雲市議会事務局議事係",
+    "phone": "0853-21-6579",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://gikai.izumo-city.jp/petition",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -265,6 +325,21 @@
     "source_url": "https://www.city.masuda.lg.jp/shiseijoho/masudashigikai/index.html",
     "verified_at": null,
     "status": "unverified",
+    "note": null
+   },
+   {
+    "id": "322041-petition",
+    "type": "petition",
+    "department": "益田市議会事務局",
+    "phone": "0856-31-0490",
+    "email": null,
+    "form_url": null,
+    "postal_code": "698-8650",
+    "postal_address": "島根県益田市常盤町1番1号",
+    "hours": null,
+    "source_url": "https://www.city.masuda.lg.jp/shiseijoho/masudashigikai/bocho_seigan_chinjo/1/6108.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -332,6 +407,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "322059-petition",
+    "type": "petition",
+    "department": "大田市議会事務局",
+    "phone": "0854-83-8137",
+    "email": null,
+    "form_url": null,
+    "postal_code": "694-8502",
+    "postal_address": "島根県大田市大田町大田ロ1111番地",
+    "hours": null,
+    "source_url": "https://www.city.oda.lg.jp/76/751/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -383,6 +473,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "322067-petition",
+    "type": "petition",
+    "department": "安来市議会事務局",
+    "phone": "0854-23-3125",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.yasugi.shimane.jp/gikai/seigan/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -431,6 +536,21 @@
     "postal_address": "江津市江津町1016番地4",
     "hours": null,
     "source_url": "https://www.city.gotsu.lg.jp/adv/ba.php?id=71",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "322075-petition",
+    "type": "petition",
+    "department": "江津市議会事務局",
+    "phone": "0855-52-7498",
+    "email": null,
+    "form_url": null,
+    "postal_code": "695-8501",
+    "postal_address": "江津市江津町1016番地4",
+    "hours": null,
+    "source_url": "https://www.city.gotsu.lg.jp/site/gikai/3511.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -704,6 +824,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "324485-petition",
+    "type": "petition",
+    "department": "美郷町議会事務局",
+    "phone": "0855-75-1937",
+    "email": null,
+    "form_url": null,
+    "postal_code": "699-4692",
+    "postal_address": "島根県邑智郡美郷町粕渕168番地",
+    "hours": null,
+    "source_url": "https://gov.town.shimane-misato.lg.jp/gikai/2027",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -808,6 +943,21 @@
     "note": null
    },
    {
+    "id": "325015-petition",
+    "type": "petition",
+    "department": "津和野町議会事務局",
+    "phone": "0856-74-0089",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.tsuwano.lg.jp/www/contents/1709097277294/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "325015-education",
     "type": "education",
     "department": "津和野町教育委員会",
@@ -869,6 +1019,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.town.yoshika.lg.jp/about/gikaisenkyo/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "325058-petition",
+    "type": "petition",
+    "department": "吉賀町議会事務局",
+    "phone": "0856-77-1436",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.yoshika.lg.jp/about/gikaisenkyo/gikai/seigantinjyo.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null

@@ -29,6 +29,8 @@ const FIELD_LABEL = {
 
 /** 窓口の種類ごとの、登録のときの目安（管理画面だけに出す） */
 const TYPE_HINT = {
+  petition:
+    '登録の例：議会の「請願・陳情」のページに書かれた提出先（議会事務局 議事課など）。出典URLには、その請願・陳情のページ（書き方・出し方の案内）を入れます。サイトでは「請願・陳情の出し方」のボタンになります。連絡先を載せたところにだけこの欄が出ます。',
   police:
     '登録の例：警察本部の代表電話／警察の相談窓口（「#9110」は電話番号の欄に入らないので、補足の欄に書きます）／公安委員会（警察への苦情の申し出先）。サイトでは、市区町村の結果にも出ます。',
   education: '登録の例：教育委員会の代表・総務の窓口や、学校のことの相談窓口。サイトでは、連絡先を載せた自治体にだけこの欄が出ます。',
@@ -340,7 +342,7 @@ async function renderPending() {
   box.innerHTML = `<details>
     <summary><strong>まだ公開していない変更が ${p.items.length} 件あります</strong>（見る）</summary>
     <ul>${p.items
-      .map((x) => `<li><a href="#key=${esc(x.id.replace(/-(general|feedback|assembly|police|education|department)(-\d+)?$/, ''))}" data-key="${esc(x.id.replace(/-(general|feedback|assembly|police|education|department)(-\d+)?$/, ''))}">${esc(x.entityName)}${x.prefName && x.prefName !== x.entityName ? `（${esc(x.prefName)}）` : ''}</a>：${esc(describeChange(x))}</li>`)
+      .map((x) => `<li><a href="#key=${esc(x.id.replace(/-(general|feedback|assembly|petition|police|education|department)(-\d+)?$/, ''))}" data-key="${esc(x.id.replace(/-(general|feedback|assembly|petition|police|education|department)(-\d+)?$/, ''))}">${esc(x.entityName)}${x.prefName && x.prefName !== x.entityName ? `（${esc(x.prefName)}）` : ''}</a>：${esc(describeChange(x))}</li>`)
       .join('')}</ul>
   </details>
   <p class="howto">サイトに出すには、Claude に<strong>「連絡先の変更を公開して」</strong>と伝えてください。</p>`;

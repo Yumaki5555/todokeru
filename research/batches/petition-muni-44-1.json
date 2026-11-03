@@ -1,0 +1,457 @@
+{
+ "batch": "petition-muni-44-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "442011",
+   "name": "大分市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "大分市議会 議事課",
+     "phone": "097-537-5645",
+     "email": "gikaigiji@city.oita.oita.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.oita.oita.jp/o186/shigikai/seganchinjo/1341818373163.html",
+     "evidence": "議事課(097ー537ー5645)までご連絡くだ",
+     "note": "ページの題名：大分市議会/請願・陳情について"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "442020",
+   "name": "別府市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "別府市議会事務局",
+     "phone": "0977-21-1547",
+     "email": "sec-cc@city.beppu.lg.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.beppu.oita.jp/gikai/08seigantinjyou/01petition/index.html",
+     "evidence": "議会事務局 TEL 0977-21-1547",
+     "note": "ページの題名：別府市議会*請願・陳情のご案内*"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "442038",
+   "name": "中津市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "中津市議会事務局",
+     "phone": "0979-62-9882",
+     "email": "shigikai@city.nakatsu.lg.jp",
+     "form_url": null,
+     "postal_code": "871-8501",
+     "postal_address": "大分県中津市豊田町14番地3",
+     "hours": null,
+     "source_url": "https://www.city-nakatsu.jp/gikai/2011100400360/",
+     "evidence": "議会事務局 住所:〒871-8501 大分県中津市豊田町14番地3 TEL:0979-62-9882",
+     "note": "ページの題名：請願・陳情について | 大分県中津市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "442046",
+   "name": "日田市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hita.oita.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "442054",
+   "name": "佐伯市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "佐伯市議会事務局",
+     "phone": "0972-22-3643",
+     "email": "gikai@city.saiki.lg.jp",
+     "form_url": null,
+     "postal_code": "876-8585",
+     "postal_address": "大分県佐伯市中村南町1番1号",
+     "hours": null,
+     "source_url": "https://www.city.saiki.oita.jp/gikai/kiji0032107/index.html",
+     "evidence": "議会事務局 〒876-8585 大分県佐伯市中村南町1番1号 TEL:0972-22-3643 FAX:097",
+     "note": "ページの題名：請願・陳情について / 市議会 / 佐伯市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "442062",
+   "name": "臼杵市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "臼杵市議会事務局",
+     "phone": "0972-72-1070",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.usuki.oita.jp/docs/2014020300550/",
+     "evidence": "議会事務局 TEL:0972-72-1070",
+     "note": "ページの題名：請願・陳情 | 臼杵市役所"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "442071",
+   "name": "津久見市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "津久見市議会事務局",
+     "phone": "0972-82-9518",
+     "email": null,
+     "form_url": null,
+     "postal_code": "879-2435",
+     "postal_address": "大分県津久見市宮本町20番15号",
+     "hours": null,
+     "source_url": "https://www.city.tsukumi.oita.jp/site/gikai/7690.html",
+     "evidence": "議会事務局 〒879-2435大分県津久見市宮本町20番15号 Tel:0972-82-9518Fax:0972",
+     "note": "ページの題名：請願・陳情の案内 - 津久見市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "442089",
+   "name": "竹田市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "竹田市議会事務局",
+     "phone": "0974-63-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.taketa.oita.jp/shisei_machizukuri/taketashigikai/9/1178.html",
+     "evidence": "議会事務局 〒878-8555 大分県竹田市大字会々1650番地 電話:0974-63-1111(内線 302)",
+     "note": "ページの題名：請願・陳情とは/竹田市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "442097",
+   "name": "豊後高田市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.bungotakada.oita.jp/site/gikai-subsite/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "442101",
+   "name": "杵築市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "杵築市議会 議事係",
+     "phone": "0978-62-3795",
+     "email": null,
+     "form_url": null,
+     "postal_code": "873-0001",
+     "postal_address": "大分県杵築市大字杵築377番地1",
+     "hours": null,
+     "source_url": "https://www.city.kitsuki.lg.jp/shiseimachidukuri/shigikai/seigan_chinjo/2582.html",
+     "evidence": "議事係 〒873-0001 大分県杵築市大字杵築377番地1 電話番号:0978-62-3795",
+     "note": "ページの題名：請願・陳情の手続き/杵築市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "442119",
+   "name": "宇佐市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "宇佐市議会事務局 庶務係",
+     "phone": "0978-32-2328",
+     "email": null,
+     "form_url": null,
+     "postal_code": "879-0492",
+     "postal_address": "大分県宇佐市大字上田1030番地の1 本庁舎4階",
+     "hours": null,
+     "source_url": "https://www.city.usa.oita.jp/sougo/soshiki/20/gikai/6/2752.html",
+     "evidence": "議会事務局 庶務係 〒879-0492 大分県宇佐市大字上田1030番地の1 本庁舎4階 電話番号:0978-32-2328",
+     "note": "ページの題名：請願・陳情について/宇佐市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "442127",
+   "name": "豊後大野市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "豊後大野市議会事務局",
+     "phone": "0974-22-1001",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.bungo-ohno.jp/docs/2015011400358/",
+     "evidence": "議会事務局 TEL:(代表)0974-22-1001",
+     "note": "ページの題名：請願・陳情 | 豊後大野市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "442135",
+   "name": "由布市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.yufu.oita.jp/article_link/city_council",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "442143",
+   "name": "国東市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kunisaki.oita.jp/site/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "443221",
+   "name": "姫島村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.himeshima.jp/about/son-gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "443417",
+   "name": "日出町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hiji.lg.jp/gyoseijoho/hijimachigikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "444618",
+   "name": "九重町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "九重町議会事務局",
+     "phone": "0973-76-3814",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kokonoe.oita.jp/docs/2016122100380/",
+     "evidence": "議会事務局・監査事務局 TEL:0973-76-3814",
+     "note": "ページの題名：請願・陳情 | 九重町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "444626",
+   "name": "玖珠町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kusu.oita.jp/choseijoho/kusuchogikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

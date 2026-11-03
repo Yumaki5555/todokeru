@@ -1,0 +1,532 @@
+{
+ "batch": "petition-muni-27-2",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "272221",
+   "name": "羽曳野市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.habikino.lg.jp/soshiki/gikaijimu/gikaijimu_shigikai/950.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "272230",
+   "name": "門真市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kadoma.osaka.jp/shisei/shigikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "272248",
+   "name": "摂津市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www2.city.settsu.osaka.jp/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "272256",
+   "name": "高石市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.takaishi.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "272264",
+   "name": "藤井寺市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.fujiidera.lg.jp/soshiki/gikaijimu/shigikai/9684.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "272272",
+   "name": "東大阪市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://higashiosaka.gijiroku.com/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "272281",
+   "name": "泉南市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "泉南市議会事務局",
+     "phone": "072-483-0008",
+     "email": "gikai@city.sennan.lg.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://gikai.city.sennan.osaka.jp/1959",
+     "evidence": "議会事務局 住所:〒590-0592 大阪府泉南市樽井一丁目1番1号 電話:072-483-0008 FAX:072",
+     "note": "ページの題名：請願・陳情 | 泉南市議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "272299",
+   "name": "四條畷市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "四條畷市議会事務局",
+     "phone": "072-877-2121",
+     "email": null,
+     "form_url": null,
+     "postal_code": "575-8501",
+     "postal_address": "大阪府四條畷市中野本町1番1号 本館3階",
+     "hours": null,
+     "source_url": "https://www.city.shijonawate.lg.jp/page/53-2057.html",
+     "evidence": "議会事務局代表 〒575-8501大阪府四條畷市中野本町1番1号 本館3階 Tel:072-877-2121 0743-71",
+     "note": "ページの題名：請願・陳情 - 四條畷市ホームページ(議会事務局)"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "272302",
+   "name": "交野市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://katano.gsl-service.net/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "272311",
+   "name": "大阪狭山市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "大阪狭山市議会事務局",
+     "phone": "072-360-4453",
+     "email": "gikai@city.osakasayama.osaka.jp",
+     "form_url": null,
+     "postal_code": "589-8501",
+     "postal_address": "大阪府大阪狭山市狭山一丁目2384番地の1",
+     "hours": null,
+     "source_url": "https://www.gikai-web.com/osakasayama/044seigan.html",
+     "evidence": "議会事務局 〒589-8501 大阪府大阪狭山市狭山一丁目2384番地の1 TEL:072-360-4453(直通)",
+     "note": "ページの題名：請願・陳情の手続き - 大阪狭山市議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "272329",
+   "name": "阪南市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "阪南市議会事務局 庶務課",
+     "phone": "072-471-5680",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hannan.lg.jp/shigikai/annai/seigan/index.html",
+     "evidence": "議会事務局 庶務課 〒599-0292 大阪府阪南市尾崎町35-1 電話:072-471-5680",
+     "note": "ページの題名：請願・陳情を提出するには/阪南市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "273015",
+   "name": "島本町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "島本町議会事務局議会総務課",
+     "phone": "075-962-6315",
+     "email": null,
+     "form_url": null,
+     "postal_code": "618-8570",
+     "postal_address": "大阪府三島郡島本町桜井二丁目1番1号",
+     "hours": null,
+     "source_url": "https://www.town.shimamoto.lg.jp/soshiki/20/12142.html",
+     "evidence": "議会事務局議会総務課直通 〒618-8570大阪府三島郡島本町桜井二丁目1番1号 Tel:075-962-6315Fax:075-",
+     "note": "ページの題名：請願の手続き - 島本町ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "273210",
+   "name": "豊能町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "豊能町議会事務局",
+     "phone": "072-739-3430",
+     "email": null,
+     "form_url": null,
+     "postal_code": "563-0292",
+     "postal_address": "大阪府豊能郡豊能町余野414番地の1 本庁舎2階",
+     "hours": null,
+     "source_url": "https://www.town.toyono.osaka.jp/gyousei/gikai/about/page000418.html",
+     "evidence": "議会事務局 〒563-0292 大阪府豊…町余野414番地の1 本庁舎2階 電話番号:072-739-3430",
+     "note": "ページの題名：請願・陳情 | 豊能町公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "273228",
+   "name": "能勢町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.nose.osaka.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "273414",
+   "name": "忠岡町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "忠岡町議会事務局",
+     "phone": "0725-22-1122",
+     "email": null,
+     "form_url": null,
+     "postal_code": "595-0805",
+     "postal_address": "大阪府泉北郡忠岡町忠岡東1-34-1",
+     "hours": null,
+     "source_url": "https://www.town.tadaoka.osaka.jp/gyousei/gikai/seigan_cinjou/2203.html",
+     "evidence": "議会事務局 〒595-0805 大阪府泉北郡忠岡町忠岡東1-34-1 電話: 0725-22-1122(代表)",
+     "note": "ページの題名：請願・陳情について/忠岡町役場ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "273619",
+   "name": "熊取町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "熊取町議会総務グループ",
+     "phone": "072-452-9023",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kumatori.lg.jp/soshiki/gikai_somu/gyomu/kumatori_gikai/seigan_chinjo/1981.html",
+     "evidence": "議会総務グループ) 電話:072-452-9023",
+     "note": "ページの題名：請願と陳情/熊取町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "273627",
+   "name": "田尻町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.tajiri.osaka.jp/toppusita/otoiawase.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "273660",
+   "name": "岬町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.misaki.osaka.jp/soshiki/gikai/chogikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "273813",
+   "name": "太子町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "太子町議会事務局",
+     "phone": "0721-98-5540",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.town.taishi.osaka.jp/busyo/gikai_jimu/taishichougikai/seigan.html",
+     "evidence": "議会事務局 電話:0721-98-5540",
+     "note": "ページの題名：請願・陳情/大阪府太子町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "273821",
+   "name": "河南町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "河南町議会事務局",
+     "phone": "0721-93-2500",
+     "email": "gikai@town.kanan.osaka.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kanan.osaka.jp/gyoseijoho/gikai/4523.html",
+     "evidence": "議会事務局 〒585-8585 大阪府南河内郡河南町大字白木1359番地の6 電話番号:0721-93-2500(内線:330・",
+     "note": "ページの題名：請願・陳情の手続き、傍聴の案内/河南町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "273830",
+   "name": "千早赤阪村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "千早赤阪村議会事務局",
+     "phone": "0721-26-7168",
+     "email": null,
+     "form_url": null,
+     "postal_code": "585-8501",
+     "postal_address": "大阪府南河内郡千早赤阪村大字水分180番地",
+     "hours": null,
+     "source_url": "https://www.vill.chihayaakasaka.osaka.jp/kakuka/gikai/2_1/2384.html",
+     "evidence": "議会事務局 〒585-8501 大阪府南河内郡千早赤阪村大字水分180番地 電話番号:0721-26-7168(直通)",
+     "note": "ページの題名：請願・陳情/千早赤阪村"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,757 @@
+{
+ "batch": "petition-muni-30-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "302015",
+   "name": "和歌山市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "和歌山市議会政策課",
+     "phone": "073-435-1119",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.wakayama.wakayama.jp/gikai/1000430/1000438.html",
+     "evidence": "議会政策課(073-435-1119)までお問い合わ",
+     "note": "ページの題名：請願と陳情・要望|和歌山市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "302023",
+   "name": "海南市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "海南市議会事務局",
+     "phone": "073-483-8700",
+     "email": "gikaij@city.kainan.lg.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kainan.lg.jp/kakubusho/gikaijimukyoku/1451976729685.html",
+     "evidence": "議会事務局 郵便番号:642-8501 海南市南赤坂11番地 電話:073-483-8700",
+     "note": "ページの題名：請願・陳情の提出方法/海南市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "302031",
+   "name": "橋本市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "橋本市議会事務局",
+     "phone": "0736-33-6107",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hashimoto.lg.jp/shigikai/sonotaannai/seigantinjou.html",
+     "evidence": "議会事務局 〒648-8585 和歌山県橋本市東家一丁目1番1号 電話:0736-33-6107 ファクス:07",
+     "note": "ページの題名：請願、陳情/橋本市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "302040",
+   "name": "有田市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "有田市議会事務局",
+     "phone": "0737-83-2443",
+     "email": null,
+     "form_url": null,
+     "postal_code": "649-0392",
+     "postal_address": "和歌山県有田市箕島50",
+     "hours": null,
+     "source_url": "https://www.city.arida.lg.jp/shigikai/1001745.html",
+     "evidence": "議会事務局 〒649-0392 和歌山県有田市箕島50 電話:0737-83-2443(直通)",
+     "note": "ページの題名：請願・陳情の方法|有田市公式ウェブサイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "302058",
+   "name": "御坊市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.gobo.lg.jp/sigikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "302066",
+   "name": "田辺市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tanabe.lg.jp/soshiki/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "302074",
+   "name": "新宮市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.shingu.lg.jp/forms/top/top.aspx",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "302082",
+   "name": "紀の川市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "紀の川市議会 議事調査課",
+     "phone": "0736-77-2511",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kinokawa.lg.jp/001/seigantinjyou.html",
+     "evidence": "議事調査課 TEL 0736-77-2511",
+     "note": "ページの題名：請願・陳情手続き|紀の川市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "302091",
+   "name": "岩出市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.iwade.lg.jp/adv/ba.php?id=6",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "303046",
+   "name": "紀美野町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "紀美野町議会事務局",
+     "phone": "073-489-5914",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kimino.wakayama.jp/sagasu/gikaijimukyoku/137.html",
+     "evidence": "議会事務局 〒640-1192 和歌山県海草郡紀美野町動木287番地 電話:073-489-5914 ファックス:0",
+     "note": "ページの題名：請願・陳情について/紀美野町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "303411",
+   "name": "かつらぎ町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "かつらぎ町議会",
+     "phone": "0736-22-0300",
+     "email": null,
+     "form_url": null,
+     "postal_code": "649-7192",
+     "postal_address": "和歌山県伊都郡かつらぎ町丁ノ町2160番地",
+     "hours": null,
+     "source_url": "https://www.town.katsuragi.wakayama.jp/gikai/20180220164034.html",
+     "evidence": "議会 〒649-7192 和歌山県伊都郡かつらぎ町丁ノ町2160番地 電話 0736-22-0300(代表) FAX",
+     "note": "ページの題名：議会への請願・陳情"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "303437",
+   "name": "九度山町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "九度山町議会事務局",
+     "phone": "0736-54-2019",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kudoyama.lg.jp/gikai/seigan.html",
+     "evidence": "議会事務局TEL: 0736-54-2019(代表)",
+     "note": "ページの題名：請願・陳情|九度山町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "303445",
+   "name": "高野町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.koya.wakayama.jp/town/gikai",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "303615",
+   "name": "湯浅町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "湯浅町議会事務局",
+     "phone": "0737-64-1118",
+     "email": null,
+     "form_url": null,
+     "postal_code": "643-0002",
+     "postal_address": "和歌山県有田郡湯浅町青木668-1",
+     "hours": null,
+     "source_url": "https://www.town.yuasa.wakayama.jp/site/gikai/3729.html",
+     "evidence": "議会事務局代表 〒643-0002和歌山…青木668-1 湯浅町役場 3階 Tel:0737-64-1118",
+     "note": "ページの題名：議会への請願・陳情 - 湯浅町公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "303623",
+   "name": "広川町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hirogawa.wakayama.jp/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "303666",
+   "name": "有田川町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "有田川町議会事務局",
+     "phone": "0737-22-3294",
+     "email": null,
+     "form_url": null,
+     "postal_code": "643-0021",
+     "postal_address": "和歌山県有田郡有田川町大字下津野2018-4",
+     "hours": null,
+     "source_url": "https://www.town.aridagawa.lg.jp/top/kakuka/gikai/osirase/1022.html",
+     "evidence": "議会事務局 〒643-0021 和歌山県有田郡有田川町大字下津野2018-4 電話番号:0737-22-3294(直通、平日8時",
+     "note": "ページの題名：請願・陳情/有田川町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "303810",
+   "name": "美浜町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.town.mihama.wakayama.jp/bunya/mihamachogikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "303828",
+   "name": "日高町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.town.wakayama-hidaka.lg.jp/bunya/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "303836",
+   "name": "由良町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.town.yura.wakayama.jp/bunya/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "303909",
+   "name": "印南町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.wakayama-inami.lg.jp/soshiki/14-12-0-0-0_1.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "303917",
+   "name": "みなべ町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.minabe.lg.jp/tyousei/15",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "303925",
+   "name": "日高川町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "日高川町議会事務局",
+     "phone": "0738-22-9504",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hidakagawa.lg.jp/gikai/seigan.html",
+     "evidence": "議会事務局 (直 通) TEL:0738-22-9504",
+     "note": "ページの題名：請願・陳情|日高川町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "304018",
+   "name": "白浜町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shirahama.wakayama.jp/gyousei/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "304042",
+   "name": "上富田町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "上富田町議会事務局",
+     "phone": "0739-47-0550",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.town.kamitonda.lg.jp/chosei/gikai/1600.html",
+     "evidence": "議会事務局 〒649-2192 和歌山県西牟婁郡上富田町朝来763番地 電話番号:0739-47-0550(代表) ファッ",
+     "note": "ページの題名：請願・陳情/上富田町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "304069",
+   "name": "すさみ町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "すさみ町議会",
+     "phone": "0739-55-4808",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.susami.lg.jp/tyousei/07/2023032400035.html",
+     "evidence": "議会 電話:0739-55-4808",
+     "note": "ページの題名：請願と陳情|すさみ町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "304212",
+   "name": "那智勝浦町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "那智勝浦町議会事務局",
+     "phone": "0735-52-0938",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.nachikatsuura.wakayama.jp/info/127",
+     "evidence": "議会事務局へお問い合わせください。電話 0735-52-0938",
+     "note": "ページの題名：- 和歌山県 那智勝浦町 -議会の傍聴について、請願と陳情の提出について - 和歌山県 那智勝浦町 -"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "304221",
+   "name": "太地町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.taiji.wakayama.jp/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "304247",
+   "name": "古座川町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kozagawa.lg.jp/kurashi/sub006.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "304271",
+   "name": "北山村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.kitayama.wakayama.jp/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "304280",
+   "name": "串本町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "串本町議会事務局",
+     "phone": "0735-67-7261",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kushimoto.wakayama.jp/gikai/seigan.html",
+     "evidence": "議会事務局TEL: 0735-67-7261 FAX: 07",
+     "note": "ページの題名：請願と陳情|串本町議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

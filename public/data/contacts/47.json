@@ -49,6 +49,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "470007-petition",
+    "type": "petition",
+    "department": "沖縄県議会",
+    "phone": "098-866-2574",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.pref.okinawa.lg.jp/kensei/gikai/1024937/1017077.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -100,6 +115,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "472018-petition",
+    "type": "petition",
+    "department": "那覇市議会 議事管理課",
+    "phone": "098-862-8153",
+    "email": null,
+    "form_url": null,
+    "postal_code": "900-8585",
+    "postal_address": "沖縄県那覇市泉崎1丁目1番1号",
+    "hours": null,
+    "source_url": "https://www.city.naha.okinawa.jp/sigikai/teireikai/1005777/1005778.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -141,6 +171,21 @@
     "id": "472051-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "098-893-4411",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.ginowan.lg.jp/shisei/gikai/5/4812.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "472051-petition",
+    "type": "petition",
+    "department": "宜野湾市議会事務局",
     "phone": "098-893-4411",
     "email": null,
     "form_url": null,
@@ -204,6 +249,21 @@
     "note": null
    },
    {
+    "id": "472077-petition",
+    "type": "petition",
+    "department": "石垣市議会事務局",
+    "phone": "0980-82-4054",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.ishigaki.okinawa.jp/soshiki/gikai/seigan/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "472077-education",
     "type": "education",
     "department": "教育総務課",
@@ -257,6 +317,21 @@
    {
     "id": "472085-assembly",
     "type": "assembly",
+    "department": "浦添市議会",
+    "phone": "098-851-5057",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.urasoe.lg.jp/gikai/609e7bb33d59ae2434bfea02/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "472085-petition",
+    "type": "petition",
     "department": "浦添市議会",
     "phone": "098-851-5057",
     "email": null,
@@ -334,6 +409,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "472093-petition",
+    "type": "petition",
+    "department": "名護市議会事務局",
+    "phone": "0980-53-1212",
+    "email": null,
+    "form_url": null,
+    "postal_code": "905-8540",
+    "postal_address": "沖縄県名護市港一丁目1番1号",
+    "hours": null,
+    "source_url": "https://www.city.nago.okinawa.jp/soshiki/gikai-nav/2018070300126/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -375,6 +465,21 @@
     "id": "472107-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "098-840-8100",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.itoman.lg.jp/soshiki/37/1165.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "472107-petition",
+    "type": "petition",
+    "department": "糸満市議会事務局",
     "phone": "098-840-8100",
     "email": null,
     "form_url": null,
@@ -436,6 +541,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "472115-petition",
+    "type": "petition",
+    "department": "沖縄市議会 議事課",
+    "phone": "098-939-1212",
+    "email": null,
+    "form_url": null,
+    "postal_code": "904-8501",
+    "postal_address": "沖縄県沖縄市仲宗根町26番1号",
+    "hours": null,
+    "source_url": "https://www.city.okinawa.okinawa.jp/k046/shiseijouhou/shigikai/139/421.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -487,6 +607,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "472123-petition",
+    "type": "petition",
+    "department": "豊見城市議会事務局",
+    "phone": "098-850-0025",
+    "email": null,
+    "form_url": null,
+    "postal_code": "901-0292",
+    "postal_address": "沖縄県豊見城市宜保一丁目1番地1",
+    "hours": null,
+    "source_url": "https://www.city.tomigusuku.lg.jp/gyoseijoho/shigikai/seiganntinnzyou/3077.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -528,6 +663,21 @@
     "id": "472131-assembly",
     "type": "assembly",
     "department": "議会事務局議事課",
+    "phone": "098-973-3511",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.uruma.lg.jp/shigikai/854.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "472131-petition",
+    "type": "petition",
+    "department": "うるま市議会事務局議事課",
     "phone": "098-973-3511",
     "email": null,
     "form_url": null,
@@ -1063,6 +1213,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "473146-petition",
+    "type": "petition",
+    "department": "金武町議会事務局",
+    "phone": "098-968-2292",
+    "email": null,
+    "form_url": null,
+    "postal_code": "904-1292",
+    "postal_address": "沖縄県国頭郡金武町字金武1番地",
+    "hours": null,
+    "source_url": "https://www.town.kin.okinawa.jp/gyoseijoho/gikai/692.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1471,6 +1636,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "473481-petition",
+    "type": "petition",
+    "department": "与那原町議会事務局",
+    "phone": "098-945-5775",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.yonabaru.okinawa.jp/soshiki/18/45.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1521,6 +1701,21 @@
     "source_url": "https://www.town.haebaru.lg.jp/site/gikai/",
     "verified_at": null,
     "status": "unverified",
+    "note": null
+   },
+   {
+    "id": "473502-petition",
+    "type": "petition",
+    "department": "南風原町議会事務局",
+    "phone": "098-889-3097",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.haebaru.lg.jp/site/gikai/1898.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -2221,6 +2416,21 @@
     "id": "473821-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0980-87-2246",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.yonaguni.okinawa.jp/docs/2025121200021/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "473821-petition",
+    "type": "petition",
+    "department": "与那国町議会事務局",
     "phone": "0980-87-2246",
     "email": null,
     "form_url": null,

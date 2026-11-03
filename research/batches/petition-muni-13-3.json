@@ -1,0 +1,507 @@
+{
+ "batch": "petition-muni-13-3",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "132225",
+   "name": "東久留米市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "東久留米市議会 議事係",
+     "phone": "042-470-7789",
+     "email": null,
+     "form_url": null,
+     "postal_code": "203-8555",
+     "postal_address": "東京都東久留米市本町3-3-1",
+     "hours": null,
+     "source_url": "https://www.city.higashikurume.lg.jp/gikai/annai/1004005.html",
+     "evidence": "議事係 〒203-8555 東京都東久留米市本町3-3-1 電話:042-470-7789 ファクス:04",
+     "note": "ページの題名：請願(陳情)書の書き方|東久留米市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "132233",
+   "name": "武蔵村山市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "武蔵村山市議会事務局議事係",
+     "phone": "042-565-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.musashimurayama.lg.jp/shisei/shigikai/1003316.html",
+     "evidence": "議会事務局議事係 電話番号:042-565-1111(内線番号:51",
+     "note": "ページの題名：請願と陳情|武蔵村山市 公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "132241",
+   "name": "多摩市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "多摩市議会 議事係",
+     "phone": "042-338-6890",
+     "email": null,
+     "form_url": null,
+     "postal_code": "206-8666",
+     "postal_address": "東京都多摩市関戸六丁目12番地1",
+     "hours": null,
+     "source_url": "https://www.city.tama.lg.jp/shigikai/bocho/1010507/1006733.html",
+     "evidence": "議事係 〒206-8666 東京都多摩市関戸六丁目12番地1 電話番号:042-338-6890 ファクシミリ番",
+     "note": "ページの題名：市議会への請願・陳情・政策提案|多摩市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "132250",
+   "name": "稲城市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "稲城市議会事務局",
+     "phone": "042-378-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "206-8601",
+     "postal_address": "東京都稲城市東長沼2111番地",
+     "hours": null,
+     "source_url": "https://www.city.inagi.tokyo.jp/gikai/shimin_gikai/1009542.html",
+     "evidence": "議会事務局 が担当しています 〒206-…東京都稲城市東長沼2111番地 電話番号:042-378-2111 ファクス番号:",
+     "note": "ページの題名：請願・陳情|稲城市公式ウェブサイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "132276",
+   "name": "羽村市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "羽村市議会事務局",
+     "phone": "042-555-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hamura.tokyo.jp/0000001466.html",
+     "evidence": "議会事務局) 電話: 042-555-1111 (庶務係)内線",
+     "note": "ページの題名：請願・陳情のご案内 | 羽村市公式サイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "132284",
+   "name": "あきる野市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "あきる野市議会事務局",
+     "phone": "042-558-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.akiruno.tokyo.jp/0000002009.html",
+     "evidence": "議会事務局 電話: 代表042-558-1111 庶務係 内線2",
+     "note": "ページの題名：請願・陳情案内 | あきる野市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "132292",
+   "name": "西東京市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "西東京市議会 議事係",
+     "phone": "042-460-9861",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nishitokyo.lg.jp/sigikai/about/seigan_chinjo.html",
+     "evidence": "議事係(電話:042-460-9861)",
+     "note": "ページの題名：請願・陳情の提出方法 西東京市Web／同じ組織のほかの番号：042-460-9860"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "133035",
+   "name": "瑞穂町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "瑞穂町議会 議事係",
+     "phone": "042-557-7693",
+     "email": null,
+     "form_url": null,
+     "postal_code": "190-1292",
+     "postal_address": "東京都西多摩郡瑞穂町大字箱根ケ崎2335番地",
+     "hours": null,
+     "source_url": "https://www.town.mizuho.tokyo.jp/gikai/procedure/p000382.html",
+     "evidence": "議事係 〒190-1292 東京都西多摩郡瑞穂町大字箱根ケ崎2335番地 電話 042-557-7693",
+     "note": "ページの題名：請願・陳情の提出方法 | 瑞穂町議会ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "133051",
+   "name": "日の出町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "日の出町議会事務局庶務議事係",
+     "phone": "042-588-5148",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hinode.tokyo.jp/0000000368.html",
+     "evidence": "議会事務局庶務議事係 電話: 042-588-5148",
+     "note": "ページの題名：請願・陳情について | 日の出町ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "133078",
+   "name": "檜原村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "檜原村議会 議事係",
+     "phone": "042-598-1011",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.hinohara.tokyo.jp/0000000637.html",
+     "evidence": "議事係 電話: 042-598-1011(代表)、042",
+     "note": "ページの題名：請願・陳情について | 檜原村ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "133086",
+   "name": "奥多摩町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.okutama.tokyo.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "133612",
+   "name": "大島町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.oshima.tokyo.jp/soshiki/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "133621",
+   "name": "利島村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.toshimamura.org/about/assembly.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "133639",
+   "name": "新島村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.niijima.com/soshiki/gikaijimukyoku/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "133647",
+   "name": "神津島村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.kouzushima.tokyo.jp/busyo/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "133817",
+   "name": "三宅村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "三宅村議会事務局",
+     "phone": "04994-5-0956",
+     "email": null,
+     "form_url": null,
+     "postal_code": "100-1212",
+     "postal_address": "東京都三宅島三宅村阿古497",
+     "hours": null,
+     "source_url": "https://www.vill.miyake.tokyo.jp/kakuka/gikai/seigan.html",
+     "evidence": "議会事務局 〒100-1212 東京都三宅島三宅村阿古497 TEL:04994-5-0956",
+     "note": "ページの題名：請願(陳情)について|各課の仕事|三宅村役場ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "133825",
+   "name": "御蔵島村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.mikurasima.tokyo.jp/section/gyosei/gikai.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "134015",
+   "name": "八丈町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "八丈町議会事務局",
+     "phone": "04996-2-2788",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hachijo.tokyo.jp/chousei/chougikai/boutan-sanka/chinjo-tangan/",
+     "evidence": "議会事務局 電話番号04996-2-2788",
+     "note": "ページの題名：陳情(要望)請願 – 八丈町公式サイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "134023",
+   "name": "青ヶ島村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.aogashima.tokyo.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "134210",
+   "name": "小笠原村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.ogasawara.tokyo.jp/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

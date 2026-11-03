@@ -1,0 +1,607 @@
+{
+ "batch": "petition-muni-36-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "362018",
+   "name": "徳島市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "徳島市議会 議事調査課",
+     "phone": "088-621-5115",
+     "email": null,
+     "form_url": null,
+     "postal_code": "770-8571",
+     "postal_address": "徳島県徳島市幸町2丁目5番地",
+     "hours": null,
+     "source_url": "https://www.city.tokushima.tokushima.jp/shigikai/kakusyu_tetuduki/seigan.html",
+     "evidence": "議事調査課 〒770-8571 徳島県徳島市幸町2丁目5番地(南館3階) 電話番号:088-621-5115",
+     "note": "ページの題名：議会への請願・陳情:徳島市公式ウェブサイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "362026",
+   "name": "鳴門市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "鳴門市議会事務局",
+     "phone": "088-684-1234",
+     "email": "gikai@city.naruto.i-tokushima.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.naruto.lg.jp/gikai/docs/2025122500335/",
+     "evidence": "議会事務局 TEL:088-684-1234",
+     "note": "ページの題名：請願・陳情 | 鳴門市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "362034",
+   "name": "小松島市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.komatsushima.lg.jp/shisei/soshiki/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "362042",
+   "name": "阿南市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.anan.tokushima.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "362051",
+   "name": "吉野川市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.yoshinogawa.lg.jp/soshiki/gikaik/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "362069",
+   "name": "阿波市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "阿波市議会",
+     "phone": "0883-36-8750",
+     "email": null,
+     "form_url": null,
+     "postal_code": "771-1695",
+     "postal_address": "徳島県阿波市市場町切幡字古田201番地1",
+     "hours": null,
+     "source_url": "https://www.city.awa.lg.jp/gikai/docs/2025103000014/",
+     "evidence": "議会 〒771-1695徳島県阿波市市場町切幡字古田201番地1 TEL:0883-36-8750FAX:0883",
+     "note": "ページの題名：傍聴・請願・陳情 | 阿波市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "362077",
+   "name": "美馬市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "美馬市議会事務局",
+     "phone": "0883-52-8004",
+     "email": "gikai@mima.i-tokushima.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.mima.lg.jp/gyosei/docs/1471880.html",
+     "evidence": "議会事務局 電話: 0883-52-8004",
+     "note": "ページの題名：市議会への請願・陳情について - 【美馬市】行政サイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "362085",
+   "name": "三好市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.miyoshi.i-tokushima.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "363014",
+   "name": "勝浦町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.katsuura.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "363022",
+   "name": "上勝町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.kamikatsu.jp/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "363219",
+   "name": "佐那河内村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.sanagochi.lg.jp/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "363413",
+   "name": "石井町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "石井町議会事務局",
+     "phone": "088-674-7500",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ishii.lg.jp/docs/2018110800159/",
+     "evidence": "議会事務局 TEL:088-674-7500",
+     "note": "ページの題名：町議会への請願・陳情 | 石井町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "363421",
+   "name": "神山町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "神山町議会事務局",
+     "phone": "088-676-1511",
+     "email": "gikai@kamiyama.i-tokushima.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kamiyama.lg.jp/docs/2025040100334/",
+     "evidence": "議会事務局 TEL:088-676-1511",
+     "note": "ページの題名：町議会への請願・陳情 | 神山町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "363685",
+   "name": "那賀町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.tokushima-naka.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "363839",
+   "name": "牟岐町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.tokushima-mugi.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "363871",
+   "name": "美波町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.minami.lg.jp/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "363880",
+   "name": "海陽町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kaiyo.lg.jp/soshiki/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "364011",
+   "name": "松茂町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "松茂町議会事務局",
+     "phone": "088-699-8720",
+     "email": "gikai@matsushige.i-tokushima.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.matsushige.tokushima.jp/docs/2015112600084/",
+     "evidence": "議会事務局 TEL:088-699-8720",
+     "note": "ページの題名：請願・陳情について | 松茂町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "364029",
+   "name": "北島町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "北島町議会事務局",
+     "phone": "088-698-9811",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kitajima.lg.jp/docs/1040.html",
+     "evidence": "議会事務局 電話: 088-698-9811",
+     "note": "ページの題名：町議会への請願・陳情 - 北島町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "364037",
+   "name": "藍住町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.aizumi.lg.jp/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "364045",
+   "name": "板野町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "板野町議会事務局",
+     "phone": "088-672-5991",
+     "email": "gikai@town-itano.i-tokushima.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.town.itano.tokushima.jp/gikai_tinjyo.html",
+     "evidence": "議会事務局 電話:088-672-5991",
+     "note": "ページの題名：請願及び陳情 | 板野町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "364053",
+   "name": "上板町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "上板町議会事務局",
+     "phone": "088-694-6815",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.townkamiita.jp/gikai/seigan/",
+     "evidence": "議会事務局 TEL:088-694-6815",
+     "note": "ページの題名：議会への請願・陳情 | 上板町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "364681",
+   "name": "つるぎ町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.tokushima-tsurugi.lg.jp/chosei/tyogikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "364894",
+   "name": "東みよし町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.higashimiyoshi.lg.jp/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,532 @@
+{
+ "batch": "petition-muni-21-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "212016",
+   "name": "岐阜市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "岐阜市議会総務課",
+     "phone": "058-214-6237",
+     "email": null,
+     "form_url": null,
+     "postal_code": "500-8701",
+     "postal_address": "岐阜市司町40番地1 市庁舎4階",
+     "hours": null,
+     "source_url": "https://www.city.gifu.lg.jp/info/shigikai/1009452/1009453.html",
+     "evidence": "議会総務課 直通) 058-214-6237(議事調査課 直",
+     "note": "ページの題名：請願、陳情の提出|岐阜市議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "212024",
+   "name": "大垣市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "大垣市議会事務局",
+     "phone": "0584-47-8073",
+     "email": null,
+     "form_url": null,
+     "postal_code": "503-8601",
+     "postal_address": "岐阜県大垣市丸の内2丁目29番地",
+     "hours": null,
+     "source_url": "https://www.city.ogaki.lg.jp/gikai/category/10-10-0-0-0.html",
+     "evidence": "議会事務局 〒503-8601 岐阜県大垣市丸の内2丁目29番地 電話:0584-47-8073(直通)",
+     "note": "ページの題名：請願・陳情の提出 | 大垣市公式ホームページ/水の都おおがき"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "212032",
+   "name": "高山市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "高山市議会事務局",
+     "phone": "0577-35-3152",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.takayama.lg.jp/gikai/1002468/1002470.html",
+     "evidence": "議会事務局 電話:0577-35-3152 ファクス:05",
+     "note": "ページの題名：請願・陳情|高山市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "212041",
+   "name": "多治見市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "多治見市議会グループ",
+     "phone": "0572-22-9899",
+     "email": null,
+     "form_url": null,
+     "postal_code": "507-8703",
+     "postal_address": "多治見市日ノ出町2丁目15番地",
+     "hours": null,
+     "source_url": "https://www.city.tajimi.lg.jp/shisei/gikai/1008178/1008179.html",
+     "evidence": "議会グループ 〒507-8703 多治見市日ノ出町2丁目15番地 電話:0572-22-9899",
+     "note": "ページの題名：請願・陳情の提出方法|多治見市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "212059",
+   "name": "関市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "関市役所事務局議会事務局",
+     "phone": "0575-23-9068",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.seki.lg.jp/0000001420.html",
+     "evidence": "関市役所事務局議会事務局(南庁舎2階) 電話: 0575-23-9068",
+     "note": "ページの題名：請願・陳情 | 関市役所公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "212067",
+   "name": "中津川市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "中津川市議会事務局議会総務課",
+     "phone": "0573-66-1133",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nakatsugawa.lg.jp/shisei/citycouncil/3051.html",
+     "evidence": "市議会事務局議会総務課 電話番号:0573-66-1133(直通)",
+     "note": "ページの題名：請願・陳情/中津川市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "212075",
+   "name": "美濃市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "美濃市議会事務局",
+     "phone": "0575-33-1122",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.mino.gifu.jp/docs/1716.html",
+     "evidence": "議会事務局 電話: 0575-33-1122(内線:411)",
+     "note": "ページの題名：請願・陳情の手続き - 美濃市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "212083",
+   "name": "瑞浪市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "瑞浪市議会事務局 総務課",
+     "phone": "0572-67-1112",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.mizunami.lg.jp/shigikai/shigikai/1003400.html",
+     "evidence": "議会事務局 総務課 お問い合わせは専用フォームをご利用ください。 総務係 電話:0572-67-1112",
+     "note": "ページの題名：請願、陳情・要望の提出方法について|瑞浪市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "212091",
+   "name": "羽島市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "羽島市議会総務課",
+     "phone": "058-392-1121",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hashima.lg.jp/2623.html",
+     "evidence": "議会総務課 電話:058-392-1121",
+     "note": "ページの題名：請願・陳情/羽島市公式Webサイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "212105",
+   "name": "恵那市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ena.lg.jp/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "212113",
+   "name": "美濃加茂市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.minokamo.gifu.jp/shimin/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "212121",
+   "name": "土岐市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "土岐市議会事務局",
+     "phone": "0572-54-1273",
+     "email": null,
+     "form_url": null,
+     "postal_code": "509-5192",
+     "postal_address": "土岐市土岐津町土岐口2101",
+     "hours": null,
+     "source_url": "https://www.city.toki.lg.jp/shisei/gikai/1004935/1002190.html",
+     "evidence": "議会事務局 〒509-5192 土岐市土岐津町土岐口2101 電話:0572-54-1273 ファクス:05",
+     "note": "ページの題名：請願・陳情|土岐市公式ウェブサイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "212130",
+   "name": "各務原市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "各務原市議会総務課",
+     "phone": "058-383-2001",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kakamigahara.lg.jp/shisei/shigikai/1006003/1006004.html",
+     "evidence": "議会総務課 電話:058-383-2001",
+     "note": "ページの題名：請願・陳情の提出方法|各務原市公式ウェブサイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "212148",
+   "name": "可児市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "可児市議会事務局",
+     "phone": "0574-62-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://gikai-kani.lg.jp/petition",
+     "evidence": "議会事務局 〒509-0292 可児市広見一丁目1番 TEL:0574-62-1111(代表)",
+     "note": "ページの題名：議会のトビラWEB 可児市議会 » 請願・陳情"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "212156",
+   "name": "山県市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.yamagata.gifu.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "212164",
+   "name": "瑞穂市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.mizuho.lg.jp/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "212172",
+   "name": "飛騨市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hida.gifu.jp/life/4/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "212181",
+   "name": "本巣市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "本巣市議会事務局 総務課",
+     "phone": "058-323-8103",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.motosu.lg.jp/0000000402.html",
+     "evidence": "議会事務局 総務課 総務係 電話: 058-323-8103",
+     "note": "ページの題名：陳情、請願の提出 | 本巣市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "212199",
+   "name": "郡上市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.gujo.gifu.jp/admin/room_assembly_mayor_message/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "212202",
+   "name": "下呂市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "下呂市議会総務課",
+     "phone": "0576-24-2222",
+     "email": null,
+     "form_url": null,
+     "postal_code": "509-2295",
+     "postal_address": "岐阜県下呂市森960番地",
+     "hours": null,
+     "source_url": "https://www.city.gero.lg.jp/site/gikai/1746.html",
+     "evidence": "議会総務課(代表) 〒509-2295岐阜県下呂市森960番地 Tel:0576-24-2222Fax:0576",
+     "note": "ページの題名：請願・陳情情報 - 下呂市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "212211",
+   "name": "海津市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kaizu.lg.jp/soshiki_list.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

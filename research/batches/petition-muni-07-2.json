@@ -1,0 +1,732 @@
+{
+ "batch": "petition-muni-07-2",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "074446",
+   "name": "三島町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.mishima.fukushima.jp/soshiki/1.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "074454",
+   "name": "金山町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kaneyama.fukushima.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "074462",
+   "name": "昭和村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.showa.fukushima.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "074471",
+   "name": "会津美里町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.aizumisato.fukushima.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "074616",
+   "name": "西郷村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "西郷村議会事務局",
+     "phone": "0248-25-2980",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.nishigo.fukushima.jp/sonseijoho/nishigomuragikai/seigan_chinjo/index.html",
+     "evidence": "議会事務局 電話番号:0248-25-2980",
+     "note": "ページの題名：請願・陳情/西郷村"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "074641",
+   "name": "泉崎村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.izumizaki.fukushima.jp/muragikai/page000140.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "074659",
+   "name": "中島村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill-nakajima.jp/page/page000427.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "074667",
+   "name": "矢吹町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "矢吹町議会事務局",
+     "phone": "0248-42-2118",
+     "email": null,
+     "form_url": null,
+     "postal_code": "969-0296",
+     "postal_address": "福島県西白河郡矢吹町一本木101",
+     "hours": null,
+     "source_url": "https://www.town.yabuki.fukushima.jp/page/page000030.html",
+     "evidence": "議会事務局です。 役場3階 〒969-0…福島県西白河郡矢吹町一本木101 電話番号:0248-42-2118",
+     "note": "ページの題名：あなたの声を議会に(請願・陳情) | 矢吹町公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "074811",
+   "name": "棚倉町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.tanagura.fukushima.jp/page/dir000455.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "074829",
+   "name": "矢祭町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "矢祭町議会事務局",
+     "phone": "0247-46-4578",
+     "email": null,
+     "form_url": null,
+     "postal_code": "963-5192",
+     "postal_address": "福島県東白川郡矢祭町大字東舘字舘本66",
+     "hours": null,
+     "source_url": "https://www.town.yamatsuri.fukushima.jp/page/page000156.html",
+     "evidence": "議会事務局 です。 〒963-5192 福島県東白川郡矢祭町大字東舘字舘本66 電話番号:0247-46-4578",
+     "note": "ページの題名：請願陳情 | 矢祭町公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "074837",
+   "name": "塙町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "塙町議会事務局",
+     "phone": "0247-43-2150",
+     "email": null,
+     "form_url": null,
+     "postal_code": "963-5492",
+     "postal_address": "福島県東白川郡塙町大字塙字大町三丁目21番地",
+     "hours": null,
+     "source_url": "https://www.town.hanawa.fukushima.jp/page/page000469.html",
+     "evidence": "議会事務局です。 〒963-5492 福…郡塙町大字塙字大町三丁目21番地 電話番号:0247-43-2150 ファックス番号",
+     "note": "ページの題名：陳情・請願 | 塙町公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "074845",
+   "name": "鮫川村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "鮫川村議会事務局",
+     "phone": "0247-49-3115",
+     "email": null,
+     "form_url": null,
+     "postal_code": "963-8401",
+     "postal_address": "鮫川村大字赤坂中野字新宿39番地5 役場庁舎2階",
+     "hours": null,
+     "source_url": "https://www.vill.samegawa.fukushima.jp/sonseijoho/gikai/page000158.html",
+     "evidence": "議会事務局 〒963-8401 鮫川村大…野字新宿39番地5 役場庁舎2階 電話番号:0247-49-3115",
+     "note": "ページの題名：請願・陳情 | 鮫川村公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "075019",
+   "name": "石川町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ishikawa.fukushima.jp/admin/assembly/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "075027",
+   "name": "玉川村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.tamakawa.fukushima.jp/guide/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "075035",
+   "name": "平田村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "平田村議会事務局",
+     "phone": "0247-55-3558",
+     "email": null,
+     "form_url": null,
+     "postal_code": "963-8292",
+     "postal_address": "福島県石川郡平田村大字永田字切田116",
+     "hours": null,
+     "source_url": "https://www.vill.hirata.fukushima.jp/site/gikai/4675.html",
+     "evidence": "議会事務局 〒963-8292福島県石川郡平田村大字永田字切田116 Tel:0247-55-3558",
+     "note": "ページの題名：請願・陳情の提出について - 平田村公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "075043",
+   "name": "浅川町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.asakawa.fukushima.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "075051",
+   "name": "古殿町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.furudono.fukushima.jp/gikai/seigannchinjyou/233",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "075213",
+   "name": "三春町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.miharu.fukushima.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "075221",
+   "name": "小野町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ono.fukushima.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "075418",
+   "name": "広野町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hirono.fukushima.jp/chousei/soshiki/1003522.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "075426",
+   "name": "楢葉町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.naraha.lg.jp/admin/cat341/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "075434",
+   "name": "富岡町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.tomioka-town.jp/life/4/25/89/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "075442",
+   "name": "川内村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.kawauchimura.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "075451",
+   "name": "大熊町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.okuma.fukushima.jp/soshiki/somu/13024.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "075469",
+   "name": "双葉町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.fukushima-futaba.lg.jp/2572.htm",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "075477",
+   "name": "浪江町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.namie.fukushima.jp/site/gikai/seigan.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "075485",
+   "name": "葛尾村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.katsurao.org/site/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "075612",
+   "name": "新地町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.shinchi-town.jp/site/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "075647",
+   "name": "飯舘村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "飯舘村議会事務局",
+     "phone": "0244-42-1628",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.iitate.fukushima.jp/site/gikai/16.html",
+     "evidence": "議会事務局 〒960-1892 福島県相馬郡飯舘村伊丹沢字伊丹沢580番地1 Tel:0244-42-1628Fax:0244",
+     "note": "ページの題名：請願・陳情のご案内 - 飯舘村ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

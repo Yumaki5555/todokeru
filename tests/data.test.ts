@@ -79,6 +79,8 @@ describe('窓口データ', () => {
     const check = (records: unknown) => validateMunicipalityContactsFile('13', records, prefectures.items, municipalities.items);
     expect(check(file('130001', '東京都', 'police'))).toEqual([]);
     expect(check(file('131083', '江東区', 'education'))).toEqual([]);
+    expect(check(file('130001', '東京都', 'petition'))).toEqual([]);
+    expect(check(file('131083', '江東区', 'petition'))).toEqual([]);
     expect(check(file('131083', '江東区', 'police')).join()).toContain('警察の窓口は都道府県のまとまりに入れます');
   });
 

@@ -1,0 +1,482 @@
+{
+ "batch": "petition-muni-31-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "312011",
+   "name": "鳥取市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "鳥取市議会 議事係",
+     "phone": "0857-30-8444",
+     "email": null,
+     "form_url": null,
+     "postal_code": "680-8571",
+     "postal_address": "鳥取市幸町71番地",
+     "hours": null,
+     "source_url": "https://www.city.tottori.lg.jp/site/shigikai/6343.html",
+     "evidence": "議事係 電話(0857-30-8444)",
+     "note": "ページの題名：請願・陳情について - 鳥取市議会 - 鳥取市公式ウェブサイト(市議会事務局)"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "312029",
+   "name": "米子市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "米子市議会事務局",
+     "phone": "0859-23-5522",
+     "email": null,
+     "form_url": null,
+     "postal_code": "683-8686",
+     "postal_address": "鳥取県米子市加茂町1丁目1番地",
+     "hours": null,
+     "source_url": "https://www.city.yonago.lg.jp/2917.htm",
+     "evidence": "議会事務局 所在地/〒683-8686…1丁目1番地 (市役所本庁舎5階) 電話/0859-23-5522 ファクシミリ/",
+     "note": "ページの題名：請願・陳情の手続き/米子市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "312037",
+   "name": "倉吉市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "倉吉市議会事務局",
+     "phone": "0858-22-8145",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kurayoshi.lg.jp/6589.htm",
+     "evidence": "議会事務局 〒682-8611 鳥取県倉吉市葵町722 電話番号:0858-22-8145",
+     "note": "ページの題名：請願と陳情/倉吉市公式ウェブサイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "312045",
+   "name": "境港市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.sakaiminato.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "313025",
+   "name": "岩美町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "岩美町議会事務局",
+     "phone": "0857-73-1612",
+     "email": "gikai@iwami.gr.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.iwami.gr.jp/3274.htm",
+     "evidence": "議会事務局へのお問い合わせ TEL:0857-73-1612",
+     "note": "ページの題名：請願・陳情|岩美町公式サイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "313254",
+   "name": "若桜町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.wakasa.tottori.jp/soshikikarasagasu/gikaijimukyoku/1/1/388.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "313289",
+   "name": "智頭町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www1.town.chizu.tottori.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "313297",
+   "name": "八頭町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "八頭町議会事務局",
+     "phone": "0858-72-3975",
+     "email": null,
+     "form_url": null,
+     "postal_code": "680-0495",
+     "postal_address": "鳥取県八頭郡八頭町船岡539番地",
+     "hours": null,
+     "source_url": "https://www.town.yazu.tottori.jp/site/gikai/1341.html",
+     "evidence": "議会事務局 〒680-0495鳥取県八頭郡八頭町船岡539番地 電話:0858-72-3975ファックス:08",
+     "note": "ページの題名：町議会への請願・陳情手続きについて - 八頭町議会 - 八頭町公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "313645",
+   "name": "三朝町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "三朝町議会事務局",
+     "phone": "0858-43-3511",
+     "email": "gikai@town.misasa.tottori.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.misasa.tottori.jp/315/319/333/36727.html",
+     "evidence": "議会事務局 電話:0858-43-3511 FAX:085",
+     "note": "ページの題名：陳情・請願の提出方法 | 鳥取県三朝町役場"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "313700",
+   "name": "湯梨浜町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.yurihama.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "313718",
+   "name": "琴浦町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kotoura.tottori.jp/docs/2026061100020/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "313726",
+   "name": "北栄町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.e-hokuei.net/site/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "313840",
+   "name": "日吉津村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.hiezu.jp/議会事務局",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "313866",
+   "name": "大山町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "大山町議会事務局",
+     "phone": "0859-54-5213",
+     "email": null,
+     "form_url": null,
+     "postal_code": "689-3211",
+     "postal_address": "鳥取県西伯郡大山町御来屋328",
+     "hours": null,
+     "source_url": "https://www.daisen.jp/gikai/5/2/",
+     "evidence": "議会事務局 〒689-3211 鳥取県西伯郡大山町御来屋328 TEL 0859-54-5213",
+     "note": "ページの題名：請願と陳情|大山町議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "313891",
+   "name": "南部町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "南部町議会事務局",
+     "phone": "0859-66-4804",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.nanbu.tottori.jp/admin/gikai/petition/",
+     "evidence": "議会事務局 窓口:法勝寺庁舎 3階( 庁舎案内 ) 電話0859-66-4804",
+     "note": "ページの題名：請願(陳情)の仕組み | 鳥取県西伯郡・南部町(なんぶちょう)行政サイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "313904",
+   "name": "伯耆町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "伯耆町議会事務局",
+     "phone": "0859-68-3112",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.houki-town.jp/new1/10/28/3/",
+     "evidence": "議会事務局 お問い合わせ 電話:0859-68-3112",
+     "note": "ページの題名：請願・陳情 | 伯耆町公式ウェブサイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "314013",
+   "name": "日南町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.nichinan.lg.jp/gyosei_gikai/denwacho/2492.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "314021",
+   "name": "日野町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hino.tottori.jp/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "314030",
+   "name": "江府町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town-kofu.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

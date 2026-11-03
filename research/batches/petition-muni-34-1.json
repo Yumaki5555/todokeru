@@ -1,0 +1,582 @@
+{
+ "batch": "petition-muni-34-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "341002",
+   "name": "広島市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "広島市議会事務局市政調査課",
+     "phone": "082-504-2438",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hiroshima.lg.jp/gikai/seigan_chinjou/1010221.html",
+     "evidence": "議会事務局市政調査課:電話082-504-2438にお問い合わせく",
+     "note": "ページの題名：請願・陳情・要望書の作成・提出方法|広島市公式ウェブサイト／同じ組織のほかの番号：082-504-2436"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "342025",
+   "name": "呉市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "呉市議会 議事運営グループ",
+     "phone": "0823-25-3246",
+     "email": null,
+     "form_url": null,
+     "postal_code": "737-8501",
+     "postal_address": "呉市中央4丁目1番6号",
+     "hours": null,
+     "source_url": "https://www.city.kure.lg.jp/site/gikai/seigann-tinjou.html",
+     "evidence": "議事運営グループTel:0823-25-3246Fax:0823",
+     "note": "ページの題名：請願,陳情 - 呉市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "342033",
+   "name": "竹原市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "竹原市議会事務局",
+     "phone": "0846-22-7761",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.takehara.lg.jp/gyoseijoho/takeharashigikai/kakushutetsuzuki/3277.html",
+     "evidence": "議会事務局 電話番号:0846-22-7761(直通)",
+     "note": "ページの題名：請願・陳情について/竹原市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "342041",
+   "name": "三原市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "三原市議会事務局",
+     "phone": "0848-67-6137",
+     "email": "gikai@city.mihara.hiroshima.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.mihara.hiroshima.jp/site/gikai/seigan-n.html",
+     "evidence": "議会事務局(電話 0848-67-6137)へお問い合わせ",
+     "note": "ページの題名：請願・陳情について - 三原市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "342050",
+   "name": "尾道市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "尾道市議会事務局議事調査係",
+     "phone": "0848-38-9371",
+     "email": null,
+     "form_url": null,
+     "postal_code": "722-8501",
+     "postal_address": "広島県尾道市久保1丁目15-1 本庁舎4階",
+     "hours": null,
+     "source_url": "https://www.city.onomichi.hiroshima.jp/site/gikai/1369.html",
+     "evidence": "議会事務局議事調査係 〒722-8501…市久保1丁目15-1 本庁舎4階 Tel:(0848)38-9371",
+     "note": "ページの題名：請願と陳情 - 尾道市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "342076",
+   "name": "福山市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "福山市議会事務局議事調査課",
+     "phone": "084-928-1136",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.fukuyama.hiroshima.jp/soshiki/gikai/seigan-chinjyo.html",
+     "evidence": "議会事務局議事調査課:電話084ー928ー1136にお問い合わせく",
+     "note": "ページの題名：請願・陳情 - 福山市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "342084",
+   "name": "府中市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.fuchu.hiroshima.jp/soshiki/gikai_jimukyoku/shigikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "342092",
+   "name": "三次市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.miyoshi.hiroshima.jp/site/council/3004.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "342106",
+   "name": "庄原市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.shobara.hiroshima.jp/gikai/procedure/index.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "342114",
+   "name": "大竹市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "大竹市議会事務局議事係",
+     "phone": "0827-59-2183",
+     "email": "gikai@city.otake.hiroshima.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.otake.hiroshima.jp/soshiki/shigikai/gikaijimu/1519275325445.html",
+     "evidence": "議会事務局議事係 電話番号:(0827)59-2183",
+     "note": "ページの題名：請願・陳情について/大竹市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "342122",
+   "name": "東広島市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "東広島市議会事務局",
+     "phone": "082-420-0966",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.higashihiroshima.lg.jp/shgikai/10/13233.html",
+     "evidence": "議会事務局 〒739-8601 東広島市西条栄町8番29号 本館9階 電話:082-420-0966",
+     "note": "ページの題名：請願・陳情/東広島市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "342131",
+   "name": "廿日市市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "廿日市市議会 議事調査係",
+     "phone": "0829-30-9212",
+     "email": null,
+     "form_url": null,
+     "postal_code": "738-8501",
+     "postal_address": "広島県廿日市市下平良一丁目11番1号",
+     "hours": null,
+     "source_url": "https://www.city.hatsukaichi.hiroshima.jp/site/shigikai/13485.html",
+     "evidence": "議事調査係電話:0829-30-9212ファクス:082",
+     "note": "ページの題名：請願・陳情 - 廿日市市議会 - 広島県廿日市市(はつかいち)けん玉発祥・宮島のあるまち(議会事務局)"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "342149",
+   "name": "安芸高田市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.akitakata.jp/ja/parliament/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "342157",
+   "name": "江田島市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.etajima.hiroshima.jp/cms/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "343021",
+   "name": "府中町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.fuchu.hiroshima.jp/adv/ba.php?id=55",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "343048",
+   "name": "海田町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kaita.lg.jp/adv/ba.php?id=107",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "343072",
+   "name": "熊野町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kumano.hiroshima.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "343099",
+   "name": "坂町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.saka.lg.jp/category/%e7%94%ba%e6%94%bf%e6%83%85%e5%a0%b1/%e5%9d%82%e7%94%ba%e8%ad%b0%e4%bc%9a/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "343684",
+   "name": "安芸太田町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "安芸太田町議会事務局",
+     "phone": "0826-28-1965",
+     "email": null,
+     "form_url": null,
+     "postal_code": "731-3810",
+     "postal_address": "広島県山県郡安芸太田町大字戸河内784番地1",
+     "hours": null,
+     "source_url": "https://www.akiota.jp/site/gikai/1068.html",
+     "evidence": "議会事務局代表 〒731-3810広島県山県郡安芸太田町大字戸河内784番地1 Tel:0826-28-1965Fax:0826",
+     "note": "ページの題名：議会への請願と陳情について - 安芸太田町公式サイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "343692",
+   "name": "北広島町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kitahiroshima.lg.jp/site/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "344311",
+   "name": "大崎上島町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.osakikamijima.hiroshima.jp/machizukuri/chogikai/1/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "344621",
+   "name": "世羅町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.sera.hiroshima.jp/soshiki/2.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "345458",
+   "name": "神石高原町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.jinsekigun.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

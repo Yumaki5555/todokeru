@@ -98,6 +98,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "202011-petition",
+    "type": "petition",
+    "department": "長野市議会事務局",
+    "phone": "026-224-5056",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.nagano.nagano.jp/n440500/shigikai/p005446.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -149,6 +164,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "202029-petition",
+    "type": "petition",
+    "department": "松本市議会事務局",
+    "phone": "0263-34-3210",
+    "email": null,
+    "form_url": null,
+    "postal_code": "390-8620",
+    "postal_address": "長野県松本市丸の内3番7号",
+    "hours": null,
+    "source_url": "https://www.city.matsumoto.nagano.jp/site/gikai/4159.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -197,6 +227,21 @@
     "postal_address": "長野県上田市大手一丁目11番16号",
     "hours": null,
     "source_url": "https://www.city.ueda.nagano.jp/adv/ba.php?id=290",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "202037-petition",
+    "type": "petition",
+    "department": "上田市議会事務局",
+    "phone": "0268-22-0452",
+    "email": null,
+    "form_url": null,
+    "postal_code": "386-8601",
+    "postal_address": "長野県上田市大手一丁目11番16号",
+    "hours": null,
+    "source_url": "https://www.city.ueda.nagano.jp/site/gikai/4736.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -368,6 +413,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "202061-petition",
+    "type": "petition",
+    "department": "諏訪市議会",
+    "phone": "0266-52-4141",
+    "email": "suwashigikai@city.suwa.lg.jp",
+    "form_url": null,
+    "postal_code": "392-8511",
+    "postal_address": "諏訪市高島1-22-30",
+    "hours": null,
+    "source_url": "https://www.city.suwa.lg.jp/site/gikai/4297.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -416,6 +476,21 @@
     "postal_address": "長野県須坂市大字須坂1528番地の1",
     "hours": null,
     "source_url": "https://www.city.suzaka.nagano.jp/shigikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "202070-petition",
+    "type": "petition",
+    "department": "須坂市議会事務局",
+    "phone": "026-248-9014",
+    "email": null,
+    "form_url": null,
+    "postal_code": "382-8511",
+    "postal_address": "長野県須坂市大字須坂1528番地の1",
+    "hours": null,
+    "source_url": "https://www.city.suzaka.nagano.jp/shigikai/oshirase/98.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -623,6 +698,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "202118-petition",
+    "type": "petition",
+    "department": "中野市議会事務局 庶務係",
+    "phone": "0269-22-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.nakano.nagano.jp/shigikai/2017103100016/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -664,6 +754,21 @@
     "id": "202126-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0261-22-0420",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.omachi.nagano.jp/shigikai/shokai/shokai/kn2b16cp0q34mygb6pm3y7mn",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "202126-petition",
+    "type": "petition",
+    "department": "大町市議会事務局",
     "phone": "0261-22-0420",
     "email": null,
     "form_url": null,
@@ -778,6 +883,21 @@
     "note": null
    },
    {
+    "id": "202142-petition",
+    "type": "petition",
+    "department": "茅野市議会 議事係",
+    "phone": "0266-72-2101",
+    "email": null,
+    "form_url": null,
+    "postal_code": "391-8501",
+    "postal_address": "茅野市塚原二丁目6番1号",
+    "hours": null,
+    "source_url": "https://www.city.chino.lg.jp/site/chino-cc/403.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
+   },
+   {
     "id": "202142-education",
     "type": "education",
     "department": "教育総務係",
@@ -842,6 +962,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "202151-petition",
+    "type": "petition",
+    "department": "塩尻市議会事務局",
+    "phone": "0263-52-0706",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.shiojiri.lg.jp/site/gikai/1540.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -890,6 +1025,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.saku.nagano.jp/shigikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "202177-petition",
+    "type": "petition",
+    "department": "佐久市議会事務局",
+    "phone": "0267-62-3495",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.saku.nagano.jp/shigikai/gikaijoho/seigantinjyou/seiganntou.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1660,6 +1810,21 @@
     "note": null
    },
    {
+    "id": "203611-petition",
+    "type": "petition",
+    "department": "下諏訪町議会 庶務議事係",
+    "phone": "0266-27-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.shimosuwa.lg.jp/www/contents/1001000000393/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
+   },
+   {
     "id": "203611-education",
     "type": "education",
     "department": "教育総務係",
@@ -1826,6 +1991,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "203823-petition",
+    "type": "petition",
+    "department": "辰野町議会事務局",
+    "phone": "0266-41-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.tatsuno.lg.jp/gyosei/soshiki/gikaijimukyoku/choseijoho/1/2414.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -1928,6 +2108,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "203840-petition",
+    "type": "petition",
+    "department": "飯島町議会事務局",
+    "phone": "0265-86-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.iijima.lg.jp/administration/?content=42",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -1976,6 +2171,21 @@
     "postal_address": "長野県上伊那郡南箕輪村4825-1",
     "hours": null,
     "source_url": "https://www.vill.minamiminowa.lg.jp/site/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "203858-petition",
+    "type": "petition",
+    "department": "南箕輪村議会事務局",
+    "phone": "0265-72-2361",
+    "email": null,
+    "form_url": null,
+    "postal_code": "399-4592",
+    "postal_address": "長野県上伊那郡南箕輪村4825-1",
+    "hours": null,
+    "source_url": "https://www.vill.minamiminowa.lg.jp/site/gikai/seigan-chinjou.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -2042,6 +2252,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.vill.nakagawa.nagano.jp/adv/ba.php?id=70",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "203866-petition",
+    "type": "petition",
+    "department": "中川村議会事務局",
+    "phone": "0265-88-3058",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.vill.nakagawa.nagano.jp/soshiki/gikai/1030.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -2705,6 +2930,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.vill.nagano-toyooka.lg.jp/01gikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "204161-petition",
+    "type": "petition",
+    "department": "豊丘村議会事務局",
+    "phone": "0265-35-9063",
+    "email": "gikai@vill.nagano-toyooka.lg.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.vill.nagano-toyooka.lg.jp/01gikai/04seigan/index.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -3556,6 +3796,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "204862-petition",
+    "type": "petition",
+    "department": "小谷村議会事務局",
+    "phone": "0261-82-2001",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.vill.otari.nagano.jp/gyoseijoho/otarimuragikai/1219.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -3604,6 +3859,21 @@
     "postal_address": "坂城町大字坂城10050番地",
     "hours": null,
     "source_url": "https://www.town.sakaki.nagano.jp/adv/ba.php?id=10",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "205214-petition",
+    "type": "petition",
+    "department": "坂城町議会事務局議会係",
+    "phone": "0268-75-6213",
+    "email": null,
+    "form_url": null,
+    "postal_code": "389-0692",
+    "postal_address": "坂城町大字坂城10050番地",
+    "hours": null,
+    "source_url": "https://www.town.sakaki.nagano.jp/site/gikai/2217.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -3709,6 +3979,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "205435-petition",
+    "type": "petition",
+    "department": "高山村議会",
+    "phone": "026-214-9763",
+    "email": "gikai@vill.takayama.nagano.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.vill.takayama.nagano.jp/docs/538549.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -3811,6 +4096,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "205621-petition",
+    "type": "petition",
+    "department": "木島平村議会事務局",
+    "phone": "0269-82-3111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.vill.kijimadaira.lg.jp/articles/2022051200015/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -3928,6 +4228,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "205834-petition",
+    "type": "petition",
+    "department": "信濃町議会事務局",
+    "phone": "026-255-2212",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.shinano.lg.jp/docs/851.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -3976,6 +4291,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.vill.ogawa.nagano.jp/docs/76699.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "205885-petition",
+    "type": "petition",
+    "department": "小川村議会事務局",
+    "phone": "026-269-2323",
+    "email": "gikai@vill.ogawa.nagano.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.vill.ogawa.nagano.jp/docs/6319.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -4029,6 +4359,21 @@
     "source_url": "https://www.town.iizuna.nagano.jp/gikai/",
     "verified_at": null,
     "status": "unverified",
+    "note": null
+   },
+   {
+    "id": "205907-petition",
+    "type": "petition",
+    "department": "飯綱町議会事務局",
+    "phone": "026-253-4761",
+    "email": "gikai@town.iizuna.nagano.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.iizuna.nagano.jp/docs/603.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]

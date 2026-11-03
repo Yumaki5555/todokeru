@@ -1,0 +1,557 @@
+{
+ "batch": "petition-muni-08-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "082015",
+   "name": "水戸市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.mito.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "082023",
+   "name": "日立市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hitachi.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "082031",
+   "name": "土浦市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tsuchiura.lg.jp/tsuchiurashigikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "082040",
+   "name": "古河市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "古河市議会事務局",
+     "phone": "0280-22-5111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "306-8601",
+     "postal_address": "茨城県古河市長谷町38番18号",
+     "hours": null,
+     "source_url": "https://www.city.ibaraki-koga.lg.jp/soshiki/shigikaijimukyoku/14/2794.html",
+     "evidence": "議会事務局 所在地:〒306-8601 茨城県古河市長谷町38番18号 電話番号:0280-22-5111(代表)",
+     "note": "ページの題名：請願・陳情のご案内/古河市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "082058",
+   "name": "石岡市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.ishioka-shigikai.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "082074",
+   "name": "結城市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "結城市議会事務局",
+     "phone": "0296-32-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "307-8501",
+     "postal_address": "茨城県結城市中央町二丁目3番地",
+     "hours": null,
+     "source_url": "https://www.city.yuki.lg.jp/assembly/tetsuzuki/page000098.html",
+     "evidence": "議会事務局 〒307-8501 茨城県結城市中央町二丁目3番地 【電話番号】0296-32-1111 (内線5921",
+     "note": "ページの題名：請願・陳情 | 結城市議会 | 結城市公式ホームページ／同じ組織のほかの番号：0296-34-0433"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "082082",
+   "name": "龍ケ崎市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "龍ケ崎市議会事務局",
+     "phone": "0297-64-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "301-8611",
+     "postal_address": "茨城県龍ケ崎市3710番地",
+     "hours": null,
+     "source_url": "https://www.city.ryugasaki.ibaraki.jp/shigikai/message/seigan-chinjo.html",
+     "evidence": "議会事務局 〒301-8611 茨城県龍ケ崎市3710番地 電話:0297-64-1111",
+     "note": "ページの題名：請願・陳情について|龍ケ崎市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "082104",
+   "name": "下妻市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.shimotsuma.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "082112",
+   "name": "常総市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.joso.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "082121",
+   "name": "常陸太田市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hitachiota.ibaraki.jp/shisei/election/kengikai-senkyo/page011475.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "082147",
+   "name": "高萩市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.takahagi.ibaraki.jp/gyousei/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "082155",
+   "name": "北茨城市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kitaibaraki.lg.jp/docs/2016060200036/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "082163",
+   "name": "笠間市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "笠間市議会事務局",
+     "phone": "0296-77-1101",
+     "email": null,
+     "form_url": null,
+     "postal_code": "309-1792",
+     "postal_address": "笠間市中央三丁目2番1号",
+     "hours": null,
+     "source_url": "https://www.city.kasama.lg.jp/page/page000023.html",
+     "evidence": "議会事務局です。 〒309-1792 笠間市中央三丁目2番1号 電話番号:0296-77-1101 ファクス番号:",
+     "note": "ページの題名：■請願・陳情について | 笠間市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "082171",
+   "name": "取手市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "取手市議会事務局",
+     "phone": "0297-74-2141",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.toride.ibaraki.jp/gikai/shise/shicho/shigikai/gaiyo/segan/teshutsu.html",
+     "evidence": "議会事務局 茨城県取手市寺田5139 電話番号:0297-74-2141(代表)",
+     "note": "ページの題名：取手市/請願・陳情を提出するには"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "082198",
+   "name": "牛久市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "牛久市議会 庶務議事課",
+     "phone": "029-873-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "300-1292",
+     "postal_address": "茨城県牛久市中央3丁目15番地1 本庁舎 4階",
+     "hours": null,
+     "source_url": "https://www.city.ushiku.lg.jp/shisei/senkyo-gikai/gikai/page004259.html",
+     "evidence": "庶務議事課 〒300-1292 茨城県牛久市中央3丁目15番地1 本庁舎 4階 電話番号:029-873-2111(内線3531、",
+     "note": "ページの題名：請願・陳情・議員提出議案 | 牛久市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "082201",
+   "name": "つくば市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "つくば市議会",
+     "phone": "029-883-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tsukuba.lg.jp/shisei/shigikai/seigan/1002617.html",
+     "evidence": "議会局まで電話で御連絡をお願いします。 電話番号:029-883-1111(代表)",
+     "note": "ページの題名：請願の案内/つくば市公式ウェブサイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "082210",
+   "name": "ひたちなか市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "ひたちなか市議会事務局",
+     "phone": "029-273-0111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "312-8501",
+     "postal_address": "茨城県ひたちなか市東石川2丁目10番1号",
+     "hours": null,
+     "source_url": "https://www.city.hitachinaka.lg.jp/gikai/g_info/1001769.html",
+     "evidence": "議会事務局 〒312-8501 茨城県ひたちなか市東石川2丁目10番1号 代表電話:029-273-0111 直通電話:02",
+     "note": "ページの題名：請願・陳情の提出方法|ひたちなか市公式ウェブサイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "082228",
+   "name": "鹿嶋市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kashima.ibaraki.jp/life/14/51/170/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "082236",
+   "name": "潮来市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "潮来市議会事務局",
+     "phone": "0299-63-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "311-2493",
+     "postal_address": "茨城県潮来市辻626 潮来市役所 本庁舎 3階",
+     "hours": null,
+     "source_url": "https://www.city.itako.lg.jp/gikai/page000985.html",
+     "evidence": "議会事務局 〒311-2493 茨城県潮来市辻626 潮来市役所 本庁舎 3階 電話番号:0299-63-1111",
+     "note": "ページの題名：請願・陳情 | 潮来市議会 | 潮来市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "082244",
+   "name": "守谷市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "守谷市議会事務局",
+     "phone": "0297-45-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "302-0198",
+     "postal_address": "茨城県守谷市大柏950番地の1",
+     "hours": null,
+     "source_url": "https://www.city.moriya.ibaraki.jp/gikai/seigan/1007105/index.html",
+     "evidence": "議会事務局 〒302-0198 茨城県守谷市大柏950番地の1 電話:0297-45-1111 ファクス番号:",
+     "note": "ページの題名：請願・陳情とは|守谷市公式サイト|Moriya City"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "082252",
+   "name": "常陸大宮市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "常陸大宮市議会事務局",
+     "phone": "0295-52-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "319-2292",
+     "postal_address": "常陸大宮市中富町3135-6 本庁4階",
+     "hours": null,
+     "source_url": "https://www.city.hitachiomiya.lg.jp/gikai/page000396.html",
+     "evidence": "議会事務局 〒319-2292 常陸大宮市中富町3135-6 本庁4階 電話番号:0295-52-1111",
+     "note": "ページの題名：請願・陳情 | 常陸大宮市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "082261",
+   "name": "那珂市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "那珂市議会事務局",
+     "phone": "029-298-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.naka.lg.jp/gikai/seiga-chinjou/page000131.html",
+     "evidence": "議会事務局 〒311-0192 茨城県那珂市福田1819-5 電話番号:029-298-1111(内線:226)",
+     "note": "ページの題名：請願・陳情とは | 那珂市議会 | 那珂市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

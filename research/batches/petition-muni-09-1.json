@@ -1,0 +1,632 @@
+{
+ "batch": "petition-muni-09-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "092011",
+   "name": "宇都宮市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "宇都宮市議会事務局政策調査課",
+     "phone": "028-632-2611",
+     "email": null,
+     "form_url": null,
+     "postal_code": "320-8540",
+     "postal_address": "宇都宮市旭1丁目1番5号",
+     "hours": null,
+     "source_url": "https://www.city.utsunomiya.lg.jp/gikai/iken/1035597.html",
+     "evidence": "都宮市議会事務局政策調査課 電話:028-632-2611 ファクス:02",
+     "note": "ページの題名：請願・陳情について|宇都宮市公式Webサイト／同じ組織のほかの番号：028-632-2608"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "092029",
+   "name": "足利市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ashikaga.tochigi.jp/goverment/000078/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "092037",
+   "name": "栃木市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "栃木市議会 議事調査係",
+     "phone": "0282-21-2505",
+     "email": null,
+     "form_url": null,
+     "postal_code": "328-8686",
+     "postal_address": "栃木市万町9-25 本庁舎4階",
+     "hours": null,
+     "source_url": "https://www.city.tochigi.lg.jp/site/gikai/1195.html",
+     "evidence": "議事調査係 〒328-8686栃木市万町9-25 本庁舎4階 Tel:0282-21-2505Fax:0282",
+     "note": "ページの題名：請願・陳情の方法 - 栃木市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "092045",
+   "name": "佐野市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.sano.lg.jp/soshikiichiran/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "092053",
+   "name": "鹿沼市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "鹿沼市議会",
+     "phone": "0289-63-2202",
+     "email": "gikai-jimu@city.kanuma.lg.jp",
+     "form_url": null,
+     "postal_code": "322-8601",
+     "postal_address": "栃木県鹿沼市今宮町1688-1",
+     "hours": null,
+     "source_url": "https://www.city.kanuma.tochigi.jp/0320/info-0000000007-0.html",
+     "evidence": "議会棟 2階) 電話: 0289-63-2202",
+     "note": "ページの題名：請願・陳情のしかた | 鹿沼市 公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "092061",
+   "name": "日光市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "日光市議会事務局議事課議事係",
+     "phone": "0288-21-5140",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nikko.lg.jp/gikai/seigan_chinjo/6022.html",
+     "evidence": "議会事務局議事課議事係 電話番号:0288-21-5140",
+     "note": "ページの題名：請願・陳情について/日光市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "092088",
+   "name": "小山市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "小山市議会事務局",
+     "phone": "0285-22-9463",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.oyama.tochigi.jp/gikai/seigan-chinjo/page003149.html",
+     "evidence": "議会事務局(電話番号:0285-22-9463、ファクス:02",
+     "note": "ページの題名：請願・陳情のしかた | 小山市議会 | 小山市公式ホームページ／同じ組織のほかの番号：0285-22-9462"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "092096",
+   "name": "真岡市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.moka.lg.jp/kakuka/gizi/gyomu/gikai/6/1879.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "092100",
+   "name": "大田原市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ohtawara.tochigi.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "092118",
+   "name": "矢板市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "矢板市議会事務局",
+     "phone": "0287-43-6216",
+     "email": null,
+     "form_url": null,
+     "postal_code": "329-2192",
+     "postal_address": "栃木県矢板市本町5番4号",
+     "hours": null,
+     "source_url": "https://www.city.yaita.tochigi.jp/site/gikai/tinjou.html",
+     "evidence": "議会事務局 〒329-2192栃木県矢板市本町5番4号 代表 Tel:0287-43-6216",
+     "note": "ページの題名：請願と陳情について - 栃木県矢板市公式ウェブサイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "092134",
+   "name": "那須塩原市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nasushiobara.tochigi.jp/nasushiobarashigikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "092142",
+   "name": "さくら市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "さくら市議会事務局",
+     "phone": "028-681-1123",
+     "email": null,
+     "form_url": null,
+     "postal_code": "329-1392",
+     "postal_address": "栃木県さくら市氏家2771番地",
+     "hours": null,
+     "source_url": "https://www.city.tochigi-sakura.lg.jp/government/000050/000297/000459/p001509.html",
+     "evidence": "議会事務局 住所: 〒329-1392 栃木県さくら市氏家2771番地 電話: 028-681-1123",
+     "note": "ページの題名：請願・陳情のしかた | さくら市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "092151",
+   "name": "那須烏山市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "那須烏山市議会事務局",
+     "phone": "0287-88-7114",
+     "email": null,
+     "form_url": null,
+     "postal_code": "321-0595",
+     "postal_address": "那須烏山市大金240 南那須庁舎3階",
+     "hours": null,
+     "source_url": "https://www.city.nasukarasuyama.lg.jp/city-council/petitions/",
+     "evidence": "議会事務局 〒321-0595 那須烏山市大金240 南那須庁舎3階 【電話番号】0287-88-7114",
+     "note": "ページの題名：請願・陳情 | 市議会/那須烏山市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "092169",
+   "name": "下野市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.shimotsuke.lg.jp/0030/genre1-3-001.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "093017",
+   "name": "上三川町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kaminokawa.lg.jp/0204/info-0000000612-0.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "093424",
+   "name": "益子町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "益子町議会事務局",
+     "phone": "0285-72-8858",
+     "email": null,
+     "form_url": null,
+     "postal_code": "321-4293",
+     "postal_address": "栃木県芳賀郡益子町大字益子2030番地",
+     "hours": null,
+     "source_url": "https://www.town.mashiko.lg.jp:443/page/page001115.html",
+     "evidence": "議会事務局です。 〒321-4293 栃木県芳賀郡益子町大字益子2030番地 電話番号:0285-72-8858 ファクス番号:",
+     "note": "ページの題名：請願と陳情 | 益子町公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "093432",
+   "name": "茂木町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.motegi.tochigi.jp/motegi/nextpage.php?cd=12&syurui=0",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "093441",
+   "name": "市貝町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ichikai.tochigi.jp/forms/top/top.aspx",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "093459",
+   "name": "芳賀町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "芳賀町議会事務局",
+     "phone": "028-677-6023",
+     "email": null,
+     "form_url": null,
+     "postal_code": "321-3392",
+     "postal_address": "栃木県芳賀郡芳賀町大字祖母井1020",
+     "hours": null,
+     "source_url": "https://www.town.tochigi-haga.lg.jp/gikai/seigan_chinjou.html",
+     "evidence": "議会事務局 〒321-3392 栃木県芳賀郡芳賀町大字祖母井1020 電話:028-677-6023",
+     "note": "ページの題名：芳賀町/請願と陳情のしかた"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "093611",
+   "name": "壬生町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "壬生町議会 議事係",
+     "phone": "0282-81-1866",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.mibu.tochigi.jp/docs/2014122500025/",
+     "evidence": "議事係:0282-81-1866",
+     "note": "ページの題名：請願・陳情のしかた | 壬生町公式WEBサイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "093645",
+   "name": "野木町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "野木町議会事務局",
+     "phone": "0280-57-4106",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.nogi.lg.jp/cyousei/gikai/page000394.html",
+     "evidence": "議会事務局 ☎0280-57-4106(直通)",
+     "note": "ページの題名：議会開催(会期)、傍聴、請願・陳情 | 野木町公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "093840",
+   "name": "塩谷町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "塩谷町議会事務局",
+     "phone": "0287-45-1110",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shioya.tochigi.jp/info/85",
+     "evidence": "議会事務局 住所:329-2292 栃木県塩谷郡塩谷町大字玉生955番地3 TEL:0287-45-1110",
+     "note": "ページの題名：- 栃木県塩谷町 -請願・陳情のしかた - 栃木県塩谷町 -"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "093866",
+   "name": "高根沢町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "高根沢町議会事務局",
+     "phone": "028-675-8111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.takanezawa.tochigi.jp/gyosei/gikai/kaigi/seigan.html",
+     "evidence": "議会事務局 〒329-1292 栃木県塩谷郡高根沢町大字石末2053番地 028-675-8111※ FAXは、0",
+     "note": "ページの題名：請願・陳情のしかた | 高根沢町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "094072",
+   "name": "那須町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.nasu.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "094111",
+   "name": "那珂川町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "那珂川町議会 庶務議事係",
+     "phone": "0287-92-1170",
+     "email": "gikai@town.tochigi-nakagawa.lg.jp",
+     "form_url": null,
+     "postal_code": "324-0692",
+     "postal_address": "栃木県那須郡那珂川町馬頭555",
+     "hours": null,
+     "source_url": "https://www.town.tochigi-nakagawa.lg.jp/0080/info-0000000439-0.html",
+     "evidence": "庶務議事係 住所: 〒324-0692 栃木県那須郡那珂川町馬頭555 電話: 0287-92-1170",
+     "note": "ページの題名：請願・陳情の仕方 | 那珂川町公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

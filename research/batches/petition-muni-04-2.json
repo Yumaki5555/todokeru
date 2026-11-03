@@ -1,0 +1,432 @@
+{
+ "batch": "petition-muni-04-2",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "043231",
+   "name": "柴田町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shibata.miyagi.jp/index.cfm/1,1360,2,html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "043249",
+   "name": "川崎町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "川崎町議会",
+     "phone": "0224-84-2301",
+     "email": "kawasaki2@town.kawasaki.miyagi.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kawasaki.miyagi.jp/site/gikai/391.html",
+     "evidence": "議会は午前10時に開会し、午後4時まで開かれます。 (0224-84-2301)",
+     "note": "ページの題名：傍聴、請願、陳情のしかた - 宮城県川崎町公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "043419",
+   "name": "丸森町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.marumori.miyagi.jp/town/detail.php?content=451",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "043613",
+   "name": "亘理町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.watari.miyagi.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "043621",
+   "name": "山元町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "山元町議会事務局",
+     "phone": "0223-37-5114",
+     "email": null,
+     "form_url": null,
+     "postal_code": "989-2292",
+     "postal_address": "宮城県亘理郡山元町浅生原字作田山32番地",
+     "hours": null,
+     "source_url": "https://www.town.yamamoto.miyagi.jp/site/gikai/280.html",
+     "evidence": "議会事務局議事班 〒989-2292 宮城県亘理郡山元町浅生原字作田山32番地 Tel:0223-37-5114Fax:0223",
+     "note": "ページの題名：請願・陳情をするには - 山元町議会 - 山元町ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "044016",
+   "name": "松島町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "松島町議会事務局",
+     "phone": "022-354-5712",
+     "email": null,
+     "form_url": null,
+     "postal_code": "981-0215",
+     "postal_address": "宮城県宮城郡松島町高城字帰命院下一19番地の1",
+     "hours": null,
+     "source_url": "https://www.town.miyagi-matsushima.lg.jp/site/gikai/1450.html",
+     "evidence": "議会事務局代表 〒981-0215宮城県宮城郡松島町高城字帰命院下一19番地の1 Tel:022-354-5712Fax:022-",
+     "note": "ページの題名：請願・陳情 - 松島町議会 - 松島町ホームページ(議会事務局)"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "044041",
+   "name": "七ヶ浜町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.shichigahama.com/benricho/keyword/sanka_key05.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "044067",
+   "name": "利府町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.rifu.miyagi.jp/gyosei/chosei/rifuchogikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "044211",
+   "name": "大和町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.taiwa.miyagi.jp/choseijoho/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "044229",
+   "name": "大郷町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "大郷町議会事務局",
+     "phone": "022-359-5513",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.miyagi-osato.lg.jp/soshiki/gikai/seigan-tinjou.html",
+     "evidence": "議会事務局Tel022-359-5513にお問い合わせく",
+     "note": "ページの題名：請願・陳情 - 宮城県大郷町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "044245",
+   "name": "大衡村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "大衡村議会事務局",
+     "phone": "022-345-6030",
+     "email": null,
+     "form_url": null,
+     "postal_code": "981-3692",
+     "postal_address": "宮城県黒川郡大衡村大衡字平林62番地",
+     "hours": null,
+     "source_url": "https://www.village.ohira.miyagi.jp/6/4/1361.html",
+     "evidence": "議会事務局 〒981-3692 宮城県黒川郡大衡村大衡字平林62番地 電話番号:022-345-6030",
+     "note": "ページの題名：請願・陳情/大衡村公式ウェブサイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "044440",
+   "name": "色麻町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shikama.miyagi.jp/chosei/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "044458",
+   "name": "加美町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "加美町議会事務局",
+     "phone": "0229-67-5120",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kami.miyagi.jp/choseijoho/kamimachigikai/1530.html",
+     "evidence": "議会事務局 〒981-4392 宮城県加美郡加美町字長檀75番地2 電話番号 0229-67-5120(直通)",
+     "note": "ページの題名：請願・陳情/加美町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "045012",
+   "name": "涌谷町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "涌谷町議会事務局",
+     "phone": "0229-43-2127",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.wakuya.miyagi.jp/gyose/gikai/segan.html",
+     "evidence": "議会事務局総務班 宮城県遠田郡涌谷町字新町裏153番地2 電話:0229-43-2127",
+     "note": "ページの題名：涌谷町/請願・陳情"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "045055",
+   "name": "美里町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "美里町議会事務局",
+     "phone": "0229-33-2118",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.misato.miyagi.jp/15tyogikai/151guide/2013-0123-1845-2.html",
+     "evidence": "議会事務局 電話0229-33-2118",
+     "note": "ページの題名：請願、陳情"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "045811",
+   "name": "女川町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "女川町議会事務局",
+     "phone": "0225-54-3131",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://gikai-town-onagawa.jp/seigan.html",
+     "evidence": "議会事務局 電話:0225-54-3131",
+     "note": "ページの題名：請願・陳情 | 女川町議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "046060",
+   "name": "南三陸町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.minamisanriku.miyagi.jp/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

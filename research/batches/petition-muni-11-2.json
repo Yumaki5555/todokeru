@@ -1,0 +1,532 @@
+{
+ "batch": "petition-muni-11-2",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "112259",
+   "name": "入間市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "入間市議会運営委員会",
+     "phone": "04-2964-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.iruma.saitama.jp/gyosei_joho/83/7709.html",
+     "evidence": "議会運営委員会の前々日の午後5時までとなります。不明な点等がありましたら、電話番号04-2964-1111(議会事務局 議",
+     "note": "ページの題名：請願・陳情について/入間市|香り豊かな緑の文化都市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112275",
+   "name": "朝霞市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "朝霞市議会事務局議会総務課議事係",
+     "phone": "048-463-0549",
+     "email": null,
+     "form_url": null,
+     "postal_code": "351-8501",
+     "postal_address": "埼玉県朝霞市本町1-1-1",
+     "hours": null,
+     "source_url": "https://www.city.asaka.lg.jp/site/shigikai/seiganchinjou.html",
+     "evidence": "議会事務局議会総務課議事係 〒351-8501埼玉県朝霞市本町1-1-1 Tel:048-463-0549Fax:048-",
+     "note": "ページの題名：請願・陳情 - 朝霞市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112283",
+   "name": "志木市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "志木市議会事務局",
+     "phone": "048-473-1117",
+     "email": null,
+     "form_url": null,
+     "postal_code": "353-8501",
+     "postal_address": "埼玉県志木市中宗岡1丁目1番1号",
+     "hours": null,
+     "source_url": "https://www.city.shiki.lg.jp/site/gikai/1296.html",
+     "evidence": "議会事務局議会グループ 〒353-8501埼玉県志木市中宗岡1丁目1番1号 Tel:048-473-1117",
+     "note": "ページの題名：請願等の提出方法 - 志木市議会 - ずっと住み続けたいまち 志木"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112291",
+   "name": "和光市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "和光市議会 議事調査担当",
+     "phone": "048-424-9108",
+     "email": null,
+     "form_url": null,
+     "postal_code": "351-0192",
+     "postal_address": "和光市広沢1-5 議事堂2階",
+     "hours": null,
+     "source_url": "https://www.city.wako.lg.jp/shisei/1006222/1006443/1006446.html",
+     "evidence": "議事調査担当 〒351-0192 和光市広沢1-5 議事堂2階 電話番号:048-424-9108 ファクス番号:",
+     "note": "ページの題名：請願・陳情|和光市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112305",
+   "name": "新座市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "新座市議会事務局議事調査係",
+     "phone": "048-477-7367",
+     "email": null,
+     "form_url": null,
+     "postal_code": "352-8623",
+     "postal_address": "埼玉県新座市野火止一丁目1番1号 本庁舎5階",
+     "hours": null,
+     "source_url": "https://www.city.niiza.lg.jp/soshiki/52/gikai-seigan-tinjyo-7uketukejikannhennkou.html",
+     "evidence": "市議会事務局議事調査係 〒352-862…市野火止一丁目1番1号 本庁舎5階 Tel:048-477-7367Fax:048-",
+     "note": "ページの題名：請願・陳情の提出方法 - 新座市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112313",
+   "name": "桶川市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "桶川市議会 議事係",
+     "phone": "048-788-4964",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.okegawa.lg.jp/shisei/shigikai/boushouseigan/4615.html",
+     "evidence": "議事係 住所:桶川市泉一丁目3番28号 電話:048-788-4964(直通)048-",
+     "note": "ページの題名：請願・陳情などの取り扱いについて/桶川市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112321",
+   "name": "久喜市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "久喜市議会 議事係",
+     "phone": "0480-22-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "346-8501",
+     "postal_address": "久喜市下早見85番地の3",
+     "hours": null,
+     "source_url": "https://www.city.kuki.lg.jp/shigikai/1006503.html",
+     "evidence": "議事係 〒346-8501 久喜市下早見85番地の3 電話:0480-22-1111 ファクス:04",
+     "note": "ページの題名：請願・陳情|久喜市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112330",
+   "name": "北本市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "北本市議会事務局",
+     "phone": "048-594-5560",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kitamoto.lg.jp/shigikai/seigan_chinjo/1416921759502.html",
+     "evidence": "議会事務局 〒364-8633 埼玉県北本市本町1-111 電話:048-594-5560",
+     "note": "ページの題名：請願・陳情の提出/北本市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112348",
+   "name": "八潮市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "八潮市議会事務局 議事調査課",
+     "phone": "048-996-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "340-8588",
+     "postal_address": "埼玉県八潮市中央一丁目2番地1",
+     "hours": null,
+     "source_url": "https://www.city.yashio.lg.jp/gikai/seigan_chinjo.html",
+     "evidence": "議会事務局 議事調査課 調査係 所在地:〒340-8588 埼玉県八潮市中央一丁目2番地1 電話:048-996-2111",
+     "note": "ページの題名：請願と陳情/八潮市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112356",
+   "name": "富士見市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "富士見市議会事務局",
+     "phone": "049-265-7800",
+     "email": null,
+     "form_url": null,
+     "postal_code": "354-8511",
+     "postal_address": "埼玉県富士見市大字鶴馬1800番地の1 市庁舎1階",
+     "hours": null,
+     "source_url": "https://www.city.fujimi.saitama.jp/shigikai/shimingikai/2010-0511-1421-141.html",
+     "evidence": "議会事務局 〒354-8511 埼玉県富士見市大字鶴馬1800番地の1 電話番号:049-265-7800",
+     "note": "ページの題名：請願・陳情|富士見市 | 富士見市議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112372",
+   "name": "三郷市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.misato.lg.jp/shiseijoho/shinoshokai/shinogaiyo/2/8332.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112381",
+   "name": "蓮田市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "蓮田市議会事務局庶務担当",
+     "phone": "048-768-3111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hasuda.saitama.jp/gikai/shise/shigikai/seigan.html",
+     "evidence": "議会事務局庶務担当 埼玉県蓮田市大字黒浜2799番地1 電話番号:048-768-3111",
+     "note": "ページの題名：蓮田市/請願・陳情"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112399",
+   "name": "坂戸市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "坂戸市議会事務局",
+     "phone": "049-283-1331",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.sakado.lg.jp/site/sakadogikai/820.html",
+     "evidence": "議会事務局 350-0292埼玉県坂戸市千代田1-1-1 Tel:049-283-1331 内線613Fa",
+     "note": "ページの題名：請願書及び陳情書の提出方法 - 坂戸市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112402",
+   "name": "幸手市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "幸手市議会事務局",
+     "phone": "0480-43-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "340-0192",
+     "postal_address": "埼玉県幸手市東4-6-8",
+     "hours": null,
+     "source_url": "https://www.city.satte.lg.jp/parliament/7/1592.html",
+     "evidence": "議会事務局 〒340-0192 埼玉県幸手市東4-6-8 電話 0480-43-1111 内線309 フ",
+     "note": "ページの題名：請願・陳情について/幸手市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112411",
+   "name": "鶴ヶ島市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "鶴ヶ島市議会事務局",
+     "phone": "049-271-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tsurugashima.lg.jp/gikai/page001144.html",
+     "evidence": "議会事務局 〒350-2292 埼玉県鶴ヶ島市三ツ木16-1 お問い合わせ 049-271-1111(内線361)",
+     "note": "ページの題名：請願・陳情 | 鶴ヶ島市議会 | 鶴ヶ島市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112429",
+   "name": "日高市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "日高市議会担当",
+     "phone": "042-989-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "350-1292",
+     "postal_address": "日高市大字南平沢1020番地",
+     "hours": null,
+     "source_url": "https://www.city.hidaka.lg.jp/hidakacity_parliament/procedure/2939.html",
+     "evidence": "議会担当(本庁舎 4階) 郵便番号:3…292 日高市大字南平沢1020番地 電話:042-989-2111(代表)",
+     "note": "ページの題名：請願・陳情の手続き/日高市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112437",
+   "name": "吉川市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "吉川市議会事務局",
+     "phone": "048-982-9421",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.yoshikawa.saitama.jp/index.cfm/34,367,271,html",
+     "evidence": "議会事務局 吉川市きよみ野一丁目1番地(…342-8501) 市役所庁舎3階 電話:048-982-9421(直通)",
+     "note": "ページの題名：請願・陳情の方法 - 吉川市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112453",
+   "name": "ふじみ野市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "ふじみ野市議会 議事調査係",
+     "phone": "049-262-9046",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.fujimino.saitama.jp/shinojoho/shigikai/boucho_seigan_chinjo/3166.html",
+     "evidence": "議事調査係 〒356-8501 埼玉県ふじみ野市福岡1-1-1 電話番号:049-262-9046",
+     "note": "ページの題名：請願と陳情の手続き/ふじみ野市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "112461",
+   "name": "白岡市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "白岡市議会事務局",
+     "phone": "0480-92-1111",
+     "email": "gikaijimukyoku@city.shiraoka.lg.jp",
+     "form_url": null,
+     "postal_code": "349-0292",
+     "postal_address": "埼玉県白岡市千駄野432番地",
+     "hours": null,
+     "source_url": "https://www.city.shiraoka.lg.jp/shiseijoho/shigikai/2430.html",
+     "evidence": "議会事務局 〒349-0292 埼玉県白岡市千駄野432番地 電話:0480-92-1111",
+     "note": "ページの題名：請願・陳情のご案内/白岡市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "113018",
+   "name": "伊奈町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://inamachi.gsl-service.net/top/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "113247",
+   "name": "三芳町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.saitama-miyoshi.lg.jp/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

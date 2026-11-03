@@ -1,0 +1,507 @@
+{
+ "batch": "petition-muni-29-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "292010",
+   "name": "奈良市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "奈良市議会事務局",
+     "phone": "0742-34-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "630-8580",
+     "postal_address": "奈良市二条大路南一丁目1-1",
+     "hours": null,
+     "source_url": "https://www.city.nara.lg.jp/site/narasigikai/7675.html",
+     "evidence": "議会事務局 連絡先 〒630-8580奈良市二条大路南一丁目1-1 Tel:0742-34-1111(コールセンター",
+     "note": "ページの題名：請願・陳情 - 奈良市議会 - 奈良市ホームページ(議会事務局)"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "292028",
+   "name": "大和高田市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "大和高田市議会事務局",
+     "phone": "0745-22-1101",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.yamatotakada.nara.jp/shisei/yamatotakadashigikai/2980.html",
+     "evidence": "議会事務局 大和高田市大字大中98番地4(市役所6階) 電話番号:0745-22-1101",
+     "note": "ページの題名：請願・陳情/大和高田市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "292036",
+   "name": "大和郡山市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.yamatokoriyama.lg.jp/soshiki/gikaijimukyoku/shigikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "292044",
+   "name": "天理市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "天理市議会事務局",
+     "phone": "0743-63-1001",
+     "email": null,
+     "form_url": null,
+     "postal_code": "632-8555",
+     "postal_address": "奈良県天理市川原城町605番地 市役所6階",
+     "hours": null,
+     "source_url": "https://www.city.tenri.nara.jp/kakuka/gikaijimukyoku/shigikai/petition/1393313816180.html",
+     "evidence": "議会事務局 〒632-8555 奈良県天理市川原城町605番地 市役所6階 電話 0743-63-1001(代表)",
+     "note": "ページの題名：請願・陳情とは/天理市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "292052",
+   "name": "橿原市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kashihara.nara.jp/shiseijoho/gikai/3/index.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "292061",
+   "name": "桜井市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "桜井市議会 議事課",
+     "phone": "0744-42-9132",
+     "email": null,
+     "form_url": null,
+     "postal_code": "633-8585",
+     "postal_address": "桜井市大字粟殿432-1",
+     "hours": null,
+     "source_url": "https://www.city.sakurai.lg.jp/sosiki/gikaijimukyoku/seigantinjyou/1395754474436.html",
+     "evidence": "議事課 〒633-8585 桜井市大字粟殿432-1 電話:0744-42-9132(直通)",
+     "note": "ページの題名：請願・陳情/桜井市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "292079",
+   "name": "五條市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "五條市議会事務局",
+     "phone": "0747-22-4001",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.gojo.lg.jp/shigikai/bouchou_seigan_chinjyou/4713.html",
+     "evidence": "議会事務局 電話:0747-22-4001",
+     "note": "ページの題名：請願・陳情について/五條市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "292087",
+   "name": "御所市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "御所市議会事務局",
+     "phone": "0745-62-3001",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.gose.nara.jp/0000000251.html",
+     "evidence": "議会事務局 電話: 0745-62-3001",
+     "note": "ページの題名：請願・陳情 | 御所市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "292095",
+   "name": "生駒市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "生駒市議会事務局",
+     "phone": "0743-74-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ikoma.lg.jp/gikai/0000009231.html",
+     "evidence": "議会事務局 電話: 0743-74-1111 内線(庶務調査",
+     "note": "ページの題名：請願・陳情 | 生駒市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "292109",
+   "name": "香芝市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "香芝市議会総務課",
+     "phone": "0745-44-3341",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kashiba.lg.jp/site/shigikai/6829.html",
+     "evidence": "議会総務課代表 Tel:0745-44-3341",
+     "note": "ページの題名：請願・陳情 - 香芝市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "292117",
+   "name": "葛城市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "葛城市議会事務局",
+     "phone": "0745-44-5018",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.katsuragi.nara.jp/shisei/shigikai/8/4163.html",
+     "evidence": "議会事務局 奈良県葛城市柿本166番地 電話番号:0745-44-5018",
+     "note": "ページの題名：請願・陳情/葛城市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "292125",
+   "name": "宇陀市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.uda.nara.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "293229",
+   "name": "山添村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.yamazoe.nara.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "293423",
+   "name": "平群町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "平群町議会事務局",
+     "phone": "0745-45-0012",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.heguri.nara.jp/site/gikai/1855.html",
+     "evidence": "議会事務局 直通 郵便番号:636-85…所:奈良県生駒郡平群町吉新1-1-1 電話:0745-45-0012ファックス:07",
+     "note": "ページの題名：請願・陳情をするとき - 平群町ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "293431",
+   "name": "三郷町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.sango.nara.jp/site/gikai/4018.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "293440",
+   "name": "斑鳩町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "斑鳩町議会事務局",
+     "phone": "0745-74-1001",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ikaruga.nara.jp/0000000054.html",
+     "evidence": "議会事務局 電話: 0745-74-1001(内線:302)",
+     "note": "ページの題名：請願・陳情について | 斑鳩町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "293458",
+   "name": "安堵町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "安堵町議会事務局",
+     "phone": "0743-57-1511",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ando.nara.jp/0000001842.html",
+     "evidence": "議会事務局[4階] 電話: 0743-57-1511",
+     "note": "ページの題名：請願・陳情について | 安堵町役場"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "293610",
+   "name": "川西町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.nara-kawanishi.lg.jp/soshiki/5-0-0-0-0_10.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "293628",
+   "name": "三宅町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.miyake.lg.jp/soshiki/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "293636",
+   "name": "田原本町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "田原本町議会事務局",
+     "phone": "0744-34-2119",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.tawaramoto.nara.jp/prefectural_assembly/4008.html",
+     "evidence": "議会事務局 電話:0744-34-2119",
+     "note": "ページの題名：町議会への請願・陳情/田原本町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

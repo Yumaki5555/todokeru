@@ -47,6 +47,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "240001-petition",
+    "type": "petition",
+    "department": "三重県議会事務局",
+    "phone": "059-224-2877",
+    "email": "gikaik@pref.mie.lg.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.pref.mie.lg.jp/KENGIKAI/08114011760.htm",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -200,6 +215,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "242039-petition",
+    "type": "petition",
+    "department": "伊勢市議会事務局",
+    "phone": "0596-21-5630",
+    "email": null,
+    "form_url": null,
+    "postal_code": "516-8601",
+    "postal_address": "伊勢市岩渕1丁目7番29号 本館3階",
+    "hours": null,
+    "source_url": "https://www.city.ise.mie.jp/gikai/kaigi/seigan/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -248,6 +278,21 @@
     "postal_address": "松阪市殿町1340番地1",
     "hours": null,
     "source_url": "https://www.city.matsusaka.mie.jp/site/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "242047-petition",
+    "type": "petition",
+    "department": "松阪市議会事務局",
+    "phone": "0598-53-4434",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.matsusaka.mie.jp/site/gikai/seigantinjyou.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -319,6 +364,21 @@
     "note": null
    },
    {
+    "id": "242055-petition",
+    "type": "petition",
+    "department": "桑名市議会事務局",
+    "phone": "0594-24-1304",
+    "email": null,
+    "form_url": null,
+    "postal_code": "511-8601",
+    "postal_address": "三重県桑名市中央町二丁目37番地",
+    "hours": null,
+    "source_url": "https://www.city.kuwana.lg.jp/gikai/bouchou/chinjou.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "242055-education",
     "type": "education",
     "department": "教育総務課",
@@ -380,6 +440,21 @@
     "postal_address": "三重県鈴鹿市神戸一丁目18番18号",
     "hours": null,
     "source_url": "https://www.city.suzuka.lg.jp/gikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "242071-petition",
+    "type": "petition",
+    "department": "鈴鹿市議会 議事課",
+    "phone": "059-382-7600",
+    "email": null,
+    "form_url": null,
+    "postal_code": "513-8701",
+    "postal_address": "三重県鈴鹿市神戸一丁目18番18号",
+    "hours": null,
+    "source_url": "https://www.city.suzuka.lg.jp/gikai/1007681.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -485,6 +560,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "242098-petition",
+    "type": "petition",
+    "department": "尾鷲市役所議会事務局",
+    "phone": "0597-23-8211",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.owase.lg.jp/0000000797.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -533,6 +623,21 @@
     "postal_address": "三重県亀山市本丸町577番地",
     "hours": null,
     "source_url": "https://www.city.kameyama.mie.jp/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "242101-petition",
+    "type": "petition",
+    "department": "亀山市議会事務局",
+    "phone": "0595-84-5059",
+    "email": "gijichousa@city.kameyama.mie.jp",
+    "form_url": null,
+    "postal_code": "519-0195",
+    "postal_address": "三重県亀山市本丸町577番地",
+    "hours": null,
+    "source_url": "https://www.city.kameyama.mie.jp/gikai/info/2014122800927/seigan.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -602,6 +707,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "242110-petition",
+    "type": "petition",
+    "department": "鳥羽市議会 議事総務係",
+    "phone": "0599-25-1206",
+    "email": null,
+    "form_url": null,
+    "postal_code": "517-0011",
+    "postal_address": "三重県鳥羽市鳥羽三丁目1番1号",
+    "hours": null,
+    "source_url": "https://www.city.toba.mie.jp/gyosei_joho/shigikai/5/4995.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -650,6 +770,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.kumano.lg.jp/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "242128-petition",
+    "type": "petition",
+    "department": "熊野市議会事務局",
+    "phone": "0597-89-4111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "519-4392",
+    "postal_address": "三重県熊野市井戸町796",
+    "hours": null,
+    "source_url": "https://www.city.kumano.lg.jp/administration/?content=146",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -704,6 +839,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "242144-petition",
+    "type": "petition",
+    "department": "いなべ市議会事務局 議事課",
+    "phone": "0594-86-7848",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.inabe.mie.jp/gikai/1014808/1002623.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -745,6 +895,21 @@
     "id": "242152-assembly",
     "type": "assembly",
     "department": "議会事務局 議事課",
+    "phone": "0599-44-0250",
+    "email": null,
+    "form_url": null,
+    "postal_code": "517-0592",
+    "postal_address": "三重県志摩市阿児町鵜方3098番地22",
+    "hours": null,
+    "source_url": "https://www.city.shima.mie.jp/shimashigikai/1454325026676.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "242152-petition",
+    "type": "petition",
+    "department": "志摩市議会 議事課",
     "phone": "0599-44-0250",
     "email": null,
     "form_url": null,
@@ -811,6 +976,21 @@
     "id": "242161-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0595-22-9687",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.iga.lg.jp/0000000188.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "242161-petition",
+    "type": "petition",
+    "department": "伊賀市議会事務局",
     "phone": "0595-22-9687",
     "email": null,
     "form_url": null,
@@ -953,6 +1133,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "243248-petition",
+    "type": "petition",
+    "department": "東員町議会事務局",
+    "phone": "0594-86-2813",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.toin.lg.jp/gikai/2464.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1001,6 +1196,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://gikai-town-komono.com/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "243418-petition",
+    "type": "petition",
+    "department": "菰野町議会",
+    "phone": "059-391-1170",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://gikai-town-komono.com/petition/",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1429,6 +1639,21 @@
     "note": null
    },
    {
+    "id": "244716-petition",
+    "type": "petition",
+    "department": "大紀町議会事務局",
+    "phone": "0598-86-2248",
+    "email": null,
+    "form_url": null,
+    "postal_code": "519-2703",
+    "postal_address": "三重県度会郡大紀町滝原1610番地1",
+    "hours": null,
+    "source_url": "https://www.town.taiki.mie.jp/soshiki/gikai/gyomu/gikai/323.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "244716-education",
     "type": "education",
     "department": "教育委員会",
@@ -1483,6 +1708,21 @@
     "id": "244724-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0599-66-1781",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.minamiise.lg.jp/admin/shoshiki/gikaijimu/seiganntoyouboutinnjyounituite/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "244724-petition",
+    "type": "petition",
+    "department": "南伊勢町議会事務局",
     "phone": "0599-66-1781",
     "email": null,
     "form_url": null,

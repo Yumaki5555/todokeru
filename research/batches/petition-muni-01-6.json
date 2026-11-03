@@ -1,0 +1,732 @@
+{
+ "batch": "petition-muni-01-6",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "016314",
+   "name": "音更町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.otofuke.hokkaido.jp/machi/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016322",
+   "name": "士幌町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.shihoro.jp/assembly/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016331",
+   "name": "上士幌町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "上士幌町議会",
+     "phone": "01564-2-4299",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.kamishihoro.jp/page/00000149",
+     "evidence": "議会 上士幌町字上士幌東3線238番地 事務局局長 01564-2-4299 平日8:30~",
+     "note": "ページの題名：請願・陳情|上士幌町議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016349",
+   "name": "鹿追町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "鹿追町議会事務局",
+     "phone": "0156-66-4039",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shikaoi.lg.jp/gikai/seigan/",
+     "evidence": "議会事務局TEL:0156-66-4039FAX:0156",
+     "note": "ページの題名：請願・陳情 | 鹿追町議会 | 北海道 十勝 鹿追町のホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016357",
+   "name": "新得町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "新得町議会事務局",
+     "phone": "0156-64-0524",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://shintoku-town.jp/gyousei/gikai/seigan_chinjyou/",
+     "evidence": "議会事務局 電話番号:0156-64-0524",
+     "note": "ページの題名：請願・陳情 | 新得町議会 | 行政情報 | 北海道 新得町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016365",
+   "name": "清水町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shimizu.hokkaido.jp/gikai/petition.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016373",
+   "name": "芽室町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://mgikai.memuro.net/about/petition.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016381",
+   "name": "中札内村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "中札内村議会事務局",
+     "phone": "0155-67-2497",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.nakasatsunai.hokkaido.jp/gikai/bouchou/",
+     "evidence": "議会事務局 TEL. 0155-67-2497",
+     "note": "ページの題名：傍聴・請願・陳情 | 議会・監査委員 | 中札内村 ~花と緑とアートの村~"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016390",
+   "name": "更別村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "更別村議会事務局",
+     "phone": "0155-52-2117",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.sarabetsu.jp/gikai/seigan/",
+     "evidence": "議会事務局(更別村役場3階) 〒089-…道河西郡更別村字更別南1線93番地 TEL 0155-52-2117",
+     "note": "ページの題名：請願・陳情の仕組み | 更別村議会 | 北海道 十勝 更別村"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016411",
+   "name": "大樹町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "大樹町議会事務局",
+     "phone": "01558-6-5035",
+     "email": null,
+     "form_url": null,
+     "postal_code": "089-2195",
+     "postal_address": "北海道広尾郡大樹町東本通33番地",
+     "hours": null,
+     "source_url": "https://www.town.taiki.hokkaido.jp/choseijoho/taikichogikai/1693.html",
+     "evidence": "議会事務局 〒089-2195 北海道広尾郡大樹町東本通33番地 電話番号:01558-6-5035(直通)",
+     "note": "ページの題名：請願・陳情/北海道大樹町公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016420",
+   "name": "広尾町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "広尾町議会事務局",
+     "phone": "01558-2-0180",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hiroo.lg.jp/gikai/bouchou/",
+     "evidence": "議会事務局・監査 総務係 TEL. (01558)2-0180",
+     "note": "ページの題名：議会の傍聴、請願・陳情 | 広尾町議会 | 広尾町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016438",
+   "name": "幕別町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "幕別町議会事務局",
+     "phone": "0155-54-6626",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.makubetsu.lg.jp/gikai/gikainews/seigan/2041.html",
+     "evidence": "議会事務局 電話 0155-54-6626",
+     "note": "ページの題名：陳情・請願書式例|北海道幕別町公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016446",
+   "name": "池田町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "池田町議会 議事係",
+     "phone": "015-572-3161",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hokkaido-ikeda.lg.jp/kikan/gikai/chogikai/959.html",
+     "evidence": "議事係 電話:015-572-3161",
+     "note": "ページの題名：議会に請願・陳情があるとき|北海道池田町議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016454",
+   "name": "豊頃町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "豊頃町議会事務局庶務係",
+     "phone": "015-574-2222",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.toyokoro.jp/site/gikai/1008.html",
+     "evidence": "議会事務局庶務係 Tel:015-574-2222",
+     "note": "ページの題名：請願・陳情するときは - 豊頃町議会 - 北海道豊頃町公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016462",
+   "name": "本別町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "本別町議会事務局",
+     "phone": "0156-22-8123",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.honbetsu.hokkaido.jp/web/parliament/parliament09.html",
+     "evidence": "議会事務局 電話:0156-22-8123 ファクス:01",
+     "note": "ページの題名：請願と陳情 | 本別町議会 | 本別町ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016471",
+   "name": "足寄町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ashoro.hokkaido.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016489",
+   "name": "陸別町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "陸別町議会事務局",
+     "phone": "0156-27-2141",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.rikubetsu.jp/gikai/seigan/",
+     "evidence": "議会事務局 電話番号:0156-27-2141内線:321・3",
+     "note": "ページの題名：陳情・請願の方法 | 陸別町議会 | 日本一寒い町 北海道 陸別町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016497",
+   "name": "浦幌町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.urahoro.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016616",
+   "name": "釧路町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "釧路町議会事務局",
+     "phone": "0154-62-2264",
+     "email": null,
+     "form_url": null,
+     "postal_code": "088-0692",
+     "postal_address": "北海道釧路郡釧路町別保1丁目1番地",
+     "hours": null,
+     "source_url": "http://www.town.kushiro.lg.jp/gikai/seigan.html",
+     "evidence": "議会事務局〒088-0692 北海道釧路郡釧路町別保1丁目1番地電話 : 0154-62-2264 (FAX :",
+     "note": "ページの題名：請願・陳情 | 釧路町議会 | 北海道釧路町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016624",
+   "name": "厚岸町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.akkeshi-town.jp/chogikai/oshirase/4350/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016632",
+   "name": "浜中町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.townhamanaka.jp/kakuka/gikaijimukyoku/2017-0312-1419-12.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016641",
+   "name": "標茶町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://town.shibecha.hokkaido.jp/top/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016659",
+   "name": "弟子屈町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.teshikaga.hokkaido.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016675",
+   "name": "鶴居村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "鶴居村議会事務局",
+     "phone": "0154-64-2511",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.tsurui.lg.jp/muranoshokai_sonsei/tsuruimuragikai/1137.html",
+     "evidence": "議会事務局 〒085-1203 北海道阿寒郡鶴居村鶴居西1丁目1番地 電話番号:0154-64-2511",
+     "note": "ページの題名：請願・陳情について/鶴居村"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016683",
+   "name": "白糠町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shiranuka.lg.jp/gyosei/category/nfml630000000de2.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016918",
+   "name": "別海町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "別海町議会事務局",
+     "phone": "0153-74-9854",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://betsukai.jp/gikai/tetuduki/seiganchinjyo/",
+     "evidence": "議会事務局 TEL:0153-74-9854FAX:0153",
+     "note": "ページの題名：請願・陳情について | 各種手続きについて | 別海町議会 | 北海道別海町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016926",
+   "name": "中標津町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.nakashibetsu.jp/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016934",
+   "name": "標津町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.shibetsutown.jp/administration/?category=52",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016942",
+   "name": "羅臼町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.rausu-town.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

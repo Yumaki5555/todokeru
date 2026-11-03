@@ -1,0 +1,532 @@
+{
+ "batch": "petition-muni-28-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "281000",
+   "name": "神戸市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kobe.lg.jp/shise/municipal/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "282014",
+   "name": "姫路市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.himeji.lg.jp/shisei/category/5-15-7-0-0-0-0-0-0-0.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "282022",
+   "name": "尼崎市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "尼崎市議会",
+     "phone": "06-6489-6112",
+     "email": null,
+     "form_url": null,
+     "postal_code": "660-8501",
+     "postal_address": "兵庫県尼崎市東七松町1丁目23番1号 議会棟1階",
+     "hours": null,
+     "source_url": "https://www.city.amagasaki.hyogo.jp/gikai/1001054/1014639.html",
+     "evidence": "議会棟1階 電話番号:06-6489-6112",
+     "note": "ページの題名：請願・陳情|尼崎市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "282031",
+   "name": "明石市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.akashi.lg.jp/gikai/youkoso/kouhou/news/news20261114.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "282049",
+   "name": "西宮市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "西宮市議会事務局",
+     "phone": "0798-35-3377",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.nishi.or.jp/nishinomiyashigikai/you/seiganteishutsu.html",
+     "evidence": "議会事務局(電話:0798-35-3377)にご相談いただ",
+     "note": "ページの題名：西宮市議会請願・陳情の提出／同じ組織のほかの番号：0798-35-3378・0798-35-3375"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "282057",
+   "name": "洲本市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "洲本市議会事務局",
+     "phone": "0799-22-3334",
+     "email": null,
+     "form_url": null,
+     "postal_code": "656-8686",
+     "postal_address": "兵庫県洲本市本町三丁目4番10号",
+     "hours": null,
+     "source_url": "https://www.city.sumoto.lg.jp/soshiki/2/1409.html",
+     "evidence": "議会事務局 〒656-8686兵庫県洲本市本町三丁目4番10号 直通Tel:0799-22-3334",
+     "note": "ページの題名：請願・陳情・傍聴 - 洲本市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "282065",
+   "name": "芦屋市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "芦屋市議会事務局",
+     "phone": "0797-38-2001",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ashiya.lg.jp/shigi/seiganchinjou.html",
+     "evidence": "議会事務局 電話番号:0797-38-2001",
+     "note": "ページの題名：芦屋市/請願・陳情"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "282073",
+   "name": "伊丹市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "伊丹市議会事務局",
+     "phone": "072-783-1344",
+     "email": null,
+     "form_url": null,
+     "postal_code": "664-8503",
+     "postal_address": "伊丹市千僧1-1",
+     "hours": null,
+     "source_url": "https://www.city.itami.lg.jp/SOSIKI/SHIGIKAI/1548741433505.html",
+     "evidence": "議会事務局 〒664-8503伊丹市千僧1-1(市役所3階) 電話番号072-783-1344 ファクス072",
+     "note": "ページの題名：請願・陳情の手続き/伊丹市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "282081",
+   "name": "相生市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "相生市議会事務局",
+     "phone": "0791-23-7122",
+     "email": null,
+     "form_url": null,
+     "postal_code": "678-8585",
+     "postal_address": "兵庫県相生市旭1丁目1番3号",
+     "hours": null,
+     "source_url": "https://www.city.aioi.lg.jp/site/gikai/seigan-chinjyo.html",
+     "evidence": "議会事務局 〒678-8585兵庫県相生市旭1丁目1番3号 Tel:0791-23-7122Fax:0791",
+     "note": "ページの題名：請願と陳情 - 相生市議会 - 相生市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "282090",
+   "name": "豊岡市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "豊岡市議会事務局 総務係",
+     "phone": "0796-23-1119",
+     "email": null,
+     "form_url": null,
+     "postal_code": "668-8666",
+     "postal_address": "豊岡市中央町2番4号",
+     "hours": null,
+     "source_url": "https://www.city.toyooka.lg.jp/shigikai/1033174/1033175.html",
+     "evidence": "議会事務局 総務係 〒668-8666 豊岡市中央町2番4号 電話:0796-23-1119",
+     "note": "ページの題名：請願・陳情の出し方|豊岡市公式ウェブサイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "282103",
+   "name": "加古川市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kakogawa.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "282120",
+   "name": "赤穂市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "赤穂市議会事務局",
+     "phone": "0791-43-6876",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ako.lg.jp/gikai/segan/index.html",
+     "evidence": "議会事務局 兵庫県赤穂市加里屋81番地 電話番号:0791-43-6876",
+     "note": "ページの題名：赤穂市/請願・陳情・意見書・決議・声明"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "282138",
+   "name": "西脇市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "西脇市議会事務局",
+     "phone": "0795-22-3111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nishiwaki.lg.jp/kakukanogoannai/gikaijimukyoku/seigan.html",
+     "evidence": "議会事務局 電話:0795-22-3111(代表)",
+     "note": "ページの題名：請願・陳情について/西脇市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "282146",
+   "name": "宝塚市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "宝塚市議会事務局 総務課",
+     "phone": "0797-77-2034",
+     "email": null,
+     "form_url": null,
+     "postal_code": "665-8665",
+     "postal_address": "宝塚市東洋町1番1号 本庁舎4階",
+     "hours": null,
+     "source_url": "https://www.city.takarazuka.hyogo.jp/1060687/gikai/minnanogikai/1000990.html",
+     "evidence": "議会事務局 総務課 〒665-8665 宝塚市東洋町1番1号 本庁舎4階 電話:0797-77-2034",
+     "note": "ページの題名：請願・陳情の方法|宝塚市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "282154",
+   "name": "三木市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "三木市議会事務局",
+     "phone": "0794-89-2309",
+     "email": null,
+     "form_url": null,
+     "postal_code": "673-0492",
+     "postal_address": "兵庫県三木市上の丸町10番30号 三木市役所 6階",
+     "hours": null,
+     "source_url": "https://www.city.miki.lg.jp/soshiki/53/3935.html",
+     "evidence": "議会事務局 〒673-0492兵庫県三木市上の丸町10番30号 三木市役所 6階 庶務係 Tel:0794-89-2309",
+     "note": "ページの題名：市議会への請願と陳情 - 三木市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "282162",
+   "name": "高砂市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.takasago.lg.jp/soshikikarasagasu/gikaijimukyoku/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "282171",
+   "name": "川西市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "川西市議会事務局",
+     "phone": "072-740-1250",
+     "email": null,
+     "form_url": null,
+     "postal_code": "666-8501",
+     "postal_address": "川西市中央町12番1号 市役所6階",
+     "hours": null,
+     "source_url": "https://www.city.kawanishi.hyogo.jp/gikai/sei_tin.html",
+     "evidence": "議会事務局 〒666-8501 川西市中央町12番1号 市役所6階 電話:072-740-1250 ファクス:07",
+     "note": "ページの題名：請願・陳情|川西市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "282189",
+   "name": "小野市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://ono-sigikai.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "282197",
+   "name": "三田市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.sanda.lg.jp/soshiki/2/gyomu/yakusho_madoguchi/soshiki_annai/205.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "282201",
+   "name": "加西市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "加西市議会事務局",
+     "phone": "0790-42-8790",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kasai.hyogo.jp/site/gikai/3083.html",
+     "evidence": "議会事務局 Tel:0790-42-8790Fax:0790",
+     "note": "ページの題名：請願・陳情 - 加西市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "282219",
+   "name": "丹波篠山市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.youtube.com/channel/UChs6QWUdAtl3jO2i8cFncvg",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

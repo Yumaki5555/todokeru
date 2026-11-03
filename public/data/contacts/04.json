@@ -47,6 +47,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "040002-petition",
+    "type": "petition",
+    "department": "宮城県議会 議事課",
+    "phone": "022-211-3582",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.pref.miyagi.jp/site/kengikai/seigan.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -139,6 +154,21 @@
     "id": "042021-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0225-95-5080",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.ishinomaki.lg.jp/cont/30101000/4111/4111.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "042021-petition",
+    "type": "petition",
+    "department": "石巻市議会事務局",
     "phone": "0225-95-5080",
     "email": null,
     "form_url": null,
@@ -383,6 +413,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "042072-petition",
+    "type": "petition",
+    "department": "名取市議会事務局",
+    "phone": "022-384-2109",
+    "email": null,
+    "form_url": null,
+    "postal_code": "981-1292",
+    "postal_address": "名取市増田字柳田80",
+    "hours": null,
+    "source_url": "https://www.city.natori.miyagi.jp/site/gikai/3566.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -431,6 +476,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.kakuda.lg.jp/site/gikaidayori/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "042081-petition",
+    "type": "petition",
+    "department": "角田市議会事務局",
+    "phone": "0224-63-2124",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kakuda.lg.jp/soshiki/19/77.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -485,6 +545,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "042099-petition",
+    "type": "petition",
+    "department": "多賀城市議会事務局",
+    "phone": "022-368-1141",
+    "email": null,
+    "form_url": null,
+    "postal_code": "985-8531",
+    "postal_address": "宮城県多賀城市中央二丁目1-1",
+    "hours": null,
+    "source_url": "https://www.city.tagajo.miyagi.jp/shise/shigikai/segan/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    },
    {
     "id": "042099-education",
@@ -599,6 +674,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.tome.miyagi.jp/gikaijimu/shisejoho/gyose/shigikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "042129-petition",
+    "type": "petition",
+    "department": "登米市議会事務局",
+    "phone": "0220-22-1913",
+    "email": "gikaijimu@city.tome.miyagi.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.tome.miyagi.jp/gikaijimu/shisejoho/gyose/shigikai/seganchinjo/seigann_chinnjyou.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -721,6 +811,21 @@
     "note": null
    },
    {
+    "id": "042145-petition",
+    "type": "petition",
+    "department": "東松島市議会事務局",
+    "phone": "0225-82-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "981-0503",
+    "postal_address": "宮城県東松島市矢本字上河戸36番地1 東松島市役所",
+    "hours": null,
+    "source_url": "https://www.city.higashimatsushima.miyagi.jp/gikai/seigan-chinjo.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "042145-education",
     "type": "education",
     "department": "東松島市教育委員会",
@@ -782,6 +887,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.osaki.miyagi.jp/shisei/shiseijoho/sigikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "042153-petition",
+    "type": "petition",
+    "department": "大崎市議会事務局",
+    "phone": "0229-23-2236",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.osaki.miyagi.jp/shisei/shiseijoho/sigikai/21586.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -887,6 +1007,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "043010-petition",
+    "type": "petition",
+    "department": "蔵王町議会事務局",
+    "phone": "0224-33-3006",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.zao.miyagi.jp/kurashi_guide/gikai_senkyo/gikai/boutyou.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -928,6 +1063,21 @@
     "id": "043028-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0224-37-2197",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://town.shichikashuku.miyagi.jp/town/gikai/seigan.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "043028-petition",
+    "type": "petition",
+    "department": "七ヶ宿町議会事務局",
     "phone": "0224-37-2197",
     "email": null,
     "form_url": null,
@@ -1187,6 +1337,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "043249-petition",
+    "type": "petition",
+    "department": "川崎町議会",
+    "phone": "0224-84-2301",
+    "email": "kawasaki2@town.kawasaki.miyagi.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kawasaki.miyagi.jp/site/gikai/391.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1340,6 +1505,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "043621-petition",
+    "type": "petition",
+    "department": "山元町議会事務局",
+    "phone": "0223-37-5114",
+    "email": null,
+    "form_url": null,
+    "postal_code": "989-2292",
+    "postal_address": "宮城県亘理郡山元町浅生原字作田山32番地",
+    "hours": null,
+    "source_url": "https://www.town.yamamoto.miyagi.jp/site/gikai/280.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1388,6 +1568,21 @@
     "postal_address": "宮城県宮城郡松島町高城字帰命院下一19番地の1",
     "hours": null,
     "source_url": "https://www.town.miyagi-matsushima.lg.jp/site/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "044016-petition",
+    "type": "petition",
+    "department": "松島町議会事務局",
+    "phone": "022-354-5712",
+    "email": null,
+    "form_url": null,
+    "postal_code": "981-0215",
+    "postal_address": "宮城県宮城郡松島町高城字帰命院下一19番地の1",
+    "hours": null,
+    "source_url": "https://www.town.miyagi-matsushima.lg.jp/site/gikai/1450.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1597,6 +1792,21 @@
     "note": null
    },
    {
+    "id": "044229-petition",
+    "type": "petition",
+    "department": "大郷町議会事務局",
+    "phone": "022-359-5513",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.miyagi-osato.lg.jp/soshiki/gikai/seigan-tinjou.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "044229-education",
     "type": "education",
     "department": "教育委員会学校教育課",
@@ -1765,6 +1975,21 @@
     "note": null
    },
    {
+    "id": "044458-petition",
+    "type": "petition",
+    "department": "加美町議会事務局",
+    "phone": "0229-67-5120",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kami.miyagi.jp/choseijoho/kamimachigikai/1530.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "044458-education",
     "type": "education",
     "department": "加美町教育委員会教育総務課",
@@ -1826,6 +2051,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.town.wakuya.miyagi.jp/gyose/gikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "045012-petition",
+    "type": "petition",
+    "department": "涌谷町議会事務局",
+    "phone": "0229-43-2127",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.wakuya.miyagi.jp/gyose/gikai/segan.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1897,6 +2137,21 @@
     "note": null
    },
    {
+    "id": "045055-petition",
+    "type": "petition",
+    "department": "美里町議会事務局",
+    "phone": "0229-33-2118",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.misato.miyagi.jp/15tyogikai/151guide/2013-0123-1845-2.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "045055-education",
     "type": "education",
     "department": "教育総務課",
@@ -1958,6 +2213,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://gikai-town-onagawa.jp/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "045811-petition",
+    "type": "petition",
+    "department": "女川町議会事務局",
+    "phone": "0225-54-3131",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://gikai-town-onagawa.jp/seigan.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null

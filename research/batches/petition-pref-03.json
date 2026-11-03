@@ -1,0 +1,257 @@
+{
+ "batch": "petition-pref-03",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "210005",
+   "name": "岐阜県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.pref.gifu.lg.jp/site/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "220001",
+   "name": "静岡県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "静岡県議会議事課",
+     "phone": "054-221-3481",
+     "email": "gikai_giji@pref.shizuoka.lg.jp",
+     "form_url": null,
+     "postal_code": "420-8601",
+     "postal_address": "静岡市葵区追手町9-6",
+     "hours": null,
+     "source_url": "https://www.pref.shizuoka.jp/kensei/kengikai/gikaishikumi/1030970.html",
+     "evidence": "静岡県議会議事課 〒420-8601 静岡市葵区追手町9-6 電話番号:054-221-3481",
+     "note": "ページの題名：請願と陳情|静岡県公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "230006",
+   "name": "愛知県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.pref.aichi.jp/site/gikai/gikai-gaiyo.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "240001",
+   "name": "三重県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "三重県議会事務局",
+     "phone": "059-224-2877",
+     "email": "gikaik@pref.mie.lg.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.pref.mie.lg.jp/KENGIKAI/08114011760.htm",
+     "evidence": "議会事務局 電話:059-224-2877/ファクス:05",
+     "note": "ページの題名：三重県議会 請願と陳情の受付／同じ組織のほかの番号：059-224-2879"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "250007",
+   "name": "滋賀県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "滋賀県議会事務局議事課",
+     "phone": "077-528-4090",
+     "email": "gikai@pref.shiga.lg.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.shigaken-gikai.jp/seiganchinjo.asp",
+     "evidence": "議会事務局議事課 電話番号:077-528-4090",
+     "note": "ページの題名：請願・陳情の提出について|滋賀県議会／同じ組織のほかの番号：077-528-4091"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "260002",
+   "name": "京都府",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "京都府議会事務局委員会課調査係",
+     "phone": "075-414-5541",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.pref.kyoto.jp/gikai/oshirase/segan/index.html",
+     "evidence": "京都府議会事務局委員会課調査係 京都市上京区下立売通新町西入 電話番号:075-414-5541",
+     "note": "ページの題名：京都府議会/請願・陳情のご案内"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "270008",
+   "name": "大阪府",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "大阪府議会事務局 議事課",
+     "phone": "06-6944-9351",
+     "email": null,
+     "form_url": null,
+     "postal_code": "540-8570",
+     "postal_address": "大阪市中央区大手前2丁目1-22",
+     "hours": null,
+     "source_url": "https://www.pref.osaka.lg.jp/o170020/gikai_giji/oshirase/seigan.html",
+     "evidence": "大阪府議会事務局 議事課 委員会・記録グループ 電話番号:06-6944-9351",
+     "note": "ページの題名：請願・陳情の提出/大阪府(おおさかふ)ホームページ [Osaka Prefectural Government]"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "280003",
+   "name": "兵庫県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "兵庫県議会事務局議事課",
+     "phone": "078-362-3714",
+     "email": "Gikaigijika@pref.hyogo.lg.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://web.pref.hyogo.lg.jp/gikai/goannai/chinjosegan.html",
+     "evidence": "兵庫県議会事務局議事課 Tel078-362-3714(直通)",
+     "note": "ページの題名：兵庫県議会/陳情・請願の案内／同じ組織のほかの番号：078-341-7711"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "290009",
+   "name": "奈良県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.pref.nara.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "300004",
+   "name": "和歌山県",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.pref.wakayama.lg.jp/prefg/200100/cms/d00201359.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

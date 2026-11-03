@@ -1,0 +1,757 @@
+{
+ "batch": "petition-muni-01-5",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "015202",
+   "name": "幌延町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.horonobe.lg.jp/www4/section/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "015431",
+   "name": "美幌町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "美幌町議会事務局",
+     "phone": "0152-77-6559",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.bihoro.hokkaido.jp/site/gikai/9712.html",
+     "evidence": "議会事務局 〒092-8650 北海道網走郡美幌町字東2条北2丁目25番地 Tel:0152-77-6559",
+     "note": "ページの題名：請願・陳情 - 美幌町議会 - 美幌町公式ホームページ(議会)"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "015440",
+   "name": "津別町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "津別町議会事務局",
+     "phone": "0152-77-8393",
+     "email": null,
+     "form_url": null,
+     "postal_code": "092-0292",
+     "postal_address": "北海道網走郡津別町字幸町41",
+     "hours": null,
+     "source_url": "https://www.town.tsubetsu.hokkaido.jp/choseijoho/tsubetsugikai/1743.html",
+     "evidence": "議会事務局 〒092-0292 北海道網走郡津別町字幸町41 電話番号:0152-77-8393 ファクス番号:",
+     "note": "ページの題名：請願・陳情のしかた/つべつ 緑のふるさと 愛林のまち津別町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "015458",
+   "name": "斜里町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "斜里町議会",
+     "phone": "0152-26-8392",
+     "email": "gikai@sharitown.net",
+     "form_url": null,
+     "postal_code": "099-4192",
+     "postal_address": "北海道斜里郡斜里町本町12番地",
+     "hours": null,
+     "source_url": "http://gikai-sharitown.net/seigan.html",
+     "evidence": "議会 〒099-4192 北海道斜里郡斜里町本町12番地 電話:0152-26-8392",
+     "note": "ページの題名：請願・陳情・要望 | 斜里町議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "015466",
+   "name": "清里町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "清里町議会事務局",
+     "phone": "0152-25-2188",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kiyosato.hokkaido.jp/administration/?content=360",
+     "evidence": "議会事務局 〒099-4492 北海道斜里郡清里町羽衣町13番地 電話:0152-25-2188",
+     "note": "ページの題名：請願と陳情|清里町議会|清里町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "015474",
+   "name": "小清水町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "小清水町議会",
+     "phone": "0152-62-4477",
+     "email": null,
+     "form_url": null,
+     "postal_code": "099-3698",
+     "postal_address": "北海道斜里郡小清水町元町2丁目1番1号",
+     "hours": null,
+     "source_url": "https://www.town.koshimizu.hokkaido.jp/gikai/detail/00000323.html",
+     "evidence": "議会 〒099-3698 北海道斜里郡小清水町元町2丁目1番1号 電話 0152-62-4477",
+     "note": "ページの題名：請願・陳情について | 小清水町議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "015491",
+   "name": "訓子府町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kunneppu.hokkaido.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "015504",
+   "name": "置戸町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.oketo.hokkaido.jp/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "015521",
+   "name": "佐呂間町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.saroma.hokkaido.jp/gikai/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "015555",
+   "name": "遠軽町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://engaru.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "015598",
+   "name": "湧別町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.yubetsu.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "015601",
+   "name": "滝上町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.takinoue.hokkaido.jp/chosei/chocho/tyoutyousyuunin/20260901.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "015610",
+   "name": "興部町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.okoppe.lg.jp/cms/section/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "015628",
+   "name": "西興部村",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.nishiokoppe.lg.jp/section/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "015636",
+   "name": "雄武町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "雄武町議会事務局",
+     "phone": "0158-84-2121",
+     "email": null,
+     "form_url": null,
+     "postal_code": "098-1792",
+     "postal_address": "北海道紋別郡雄武町本町",
+     "hours": null,
+     "source_url": "https://www.town.oumu.hokkaido.jp/gyoseijoho/omuchogikai/886.html",
+     "evidence": "議会事務局 〒098-1792 北海道紋別郡雄武町本町 電話番号:0158-84-2121",
+     "note": "ページの題名：請願・陳情の手続き/北海道雄武町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "015644",
+   "name": "大空町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ozora.hokkaido.jp/machinoshirase/chogikai/3/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "015717",
+   "name": "豊浦町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.toyoura.hokkaido.jp/hotnews/detail/00006914.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "015750",
+   "name": "壮瞥町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.sobetsu.lg.jp/gikai.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "015784",
+   "name": "白老町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shiraoi.hokkaido.jp/docs/page2014070900014.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "015814",
+   "name": "厚真町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "厚真町議会事務局",
+     "phone": "0145-27-2485",
+     "email": null,
+     "form_url": null,
+     "postal_code": "059-1692",
+     "postal_address": "北海道勇払郡厚真町京町120番地",
+     "hours": null,
+     "source_url": "https://www.town.atsuma.lg.jp/site/gikai/1559.html",
+     "evidence": "議会事務局代表 〒059-1692北海道勇払郡厚真町京町120番地 Tel:0145-27-2485Fax:0145",
+     "note": "ページの題名：請願・陳情 - 厚真町議会 - 北海道厚真町(議会事務局)"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "015849",
+   "name": "洞爺湖町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.town.toyako.hokkaido.jp/town_administration/town_council",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "015857",
+   "name": "安平町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.abira.lg.jp/gyosei/renraku",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "015865",
+   "name": "むかわ町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.mukawa.lg.jp/1045.htm",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016012",
+   "name": "日高町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "日高町議会グループ",
+     "phone": "01456-2-6500",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hidaka.hokkaido.jp/administration/?content=306",
+     "evidence": "議会グループ 〒059-2192 北海道沙流郡日高町門別本町210番地の1 電話:01456-2-6500",
+     "note": "ページの題名：請願と陳情について|日高町議会|北海道日高町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016021",
+   "name": "平取町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.biratori.hokkaido.jp/choseijoho/biratorichogikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016047",
+   "name": "新冠町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "新冠町議会事務グループ",
+     "phone": "0146-47-2559",
+     "email": "gikai@niikappu.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.niikappu.jp/gyose/gikai/segan.html",
+     "evidence": "議会事務グループ 電話:0146-47-2559 FAX:014",
+     "note": "ページの題名：請願・陳情の提出|新冠町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016071",
+   "name": "浦河町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.urakawa.hokkaido.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016080",
+   "name": "様似町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.samani.jp/news/section10/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016098",
+   "name": "えりも町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.erimo.lg.jp/section/gikai/sg6h940000007bb0.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "016101",
+   "name": "新ひだか町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "新ひだか町議会事務局",
+     "phone": "0146-49-0313",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.shinhidaka-hokkaido.jp/gikai/detail/00000180.html",
+     "evidence": "議会事務局 電話:0146-49-0313",
+     "note": "ページの題名：請願・陳情 | 新ひだか町議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

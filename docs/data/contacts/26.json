@@ -47,6 +47,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "260002-petition",
+    "type": "petition",
+    "department": "京都府議会事務局委員会課調査係",
+    "phone": "075-414-5541",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.pref.kyoto.jp/gikai/oshirase/segan/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -200,6 +215,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "262021-petition",
+    "type": "petition",
+    "department": "舞鶴市役所議会事務局総務課",
+    "phone": "0773-66-1060",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.maizuru.kyoto.jp/sigikai/0000001207.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -304,6 +334,21 @@
     "note": null
    },
    {
+    "id": "262048-petition",
+    "type": "petition",
+    "department": "宇治市議会事務局",
+    "phone": "0774-20-8747",
+    "email": null,
+    "form_url": null,
+    "postal_code": "611-8501",
+    "postal_address": "京都府宇治市宇治琵琶33番地",
+    "hours": null,
+    "source_url": "https://www.city.uji.kyoto.jp/soshiki/2/3175.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "262048-education",
     "type": "education",
     "department": "教育総務課",
@@ -365,6 +410,21 @@
     "postal_address": "京都府宮津市字柳縄手345番地の1",
     "hours": null,
     "source_url": "https://www.city.miyazu.kyoto.jp/site/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "262056-petition",
+    "type": "petition",
+    "department": "宮津市議会事務局",
+    "phone": "0772-45-1639",
+    "email": null,
+    "form_url": null,
+    "postal_code": "626-8501",
+    "postal_address": "京都府宮津市字柳縄手345番地の1",
+    "hours": null,
+    "source_url": "https://www.city.miyazu.kyoto.jp/site/gikai/5670.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -470,6 +530,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "262072-petition",
+    "type": "petition",
+    "department": "城陽市議会事務局",
+    "phone": "0774-56-4000",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.joyo.kyoto.jp/gikai/gikai/seigan.htm",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -518,6 +593,21 @@
     "postal_address": "京都府向日市寺戸町中野20番地",
     "hours": null,
     "source_url": "https://www.city.muko.kyoto.jp/life/5/30/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "262081-petition",
+    "type": "petition",
+    "department": "向日市議会事務局",
+    "phone": "075-874-3540",
+    "email": null,
+    "form_url": null,
+    "postal_code": "617-8665",
+    "postal_address": "京都府向日市寺戸町中野20番地",
+    "hours": null,
+    "source_url": "https://www.city.muko.kyoto.jp/site/shigikai/1107.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -587,6 +677,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "262099-petition",
+    "type": "petition",
+    "department": "長岡京市議会事務局議事調査係",
+    "phone": "075-955-9731",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.nagaokakyo.lg.jp/0000000872.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -638,6 +743,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "262102-petition",
+    "type": "petition",
+    "department": "八幡市議会事務局",
+    "phone": "075-983-5532",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.yawata.kyoto.jp/0000000202.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -679,6 +799,21 @@
     "id": "262111-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0774-64-1380",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kyotanabe.lg.jp/0000000397.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "262111-petition",
+    "type": "petition",
+    "department": "京田辺市議会事務局",
     "phone": "0774-64-1380",
     "email": null,
     "form_url": null,
@@ -806,6 +941,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "262137-petition",
+    "type": "petition",
+    "department": "南丹市議会事務局",
+    "phone": "0771-68-0059",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.nantan.kyoto.jp/www/gove/144/006/000/index_70343.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -847,6 +997,21 @@
     "id": "262145-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0774-75-1240",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kizugawa.lg.jp/0000001663.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "262145-petition",
+    "type": "petition",
+    "department": "木津川市議会事務局",
     "phone": "0774-75-1240",
     "email": null,
     "form_url": null,
@@ -956,6 +1121,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.town.kumiyama.lg.jp/0000000681.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "263222-petition",
+    "type": "petition",
+    "department": "久御山町議会事務局",
+    "phone": "075-631-9996",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kumiyama.lg.jp/0000000151.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1165,6 +1345,21 @@
     "note": null
    },
    {
+    "id": "263656-petition",
+    "type": "petition",
+    "department": "和束町議会事務局",
+    "phone": "0774-78-3003",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.wazuka.lg.jp/kakukanogoannai/gikaijimukyoku/machigikai/5/786.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "263656-education",
     "type": "education",
     "department": "教育委員会",
@@ -1226,6 +1421,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.town.seika.kyoto.jp/gikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "263664-petition",
+    "type": "petition",
+    "department": "精華町議会",
+    "phone": "0774-95-1908",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.seika.kyoto.jp/gikai/about/chinjou_seigan/index.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null

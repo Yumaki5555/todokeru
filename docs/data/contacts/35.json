@@ -47,6 +47,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "350001-petition",
+    "type": "petition",
+    "department": "山口県議会事務局議事調査課",
+    "phone": "083-933-4130",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.pref.yamaguchi.lg.jp/site/gikai/25273.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -97,6 +112,21 @@
     "source_url": "https://www.city.shimonoseki.lg.jp/site/gikai/",
     "verified_at": null,
     "status": "unverified",
+    "note": null
+   },
+   {
+    "id": "352012-petition",
+    "type": "petition",
+    "department": "下関市議会 議事課",
+    "phone": "083-231-4121",
+    "email": null,
+    "form_url": null,
+    "postal_code": "750-8521",
+    "postal_address": "下関市南部町1番1号",
+    "hours": null,
+    "source_url": "https://www.city.shimonoseki.lg.jp/site/gikai/3010.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -150,6 +180,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "352021-petition",
+    "type": "petition",
+    "department": "宇部市議会 議事総務課",
+    "phone": "0836-34-8805",
+    "email": null,
+    "form_url": null,
+    "postal_code": "755-8601",
+    "postal_address": "宇部市常盤町一丁目7番1号",
+    "hours": null,
+    "source_url": "https://www.city.ube.yamaguchi.jp/shisei/1006704/1006804.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -198,6 +243,21 @@
     "postal_address": "山口県山口市亀山町2番1号",
     "hours": null,
     "source_url": "https://www.city.yamaguchi.lg.jp/site/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "352039-petition",
+    "type": "petition",
+    "department": "山口市議会 議事担当",
+    "phone": "083-934-2855",
+    "email": null,
+    "form_url": null,
+    "postal_code": "753-8650",
+    "postal_address": "山口市亀山町2番1号 山口市役所本庁舎6階",
+    "hours": null,
+    "source_url": "https://www.city.yamaguchi.lg.jp/site/gikai/114510.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -267,6 +327,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "352047-petition",
+    "type": "petition",
+    "department": "萩市議会 議事係",
+    "phone": "0838-25-3365",
+    "email": null,
+    "form_url": null,
+    "postal_code": "758-8555",
+    "postal_address": "山口県萩市大字江向510番地",
+    "hours": null,
+    "source_url": "https://www.city.hagi.lg.jp/site/gikai/12.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -315,6 +390,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.hofu.yamaguchi.jp/site/sigikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "352063-petition",
+    "type": "petition",
+    "department": "防府市議会",
+    "phone": "0835-25-2182",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.hofu.yamaguchi.jp/site/sigikai/seigan-tinjyo.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -368,6 +458,21 @@
     "source_url": "https://www.city.kudamatsu.lg.jp/gikai/index.html",
     "verified_at": null,
     "status": "unverified",
+    "note": null
+   },
+   {
+    "id": "352071-petition",
+    "type": "petition",
+    "department": "下松市議会 議事総務課議事総務係",
+    "phone": "0833-45-1874",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kudamatsu.lg.jp/gikai/gikai/seigan.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -486,6 +591,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "352101-petition",
+    "type": "petition",
+    "department": "光市議会事務局",
+    "phone": "0833-72-1611",
+    "email": null,
+    "form_url": null,
+    "postal_code": "743-8501",
+    "postal_address": "光市中央六丁目1番1号",
+    "hours": null,
+    "source_url": "https://www.city.hikari.lg.jp/shisei/shimin/shigikai/8732.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -534,6 +654,21 @@
     "postal_address": "長門市東深川1339番地2",
     "hours": null,
     "source_url": "https://www.city.nagato.yamaguchi.jp/adv/ba.php?id=24",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "352110-petition",
+    "type": "petition",
+    "department": "長門市議会事務局",
+    "phone": "0837-23-1248",
+    "email": null,
+    "form_url": null,
+    "postal_code": "759-4192",
+    "postal_address": "長門市東深川1339番地2",
+    "hours": null,
+    "source_url": "https://www.city.nagato.yamaguchi.jp/site/gikai/1462.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -692,6 +827,21 @@
     "note": null
    },
    {
+    "id": "352152-petition",
+    "type": "petition",
+    "department": "周南市議会 議事担当",
+    "phone": "0834-22-8503",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.shunan.lg.jp/site/gk/4718.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "352152-education",
     "type": "education",
     "department": "教育政策担当",
@@ -756,6 +906,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "352161-petition",
+    "type": "petition",
+    "department": "山陽小野田市議会事務局",
+    "phone": "0836-82-1182",
+    "email": null,
+    "form_url": null,
+    "postal_code": "756-8601",
+    "postal_address": "山口県山陽小野田市日の出一丁目1番1号 庁舎3階",
+    "hours": null,
+    "source_url": "https://www.city.sanyo-onoda.lg.jp/site/sigikai/seigan.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -807,6 +972,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "353051-petition",
+    "type": "petition",
+    "department": "周防大島町議会事務局議事課",
+    "phone": "0820-74-1003",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.suo-oshima.lg.jp/site/gikai/2389.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -848,6 +1028,21 @@
     "id": "353213-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0827-52-2137",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.waki.lg.jp/site/gikai/332.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "353213-petition",
+    "type": "petition",
+    "department": "和木町議会事務局",
     "phone": "0827-52-2137",
     "email": null,
     "form_url": null,

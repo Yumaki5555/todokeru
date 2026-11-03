@@ -98,6 +98,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "422011-petition",
+    "type": "petition",
+    "department": "長崎市議会事務局議事調査課",
+    "phone": "095-829-1200",
+    "email": null,
+    "form_url": null,
+    "postal_code": "850-8685",
+    "postal_address": "長崎県長崎市魚の町4-1",
+    "hours": null,
+    "source_url": "https://www.city.nagasaki.lg.jp/site/gikai/4250.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -538,6 +553,21 @@
     "note": null
    },
    {
+    "id": "422100-petition",
+    "type": "petition",
+    "department": "壱岐市議会事務局",
+    "phone": "0920-42-1114",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.iki.nagasaki.jp/soshiki/gikai_jimukyoku/shigikai/566.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "422100-education",
     "type": "education",
     "department": "教育総務課",
@@ -599,6 +629,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.goto.nagasaki.jp/s001/010/010/010/020/20200501083000.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "422118-petition",
+    "type": "petition",
+    "department": "五島市議会事務局 庶務係",
+    "phone": "0959-72-7923",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.goto.nagasaki.jp/s001/010/010/010/070/20190316024455.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -877,6 +922,21 @@
     "id": "423084-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "095-882-3959",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.togitsu.nagasaki.jp/gyoseijoho/chogikai/2693.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "423084-petition",
+    "type": "petition",
+    "department": "時津町議会事務局",
     "phone": "095-882-3959",
     "email": null,
     "form_url": null,

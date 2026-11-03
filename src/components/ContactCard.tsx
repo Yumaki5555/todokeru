@@ -1,12 +1,14 @@
-// 窓口検索の結果：1つの機関・自治体と、その窓口（代表・広聴・議会事務局。載せた地域には警察・教育委員会も）
+// 窓口検索の結果：1つの機関・自治体と、その窓口（代表・広聴・議会事務局。載せたところには請願・陳情の届け先・警察・教育委員会も）
 import { useEffect, useState, type ReactNode } from 'react';
 import type { Agency, Contact, ContactType, Municipality, Prefecture } from '../types';
 import {
   AGENCY_CATEGORY_LABEL,
   AUTO_MATCHED_NOTE,
   CONTACT_TYPE_INFO,
+  EXTRA_TYPES_FOR_DIET,
   EXTRA_TYPES_FOR_MUNI,
   EXTRA_TYPES_FOR_PREF,
+  PETITION_GUIDE_LABEL,
   STATUS_LABEL,
   TYPES_FOR_AGENCY,
   TYPES_FOR_DIET,
@@ -76,8 +78,15 @@ export function ContactCard({ entity }: { entity: Entity }) {
     entity.kind === 'agency' ? (entity.agency.category === 'diet' ? TYPES_FOR_DIET : TYPES_FOR_AGENCY) : TYPES_FOR_LOCAL;
   const name = entity.kind === 'agency' ? entity.agency.name : entity.kind === 'pref' ? entity.pref.name : entity.muni.name;
   const hasBase = contacts.some((c) => types.includes(c.type));
-  // 警察・教育委員会は、連絡先を載せたときだけ欄を出す（まだ調べていない全国の自治体に「未調査」を並べない）
-  const extraTypes = entity.kind === 'pref' ? EXTRA_TYPES_FOR_PREF : entity.kind === 'muni' ? EXTRA_TYPES_FOR_MUNI : [];
+  // 請願・陳情の届け先・警察・教育委員会は、連絡先を載せたときだけ欄を出す（まだ調べていない全国の自治体に「未調査」を並べない）
+  const extraTypes =
+    entity.kind === 'pref'
+      ? EXTRA_TYPES_FOR_PREF
+      : entity.kind === 'muni'
+        ? EXTRA_TYPES_FOR_MUNI
+        : entity.agency.category === 'diet'
+          ? EXTRA_TYPES_FOR_DIET
+          : [];
   const extras = extraTypes
     .filter((t) => contacts.some((c) => c.type === t))
     .map((t) => ({ type: t, contacts: contacts.filter((c) => c.type === t), from: undefined as string | undefined }));
@@ -264,6 +273,22 @@ function ContactView({ c }: { c: Contact }) {
       </p>
       {c.status === 'review' && <p className="contact-warn">情報が変わっている可能性があります。公式ページで確かめてください。</p>}
       {c.status === 'auto_matched' && <p className="contact-warn">{AUTO_MATCHED_NOTE}</p>}
+      {/* 請願・陳情の届け先：出典は議会の請願・陳情のページなので、書き方・出し方の案内として先に出す */}
+      {c.type === 'petition' && c.source_url && (
+        <ul className="contact-actions">
+          <li>
+            <a className="act" href={c.source_url}>
+              <Icon name="petition" />
+              <span className="act-text">
+                <span className="act-label">公式ページの案内</span>
+                <b>{PETITION_GUIDE_LABEL}</b>
+              </span>
+              <Icon name="external" className="act-ext" />
+              <span className="sr-only">（外部サイト）</span>
+            </a>
+          </li>
+        </ul>
+      )}
       {/* 電話・メール・フォームは大きな操作ボタンにする */}
       <ContactActions phone={c.phone} email={c.email} formUrl={c.form_url} formViaPage={c.form_via_page} sourceUrl={c.source_url} />
       {/* 電話の窓口には台本だけ、メール・フォームの窓口には文面だけ。住所しかない窓口は手紙の文面 */}

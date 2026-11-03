@@ -100,6 +100,21 @@
     "note": null
    },
    {
+    "id": "302015-petition",
+    "type": "petition",
+    "department": "和歌山市議会政策課",
+    "phone": "073-435-1119",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.wakayama.wakayama.jp/gikai/1000430/1000438.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "302015-education",
     "type": "education",
     "department": "教育政策課",
@@ -164,6 +179,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "302023-petition",
+    "type": "petition",
+    "department": "海南市議会事務局",
+    "phone": "073-483-8700",
+    "email": "gikaij@city.kainan.lg.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kainan.lg.jp/kakubusho/gikaijimukyoku/1451976729685.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -205,6 +235,21 @@
     "id": "302031-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0736-33-6107",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.hashimoto.lg.jp/shigikai/sonotaannai/seigantinjou.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "302031-petition",
+    "type": "petition",
+    "department": "橋本市議会事務局",
     "phone": "0736-33-6107",
     "email": null,
     "form_url": null,
@@ -263,6 +308,21 @@
     "postal_address": "和歌山県有田市箕島50",
     "hours": null,
     "source_url": "https://www.city.arida.lg.jp/shigikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "302040-petition",
+    "type": "petition",
+    "department": "有田市議会事務局",
+    "phone": "0737-83-2443",
+    "email": null,
+    "form_url": null,
+    "postal_code": "649-0392",
+    "postal_address": "和歌山県有田市箕島50",
+    "hours": null,
+    "source_url": "https://www.city.arida.lg.jp/shigikai/1001745.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -472,6 +532,21 @@
     "note": null
    },
    {
+    "id": "302082-petition",
+    "type": "petition",
+    "department": "紀の川市議会 議事調査課",
+    "phone": "0736-77-2511",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kinokawa.lg.jp/001/seigantinjyou.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "302082-education",
     "type": "education",
     "department": "教育総務課",
@@ -587,6 +662,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "303046-petition",
+    "type": "petition",
+    "department": "紀美野町議会事務局",
+    "phone": "073-489-5914",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kimino.wakayama.jp/sagasu/gikaijimukyoku/137.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -635,6 +725,21 @@
     "postal_address": "和歌山県伊都郡かつらぎ町丁ノ町2160番地",
     "hours": null,
     "source_url": "https://www.town.katsuragi.wakayama.jp/gikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "303411-petition",
+    "type": "petition",
+    "department": "かつらぎ町議会",
+    "phone": "0736-22-0300",
+    "email": null,
+    "form_url": null,
+    "postal_code": "649-7192",
+    "postal_address": "和歌山県伊都郡かつらぎ町丁ノ町2160番地",
+    "hours": null,
+    "source_url": "https://www.town.katsuragi.wakayama.jp/gikai/20180220164034.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -689,6 +794,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "303437-petition",
+    "type": "petition",
+    "department": "九度山町議会事務局",
+    "phone": "0736-54-2019",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kudoyama.lg.jp/gikai/seigan.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    },
    {
     "id": "303437-education",
@@ -806,6 +926,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "303615-petition",
+    "type": "petition",
+    "department": "湯浅町議会事務局",
+    "phone": "0737-64-1118",
+    "email": null,
+    "form_url": null,
+    "postal_code": "643-0002",
+    "postal_address": "和歌山県有田郡湯浅町青木668-1",
+    "hours": null,
+    "source_url": "https://www.town.yuasa.wakayama.jp/site/gikai/3729.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -913,6 +1048,21 @@
     "id": "303666-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0737-22-3294",
+    "email": null,
+    "form_url": null,
+    "postal_code": "643-0021",
+    "postal_address": "和歌山県有田郡有田川町大字下津野2018-4",
+    "hours": null,
+    "source_url": "https://www.town.aridagawa.lg.jp/top/kakuka/gikai/osirase/1022.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "303666-petition",
+    "type": "petition",
+    "department": "有田川町議会事務局",
     "phone": "0737-22-3294",
     "email": null,
     "form_url": null,
@@ -1229,6 +1379,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "303925-petition",
+    "type": "petition",
+    "department": "日高川町議会事務局",
+    "phone": "0738-22-9504",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.hidakagawa.lg.jp/gikai/seigan.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1383,6 +1548,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "304069-petition",
+    "type": "petition",
+    "department": "すさみ町議会",
+    "phone": "0739-55-4808",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.susami.lg.jp/tyousei/07/2023032400035.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1431,6 +1611,21 @@
     "postal_address": "和歌山県東牟婁郡那智勝浦町大字築地7丁目1-1",
     "hours": null,
     "source_url": "https://www.town.nachikatsuura.wakayama.jp/divlist",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "304212-petition",
+    "type": "petition",
+    "department": "那智勝浦町議会事務局",
+    "phone": "0735-52-0938",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.nachikatsuura.wakayama.jp/info/127",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1650,6 +1845,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.town.kushimoto.wakayama.jp/gikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "304280-petition",
+    "type": "petition",
+    "department": "串本町議会事務局",
+    "phone": "0735-67-7261",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kushimoto.wakayama.jp/gikai/seigan.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null

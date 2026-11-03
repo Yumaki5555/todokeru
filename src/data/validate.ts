@@ -12,7 +12,7 @@ import type {
   Prefecture,
 } from '../types';
 
-export const CONTACT_TYPES: ContactType[] = ['general', 'feedback', 'assembly', 'police', 'education', 'department'];
+export const CONTACT_TYPES: ContactType[] = ['general', 'feedback', 'assembly', 'petition', 'police', 'education', 'department'];
 export const CONTACT_STATUSES: ContactStatus[] = ['verified', 'unverified', 'review', 'unavailable', 'discontinued', 'auto_matched'];
 
 /** 全国地方公共団体コード（5けた）の検査数字を足して6けたにする */

@@ -47,6 +47,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "430005-petition",
+    "type": "petition",
+    "department": "熊本県議会事務局",
+    "phone": "096-333-2614",
+    "email": null,
+    "form_url": null,
+    "postal_code": "862-8570",
+    "postal_address": "熊本県熊本市中央区水前寺6丁目18番1号",
+    "hours": null,
+    "source_url": "https://www.pref.kumamoto.jp/site/gikai/7686.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -252,6 +267,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "432041-petition",
+    "type": "petition",
+    "department": "荒尾市議会",
+    "phone": "0968-63-1628",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.arao.lg.jp/shisei/senkyo-gikai-kansa/gikai/chinjo/page305.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -354,6 +384,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "432067-petition",
+    "type": "petition",
+    "department": "玉名市議会事務局",
+    "phone": "0968-75-1155",
+    "email": null,
+    "form_url": null,
+    "postal_code": "865-8501",
+    "postal_address": "熊本県玉名市岩崎163",
+    "hours": null,
+    "source_url": "https://www.city.tamana.lg.jp/q/aview/450/847.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -402,6 +447,21 @@
     "postal_address": "熊本県山鹿市山鹿987-3",
     "hours": null,
     "source_url": "https://www.city.yamaga.kumamoto.jp/gikai/default.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "432083-petition",
+    "type": "petition",
+    "department": "山鹿市議会事務局",
+    "phone": "0968-43-1634",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.yamaga.kumamoto.jp/gikai/kiji00320/index.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -461,6 +521,21 @@
     "id": "432105-assembly",
     "type": "assembly",
     "department": "議会係",
+    "phone": "0968-25-2325",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kikuchi.lg.jp/article/view/1423/1041.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "432105-petition",
+    "type": "petition",
+    "department": "菊池市議会係",
     "phone": "0968-25-2325",
     "email": null,
     "form_url": null,
@@ -573,6 +648,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "432121-petition",
+    "type": "petition",
+    "department": "上天草市議会事務局",
+    "phone": "0964-26-5536",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kamiamakusa.kumamoto.jp/q/aview/106/7562.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -675,6 +765,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "432148-petition",
+    "type": "petition",
+    "department": "阿蘇市議会事務局",
+    "phone": "0967-22-3279",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.aso.kumamoto.jp/municipal/city_council/city_council/petition/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -774,6 +879,21 @@
     "postal_address": "熊本県合志市竹迫2140番地",
     "hours": null,
     "source_url": "https://www.city.koshi.lg.jp/gikai/default.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "432164-petition",
+    "type": "petition",
+    "department": "合志市議会事務局",
+    "phone": "096-248-2038",
+    "email": null,
+    "form_url": null,
+    "postal_code": "861-1195",
+    "postal_address": "熊本県合志市竹迫2140番地",
+    "hours": null,
+    "source_url": "https://www.city.koshi.lg.jp/gikai/kiji00313262/index.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -930,6 +1050,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "433675-petition",
+    "type": "petition",
+    "department": "南関町議会事務局",
+    "phone": "0968-57-8508",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.nankan.lg.jp/tyosei/gikai/gaiyo/1779.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1083,6 +1218,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "434035-petition",
+    "type": "petition",
+    "department": "大津町議会事務局",
+    "phone": "096-293-8989",
+    "email": null,
+    "form_url": null,
+    "postal_code": "869-1292",
+    "postal_address": "熊本県菊池郡大津町大字大津1233",
+    "hours": null,
+    "source_url": "https://www.town.ozu.kumamoto.jp/site/ozugikai/2604.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1134,6 +1284,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "434043-petition",
+    "type": "petition",
+    "department": "菊陽町議会事務局",
+    "phone": "096-232-4919",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kikuyo.lg.jp/gikai/kiji003232/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1175,6 +1340,21 @@
     "id": "434230-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0967-42-1125",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.minamioguni.lg.jp/gikai/seigan-chinjou.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "434230-petition",
+    "type": "petition",
+    "department": "南小国町議会事務局",
     "phone": "0967-42-1125",
     "email": null,
     "form_url": null,
@@ -1508,6 +1688,21 @@
     "note": null
    },
    {
+    "id": "434418-petition",
+    "type": "petition",
+    "department": "御船町議会",
+    "phone": "096-282-1386",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.mifune.kumamoto.jp/gikai/page5816.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "434418-education",
     "type": "education",
     "department": "教育委員会",
@@ -1569,6 +1764,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.town.kumamoto-kashima.lg.jp/q/aview/130/6379.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "434426-petition",
+    "type": "petition",
+    "department": "嘉島町議会事務局",
+    "phone": "096-237-5525",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kumamoto-kashima.lg.jp/q/aview/269/5131.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1715,6 +1925,21 @@
     "id": "434477-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "0967-72-1289",
+    "email": null,
+    "form_url": null,
+    "postal_code": "861-3592",
+    "postal_address": "熊本県上益城郡山都町浜町6番地",
+    "hours": null,
+    "source_url": "https://www.town.kumamoto-yamato.lg.jp/gikai/list00560.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "434477-petition",
+    "type": "petition",
+    "department": "山都町議会事務局",
     "phone": "0967-72-1289",
     "email": null,
     "form_url": null,

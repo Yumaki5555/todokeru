@@ -1,0 +1,482 @@
+{
+ "batch": "petition-muni-25-1",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "252018",
+   "name": "大津市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.otsu.lg.jp/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "252026",
+   "name": "彦根市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "彦根市議会課",
+     "phone": "0749-30-6130",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hikone.lg.jp/shisei/gikai/12/5797.html",
+     "evidence": "議会課 電話:0749-30-6130",
+     "note": "ページの題名：請願・陳情/彦根市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "252034",
+   "name": "長浜市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "長浜市議会事務局",
+     "phone": "0749-65-6547",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nagahama.lg.jp/0000002100.html",
+     "evidence": "議会事務局 電話: 0749-65-6547",
+     "note": "ページの題名：請願・陳情 | 長浜市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "252042",
+   "name": "近江八幡市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.omihachiman.lg.jp/soshiki/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "252069",
+   "name": "草津市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "草津市議会 議事庶務係",
+     "phone": "077-561-2413",
+     "email": null,
+     "form_url": null,
+     "postal_code": "525-8588",
+     "postal_address": "滋賀県草津市草津三丁目13番30号",
+     "hours": null,
+     "source_url": "https://www.city.kusatsu.shiga.jp/shigikai/guide/seigan-chinjyo.html",
+     "evidence": "議事庶務係 〒525-8588 滋賀県草津市草津三丁目13番30号 電話番号:077-561-2413",
+     "note": "ページの題名：請願・陳情について|草津市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "252077",
+   "name": "守山市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "守山市議会事務局",
+     "phone": "077-582-1151",
+     "email": null,
+     "form_url": null,
+     "postal_code": "524-8585",
+     "postal_address": "滋賀県守山市吉身二丁目5番22号",
+     "hours": null,
+     "source_url": "https://www.city.moriyama.lg.jp/shiseijouhou/shigikai/1003141/1003356.html",
+     "evidence": "議会事務局 〒524-8585 滋賀県守山市吉身二丁目5番22号 電話番号:077-582-1151 ファクス番号:",
+     "note": "ページの題名：請願・陳情|滋賀県守山市公式ウェブサイト"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "252085",
+   "name": "栗東市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.ritto.lg.jp/shigikai/seigantinzyou/index.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "252093",
+   "name": "甲賀市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "甲賀市議会事務局",
+     "phone": "0748-69-2258",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.koka.lg.jp/item/24971.htm",
+     "evidence": "議会事務局 所在地/〒 528-850…番地 電話番号/ 0748-69-22580748-69-2258 FAX/074",
+     "note": "ページの題名：請願・陳情について/甲賀市議会"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "252107",
+   "name": "野洲市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "野洲市議会事務局",
+     "phone": "077-587-6034",
+     "email": null,
+     "form_url": null,
+     "postal_code": "520-2395",
+     "postal_address": "滋賀県野洲市小篠原2100番地1 本館3階",
+     "hours": null,
+     "source_url": "https://www.city.yasu.lg.jp/soshiki/gikai/seigan/1450765797831.html",
+     "evidence": "議会事務局 〒520-2395 滋賀県野洲市小篠原2100番地1 本館3階 電話番号 077-587-6034",
+     "note": "ページの題名：「請願・陳情」/野洲市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "252115",
+   "name": "湖南市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.shiga-konan.lg.jp/shisei/shigikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "252123",
+   "name": "高島市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.takashima.lg.jp/gyoseijoho/webshigikai/4/4378.html",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "252131",
+   "name": "東近江市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.higashiomi.shiga.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "252140",
+   "name": "米原市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "米原市議会事務局",
+     "phone": "0749-53-5134",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.maibara.lg.jp/soshiki/gikai/gikai/seigan/1911.html",
+     "evidence": "議会事務局 電話:0749-53-5134",
+     "note": "ページの題名：請願・陳情案内/米原市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "253839",
+   "name": "日野町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "日野町議会事務局",
+     "phone": "0748-52-6551",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shiga-hino.lg.jp/0000006537.html",
+     "evidence": "議会事務局事務局 電話: 0748-52-6551",
+     "note": "ページの題名：請願・陳情等の手続き | 日野町役場"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "253847",
+   "name": "竜王町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "竜王町議会事務局",
+     "phone": "0748-58-3713",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ryuoh.shiga.jp/parliament/seigan/seigan.html",
+     "evidence": "議会事務局 TEL:0748-58-3713",
+     "note": "ページの題名：|請願と陳情の仕方|竜王町|竜王町議会|"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "254258",
+   "name": "愛荘町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.aisho.shiga.jp/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "254410",
+   "name": "豊郷町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.toyosato.shiga.jp/category/32-0-0-0-0-0-0-0-0-0.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "254428",
+   "name": "甲良町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.kouratown.jp/event/2917.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "254436",
+   "name": "多賀町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "多賀町議会事務局",
+     "phone": "0749-48-8126",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.taga.lg.jp/choseijoho/tagachogikai/6/1598.html",
+     "evidence": "議会事務局 電話:0749-48-8126",
+     "note": "ページの題名：請願・陳情について/多賀町役場"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,507 @@
+{
+ "batch": "petition-muni-28-2",
+ "researched_at": "2026-11-03",
+ "method": "todokeru_tools/09_petition_batch.py（AIなし）",
+ "entities": [
+  {
+   "code": "282227",
+   "name": "養父市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.yabu.hyogo.jp/gyosei/gikai/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "282235",
+   "name": "丹波市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "丹波市議会 議事総務課",
+     "phone": "0795-82-1472",
+     "email": null,
+     "form_url": null,
+     "postal_code": "669-3692",
+     "postal_address": "兵庫県丹波市氷上町成松字甲賀1番地",
+     "hours": null,
+     "source_url": "https://www.city.tamba.lg.jp/soshiki/gijisomuka/gyomuannai/2/2_1/2952.html",
+     "evidence": "議事総務課 〒669-3692 兵庫県丹波市氷上町成松字甲賀1番地 電話番号:0795-82-1472",
+     "note": "ページの題名：請願・陳情の手続き/丹波市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "282243",
+   "name": "南あわじ市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "南あわじ市議会事務局",
+     "phone": "0799-43-5005",
+     "email": null,
+     "form_url": null,
+     "postal_code": "656-0492",
+     "postal_address": "南あわじ市市善光寺22番地1",
+     "hours": null,
+     "source_url": "https://www.city.minamiawaji.hyogo.jp/site/gikai/seigan.html",
+     "evidence": "議会事務局直通 〒656-0492南あわじ市市善光寺22番地1 Tel:(0799)43-5005Fax:(079",
+     "note": "ページの題名：請願と陳情 - 南あわじ市議会 - 南あわじ市ホームページ(議会事務局)"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "282251",
+   "name": "朝来市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "朝来市議会事務局議事係",
+     "phone": "079-672-1930",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.asago.hyogo.jp/site/gikai/list49-178.html",
+     "evidence": "議会事務局議事係 朝来市和田山町東谷213番地1 本庁舎本館 Tel:079-672-1930",
+     "note": "ページの題名：請願、陳情のしかた - 朝来市議会 - 朝来市公式ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "282260",
+   "name": "淡路市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "淡路市議会 議事課",
+     "phone": "0799-64-2502",
+     "email": null,
+     "form_url": null,
+     "postal_code": "656-2292",
+     "postal_address": "淡路市生穂新島8番地",
+     "hours": null,
+     "source_url": "https://www.city.awaji.lg.jp/site/gikai/46941.html",
+     "evidence": "議事課 〒656-2292淡路市生穂新島8番地 直通 Tel:0799-64-2502",
+     "note": "ページの題名：陳情と要望について - 淡路市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "282278",
+   "name": "宍粟市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.shiso.lg.jp/soshiki/sonotabukyoku/gikaijimukyoku/index.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "282286",
+   "name": "加東市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "加東市議会事務局",
+     "phone": "0795-43-0385",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kato.lg.jp/gikai/boutyo_seigan/1542109316548.html",
+     "evidence": "議会事務局 〒673-1493 兵庫県加東市社50番地 庁舎5階 電話番号:0795-43-0385",
+     "note": "ページの題名：請願・陳情について/加東市"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "282294",
+   "name": "たつの市",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "たつの市議会事務局 総務係",
+     "phone": "0791-64-3177",
+     "email": null,
+     "form_url": null,
+     "postal_code": "679-4192",
+     "postal_address": "兵庫県たつの市龍野町富永1005-1",
+     "hours": null,
+     "source_url": "https://www.city.tatsuno.lg.jp/soshiki/1042/gyomu/1/4/2937.html",
+     "evidence": "議会事務局 総務係へのお問い合わせ 〒679-4192 兵庫県たつの市龍野町富永1005-1 電話番号:0791-64-3177",
+     "note": "ページの題名：請願のしかた/たつの市ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "283011",
+   "name": "猪名川町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.inagawa.lg.jp/857.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "283657",
+   "name": "多可町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.taka.lg.jp/",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "283819",
+   "name": "稲美町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "稲美町議会 議事係",
+     "phone": "079-492-9147",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hyogo-inami.lg.jp/0000002214.html",
+     "evidence": "議事係)079-492-9147 ファックス:",
+     "note": "ページの題名：請願・陳情の提出方法 | 稲美町ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "283827",
+   "name": "播磨町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "播磨町議会事務局",
+     "phone": "079-435-2387",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.harima.lg.jp/gikaijimukyoku/chosejoho/gikai/segan.html",
+     "evidence": "議会事務局 住所:加古郡播磨町東本荘1丁目5番30号 電話番号:079-435-2387",
+     "note": "ページの題名：播磨町 請願と陳情"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "284424",
+   "name": "市川町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "市川町議会",
+     "phone": "0790-26-1010",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.ichikawa.lg.jp/info/69",
+     "evidence": "議会公報資料、議長会事業事務等の調査、審…-2392 市川町西川辺165-3 TEL:0790-26-1010",
+     "note": "ページの題名：兵庫県市川町 兵庫県市川町 請願・陳情"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "284432",
+   "name": "福崎町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "福崎町議会事務局",
+     "phone": "0790-22-0560",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.fukusaki.hyogo.jp/0000000857.html",
+     "evidence": "議会事務局(0790-22-0560)までお問い合わ",
+     "note": "ページの題名：議会への請願・陳情 | 福崎町／同じ組織のほかの番号：0790-27-8617"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "284467",
+   "name": "神河町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "神河町議会事務局",
+     "phone": "0790-34-0213",
+     "email": null,
+     "form_url": null,
+     "postal_code": "679-3116",
+     "postal_address": "兵庫県神崎郡神河町寺前64番地",
+     "hours": null,
+     "source_url": "https://www.town.kamikawa.hyogo.jp/0000000555.html",
+     "evidence": "議会事務局 所在地: 〒679-3116…4番地(神河町役場本庁舎3階) 電話番号: 0790-34-0213 ファックス番号",
+     "note": "ページの題名：請願と陳情の手続き | 兵庫県神河町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "284645",
+   "name": "太子町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "太子町議会",
+     "phone": "079-277-1010",
+     "email": null,
+     "form_url": null,
+     "postal_code": "671-1592",
+     "postal_address": "兵庫県揖保郡太子町鵤280番地1",
+     "hours": null,
+     "source_url": "https://www.town.hyogo-taishi.lg.jp/soshikikarasagasu/taishityougikai/seiganntinnzyou/index.html",
+     "evidence": "議会 よくあるご質問一覧 よくあるご質問…県揖保郡太子町鵤280番地1 電話番号: 079-277-1010 ファックス:",
+     "note": "ページの題名：請願・陳情/兵庫県太子町"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "284815",
+   "name": "上郡町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "found",
+     "department": "上郡町議会事務局",
+     "phone": "0791-52-3512",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kamigori.hyogo.jp/tyoseizyoho/gikai/2889.html",
+     "evidence": "議会事務局 住所:678-1292 兵庫県赤穂郡上郡町大持278 電話番号:0791-52-3512",
+     "note": "ページの題名：請願、陳情及び意見書/上郡町ホームページ"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "285013",
+   "name": "佐用町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.sayo.lg.jp/gikai/gikai/sub7.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "285854",
+   "name": "香美町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.mikata-kami.lg.jp/gyouseijouhou/yakusho-madoguchiannai/4560.html",
+     "evidence": null,
+     "note": "請願・陳情の出し方のページが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "285862",
+   "name": "新温泉町",
+   "contacts": [
+    {
+     "type": "petition",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.shinonsen.hyogo.jp/p/list/C2602/",
+     "evidence": null,
+     "note": "出し方のページに議会事務局の番号が見当たらない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  }
+ ]
+}

@@ -17,6 +17,11 @@ export const CONTACT_TYPE_INFO: Record<ContactType, { label: string; desc: strin
     label: '議会事務局',
     desc: '議会への問い合わせや、請願・陳情の手続きの確認に。議会の運営を支える事務の部署です。',
   },
+  petition: {
+    icon: 'petition',
+    label: '請願・陳情の届け先',
+    desc: '請願書・陳情書を出す先です（議会の事務の部署）。請願は原則として議員の紹介が必要で、陳情は紹介なしで出せます（扱いは議会ごとに違います）。書き方・出し方・締め切りも議会ごとに違うので、公式ページの案内で確かめてください。',
+  },
   police: {
     icon: 'shield',
     label: '警察・公安委員会',
@@ -56,7 +61,12 @@ export const AGENCY_CATEGORY_LABEL: Record<AgencyCategory, string> = {
 /** 機関・自治体の種類ごとに、表示する窓口の種類 */
 export const TYPES_FOR_LOCAL: ContactType[] = ['general', 'feedback', 'assembly'];
 /** 都道府県・市区町村で、連絡先を載せたときだけ欄を出す種類（警察は都道府県の仕事なので都道府県だけ） */
-export const EXTRA_TYPES_FOR_PREF: ContactType[] = ['police', 'education'];
-export const EXTRA_TYPES_FOR_MUNI: ContactType[] = ['education'];
+export const EXTRA_TYPES_FOR_PREF: ContactType[] = ['petition', 'police', 'education'];
+export const EXTRA_TYPES_FOR_MUNI: ContactType[] = ['petition', 'education'];
 export const TYPES_FOR_AGENCY: ContactType[] = ['general', 'feedback'];
 export const TYPES_FOR_DIET: ContactType[] = ['general'];
+/** 国会（衆議院・参議院）で、連絡先を載せたときだけ欄を出す種類 */
+export const EXTRA_TYPES_FOR_DIET: ContactType[] = ['petition'];
+
+/** 請願・陳情の届け先：出典（議会の請願・陳情のページ）へのボタンの文字 */
+export const PETITION_GUIDE_LABEL = '請願・陳情の出し方';

@@ -287,6 +287,48 @@ describe('窓口データがあるときの表示（テスト用の架空デー�
     expect(within(card).getByRole('link', { name: /03-4444-4444/ })).toBeInTheDocument();
   });
 
+  it('請願・陳情の届け先は、載せた自治体と国会にだけ欄を出し、出典の請願・陳情のページを出し方の案内として先に出す', async () => {
+    const petition: Contact = {
+      ...base,
+      id: '131083-petition',
+      type: 'petition',
+      department: 'テスト区議会事務局 議事係',
+      phone: '03-6666-6666',
+      email: null,
+      form_url: null,
+      source_url: 'https://example.jp/gikai/seigan.html',
+    };
+    dataOverrides.set('contacts/13.json', [{ municipality_code: '131083', municipality_name: '江東区', contacts: [base, petition] }]);
+    openContacts('#/contacts?code=131083');
+    let card = await screen.findByRole('article');
+    expect(await within(card).findByRole('heading', { level: 4, name: '請願・陳情の届け先' })).toBeInTheDocument();
+    const guide = within(card).getByRole('link', { name: /公式ページの案内\s*請願・陳情の出し方/ });
+    expect(guide).toHaveAttribute('href', 'https://example.jp/gikai/seigan.html');
+    expect(within(card).getByRole('link', { name: /03-6666-6666/ })).toBeInTheDocument();
+
+    dataOverrides.set('contacts/agencies.json', [
+      {
+        agency_id: 'shugiin',
+        agency_name: '衆議院',
+        contacts: [
+          { ...base, id: 'shugiin-general', email: null, form_url: null },
+          { ...petition, id: 'shugiin-petition', department: 'テスト請願課', phone: '03-7777-7777' },
+        ],
+      },
+      { agency_id: 'mhlw', agency_name: '厚生労働省', contacts: [{ ...base, id: 'mhlw-general' }, { ...petition, id: 'mhlw-petition', phone: '03-8888-8888' }] },
+    ]);
+    window.location.hash = '#/contacts?tab=agency&id=shugiin';
+    card = await screen.findByRole('article');
+    expect(await within(card).findByRole('heading', { level: 4, name: '請願・陳情の届け先' })).toBeInTheDocument();
+    expect(within(card).getByRole('link', { name: /03-7777-7777/ })).toBeInTheDocument();
+
+    window.location.hash = '#/contacts?tab=agency&id=mhlw'; // 国会以外の機関には出さない
+    card = await screen.findByRole('article');
+    expect(await within(card).findByRole('heading', { level: 3, name: '厚生労働省' })).toBeInTheDocument();
+    await within(card).findByRole('link', { name: /03-0000-0000/ });
+    expect(within(card).queryByText('請願・陳情の届け先')).not.toBeInTheDocument();
+  });
+
   it('警察・教育委員会を載せていない自治体には、その欄を出さない', async () => {
     dataOverrides.set('contacts/13.json', [{ municipality_code: '131083', municipality_name: '江東区', contacts: [base] }]);
     openContacts('#/contacts?code=131083');
@@ -294,6 +336,7 @@ describe('窓口データがあるときの表示（テスト用の架空デー�
     await within(card).findByRole('link', { name: /03-0000-0000/ });
     expect(within(card).queryByText('警察・公安委員会')).not.toBeInTheDocument();
     expect(within(card).queryByText('教育委員会')).not.toBeInTheDocument();
+    expect(within(card).queryByText('請願・陳情の届け先')).not.toBeInTheDocument();
   });
 
   it('窓口データを読めないときは、もう一度読み込むボタンを出す', async () => {

@@ -47,6 +47,21 @@
     "verified_at": "2026-11-01",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "140007-petition",
+    "type": "petition",
+    "department": "神奈川県議会 議事課委員会グループ",
+    "phone": "045-210-7546",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.pref.kanagawa.jp/gikai/p80218.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -215,6 +230,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "141500-petition",
+    "type": "petition",
+    "department": "相模原市議会総務課",
+    "phone": "042-769-8277",
+    "email": null,
+    "form_url": null,
+    "postal_code": "252-5277",
+    "postal_address": "神奈川県相模原市中央区中央2-11-15 市役所本館2階",
+    "hours": null,
+    "source_url": "https://www.sagamihara-shigikai.jp/doc/2013120600324/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -265,6 +295,21 @@
     "source_url": "https://www.city.yokosuka.kanagawa.jp/shisei/council/index.html",
     "verified_at": null,
     "status": "unverified",
+    "note": null
+   },
+   {
+    "id": "142018-petition",
+    "type": "petition",
+    "department": "横須賀市議会 議事課",
+    "phone": "046-822-9394",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.yokosuka.kanagawa.jp/7860/g_info/l100000956.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -332,6 +377,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "142034-petition",
+    "type": "petition",
+    "department": "平塚市議会",
+    "phone": "0463-21-8791",
+    "email": null,
+    "form_url": null,
+    "postal_code": "254-8686",
+    "postal_address": "神奈川県平塚市浅間町9番1号 本館8階",
+    "hours": null,
+    "source_url": "https://www.city.hiratsuka.kanagawa.jp/gikai/page-c_02222.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -383,6 +443,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "142042-petition",
+    "type": "petition",
+    "department": "鎌倉市議会事務局",
+    "phone": "0467-23-3000",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kamakura.kanagawa.jp/gikai/tinzyou2.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -431,6 +506,21 @@
     "postal_address": "神奈川県藤沢市朝日町1-1 市議会へのアクセス",
     "hours": null,
     "source_url": "https://shigikai.city.fujisawa.kanagawa.jp/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "142051-petition",
+    "type": "petition",
+    "department": "藤沢市議会",
+    "phone": "0466-25-1111",
+    "email": "fj-giji@city.fujisawa.lg.jp",
+    "form_url": null,
+    "postal_code": "251-8601",
+    "postal_address": "神奈川県藤沢市朝日町1-1 市議会へのアクセス",
+    "hours": null,
+    "source_url": "https://shigikai.city.fujisawa.kanagawa.jp/seiganchinjo.asp",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -536,6 +626,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "142077-petition",
+    "type": "petition",
+    "department": "茅ヶ崎市議会事務局 総務担当",
+    "phone": "0467-81-7211",
+    "email": null,
+    "form_url": null,
+    "postal_code": "253-8686",
+    "postal_address": "茅ヶ崎市茅ヶ崎一丁目1番1号",
+    "hours": null,
+    "source_url": "https://www.city.chigasaki.kanagawa.jp/gikai/1066595/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -587,6 +692,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "142085-petition",
+    "type": "petition",
+    "department": "逗子市議会事務局",
+    "phone": "046-872-8141",
+    "email": null,
+    "form_url": null,
+    "postal_code": "249-8686",
+    "postal_address": "神奈川県逗子市逗子5丁目2番16号",
+    "hours": null,
+    "source_url": "https://www.city.zushi.kanagawa.jp/shisei/gikai/1005534/1005537.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -628,6 +748,21 @@
     "id": "142107-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "046-882-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.miura.kanagawa.jp/soshiki/gikaijimukyoku/408.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
+   },
+   {
+    "id": "142107-petition",
+    "type": "petition",
+    "department": "三浦市議会事務局",
     "phone": "046-882-1111",
     "email": null,
     "form_url": null,
@@ -688,6 +823,21 @@
     "source_url": "https://www.city.hadano.kanagawa.jp/gikai/index.html",
     "verified_at": null,
     "status": "unverified",
+    "note": null
+   },
+   {
+    "id": "142115-petition",
+    "type": "petition",
+    "department": "秦野市議会 議事担当",
+    "phone": "0463-82-9652",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.hadano.kanagawa.jp/gikai/seigan-chinjo/2412.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -755,6 +905,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "142123-petition",
+    "type": "petition",
+    "department": "厚木市議会 議事調査係",
+    "phone": "046-225-2701",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.atsugi.kanagawa.jp/shigikai/13/1/37204.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -803,6 +968,21 @@
     "postal_address": "大和市下鶴間1-1-1",
     "hours": null,
     "source_url": "https://www.city.yamato.lg.jp/gyosei/yamatoshiinfo/13856.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "142131-petition",
+    "type": "petition",
+    "department": "大和市議会 議事係",
+    "phone": "046-260-5503",
+    "email": null,
+    "form_url": null,
+    "postal_code": "242-8601",
+    "postal_address": "大和市下鶴間1-1-1",
+    "hours": null,
+    "source_url": "https://www.city.yamato.lg.jp/gyosei/soshik/29/shigikai/shigikainitsuite/4367.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -960,6 +1140,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "142166-petition",
+    "type": "petition",
+    "department": "座間市議会 庶務議事係",
+    "phone": "046-252-8872",
+    "email": null,
+    "form_url": null,
+    "postal_code": "252-8566",
+    "postal_address": "座間市緑ケ丘一丁目1番1号",
+    "hours": null,
+    "source_url": "https://www.city.zama.kanagawa.jp/shigikai/bocho/1005881.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -980,22 +1175,22 @@
     "source_url": "https://www.city.minamiashigara.kanagawa.jp/",
     "verified_at": "2026-11-03",
     "status": "verified",
-    "note": null
+    "note": "課ごとの問い合わせ先　https://www.city.minamiashigara.kanagawa.jp/machi/soshiki/gyoumu/"
    },
    {
     "id": "142174-feedback",
     "type": "feedback",
-    "department": "秘書広報課",
+    "department": "秘書広報課　市長への手紙",
     "phone": "0465-73-8003",
     "email": null,
-    "form_url": "https://dshinsei.e-kanagawa.lg.jp/142174-u/offer/offerList_initDisplay.action",
-    "postal_code": null,
-    "postal_address": null,
+    "form_url": "https://www.city.minamiashigara.kanagawa.jp/request/",
+    "postal_code": "250-0192",
+    "postal_address": "神奈川県南足柄市関本440番地　市長への手紙",
     "hours": null,
-    "source_url": "https://www.city.minamiashigara.kanagawa.jp/about/request.html",
+    "source_url": "https://www.city.minamiashigara.kanagawa.jp/machi/kouhou/goiken/goiken.html",
     "verified_at": "2026-11-03",
     "status": "verified",
-    "note": null
+    "note": "提案用の手紙は市役所や市内公共施設に置いてある。郵送無料"
    },
    {
     "id": "142174-assembly",
@@ -1003,11 +1198,41 @@
     "department": "南足柄市議会",
     "phone": "0465-73-8038",
     "email": null,
+    "form_url": "https://www.city.minamiashigara.kanagawa.jp/request.php?page_url=http%3A%2F%2Fwww.city.minamiashigara.kanagawa.jp%2Fmsec%2Findex.php%3Fmsection_id%3D70&contact_msection_id=70",
+    "postal_code": "250-0192",
+    "postal_address": "神奈川県南足柄市関本440番地",
+    "hours": null,
+    "source_url": "https://www.city.minamiashigara.kanagawa.jp/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "142174-petition",
+    "type": "petition",
+    "department": "南足柄市議会",
+    "phone": "0465-73-8038",
+    "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.minamiashigara.kanagawa.jp/gikai/",
+    "source_url": "https://www.city.minamiashigara.kanagawa.jp/gikai/seigan/seigan_chinjyou.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "142174-education",
+    "type": "education",
+    "department": "教育総務課 教育総務班",
+    "phone": "0465-73-8034",
+    "email": null,
+    "form_url": "https://www.city.minamiashigara.kanagawa.jp/request.php?page_url=http%3A%2F%2Fwww.city.minamiashigara.kanagawa.jp%2Fmsec%2Findex.php%3Fmsection_id%3D67&contact_msection_id=67",
+    "postal_code": "250-0192",
+    "postal_address": "神奈川県南足柄市関本440",
+    "hours": null,
+    "source_url": "https://www.city.minamiashigara.kanagawa.jp/msec/index.php?msection_id=67&utm_source=chatgpt.com",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1062,6 +1287,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "142182-petition",
+    "type": "petition",
+    "department": "綾瀬市議会 議事担当",
+    "phone": "0467-70-5644",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.ayase.kanagawa.jp/gyoseijoho/shigikai/seigan_chinjonotetsuzuki/9316.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1113,6 +1353,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "143014-petition",
+    "type": "petition",
+    "department": "葉山町議会事務局",
+    "phone": "046-876-1111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.hayama.lg.jp/gikai/tetuduki/6562.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -1154,6 +1409,21 @@
     "id": "143219-assembly",
     "type": "assembly",
     "department": "議会事務局総務担当",
+    "phone": "0467-37-5501",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.samukawa.kanagawa.jp/soshiki/gikai/gikaijimu/somu/info/gikai_tetuduki/1361846711076.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "143219-petition",
+    "type": "petition",
+    "department": "寒川町議会事務局総務担当",
     "phone": "0467-37-5501",
     "email": null,
     "form_url": null,
@@ -1266,6 +1536,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "143421-petition",
+    "type": "petition",
+    "department": "二宮町議会事務局庶務課",
+    "phone": "0463-75-9267",
+    "email": "gikai@town.ninomiya.kanagawa.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.ninomiya.kanagawa.jp/gikai/0000000882.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1370,6 +1655,21 @@
     "note": null
    },
    {
+    "id": "143626-petition",
+    "type": "petition",
+    "department": "大井町議会事務局",
+    "phone": "0465-85-5000",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.oi.kanagawa.jp/site/gikai/seigann-tuite.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
     "id": "143626-education",
     "type": "education",
     "department": "教育総務課",
@@ -1434,6 +1734,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "143634-petition",
+    "type": "petition",
+    "department": "松田町議会事務局",
+    "phone": "0465-84-1335",
+    "email": null,
+    "form_url": null,
+    "postal_code": "258-8585",
+    "postal_address": "神奈川県足柄上郡松田町松田惣領2037番地",
+    "hours": null,
+    "source_url": "https://town.matsuda.kanagawa.jp/site/gikai/seigan-chinjou.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1485,6 +1800,21 @@
     "source_url": "https://www.town.yamakita.kanagawa.jp/category/14-0-0-0-0.html",
     "verified_at": null,
     "status": "unverified",
+    "note": null
+   },
+   {
+    "id": "143642-petition",
+    "type": "petition",
+    "department": "山北町議会事務局",
+    "phone": "0465-75-3653",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.yamakita.kanagawa.jp/0000000028.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -1654,6 +1984,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "143839-petition",
+    "type": "petition",
+    "department": "真鶴町議会事務局",
+    "phone": "0465-68-1131",
+    "email": null,
+    "form_url": null,
+    "postal_code": "259-0202",
+    "postal_address": "神奈川県足柄下郡真鶴町岩244番地の1",
+    "hours": null,
+    "source_url": "https://www.town.manazuru.kanagawa.jp/chosei_gikai/gikai/2775.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1702,6 +2047,21 @@
     "postal_address": "神奈川県足柄下郡湯河原町中央二丁目2番地1",
     "hours": null,
     "source_url": "https://www.town.yugawara.kanagawa.jp/site/yugawara-gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "143847-petition",
+    "type": "petition",
+    "department": "湯河原町議会事務局",
+    "phone": "0465-63-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": "259-0392",
+    "postal_address": "神奈川県足柄下郡湯河原町中央二丁目2番地1",
+    "hours": null,
+    "source_url": "https://www.town.yugawara.kanagawa.jp/site/yugawara-gikai/1403.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1756,6 +2116,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "144011-petition",
+    "type": "petition",
+    "department": "愛川町議会事務局",
+    "phone": "046-285-2111",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.aikawa.kanagawa.jp/assembly/boutyou/6113.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1797,6 +2172,21 @@
     "id": "144029-assembly",
     "type": "assembly",
     "department": "議会事務局",
+    "phone": "046-288-1576",
+    "email": null,
+    "form_url": null,
+    "postal_code": "243-0195",
+    "postal_address": "神奈川県愛甲郡清川村煤ヶ谷2216",
+    "hours": null,
+    "source_url": "https://www.town.kiyokawa.kanagawa.jp/gikai/bocho_seigan/1077.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "144029-petition",
+    "type": "petition",
+    "department": "清川村議会事務局",
     "phone": "046-288-1576",
     "email": null,
     "form_url": null,

@@ -449,7 +449,7 @@ export const MAIL_CHAPTERS: ManualChapter[] = [
         kind: 'note',
         text: 'メールで送った文章が、そのまま請願・陳情として受け付けられるとは限りません。書き方や出し方は議会ごとに決まっているので、提出先の議会の案内で確かめてください。',
       },
-      { kind: 'link', label: '請願・陳情の書き方（準備中）', to: '/guide/petition' },
+      { kind: 'link', label: '請願・陳情の書き方', to: '/guide/petition' },
     ],
   },
   {

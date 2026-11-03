@@ -2,7 +2,7 @@
 // 上から順に：① 3分でわかる → ② AIを使ってみよう → ③ もっと詳しく調べる（必要な人だけ開く） → ④ 提出する
 //   #/guide/public-comment?s=prompts  AIへの指示文の選択から表示
 // 文章と指示文は content/pubcomManual.ts にまとめてある。
-import { useState, type ReactNode } from 'react';
+import { useState } from 'react';
 import { GUIDES, guidePath } from '../content/guides';
 import {
   AI_KEY,
@@ -16,6 +16,7 @@ import {
   PUBCOM_CHECKLIST,
   PUBCOM_GUIDE,
   PUBCOM_PARTS,
+  PROMPTS,
   PUBCOM_STEPS,
   RESEARCH,
   RESULT_POINTS,
@@ -28,11 +29,12 @@ import {
 } from '../content/pubcomManual';
 import { scrollToSection } from '../lib/dom';
 import { href } from '../router';
-import type { PromptId, PubcomAiTip, PubcomFigItem, PubcomRevision } from '../types';
+import type { PromptId, PubcomRevision } from '../types';
 import { Checklist } from '../components/Checklist';
 import { CopyButton } from '../components/CopyButton';
 import { Icon } from '../components/Icon';
-import { JumpLink, PageEndNav, SmartLink } from '../components/Links';
+import { AiTip, Flow, GoPrompt, Part, Sources } from '../components/GuideParts';
+import { JumpLink, PageEndNav } from '../components/Links';
 import { PageHead } from '../components/PageHead';
 import { PromptPicker } from '../components/PromptPicker';
 
@@ -74,7 +76,7 @@ export function PublicCommentGuidePage() {
       </nav>
 
       {/* ① 3分でわかる */}
-      <Part no={1}>
+      <Part part={PUBCOM_PARTS[0]}>
         <section className="pc-sub" aria-labelledby="what-h">
           <h3 id="what-h" className="pc-sub-title">
             {WHAT_IS.title}
@@ -130,7 +132,7 @@ export function PublicCommentGuidePage() {
                   )}
                   {s.revision && <Revision r={s.revision} />}
                   {s.note && <p className="pc-step-note">{s.note}</p>}
-                  <AiTip tip={s.ai} onUse={pickPrompt} />
+                  <AiTip tip={s.ai} label={findPrompt(s.ai.prompt).label} onUse={pickPrompt} />
                 </div>
               </li>
             ))}
@@ -200,7 +202,7 @@ export function PublicCommentGuidePage() {
       </Part>
 
       {/* ② AIを使ってみよう */}
-      <Part no={2}>
+      <Part part={PUBCOM_PARTS[1]}>
         <section className="pc-sub" aria-labelledby="where-h">
           <h3 id="where-h" className="pc-sub-title">
             AIはどこで使う？
@@ -225,7 +227,7 @@ export function PublicCommentGuidePage() {
                     <dd>{s.ai}</dd>
                   </div>
                 </dl>
-                <GoPrompt id={s.prompt} onUse={pickPrompt} />
+                <GoPrompt id={s.prompt} label={findPrompt(s.prompt).label} onUse={pickPrompt} />
               </li>
             ))}
           </ol>
@@ -243,12 +245,12 @@ export function PublicCommentGuidePage() {
             AIに頼んでみよう
           </h3>
           <p className="pc-lead">やりたいことを選んで、指示文をコピー！</p>
-          <PromptPicker value={promptId} onChange={setPromptId} />
+          <PromptPicker prompts={PROMPTS} value={promptId} onChange={setPromptId} />
         </section>
       </Part>
 
       {/* ③ もっと詳しく調べる */}
-      <Part no={3}>
+      <Part part={PUBCOM_PARTS[2]}>
         <p className="pc-lead">必要な人だけ、開いて読んでください。</p>
         <div className="chapters pc-research">
           {RESEARCH.map((r, i) => (
@@ -282,7 +284,7 @@ export function PublicCommentGuidePage() {
                     <span>{n}</span>
                   </p>
                 ))}
-                <AiTip tip={r.ai} onUse={pickPrompt} />
+                <AiTip tip={r.ai} label={findPrompt(r.ai.prompt).label} onUse={pickPrompt} />
               </div>
             </details>
           ))}
@@ -332,7 +334,7 @@ export function PublicCommentGuidePage() {
       </Part>
 
       {/* ④ 提出する */}
-      <Part no={4}>
+      <Part part={PUBCOM_PARTS[3]}>
         <section className="pc-sub" id="checklist" aria-labelledby="check-h">
           <h3 id="check-h" className="pc-sub-title">
             提出前チェック
@@ -425,39 +427,6 @@ export function PublicCommentGuidePage() {
   );
 }
 
-/** 4つの入り口のそれぞれ（番号と見出し） */
-function Part({ no, children }: { no: number; children: ReactNode }) {
-  const p = PUBCOM_PARTS[no - 1];
-  return (
-    <section className="section pc-part" id={p.id} aria-labelledby={`${p.id}-h`} tabIndex={-1}>
-      <div className="pc-part-head">
-        <span className="pc-part-no" aria-hidden="true">
-          {p.no}
-        </span>
-        <h2 id={`${p.id}-h`}>{p.title}</h2>
-      </div>
-      {children}
-    </section>
-  );
-}
-
-/** 横（スマホでは縦）に矢印でつないだ流れ */
-function Flow({ items, label }: { items: PubcomFigItem[]; label: string }) {
-  return (
-    <ol className="call-flow pc-flow" aria-label={label}>
-      {items.map((f) => (
-        <li key={f.label + (f.sub || '')}>
-          <span className="call-flow-icon" aria-hidden="true">
-            <Icon name={f.icon} />
-          </span>
-          <b>{f.label}</b>
-          <span>{f.sub || ''}</span>
-        </li>
-      ))}
-    </ol>
-  );
-}
-
 /** 現行案 → 修正提案 ＋ 理由 */
 function Revision({ r }: { r: PubcomRevision }) {
   return (
@@ -475,43 +444,5 @@ function Revision({ r }: { r: PubcomRevision }) {
         <dd>{r.reason}</dd>
       </div>
     </dl>
-  );
-}
-
-/** 「AIでできること」の小さな案内 */
-function AiTip({ tip, onUse }: { tip: PubcomAiTip; onUse: (id: PromptId) => void }) {
-  return (
-    <p className="pc-ai-tip">
-      <span className="pc-ai-tip-label">
-        <Icon name="sparkle" />
-        AIでできること
-      </span>
-      <span className="pc-ai-tip-text">{tip.text}</span>
-      <GoPrompt id={tip.prompt} onUse={onUse} />
-    </p>
-  );
-}
-
-/** その目的の指示文を選んで、指示文の選択へ移るボタン */
-function GoPrompt({ id, onUse }: { id: PromptId; onUse: (id: PromptId) => void }) {
-  return (
-    <button type="button" className="pc-ai-go" onClick={() => onUse(id)}>
-      指示文を見る
-      <span className="sr-only">（{findPrompt(id).label}）</span>
-      <Icon name="arrow-right" className="icon-inline" />
-    </button>
-  );
-}
-
-/** 公式の資料へのリンク（小さく） */
-function Sources({ links }: { links: { label: string; url: string }[] }) {
-  return (
-    <ul className="pc-sources">
-      {links.map((l) => (
-        <li key={l.url}>
-          <SmartLink to={l.url}>{l.label}</SmartLink>
-        </li>
-      ))}
-    </ul>
   );
 }

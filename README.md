@@ -21,7 +21,7 @@
 | このサイトについて | `#/about` | 完成 |
 | メール・郵送 | `#/guide/email` | 準備中 |
 | パブコメの書き方 | `#/guide/public-comment` | 公開（文章と指示文は `src/content/pubcomManual.ts`） |
-| 請願・陳情の書き方 | `#/guide/petition` | 準備中 |
+| 請願・陳情の書き方 | `#/guide/petition` | 公開（文章と指示文は `src/content/petitionManual.ts`） |
 | 情報公開請求 | `#/guide/disclosure` | 準備中 |
 | 署名の方法 | `#/guide/signature` | 準備中 |
 

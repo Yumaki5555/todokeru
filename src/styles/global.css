@@ -4848,3 +4848,250 @@ p.mail-label {
   margin-top: 0.2em;
   color: var(--c-main);
 }
+
+/* ---- 請願・陳情の書き方（pt-）：パブコメの書き方（pc-）の部品に足りないものだけ ---- */
+
+/* 見比べるカード（陳情と請願・出す先）。スマホは1列 */
+.pt-cards {
+  list-style: none;
+  display: grid;
+  gap: 8px;
+  margin: 10px 0 0;
+}
+
+@media (min-width: 520px) {
+  .pt-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.pt-card {
+  min-width: 0;
+  padding: 10px 12px;
+  border: 1px solid var(--c-main-line);
+  border-radius: var(--radius-sm);
+  background: var(--c-main-tint);
+}
+
+.pt-card-head {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px 8px;
+  margin: 0 0 6px;
+}
+
+.pt-card-head b {
+  font-size: 1.125rem;
+  color: var(--c-main-deep);
+}
+
+.pt-card-sub {
+  font-size: 0.75rem;
+  color: var(--c-text-sub);
+}
+
+.pt-card ul,
+.pt-more {
+  list-style: none;
+  display: grid;
+  gap: 4px;
+}
+
+.pt-card li,
+.pt-more li {
+  position: relative;
+  padding-left: 1.2em;
+  line-height: 1.6;
+}
+
+.pt-card li::before,
+.pt-more li::before {
+  content: '';
+  position: absolute;
+  left: 0.25em;
+  top: 0.75em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--c-main);
+}
+
+/* 分かれ道（○○なら → △△） */
+.pt-branches {
+  list-style: none;
+  display: grid;
+  gap: 6px;
+  margin: 10px 0 0;
+}
+
+.pt-branches li {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px 8px;
+  padding: 8px 12px;
+  border: 1px solid var(--c-line);
+  border-radius: var(--radius-sm);
+  line-height: 1.5;
+}
+
+.pt-branches b {
+  color: var(--c-main-deep);
+}
+
+.pt-branch-arrow,
+.pt-branch-icon {
+  flex: none;
+  color: var(--c-main);
+}
+
+/* 番号つきの4つの要素・紹介議員の探し方 */
+.pt-parts {
+  list-style: none;
+  counter-reset: pt;
+  display: grid;
+  gap: 6px;
+  margin: 10px 0 0;
+}
+
+@media (min-width: 520px) {
+  .pt-parts {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.pt-parts li,
+.pt-numbered li {
+  counter-increment: pt;
+  position: relative;
+  min-width: 0;
+  padding: 8px 10px 8px 44px;
+  border: 1px solid var(--c-line);
+  border-radius: var(--radius-sm);
+  background: #fff;
+  line-height: 1.5;
+}
+
+.pt-parts li::before,
+.pt-numbered li::before {
+  content: counter(pt);
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--c-main);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 24px;
+  text-align: center;
+}
+
+.pt-parts b {
+  display: block;
+}
+
+.pt-parts span {
+  display: block;
+  font-size: 0.875rem;
+  color: var(--c-text-sub);
+}
+
+.pt-numbered {
+  list-style: none;
+  counter-reset: pt;
+  display: grid;
+  gap: 6px;
+  margin: 0 0 8px;
+}
+
+/* ひな形・お願いの文（紙の書類のように） */
+.pt-doc,
+.pt-letter {
+  padding: 14px 16px;
+  border: 1px solid var(--c-line);
+  border-radius: var(--radius-sm);
+  background: #fff;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+
+.pt-doc p {
+  margin: 0;
+}
+
+.pt-doc-title {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 8px !important;
+}
+
+.pt-doc-head {
+  margin-top: 10px !important;
+  font-weight: 700;
+}
+
+.pt-doc-items {
+  margin: 0;
+  padding-left: 1.6em;
+}
+
+.pt-doc-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 10px !important;
+}
+
+.pt-letter {
+  margin: 0;
+  white-space: pre-line;
+}
+
+/* 全国共通と、議会ごとに違うこと */
+.pt-rules {
+  padding: 10px 12px;
+  border: 1px solid var(--c-line);
+  border-radius: var(--radius-sm);
+  background: #fff;
+}
+
+/* 結果の区分 */
+.pt-results {
+  display: grid;
+  gap: 6px;
+  margin: 12px 0 0;
+}
+
+.pt-results > div {
+  display: grid;
+  grid-template-columns: minmax(7.5em, auto) minmax(0, 1fr);
+  gap: 4px 12px;
+  padding: 8px 12px;
+  border: 1px solid var(--c-line);
+  border-radius: var(--radius-sm);
+  background: #fff;
+  line-height: 1.5;
+}
+
+.pt-results dt {
+  font-weight: 700;
+  color: var(--c-main-deep);
+}
+
+.pt-results dd {
+  margin: 0;
+}
+
+@media (max-width: 420px) {
+  .pt-results > div {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.petition-guide .fold {
+  margin-top: 10px;
+}

@@ -419,3 +419,42 @@ export interface PubcomResearch {
   notes?: string[];
   ai: PubcomAiTip;
 }
+
+// ---- 請願・陳情の書き方 ----
+export type PetitionPromptId = 'choose' | 'organize' | 'draft' | 'research' | 'review';
+
+/** AIへの指示文（請願・陳情） */
+export interface PetitionPrompt {
+  id: PetitionPromptId;
+  label: string;
+  when: string;
+  text: string;
+}
+
+/** 見比べるカード（陳情と請願・出す先） */
+export interface PetitionCard {
+  icon: IconName;
+  title: string;
+  sub?: string;
+  points: string[];
+}
+
+/** 3分でわかるの1ステップ（中身は、あるものだけ表示する） */
+export interface PetitionStep {
+  no: number;
+  icon: IconName;
+  title: string;
+  text: string;
+  cards?: PetitionCard[];
+  /** 分かれ道（○○なら → △△） */
+  branches?: { icon?: IconName; when: string; then: string }[];
+  /** 番号つきの要素（件名・要望事項…） */
+  parts?: { label: string; sub: string }[];
+  chips?: string[];
+  notes?: string[];
+  /** 開くと読める補足 */
+  more?: { title: string; items: string[]; links?: { label: string; url: string }[] };
+  /** ページ内・サイト内へのボタン */
+  links?: { label: string; icon: IconName; to: string; prompt?: PetitionPromptId }[];
+  ai?: { text: string; prompt: PetitionPromptId };
+}

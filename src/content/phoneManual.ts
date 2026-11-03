@@ -234,13 +234,13 @@ export const PHONE_CHAPTERS: ManualChapter[] = [
       },
       {
         kind: 'p',
-        text: '議会に正式に検討してもらう方法として「請願」と「陳情」があります。書き方や提出の手続きは、今後「請願・陳情の書き方」のガイドで詳しく案内します。',
+        text: '議会に正式に検討してもらう方法として「請願」と「陳情」があります。書き方や提出の手続きは、「請願・陳情の書き方」のガイドで詳しく案内しています。',
       },
       {
         kind: 'scripts',
         items: [{ id: 'assembly-how', label: '議会事務局に手続きを聞く', text: '請願（陳情）を出したいのですが、手続きを教えていただけますか？' }],
       },
-      { kind: 'link', label: '請願・陳情の書き方（準備中）', to: '/guide/petition' },
+      { kind: 'link', label: '請願・陳情の書き方', to: '/guide/petition' },
     ],
   },
   {

@@ -1,15 +1,22 @@
-// AIへの指示文を、目的を選んで切りかえ、全文をコピーする（パブコメの書き方）
+// AIへの指示文を、目的を選んで切りかえ、全文をコピーする（パブコメ・請願陳情の書き方で共通）
 // サイトからAIには送らない。コピーできなかったときは、指示文を選択した状態にして手でコピーできるようにする。
 import { useId, useRef } from 'react';
-import { PASTE_NOTES, PASTE_STEPS, PROMPTS, findPrompt } from '../content/pubcomManual';
-import type { PromptId } from '../types';
+import { PASTE_NOTES, PASTE_STEPS } from '../content/pubcomManual';
 import { CopyButton } from './CopyButton';
 import { Icon } from './Icon';
 
-export function PromptPicker({ value, onChange }: { value: PromptId; onChange: (id: PromptId) => void }) {
+/** 選べる指示文（id・選択肢の名前・使う場面・全文） */
+export interface PromptOption<T extends string> {
+  id: T;
+  label: string;
+  when: string;
+  text: string;
+}
+
+export function PromptPicker<T extends string>({ prompts, value, onChange }: { prompts: PromptOption<T>[]; value: T; onChange: (id: T) => void }) {
   const name = useId();
   const textRef = useRef<HTMLPreElement>(null);
-  const p = findPrompt(value);
+  const p = prompts.find((x) => x.id === value) ?? prompts[0];
 
   const selectText = () => {
     const el = textRef.current;
@@ -28,7 +35,7 @@ export function PromptPicker({ value, onChange }: { value: PromptId; onChange: (
       <fieldset className="pc-prompt-pick">
         <legend>やりたいことを選ぶ</legend>
         <div className="stance-chips">
-          {PROMPTS.map((x, i) => (
+          {prompts.map((x, i) => (
             <label key={x.id} className="stance-chip">
               <input type="radio" name={name} value={x.id} checked={x.id === p.id} onChange={() => onChange(x.id)} />
               <span>

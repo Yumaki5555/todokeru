@@ -41,7 +41,7 @@ describe('このサイトについて', () => {
     for (const t of ['サイトの目的', '運営について', '情報の出典', '利用上の注意', '個人情報とプライバシー', '電話ガイドの監修について', '免責事項']) {
       expect(screen.getByRole('heading', { level: 2, name: t })).toBeInTheDocument();
     }
-    expect(within(screen.getByRole('main')).getByText(/最終更新日：2026年11月1日/)).toBeInTheDocument();
+    expect(within(screen.getByRole('main')).getByText(/最終更新日：2026年11月4日/)).toBeInTheDocument();
     expect(screen.getByText(/アクセス解析や、外部のトラッキング（閲覧の追跡）は使っていません/)).toBeInTheDocument();
     expect(screen.getByText(/監修は電話ガイドについてのものであり、このサイト全体の監修ではありません/)).toBeInTheDocument();
   });

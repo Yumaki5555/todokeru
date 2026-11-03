@@ -182,7 +182,7 @@ function CoverageNote({ summary }: { summary: DataSummary | null }) {
               <span className="muted">／{r.cov.total.toLocaleString()}</span>
             </span>
             {r.cov.with_shown > r.cov.with_verified && (
-              <span className="coverage-sub">うち人が確認 {r.cov.with_verified.toLocaleString()}</span>
+              <span className="coverage-sub">うち公式確認済み {r.cov.with_verified.toLocaleString()}</span>
             )}
           </li>
         ))}
@@ -191,11 +191,11 @@ function CoverageNote({ summary }: { summary: DataSummary | null }) {
         <p className="coverage-legend">
           <span>
             <span className="swatch" aria-hidden="true" />
-            公式確認済み（人が公式サイトで確認）
+            公式確認済み（出典の公式ページと照合）
           </span>
           <span>
             <span className="swatch swatch-auto" aria-hidden="true" />
-            公式サイトと自動照合（代表電話を機械で照合・人の確認の前）
+            公式サイトと自動照合（代表電話だけ・出典ページとの照合の前）
           </span>
         </p>
       )}

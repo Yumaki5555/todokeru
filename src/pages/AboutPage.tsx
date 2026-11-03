@@ -41,8 +41,8 @@ function ContactCoverage() {
       {`掲載状況（${formatDate(s.generated_at)}時点）：連絡先を掲載している機関・自治体は、都道府県 ${c.prefectures.with_shown}／${c.prefectures.total}、`}
       {`国の機関 ${c.agencies.with_shown}／${c.agencies.total}、`}
       {`市区町村 ${c.municipalities.with_shown.toLocaleString()}／${c.municipalities.total.toLocaleString()}です。`}
-      {`窓口の数は、公式確認済み（人が公式サイトで確認）が ${s.contacts.verified.toLocaleString()}件です。`}
-      {s.contacts.by_status.auto_matched > 0 && `このほか、公式サイトと自動照合した（機械で照合した）代表電話が ${s.contacts.by_status.auto_matched.toLocaleString()}件あります。`}
+      {`窓口の数は、公式確認済み（出典の公式ページと照合済み）が ${s.contacts.verified.toLocaleString()}件です。`}
+      {s.contacts.by_status.auto_matched > 0 && `このほか、「公式サイトと自動照合」の代表電話（出典ページとの照合の前）が ${s.contacts.by_status.auto_matched.toLocaleString()}件あります。`}
       市区町村は、都道府県ごとに順に調べて追加していきます。
     </li>
   );
@@ -104,11 +104,11 @@ export function AboutPage() {
                 窓口の連絡先：国の機関・自治体・議会の公式サイトに公開されている情報だけを掲載し、窓口ごとに出典ページと最終確認日を表示します。確認できない連絡先や担当部署を推測して載せることはしません。
                 <ul className="plain-list small sub-list">
                   <li>
-                    掲載する前に、出典ページを開き直し、電話番号・メールアドレス・住所などが実際にそのページに書かれているかを照合しています。照合できなかった項目は載せません。
+                    連絡先は、AI とプログラムで公式サイトから集めています。掲載する前に、プログラムで出典ページを開き直し、電話番号・メールアドレス・住所などが実際にそのページに書かれているかを照合しています。照合できなかった項目は載せません。掲載したすべての窓口を、人が目で確かめたわけではありません。
                   </li>
-                  <li>自動で開けないページ（アクセス制限など）は、ブラウザで直接確かめ、その記録を残しています。</li>
+                  <li>自動で取得できないページは、通常のブラウザで閲覧できる範囲で確認し、その記録を残しています。</li>
                   <li>
-                    市区町村の代表電話の一部は、公式サイトに「市役所・役場の代表」と書かれた番号を機械で照合したものです。人による確認の前のため「公式サイトと自動照合」と表示し、最終確認日の代わりに照合した日を出します。
+                    市区町村の代表電話の一部は、公式サイトに「市役所・役場の代表」と書かれた番号を、プログラムで拾ったものです。出典ページを開き直しての照合の前のため「公式サイトと自動照合」と表示し、最終確認日の代わりに照合した日を出します。
                   </li>
                   <li>
                     請願・陳情の届け先は、各議会の「請願・陳情」のページ（書き方・出し方の案内）に書かれた提出先です。そのページを出典にし、窓口検索では「請願・陳情の出し方」のボタンで開けるようにしています。見つかった議会の分だけ載せています。
@@ -140,6 +140,12 @@ export function AboutPage() {
             <ul className="plain-list">
               <li>会員登録はありません。</li>
               <li>アクセス解析や、外部のトラッキング（閲覧の追跡）は使っていません。</li>
+              <li>
+                このサイトは GitHub Pages（GitHub 社の公開サービス）で公開しています。GitHub は、セキュリティのために、訪問者の IP
+                アドレス（インターネット上の住所にあたる番号）を記録・保存します。GitHub にサインインしているかどうかには関係ありません（
+                <a href="https://docs.github.com/ja/pages/getting-started-with-github-pages/what-is-github-pages">GitHub Docs「GitHub Pages とは」</a>
+                の「データ コレクション」）。
+              </li>
               <li>検索欄やチェックリストに入力・選択した内容は、お使いのブラウザの中だけで使い、送信も保存もしません。</li>
               <li>
                 このサイトから電話の発信・録音や、メールの送信はしません。電話番号やメールアドレスを押すと、お使いの端末の電話アプリ・メールアプリが開きます。

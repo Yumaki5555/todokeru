@@ -9,12 +9,12 @@ export type ContactType = 'general' | 'feedback' | 'assembly' | 'petition' | 'po
 
 /** 窓口情報の確認状態 */
 export type ContactStatus =
-  | 'verified' // 公式確認済み
+  | 'verified' // 公式確認済み（AI・プログラムで集め、research-merge が出典ページと照合。人が全件を見たわけではない）
   | 'unverified' // 未確認
   | 'review' // 要再確認
   | 'unavailable' // 公式連絡先が確認できない
   | 'discontinued' // 変更・廃止
-  | 'auto_matched'; // 公式サイトと自動照合（代表電話だけ。人による確認の前）
+  | 'auto_matched'; // 公式サイトと自動照合（代表電話だけ。出典ページとの照合の前）
 
 /** 1つの窓口 */
 export interface Contact {
@@ -34,7 +34,7 @@ export interface Contact {
   hours: string | null; // 受付時間
   source_url: string | null; // 公式出典URL
   verified_at: string | null; // 最終確認日（YYYY-MM-DD）
-  matched_at?: string | null; // 公式サイトと自動照合した日（auto_matched のときだけ。人が確かめた確認日ではない）
+  matched_at?: string | null; // 公式サイトと自動照合した日（auto_matched のときだけ。research-merge で照合した確認日ではない）
   status: ContactStatus;
   note?: string | null;
 }

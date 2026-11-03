@@ -8,7 +8,7 @@ export const SITE = {
   subCopy: '疑問に思ったこと、伝えたいこと。その声を適切な窓口へ届けるために。',
   description: '電話、メール、パブコメ、請願・陳情。自分に合った方法を知り、適切な窓口に声を届けるためのサイトです。',
   /** 最終更新日（内容を直したらここを変える） */
-  updated: '2026-11-01',
+  updated: '2026-11-04',
   portal: { label: '日本を知る。', url: 'https://yumaki5555.github.io/' },
   pubcome: { label: 'パブコメ掲示板', url: 'https://yumaki5555.github.io/pubcome/', desc: 'いま意見を出せる国の案件（パブリックコメント）の一覧' },
   shomei: { label: '署名掲示板', url: 'https://yumaki5555.github.io/shomei/', desc: 'いま賛同を集めている署名の一覧' },

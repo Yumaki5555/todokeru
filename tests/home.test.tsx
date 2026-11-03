@@ -147,7 +147,7 @@ describe('トップページ', () => {
     expect(within(sec).getByRole('link', { name: 'このサイトについて' })).toHaveAttribute('href', '#/about');
     const footer = screen.getByRole('contentinfo');
     expect(within(footer).getByText(/国・自治体・議会の公式サイトではありません/)).toBeInTheDocument();
-    expect(within(footer).getByText(/最終更新日：2026年11月1日/)).toBeInTheDocument();
+    expect(within(footer).getByText(/最終更新日：2026年11月4日/)).toBeInTheDocument();
   });
 
   it('トップでは小さなサイト名を出さない（大きな題名と重ならない）', () => {

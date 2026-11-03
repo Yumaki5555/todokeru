@@ -49,7 +49,7 @@ export const STATUS_LABEL: Record<ContactStatus, string> = {
 };
 
 /** 自動照合の窓口に添える注意 */
-export const AUTO_MATCHED_NOTE = '公式サイトに書かれた番号を機械で照合したものです。人による確認の前のため、公式ページでも確かめてください。';
+export const AUTO_MATCHED_NOTE = '公式サイトに書かれた代表番号をプログラムで拾ったもので、出典ページとの照合の前です。公式ページでも確かめてください。';
 
 export const AGENCY_CATEGORY_LABEL: Record<AgencyCategory, string> = {
   cabinet: '内閣に置かれる機関',

@@ -49,10 +49,10 @@ describe('窓口検索', () => {
     expect(within(note).getByText('46')).toBeInTheDocument();
     expect(within(note).getByText('／1,741')).toBeInTheDocument();
     // 自動照合がなければ、内訳と色の説明は出さない
-    expect(within(note).queryByText(/うち人が確認/)).not.toBeInTheDocument();
+    expect(within(note).queryByText(/うち公式確認済み/)).not.toBeInTheDocument();
   });
 
-  it('自動照合の窓口がある自治体も掲載中に数え、人が確認した数を内訳で示す', async () => {
+  it('自動照合の窓口がある自治体も掲載中に数え、公式確認済みの数を内訳で示す', async () => {
     dataOverrides.set('summary.json', {
       ...emptySummary,
       contacts: { ...emptySummary.contacts, total: 766, verified: 241 },
@@ -65,7 +65,7 @@ describe('窓口検索', () => {
     openContacts();
     const note = await screen.findByRole('note', { name: /^連絡先を掲載中/ });
     expect(within(note).getByText('541')).toBeInTheDocument();
-    expect(within(note).getByText('うち人が確認 21')).toBeInTheDocument();
+    expect(within(note).getByText('うち公式確認済み 21')).toBeInTheDocument();
     expect(within(note).getByText(/公式サイトと自動照合/)).toBeInTheDocument();
   });
 
@@ -250,7 +250,7 @@ describe('窓口データがあるときの表示（テスト用の架空デー�
     const card = await screen.findByRole('article');
     expect(await within(card).findByRole('link', { name: /電話をかける\s*：\s*03-0000-0000/ })).toBeInTheDocument();
     expect(within(card).getByText('公式サイトと自動照合')).toBeInTheDocument();
-    expect(within(card).getByText(/人による確認の前/)).toBeInTheDocument();
+    expect(within(card).getByText(/出典ページとの照合の前/)).toBeInTheDocument();
     expect(within(card).getByText(/照合日：2026年11月1日/)).toBeVisible();
     expect(within(card).queryByText(/最終確認日/)).not.toBeInTheDocument();
     expect(within(card).queryByText('公式確認済み')).not.toBeInTheDocument();

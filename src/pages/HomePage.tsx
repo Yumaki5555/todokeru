@@ -1,4 +1,4 @@
-// トップページ：「方法を知る」→「窓口を探す」→「声を届ける」を、説明を読まなくてもわかるように図で見せる
+// トップページ：題名 →「まず3分でわかる」（4つのSTEPの案内図）→ 方法を知る → 窓口を探す → 関連サイト
 import { GUIDES, guidePath } from '../content/guides';
 import { href } from '../router';
 import { scrollToSection } from '../lib/dom';
@@ -7,14 +7,6 @@ import type { IconName } from '../types';
 import { Icon } from '../components/Icon';
 import { BackToPageTop } from '../components/Links';
 import { ThreeMinutes } from '../components/ThreeMinutes';
-
-/** ヒーローの下に並べる「声を届けるまでの流れ」 */
-const FLOW: { icon: IconName; label: string }[] = [
-  { icon: 'book', label: '知る' },
-  { icon: 'search', label: '調べる' },
-  { icon: 'bulb', label: '考える' },
-  { icon: 'send', label: '届ける' },
-];
 
 export function HomePage() {
   return (
@@ -45,23 +37,13 @@ export function HomePage() {
               <Icon name="arrow-right" />
             </span>
           </a>
-          <ol className="hero-flow" aria-label="声を届けるまでの流れ">
-            {FLOW.map((f) => (
-              <li key={f.label}>
-                <span className="flow-icon" aria-hidden="true">
-                  <Icon name={f.icon} />
-                </span>
-                {f.label}
-              </li>
-            ))}
-          </ol>
         </div>
       </div>
 
       <div className="wrap home-sections">
+        <ThreeMinutes />
         <GuideMenu />
         <ContactsCard />
-        <ThreeMinutes />
         <RelatedSites />
         <AboutBrief />
       </div>

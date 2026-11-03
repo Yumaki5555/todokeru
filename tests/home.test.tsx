@@ -4,7 +4,7 @@ import { render, screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { App } from '../src/App';
 import { GUIDES } from '../src/content/guides';
-import { THREE_MINUTE_STEPS } from '../src/content/threeMinutes';
+import { METHODS, THREE_MINUTE_STEPS } from '../src/content/threeMinutes';
 
 describe('トップページ', () => {
   it('サイト名・キャッチコピーが出る（長い説明文はトップに出さない）', () => {
@@ -15,10 +15,13 @@ describe('トップページ', () => {
     expect(screen.queryByText('疑問に思ったこと、伝えたいこと。その声を適切な窓口へ届けるために。')).not.toBeInTheDocument();
   });
 
-  it('「知る → 調べる → 考える → 届ける」の流れを図で見せる', () => {
+  it('並び順：題名 → 3分でわかる → 方法を知る → 窓口を探す → 関連サイト（題名の下に別の流れの図は置かない）', () => {
     render(<App />);
-    const flow = screen.getByRole('list', { name: '声を届けるまでの流れ' });
-    expect(within(flow).getAllByRole('listitem').map((li) => li.textContent)).toEqual(['知る', '調べる', '考える', '届ける']);
+    const ids = ['sanpun', 'methods', 'contacts', 'related'].map((id) => document.getElementById(id)!);
+    for (let i = 1; i < ids.length; i++) {
+      expect(ids[i - 1].compareDocumentPosition(ids[i]) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
+    }
+    expect(screen.queryByRole('list', { name: '声を届けるまでの流れ' })).not.toBeInTheDocument();
   });
 
   it('いちばん上に「日本を知る。トップへ戻る」（同じタブで開く）', () => {
@@ -38,17 +41,11 @@ describe('トップページ', () => {
     expect(window.location.hash).toBe(''); // URL は変えない
   });
 
-  it('「まず3分でわかる」に5つのSTEPがある', () => {
+  it('「まず3分でわかる」に4つのSTEPがある', () => {
     render(<App />);
     const sec = document.getElementById('sanpun')!;
     const titles = within(sec).getAllByRole('heading', { level: 3 }).map((h) => h.textContent);
-    expect(titles).toEqual([
-      'STEP 1声の届け方を選ぶ',
-      'STEP 2電話・メールで伝える',
-      'STEP 3パブコメを提出する',
-      'STEP 4請願・陳情を提出する',
-      'STEP 5窓口を探して行動する',
-    ]);
+    expect(titles).toEqual(['STEP 1何をしたい？', 'STEP 2方法を選ぼう', 'STEP 3届ける先を探そう', 'STEP 4準備して届けよう']);
   });
 
   it('各STEPの本文は1文（60文字以内）', () => {
@@ -58,13 +55,59 @@ describe('トップページ', () => {
     }
   });
 
-  it('STEP 4 は請願と陳情の違いを図で残し、STEP 5 の早見表は最初は閉じている', () => {
+  it('STEP 2：6つの方法を並列のカードで見せ、押すとそれぞれのガイドへ', () => {
+    const step = () => document.getElementById('step2-h')!.closest('li')!;
     render(<App />);
-    expect(screen.getByText('原則、議員の紹介が必要')).toBeInTheDocument();
-    const fold = screen.getByText('目的別の早見表（6項目）').closest('details')!;
-    expect(fold.open).toBe(false);
-    expect(within(fold).getAllByRole('term', { hidden: true })).toHaveLength(6);
-    expect(within(fold).getByText('どの方法でも、送り先と手続きは、各機関の公式ページで確かめましょう。')).toBeInTheDocument();
+    expect(within(step()).getByText(/順番に全部行う手順ではなく/)).toBeInTheDocument();
+    const cards = within(step()).getAllByRole('link');
+    expect(cards.map((a) => a.querySelector('.method-name')!.textContent)).toEqual([
+      '電話',
+      'メール・郵送',
+      'パブリックコメント',
+      '請願・陳情',
+      '情報公開請求',
+      '署名',
+    ]);
+    expect(cards.map((a) => a.getAttribute('href'))).toEqual(METHODS.map((m) => `#/guide/${m.slug}`));
+    expect(within(step()).getAllByText('準備中')).toHaveLength(4);
+  });
+
+  it('STEP 1 の目的を押すと STEP 2 の向いている方法に印がつき、もう一度押すと外れる', async () => {
+    const step2 = () => document.getElementById('step2-h')!.closest('li')!;
+    const marked = () =>
+      Array.from(step2().querySelectorAll('.method-card.is-match .method-name')).map((b) => b.textContent);
+    render(<App />);
+    expect(marked()).toEqual([]);
+    const btn = screen.getByRole('button', { name: '質問・確認したい' });
+    expect(btn).toHaveAttribute('aria-pressed', 'false');
+    await userEvent.click(btn);
+    expect(btn).toHaveAttribute('aria-pressed', 'true');
+    expect(marked()).toEqual(['電話', 'メール・郵送']);
+    expect(within(step2()).getByText(/「質問・確認したい」に向いている方法：電話、メール・郵送/)).toBeInTheDocument();
+    expect(within(step2()).getAllByText('（向いている）')).toHaveLength(2);
+
+    await userEvent.click(screen.getByRole('button', { name: /制度やルールの\s?変更を求めたい/ }));
+    expect(btn).toHaveAttribute('aria-pressed', 'false');
+    expect(marked()).toEqual(['パブリックコメント', '請願・陳情', '署名']);
+
+    await userEvent.click(screen.getByRole('button', { name: /制度やルールの\s?変更を求めたい/ }));
+    expect(marked()).toEqual([]);
+    expect(screen.queryByText(/に向いている方法：/)).not.toBeInTheDocument();
+  });
+
+  it('STEP 3 は窓口検索へ、STEP 4 は電話の台本・メールや手紙の文面づくりへ進める', () => {
+    render(<App />);
+    const step = (no: number) => document.getElementById(`step${no}-h`)!.closest('li')!;
+    expect(within(step(3)).getByRole('link', { name: /全国の窓口を探す/ })).toHaveAttribute('href', '#/contacts');
+    const s4 = step(4);
+    expect(within(s4).getAllByRole('listitem').map((li) => li.textContent)).toEqual([
+      '必要な事実や資料を整理する',
+      '台本・文章を作る',
+      '選んだ方法で届ける',
+      '回答を確認・記録する必要なときに',
+    ]);
+    expect(within(s4).getByRole('link', { name: /電話の台本を作る/ })).toHaveAttribute('href', '#/guide/phone');
+    expect(within(s4).getByRole('link', { name: /メール・手紙の文面を作る/ })).toHaveAttribute('href', '#/guide/email');
   });
 
   it('6つのメニュー：アイコンと短い名前だけ。準備中のものだけ「準備中」', () => {

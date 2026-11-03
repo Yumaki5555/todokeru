@@ -548,8 +548,7 @@ p.lead {
   grid-template-columns: minmax(0, 1fr) auto;
   grid-template-areas:
     'head art'
-    'gate gate'
-    'flow flow';
+    'gate gate';
   align-items: center;
   gap: 14px 12px;
 }
@@ -655,53 +654,10 @@ p.lead {
   transform: rotate(90deg); /* 下（このページの解説）へ */
 }
 
-/* 知る → 調べる → 考える → 届ける */
-.hero-flow {
-  grid-area: flow;
-  list-style: none;
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 6px;
-  margin-top: 4px;
-}
-
-.hero-flow li {
-  position: relative;
-  display: grid;
-  justify-items: center;
-  gap: 4px;
-  min-width: 0;
-  font-size: 0.9375rem;
-  font-weight: 700;
-  color: var(--c-main-deep);
-  text-align: center;
-}
-
-.flow-icon {
-  display: grid;
-  place-items: center;
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-  background: #fff;
-  border: 2px solid var(--c-main);
-  color: var(--c-main);
-}
-
-.flow-icon .icon {
-  width: 26px;
-  height: 26px;
-}
-
-.hero-flow li:last-child .flow-icon {
-  background: var(--c-main);
-  color: #fff;
-}
-
 /* 短いラベルは「・」などの区切りで折り返し、単語の途中では切らない */
-.hero-flow li,
 .fig-text b,
 .menu-name,
+.breakable,
 .seg button,
 .call-flow b,
 .finder-way-text b,
@@ -710,8 +666,6 @@ p.lead {
 }
 
 /* 図の中の「次へ」の矢印（くの字） */
-.hero-flow li + li::before,
-.fig-flow li + li::before,
 .call-flow li + li::before {
   content: '';
   position: absolute;
@@ -722,11 +676,6 @@ p.lead {
   transform: rotate(45deg);
 }
 
-.hero-flow li + li::before {
-  top: 21px;
-  left: -9px;
-}
-
 @media (min-width: 760px) {
   .hero {
     padding-block: 28px;
@@ -735,8 +684,7 @@ p.lead {
     grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
     grid-template-areas:
       'head art'
-      'gate art'
-      'flow flow';
+      'gate art';
     gap: 16px 32px;
   }
   .hero-art {
@@ -747,9 +695,6 @@ p.lead {
   .gate-main {
     justify-self: start;
     min-width: 22rem;
-  }
-  .hero-flow {
-    max-width: 40rem;
   }
 }
 
@@ -853,14 +798,171 @@ p.lead {
 }
 
 .step-more {
-  margin: 4px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0 0;
 }
 
-.step-more a {
-  display: inline-flex;
+.step-more .btn .icon {
+  width: 18px;
+  height: 18px;
+}
+
+/* STEP 1：したいことを選ぶボタン（押すと STEP 2 の向いている方法に印） */
+.purpose-pick {
+  list-style: none;
+  display: grid;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.purpose-pick button {
+  display: flex;
   align-items: center;
+  gap: 10px;
+  width: 100%;
   min-height: 44px;
+  padding: 6px 12px;
+  border: 2px solid var(--c-main-line);
+  border-radius: var(--radius-sm);
+  background: #fff;
+  color: var(--c-text);
+  font: inherit;
   font-weight: 700;
+  line-height: 1.4;
+  text-align: left;
+  cursor: pointer;
+}
+
+.purpose-pick button:hover {
+  border-color: var(--c-main);
+  background: var(--c-main-tint);
+}
+
+.purpose-pick .icon {
+  flex: none;
+  width: 22px;
+  height: 22px;
+  color: var(--c-main);
+}
+
+.purpose-pick button[aria-pressed='true'] {
+  border-color: var(--c-main);
+  background: var(--c-main);
+  color: #fff;
+}
+
+.purpose-pick button[aria-pressed='true'] .icon {
+  color: #fff;
+}
+
+/* STEP 2：6つの方法（並列の選択肢の小さなカード） */
+.method-hint {
+  margin: 8px 0 0;
+  font-size: var(--fs-small);
+  font-weight: 700;
+  color: var(--c-main-deep);
+}
+
+.method-hint:empty {
+  margin: 0;
+}
+
+.method-hint .icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 2px;
+  vertical-align: -3px;
+  color: var(--c-main);
+}
+
+.method-cards {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.method-card {
+  min-width: 0;
+}
+
+.method-card a {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  height: 100%;
+  padding: 10px 6px 8px;
+  border: 2px solid var(--c-main-line);
+  border-radius: var(--radius-sm);
+  background: #fff;
+  color: var(--c-text);
+  text-decoration: none;
+  text-align: center;
+}
+
+.method-card a:hover {
+  border-color: var(--c-main);
+  background: var(--c-main-tint);
+  color: var(--c-text);
+}
+
+.method-icon {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  margin-bottom: 2px;
+  border-radius: 50%;
+  background: var(--c-main);
+  color: #fff;
+}
+
+.method-icon .icon {
+  width: 20px;
+  height: 20px;
+}
+
+.method-name {
+  font-size: 0.9375rem;
+  line-height: 1.35;
+}
+
+.method-sub {
+  font-size: 0.75rem;
+  line-height: 1.4;
+  color: var(--c-text-sub);
+}
+
+.method-card .menu-soon {
+  margin-top: 2px;
+}
+
+.method-card.is-match a {
+  border-color: var(--c-main);
+  background: var(--c-main-tint);
+}
+
+.method-mark {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--c-main);
+  color: #fff;
+}
+
+.method-mark .icon {
+  width: 14px;
+  height: 14px;
 }
 
 /* STEP の中の小さな図 */
@@ -910,39 +1012,58 @@ p.lead {
   color: var(--c-text-sub);
 }
 
+/* アイコンの横並び（数に合わせて等分） */
 .fig-icons {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(0, 1fr);
 }
 
-.fig-flow {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+/* 下向きの矢印でつないだ縦の流れ */
+.fig-list {
+  gap: 12px;
 }
 
-.fig-flow li + li::before {
-  top: 15px;
-  left: -8px;
-}
-
-.fig-compare {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 8px;
-}
-
-.fig-compare li {
+.fig-list li {
+  grid-template-columns: 34px minmax(0, 1fr);
   justify-items: start;
-  gap: 4px;
-  padding: 8px 10px;
-  border-radius: var(--radius-sm);
-  background: var(--c-bg-sub);
+  align-items: center;
+  gap: 10px;
   text-align: left;
 }
 
-.fig-compare .fig-icon {
-  background: #fff;
+.fig-list .fig-icon {
+  width: 34px;
+  height: 34px;
 }
 
-.fig-compare .fig-text b {
-  font-size: 1rem;
+.fig-list .fig-icon .icon {
+  width: 20px;
+  height: 20px;
+}
+
+.fig-list .fig-text {
+  display: block;
+}
+
+.fig-list .fig-text b {
+  font-size: 0.9375rem;
+}
+
+.fig-list .fig-text span {
+  margin-left: 6px;
+  font-size: 0.75rem;
+}
+
+.fig-list li + li::before {
+  content: '';
+  position: absolute;
+  left: 14px;
+  top: -10px;
+  width: 6px;
+  height: 6px;
+  border-right: 2.5px solid var(--c-main);
+  border-bottom: 2.5px solid var(--c-main);
+  transform: rotate(45deg);
 }
 
 @media (min-width: 600px) {
@@ -963,15 +1084,17 @@ p.lead {
     width: 32px;
     height: 32px;
   }
+  .purpose-pick {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .method-cards {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
   .fig {
     max-width: 30rem;
   }
   .fig-text b {
     font-size: 0.875rem;
-  }
-  .fig-compare li {
-    grid-template-columns: 40px minmax(0, 1fr);
-    gap: 10px;
   }
 }
 
@@ -1026,11 +1149,6 @@ p.lead {
   margin-bottom: 12px;
 }
 
-.fold-note {
-  font-size: var(--fs-small);
-  color: var(--c-text-sub);
-}
-
 .fold-small {
   margin-top: 4px;
   border: 0;
@@ -1054,50 +1172,6 @@ p.lead {
 
 .fold-section {
   margin-top: 32px;
-}
-
-.purpose-table {
-  margin: 0 0 8px;
-  display: grid;
-  border: 1px solid var(--c-line);
-  border-radius: var(--radius-sm);
-  overflow: hidden;
-}
-
-.purpose-table > div {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  padding: 6px 12px;
-}
-
-.purpose-table > div + div {
-  border-top: 1px solid var(--c-line);
-}
-
-.purpose-table dt {
-  font-size: var(--fs-small);
-  color: var(--c-text-sub);
-}
-
-.purpose-table dd {
-  margin: 0;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-weight: 700;
-  color: var(--c-main-deep);
-}
-
-.purpose-table dd .icon {
-  color: var(--c-main);
-}
-
-@media (min-width: 600px) {
-  .purpose-table > div {
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr);
-    align-items: center;
-    gap: 12px;
-  }
 }
 
 /* ---- 方法のメニュー（アイコン中心の小さなカード） ---- */

@@ -1,84 +1,73 @@
-// 「まず3分でわかる」の内容（5つのSTEP）
-// 各STEPは「大きなアイコン＋短い見出し＋1文」。説明の代わりに小さな図（figure）で見せる。
-import type { IconName, ThreeMinuteStep } from '../types';
-import { SITE } from '../site';
+// 「まず3分でわかる」の内容（4つのSTEP）
+// 各STEPは「大きなアイコン＋短い見出し＋1文」。説明の代わりに選択肢のカードや小さな図で見せる。
+// 電話・メール・パブコメ・請願などは順番に行う手順ではなく、目的に合わせて選ぶ「方法」として STEP 2 に並べる。
+import type { ThreeMinuteMethod, ThreeMinutePurpose, ThreeMinuteStep } from '../types';
 
 export const THREE_MINUTE_STEPS: ThreeMinuteStep[] = [
   {
     no: 1,
-    title: '声の届け方を選ぶ',
-    icon: 'route',
-    text: '電話・メール・パブコメ・請願など、方法によって届く先や扱われ方が違います。',
-    figure: {
-      kind: 'icons',
-      items: [
-        { icon: 'phone', label: '電話' },
-        { icon: 'mail', label: 'メール' },
-        { icon: 'comment', label: 'パブコメ' },
-        { icon: 'petition', label: '請願・陳情' },
-      ],
-    },
+    title: '何をしたい？',
+    icon: 'bulb',
+    text: 'あてはまるものを押すと、向いている方法に印がつきます。',
+    choices: 'purposes',
   },
   {
     no: 2,
-    title: '電話・メールで伝える',
-    icon: 'phone',
-    text: '1行の台本を用意すれば、わからないことも落ち着いて質問できます。',
-    figure: {
-      kind: 'flow',
-      items: [
-        { icon: 'list', label: '台本は1行' },
-        { icon: 'phone', label: '電話する' },
-        { icon: 'memo', label: '記録をお願い' },
-      ],
-    },
-    more: { label: '電話の台本を作る', to: '/guide/phone' },
+    title: '方法を選ぼう',
+    icon: 'route',
+    text: '順番に全部行う手順ではなく、目的に合わせて選ぶ方法です。',
+    choices: 'methods',
   },
   {
     no: 3,
-    title: 'パブコメを提出する',
-    icon: 'comment',
-    text: 'パブコメは、国や自治体が募集している案に、期限内に意見を出す方法です。',
+    title: '届ける先を探そう',
+    icon: 'map',
+    text: '国・自治体・議会から、目的に合う公式の窓口を探します。',
     figure: {
-      kind: 'flow',
+      kind: 'icons',
       items: [
-        { icon: 'book', label: '案を読む' },
-        { icon: 'comment', label: '意見を書く' },
-        { icon: 'send', label: '期限内に提出' },
+        { icon: 'landmark', label: '国の機関' },
+        { icon: 'building', label: '自治体' },
+        { icon: 'assembly', label: '議会' },
       ],
     },
-    more: { label: '募集中の案件を見る（パブコメ掲示板）', to: SITE.pubcome.url },
+    more: [{ label: '全国の窓口を探す', to: '/contacts' }],
   },
   {
     no: 4,
-    title: '請願・陳情を提出する',
-    icon: 'assembly',
-    text: '請願・陳情は、条例や予算を決める議会に、正式に検討を求める方法です。',
+    title: '準備して届けよう',
+    icon: 'send',
+    text: '電話の台本やメール・手紙の文面は、このサイトで作れます。',
     figure: {
-      kind: 'compare',
+      kind: 'list',
       items: [
-        { icon: 'petition', label: '請願', sub: '原則、議員の紹介が必要' },
-        { icon: 'memo', label: '陳情', sub: '紹介なしで出せる（扱いは議会ごとに違う）' },
+        { icon: 'memo', label: '必要な事実や資料を整理する' },
+        { icon: 'form', label: '台本・文章を作る' },
+        { icon: 'send', label: '選んだ方法で届ける' },
+        { icon: 'clipboard', label: '回答を確認・記録する', sub: '必要なときに' },
       ],
     },
-  },
-  {
-    no: 5,
-    title: '窓口を探して行動する',
-    icon: 'map',
-    text: '目的に合った方法を選び、公式の窓口を確かめて届けましょう。',
-    more: { label: '全国の窓口を探す', to: '/contacts' },
+    more: [
+      { label: '電話の台本を作る', to: '/guide/phone' },
+      { label: 'メール・手紙の文面を作る', to: '/guide/email' },
+    ],
   },
 ];
 
-/** STEP 5 の早見表：したいこと → 向いている方法（最初は折りたたむ） */
-export const PURPOSE_TABLE: { purpose: string; method: string; icon: IconName }[] = [
-  { purpose: '制度のしくみを知りたい', method: '担当部署に電話・メールで質問', icon: 'phone' },
-  { purpose: '意見や要望を伝えたい', method: '広聴・ご意見窓口（電話・フォーム・郵送）', icon: 'chat' },
-  { purpose: '募集中の案に意見したい', method: 'パブコメ', icon: 'comment' },
-  { purpose: '議会で取り上げてほしい', method: '請願・陳情', icon: 'assembly' },
-  { purpose: '行政の文書を見たい', method: '情報公開請求', icon: 'folder' },
-  { purpose: '同じ考えの人の声を集めたい', method: '署名', icon: 'signature' },
+/** STEP 1：したいこと → 向いている方法（label の「/」は折り返してよい位置。表示しない） */
+export const PURPOSES: ThreeMinutePurpose[] = [
+  { id: 'question', label: '質問・確認したい', icon: 'question', methods: ['phone', 'email'] },
+  { id: 'opinion', label: '意見や要望を/伝えたい', icon: 'chat', methods: ['phone', 'email', 'public-comment'] },
+  { id: 'change', label: '制度やルールの/変更を求めたい', icon: 'scale', methods: ['public-comment', 'petition', 'signature'] },
+  { id: 'info', label: '情報や資料を/入手したい', icon: 'folder', methods: ['disclosure', 'phone', 'email'] },
 ];
 
-export const PURPOSE_NOTE = 'どの方法でも、送り先と手続きは、各機関の公式ページで確かめましょう。';
+/** STEP 2：6つの方法（並列の選択肢。並び順は「声を届ける方法を知る」と同じ。「/」は折り返してよい位置） */
+export const METHODS: ThreeMinuteMethod[] = [
+  { slug: 'phone', label: '電話', sub: 'その場で/聞ける' },
+  { slug: 'email', label: 'メール・郵送', sub: '文章で/残せる' },
+  { slug: 'public-comment', label: 'パブリック/コメント', sub: '募集中の案に/意見' },
+  { slug: 'petition', label: '請願・陳情', sub: '議会に/検討を求める' },
+  { slug: 'disclosure', label: '情報公開/請求', sub: '行政の文書を/見る' },
+  { slug: 'signature', label: '署名', sub: '賛同の声を/集める' },
+];

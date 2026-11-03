@@ -178,9 +178,27 @@ export interface ThreeMinuteStep {
   title: string;
   icon: IconName;
   text: string; // 原則1文
-  /** 文章の代わりに見せる小さな図（アイコンの並び・流れ・2つの比較） */
-  figure?: { kind: 'icons' | 'flow' | 'compare'; items: FigureItem[] };
-  more?: { label: string; to: string };
+  /** STEP 1・2 の選択肢（目的を押すと、STEP 2 の向いている方法に印がつく） */
+  choices?: 'purposes' | 'methods';
+  /** 文章の代わりに見せる小さな図（アイコンの横並び・矢印でつないだ縦の流れ） */
+  figure?: { kind: 'icons' | 'list'; items: FigureItem[] };
+  /** 次に押すリンク */
+  more?: { label: string; to: string }[];
+}
+
+/** STEP 1「何をしたい？」の1つ */
+export interface ThreeMinutePurpose {
+  id: string;
+  label: string; // 「/」の位置で折り返してよい（表示しない）
+  icon: IconName;
+  methods: GuideSlug[]; // 向いている方法
+}
+
+/** STEP 2「方法を選ぼう」の1つ（行き先は同じ slug のガイド） */
+export interface ThreeMinuteMethod {
+  slug: GuideSlug;
+  label: string; // 「/」の位置で折り返してよい（表示しない）
+  sub: string; // 何に向いているか（短く。「/」の扱いは label と同じ）
 }
 
 export interface FigureItem {

@@ -10,31 +10,31 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "092-947-1111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "811-2492",
+     "postal_address": "福岡県糟屋郡篠栗町中央一丁目1番1号",
      "hours": null,
      "source_url": "https://www.town.sasaguri.fukuoka.jp/",
-     "evidence": null,
+     "evidence": "篠栗町 Sasaguri Town 〒…日曜日、祝日及び年末年始を除く) 電話番号:092-947-1111(代表番号)",
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "092-947-1390",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "811-2492",
+     "postal_address": "福岡県糟屋郡篠栗町中央一丁目1番1号",
      "hours": null,
-     "source_url": "https://www.town.sasaguri.fukuoka.jp/",
-     "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "source_url": "https://www.town.sasaguri.fukuoka.jp/soshiki/gikai/1196.html",
+     "evidence": "議会事務局 〒811-2492 福岡県糟屋郡篠栗町中央一丁目1番1号 電話番号:092-947-1390",
+     "note": null
     },
     {
      "type": "feedback",
@@ -48,7 +48,7 @@
      "hours": null,
      "source_url": "https://www.town.sasaguri.fukuoka.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -56,49 +56,11 @@
    "code": "403431",
    "name": "志免町",
    "official_site": "https://www.town.shime.lg.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "092-935-1001",
-     "email": null,
-     "form_url": null,
-     "postal_code": "811-2292",
-     "postal_address": "福岡県糟屋郡志免町志免中央1丁目1番1号",
-     "hours": null,
-     "source_url": "https://www.town.shime.lg.jp/",
-     "evidence": "志免町役場役場への行き方・フロアマップ …糟屋郡志免町志免中央1丁目1番1号 Tel:092-935-1001(代表) Fax",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "092-935-1262",
-     "email": null,
-     "form_url": null,
-     "postal_code": "811-2292",
-     "postal_address": "福岡県糟屋郡志免町志免中央一丁目1番1号",
-     "hours": null,
-     "source_url": "https://www.town.shime.lg.jp/adv/ba.php?id=13",
-     "evidence": "議会事務局Tel:092-935-1262Fax:092-",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "志免町議会から「シーメイトの在り方に関する提言書」を町長に提出しました",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.town.shime.lg.jp/site/goiken/",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.shime.lg.jp/site/gikai/seisakuteigen-si-meitonoarikatanikansuruteigenn.html",
-     "evidence": "リンク「志免町議会から「シーメイトの在り方に関する提言書」を町長に提出しました」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -107,34 +69,6 @@
    "official_site": "https://www.town.sue.fukuoka.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "092-932-1151",
-     "email": null,
-     "form_url": null,
-     "postal_code": "811-2193",
-     "postal_address": "福岡県糟屋郡須恵町大字須恵771番地",
-     "hours": null,
-     "source_url": "https://www.town.sue.fukuoka.jp/",
-     "evidence": "須恵町役場 法人番号6000020403…県糟屋郡須恵町大字須恵771番地 電話番号 092-932-1151(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "092-932-1151",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.sue.fukuoka.jp/gyosei/gikai/index.html",
-     "evidence": "議会事務局(監査委員事務局) 〒811-…県糟屋郡須恵町大字須恵771番地 電話番号:092-932-1151(内線411)",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -146,8 +80,12 @@
      "hours": null,
      "source_url": "https://www.town.sue.fukuoka.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -195,63 +133,14 @@
      "hours": null,
      "source_url": "https://www.town.shingu.fukuoka.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
   {
    "code": "403482",
    "name": "久山町",
-   "official_site": "https://www.town.hisayama.fukuoka.jp/fullflash/index.html",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.hisayama.fukuoka.jp/fullflash/index.html",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.hisayama.fukuoka.jp/fullflash/index.html",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.hisayama.fukuoka.jp/fullflash/index.html",
-     "evidence": null,
-     "note": null
-    }
-   ]
-  },
-  {
-   "code": "403491",
-   "name": "粕屋町",
-   "official_site": "https://www.town.kasuya.fukuoka.jp/",
+   "official_site": "https://www.town.hisayama.fukuoka.jp/",
    "contacts": [
     {
      "type": "general",
@@ -263,8 +152,57 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.kasuya.fukuoka.jp/",
+     "source_url": "https://www.town.hisayama.fukuoka.jp/",
      "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "092-976-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "811-2592",
+     "postal_address": "福岡県糟屋郡久山町大字久原3632番地",
+     "hours": null,
+     "source_url": "https://www.town.hisayama.fukuoka.jp/gyosei/gyosei_joho/hisayama_gikai/2367.html",
+     "evidence": "議会事務局 〒811-2592 福岡県糟屋郡久山町大字久原3632番地 電話番号:092-976-1111",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.hisayama.fukuoka.jp/",
+     "evidence": null,
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "403491",
+   "name": "粕屋町",
+   "official_site": "https://www.town.kasuya.fukuoka.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "092-938-2311",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kasuya.fukuoka.jp/",
+     "evidence": "92 福岡県糟屋郡粕屋町駕与丁1丁目1番1号 電話番号:092-938-2311(代表)",
      "note": null
     },
     {
@@ -317,20 +255,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局議会事務局 事務係",
-     "phone": "093-223-3579",
-     "email": null,
-     "form_url": null,
-     "postal_code": "807-0198",
-     "postal_address": "福岡県遠賀郡芦屋町幸町2番20号",
-     "hours": null,
-     "source_url": "https://www.town.ashiya.lg.jp/site/gikai/",
-     "evidence": "議会事務局議会事務局 事務係 〒807-0198福岡県遠賀郡芦屋町幸町2番20号 Tel:093-223-3579",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -344,6 +268,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -353,16 +280,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "093-201-4321",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "807-8501",
+     "postal_address": "福岡県遠賀郡水巻町頃末北1丁目1-1",
      "hours": null,
      "source_url": "https://www.town.mizumaki.lg.jp/",
-     "evidence": null,
+     "evidence": "水巻町 (法人番号:400002040…町頃末北1丁目1番1号 電話番号(代表):093-201-4321 ファクス番号:",
      "note": null
     },
     {
@@ -401,48 +328,6 @@
    "official_site": "https://www.town.okagaki.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "093-282-1211",
-     "email": null,
-     "form_url": null,
-     "postal_code": "811-4233",
-     "postal_address": "福岡県遠賀郡岡垣町野間1丁目1番1号",
-     "hours": null,
-     "source_url": "https://www.town.okagaki.lg.jp/",
-     "evidence": "岡垣町役場 〒811-4233 福岡県遠賀郡岡垣町野間1丁目1番1号 電話番号:093-282-1211(代表)/ ファ",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "093-282-1211",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.okagaki.lg.jp/s038/seigan-tinjyou.html",
-     "evidence": "議会事務局にお問い合わせください。 お問い合わせ先 議会事務局 事務係 電話番号:093-282-1211",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務係",
-     "phone": "093-282-1211",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.okagaki.lg.jp/s032/100/010/070/20150311122209.html",
-     "evidence": "教育総務係 電話番号:093-282-1211(代表)",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -456,6 +341,10 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -490,21 +379,10 @@
      "source_url": "https://www.town.onga.lg.jp/site/gikai/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "町へのご質問・ご意見",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.town.onga.lg.jp/form/detail.php?sec_sec1=28&lif_id=56481",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.onga.lg.jp/adv/ba.php?id=33",
-     "evidence": "リンク「【事業PR】ご質問・ご意見」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "feedback"
    ]
   },
   {
@@ -514,46 +392,22 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0949-62-1212",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "820-1192",
+     "postal_address": "福岡県鞍手郡小竹町大字勝野3167番地1",
      "hours": null,
      "source_url": "https://town.kotake.lg.jp/",
-     "evidence": null,
+     "evidence": "小竹町役場 〒820-1192 福岡県鞍手郡小竹町大字勝野3167番地1 Tel:0949-62-1212 Fax:094",
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0949-62-1967",
-     "email": "gikai@town.kotake.lg.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://town.kotake.lg.jp/gikai/hpkiji/pub/List.aspx?c_id=3&class_set_id=6&class_id=545",
-     "evidence": "議会事務局 電話:0949-62-1967",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "行政への手紙 あなたの声をお聞かせください",
-     "phone": null,
-     "email": null,
-     "form_url": "https://town.kotake.lg.jp/entry/pub/AnsForm.aspx?c_id=23&entry_ins=6",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://town.kotake.lg.jp/hpkiji/pub/detail.aspx?c_id=3&id=3164&class_set_id=1&class_id=841",
-     "evidence": "リンク「行政への手紙 あなたの声をお聞かせください」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -576,20 +430,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0949-42-2034",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.kurate.lg.jp/gikai/kousaihi/index.html",
-     "evidence": "議会事務局 電話番号:0949-42-2034",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -601,8 +441,11 @@
      "hours": null,
      "source_url": "https://www.town.kurate.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -612,30 +455,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0948-65-1100",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.town.keisen.fukuoka.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0948-65-1136",
-     "email": "gikai@town.keisen.fukuoka.jp",
-     "form_url": null,
-     "postal_code": "820-0696",
-     "postal_address": "福岡県嘉穂郡桂川町大字土居424番地1",
-     "hours": null,
-     "source_url": "https://www.town.keisen.fukuoka.jp/gikai/shigoto.php",
-     "evidence": "議会事務局 〒820-0696 福岡県嘉穂郡桂川町大字土居424番地1 TEL:0948-65-1136/FAX:094",
+     "evidence": "桂川町役場のご案内 0948-65-1100",
      "note": null
     },
     {
@@ -650,8 +479,11 @@
      "hours": null,
      "source_url": "https://www.town.keisen.fukuoka.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -697,9 +529,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.chikuzen.fukuoka.jp/",
+     "source_url": "https://www.town.chikuzen.fukuoka.jp/li/050/100/index.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
    ]
   },
@@ -734,7 +566,7 @@
      "hours": null,
      "source_url": "https://vill.toho-info.com/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -808,30 +640,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0944-32-1013",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.town.ooki.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0944-32-1249",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.ooki.lg.jp/important/4888.html",
-     "evidence": "議会事務局 〒830-0416 福岡県三潴郡大木町大字八町牟田255-1 電話番号:0944‐32‐1249",
+     "evidence": "大木町役場〒830-0416 福岡県三潴郡大木町大字八町牟田255-1電話番号:0944-32-1013",
      "note": null
     },
     {
@@ -848,6 +666,9 @@
      "evidence": "リンク「町長への手紙」",
      "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -855,20 +676,6 @@
    "name": "広川町",
    "official_site": "https://www.town.hirokawa.fukuoka.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0943-32-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.hirokawa.fukuoka.jp/",
-     "evidence": "広川町役場 法人番号9000020405…八女郡広川町大字新代1804番地1 電話:0943-32-1111(代表)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -881,7 +688,7 @@
      "hours": null,
      "source_url": "https://www.town.hirokawa.fukuoka.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -895,8 +702,11 @@
      "hours": null,
      "source_url": "https://www.town.hirokawa.fukuoka.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -906,16 +716,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0947-32-2511",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "822-1492",
+     "postal_address": "福岡県田川郡香春町大字高野994",
      "hours": null,
      "source_url": "https://www.town.kawara.fukuoka.jp/",
-     "evidence": null,
+     "evidence": "香春町役場 郵便番号:822-1492 福岡県田川郡香春町大字高野994 電話番号:0947-32-2511",
      "note": null
     },
     {
@@ -930,7 +740,7 @@
      "hours": null,
      "source_url": "https://www.town.kawara.fukuoka.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -944,7 +754,7 @@
      "hours": null,
      "source_url": "https://www.town.kawara.fukuoka.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -983,17 +793,17 @@
     },
     {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
+     "agent_status": "found",
+     "department": "「ご意見箱」~あなたの声を聴かせてください~",
      "phone": null,
      "email": null,
-     "form_url": null,
+     "form_url": "https://www.town.soeda.fukuoka.jp/form/detail.php?sec_sec1=5&inq=02&lif_id=1227",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.soeda.fukuoka.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.town.soeda.fukuoka.jp/page/1227.html",
+     "evidence": "リンク「「ご意見箱」~あなたの声を聴かせてください~」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
    ]
   },
@@ -1002,20 +812,6 @@
    "name": "糸田町",
    "official_site": "https://www.town.itoda.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0947-26-1231",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.itoda.lg.jp/",
-     "evidence": "糸田町役場 TEL:0947-26-1231(代表) 〒82",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -1042,8 +838,11 @@
      "hours": null,
      "source_url": "https://www.town.itoda.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -1091,7 +890,7 @@
      "hours": null,
      "source_url": "https://www.town-kawasaki.com/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -1115,34 +914,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0947-63-3000",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.oto.fukuoka.jp/classset002.html",
-     "evidence": "議会事務局 TEL:0947-63-3000",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会",
-     "phone": "0947-63-3110",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.oto.fukuoka.jp/classset002.html",
-     "evidence": "教育委員会 TEL:0947-63-3110",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -1154,8 +925,11 @@
      "hours": null,
      "source_url": "https://www.town.oto.fukuoka.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -1189,7 +963,7 @@
      "hours": null,
      "source_url": "https://www.akamura.net/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -1203,7 +977,7 @@
      "hours": null,
      "source_url": "https://www.akamura.net/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -1236,9 +1010,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.fukuchi.lg.jp/",
+     "source_url": "http://www.town.fukuchi.lg.jp/soshiki/jimu/gikai/index.html",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": null
     },
     {
      "type": "feedback",
@@ -1252,7 +1026,7 @@
      "hours": null,
      "source_url": "https://www.town.fukuchi.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -1263,30 +1037,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.kanda.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
      "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "093-434-1981",
+     "department": "代表電話",
+     "phone": "093-434-1111",
      "email": null,
      "form_url": null,
      "postal_code": "800-0392",
      "postal_address": "福岡県京都郡苅田町富久町1丁目19-1",
      "hours": null,
-     "source_url": "https://www.town.kanda.lg.jp/site/gikai/",
-     "evidence": "議会事務局代表 〒800-0392福岡県京都郡苅田町富久町1丁目19-1 Tel:093-434-1981Fax:093-",
+     "source_url": "https://www.town.kanda.lg.jp/",
+     "evidence": "苅田町 法人番号80000204062…県京都郡苅田町富久町1丁目19-1 Tel:093-434-1111(代表)",
      "note": null
     },
     {
@@ -1299,10 +1059,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.kanda.lg.jp/",
+     "source_url": "https://www.town.kanda.lg.jp/life/6/28/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -1325,20 +1088,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0930-32-2655",
-     "email": "gikai@town.miyako.lg.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.miyako.lg.jp/gyougikai/gikaikouhou/gikaidayori_new.html",
-     "evidence": "議会事務局 電話番号:0930-32-2655",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -1352,6 +1101,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -1359,20 +1111,6 @@
    "name": "吉富町",
    "official_site": "https://www.town.yoshitomi.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0979-24-1122",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.yoshitomi.lg.jp/",
-     "evidence": "吉富町役場 〒871-8585 福岡県築上郡吉富町大字広津226番地1 電話 0979-24-1122(代表)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -1385,7 +1123,7 @@
      "hours": null,
      "source_url": "https://www.town.yoshitomi.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -1399,8 +1137,11 @@
      "hours": null,
      "source_url": "https://www.town.yoshitomi.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -1408,20 +1149,6 @@
    "name": "上毛町",
    "official_site": "https://www.town.koge.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0979-72-3111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "871-0992",
-     "postal_address": "福岡県築上郡上毛町大字垂水1321番地1",
-     "hours": null,
-     "source_url": "https://www.town.koge.lg.jp/",
-     "evidence": "上毛町役場 〒871-0992 福岡県築上郡上毛町大字垂水1321番地1 電話 0979-72-3111(代表) ファッ",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -1448,8 +1175,11 @@
      "hours": null,
      "source_url": "https://www.town.koge.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -1457,34 +1187,6 @@
    "name": "築上町",
    "official_site": "https://www.town.chikujo.fukuoka.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0930-56-0300",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.chikujo.fukuoka.jp/",
-     "evidence": "築上町役場 郵便番号:829-0392 …築上郡築上町大字椎田891番地2 電話番号:0930-56-0300(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0930-56-0300",
-     "email": "gikai@town.chikujo.lg.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.chikujo.fukuoka.jp/s031/020/070/020/R08/gikai.html",
-     "evidence": "議会事務局 電話番号:0930-56-0300",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -1497,8 +1199,12 @@
      "hours": null,
      "source_url": "https://www.town.chikujo.fukuoka.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   }
  ]

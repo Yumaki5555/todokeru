@@ -23,20 +23,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0742-34-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "630-8580",
-     "postal_address": "奈良市二条大路南一丁目1-1",
-     "hours": null,
-     "source_url": "https://www.city.nara.lg.jp/adv/ba.php?id=172&ef1=9",
-     "evidence": "議会事務局 連絡先 〒630-8580奈良市二条大路南一丁目1-1 Tel:0742-34-1111(コールセンター",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -50,6 +36,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -69,21 +58,7 @@
      "hours": null,
      "source_url": "https://www.city.yamatotakada.nara.jp/",
      "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0745-22-1101",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.yamatotakada.nara.jp/shisei/yamatotakadashigikai/index.html",
-     "evidence": "議会事務局 大和高田市大字大中98番地4(市役所6階) 電話番号:0745-22-1101",
-     "note": null
+     "note": "本庁の代表番号を1つに特定できない"
     },
     {
      "type": "feedback",
@@ -97,8 +72,11 @@
      "hours": null,
      "source_url": "https://www.city.yamatotakada.nara.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -106,34 +84,6 @@
    "name": "大和郡山市",
    "official_site": "https://www.city.yamatokoriyama.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0743-53-1151",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.yamatokoriyama.lg.jp/",
-     "evidence": "大和郡山市役所 〒639-1198 奈良県大和郡山市北郡山町248-4 電話:0743-53-1151 (代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0743-53-1151",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.yamatokoriyama.lg.jp/soshiki/gikaijimukyoku/shigikai/index.html",
-     "evidence": "議会事務局 郵便番号:639-1198 大和郡山市北郡山町248-4 電話:0743-53-1151(内線774)",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -146,8 +96,12 @@
      "hours": null,
      "source_url": "https://www.city.yamatokoriyama.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -181,20 +135,6 @@
      "hours": null,
      "source_url": "https://www.city.tenri.nara.jp/kakuka/gikaijimukyoku/shigikai/index.html",
      "evidence": null,
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務課",
-     "phone": "0743-63-1001",
-     "email": null,
-     "form_url": null,
-     "postal_code": "632-8555",
-     "postal_address": "奈良県天理市川原城町605番地 市役所5階",
-     "hours": null,
-     "source_url": "https://www.city.tenri.nara.jp/kakuka/kyouikuiinkai/kyouikusoumuka/kyouikuiinkai/1391497227883.html",
-     "evidence": "教育総務課 〒632-8555 奈良県天理市川原城町605番地 市役所5階 電話 0743-63-1001(代表)",
      "note": null
     },
     {
@@ -258,7 +198,7 @@
      "hours": null,
      "source_url": "https://www.city.kashihara.nara.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -269,30 +209,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.sakurai.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
      "agent_status": "found",
-     "department": "桜井市議会事務局 議事課",
-     "phone": "0744-42-9132",
+     "department": "代表電話",
+     "phone": "0744-42-9111",
      "email": null,
      "form_url": null,
      "postal_code": "633-8585",
-     "postal_address": "桜井市大字粟殿432-1",
+     "postal_address": "奈良県桜井市大字粟殿432-1",
      "hours": null,
-     "source_url": "https://www.city.sakurai.lg.jp/sosiki/gikaijimukyoku/seigantinjyou/1395754474436.html",
-     "evidence": "桜井市議会事務局 議事課 〒633-8585 桜井市大字粟殿432-1 電話:0744-42-9132",
+     "source_url": "https://www.city.sakurai.lg.jp/",
+     "evidence": "桜井市役所 〒633-8585 奈良県桜井市大字粟殿432-1 電話:0744-42-9111",
      "note": null
     },
     {
@@ -309,6 +235,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -316,20 +245,6 @@
    "name": "五條市",
    "official_site": "https://www.city.gojo.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0747-22-4001",
-     "email": null,
-     "form_url": null,
-     "postal_code": "637-8501",
-     "postal_address": "奈良県五條市岡口1丁目3番1号",
-     "hours": null,
-     "source_url": "https://www.city.gojo.lg.jp/",
-     "evidence": "五條市役所【法人番号:100002029…01 奈良県五條市岡口1丁目3番1号 電話:0747-22-4001(代表)ファック",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -356,8 +271,11 @@
      "hours": null,
      "source_url": "https://www.city.gojo.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -365,48 +283,6 @@
    "name": "御所市",
    "official_site": "https://www.city.gose.nara.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0745-62-3001",
-     "email": null,
-     "form_url": null,
-     "postal_code": "639-2298",
-     "postal_address": "奈良県御所市1番地の3",
-     "hours": null,
-     "source_url": "https://www.city.gose.nara.jp/",
-     "evidence": "御所市役所 交通アクセス 〒639-2298 奈良県御所市1番地の3 代表電話:0745-62-3001ファックス:07",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0745-62-3001",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.gose.nara.jp/0000000251.html",
-     "evidence": "議会事務局 電話: 0745-62-3001",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会事務局教育総務課",
-     "phone": "0745-44-3595",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.gose.nara.jp/soshiki/7-1-0-0-0_2.html",
-     "evidence": "教育委員会事務局教育総務課 電話: 0745-44-3595 ファックス:",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -421,6 +297,10 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -441,35 +321,11 @@
      "source_url": "https://www.city.ikoma.lg.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0743-74-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.ikoma.lg.jp/gikai/0000009231.html",
-     "evidence": "議会事務局 電話: 0743-74-1111 内線(庶務調査",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "生駒市経営企画部広報広聴課",
-     "phone": "0743-74-1111",
-     "email": null,
-     "form_url": "https://www.city.ikoma.lg.jp/module/shareform.php?so_cd=1-1-0-0-0",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.ikoma.lg.jp/0000039080.html",
-     "evidence": "生駒市経営企画部広報広聴課 電話: 0743-74-1111 内線(広報広聴",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -477,48 +333,6 @@
    "name": "香芝市",
    "official_site": "https://www.city.kashiba.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0745-76-2001",
-     "email": null,
-     "form_url": null,
-     "postal_code": "639-0292",
-     "postal_address": "奈良県香芝市本町1397番地",
-     "hours": null,
-     "source_url": "https://www.city.kashiba.lg.jp/",
-     "evidence": "香芝市役所法人番号50000202921…92 奈良県香芝市本町1397番地 Tel:0745-76-2001(代表) Fax",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会総務課",
-     "phone": "0745-44-3341",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kashiba.lg.jp/site/shigikai/",
-     "evidence": "議会総務課代表 Tel:0745-44-3341",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務課",
-     "phone": "0745-76-2001",
-     "email": null,
-     "form_url": null,
-     "postal_code": "639-0292",
-     "postal_address": "奈良県香芝市本町1397番地",
-     "hours": null,
-     "source_url": "https://www.city.kashiba.lg.jp/site/kyouiku/4031.html",
-     "evidence": "教育総務課代表 〒639-0292奈良県香芝市本町1397番地 香芝市役所4階 Tel:0745-76-2001Fax:0745",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -533,6 +347,10 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -567,21 +385,10 @@
      "source_url": "https://www.city.katsuragi.nara.jp/shisei/shigikai/index.html",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "ご意見",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.katsuragi.nara.jp/cgi-bin/inquiry.php/55",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.katsuragi.nara.jp/",
-     "evidence": "リンク「ご意見」",
-     "note": "電話番号の掲載なし（フォームで受付）"
     }
+   ],
+   "skipped_types": [
+    "feedback"
    ]
   },
   {
@@ -640,16 +447,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0743-85-0041",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "630-2344",
+     "postal_address": "奈良県山辺郡山添村大字大西151番地",
      "hours": null,
      "source_url": "https://www.vill.yamazoe.nara.jp/",
-     "evidence": null,
+     "evidence": "山添村役場 〒630-2344 奈良県山辺郡山添村大字大西151番地 TEL:0743-85-0041(代)/ FAX",
      "note": null
     },
     {
@@ -664,7 +471,7 @@
      "hours": null,
      "source_url": "https://www.vill.yamazoe.nara.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -678,7 +485,7 @@
      "hours": null,
      "source_url": "https://www.vill.yamazoe.nara.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -686,63 +493,11 @@
    "code": "293423",
    "name": "平群町",
    "official_site": "https://www.town.heguri.nara.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0745-45-1001",
-     "email": null,
-     "form_url": null,
-     "postal_code": "636-8585",
-     "postal_address": "奈良県生駒郡平群町吉新1-1-1",
-     "hours": null,
-     "source_url": "https://www.town.heguri.nara.jp/",
-     "evidence": "平群町役場 法人番号2000020293…5 奈良県生駒郡平群町吉新1-1-1 電話:0745-45-1001(代表)ファクス",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0745-45-0012",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.heguri.nara.jp/site/gikai/",
-     "evidence": "議会事務局 直通 郵便番号:636-85…所:奈良県生駒郡平群町吉新1-1-1 電話:0745-45-0012ファックス:07",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会総務課",
-     "phone": "0745-45-2101",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.heguri.nara.jp/site/kyouiku/",
-     "evidence": "教育委員会総務課 直通 郵便番号:636…所:奈良県生駒郡平群町吉新1-1-1 電話:0745-45-2101ファックス:07",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "皆さまのご意見・ご提案をお聴かせ下さい",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.town.heguri.nara.jp/form/detail.php?sec_sec1=18&lif_id=15744",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.heguri.nara.jp/adv/ba.php?id=90",
-     "evidence": "リンク「(200×250)町政へのご意見」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -752,46 +507,22 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0745-73-2101",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "636-8535",
+     "postal_address": "奈良県生駒郡三郷町勢野西1丁目1番1号",
      "hours": null,
      "source_url": "https://www.town.sango.nara.jp/",
-     "evidence": null,
+     "evidence": "三郷町 三郷町は未来都市に選出されまし…生駒郡三郷町勢野西1丁目1番1号 電話番号 0745-73-2101(代表)ファック",
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0745-43-7371",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.sango.nara.jp/site/gikai/4018.html",
-     "evidence": "議会事務局 奈良県生駒郡三郷町勢野西1丁目1番1号 電話番号:0745-43-7371",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "ご意見・ご要望",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.town.sango.nara.jp/form/detail.php?sec_sec1=3&lif_id=12449",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.sango.nara.jp/soshiki/3/1224.html",
-     "evidence": "リンク「ご意見箱」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -800,34 +531,6 @@
    "official_site": "https://www.town.ikaruga.nara.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0745-74-1001",
-     "email": null,
-     "form_url": null,
-     "postal_code": "636-0198",
-     "postal_address": "奈良県生駒郡斑鳩町法隆寺西3丁目7番12号",
-     "hours": null,
-     "source_url": "https://www.town.ikaruga.nara.jp/",
-     "evidence": "斑鳩町役場 (法人番号:10000202…駒郡斑鳩町法隆寺西3丁目7番12号 TEL:0745-74-1001(代表)FAX:",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0745-74-1001",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.ikaruga.nara.jp/0000000054.html",
-     "evidence": "議会事務局 電話: 0745-74-1001(内線:302)",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -839,8 +542,12 @@
      "hours": null,
      "source_url": "https://www.town.ikaruga.nara.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -848,20 +555,6 @@
    "name": "安堵町",
    "official_site": "https://www.town.ando.nara.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0743-57-1511",
-     "email": null,
-     "form_url": null,
-     "postal_code": "639-1095",
-     "postal_address": "奈良県生駒郡安堵町大字東安堵958番地 役場庁舎へのアクセス",
-     "hours": null,
-     "source_url": "https://www.town.ando.nara.jp/",
-     "evidence": "役場庁舎へのアクセス 電話:0743-57-1511(代表)ファック",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -888,8 +581,11 @@
      "hours": null,
      "source_url": "https://www.town.ando.nara.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -897,34 +593,6 @@
    "name": "川西町",
    "official_site": "https://www.town.nara-kawanishi.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0745-44-2211",
-     "email": null,
-     "form_url": null,
-     "postal_code": "636-0202",
-     "postal_address": "奈良県磯城郡川西町大字結崎28番地の1",
-     "hours": null,
-     "source_url": "https://www.town.nara-kawanishi.lg.jp/",
-     "evidence": "川西町役場〒636-0202奈良県磯城郡川西町大字結崎28番地の1 【電話】0745-44-2211(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0745-44-2681",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.nara-kawanishi.lg.jp/soshiki/5-0-0-0-0_10.html",
-     "evidence": "議会事務局 電話: 0745-44-2681 FAX: 07",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -937,8 +605,12 @@
      "hours": null,
      "source_url": "https://www.town.nara-kawanishi.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -948,44 +620,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.miyake.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
      "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0745-44-3080",
+     "department": "代表電話",
+     "phone": "0745-44-2001",
      "email": null,
      "form_url": null,
      "postal_code": "636-0213",
      "postal_address": "奈良県磯城郡三宅町大字伴堂689番地",
      "hours": null,
-     "source_url": "https://www.town.miyake.lg.jp/soshiki/",
-     "evidence": "議会事務局 〒636-0213奈良県磯城郡三宅町大字伴堂689番地電話番号0745-44-3080代表Fax番号0",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務課",
-     "phone": "0745-44-3079",
-     "email": null,
-     "form_url": null,
-     "postal_code": "636-0213",
-     "postal_address": "奈良県磯城郡三宅町大字伴堂689番地 三宅町教育委員会",
-     "hours": null,
-     "source_url": "https://www.town.miyake.lg.jp/site/kyouiku/",
-     "evidence": "教育総務課 Tel:0745-44-3079 Fax:074",
+     "source_url": "https://www.town.miyake.lg.jp/",
+     "evidence": "6-0213 奈良県磯城郡三宅町大字伴堂689番地 Tel:0745-44-2001(代表)Fax:",
      "note": null
     },
     {
@@ -998,10 +642,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.miyake.lg.jp/",
+     "source_url": "https://www.town.miyake.lg.jp/life/4/21/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -1011,30 +658,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0744-32-2901",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "636-0392",
+     "postal_address": "奈良県磯城郡田原本町890-1",
      "hours": null,
      "source_url": "https://www.town.tawaramoto.nara.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0744-34-2119",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.tawaramoto.nara.jp/prefectural_assembly/4008.html",
-     "evidence": "議会事務局 電話:0744-34-2119",
+     "evidence": "田原本町役場 所在地:〒636-0392 奈良県磯城郡田原本町890-1 電話番号:0744-32-2901 ファックス番号",
      "note": null
     },
     {
@@ -1049,8 +682,11 @@
      "hours": null,
      "source_url": "https://www.town.tawaramoto.nara.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   }
  ]

@@ -3,9 +3,9 @@
  "checked_at": "2026-11-03",
  "result": {
   "entities": 30,
-  "contacts": 92,
-  "verified": 25,
-  "unverified": 67,
+  "contacts": 67,
+  "verified": 11,
+  "unverified": 56,
   "unavailable": 0,
   "errors": 0
  },
@@ -13,17 +13,23 @@
  "reports": [
   {
    "id": "403423-general",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
   },
   {
    "id": "403423-assembly",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
   },
   {
    "id": "403423-feedback",
@@ -31,52 +37,6 @@
    "checks": {},
    "status": "unverified",
    "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "403431-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "403431-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "403431-feedback",
-   "agent_status": "found",
-   "checks": {
-    "form_url": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "403440-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "403440-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
   },
   {
    "id": "403440-feedback",
@@ -108,31 +68,35 @@
   },
   {
    "id": "403482-general",
-   "agent_status": "fetch_failed",
-   "checks": {},
-   "status": "unverified",
-   "why": "出典ページを開けない（HTTP 404）"
-  },
-  {
-   "id": "403482-feedback",
-   "agent_status": "fetch_failed",
-   "checks": {},
-   "status": "unverified",
-   "why": "出典ページを開けない（HTTP 404）"
-  },
-  {
-   "id": "403482-assembly",
-   "agent_status": "fetch_failed",
-   "checks": {},
-   "status": "unverified",
-   "why": "出典ページを開けない（HTTP 404）"
-  },
-  {
-   "id": "403491-general",
    "agent_status": "auto_not_found",
    "checks": {},
    "status": "unverified",
    "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "403482-assembly",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "403482-feedback",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "403491-general",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok"
+   },
+   "status": "verified"
   },
   {
    "id": "403491-assembly",
@@ -156,16 +120,6 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "403814-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "403814-feedback",
    "agent_status": "auto_not_found",
    "checks": {},
@@ -174,10 +128,13 @@
   },
   {
    "id": "403822-general",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
   },
   {
    "id": "403822-assembly",
@@ -192,32 +149,6 @@
    "checks": {},
    "status": "unverified",
    "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "403831-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "403831-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "403831-education",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
   },
   {
    "id": "403831-feedback",
@@ -241,34 +172,12 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "403849-feedback",
-   "agent_status": "found",
-   "checks": {
-    "form_url": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "404012-general",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "404012-assembly",
    "agent_status": "found",
    "checks": {
     "phone": "ok",
-    "email": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "404012-feedback",
-   "agent_status": "found",
-   "checks": {
-    "form_url": "ok"
+    "postal_code": "ok",
+    "postal_address": "ok"
    },
    "status": "verified"
   },
@@ -280,14 +189,6 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "404021-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "404021-feedback",
    "agent_status": "auto_not_found",
    "checks": {},
@@ -296,19 +197,9 @@
   },
   {
    "id": "404217-general",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "404217-assembly",
    "agent_status": "found",
    "checks": {
-    "phone": "ok",
-    "email": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
+    "phone": "ok"
    },
    "status": "verified"
   },
@@ -384,13 +275,6 @@
   },
   {
    "id": "405221-general",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "405221-assembly",
    "agent_status": "found",
    "checks": {
     "phone": "ok"
@@ -403,14 +287,6 @@
    "checks": {},
    "status": "unverified",
    "why": "出典URLがない"
-  },
-  {
-   "id": "405442-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
   },
   {
    "id": "405442-assembly",
@@ -428,10 +304,13 @@
   },
   {
    "id": "406015-general",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
   },
   {
    "id": "406015-assembly",
@@ -463,16 +342,9 @@
   },
   {
    "id": "406023-feedback",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "406040-general",
    "agent_status": "found",
    "checks": {
-    "phone": "ok"
+    "form_url": "ok"
    },
    "status": "verified"
   },
@@ -519,22 +391,6 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "406082-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "406082-education",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "406082-feedback",
    "agent_status": "auto_not_found",
    "checks": {},
@@ -574,7 +430,7 @@
    "agent_status": "auto_not_found",
    "checks": {},
    "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
+   "why": "出典URLがない"
   },
   {
    "id": "406104-feedback",
@@ -585,13 +441,6 @@
   },
   {
    "id": "406210-general",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "406210-assembly",
    "agent_status": "found",
    "checks": {
     "phone": "ok",
@@ -615,28 +464,11 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "406252-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "email": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "406252-feedback",
    "agent_status": "auto_not_found",
    "checks": {},
    "status": "unverified",
    "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "406422-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
   },
   {
    "id": "406422-assembly",
@@ -653,16 +485,6 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "406465-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "406465-assembly",
    "agent_status": "auto_not_found",
    "checks": {},
@@ -675,23 +497,6 @@
    "checks": {},
    "status": "unverified",
    "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "406473-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "406473-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "email": "ok"
-   },
-   "status": "verified"
   },
   {
    "id": "406473-feedback",

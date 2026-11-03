@@ -438,16 +438,16 @@
    {
     "id": "012076-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0155-24-4111",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "080-8670",
+    "postal_address": "北海道帯広市西5条南7丁目1番地",
     "hours": null,
     "source_url": "https://www.city.obihiro.hokkaido.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -468,16 +468,16 @@
    {
     "id": "012076-assembly",
     "type": "assembly",
-    "department": "議会事務局",
-    "phone": null,
+    "department": "議会事務局総務課議事係",
+    "phone": "0155-65-4221",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "080-8670",
+    "postal_address": "帯広市西5条南7丁目1番地",
     "hours": null,
-    "source_url": "https://www.city.obihiro.hokkaido.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.city.obihiro.hokkaido.jp/shisei/shigikai/tetsuduki/1001276.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -562,7 +562,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.yubari.lg.jp/",
+    "source_url": "https://www.city.yubari.lg.jp/life/5/22/90/",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -868,7 +868,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.bibai.hokkaido.jp/",
+    "source_url": "https://www.city.bibai.hokkaido.jp/life/6/29/120/",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -876,16 +876,16 @@
    {
     "id": "012157-assembly",
     "type": "assembly",
-    "department": "議会事務局",
-    "phone": null,
+    "department": "議会事務局総務係",
+    "phone": "0126-63-0141",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "072-8660",
+    "postal_address": "北海道美唄市西3条南1丁目1番1号",
     "hours": null,
-    "source_url": "https://www.city.bibai.hokkaido.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.city.bibai.hokkaido.jp/site/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -1014,16 +1014,16 @@
    {
     "id": "012181-feedback",
     "type": "feedback",
-    "department": "広聴・ご意見窓口",
-    "phone": null,
+    "department": "広報広聴係",
+    "phone": "0125-32-1834",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.akabira.hokkaido.jp/docs/2013022100021.html",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.city.akabira.hokkaido.jp/docs/2013112000019.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -1108,10 +1108,10 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.shibetsu.lg.jp/www/index.html",
+    "source_url": "https://www.city.shibetsu.lg.jp/",
     "verified_at": null,
     "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "note": null
    },
    {
     "id": "012203-feedback",
@@ -1123,25 +1123,25 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.shibetsu.lg.jp/www/index.html",
+    "source_url": "https://www.city.shibetsu.lg.jp/",
     "verified_at": null,
     "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "note": null
    },
    {
     "id": "012203-assembly",
     "type": "assembly",
     "department": "議会事務局",
-    "phone": null,
+    "phone": "0165-23-3009",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.shibetsu.lg.jp/www/index.html",
-    "verified_at": null,
-    "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "source_url": "https://www.city.shibetsu.lg.jp/soshikikarasagasu/gikaijimukyoku/1526.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1300,15 +1300,15 @@
     "id": "012238-assembly",
     "type": "assembly",
     "department": "議会事務局",
-    "phone": null,
+    "phone": "0153-23-6111",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.nemuro.hokkaido.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.city.nemuro.hokkaido.jp/lifeinfo/15140.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -1320,16 +1320,16 @@
    {
     "id": "012246-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0123-24-3131",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "066-8686",
+    "postal_address": "北海道千歳市東雲町2丁目34番地",
     "hours": null,
     "source_url": "https://www.city.chitose.lg.jp",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -1386,16 +1386,16 @@
    {
     "id": "012254-feedback",
     "type": "feedback",
-    "department": "広聴・ご意見窓口",
-    "phone": null,
+    "department": "総務部秘書課広報広聴係",
+    "phone": "0125-28-8005",
     "email": null,
-    "form_url": null,
+    "form_url": "https://www.harp.lg.jp/SksJuminWeb/EntryForm?id=ns4VvMnx",
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.takikawa.lg.jp/page/12561.html",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.city.takikawa.lg.jp/site/shimin-koe/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -1422,16 +1422,16 @@
    {
     "id": "012262-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0125-54-2121",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.sunagawa.hokkaido.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -1794,16 +1794,16 @@
    {
     "id": "012343-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "011-372-3311",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "061-1192",
+    "postal_address": "北海道北広島市中央4丁目2番地1",
     "hours": null,
     "source_url": "https://www.city.kitahiroshima.hokkaido.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -2049,16 +2049,16 @@
    {
     "id": "013315-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0139-42-2275",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "049-1592",
+    "postal_address": "北海道松前郡松前町字福山248番地1",
     "hours": null,
     "source_url": "https://www.town.matsumae.hokkaido.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -2305,7 +2305,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.nanae.hokkaido.jp/",
+    "source_url": "https://www.town.nanae.hokkaido.jp/hotnews/detail/00014194.html",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -2436,16 +2436,16 @@
    {
     "id": "013463-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0137-62-2111",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "049-3192",
+    "postal_address": "北海道二海郡八雲町住初町138",
     "hours": null,
     "source_url": "https://www.town.yakumo.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -2509,7 +2509,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.oshamambe.lg.jp/index.php",
+    "source_url": "https://www.town.oshamambe.lg.jp/soshiki/3/397.html",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -2517,16 +2517,16 @@
    {
     "id": "013471-assembly",
     "type": "assembly",
-    "department": "議会事務局",
-    "phone": null,
+    "department": "議会事務局議事係",
+    "phone": "01377-2-2173",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "049-3592",
+    "postal_address": "北海道山越郡長万部町字長万部453番地1 3階",
     "hours": null,
-    "source_url": "https://www.town.oshamambe.lg.jp/index.php",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.town.oshamambe.lg.jp/site/gikai/9813.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -2560,7 +2560,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.hokkaido-esashi.jp/",
+    "source_url": "https://www.hokkaido-esashi.jp/modules/chousei/category0018.html",
     "verified_at": null,
     "status": "unverified",
     "note": "出典の確認待ち"
@@ -2568,7 +2568,7 @@
    {
     "id": "013617-assembly",
     "type": "assembly",
-    "department": "議会事務局 庶務係・議事係(?:",
+    "department": "議会事務局 庶務係",
     "phone": null,
     "email": null,
     "form_url": null,
@@ -2677,7 +2677,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.assabu.lg.jp/index.php",
+    "source_url": "https://www.town.assabu.lg.jp/form/detail.php?sec_sec1=3",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -2692,7 +2692,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.assabu.lg.jp/index.php",
+    "source_url": "https://www.town.assabu.lg.jp/adv/ba.php?id=9",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -2823,7 +2823,7 @@
    {
     "id": "013706-general",
     "type": "general",
-    "department": "代表窓口",
+    "department": "代表電話",
     "phone": null,
     "email": null,
     "form_url": null,
@@ -2833,7 +2833,7 @@
     "source_url": "https://www.town.imakane.lg.jp/",
     "verified_at": null,
     "status": "unverified",
-    "note": null
+    "note": "出典ページを自動で開けなかったため未確認"
    },
    {
     "id": "013706-feedback",
@@ -2848,7 +2848,7 @@
     "source_url": "https://www.town.imakane.lg.jp/",
     "verified_at": null,
     "status": "unverified",
-    "note": null
+    "note": "出典ページを自動で開けなかったため未確認"
    },
    {
     "id": "013706-assembly",
@@ -2863,7 +2863,7 @@
     "source_url": "https://www.town.imakane.lg.jp/",
     "verified_at": null,
     "status": "unverified",
-    "note": null
+    "note": "出典ページを自動で開けなかったため未確認"
    }
   ]
  },
@@ -3027,7 +3027,7 @@
    {
     "id": "013935-general",
     "type": "general",
-    "department": "代表窓口",
+    "department": "代表電話",
     "phone": null,
     "email": null,
     "form_url": null,
@@ -3129,16 +3129,16 @@
    {
     "id": "013951-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0136-44-2121",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.town.niseko.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -3195,16 +3195,16 @@
    {
     "id": "013960-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0136-45-2121",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "048-1631",
+    "postal_address": "北海道虻田郡真狩村字真狩118番地",
     "hours": null,
     "source_url": "https://www.vill.makkari.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -3312,16 +3312,16 @@
    {
     "id": "013986-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0136-33-2211",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "044-0292",
+    "postal_address": "北海道虻田郡喜茂別町字喜茂別123番地",
     "hours": null,
     "source_url": "https://www.town.kimobetsu.hokkaido.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -3385,7 +3385,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town-kyogoku.jp/",
+    "source_url": "https://www.town-kyogoku.jp/life/5/27/",
     "verified_at": null,
     "status": "unverified",
     "note": "出典の確認待ち"
@@ -3414,16 +3414,16 @@
    {
     "id": "014001-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0136-22-1121",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "044-0001",
+    "postal_address": "北海道虻田郡倶知安町北1条東3丁目3番地",
     "hours": null,
     "source_url": "https://www.town.kutchan.hokkaido.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -3436,7 +3436,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.kutchan.hokkaido.jp/",
+    "source_url": "https://www.town.kutchan.hokkaido.jp/contact/",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -3451,7 +3451,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.kutchan.hokkaido.jp/",
+    "source_url": "https://www.town.kutchan.hokkaido.jp/gikai/",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -3538,7 +3538,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.iwanai.hokkaido.jp/",
+    "source_url": "https://www.town.iwanai.hokkaido.jp/%e5%ba%83%e5%a0%b1%e3%81%ab%e5%af%be%e3%81%99%e3%82%8b%e3%81%94%e6%84%8f%e8%a6%8b%e3%83%bb%e3%81%94%e6%84%9f%e6%83%b3%e3%82%92%e3%81%a9%e3%81%86%e3%81%9e/",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -3771,16 +3771,16 @@
    {
     "id": "014079-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0135-32-2511",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "048-2492",
+    "postal_address": "北海道余市郡仁木町西町1丁目36番地1",
     "hours": null,
     "source_url": "https://www.town.niki.hokkaido.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -4078,7 +4078,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://town.kamisunagawa.hokkaido.jp/",
+    "source_url": "https://town.kamisunagawa.hokkaido.jp/chosei/koho/index.html",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -4231,7 +4231,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.kuriyama.hokkaido.jp/",
+    "source_url": "https://www.town.kuriyama.hokkaido.jp/site/voice/",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -4240,15 +4240,15 @@
     "id": "014290-assembly",
     "type": "assembly",
     "department": "議会事務局",
-    "phone": null,
+    "phone": "0123-73-7517",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "069-1512",
+    "postal_address": "北海道夕張郡栗山町松風3丁目252番地",
     "hours": null,
-    "source_url": "https://www.town.kuriyama.hokkaido.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.town.kuriyama.hokkaido.jp/site/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -4283,7 +4283,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.tsukigata.hokkaido.jp/",
+    "source_url": "https://www.town.tsukigata.hokkaido.jp/life/6/25/",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -4454,6 +4454,21 @@
     "source_url": "https://www.town.moseushi.hokkaido.jp/gikai/index.html",
     "verified_at": null,
     "status": "unverified",
+    "note": null
+   },
+   {
+    "id": "014338-education",
+    "type": "education",
+    "department": "教育委員会教育課",
+    "phone": "0164-32-2525",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.moseushi.hokkaido.jp/soshiki/school_kyoiku.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -4853,15 +4868,15 @@
     "id": "014559-assembly",
     "type": "assembly",
     "department": "議会事務局",
-    "phone": null,
-    "email": null,
+    "phone": "0166-85-4808",
+    "email": "ichigo@town.pippu.hokkaido.jp",
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.pippu.hokkaido.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.town.pippu.hokkaido.jp/cms/section/gikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -4939,16 +4954,16 @@
    {
     "id": "014575-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "01658-2-1211",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "078-1753",
+    "postal_address": "北海道上川郡上川町南町180番地",
     "hours": null,
     "source_url": "https://www.town.hokkaido-kamikawa.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -4990,16 +5005,16 @@
    {
     "id": "014583-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0166-82-2111",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "071-1492",
+    "postal_address": "北海道上川郡東川町東町1丁目16番1号 東川町役場",
     "hours": null,
-    "source_url": "https://town.higashikawa.hokkaido.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://higashikawa-town.jp/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -5012,7 +5027,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://town.higashikawa.hokkaido.jp/",
+    "source_url": "https://higashikawa-town.jp/portal/top/panel/5",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -5027,7 +5042,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://town.higashikawa.hokkaido.jp/",
+    "source_url": "https://higashikawa-town.jp/portal/machi/panel/105",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -5180,7 +5195,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.nakafurano.lg.jp/",
+    "source_url": "https://www.town.nakafurano.lg.jp/hotnews/detail/00002136.html",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -5311,16 +5326,16 @@
    {
     "id": "014648-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0165-32-2421",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.town.wassamu.hokkaido.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -5369,10 +5384,10 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.kembuchi.hokkaido.jp/wp-content/cache/all//index.html",
+    "source_url": "https://www.town.kembuchi.hokkaido.jp/",
     "verified_at": null,
     "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "note": null
    },
    {
     "id": "014656-feedback",
@@ -5384,10 +5399,10 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.kembuchi.hokkaido.jp/wp-content/cache/all//index.html",
+    "source_url": "https://www.town.kembuchi.hokkaido.jp/kurashi/%e3%81%be%e3%81%a1%e3%81%a5%e3%81%8f%e3%82%8a/%e3%81%be%e3%81%a1%e3%81%a5%e3%81%8f%e3%82%8a/%e5%89%a3%e6%b7%b5%e7%94%ba%e3%81%be%e3%81%a1%e3%81%a5%e3%81%8f%e3%82%8a%e7%94%ba%e6%b0%91%e4%bc%9a%e8%ad%b0%e3%81%8b%e3%82%89%e3%81%ae%e6%8f%90%e8%a8%80%e6%9b%b8/",
     "verified_at": null,
     "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "note": null
    },
    {
     "id": "014656-assembly",
@@ -5399,10 +5414,10 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.kembuchi.hokkaido.jp/wp-content/cache/all//index.html",
+    "source_url": "https://www.town.kembuchi.hokkaido.jp/%e5%89%a3%e6%b7%b5%e7%94%ba%e8%ad%b0%e4%bc%9ayoutube%e9%85%8d%e4%bf%a1%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/",
     "verified_at": null,
     "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "note": null
    }
   ]
  },
@@ -5435,7 +5450,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.shimokawa.hokkaido.jp/",
+    "source_url": "https://www.town.shimokawa.hokkaido.jp/section/2023/03/post-337.html",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -5786,7 +5801,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.obira.hokkaido.jp/",
+    "source_url": null,
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -5968,16 +5983,16 @@
    {
     "id": "014869-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "01632-7-2111",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "098-3543",
+    "postal_address": "北海道天塩郡遠別町字本町3丁目37番地",
     "hours": null,
     "source_url": "https://www.town.embetsu.hokkaido.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -5990,7 +6005,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.embetsu.hokkaido.jp/docs/4201.html",
+    "source_url": "https://www.town.embetsu.hokkaido.jp/soshiki/80/",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -6117,15 +6132,30 @@
     "id": "015113-assembly",
     "type": "assembly",
     "department": "議会事務局",
-    "phone": null,
+    "phone": "01635-2-3366",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.vill.sarufutsu.hokkaido.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.vill.sarufutsu.hokkaido.jp/hotnews/detail/00004429.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "015113-education",
+    "type": "education",
+    "department": "教育委員会",
+    "phone": "01635-2-3011",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.vill.sarufutsu.hokkaido.jp/hotnews/detail/00002356.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -6239,7 +6269,7 @@
    {
     "id": "015148-general",
     "type": "general",
-    "department": "代表窓口",
+    "department": "代表電話",
     "phone": null,
     "email": null,
     "form_url": null,
@@ -6261,7 +6291,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.esashi.jp/",
+    "source_url": "https://www.esashi.jp/town/koho/",
     "verified_at": null,
     "status": "unverified",
     "note": "出典の確認待ち"
@@ -7107,7 +7137,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.takinoue.hokkaido.jp/",
+    "source_url": "https://www.town.takinoue.hokkaido.jp/chosei/oshirase/260407.html",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -7122,7 +7152,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.takinoue.hokkaido.jp/",
+    "source_url": "https://www.town.takinoue.hokkaido.jp/chosei/chocho/tyoutyousyuunin/20260901.html",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -7218,15 +7248,15 @@
     "id": "015628-assembly",
     "type": "assembly",
     "department": "議会事務局",
-    "phone": null,
+    "phone": "0158-87-2111",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.vill.nishiokoppe.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.vill.nishiokoppe.lg.jp/section/gikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -7436,16 +7466,16 @@
    {
     "id": "015750-assembly",
     "type": "assembly",
-    "department": "議会事務局",
-    "phone": null,
-    "email": null,
+    "department": "壮瞥町議会",
+    "phone": "0142-66-2121",
+    "email": "gikai@town.sobetsu.lg.jp",
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.sobetsu.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.town.sobetsu.lg.jp/gikai.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -7479,7 +7509,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.shiraoi.hokkaido.jp/",
+    "source_url": "https://www.town.shiraoi.hokkaido.jp/town/42/",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -7515,10 +7545,10 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.atsuma.lg.jp/office/",
+    "source_url": "https://www.town.atsuma.lg.jp/",
     "verified_at": null,
     "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "note": null
    },
    {
     "id": "015814-feedback",
@@ -7530,25 +7560,25 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.atsuma.lg.jp/office/",
+    "source_url": "https://www.town.atsuma.lg.jp/life/5/31/",
     "verified_at": null,
     "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "note": null
    },
    {
     "id": "015814-assembly",
     "type": "assembly",
     "department": "議会事務局",
-    "phone": null,
+    "phone": "0145-27-2485",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "059-1692",
+    "postal_address": "北海道勇払郡厚真町京町120番地",
     "hours": null,
-    "source_url": "https://www.town.atsuma.lg.jp/office/",
-    "verified_at": null,
-    "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "source_url": "https://www.town.atsuma.lg.jp/adv/ba.php?id=10",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -7559,7 +7589,7 @@
    {
     "id": "015849-general",
     "type": "general",
-    "department": "代表窓口",
+    "department": "代表電話",
     "phone": null,
     "email": null,
     "form_url": null,
@@ -7610,16 +7640,16 @@
    {
     "id": "015857-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0145-22-2511",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.town.abira.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -7661,16 +7691,16 @@
    {
     "id": "015865-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0145-42-2411",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.town.mukawa.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -7712,16 +7742,16 @@
    {
     "id": "016012-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "01456-2-5131",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.town.hidaka.hokkaido.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -7763,16 +7793,16 @@
    {
     "id": "016021-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "01457-2-2221",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "055-0192",
+    "postal_address": "北海道沙流郡平取町本町28番地",
     "hours": null,
     "source_url": "https://www.town.biratori.hokkaido.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -8040,7 +8070,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.shinhidaka-hokkaido.jp/",
+    "source_url": "https://www.shinhidaka-hokkaido.jp/hotnews/detail/00002165.html",
     "verified_at": null,
     "status": "unverified",
     "note": "出典の確認待ち"
@@ -8171,7 +8201,7 @@
    {
     "id": "016331-general",
     "type": "general",
-    "department": "代表窓口",
+    "department": "代表電話",
     "phone": null,
     "email": null,
     "form_url": null,
@@ -8222,16 +8252,16 @@
    {
     "id": "016349-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0156-66-2311",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.town.shikaoi.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -8273,7 +8303,7 @@
    {
     "id": "016357-general",
     "type": "general",
-    "department": "代表窓口",
+    "department": "代表電話",
     "phone": null,
     "email": null,
     "form_url": null,
@@ -8288,14 +8318,14 @@
    {
     "id": "016357-feedback",
     "type": "feedback",
-    "department": "広聴・ご意見窓口",
+    "department": "広報・広聴",
     "phone": null,
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.shintoku-town.jp/",
+    "source_url": "https://www.shintoku-town.jp/gyousei/kouhou_koutyou/",
     "verified_at": null,
     "status": "unverified",
     "note": "出典の確認待ち"
@@ -8324,16 +8354,16 @@
    {
     "id": "016365-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0156-62-2111",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "089-0192",
+    "postal_address": "北海道上川郡清水町南4条2丁目2番地",
     "hours": null,
     "source_url": "https://www.town.shimizu.hokkaido.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -8448,7 +8478,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.vill.nakasatsunai.hokkaido.jp/",
+    "source_url": "https://www.vill.nakasatsunai.hokkaido.jp/kouhou_koutyou/",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -8457,15 +8487,15 @@
     "id": "016381-assembly",
     "type": "assembly",
     "department": "議会事務局",
-    "phone": null,
+    "phone": "0155-67-2497",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.vill.nakasatsunai.hokkaido.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.vill.nakasatsunai.hokkaido.jp/gikai/bouchou/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -8477,7 +8507,7 @@
    {
     "id": "016390-general",
     "type": "general",
-    "department": "代表窓口",
+    "department": "代表電話",
     "phone": null,
     "email": null,
     "form_url": null,
@@ -8507,7 +8537,7 @@
    {
     "id": "016390-assembly",
     "type": "assembly",
-    "department": "更別村議会事務局 (更別村役場内)",
+    "department": "更別村議会事務局",
     "phone": null,
     "email": null,
     "form_url": null,
@@ -8610,15 +8640,15 @@
     "id": "016420-assembly",
     "type": "assembly",
     "department": "議会事務局",
-    "phone": null,
+    "phone": "01558-2-0180",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.hiroo.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.town.hiroo.lg.jp/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -8681,16 +8711,16 @@
    {
     "id": "016446-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "015-572-3111",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "083-8650",
+    "postal_address": "北海道中川郡池田町字西1条7丁目11番地",
     "hours": null,
     "source_url": "https://www.town.hokkaido-ikeda.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -8754,7 +8784,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.toyokoro.jp/",
+    "source_url": "https://www.toyokoro.jp/life/6/26/",
     "verified_at": null,
     "status": "unverified",
     "note": "出典の確認待ち"
@@ -8885,7 +8915,7 @@
    {
     "id": "016489-general",
     "type": "general",
-    "department": "代表窓口",
+    "department": "代表電話",
     "phone": null,
     "email": null,
     "form_url": null,
@@ -9038,7 +9068,7 @@
    {
     "id": "016624-general",
     "type": "general",
-    "department": "代表窓口",
+    "department": "代表電話",
     "phone": null,
     "email": null,
     "form_url": null,
@@ -9381,7 +9411,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://betsukai.jp/",
+    "source_url": "https://betsukai.jp/goiken/",
     "verified_at": null,
     "status": "unverified",
     "note": "出典の確認待ち"
@@ -9396,7 +9426,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://betsukai.jp/",
+    "source_url": "https://betsukai.jp/gikai/kouhou/gikaidayori/gikaidayori_R08/",
     "verified_at": null,
     "status": "unverified",
     "note": "出典の確認待ち"
@@ -9410,7 +9440,7 @@
    {
     "id": "016926-general",
     "type": "general",
-    "department": "代表窓口",
+    "department": "代表電話",
     "phone": null,
     "email": null,
     "form_url": null,
@@ -9447,7 +9477,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.nakashibetsu.jp/",
+    "source_url": "https://www.nakashibetsu.jp/gikai/",
     "verified_at": null,
     "status": "unverified",
     "note": "出典の確認待ち"

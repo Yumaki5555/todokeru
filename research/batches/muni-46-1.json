@@ -9,34 +9,6 @@
    "official_site": "https://www.city.kagoshima.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "099-224-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "892-8677",
-     "postal_address": "鹿児島市山下町11番1号",
-     "hours": null,
-     "source_url": "https://www.city.kagoshima.lg.jp/",
-     "evidence": "鹿児島市役所 法人番号100002046…12月29日から1月3日を除く) 電話番号:099-224-1111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局 議事課",
-     "phone": "099-216-1456",
-     "email": null,
-     "form_url": null,
-     "postal_code": "892-8677",
-     "postal_address": "鹿児島市山下町11-1",
-     "hours": null,
-     "source_url": "https://www.city.kagoshima.lg.jp/gikai/giji/shigikai/bocho/segan.html",
-     "evidence": "議会事務局 議事課 〒892-8677 鹿児島市山下町11-1 電話番号:099-216-1456",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -50,6 +22,10 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -59,60 +35,22 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0994-43-2111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "893-8501",
+     "postal_address": "鹿児島県鹿屋市共栄町20番1号",
      "hours": null,
      "source_url": "https://www.city.kanoya.lg.jp/index.html",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "鹿屋市議会事務局議事調査係",
-     "phone": "0994-31-1143",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kanoya.lg.jp/giji/shise/gikai/gaiyo/gikai.html",
-     "evidence": "鹿屋市議会事務局議事調査係 電話番号:0994-31-1143",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育部教育総務課管理係",
-     "phone": "0994-31-1136",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kanoya.lg.jp/kyoukanri/shise/gaiyo/soshiki/kyoikuinkai.html",
-     "evidence": "教育部教育総務課管理係 電話番号:0994-31-1136",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広聴係",
-     "phone": "0994-31-1122",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kanoya.lg.jp/hisyo/shise/gaiyo/shicho/shiminnokoe.html",
-     "evidence": "広聴係 電話番号:0994-31-1122",
+     "evidence": "鹿屋市 〒893-8501鹿児島県鹿屋市共栄町20番1号 代表電話:0994-43-2111ファックス番号",
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -121,34 +59,6 @@
    "official_site": "https://www.city.makurazaki.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0993-72-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "898-8501",
-     "postal_address": "鹿児島県枕崎市千代田町27番地",
-     "hours": null,
-     "source_url": "https://www.city.makurazaki.lg.jp/",
-     "evidence": "枕崎市役所法人番号80000204620…1 鹿児島県枕崎市千代田町27番地 Tel:0993-72-1111(代表)Fax:",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0993-72-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "898-8501",
-     "postal_address": "枕崎市千代田町27番地",
-     "hours": null,
-     "source_url": "https://www.city.makurazaki.lg.jp/adv/ba.php?id=70",
-     "evidence": "議会事務局 〒898-8501 枕崎市千代田町27番地 Tel:0993-72-1111(内線241・2",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -158,10 +68,14 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.makurazaki.lg.jp/",
+     "source_url": "https://www.city.makurazaki.lg.jp/life/4/42/176/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -169,20 +83,6 @@
    "name": "阿久根市",
    "official_site": "https://www.city.akune.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0996-73-1211",
-     "email": null,
-     "form_url": null,
-     "postal_code": "899-1696",
-     "postal_address": "鹿児島県阿久根市鶴見町200番地",
-     "hours": null,
-     "source_url": "https://www.city.akune.lg.jp/",
-     "evidence": "阿久根市役所 〒899-1696 鹿児島県阿久根市鶴見町200番地 代表電話:0996-73-1211 ファックス:0",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -196,21 +96,11 @@
      "source_url": "https://www.city.akune.lg.jp/shiseijoho/gikai/index.html",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "秘書広報係",
-     "phone": "0996-73-1208",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.akune.lg.jp/shiseijoho/15/kocho/1811.html",
-     "evidence": "秘書広報係 〒899‐1696 鹿児島県阿久根市鶴見町200番地 電話番号:0996‐73‐1208",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "feedback",
+    "general"
    ]
   },
   {
@@ -234,17 +124,17 @@
     },
     {
      "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0996-63-4074",
+     "email": "gikai_c@city.izumi.kagoshima.jp",
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.kagoshima-izumi.lg.jp/",
-     "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "source_url": "https://www.city.kagoshima-izumi.lg.jp/gikai/",
+     "evidence": "議会事務局 〒899-0292 鹿児島県出水市緑町1番3号 電話番号(0996)63-4074",
+     "note": null
     },
     {
      "type": "feedback",
@@ -256,9 +146,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.kagoshima-izumi.lg.jp/",
+     "source_url": "https://www.city.kagoshima-izumi.lg.jp/shisei/koho/index.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
    ]
   },
@@ -269,16 +159,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0993-22-2111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.city.ibusuki.lg.jp/",
-     "evidence": null,
+     "evidence": "指宿市役所 〒891-0497 鹿児島県指宿市十町2424 | TEL.0993-22-2111 | FAX.0",
      "note": null
     },
     {
@@ -293,7 +183,7 @@
      "hours": null,
      "source_url": "https://www.city.ibusuki.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -307,7 +197,7 @@
      "hours": null,
      "source_url": "https://www.city.ibusuki.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -317,20 +207,6 @@
    "official_site": "https://www.city.nishinoomote.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0997-22-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "891-3193",
-     "postal_address": "鹿児島県西之表市西之表7612番地",
-     "hours": null,
-     "source_url": "https://www.city.nishinoomote.lg.jp/",
-     "evidence": "西之表市役所 〒891-3193 鹿児島県西之表市西之表7612番地 電話番号:0997-22-1111(代表) ファッ",
-     "note": null
-    },
-    {
      "type": "assembly",
      "agent_status": "auto_not_found",
      "department": null,
@@ -342,7 +218,7 @@
      "hours": null,
      "source_url": "https://www.city.nishinoomote.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -356,8 +232,11 @@
      "hours": null,
      "source_url": "https://www.city.nishinoomote.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -366,35 +245,32 @@
    "official_site": "https://www.city.tarumizu.lg.jp/",
    "contacts": [
     {
-     "type": "general",
+     "type": "feedback",
      "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0994-32-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "891-2192",
-     "postal_address": "鹿児島県垂水市上町114番地",
-     "hours": null,
-     "source_url": "https://www.city.tarumizu.lg.jp/",
-     "evidence": "垂水市役所 お問い合わせ 垂水市へのアク…2192鹿児島県垂水市上町114番地 電話:0994-32-1111(代表)ファック",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "垂水市役所議会事務局議事係",
+     "department": "秘書広報係",
      "phone": "0994-32-1111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.tarumizu.lg.jp/gikaigiji/shise/shigi/segan/chinjou.html",
-     "evidence": "垂水市役所議会事務局議事係 鹿児島県垂水市上町114 電話番号:0994-32-1111",
+     "source_url": "https://www.city.tarumizu.lg.jp/hisho/shise/koho/kotyo/index.html",
+     "evidence": "秘書広報係 鹿児島県垂水市上町114 電話番号:0994-32-1111",
      "note": null
-    },
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
+   ]
+  },
+  {
+   "code": "462152",
+   "name": "薩摩川内市",
+   "official_site": "https://www.city.satsumasendai.lg.jp/",
+   "contacts": [
     {
-     "type": "feedback",
+     "type": "general",
      "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
@@ -403,57 +279,36 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.tarumizu.lg.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
-    }
-   ]
-  },
-  {
-   "code": "462152",
-   "name": "薩摩川内市",
-   "official_site": "https://www.city.satsumasendai.lg.jp/www/index.html",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.satsumasendai.lg.jp/www/index.html",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.satsumasendai.lg.jp/www/index.html",
+     "source_url": "https://www.city.satsumasendai.lg.jp/",
      "evidence": null,
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0996-23-5111",
      "email": null,
      "form_url": null,
+     "postal_code": "895-8650",
+     "postal_address": "鹿児島県薩摩川内市神田町3番22号",
+     "hours": null,
+     "source_url": "https://www.city.satsumasendai.lg.jp/shigikai/index.html",
+     "evidence": "議会事務局 〒895-8650 鹿児島県薩摩川内市神田町3番22号 電話番号:0996-23-5111",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "広聴広報グループ",
+     "phone": "0996-23-5111",
+     "email": null,
+     "form_url": "https://www.city.satsumasendai.lg.jp/cgi-bin/inquiry.php/1?page_no=1979",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.satsumasendai.lg.jp/www/index.html",
-     "evidence": null,
+     "source_url": "https://www.city.satsumasendai.lg.jp/soshiki/1042/2/11-2/1/1979.html",
+     "evidence": "広聴広報グループ 〒895-8650 神田町3-22 電話番号:0996-23-5111 ファックス番号",
      "note": null
     }
    ]
@@ -478,20 +333,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局総務係",
-     "phone": "099-248-9435",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.hioki.kagoshima.jp/gikai/shisejoho/shigikai/segan.html",
-     "evidence": "議会事務局総務係 899-2592 日置市伊集院町郡一丁目100番地 電話番号:099-248-9435",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -505,6 +346,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -539,21 +383,10 @@
      "source_url": "https://www.city.soo.kagoshima.jp/gyousei/gikai/index.html",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "窓口・お問い合わせ・ご意見等",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.soo.kagoshima.jp/gyousei/inquiry/goikenbako.html",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.soo.kagoshima.jp/gyousei/contact/index.html",
-     "evidence": "リンク「窓口・お問い合せ・ご意見等」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "feedback"
    ]
   },
   {
@@ -563,16 +396,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0995-45-5111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "899-4394",
+     "postal_address": "鹿児島県 霧島市国分中央三丁目45番1号",
      "hours": null,
      "source_url": "https://www.city-kirishima.jp/",
-     "evidence": null,
+     "evidence": "霧島市役所 〒899-4394 鹿児島県 霧島市国分中央三丁目45番1号 電話:0995-45-5111 ファクス:09",
      "note": null
     },
     {
@@ -639,34 +472,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0996-33-5648",
-     "email": null,
-     "form_url": null,
-     "postal_code": "896-8601",
-     "postal_address": "鹿児島県いちき串木野市昭和通133番地1",
-     "hours": null,
-     "source_url": "https://www.city.ichikikushikino.lg.jp/gikai1/shise/gikai/seigantinjyou.html",
-     "evidence": "議会事務局 〒896-8601 鹿児島県いちき串木野市昭和通133番地1 電話:0996-33-5648",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務係",
-     "phone": "0996-21-5126",
-     "email": null,
-     "form_url": null,
-     "postal_code": "899-2192",
-     "postal_address": "鹿児島県いちき串木野市湊町1丁目1番地",
-     "hours": null,
-     "source_url": "https://www.city.ichikikushikino.lg.jp/kyosomu1/teireikaigiroku.html",
-     "evidence": "教育総務係 〒899-2192 鹿児島県いちき串木野市湊町1丁目1番地 電話:0996-21-5126",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -680,6 +485,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -687,20 +495,6 @@
    "name": "南さつま市",
    "official_site": "https://www.city.minamisatsuma.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0993-53-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.minamisatsuma.lg.jp/",
-     "evidence": "市役所のご案内 お問い合わせ 〒897-…ま市加世田川畑2648番地 [地図] 電話:0993-53-2111(代表)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -713,7 +507,7 @@
      "hours": null,
      "source_url": "https://www.city.minamisatsuma.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -727,8 +521,11 @@
      "hours": null,
      "source_url": "https://www.city.minamisatsuma.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -749,49 +546,11 @@
      "source_url": "https://www.city.shibushi.lg.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "099-472-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "899-7192",
-     "postal_address": "鹿児島県志布志市志布志町志布志二丁目1番1号",
-     "hours": null,
-     "source_url": "https://www.city.shibushi.lg.jp/site/gikai/",
-     "evidence": "議会事務局代表 〒899-7192鹿児島県志布志市志布志町志布志二丁目1番1号 Tel:099-472-1111Fax:099-",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務課総務施設グループ",
-     "phone": "099-472-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "899-7192",
-     "postal_address": "鹿児島県志布志市志布志町志布志二丁目1番1号",
-     "hours": null,
-     "source_url": "https://www.city.shibushi.lg.jp/soshiki/21/33026.html",
-     "evidence": "教育総務課総務施設グループ 〒899-7…布志市志布志町志布志二丁目1番1号 Tel:099-472-1111【内線311・3",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "志布志市へのご意見・ご要望",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.shibushi.lg.jp/form/detail.php?sec_sec1=2&lif_id=15003",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.shibushi.lg.jp/soshiki/2/14915.html",
-     "evidence": "リンク「ご意見・ご要望」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -801,44 +560,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0997-52-1111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "894-8555",
+     "postal_address": "鹿児島県奄美市名瀬幸町25-8",
      "hours": null,
      "source_url": "https://www.city.amami.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0997-52-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.amami.lg.jp/gikai/20150717.html",
-     "evidence": "議会事務局 894-8555 奄美市名瀬幸町25-8 電話番号:0997-52-1111",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会教育総務課",
-     "phone": "0997-52-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.amami.lg.jp/kyoism/kyoiku/kyoiku/hyokahokoku.html",
-     "evidence": "教育委員会教育総務課 894-8555 奄美市名瀬幸町25-8 電話番号:0997-52-1111",
+     "evidence": "奄美市役所〒894-8555 鹿児島県奄美市名瀬幸町25-8電話番号:0997-52-1111FAX番号:09",
      "note": null
     },
     {
@@ -853,8 +584,11 @@
      "hours": null,
      "source_url": "https://www.city.amami.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -864,46 +598,22 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0993-83-2511",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "897-0392",
+     "postal_address": "鹿児島県南九州市知覧町郡17327番地",
      "hours": null,
      "source_url": "https://www.city.minamikyushu.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局 議事係",
-     "phone": "0993-78-3074",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.minamikyushu.lg.jp/gyoseijoho/minamikyushushigikai/4287.html",
-     "evidence": "議会事務局 議事係】 電話番号:0993-78-3074",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "秘書広報係",
-     "phone": "0993-83-2512",
-     "email": null,
-     "form_url": "https://www.city.minamikyushu.lg.jp/cgi-bin/inquiry.php/112?page_no=12068",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.minamikyushu.lg.jp/kurashi_tetsuzuki/machinowadai/12068.html",
-     "evidence": "秘書広報係】 電話番号:0993-83-2512",
+     "evidence": "南九州市 〒897-0392 鹿児島県南九州市知覧町郡17327番地 電話番号:0993-83-2511 (代表)",
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -951,7 +661,7 @@
      "hours": null,
      "source_url": "https://www.city.isa.kagoshima.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -975,20 +685,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局議会庶務課",
-     "phone": "0995-66-3197",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.aira.lg.jp/gchosa/gyosei/gikai/seigan.html",
-     "evidence": "議会事務局議会庶務課議事調査係 899-5492 鹿児島県姶良市宮島町25番地 電話番号:0995-66-3197",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -1000,8 +696,11 @@
      "hours": null,
      "source_url": "https://www.city.aira.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -1011,16 +710,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "099-222-3141",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://mishimamura.com/",
-     "evidence": null,
+     "evidence": "三島村役場 (☎099-222-3141)において自動音",
      "note": null
     },
     {
@@ -1035,7 +734,7 @@
      "hours": null,
      "source_url": "https://mishimamura.com/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -1049,7 +748,7 @@
      "hours": null,
      "source_url": "https://mishimamura.com/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -1112,7 +811,7 @@
      "hours": null,
      "source_url": "https://www.tokara.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -1161,7 +860,7 @@
      "hours": null,
      "source_url": "https://www.satsuma-net.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   }

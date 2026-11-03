@@ -7,49 +7,11 @@
    "code": "142174",
    "name": "南足柄市",
    "official_site": "https://www.city.minamiashigara.kanagawa.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0465-74-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "250-0192",
-     "postal_address": "神奈川県南足柄市関本440番地",
-     "hours": null,
-     "source_url": "https://www.city.minamiashigara.kanagawa.jp/",
-     "evidence": "南足柄市役所 〒250-0192 神奈川県南足柄市関本440番地 電話:0465-74-2111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "南足柄市議会",
-     "phone": "0465-73-8038",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.minamiashigara.kanagawa.jp/gikai/",
-     "evidence": "議会班 電話番号:0465-73-8038",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "秘書広報課",
-     "phone": "0465-73-8003",
-     "email": null,
-     "form_url": "https://dshinsei.e-kanagawa.lg.jp/142174-u/offer/offerList_initDisplay.action",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.minamiashigara.kanagawa.jp/about/request.html",
-     "evidence": "秘書広報課 広報広聴・シティプロモーション班 電話番号:0465-73-8003",
-     "note": null
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -57,20 +19,6 @@
    "name": "綾瀬市",
    "official_site": "https://www.city.ayase.kanagawa.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0467-77-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "252-1192",
-     "postal_address": "神奈川県綾瀬市早川550番地",
-     "hours": null,
-     "source_url": "https://www.city.ayase.kanagawa.jp/",
-     "evidence": "綾瀬市役所 〒252-1192 神奈川…番号:3000020142182 電話番号:0467-77-1111(代表)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -97,8 +45,11 @@
      "hours": null,
      "source_url": "https://www.city.ayase.kanagawa.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -108,30 +59,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.hayama.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
      "agent_status": "found",
-     "department": "議会事務局",
+     "department": "代表電話",
      "phone": "046-876-1111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "240-0192",
+     "postal_address": "神奈川県三浦郡葉山町堀内2135番地",
      "hours": null,
-     "source_url": "https://www.town.hayama.lg.jp/gikai/tetuduki/6562.html",
-     "evidence": "議会事務局(電話046-876-1111)までお問い合わ",
+     "source_url": "https://www.town.hayama.lg.jp/",
+     "evidence": "葉山町 〒240-0192 神奈川県三浦郡葉山町堀内2135番地 電話:046-876-1111(代表)",
      "note": null
     },
     {
@@ -146,8 +83,11 @@
      "hours": null,
      "source_url": "https://www.town.hayama.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -157,30 +97,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0467-74-1111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "253-0196",
+     "postal_address": "神奈川県高座郡寒川町宮山165",
      "hours": null,
      "source_url": "https://www.town.samukawa.kanagawa.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局総務担当",
-     "phone": "0467-37-5501",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.samukawa.kanagawa.jp/soshiki/gikai/gikaijimu/somu/info/gikai_tetuduki/1361846711076.html",
-     "evidence": "議会事務局総務担当 住所:253-0196 神奈川県高座郡寒川町宮山165番地 電話:0467-37-5501",
+     "evidence": "寒川町役場 〒253-0196 神奈川県高座郡寒川町宮山165 電話:(0467)74-1111 ファクス:(0",
      "note": null
     },
     {
@@ -195,8 +121,11 @@
      "hours": null,
      "source_url": "https://www.town.samukawa.kanagawa.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -255,30 +184,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0463-71-3311",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "259-0196",
+     "postal_address": "神奈川県中郡二宮町二宮961番地",
      "hours": null,
      "source_url": "https://www.town.ninomiya.kanagawa.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0463-75-9267",
-     "email": "gikai@town.ninomiya.kanagawa.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.ninomiya.kanagawa.jp/gikai/",
-     "evidence": "議会事務局電話:0463-75-9267(代表)メール:",
+     "evidence": "二宮町 法人番号:20000201434…6 神奈川県中郡二宮町二宮961番地 電話:0463-71-3311 (代表)ファク",
      "note": null
     },
     {
@@ -293,18 +208,35 @@
      "hours": null,
      "source_url": "https://www.town.ninomiya.kanagawa.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
    "code": "143618",
    "name": "中井町",
-   "official_site": "https://www.town.nakai.kanagawa.jp/forms/top/top.aspx",
+   "official_site": "https://www.town.nakai.kanagawa.jp/",
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0465-81-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.nakai.kanagawa.jp/",
+     "evidence": "0197 神奈川県足柄上郡中井町比奈窪56番地 電話番号:0465-81-1111(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -312,13 +244,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.nakai.kanagawa.jp/forms/top/top.aspx",
+     "source_url": "https://www.town.nakai.kanagawa.jp/soshiki/gikaijimukyoku/index.html",
      "evidence": null,
      "note": null
     },
     {
      "type": "feedback",
-     "agent_status": "fetch_failed",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -326,23 +258,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.nakai.kanagawa.jp/forms/top/top.aspx",
+     "source_url": "https://www.town.nakai.kanagawa.jp/",
      "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.nakai.kanagawa.jp/forms/top/top.aspx",
-     "evidence": null,
-     "note": null
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -353,30 +271,30 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0465-83-1311",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "258-8501",
+     "postal_address": "神奈川県足柄上郡大井町金子1995番地",
      "hours": null,
      "source_url": "https://www.town.oi.kanagawa.jp/",
-     "evidence": null,
+     "evidence": "大井町役場 法人番号 400002014…奈川県足柄上郡大井町金子1995番地 電話:0465-83-1311(代) Fax:",
      "note": null
     },
     {
-     "type": "assembly",
+     "type": "education",
      "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0465-85-5000",
+     "department": "教育総務課",
+     "phone": "0465-85-5015",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.oi.kanagawa.jp/site/gikai/",
-     "evidence": "議会事務局 〒258-8501 神奈川県足柄上郡大井町金子1995番地 代表 Tel:0465-85-5000Fax:0465",
+     "source_url": "https://www.town.oi.kanagawa.jp/soshiki/14/kyouikuiinnkaikaigiroku-r8.html",
+     "evidence": "教育総務課 〒258-8501 神奈川県足柄上郡大井町金子1995番地 代表 Tel:0465-85-5015Fax:0465",
      "note": null
     },
     {
@@ -389,10 +307,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.oi.kanagawa.jp/",
+     "source_url": "https://www.town.oi.kanagawa.jp/life/3/27/141/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -401,34 +322,6 @@
    "official_site": "https://town.matsuda.kanagawa.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0465-83-1221",
-     "email": null,
-     "form_url": null,
-     "postal_code": "258-8585",
-     "postal_address": "神奈川県足柄上郡松田町松田惣領2037番地",
-     "hours": null,
-     "source_url": "https://town.matsuda.kanagawa.jp/",
-     "evidence": "松田町役場 松田町への行き方 組織電話番…足柄上郡松田町松田惣領2037番地 Tel:0465-83-1221(代表) Fax",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0465-84-1335",
-     "email": null,
-     "form_url": null,
-     "postal_code": "258-8585",
-     "postal_address": "神奈川県足柄上郡松田町松田惣領2037番地",
-     "hours": null,
-     "source_url": "https://town.matsuda.kanagawa.jp/site/gikai/",
-     "evidence": "議会事務局 〒258-8585 神奈川県足柄上郡松田町松田惣領2037番地 Tel:0465-84-1335",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -440,8 +333,12 @@
      "hours": null,
      "source_url": "https://town.matsuda.kanagawa.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -487,9 +384,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.yamakita.kanagawa.jp/",
+     "source_url": "https://www.town.yamakita.kanagawa.jp/category/2-4-0-0-0.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
    ]
   },
@@ -548,48 +445,6 @@
    "official_site": "https://www.town.hakone.kanagawa.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0460-85-7111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "250-0398",
-     "postal_address": "神奈川県足柄下郡箱根町湯本256",
-     "hours": null,
-     "source_url": "https://www.town.hakone.kanagawa.jp/",
-     "evidence": "箱根町役場 住所:〒250-0398 神奈川県足柄下郡箱根町湯本256 電話:0460-85-7111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0460-85-9570",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.hakone.kanagawa.jp/www/contents/1769477593761/index.html",
-     "evidence": "議会事務局 電話:0460-85-9570",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会学校教育課",
-     "phone": "0460-85-7600",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.hakone.kanagawa.jp/www/contents/1100000000898/index.html",
-     "evidence": "教育委員会学校教育課(Tel:0460-85-7600)へお願いします",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -599,10 +454,14 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.hakone.kanagawa.jp/",
+     "source_url": "https://www.town.hakone.kanagawa.jp/www/genre/1000600000060/index.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -625,20 +484,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0465-68-1131",
-     "email": null,
-     "form_url": null,
-     "postal_code": "259-0202",
-     "postal_address": "神奈川県足柄下郡真鶴町岩244番地の1",
-     "hours": null,
-     "source_url": "https://www.town.manazuru.kanagawa.jp/chosei_gikai/gikai/2775.html",
-     "evidence": "議会事務局 住所:〒259-0202 神奈川県足柄下郡真鶴町岩244番地の1 電話:0465-68-1131",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -650,8 +495,11 @@
      "hours": null,
      "source_url": "https://www.town.manazuru.kanagawa.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -672,35 +520,11 @@
      "source_url": "https://www.town.yugawara.kanagawa.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0465-63-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "259-0392",
-     "postal_address": "神奈川県足柄下郡湯河原町中央二丁目2番地1",
-     "hours": null,
-     "source_url": "https://www.town.yugawara.kanagawa.jp/site/yugawara-gikai/",
-     "evidence": "議会事務局 〒259-0392神奈川県足柄下郡湯河原町中央二丁目2番地1 Tel:0465-63-2111(内線214)F",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "秘書広報室秘書広報室",
-     "phone": "0465-63-2111",
-     "email": null,
-     "form_url": "https://dshinsei.e-kanagawa.lg.jp/143847-u/offer/offerList_detail.action?tempSeq=30615",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.yugawara.kanagawa.jp/site/mayors-room/2385.html",
-     "evidence": "秘書広報室秘書広報室 〒259-0392…足柄下郡湯河原町中央二丁目2番地1 Tel:0465-63-2111(内線247)F",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -723,20 +547,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "愛川町議会",
-     "phone": "046-285-6927",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.aikawa.kanagawa.jp/assembly/index.html",
-     "evidence": "議会へのアクセス 電話:046-285-6927",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -748,8 +558,11 @@
      "hours": null,
      "source_url": "https://www.town.aikawa.kanagawa.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -759,30 +572,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.kiyokawa.kanagawa.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
      "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "046-288-1576",
+     "department": "代表電話",
+     "phone": "046-288-1211",
      "email": null,
      "form_url": null,
      "postal_code": "243-0195",
-     "postal_address": "神奈川県愛甲郡清川村煤ヶ谷2216",
+     "postal_address": "神奈川県愛甲郡清川村煤ヶ谷2216番地",
      "hours": null,
-     "source_url": "https://www.town.kiyokawa.kanagawa.jp/gikai/bocho_seigan/1077.html",
-     "evidence": "議会事務局 〒243-0195 神奈川県…川村煤ヶ谷2216 清川村役場3階 電話番号046-288-1576 ファックス:0",
+     "source_url": "https://www.town.kiyokawa.kanagawa.jp/",
+     "evidence": "清川村 Kiyokawa Village…5神奈川県愛甲郡清川村煤ヶ谷2216番地電話046-288-1211(代表)",
      "note": null
     },
     {
@@ -799,6 +598,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   }
  ]

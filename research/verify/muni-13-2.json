@@ -3,241 +3,30 @@
  "checked_at": "2026-11-03",
  "result": {
   "entities": 21,
-  "contacts": 64,
-  "verified": 44,
-  "unverified": 20,
+  "contacts": 20,
+  "verified": 6,
+  "unverified": 14,
   "unavailable": 0,
   "errors": 0
  },
  "errors": [],
  "reports": [
   {
-   "id": "131229-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "131229-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "131229-feedback",
-   "agent_status": "found",
-   "checks": {
-    "form_url": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "131237-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "131237-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "131237-feedback",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "132012-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "132012-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "132012-feedback",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "form_url": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "132021-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "132021-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "132021-feedback",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "form_url": "ok（直接は開けないため、出典ページの「市長公室 広報プロモーション課 広報広聴係へのお問い合わせフォーム」から開く案内にする）"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "132039-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "132039-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "132039-feedback",
    "agent_status": "found",
    "checks": {
     "form_url": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "132047-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "132047-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "132047-feedback",
-   "agent_status": "found",
-   "checks": {
-    "form_url": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "132055-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "132055-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "132055-feedback",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "form_url": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "132063-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "132063-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "email": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "132063-education",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
    },
    "status": "verified"
   },
   {
    "id": "132063-feedback",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "email": "ok"
+   },
+   "status": "verified"
   },
   {
    "id": "132071-general",
@@ -262,32 +51,26 @@
   },
   {
    "id": "132080-general",
-   "agent_status": "fetch_failed",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（fetch_failed）"
-  },
-  {
-   "id": "132080-feedback",
-   "agent_status": "fetch_failed",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（fetch_failed）"
-  },
-  {
-   "id": "132080-assembly",
-   "agent_status": "fetch_failed",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（fetch_failed）"
-  },
-  {
-   "id": "132098-general",
    "agent_status": "found",
    "checks": {
     "phone": "ok",
     "postal_code": "ok",
     "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "132080-assembly",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "132080-feedback",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok"
    },
    "status": "verified"
   },
@@ -297,49 +80,6 @@
    "checks": {},
    "status": "unverified",
    "why": "公式ドメインか自動で判定できない（www.gikai-machida.jp）"
-  },
-  {
-   "id": "132098-feedback",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "form_url": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "132101-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "132101-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "132101-feedback",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "132110-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
   },
   {
    "id": "132110-assembly",
@@ -354,24 +94,6 @@
    "checks": {},
    "status": "unverified",
    "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "132128-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "132128-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
   },
   {
    "id": "132128-feedback",
@@ -402,38 +124,12 @@
    "why": "調査で確認できなかった（fetch_failed）"
   },
   {
-   "id": "132144-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "132144-assembly",
+   "id": "132152-general",
    "agent_status": "found",
    "checks": {
     "phone": "ok"
    },
    "status": "verified"
-  },
-  {
-   "id": "132144-feedback",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "form_url": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "132152-general",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
   },
   {
    "id": "132152-assembly",
@@ -450,34 +146,6 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "132187-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "132187-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "132187-feedback",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "132195-general",
    "agent_status": "auto_not_found",
    "checks": {},
@@ -485,71 +153,12 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "132195-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "132195-feedback",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "132209-general",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "132209-assembly",
    "agent_status": "found",
    "checks": {
     "phone": "ok",
     "postal_code": "ok",
     "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "132209-feedback",
-   "agent_status": "found",
-   "checks": {
-    "form_url": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "132217-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "132217-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "132217-feedback",
-   "agent_status": "found",
-   "checks": {
-    "form_url": "ok"
    },
    "status": "verified"
   }

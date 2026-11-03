@@ -34,7 +34,7 @@
      "hours": null,
      "source_url": "https://www.city.mito.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -48,7 +48,7 @@
      "hours": null,
      "source_url": "https://www.city.mito.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -58,20 +58,6 @@
    "official_site": "https://www.city.hitachi.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0294-22-3111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "317-8601",
-     "postal_address": "茨城県日立市助川町 1-1-1",
-     "hours": null,
-     "source_url": "https://www.city.hitachi.lg.jp/",
-     "evidence": "日立市役所 〒317-8601 茨城県日立市助川町 1-1-1 電話:0294-22-3111(代表)",
-     "note": null
-    },
-    {
      "type": "assembly",
      "agent_status": "auto_not_found",
      "department": null,
@@ -83,7 +69,7 @@
      "hours": null,
      "source_url": "https://www.city.hitachi.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -97,8 +83,11 @@
      "hours": null,
      "source_url": "https://www.city.hitachi.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -108,46 +97,35 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.tsuchiura.lg.jp/index.html",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
      "agent_status": "found",
-     "department": "議会事務局",
+     "department": "代表電話",
      "phone": "029-826-1111",
      "email": null,
      "form_url": null,
      "postal_code": "300-8686",
      "postal_address": "茨城県土浦市大和町9番1号",
      "hours": null,
-     "source_url": "https://www.city.tsuchiura.lg.jp/tsuchiurashigikai/index.html",
-     "evidence": "議会事務局 〒300-8686 茨城県土浦市大和町9番1号 【電話番号】029-826-1111(代)",
+     "source_url": "https://www.city.tsuchiura.lg.jp/index.html",
+     "evidence": "土浦市 【住所】 〒300−8686 茨城県土浦市大和町9番1号 【電話】 029-826-1111(代表) ※平日",
      "note": null
     },
     {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
+     "agent_status": "found",
+     "department": "こんにちは市長さん(市政に対するご意見・ご提案)、お問い合わせ&nbsp;",
      "phone": null,
      "email": null,
-     "form_url": null,
+     "form_url": "https://www.city.tsuchiura.lg.jp/mailform.php?code=76",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.tsuchiura.lg.jp/index.html",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.city.tsuchiura.lg.jp/shisei/kocho/shise-iken-teian-toiawase/konnichiwa-shicho/page003635.html",
+     "evidence": "リンク「こんにちは市長さん(市政に対するご意見・ご提案)、お問い合わせ」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -170,20 +148,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0280-22-5111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "306-8601",
-     "postal_address": "茨城県古河市長谷町38番18号",
-     "hours": null,
-     "source_url": "https://www.city.ibaraki-koga.lg.jp/citycouncil/index.html",
-     "evidence": "議会事務局 所在地:〒306-8601 茨城県古河市長谷町38番18号 電話番号:0280-22-5111(代表)",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -195,8 +159,11 @@
      "hours": null,
      "source_url": "https://www.city.ibaraki-koga.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -234,17 +201,17 @@
     },
     {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "秘書広聴課",
+     "phone": "0299-23-1111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.ishioka.lg.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.city.ishioka.lg.jp/shiseijoho/kocho_shimin/kocho/page007021.html",
+     "evidence": "秘書広聴課 〒315-8640 茨城県石…目1番地1 本庁舎 2階 電話番号:(代表)0299-23-1111(直通)0299",
+     "note": null
     }
    ]
   },
@@ -253,34 +220,6 @@
    "name": "結城市",
    "official_site": "https://www.city.yuki.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0296-32-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "307-8501",
-     "postal_address": "茨城県結城市中央町二丁目3番地",
-     "hours": null,
-     "source_url": "https://www.city.yuki.lg.jp/",
-     "evidence": "結城市役所 【住所】 〒307-8501 茨城県結城市中央町二丁目3番地 【電話番号】 0296-32-1111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0296-32-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "307-8501",
-     "postal_address": "茨城県結城市中央町二丁目3番地",
-     "hours": null,
-     "source_url": "https://www.city.yuki.lg.jp/assembly/",
-     "evidence": "議会事務局 〒307-8501 茨城県結城市中央町二丁目3番地 【電話番号】0296-32-1111 (内線5921",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -295,6 +234,10 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -315,35 +258,11 @@
      "source_url": "https://www.city.ryugasaki.ibaraki.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0297-64-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "301-8611",
-     "postal_address": "茨城県龍ケ崎市3710番地",
-     "hours": null,
-     "source_url": "https://www.city.ryugasaki.ibaraki.jp/shigikai/index.html",
-     "evidence": "議会事務局 〒301-8611 茨城県龍ケ崎市3710番地 電話:0297-64-1111",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "ご意見募集",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.ryugasaki.ibaraki.jp/cgi-bin/formmail/formmail.cgi?d=000000",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.ryugasaki.ibaraki.jp/shisei/koho/ikenboshu.html",
-     "evidence": "リンク「ご意見・ご要望」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -353,16 +272,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0296-43-2111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "304-8501",
+     "postal_address": "茨城県下妻市本城町三丁目13番地",
      "hours": null,
      "source_url": "https://www.city.shimotsuma.lg.jp/",
-     "evidence": null,
+     "evidence": "下妻市 本文へ移動する 〒304-8501 茨城県下妻市本城町三丁目13番地 【電話番号】0296-43-2111(代表)",
      "note": null
     },
     {
@@ -377,7 +296,7 @@
      "hours": null,
      "source_url": "https://www.city.shimotsuma.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -391,7 +310,7 @@
      "hours": null,
      "source_url": "https://www.city.shimotsuma.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -426,7 +345,7 @@
      "hours": null,
      "source_url": "https://www.city.joso.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -440,7 +359,7 @@
      "hours": null,
      "source_url": "https://www.city.joso.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -451,16 +370,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0294-72-3111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.city.hitachiota.ibaraki.jp/",
-     "evidence": null,
+     "evidence": "常陸太田市 〒313-8611 茨城県常陸太田市金井町3690 電話番号:0294-72-3111(代表)",
      "note": null
     },
     {
@@ -479,17 +398,17 @@
     },
     {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
+     "agent_status": "found",
+     "department": "ご意見・ご要望&nbsp;",
      "phone": null,
      "email": null,
-     "form_url": null,
+     "form_url": "https://www.city.hitachiota.ibaraki.jp/mailform.php?code=28",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.hitachiota.ibaraki.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.city.hitachiota.ibaraki.jp/about-site/page000409.html",
+     "evidence": "リンク「ご意見・ご要望」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
    ]
   },
@@ -500,16 +419,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0293-23-1111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.city.takahagi.ibaraki.jp/index.html",
-     "evidence": null,
+     "evidence": "高萩市 〒318-8511 茨城県高萩市本町1-100-1 【電話番号】0293-23-1111(代表)",
      "note": null
     },
     {
@@ -527,20 +446,6 @@
      "note": null
     },
     {
-     "type": "education",
-     "agent_status": "found",
-     "department": "高萩市教育委員会",
-     "phone": "0293-23-1131",
-     "email": null,
-     "form_url": null,
-     "postal_code": "318-0033",
-     "postal_address": "高萩市本町1丁目100番地の1",
-     "hours": null,
-     "source_url": "https://www.city.takahagi.ibaraki.jp/edu/",
-     "evidence": "高萩市教育委員会 〒318-0033 高萩市本町1丁目100番地の1 アクセス 0293-23-1131",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -550,9 +455,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.takahagi.ibaraki.jp/index.html",
+     "source_url": "https://www.city.takahagi.ibaraki.jp/iju/page005989.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
    ]
   },
@@ -563,44 +468,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0293-43-1111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "319-1592",
+     "postal_address": "茨城県北茨城市磯原町磯原1630",
      "hours": null,
      "source_url": "https://www.city.kitaibaraki.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0293-43-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kitaibaraki.lg.jp/docs/2016060200036/",
-     "evidence": "議会事務局 TEL:0293-43-1111",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務課",
-     "phone": "0293-43-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kitaibaraki.lg.jp/docs/2026052700031/",
-     "evidence": "教育総務課 TEL:0293-43-1111",
+     "evidence": "9-1592 茨城県北茨城市磯原町磯原1630 電話番号:0293-43-1111(代表)",
      "note": null
     },
     {
@@ -613,10 +490,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.kitaibaraki.lg.jp/",
+     "source_url": "https://www.city.kitaibaraki.lg.jp/inquiry/3/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -639,20 +519,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0296-77-1101",
-     "email": null,
-     "form_url": null,
-     "postal_code": "309-1792",
-     "postal_address": "笠間市中央三丁目2番1号",
-     "hours": null,
-     "source_url": "https://www.city.kasama.lg.jp/page/page017621.html",
-     "evidence": "議会事務局です。 〒309-1792 笠間市中央三丁目2番1号 電話番号:0296-77-1101 ファクス番号:",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -666,6 +532,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -673,20 +542,6 @@
    "name": "取手市",
    "official_site": "https://www.city.toride.ibaraki.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0297-74-2141",
-     "email": null,
-     "form_url": null,
-     "postal_code": "302-8585",
-     "postal_address": "茨城県取手市寺田5139番地",
-     "hours": null,
-     "source_url": "https://www.city.toride.ibaraki.jp/",
-     "evidence": "取手市役所 郵便番号302-8585 茨城県取手市寺田5139番地 電話:0297-74-2141(代表) ファク",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -700,21 +555,11 @@
      "source_url": "https://www.city.toride.ibaraki.jp/shise/shicho/shigikai/index.html",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市民協働課市民相談係",
-     "phone": "0297-74-2141",
-     "email": null,
-     "form_url": "https://www.city.toride.ibaraki.jp/form/shisetegen/shisetegen.html",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.toride.ibaraki.jp/shimin-sodan/shise/kohokocho/shisetegen/tegencorner.html",
-     "evidence": "市民協働課市民相談係 茨城県取手市寺田5139 電話番号:0297-74-2141(代表)",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "feedback",
+    "general"
    ]
   },
   {
@@ -749,21 +594,10 @@
      "source_url": "https://www.city.ushiku.lg.jp/shisei/senkyo-gikai/gikai/page003001.html",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報広聴課",
-     "phone": "029-873-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.ushiku.lg.jp/shisei/johohasshin/koho-kocho/goiken-goteian/page005450.html",
-     "evidence": "広報広聴課 〒300-1292 茨城県牛久市中央3丁目15番地1 本庁舎 3階 電話番号:029-873-2111(内線3221,",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "feedback"
    ]
   },
   {
@@ -773,30 +607,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "029-883-1111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.city.tsukuba.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会総務課",
-     "phone": "029-883-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "305-8555",
-     "postal_address": "つくば市研究学園一丁目1番地1",
-     "hours": null,
-     "source_url": "https://www.city.tsukuba.lg.jp/shisei/shigikai/index.html",
-     "evidence": "議会総務課 〒305-8555 つくば市研究学園一丁目1番地1 電話:029-883-1111(代表) ファク",
+     "evidence": "つくば市役所 〒305-8555 茨城県…訳します 電話リレーサービス 電話番号: 029-883-1111",
      "note": null
     },
     {
@@ -811,8 +631,11 @@
      "hours": null,
      "source_url": "https://www.city.tsukuba.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -833,35 +656,11 @@
      "source_url": "https://www.city.hitachinaka.lg.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "029-273-0111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "312-8501",
-     "postal_address": "茨城県ひたちなか市東石川2丁目10番1号",
-     "hours": null,
-     "source_url": "https://www.city.hitachinaka.lg.jp/gikai/index.html",
-     "evidence": "議会事務局 〒312-8501 茨城県ひたちなか市東石川2丁目10番1号 代表電話:029-273-0111 直通電話:02",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報戦略課",
-     "phone": "029-273-0122",
-     "email": null,
-     "form_url": "https://www.city.hitachinaka.lg.jp/cgi-bin/contacts/G310400",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.hitachinaka.lg.jp/shisei/koho/1003299.html",
-     "evidence": "広報戦略課 〒312-8501 茨城県ひたちなか市東石川2丁目10番1号 直通電話:029-273-0122",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -893,24 +692,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.kashima.ibaraki.jp/",
+     "source_url": "https://www.city.kashima.ibaraki.jp/life/14/51/170/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "ご意見・お問い合わせメール",
-     "phone": null,
-     "email": null,
-     "form_url": "https://logoform.jp/form/kRr5/309737",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kashima.ibaraki.jp/soshiki/17/72394.html",
-     "evidence": "リンク「ご意見メール」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "feedback"
    ]
   },
   {
@@ -933,20 +721,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0299-63-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "311-2493",
-     "postal_address": "茨城県潮来市辻626 潮来市役所 本庁舎 3階",
-     "hours": null,
-     "source_url": "https://www.city.itako.lg.jp/gikai/page000985.html",
-     "evidence": "議会事務局 〒311-2493 茨城県潮来市辻626 潮来市役所 本庁舎 3階 電話番号:0299-63-1111",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -960,55 +734,20 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
    "code": "082244",
    "name": "守谷市",
    "official_site": "https://www.city.moriya.ibaraki.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0297-45-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "302-0198",
-     "postal_address": "茨城県守谷市大柏950番地の1",
-     "hours": null,
-     "source_url": "https://www.city.moriya.ibaraki.jp/",
-     "evidence": "守谷市役所 〒302-0198 茨城県守谷市大柏950番地の1 電話: 0297-45-1111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0297-45-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "302-0198",
-     "postal_address": "茨城県守谷市大柏950番地の1",
-     "hours": null,
-     "source_url": "https://www.city.moriya.ibaraki.jp/gikai/index.html",
-     "evidence": "議会事務局 〒302-0198 茨城県守谷市大柏950番地の1 電話:0297-45-1111 ファクス番号:",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "秘書課",
-     "phone": "0297-45-1111",
-     "email": null,
-     "form_url": "https://www.city.moriya.ibaraki.jp/cgi-bin/contacts/G0720",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.moriya.ibaraki.jp/1007709.html",
-     "evidence": "秘書課 〒302-0198 茨城県守谷市大柏950番地の1 電話:0297-45-1111 ファクス番号:",
-     "note": null
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -1032,17 +771,17 @@
     },
     {
      "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0295-52-1111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "319-2292",
+     "postal_address": "常陸大宮市中富町3135-6 本庁4階",
      "hours": null,
-     "source_url": "https://www.city.hitachiomiya.lg.jp/",
-     "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "source_url": "https://www.city.hitachiomiya.lg.jp/gikai/page000393.html",
+     "evidence": "議会事務局 〒319-2292 常陸大宮市中富町3135-6 本庁4階 電話番号:0295-52-1111",
+     "note": null
     },
     {
      "type": "feedback",
@@ -1054,9 +793,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.hitachiomiya.lg.jp/",
+     "source_url": "https://www.city.hitachiomiya.lg.jp/gikai/r10/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
    ]
   },
@@ -1078,35 +817,11 @@
      "source_url": "https://www.city.naka.lg.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "029-298-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.naka.lg.jp/gikai/",
-     "evidence": "議会事務局 〒311-0192 茨城県那珂市福田1819-5 電話番号:029-298-1111(内線:226)",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市民相談室",
-     "phone": "029-298-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.naka.lg.jp/kurashi-tetsuduki/soudan-madoguchi/soudan/page001969.html",
-     "evidence": "市民相談室 〒311-0192 茨城県那珂市福田1819-5 本庁1階 電話番号:029-298-1111(内線116・1",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   }
  ]

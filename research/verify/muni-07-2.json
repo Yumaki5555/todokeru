@@ -3,9 +3,9 @@
  "checked_at": "2026-11-03",
  "result": {
   "entities": 29,
-  "contacts": 88,
-  "verified": 16,
-  "unverified": 72,
+  "contacts": 72,
+  "verified": 9,
+  "unverified": 63,
   "unavailable": 0,
   "errors": 0
  },
@@ -13,52 +13,55 @@
  "reports": [
   {
    "id": "074446-general",
-   "agent_status": "fetch_failed",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（fetch_failed）"
-  },
-  {
-   "id": "074446-feedback",
-   "agent_status": "fetch_failed",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（fetch_failed）"
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok"
+   },
+   "status": "verified"
   },
   {
    "id": "074446-assembly",
-   "agent_status": "fetch_failed",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（fetch_failed）"
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok"
+   },
+   "status": "verified"
   },
   {
-   "id": "074454-general",
-   "agent_status": "fetch_failed",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（fetch_failed）"
-  },
-  {
-   "id": "074454-feedback",
-   "agent_status": "fetch_failed",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（fetch_failed）"
-  },
-  {
-   "id": "074454-assembly",
-   "agent_status": "fetch_failed",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（fetch_failed）"
-  },
-  {
-   "id": "074462-general",
+   "id": "074446-feedback",
    "agent_status": "auto_not_found",
    "checks": {},
    "status": "unverified",
    "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "074454-general",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "074454-assembly",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "074454-feedback",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "074462-general",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok"
+   },
+   "status": "verified"
   },
   {
    "id": "074462-assembly",
@@ -73,14 +76,6 @@
    "checks": {},
    "status": "unverified",
    "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "074471-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
   },
   {
    "id": "074471-assembly",
@@ -98,16 +93,11 @@
   },
   {
    "id": "074616-general",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "074616-assembly",
    "agent_status": "found",
    "checks": {
-    "phone": "ok"
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
    },
    "status": "verified"
   },
@@ -124,16 +114,6 @@
    "checks": {},
    "status": "unverified",
    "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "074641-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
   },
   {
    "id": "074641-feedback",
@@ -171,16 +151,6 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "074667-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "074667-feedback",
    "agent_status": "auto_not_found",
    "checks": {},
@@ -189,10 +159,11 @@
   },
   {
    "id": "074811-general",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok"
+   },
+   "status": "verified"
   },
   {
    "id": "074811-assembly",
@@ -216,16 +187,6 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "074829-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "074829-feedback",
    "agent_status": "auto_not_found",
    "checks": {},
@@ -238,16 +199,6 @@
    "checks": {},
    "status": "unverified",
    "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "074837-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
   },
   {
    "id": "074837-feedback",
@@ -265,10 +216,13 @@
   },
   {
    "id": "074845-assembly",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
   },
   {
    "id": "074845-feedback",
@@ -285,22 +239,6 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "075019-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "075019-feedback",
-   "agent_status": "found",
-   "checks": {
-    "form_url": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "075027-general",
    "agent_status": "auto_not_found",
    "checks": {},
@@ -309,10 +247,11 @@
   },
   {
    "id": "075027-assembly",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok"
+   },
+   "status": "verified"
   },
   {
    "id": "075027-feedback",
@@ -323,24 +262,27 @@
   },
   {
    "id": "075035-general",
-   "agent_status": "fetch_failed",
+   "agent_status": "auto_not_found",
    "checks": {},
    "status": "unverified",
-   "why": "調査で確認できなかった（fetch_failed）"
-  },
-  {
-   "id": "075035-feedback",
-   "agent_status": "fetch_failed",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（fetch_failed）"
+   "why": "調査で確認できなかった（auto_not_found）"
   },
   {
    "id": "075035-assembly",
-   "agent_status": "fetch_failed",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "075035-feedback",
+   "agent_status": "auto_not_found",
    "checks": {},
    "status": "unverified",
-   "why": "調査で確認できなかった（fetch_failed）"
+   "why": "調査で確認できなかった（auto_not_found）"
   },
   {
    "id": "075043-general",
@@ -365,10 +307,13 @@
   },
   {
    "id": "075051-general",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
   },
   {
    "id": "075051-assembly",
@@ -383,14 +328,6 @@
    "checks": {},
    "status": "unverified",
    "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "075213-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
   },
   {
    "id": "075213-assembly",
@@ -433,14 +370,6 @@
    "checks": {},
    "status": "unverified",
    "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "075418-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
   },
   {
    "id": "075418-feedback",
@@ -520,14 +449,6 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "075451-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "075451-feedback",
    "agent_status": "auto_not_found",
    "checks": {},
@@ -540,33 +461,6 @@
    "checks": {},
    "status": "unverified",
    "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "075469-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "email": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "075469-education",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "email": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "075469-feedback",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "email": "ok"
-   },
-   "status": "verified"
   },
   {
    "id": "075477-general",
@@ -591,61 +485,45 @@
   },
   {
    "id": "075485-general",
-   "agent_status": "fetch_failed",
-   "checks": {},
-   "status": "unverified",
-   "why": "公式ドメインか自動で判定できない（www.katsurao.org）"
-  },
-  {
-   "id": "075485-feedback",
-   "agent_status": "fetch_failed",
+   "agent_status": "auto_not_found",
    "checks": {},
    "status": "unverified",
    "why": "公式ドメインか自動で判定できない（www.katsurao.org）"
   },
   {
    "id": "075485-assembly",
-   "agent_status": "fetch_failed",
+   "agent_status": "found",
+   "checks": {},
+   "status": "unverified",
+   "why": "公式ドメインか自動で判定できない（www.katsurao.org）"
+  },
+  {
+   "id": "075485-feedback",
+   "agent_status": "auto_not_found",
    "checks": {},
    "status": "unverified",
    "why": "公式ドメインか自動で判定できない（www.katsurao.org）"
   },
   {
    "id": "075612-general",
-   "agent_status": "fetch_failed",
-   "checks": {},
-   "status": "unverified",
-   "why": "公式ドメインか自動で判定できない（www.shinchi-town.jp）"
-  },
-  {
-   "id": "075612-feedback",
-   "agent_status": "fetch_failed",
+   "agent_status": "found",
    "checks": {},
    "status": "unverified",
    "why": "公式ドメインか自動で判定できない（www.shinchi-town.jp）"
   },
   {
    "id": "075612-assembly",
-   "agent_status": "fetch_failed",
+   "agent_status": "found",
    "checks": {},
    "status": "unverified",
    "why": "公式ドメインか自動で判定できない（www.shinchi-town.jp）"
   },
   {
-   "id": "075647-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "075647-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
+   "id": "075612-feedback",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "公式ドメインか自動で判定できない（www.shinchi-town.jp）"
   },
   {
    "id": "075647-feedback",

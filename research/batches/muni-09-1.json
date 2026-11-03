@@ -10,60 +10,22 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.utsunomiya.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
      "agent_status": "found",
-     "department": "都宮市議会事務局政策調査課",
-     "phone": "028-632-2611",
+     "department": "代表電話",
+     "phone": "028-632-2222",
      "email": null,
      "form_url": null,
      "postal_code": "320-8540",
-     "postal_address": "宇都宮市旭1丁目1番5号",
+     "postal_address": "栃木県宇都宮市旭1丁目1-5",
      "hours": null,
-     "source_url": "https://www.city.utsunomiya.lg.jp/gikai/index.html",
-     "evidence": "都宮市議会事務局政策調査課 電話:028-632-2611 ファクス:02",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育企画課",
-     "phone": "028-632-2706",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.utsunomiya.lg.jp/kyoikuiinkai/index.html",
-     "evidence": "教育企画課 電話番号:028-632-2706 ファクス:02",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報広聴課",
-     "phone": "028-632-2022",
-     "email": null,
-     "form_url": "https://www.city.utsunomiya.lg.jp/cgi-bin/contacts/F020060000",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.utsunomiya.lg.jp/shisei/koho/miyadayori/1009657.html",
-     "evidence": "広報広聴課 電話番号:028-632-2022 ファクス:02",
+     "source_url": "https://www.city.utsunomiya.lg.jp/",
+     "evidence": "宇都宮市 〒320-8540 栃木県宇都宮市旭1丁目1-5 代表電話:028-632-2222(コールセンター",
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -119,49 +81,11 @@
    "code": "092037",
    "name": "栃木市",
    "official_site": "https://www.city.tochigi.lg.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0282-22-3535",
-     "email": null,
-     "form_url": null,
-     "postal_code": "328-8686",
-     "postal_address": "栃木県栃木市万町9番25号",
-     "hours": null,
-     "source_url": "https://www.city.tochigi.lg.jp/",
-     "evidence": "栃木市役所法人番号 6000020092…8686 栃木県栃木市万町9番25号Tel:0282-22-3535(代表) Fax",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会総務係",
-     "phone": "0282-21-2503",
-     "email": null,
-     "form_url": null,
-     "postal_code": "328-8686",
-     "postal_address": "栃木市万町9-25 本庁舎4階",
-     "hours": null,
-     "source_url": "https://www.city.tochigi.lg.jp/site/gikai/",
-     "evidence": "議会総務係 〒328-8686栃木市万町9-25 本庁舎4階 Tel:0282-21-2503Fax:0282",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "栃木市役所広報課広報広聴係",
-     "phone": "0282-21-2317",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.tochigi.lg.jp/site/goiken/",
-     "evidence": "栃木市役所広報課広報広聴係 電話 0282-21-2317",
-     "note": null
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -170,20 +94,6 @@
    "official_site": "https://www.city.sano.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0283-24-5111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "327-8501",
-     "postal_address": "栃木県佐野市高砂町1番地",
-     "hours": null,
-     "source_url": "https://www.city.sano.lg.jp/",
-     "evidence": "佐野市役所 〒327-8501 栃木県…1 栃木県佐野市高砂町1番地 電話番号 : 0283-24-5111(代表)",
-     "note": null
-    },
-    {
      "type": "assembly",
      "agent_status": "auto_not_found",
      "department": null,
@@ -193,9 +103,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.sano.lg.jp/",
+     "source_url": "https://www.city.sano.lg.jp/soshikiichiran/gikai/index.html",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": null
     },
     {
      "type": "feedback",
@@ -209,8 +119,11 @@
      "hours": null,
      "source_url": "https://www.city.sano.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -231,35 +144,11 @@
      "source_url": "https://www.city.kanuma.tochigi.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "鹿沼市議会",
-     "phone": "0289-63-2202",
-     "email": "gikai-jimu@city.kanuma.lg.jp",
-     "form_url": null,
-     "postal_code": "322-8601",
-     "postal_address": "栃木県鹿沼市今宮町1688-1",
-     "hours": null,
-     "source_url": "https://www.city.kanuma.tochigi.jp/0320/info-0000000007-0.html",
-     "evidence": "議会棟 2階) 電話: 0289-63-2202",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報広聴係",
-     "phone": "0289-63-2128",
-     "email": "koho@city.kanuma.lg.jp",
-     "form_url": "https://www.city.kanuma.tochigi.jp/viewer/opinion.html?idSubTop=0&formId=120",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kanuma.tochigi.jp/0336/info-0000010994-0.html",
-     "evidence": "広報広聴係 住所: 〒322-8601 …宮町1688-1(行政棟 3階) 電話: 0289-63-2128",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -282,20 +171,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0288-21-5140",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.nikko.lg.jp/gikai/index.html",
-     "evidence": "議会事務局 〒321-1292 栃木県日光市今市本町1番地 電話番号:0288-21-5140",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -307,8 +182,11 @@
      "hours": null,
      "source_url": "https://www.city.nikko.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -318,46 +196,35 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0285-23-1111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.city.oyama.tochigi.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0285-22-9463",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.oyama.tochigi.jp/gikai/seigan-chinjo/page003149.html",
-     "evidence": "議会事務局(電話番号:0285-22-9463、ファクス:02",
+     "evidence": "小山市 小山市公式X 小山市公式Face…小山市中央町1丁目1番1号 【電話番号】 0285-23-1111(代表)",
      "note": null
     },
     {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
+     "agent_status": "found",
+     "department": "市長へのメール&nbsp;",
      "phone": null,
      "email": null,
-     "form_url": null,
+     "form_url": "https://logoform.jp/form/9Doh/382979",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.oyama.tochigi.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.city.oyama.tochigi.jp/mayor/mail/page004559.html",
+     "evidence": "リンク「市長へのメール」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -367,16 +234,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0285-82-1111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.city.moka.lg.jp/",
-     "evidence": null,
+     "evidence": "真岡市 MOKA CITY 〒321-4395 栃木県真岡市荒町5191番地 電話 0285-82-1111(代表)",
      "note": null
     },
     {
@@ -405,7 +272,7 @@
      "hours": null,
      "source_url": "https://www.city.moka.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -414,20 +281,6 @@
    "name": "大田原市",
    "official_site": "https://www.city.ohtawara.tochigi.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0287-23-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "324-8641",
-     "postal_address": "栃木県大田原市本町1丁目4番1号 アクセスはこちら",
-     "hours": null,
-     "source_url": "https://www.city.ohtawara.tochigi.jp/",
-     "evidence": "大田原市役所 〒324-8641 栃木県…町1丁目4番1号 アクセスはこちら 電話:0287-23-1111(代表)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -440,7 +293,7 @@
      "hours": null,
      "source_url": "https://www.city.ohtawara.tochigi.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -454,67 +307,32 @@
      "hours": null,
      "source_url": "https://www.city.ohtawara.tochigi.jp/unit/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
    "code": "092118",
    "name": "矢板市",
    "official_site": "https://www.city.yaita.tochigi.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0287-43-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "329-2192",
-     "postal_address": "栃木県矢板市本町5番4号",
-     "hours": null,
-     "source_url": "https://www.city.yaita.tochigi.jp/",
-     "evidence": "矢板市役所法人番号 8000020092…-2192 栃木県矢板市本町5番4号Tel:0287-43-1111(代表) Fax",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0287-43-6216",
-     "email": null,
-     "form_url": null,
-     "postal_code": "329-2192",
-     "postal_address": "栃木県矢板市本町5番4号",
-     "hours": null,
-     "source_url": "https://www.city.yaita.tochigi.jp/adv/ba.php?id=96",
-     "evidence": "議会事務局 〒329-2192栃木県矢板市本町5番4号 代表 Tel:0287-43-6216",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "秘書広報課",
-     "phone": "0287-43-3764",
-     "email": null,
-     "form_url": "https://www.city.yaita.tochigi.jp/form/detail.php?sec_sec1=45&lif_id=1248",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.yaita.tochigi.jp/soshiki/hishokouhou/email-goiken.html",
-     "evidence": "秘書広報課 〒329-2192栃木県矢板市本町5番4号 代表 Tel:0287-43-3764",
-     "note": null
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
    "code": "092134",
    "name": "那須塩原市",
-   "official_site": "https://www.city.nasushiobara.lg.jp/",
+   "official_site": "https://www.city.nasushiobara.tochigi.jp/",
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -522,27 +340,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.nasushiobara.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.nasushiobara.lg.jp/",
+     "source_url": "https://www.city.nasushiobara.tochigi.jp/",
      "evidence": null,
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -550,9 +354,37 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.nasushiobara.lg.jp/",
+     "source_url": "https://www.city.nasushiobara.tochigi.jp/nasushiobarashigikai/index.html",
      "evidence": null,
      "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育総務課",
+     "phone": "0287-37-5231",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nasushiobara.tochigi.jp/kosodate_kyoiku/kyoiku/kyoikuiinkai/index.html",
+     "evidence": "教育総務課 〒329-2792 栃木県那須塩原市あたご町2番3号 電話番号:0287-37-5231",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "市政へのご意見・ご要望(市への提言)",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.city.nasushiobara.tochigi.jp/cgi-bin/inquiry.php/1?page_no=3161",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nasushiobara.tochigi.jp/goiken_otoiawase/7745.html",
+     "evidence": "リンク「市政へのご意見・ご要望(市への提言)」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
    ]
   },
@@ -588,21 +420,10 @@
      "source_url": "https://www.city.tochigi-sakura.lg.jp/government/000050/index.html",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "秘書広報戦略室秘書係",
-     "phone": "028-681-1113",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.tochigi-sakura.lg.jp/government/000049/000296/000454/p000212.html",
-     "evidence": "秘書広報戦略室秘書係 住所: 〒329-… 栃木県さくら市氏家2771番地 電話: 028-681-1113",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "feedback"
    ]
   },
   {
@@ -625,33 +446,22 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0287-88-7114",
-     "email": null,
-     "form_url": null,
-     "postal_code": "321-0595",
-     "postal_address": "那須烏山市大金240 南那須庁舎3階",
-     "hours": null,
-     "source_url": "https://www.city.nasukarasuyama.lg.jp/city-council/",
-     "evidence": "議会事務局 〒321-0595 那須烏山市大金240 南那須庁舎3階 【電話番号】0287-88-7114",
-     "note": null
-    },
-    {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
+     "agent_status": "found",
+     "department": "広聴箱~市政に対するご意見をお寄せください~",
      "phone": null,
      "email": null,
-     "form_url": null,
+     "form_url": "https://www.city.nasukarasuyama.lg.jp/mailform.php?code=352",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.nasukarasuyama.lg.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.city.nasukarasuyama.lg.jp/city-administration/public-relations/page000674.html",
+     "evidence": "リンク「広聴箱~市政に対するご意見をお寄せください~」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -660,20 +470,6 @@
    "official_site": "https://www.city.shimotsuke.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0285-32-8888",
-     "email": null,
-     "form_url": null,
-     "postal_code": "329-0492",
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.shimotsuke.lg.jp/",
-     "evidence": "下野市役所法人番号:6000020092… 栃木県下野市笹原26番地[地図] TEL 0285-32-8888(代表) FAX",
-     "note": null
-    },
-    {
      "type": "assembly",
      "agent_status": "auto_not_found",
      "department": null,
@@ -683,9 +479,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.shimotsuke.lg.jp/",
+     "source_url": "https://www.city.shimotsuke.lg.jp/0030/genre1-3-001.html",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": null
     },
     {
      "type": "feedback",
@@ -697,10 +493,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.shimotsuke.lg.jp/",
+     "source_url": "https://www.city.shimotsuke.lg.jp/0032/genre1-3-001.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -723,20 +522,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局 総務係",
-     "phone": "0285-56-9162",
-     "email": null,
-     "form_url": null,
-     "postal_code": "329-0696",
-     "postal_address": "栃木県河内郡上三川町しらさぎ一丁目1番地",
-     "hours": null,
-     "source_url": "https://www.town.kaminokawa.lg.jp/0204/info-0000000612-0.html",
-     "evidence": "議会事務局 総務係 住所: 〒329-0696 栃木県河内郡上三川町しらさぎ一丁目1番地 電話: 0285-56-9162",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -750,44 +535,47 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
    "code": "093424",
    "name": "益子町",
-   "official_site": "https://www.town.mashiko.tochigi.jp/",
+   "official_site": "https://www.town.mashiko.lg.jp:443/",
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0285-72-2111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.mashiko.tochigi.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.mashiko.tochigi.jp/",
-     "evidence": null,
+     "source_url": "https://www.town.mashiko.lg.jp:443/",
+     "evidence": "益子町役場 〒321-4293 栃木県芳賀郡益子町大字益子2030番地 【電話番号】0285-72-2111(代表)",
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0285-72-8858",
+     "email": null,
+     "form_url": null,
+     "postal_code": "321-4293",
+     "postal_address": "栃木県芳賀郡益子町大字益子2030番地",
+     "hours": null,
+     "source_url": "https://www.town.mashiko.lg.jp:443/page/page001115.html",
+     "evidence": "議会事務局です。 〒321-4293 栃木県芳賀郡益子町大字益子2030番地 電話番号:0285-72-8858 ファクス番号:",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -795,7 +583,7 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.mashiko.tochigi.jp/",
+     "source_url": "https://www.town.mashiko.lg.jp:443/mailform.php?code=6",
      "evidence": null,
      "note": null
     }
@@ -903,49 +691,11 @@
    "code": "093459",
    "name": "芳賀町",
    "official_site": "https://www.town.tochigi-haga.lg.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "028-677-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "321-3392",
-     "postal_address": "栃木県芳賀郡芳賀町祖母井1020",
-     "hours": null,
-     "source_url": "https://www.town.tochigi-haga.lg.jp/",
-     "evidence": "芳賀町役場 〒321-3392栃木県芳賀郡芳賀町祖母井1020 電話番号:028-677-1111(代表番号)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "028-677-6023",
-     "email": null,
-     "form_url": null,
-     "postal_code": "321-3392",
-     "postal_address": "栃木県芳賀郡芳賀町大字祖母井1020",
-     "hours": null,
-     "source_url": "https://www.town.tochigi-haga.lg.jp/gikai/seigan_chinjou.html",
-     "evidence": "議会事務局 〒321-3392 栃木県芳賀郡芳賀町大字祖母井1020 電話:028-677-6023",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "企画課広報広聴係",
-     "phone": "028-677-6099",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.tochigi-haga.lg.jp/chouseijouhou/kouhou/kouchou/kohokochominitar-r8.html",
-     "evidence": "企画課広報広聴係 〒321-3392 栃木県芳賀郡芳賀町大字祖母井1020 電話:028-677-6099",
-     "note": null
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -968,20 +718,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0282-81-1866",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.mibu.tochigi.jp/docs/2014122500025/",
-     "evidence": "議会事務局 TEL:議事係:0282-81-1866",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -995,6 +731,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -1002,34 +741,6 @@
    "name": "野木町",
    "official_site": "https://www.town.nogi.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0280-57-4111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "329-0195",
-     "postal_address": "栃木県下都賀郡野木町大字丸林571",
-     "hours": null,
-     "source_url": "https://www.town.nogi.lg.jp/",
-     "evidence": "野木町役場 〒329-0195 栃木県下都賀郡野木町大字丸林571 電話:0280-57-4111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0280-57-4106",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.nogi.lg.jp/cyousei/gikai/page000394.html",
-     "evidence": "議会事務局 ☎0280-57-4106(直通)",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -1044,6 +755,10 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -1053,30 +768,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0287-45-1111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "329-2292",
+     "postal_address": "栃木県塩谷郡塩谷町大字玉生955番地3",
      "hours": null,
      "source_url": "https://www.town.shioya.tochigi.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0287-45-1110",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.shioya.tochigi.jp/info/85",
-     "evidence": "議会事務局 住所:329-2292 栃木県塩谷郡塩谷町大字玉生955番地3 TEL:0287-45-1110",
+     "evidence": "9-2292 栃木県塩谷郡塩谷町大字玉生955番地3 電話 0287-45-1111(代表)",
      "note": null
     },
     {
@@ -1091,8 +792,11 @@
      "hours": null,
      "source_url": "https://www.town.shioya.tochigi.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -1116,17 +820,17 @@
     },
     {
      "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "028-675-8111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.takanezawa.tochigi.jp/",
-     "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "source_url": "https://www.town.takanezawa.tochigi.jp/gyosei/gikai/kaigi/",
+     "evidence": "議会事務局 〒329-1292 栃木県塩谷郡高根沢町大字石末2053番地 028-675-8111※ FAXは、0",
+     "note": null
     },
     {
      "type": "feedback",
@@ -1140,7 +844,7 @@
      "hours": null,
      "source_url": "https://www.town.takanezawa.tochigi.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -1175,7 +879,7 @@
      "hours": null,
      "source_url": "https://www.town.nasu.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -1189,7 +893,7 @@
      "hours": null,
      "source_url": "https://www.town.nasu.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -1213,20 +917,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局 庶務議事係",
-     "phone": "0287-92-1170",
-     "email": null,
-     "form_url": null,
-     "postal_code": "324-0692",
-     "postal_address": "栃木県那須郡那珂川町馬頭555",
-     "hours": null,
-     "source_url": "https://www.town.tochigi-nakagawa.lg.jp/0080/info-0000000439-0.html",
-     "evidence": "議会事務局 庶務議事係 住所: 〒324-0692 栃木県那須郡那珂川町馬頭555 電話: 0287-92-1170",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -1236,10 +926,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.tochigi-nakagawa.lg.jp/",
+     "source_url": "https://www.town.tochigi-nakagawa.lg.jp/0069/genre2-0-001.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   }
  ]

@@ -58,20 +58,6 @@
    "official_site": "https://www.vill.mitsue.nara.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0745-95-2001",
-     "email": null,
-     "form_url": null,
-     "postal_code": "633-1302",
-     "postal_address": "奈良県宇陀郡御杖村大字菅野368番地",
-     "hours": null,
-     "source_url": "https://www.vill.mitsue.nara.jp/",
-     "evidence": "御杖村役場へのお問い合わせ 奈良県御杖…宇陀郡御杖村大字菅野368番地 電話番号:0745-95-2001(代表)",
-     "note": null
-    },
-    {
      "type": "assembly",
      "agent_status": "auto_not_found",
      "department": null,
@@ -83,7 +69,7 @@
      "hours": null,
      "source_url": "https://www.vill.mitsue.nara.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -97,8 +83,11 @@
      "hours": null,
      "source_url": "https://www.vill.mitsue.nara.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -158,9 +147,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.takatori.nara.jp/",
+     "source_url": "https://www.town.takatori.nara.jp/category_list.php?frmCd=3-3-0-0-0",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
    ]
   },
@@ -219,20 +208,6 @@
    "official_site": "https://www.town.kanmaki.nara.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0745-76-1001",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.kanmaki.nara.jp/",
-     "evidence": "上牧町役場 〒639-0293 奈良県北葛城郡上牧町大字上牧3350番地 電話番号:0745-76-1001(代表)",
-     "note": null
-    },
-    {
      "type": "assembly",
      "agent_status": "auto_not_found",
      "department": null,
@@ -258,8 +233,11 @@
      "hours": null,
      "source_url": "https://www.town.kanmaki.nara.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -269,16 +247,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0745-73-2001",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.town.oji.nara.jp/",
-     "evidence": null,
+     "evidence": "王寺町 OJI Town 法人番号80…北葛城郡王寺町王寺 2-1-23 電話番号:0745-73-2001(代表)",
      "note": null
     },
     {
@@ -318,30 +296,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.koryo.nara.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
      "agent_status": "found",
-     "department": "広陵町議会事務局議事課",
+     "department": "代表電話",
      "phone": "0745-55-1001",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "635-8515",
+     "postal_address": "奈良県北葛城郡広陵町大字南郷583番地1",
      "hours": null,
-     "source_url": "https://www.town.koryo.nara.jp/0000007603.html",
-     "evidence": "広陵町議会事務局議事課[本庁3階] 電話: 0745-55-1001",
+     "source_url": "https://www.town.koryo.nara.jp/",
+     "evidence": "広陵町 所在地:〒635-8515 奈良県北葛城郡広陵町大字南郷583番地1 電話:0745-55-1001(代表)",
      "note": null
     },
     {
@@ -356,8 +320,11 @@
      "hours": null,
      "source_url": "https://www.town.koryo.nara.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -380,20 +347,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0745-57-0200",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.kawai.nara.jp/10/index.html",
-     "evidence": "議会事務局 〒636-8501 奈良県北葛城郡河合町池部1丁目1番1号 電話:0745-57-0200",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -403,10 +356,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.kawai.nara.jp/",
+     "source_url": "https://www.town.kawai.nara.jp/chosei/koho_kocho/index.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -427,35 +383,11 @@
      "source_url": "https://www.town.yoshino.nara.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0746-32-3081",
-     "email": null,
-     "form_url": null,
-     "postal_code": "639-3192",
-     "postal_address": "奈良県吉野郡吉野町大字上市80番地の1",
-     "hours": null,
-     "source_url": "https://www.town.yoshino.nara.jp/gikai/136.html",
-     "evidence": "議会事務局 〒639-3192 奈良県吉野郡吉野町大字上市80番地の1 電話:0746-32-3081、0746-39",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報広聴室",
-     "phone": "000-0000-0000",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.yoshino.nara.jp/cgi-bin/inquiry.php/4?page_no=1",
-     "evidence": "広報広聴室へのお問い合わせの表組みです。…電話番号 電話番号を入力してください。(例:000-0000-0000)",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -501,9 +433,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.oyodo.lg.jp/",
+     "source_url": "https://www.town.oyodo.lg.jp/mailform/inquiry.cgi?so=505c5ddeabd68c403436ff6869f719744c1cb2a5&ref=https%3A%2F%2Fwww.town.oyodo.lg.jp%2Fsoshiki_list.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
    ]
   },
@@ -541,20 +473,6 @@
      "note": null
     },
     {
-     "type": "education",
-     "agent_status": "found",
-     "department": "下市観光文化センター教育委員会",
-     "phone": "0747-52-1711",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.shimoichi.lg.jp/soshiki/2-1-0-0-0_8.html",
-     "evidence": "下市観光文化センター教育委員会 電話: 0747-52-1711 0747-68",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -566,7 +484,7 @@
      "hours": null,
      "source_url": "https://www.town.shimoichi.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -591,17 +509,17 @@
     },
     {
      "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0747-62-2031",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "638-0292",
+     "postal_address": "奈良県吉野郡黒滝村大字寺戸77番地",
      "hours": null,
-     "source_url": "https://www.vill.kurotaki.nara.jp/",
-     "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "source_url": "https://www.vill.kurotaki.nara.jp/gyosei/village_council/",
+     "evidence": "議会事務局 〒638-0292 奈良県吉野郡黒滝村大字寺戸77番地 TEL:0747-62-2031 FAX:074",
+     "note": null
     },
     {
      "type": "feedback",
@@ -615,7 +533,7 @@
      "hours": null,
      "source_url": "https://www.vill.kurotaki.nara.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -650,7 +568,7 @@
      "hours": null,
      "source_url": "https://www.vill.tenkawa.nara.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -664,7 +582,7 @@
      "hours": null,
      "source_url": "https://www.vill.tenkawa.nara.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -675,16 +593,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0747-37-2101",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "648-0392",
+     "postal_address": "奈良県吉野郡野迫川村大字北股84番地",
      "hours": null,
      "source_url": "https://www.vill.nosegawa.nara.jp/",
-     "evidence": null,
+     "evidence": "野迫川村役場〒648-0392 奈良県吉野郡野迫川村大字北股84番地電話番号:0747-37-2101ファックス:07",
      "note": null
     },
     {
@@ -697,22 +615,8 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.vill.nosegawa.nara.jp/",
+     "source_url": "https://www.vill.nosegawa.nara.jp/top/village_government/parliament/index.html",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会",
-     "phone": "0747-37-2101",
-     "email": null,
-     "form_url": null,
-     "postal_code": "648-0392",
-     "postal_address": "奈良県吉野郡野迫川村大字北股84番地",
-     "hours": null,
-     "source_url": "https://www.vill.nosegawa.nara.jp/top/education/index.html",
-     "evidence": "教育委員会 〒648-0392 奈良県吉野郡野迫川村大字北股84番地 電話番号:0747-37-2101",
      "note": null
     },
     {
@@ -727,7 +631,7 @@
      "hours": null,
      "source_url": "https://www.vill.nosegawa.nara.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -738,31 +642,31 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0746-62-0001",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.vill.totsukawa.lg.jp/",
-     "evidence": null,
+     "evidence": "役場へのアクセス TEL: 0746-62-0001",
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0746-62-0002",
+     "email": "gikai@vill.totsukawa.lg.jp",
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.vill.totsukawa.lg.jp/",
-     "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "source_url": "https://www.vill.totsukawa.lg.jp/administration/gikai/index.html",
+     "evidence": "議会事務局 TEL:0746-62-0002(直)",
+     "note": null
     },
     {
      "type": "feedback",
@@ -825,7 +729,7 @@
      "hours": null,
      "source_url": "https://www.vill.shimokitayama.nara.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -834,20 +738,6 @@
    "name": "上北山村",
    "official_site": "https://vill.kamikitayama.nara.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "07468-2-0001",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://vill.kamikitayama.nara.jp/",
-     "evidence": "上北山村役場 〒639-3701 奈良県吉野郡上北山村大字河合330番地 電話番号: 07468-2-0001(代表)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -863,20 +753,6 @@
      "note": null
     },
     {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会",
-     "phone": "07468-2-0066",
-     "email": null,
-     "form_url": null,
-     "postal_code": "639-3701",
-     "postal_address": "奈良県吉野郡上北山村大字河合107番地",
-     "hours": null,
-     "source_url": "https://www.vill.kamikitayama.nara.jp/kosodate_kyouiku/index.html",
-     "evidence": "教育委員会 〒639-3701 奈良県吉野郡上北山村大字河合107番地 電話番号:07468-2-0066",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -886,10 +762,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://vill.kamikitayama.nara.jp/",
+     "source_url": "https://www.vill.kamikitayama.nara.jp/gyouseijouhou/kouhou_hiroshiki/index.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -899,16 +778,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0746-52-0111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "639-3594",
+     "postal_address": "奈良県吉野郡川上村大字迫1335番地の7",
      "hours": null,
      "source_url": "https://www.vill.kawakami.nara.jp/",
-     "evidence": null,
+     "evidence": "川上村役場 〒639-3594 奈良県吉野郡川上村大字迫1335番地の7 Tel:0746-52-0111(代) Fax:",
      "note": null
     },
     {
@@ -926,6 +805,20 @@
      "note": null
     },
     {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育委員会",
+     "phone": "0746-52-0144",
+     "email": "kyouiku@vill.nara-kawakami.lg.jp0746-52-0144",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.kawakami.nara.jp/life/soshiki/",
+     "evidence": "教育委員会事務局kyouiku@vill.nara-kawakami.lg.jp0746-52-0144",
+     "note": null
+    },
+    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -935,9 +828,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.vill.kawakami.nara.jp/",
+     "source_url": "https://www.vill.kawakami.nara.jp/life/soshiki/zenka/somuzeimuka/more.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
    ]
   },
@@ -972,7 +865,7 @@
      "hours": null,
      "source_url": "http://www.vill.higashiyoshino.nara.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -986,7 +879,7 @@
      "hours": null,
      "source_url": "http://www.vill.higashiyoshino.nara.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   }

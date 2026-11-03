@@ -22,6 +22,9 @@
   {"host": "gikai.izumo-city.jp", "name": "出雲市議会", "evidence_url": "https://www.city.izumo.shimane.jp/www/toppage/0000000000000/APM03000.html", "checked_at": "2026-11-03"},
   {"host": "www.gikai-kawasaki.com", "name": "川崎町議会", "evidence_url": "https://www.town-kawasaki.com/", "checked_at": "2026-11-03"},
   {"host": "ogimi-gikai.sakura.ne.jp", "name": "大宜味村議会", "evidence_url": "https://www.vill.ogimi.okinawa.jp/", "checked_at": "2026-11-03"},
-  {"host": "iegikai.iejima.org", "name": "伊江村議会", "evidence_url": "https://www.iejima.org/", "checked_at": "2026-11-03"}
+  {"host": "iegikai.iejima.org", "name": "伊江村議会", "evidence_url": "https://www.iejima.org/", "checked_at": "2026-11-03"},
+  {"host": "higashikawa-town.jp", "name": "東川町（公式サイトの移転先）", "evidence_url": "https://town.higashikawa.hokkaido.jp/", "checked_at": "2026-11-03"},
+  {"host": "www.nanto-shigikai.jp", "name": "南砺市議会", "evidence_url": "https://www.city.nanto.toyama.jp/", "checked_at": "2026-11-03"},
+  {"host": "www.iwakunishigikai.jp", "name": "岩国市議会", "evidence_url": "https://www.city.iwakuni.lg.jp/", "checked_at": "2026-11-03"}
  ]
 }

@@ -10,44 +10,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "076-220-2111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "920-8577",
+     "postal_address": "金沢市広坂1-1-1",
      "hours": null,
      "source_url": "https://www4.city.kanazawa.lg.jp/index.html",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局総務課",
-     "phone": "076-220-2388",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www4.city.kanazawa.lg.jp/shiseijoho/kanazawashinoshokai/soshikibetsugyomuannai/9983.html",
-     "evidence": "議会事務局総務課 076-220-2388",
-     "note": "同じ組織のほかの番号：076-220-2392"
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務課",
-     "phone": "076-220-2431",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www4.city.kanazawa.lg.jp/shiseijoho/kanazawashinoshokai/soshikibetsugyomuannai/9983.html",
-     "evidence": "教育総務課 共同調理場 076-220-2431",
+     "evidence": "金沢市 Kanazawa City 〒920-8577 金沢市広坂1-1-1 電話:076-220-2111(代表)",
      "note": null
     },
     {
@@ -62,120 +34,33 @@
      "hours": null,
      "source_url": "https://www4.city.kanazawa.lg.jp/index.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
    "code": "172022",
    "name": "七尾市",
    "official_site": "https://www.city.nanao.lg.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0767-53-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "926-8611",
-     "postal_address": "石川県七尾市袖ケ江町イ部25番地",
-     "hours": null,
-     "source_url": "https://www.city.nanao.lg.jp/",
-     "evidence": "七尾市役所(法人番号4000020172…石川県七尾市袖ケ江町イ部25番地 代表電話:0767-53-1111",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0767-53-8433",
-     "email": null,
-     "form_url": null,
-     "postal_code": "926-8611",
-     "postal_address": "石川県七尾市袖ケ江町イ部25番地",
-     "hours": null,
-     "source_url": "https://www.city.nanao.lg.jp/gikaijimu/shise/shigikai/index.html",
-     "evidence": "議会事務局 〒926-8611石川県七尾市袖ケ江町イ部25番地 電話番号:0767-53-8433",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会教育総務課",
-     "phone": "0767-53-8434",
-     "email": null,
-     "form_url": null,
-     "postal_code": "926-8611",
-     "postal_address": "石川県七尾市袖ケ江町イ部25番地",
-     "hours": null,
-     "source_url": "https://www.city.nanao.lg.jp/kyouiku/kurashi/kosodate/inkai/mebo.html",
-     "evidence": "教育委員会教育総務課 〒926-8611石川県七尾市袖ケ江町イ部25番地 電話番号:0767-53-8434",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "総務部秘書広報課",
-     "phone": "0767-53-1130",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.nanao.lg.jp/koho/shise/koho/goiken.html",
-     "evidence": "総務部秘書広報課 〒926-8611石川県七尾市袖ケ江町イ部25番地 電話番号:0767-53-1130",
-     "note": null
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
    "code": "172031",
    "name": "小松市",
    "official_site": "https://www.city.komatsu.lg.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0761-22-4111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "923-8650",
-     "postal_address": "石川県小松市小馬出町91番地",
-     "hours": null,
-     "source_url": "https://www.city.komatsu.lg.jp/",
-     "evidence": "小松市役所 法人番号3000020172… 石川県小松市小馬出町91番地 電話番号:0761-22-4111 (代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "小松市議会",
-     "phone": "0761-24-8138",
-     "email": null,
-     "form_url": null,
-     "postal_code": "923-8650",
-     "postal_address": "石川県小松市小馬出町91番地",
-     "hours": null,
-     "source_url": "https://www.city.komatsu.lg.jp/citycouncil/index.html",
-     "evidence": "議会 〒923-8650 石川県小松市小馬出町91番地 電話:0761-24-8138",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "お問い合わせ・ご意見",
-     "phone": null,
-     "email": null,
-     "form_url": "https://apply.e-tumo.jp/city-komatsu-ishikawa-u/offer/offerList_initDisplay",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.komatsu.lg.jp/inquiry/index.html",
-     "evidence": "リンク「お問い合わせ・ご意見」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -185,16 +70,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0768-22-2211",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "928-8525",
+     "postal_address": "石川県輪島市二ツ屋町2字29番地",
      "hours": null,
      "source_url": "https://www.city.wajima.ishikawa.jp/",
-     "evidence": null,
+     "evidence": "輪島市役所〒928-8525石川県輪島市二ツ屋町2字29番地 電話:0768-22-2211FAX:0768",
      "note": null
     },
     {
@@ -233,20 +118,6 @@
    "official_site": "https://www.city.suzu.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0768-82-2222",
-     "email": null,
-     "form_url": null,
-     "postal_code": "927-1295",
-     "postal_address": "石川県珠洲市上戸町北方一字6番地の2",
-     "hours": null,
-     "source_url": "https://www.city.suzu.lg.jp/",
-     "evidence": "珠洲市役所法人番号20000201720…川県珠洲市上戸町北方一字6番地の2 Tel:0768-82-2222(代表) Fax",
-     "note": null
-    },
-    {
      "type": "assembly",
      "agent_status": "auto_not_found",
      "department": null,
@@ -262,18 +133,21 @@
     },
     {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
+     "agent_status": "found",
+     "department": "ご意見・お問い合わせ",
      "phone": null,
      "email": null,
-     "form_url": null,
+     "form_url": "https://www.city.suzu.lg.jp/form/detail.php?sec_sec1=2",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.suzu.lg.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.city.suzu.lg.jp/life/3/28/152/",
+     "evidence": "リンク「ご意見・お問い合わせ」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -281,34 +155,6 @@
    "name": "加賀市",
    "official_site": "https://www.city.kaga.ishikawa.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0761-72-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "922-8622",
-     "postal_address": "石川県加賀市大聖寺南町ニ41番地",
-     "hours": null,
-     "source_url": "https://www.city.kaga.ishikawa.jp/",
-     "evidence": "加賀市役所(法人番号2000020172… 石川県加賀市大聖寺南町ニ41番地 電話:0761-72-1111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0761-72-7965",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kaga.ishikawa.jp/gikai/index.html",
-     "evidence": "議会事務局 電話番号:0761-72-7965 ファクス番号:",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -319,10 +165,14 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.kaga.ishikawa.jp/",
+     "source_url": "https://www.city.kaga.ishikawa.jp/shisei_gikai/koho_kocho/index.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -354,9 +204,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.hakui.lg.jp/",
+     "source_url": "https://www.city.hakui.lg.jp/soshiki/gikai/index.html",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": null
     },
     {
      "type": "feedback",
@@ -370,7 +220,7 @@
      "hours": null,
      "source_url": "https://www.city.hakui.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -394,17 +244,66 @@
      "note": null
     },
     {
-     "type": "assembly",
+     "type": "feedback",
      "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "076-283-7126",
+     "department": "広報広聴室",
+     "phone": "076-283-7112",
      "email": null,
      "form_url": null,
-     "postal_code": "929-1195",
-     "postal_address": "石川県かほく市宇野気ニ81番地",
+     "postal_code": null,
+     "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.kahoku.lg.jp/006/635/d001333.html",
-     "evidence": "議会事務局 〒929-1195 石川県かほく市宇野気ニ81番地 電話番号:076-283-7126",
+     "source_url": "https://www.city.kahoku.lg.jp/soshiki/100000/100410/index.html",
+     "evidence": "広報広聴室 所在地 〒929-1195 石川県かほく市宇野気ニ81番地 電話番号 076-283-7112",
+     "note": null
+    }
+   ],
+   "skipped_types": [
+    "assembly"
+   ]
+  },
+  {
+   "code": "172103",
+   "name": "白山市",
+   "official_site": "https://www.city.hakusan.lg.jp/",
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
+   ]
+  },
+  {
+   "code": "172111",
+   "name": "能美市",
+   "official_site": "https://www.city.nomi.lg.jp/index.html",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0761-58-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "923-1297",
+     "postal_address": "石川県能美市来丸町1110番地",
+     "hours": null,
+     "source_url": "https://www.city.nomi.lg.jp/index.html",
+     "evidence": "能美市役所 〒923-1297 石川県能美市来丸町1110番地 電話番号 0761-58-1111",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.nomi.lg.jp/shisei/gikai/",
+     "evidence": null,
      "note": null
     },
     {
@@ -417,105 +316,7 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.kahoku.lg.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
-    }
-   ]
-  },
-  {
-   "code": "172103",
-   "name": "白山市",
-   "official_site": "https://www.city.hakusan.lg.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "076-276-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "924-8688",
-     "postal_address": "石川県白山市倉光二丁目1番地",
-     "hours": null,
-     "source_url": "https://www.city.hakusan.lg.jp/",
-     "evidence": "白山市役所 〒924-8688 石川県白山市倉光二丁目1番地 代表電話番号 076-276-1111 ファクス 07",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局議事調査課",
-     "phone": "076-274-9580",
-     "email": null,
-     "form_url": null,
-     "postal_code": "924-8688",
-     "postal_address": "白山市倉光二丁目1番地",
-     "hours": null,
-     "source_url": "https://www.city.hakusan.lg.jp/shigikai/index.html",
-     "evidence": "議会事務局議事調査課 〒924-8688 白山市倉光二丁目1番地 電話:076-274-9580 ファクス:07",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市長への提案",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.hakusan.lg.jp/cgi-bins/enquetes/b04c177eecfe493483a29feb5fdf32d9",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.hakusan.lg.jp/shisei/mayor/formayor/index.html",
-     "evidence": "リンク「市長への提案」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
-    }
-   ]
-  },
-  {
-   "code": "172111",
-   "name": "能美市",
-   "official_site": "https://www.city.nomi.ishikawa.jp/www/index.html",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.nomi.ishikawa.jp/www/index.html",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.nomi.ishikawa.jp/www/index.html",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.nomi.ishikawa.jp/www/index.html",
+     "source_url": "https://www.city.nomi.lg.jp/inquiry/",
      "evidence": null,
      "note": null
     }
@@ -526,20 +327,6 @@
    "name": "野々市市",
    "official_site": "https://www.city.nonoichi.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "076-227-6000",
-     "email": null,
-     "form_url": null,
-     "postal_code": "921-8510",
-     "postal_address": "石川県野々市市三納1丁目1番地",
-     "hours": null,
-     "source_url": "https://www.city.nonoichi.lg.jp/",
-     "evidence": "野々市市役所法人番号 500002017…1-8510 石川県野々市市三納1丁目1番地076-227-6000(代表)窓口業務",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -568,6 +355,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -577,16 +367,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "076-277-1111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.town.kawakita.ishikawa.jp/",
-     "evidence": null,
+     "evidence": "川北町役場 〒923-1295 石川県能美郡川北町字壱ツ屋174番地 TEL. 076-277-1111 (代)",
      "note": null
     },
     {
@@ -601,6 +391,20 @@
      "hours": null,
      "source_url": "http://www.town.kawakita.ishikawa.jp/gyosei1/gikai/",
      "evidence": "議会事務局 TEL076-277-1109 | 川北町役場",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育委員会",
+     "phone": "076-277-1151",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kawakita.ishikawa.jp/gyosei1/kyouiku/",
+     "evidence": "教育委員会 TEL076-277-1151 | 川北町役場",
      "note": null
     },
     {
@@ -688,20 +492,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "076-286-6715",
-     "email": null,
-     "form_url": null,
-     "postal_code": "920-0292",
-     "postal_address": "石川県河北郡内灘町字大学1丁目2番地1",
-     "hours": null,
-     "source_url": "https://www.town.uchinada.lg.jp/site/gikai/",
-     "evidence": "議会事務局代表 〒920-0292石川県河北郡内灘町字大学1丁目2番地1 Tel:076-286-6715Fax:076-",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -715,6 +505,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -722,34 +515,6 @@
    "name": "志賀町",
    "official_site": "https://www.town.shika.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0767-32-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "925-0198",
-     "postal_address": "石川県羽咋郡志賀町末吉千古1番地1",
-     "hours": null,
-     "source_url": "https://www.town.shika.lg.jp/",
-     "evidence": "本庁舎 〒925-0198 石川県羽咋郡志賀町末吉千古1番地1 電話 0767-32-1111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "本庁舎議会事務局",
-     "phone": "0767-32-9270",
-     "email": null,
-     "form_url": null,
-     "postal_code": "925-0198",
-     "postal_address": "石川県羽咋郡志賀町末吉千古1番地1 本庁舎2",
-     "hours": null,
-     "source_url": "https://www.town.shika.lg.jp/adv/ba.php?id=11",
-     "evidence": "本庁舎議会事務局代表 〒925-0198 石川県羽咋郡志賀町末吉千古1番地1 本庁舎2 Tel:0767-32-9270",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -760,10 +525,14 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.shika.lg.jp/",
+     "source_url": "https://www.town.shika.lg.jp/life/7/25/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -787,17 +556,17 @@
     },
     {
      "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0767-29-8310",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "929-1492",
+     "postal_address": "石川県羽咋郡宝達志水町子浦そ18番地1 宝達志水町役場3階",
      "hours": null,
-     "source_url": "https://www.hodatsushimizu.jp/",
-     "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "source_url": "https://www.hodatsushimizu.jp/soshiki/gikaijimukyoku/644.html",
+     "evidence": "議会事務局 〒929-1492 石川県羽…8番地1 宝達志水町役場 3階 電話番号:0767-29-8310",
+     "note": null
     },
     {
      "type": "feedback",
@@ -811,7 +580,7 @@
      "hours": null,
      "source_url": "https://www.hodatsushimizu.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -835,20 +604,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0767-74-2808",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.nakanoto.ishikawa.jp/contact/5315.html",
-     "evidence": "議会事務局 0767-74-2808",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -860,8 +615,11 @@
      "hours": null,
      "source_url": "https://www.town.nakanoto.ishikawa.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -869,34 +627,6 @@
    "name": "穴水町",
    "official_site": "https://www.town.anamizu.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0768-52-0300",
-     "email": null,
-     "form_url": null,
-     "postal_code": "927-8601",
-     "postal_address": "石川県鳳珠郡穴水町字川島ラの174番地",
-     "hours": null,
-     "source_url": "https://www.town.anamizu.lg.jp/",
-     "evidence": "穴水町役場法人番号60000201746…県鳳珠郡穴水町字川島ラの174番地 Tel:0768-52-0300(代表) Fax",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0768-52-3700",
-     "email": null,
-     "form_url": null,
-     "postal_code": "927-8601",
-     "postal_address": "石川県鳳珠郡穴水町字川島ラの174番地",
-     "hours": null,
-     "source_url": "https://www.town.anamizu.lg.jp/site/gikai/",
-     "evidence": "議会事務局代表 〒927-8601石川県鳳珠郡穴水町字川島ラの174番地 Tel:0768-52-3700Fax:0768",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -911,44 +641,34 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
    "code": "174637",
    "name": "能登町",
-   "official_site": "https://www.town.noto.lg.jp/www/total_top.jsp",
+   "official_site": "https://www.town.noto.lg.jp/",
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0768-62-1000",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "927-0492",
+     "postal_address": "石川県鳳珠郡能登町宇出津ト字50番地1",
      "hours": null,
-     "source_url": "https://www.town.noto.lg.jp/www/total_top.jsp",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.noto.lg.jp/www/total_top.jsp",
-     "evidence": null,
+     "source_url": "https://www.town.noto.lg.jp/",
+     "evidence": "能登町役場法人番号 5000020174…鳳珠郡能登町宇出津ト字50番地1 電話番号:0768-62-1000 (代表)ファッ",
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -956,9 +676,37 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.noto.lg.jp/www/total_top.jsp",
+     "source_url": "https://www.town.noto.lg.jp/chosei/gikai/index.html",
      "evidence": null,
      "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育委員会",
+     "phone": "0768-62-8537",
+     "email": "kyouikuiinkai@town.noto.lg.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.noto.lg.jp/kakuka/1012/gyomu/kyouikufront/index.html",
+     "evidence": "教育委員会事務局 電話番号:0768-62-8537",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.noto.lg.jp/",
+     "evidence": null,
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   }

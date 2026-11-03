@@ -7,49 +7,11 @@
    "code": "212016",
    "name": "岐阜市",
    "official_site": "https://www.city.gifu.lg.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "058-265-4141",
-     "email": null,
-     "form_url": null,
-     "postal_code": "500-8701",
-     "postal_address": "岐阜市司町40番地1",
-     "hours": null,
-     "source_url": "https://www.city.gifu.lg.jp/",
-     "evidence": "岐阜市役所 〒500-8701 岐阜市司町40番地1 代表電話番号:058-265-4141",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会総務課",
-     "phone": "058-214-6237",
-     "email": null,
-     "form_url": null,
-     "postal_code": "500-8701",
-     "postal_address": "岐阜市司町40番地1 市庁舎4階",
-     "hours": null,
-     "source_url": "https://www.city.gifu.lg.jp/info/shigikai/index.html",
-     "evidence": "議会総務課 直通) 058-214-6237(議事調査課 直",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市長への手紙(市政への提言など)",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.gifu.lg.jp/cgi-bin/contacts/G170120",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.gifu.lg.jp/info/kouchou/1008456/1008457/index.html",
-     "evidence": "リンク「市長への手紙(市政への提言など)」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -57,34 +19,6 @@
    "name": "大垣市",
    "official_site": "https://www.city.ogaki.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0584-81-4111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "503-8601",
-     "postal_address": "岐阜県大垣市丸の内2丁目29番地",
-     "hours": null,
-     "source_url": "https://www.city.ogaki.lg.jp/",
-     "evidence": "市役所のご案内 アクセス 〒503-8601 岐阜県大垣市丸の内2丁目29番地 電話:0584-81-4111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0584-47-8073",
-     "email": null,
-     "form_url": null,
-     "postal_code": "503-8601",
-     "postal_address": "岐阜県大垣市丸の内2丁目29番地",
-     "hours": null,
-     "source_url": "https://www.city.ogaki.lg.jp/gikai/",
-     "evidence": "議会事務局 〒503-8601 岐阜県大垣市丸の内2丁目29番地 電話:0584-47-8073(直通)",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -95,10 +29,14 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.ogaki.lg.jp/",
+     "source_url": "https://www.city.ogaki.lg.jp/category/1-19-0-0-0-0-0-0-0-0.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -121,33 +59,23 @@
      "note": null
     },
     {
-     "type": "assembly",
+     "type": "education",
      "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0577-35-3152",
+     "department": "教育総務係",
+     "phone": "0577-35-3153",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.takayama.lg.jp/gikai/index.html",
-     "evidence": "議会事務局 電話:0577-35-3152 ファクス:05",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報公聴課",
-     "phone": "0577-35-3134",
-     "email": null,
-     "form_url": "https://logoform.jp/f/UrzgQ",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.takayama.lg.jp/1016385/1016386.html",
-     "evidence": "広報公聴課 電話:0577-35-3134 ファクス:05",
+     "source_url": "https://www.city.takayama.lg.jp/soshiki/1001876/1001877.html",
+     "evidence": "教育総務係 電話 0577-35-3153",
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -168,35 +96,11 @@
      "source_url": "https://www.city.tajimi.lg.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会グループ",
-     "phone": "0572-22-9899",
-     "email": null,
-     "form_url": null,
-     "postal_code": "507-8703",
-     "postal_address": "多治見市日ノ出町2丁目15番地",
-     "hours": null,
-     "source_url": "https://www.city.tajimi.lg.jp/shisei/gikai/index.html",
-     "evidence": "議会グループ 〒507-8703 多治見市日ノ出町2丁目15番地 電話:0572-22-9899",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市長への提言",
-     "phone": null,
-     "email": null,
-     "form_url": "https://logoform.jp/form/zEAL/349144",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.tajimi.lg.jp/shisei/kocho/1011026.html",
-     "evidence": "リンク「市長への提言」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -206,16 +110,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0575-22-3131",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "501-3894",
+     "postal_address": "岐阜県関市若草通3丁目1番地",
      "hours": null,
      "source_url": "https://www.city.seki.lg.jp/",
-     "evidence": null,
+     "evidence": "関市役所(法人番号:4000020212…894 岐阜県関市若草通3丁目1番地 電話:0575-22-3131 ファクス:05",
      "note": null
     },
     {
@@ -268,34 +172,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "市議会事務局議会総務課",
-     "phone": "0573-66-1133",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.nakatsugawa.lg.jp/shisei/citycouncil/3051.html",
-     "evidence": "市議会事務局議会総務課 電話番号:0573-66-1133(直通)",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会事務局教育総務課",
-     "phone": "0573-66-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.nakatsugawa.lg.jp/pe/education/kyoikuiinkai/3065.html",
-     "evidence": "教育委員会事務局教育総務課 電話番号:0573-66-1111(内線 4214",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -307,8 +183,11 @@
      "hours": null,
      "source_url": "https://www.city.nakatsugawa.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -316,20 +195,6 @@
    "name": "美濃市",
    "official_site": "https://www.city.mino.gifu.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0575-33-1122",
-     "email": null,
-     "form_url": null,
-     "postal_code": "501-3792",
-     "postal_address": "岐阜県美濃市 1350番地",
-     "hours": null,
-     "source_url": "https://www.city.mino.gifu.jp/",
-     "evidence": "美濃市役所 交通アクセス お問合せ 組織…2月29日から1月3日)を除く) [電話] 0575-33-1122(代表) [ファ",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -356,8 +221,11 @@
      "hours": null,
      "source_url": "https://www.city.mino.gifu.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -365,34 +233,6 @@
    "name": "瑞浪市",
    "official_site": "https://www.city.mizunami.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0572-68-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "509-6195",
-     "postal_address": "岐阜県瑞浪市上平町1-1",
-     "hours": null,
-     "source_url": "https://www.city.mizunami.lg.jp/",
-     "evidence": "瑞浪市役所 〒509-6195 岐阜県瑞浪市上平町1-1 代表電話番号:0572-68-2111",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局 総務課",
-     "phone": "0572-67-1112",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.mizunami.lg.jp/shigikai/index.html",
-     "evidence": "議会事務局 総務課 お問い合わせは専用フォームをご利用ください。 総務係 電話:0572-67-1112",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -403,10 +243,14 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.mizunami.lg.jp/",
+     "source_url": "https://www.city.mizunami.lg.jp/shisei/kouchou_kouhou/index.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -429,33 +273,22 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会総務課",
-     "phone": "058-392-1121",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.hashima.lg.jp/3523.html",
-     "evidence": "議会総務課 電話:058-392-1121",
-     "note": null
-    },
-    {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
+     "agent_status": "found",
+     "department": "市政への提言",
      "phone": null,
      "email": null,
-     "form_url": null,
+     "form_url": "https://logoform.jp/form/z9ND/436803",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.city.hashima.lg.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "evidence": "リンク「市政への提言」",
+     "note": "電話番号の掲載なし（フォームで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -476,35 +309,11 @@
      "source_url": "https://www.city.ena.lg.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "恵那市議会",
-     "phone": "0573-26-2111",
-     "email": "gikai@city.ena.lg.jp",
-     "form_url": null,
-     "postal_code": "509-7292",
-     "postal_address": "岐阜県恵那市長島町正家一丁目1番地1",
-     "hours": null,
-     "source_url": "https://www.city.ena.lg.jp/gikai/index.html",
-     "evidence": "議会 〒509-7292 岐阜県恵那市長島町正家一丁目1番地1 電話番号 0573-26-2111(代表)",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報広聴係",
-     "phone": "0573-26-6802",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.ena.lg.jp/shiseijoho/koho_kocho/shiseihenoiken_sankaku/3569.html",
-     "evidence": "広報広聴係 〒509-7292 岐阜県…正家一丁目1番地1 本庁舎3階 電話番号:0573-26-6802",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -563,46 +372,22 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.toki.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
      "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0572-54-1273",
+     "department": "代表電話",
+     "phone": "0572-54-1111",
      "email": null,
      "form_url": null,
      "postal_code": "509-5192",
-     "postal_address": "土岐市土岐津町土岐口2101",
-     "hours": null,
-     "source_url": "https://www.city.toki.lg.jp/shisei/gikai/index.html",
-     "evidence": "議会事務局 〒509-5192 土岐市土岐津町土岐口2101 電話:0572-54-1273 ファクス:05",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市民の声(市政に関するご意見・ご提案)",
-     "phone": null,
-     "email": null,
-     "form_url": "https://logoform.jp/form/n9F9/136014",
-     "postal_code": null,
-     "postal_address": null,
+     "postal_address": "岐阜県土岐市土岐津町土岐口2101番地",
      "hours": null,
      "source_url": "https://www.city.toki.lg.jp/",
-     "evidence": "リンク「市民の声(市政に関するご意見・ご提案)外部リンク・新しいウィンドウで開きます」",
-     "note": "電話番号の掲載なし（フォームで受付）"
+     "evidence": "土岐市 〒509-5192 岐阜県土岐市土岐津町土岐口2101番地 電話番号:0572-54-1111(代表)",
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -612,35 +397,35 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "058-383-1111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.city.kakamigahara.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kakamigahara.lg.jp/",
-     "evidence": null,
+     "evidence": "各務原市役所 〒504-8555 岐阜県各務原市那加桜町 1丁目69番地 代表電話:058-383-1111",
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "議会総務課",
+     "phone": "058-383-2001",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kakamigahara.lg.jp/shisei/shigikai/index.html",
+     "evidence": "議会総務課 電話:058-383-2001",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -648,7 +433,7 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.kakamigahara.lg.jp/",
+     "source_url": "https://www.city.kakamigahara.lg.jp/shisei/koho/index.html",
      "evidence": null,
      "note": null
     }
@@ -685,20 +470,6 @@
      "hours": null,
      "source_url": "http://gikai-kani.lg.jp/",
      "evidence": "議会事務局 〒509-0292 可児市広見一丁目1番 TEL:0574-62-1111(代表)",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務課",
-     "phone": "0574-62-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "509-0292",
-     "postal_address": "岐阜県可児市広見一丁目1番地",
-     "hours": null,
-     "source_url": "https://www.city.kani.lg.jp/6328.htm",
-     "evidence": "教育総務課 所在地 〒509-0292 岐阜県可児市広見一丁目1番地 電話番号 0574-62-11110574-62-",
      "note": null
     },
     {
@@ -748,7 +519,7 @@
      "hours": null,
      "source_url": "https://www.city.yamagata.gifu.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -762,7 +533,7 @@
      "hours": null,
      "source_url": "https://www.city.yamagata.gifu.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -786,34 +557,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "058-327-4121",
-     "email": null,
-     "form_url": null,
-     "postal_code": "501-0293",
-     "postal_address": "瑞穂市別府1288番地",
-     "hours": null,
-     "source_url": "https://www.city.mizuho.lg.jp/gikai/",
-     "evidence": "議会事務局 所在地/〒 501-0293瑞穂市別府1288番地 電話番号/ 058-327-4121 電話番号/ 0",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務課",
-     "phone": "058-327-2115",
-     "email": null,
-     "form_url": null,
-     "postal_code": "501-0392",
-     "postal_address": "瑞穂市宮田300番地2",
-     "hours": null,
-     "source_url": "https://www.city.mizuho.lg.jp/2701.htm",
-     "evidence": "教育総務課 所在地/〒 501-0392瑞穂市宮田300番地2 電話番号/ 058-327-2115 電話番号/ 0",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -825,8 +568,11 @@
      "hours": null,
      "source_url": "https://www.city.mizuho.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -872,9 +618,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.hida.gifu.jp/",
+     "source_url": "https://www.city.hida.gifu.jp/life/4/34/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
    ]
   },
@@ -885,44 +631,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "058-323-1155",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "501-0491",
+     "postal_address": "岐阜県本巣市早野255番地",
      "hours": null,
      "source_url": "https://www.city.motosu.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局 総務課",
-     "phone": "058-323-8103",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.motosu.lg.jp/0000000402.html",
-     "evidence": "議会事務局 総務課 総務係 電話: 058-323-8103",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務課",
-     "phone": "058-323-7762",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.motosu.lg.jp/0000002576.html",
-     "evidence": "教育総務課 電話: 058-323-7762 ファックス:",
+     "evidence": "本庁舎〒501-0491 岐阜県本巣市早野255番地TEL:058-323-1155 FAX:058",
      "note": null
     },
     {
@@ -937,8 +655,11 @@
      "hours": null,
      "source_url": "https://www.city.motosu.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -947,20 +668,6 @@
    "official_site": "https://www.city.gujo.gifu.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0575-67-1121",
-     "email": null,
-     "form_url": null,
-     "postal_code": "501-4297",
-     "postal_address": "岐阜県郡上市八幡町島谷228番地",
-     "hours": null,
-     "source_url": "https://www.city.gujo.gifu.jp/",
-     "evidence": "市役所へのアクセスマップ 電話:0575-67-1121(代表)",
-     "note": null
-    },
-    {
      "type": "assembly",
      "agent_status": "auto_not_found",
      "department": null,
@@ -970,24 +677,27 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.gujo.gifu.jp/",
+     "source_url": "https://www.city.gujo.gifu.jp/admin/room_assembly_mayor_message/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": null
     },
     {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
+     "agent_status": "found",
+     "department": "秘書広報課",
+     "phone": "0575-67-1147",
+     "email": "kouhou@city.gujo.lg.jp",
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.gujo.gifu.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.city.gujo.gifu.jp/admin/detail/2751.html",
+     "evidence": "秘書広報課 0575-67-1147",
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -1008,35 +718,11 @@
      "source_url": "https://www.city.gero.lg.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会総務課",
-     "phone": "0576-24-2222",
-     "email": null,
-     "form_url": null,
-     "postal_code": "509-2295",
-     "postal_address": "岐阜県下呂市森960番地",
-     "hours": null,
-     "source_url": "https://www.city.gero.lg.jp/site/gikai/",
-     "evidence": "議会総務課(代表) 〒509-2295岐阜県下呂市森960番地 Tel:0576-24-2222Fax:0576",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "ご意見・お問い合わせ",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.gero.lg.jp/form/detail.php?sec_sec1=9",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.gero.lg.jp/life/6/31/171/",
-     "evidence": "リンク「ご意見・お問い合わせ」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -1046,21 +732,7 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kaizu.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -1074,7 +746,35 @@
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0584-53-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kaizu.lg.jp/soshiki_list.html",
+     "evidence": "議会事務局 教育委員会事務局 消防本部 消防署 施設 総務企画部 総務課 総務係 総務係 電話番号 0584-53-1111",
+     "note": "同じ組織のほかの番号：0584-53-1110"
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育総務係",
+     "phone": "0584-53-1467",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kaizu.lg.jp/soshiki_list.html",
+     "evidence": "教育総務係 電話番号 0584-53-1467",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -1082,7 +782,7 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.kaizu.lg.jp/",
+     "source_url": "https://www.city.kaizu.lg.jp/shisei/category/2-9-0-0-0-0-0-0-0-0.html",
      "evidence": null,
      "note": null
     }

@@ -21,35 +21,11 @@
      "source_url": "https://www.city.akita.lg.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "秋田市議会事務局 議事課",
-     "phone": "018-888-5784",
-     "email": null,
-     "form_url": null,
-     "postal_code": "010-8560",
-     "postal_address": "秋田市山王一丁目1番1号 本庁舎5階",
-     "hours": null,
-     "source_url": "https://www.city.akita.lg.jp/shigikai/seigan-chinjo/1012673.html",
-     "evidence": "秋田市議会事務局 議事課 〒010-8560 秋田市山王一丁目1番1号 本庁舎5階 電話:018-888-5784",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報広聴課",
-     "phone": "018-888-5471",
-     "email": null,
-     "form_url": "https://www.city.akita.lg.jp/cgi-bin/contacts/G020004",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.akita.lg.jp/shisei/iken/1003557.html",
-     "evidence": "広報広聴課 〒010-8560 秋田市山王一丁目1番1号 本庁舎4階 電話:018-888-5471 ファクス:01",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -59,46 +35,22 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0185-52-2111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "016-8501",
+     "postal_address": "秋田県能代市上町1番3号",
      "hours": null,
      "source_url": "https://www.city.noshiro.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0185-89-2922",
-     "email": "gikai@city.noshiro.lg.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.noshiro.lg.jp/city/gikai/seigan-chinjo/1403",
-     "evidence": "議会事務局で行います。 提出先:議会事務局 〒016-8501 能代市上町1番3号 電話:0185-89-2922",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報広聴係",
-     "phone": "0185-89-2147",
-     "email": "kouhou@city.noshiro.lg.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.noshiro.lg.jp/city/koho/",
-     "evidence": "広報広聴係 〒016-8501 秋田県能代市上町1番3号 電話 0185-89-2147",
+     "evidence": "本庁舎】 〒016-8501 秋田県能代市上町1番3号 電話 0185-52-2111",
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -106,34 +58,6 @@
    "name": "横手市",
    "official_site": "https://www.city.yokote.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0182-35-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "013-8601",
-     "postal_address": "秋田県横手市中央町8番2号",
-     "hours": null,
-     "source_url": "https://www.city.yokote.lg.jp/",
-     "evidence": "横手市役所 〒013-8601 秋田県横手市中央町8番2号 電話番号(代表):0182-35-2111 ファクス:01",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局議事課総務係",
-     "phone": "0182-32-2535",
-     "email": null,
-     "form_url": null,
-     "postal_code": "013-8601",
-     "postal_address": "秋田県横手市中央町8番2号",
-     "hours": null,
-     "source_url": "https://www.city.yokote.lg.jp/shigikai/index.html",
-     "evidence": "議会事務局議事課総務係 〒013-86…横手市中央町8番2号(本庁舎6階) 電話:0182-32-2535 ファクス:01",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -148,6 +72,10 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -168,35 +96,11 @@
      "source_url": "https://www.city.odate.lg.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局 議事調査係",
-     "phone": "0186-43-7108",
-     "email": null,
-     "form_url": null,
-     "postal_code": "017-8555",
-     "postal_address": "秋田県大館市字中城20番地",
-     "hours": null,
-     "source_url": "https://www.city.odate.lg.jp/city/soshiki/gikaizimu/seigan",
-     "evidence": "議会事務局 議事調査係 〒017-8555 秋田県大館市字中城20番地 TEL:0186-43-7108",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報広聴係",
-     "phone": "0186-43-7025",
-     "email": "kouhou@city.odate.lg.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.odate.lg.jp/city/handbook/handbook14/page61/ehot",
-     "evidence": "広報広聴係 〒017-8555 秋田県大館市字中城20番地 TEL:0186-43-7025FAX:0186",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -230,7 +134,7 @@
      "hours": null,
      "source_url": "https://www.city.oga.akita.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -244,7 +148,7 @@
      "hours": null,
      "source_url": "https://www.city.oga.akita.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -293,7 +197,7 @@
      "hours": null,
      "source_url": "https://www.city-yuzawa.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -317,20 +221,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0186-30-0280",
-     "email": null,
-     "form_url": null,
-     "postal_code": "018-5292",
-     "postal_address": "秋田県鹿角市花輪字荒田4番地1",
-     "hours": null,
-     "source_url": "https://www.city.kazuno.lg.jp/soshiki/gikai/gyomu/1/1_1/1436.html",
-     "evidence": "議会事務局 〒018-5292 秋田県鹿角市花輪字荒田4番地1 電話:0186-30-0280 ファックス:0",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -342,8 +232,11 @@
      "hours": null,
      "source_url": "https://www.city.kazuno.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -352,47 +245,23 @@
    "official_site": "https://www.city.yurihonjo.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0184-24-3321",
-     "email": null,
-     "form_url": null,
-     "postal_code": "015-8501",
-     "postal_address": "秋田県由利本荘市尾崎17番地",
-     "hours": null,
-     "source_url": "https://www.city.yurihonjo.lg.jp/",
-     "evidence": "由利本荘市役所 法人番号:5000020…01 秋田県由利本荘市尾崎17番地 電話:0184-24-3321(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0184-24-6386",
-     "email": null,
-     "form_url": null,
-     "postal_code": "015-8501",
-     "postal_address": "秋田県由利本荘市尾崎17番地",
-     "hours": null,
-     "source_url": "https://www.city.yurihonjo.lg.jp/1000002/1001861/1003124.html",
-     "evidence": "議会事務局 由利本荘市尾崎17番地(本庁舎4階) 電話:0184-24-6386 ファクス:01",
-     "note": null
-    },
-    {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "総務部秘書広報課",
+     "phone": "0184-24-6237",
      "email": null,
-     "form_url": null,
+     "form_url": "https://www.city.yurihonjo.lg.jp/cgi-bin/contacts/G1005155000",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.yurihonjo.lg.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.city.yurihonjo.lg.jp/1001506/1001553/1001595/1013183.html",
+     "evidence": "総務部秘書広報課広報広聴班 由利本荘市尾崎17番地(本庁舎2階) 電話:0184-24-6237 ファクス:01",
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -416,31 +285,31 @@
     },
     {
      "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "018-853-5330",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.katagami.lg.jp/",
-     "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "source_url": "https://www.city.katagami.lg.jp/gyosei/gyoseijoho/shigikai/2847.html",
+     "evidence": "議会事務局 電話:018-853-5330",
+     "note": null
     },
     {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
+     "agent_status": "found",
+     "department": "市民の皆さんの声をお聞かせください",
      "phone": null,
      "email": null,
-     "form_url": null,
+     "form_url": "https://www.city.katagami.lg.jp/cgi-bin/inquiry.php/5?page_no=2771",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.katagami.lg.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.city.katagami.lg.jp/gyosei/machizukuri/2771.html",
+     "evidence": "リンク「市民の皆さんの声をお聞かせください」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
    ]
   },
@@ -476,21 +345,10 @@
      "source_url": "https://www.city.daisen.lg.jp/genre/administration/council",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広聴・広報",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.daisen.lg.jp/mailform",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.daisen.lg.jp/genre/administration/pr",
-     "evidence": "リンク「広聴・広報」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "feedback"
    ]
   },
   {
@@ -513,34 +371,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0186-62-6624",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kitaakita.akita.jp/genre/shigikai/syoukai",
-     "evidence": "議会事務局 電話番号:0186-62-6624",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務係",
-     "phone": "0186-62-6616",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kitaakita.akita.jp/genre/kyouiku_bunka_sports/kyouiku",
-     "evidence": "教育総務係 電話番号:0186-62-6616",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -552,8 +382,11 @@
      "hours": null,
      "source_url": "https://www.city.kitaakita.akita.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -587,7 +420,7 @@
      "hours": null,
      "source_url": "https://www.city.nikaho.akita.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -601,7 +434,7 @@
      "hours": null,
      "source_url": "https://www.city.nikaho.akita.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -625,34 +458,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0187-43-0334",
-     "email": null,
-     "form_url": null,
-     "postal_code": "014-1298",
-     "postal_address": "秋田県仙北市田沢湖生保内字宮ノ後30",
-     "hours": null,
-     "source_url": "https://www.city.semboku.akita.jp/government/assembly/",
-     "evidence": "議会事務局 〒014-1298 秋田県仙北市田沢湖生保内字宮ノ後30 電話:0187-43-0334",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "仙北市教育委員会教育総務課",
-     "phone": "0187-43-3381",
-     "email": "kysomu@city.semboku.akita.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.semboku.akita.jp/citizens/11_08.html",
-     "evidence": "仙北市教育委員会教育総務課 〒014-398 秋田県仙北市角館町上野18 電話:0187-43-3381",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -666,6 +471,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -699,7 +507,7 @@
      "hours": null,
      "source_url": "https://www.town.kosaka.akita.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -713,7 +521,7 @@
      "hours": null,
      "source_url": "https://www.town.kosaka.akita.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -811,7 +619,7 @@
      "hours": null,
      "source_url": "https://www.town.fujisato.akita.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -820,20 +628,6 @@
    "name": "三種町",
    "official_site": "https://www.town.mitane.akita.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0185-85-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "018-2401",
-     "postal_address": "秋田県山本郡三種町鵜川字岩谷子8",
-     "hours": null,
-     "source_url": "https://www.town.mitane.akita.jp/",
-     "evidence": "三種町役場 〒018-2401 秋田県山本郡三種町鵜川字岩谷子8 電話番号:0185-85-2111(代表)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -860,8 +654,11 @@
      "hours": null,
      "source_url": "https://www.town.mitane.akita.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -884,20 +681,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0185-76-4607",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.happo.lg.jp/archive/p20260122141156",
-     "evidence": "議会事務局 電話番号:0185-76-4607",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -909,8 +692,11 @@
      "hours": null,
      "source_url": "https://www.town.happo.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -919,34 +705,6 @@
    "official_site": "https://www.town.gojome.akita.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "018-852-5100",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.gojome.akita.jp/",
-     "evidence": "五城目町役場 代表電話番号 018-852-5100",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局 庶務係",
-     "phone": "018-852-5411",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.gojome.akita.jp/town/gikai/seigantinzyou/816",
-     "evidence": "議会事務局 庶務係 TEL:018-852-5411",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -958,8 +716,12 @@
      "hours": null,
      "source_url": "https://www.town.gojome.akita.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -968,32 +730,18 @@
    "official_site": "https://www.town.hachirogata.akita.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "018-875-5800",
-     "email": null,
-     "form_url": null,
-     "postal_code": "018-1692",
-     "postal_address": "秋田県南秋田郡八郎潟町字大道80番地",
-     "hours": null,
-     "source_url": "https://www.town.hachirogata.akita.jp/",
-     "evidence": "町役場へのアクセス 八郎潟町公式サイト…田県南秋田郡八郎潟町字大道80番地 電話:018-875-5800(代表)",
-     "note": null
-    },
-    {
      "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "018-875-5810",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.hachirogata.akita.jp/",
-     "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "source_url": "https://www.town.hachirogata.akita.jp/madoguchi/1001574.html",
+     "evidence": "議会事務局 〒018-1692 秋田県南秋田郡八郎潟町字大道80番地 電話:018-875-5810",
+     "note": null
     },
     {
      "type": "feedback",
@@ -1005,10 +753,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.hachirogata.akita.jp/",
+     "source_url": "https://www.town.hachirogata.akita.jp/chosei/1001532/index.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -1029,35 +780,11 @@
      "source_url": "https://www.town.ikawa.akita.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "018-874-4425",
-     "email": null,
-     "form_url": null,
-     "postal_code": "018-1596",
-     "postal_address": "秋田県南秋田郡井川町北川尻字海老沢樋ノ口78-1",
-     "hours": null,
-     "source_url": "https://www.town.ikawa.akita.jp/adv/ba.php?id=6",
-     "evidence": "議会事務局 〒018-1596秋田県南秋田郡井川町北川尻字海老沢樋ノ口78-1 Tel:018-874-4425(有線:4511",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "まちづくりに関するご意見・ご要望",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.town.ikawa.akita.jp/form/detail.php?sec_sec1=3&lif_id=1428",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.ikawa.akita.jp/adv/ba.php?id=23",
-     "evidence": "リンク「まちづくりに関するご意見・ご要望」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -1091,7 +818,7 @@
      "hours": null,
      "source_url": "https://www.vill.ogata.akita.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -1105,7 +832,7 @@
      "hours": null,
      "source_url": "https://www.vill.ogata.akita.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -1116,46 +843,22 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0187-84-1111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "019-1541",
+     "postal_address": "秋田県仙北郡美郷町土崎字上野乙170番地10",
      "hours": null,
      "source_url": "https://www.town.misato.akita.jp/",
-     "evidence": null,
+     "evidence": "美郷町 〒019-1541 秋田県仙北郡美郷町土崎字上野乙170番地10 TEL:0187-84-1111(代表)",
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0187-84-4912",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.misato.akita.jp/archive/contents-225/",
-     "evidence": "議会事務局 TEL:0187-84-4912 内線:2103",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報広聴",
-     "phone": null,
-     "email": null,
-     "form_url": "https://logoform.jp/procedure/6mUw/misato",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.misato.akita.jp/genre/chousei/kouhou",
-     "evidence": "リンク「広報広聴」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -1165,30 +868,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.ugo.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
      "agent_status": "found",
-     "department": "議会事務局",
+     "department": "代表電話",
      "phone": "0183-62-2111",
      "email": null,
      "form_url": null,
      "postal_code": "012-1131",
      "postal_address": "秋田県雄勝郡羽後町西馬音内字中野177",
      "hours": null,
-     "source_url": "https://www.town.ugo.lg.jp/administration/detail.html?id=1253&category_id=51",
-     "evidence": "議会事務局 〒012-1131 秋田県雄勝郡羽後町西馬音内字中野177 TEL:0183-62-2111 内線:411",
+     "source_url": "https://www.town.ugo.lg.jp/",
+     "evidence": "羽後町役場 〒012-1131 秋田県…西馬音内字中野177(地図で見る) Tel:0183-62-2111",
      "note": null
     },
     {
@@ -1203,46 +892,49 @@
      "hours": null,
      "source_url": "https://www.town.ugo.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
    "code": "054640",
    "name": "東成瀬村",
-   "official_site": "https://www.higashinaruse.com/",
+   "official_site": "https://vill.higashinaruse.lg.jp/",
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0182-47-3401",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "019-0801",
+     "postal_address": "秋田県雄勝郡東成瀬村田子内字仙人下30-1",
      "hours": null,
-     "source_url": "https://www.higashinaruse.com/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.higashinaruse.com/",
-     "evidence": null,
+     "source_url": "https://vill.higashinaruse.lg.jp/",
+     "evidence": "東成瀬村役場 〒019-0801 秋田…東成瀬村田子内字仙人下30-1 TEL:(0182)47-3401 FAX:(01",
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0182-47-3411",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://vill.higashinaruse.lg.jp/villager/post-35682/",
+     "evidence": "議会事務局 TEL:0182-47-3411 FAX:018",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -1250,9 +942,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.higashinaruse.com/",
+     "source_url": "https://vill.higashinaruse.lg.jp/",
      "evidence": null,
-     "note": null
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   }

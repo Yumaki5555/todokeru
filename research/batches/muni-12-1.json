@@ -23,20 +23,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "千葉市議会事務局",
-     "phone": "043-245-5465",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.chiba.jp/shigikai/kosei3.html",
-     "evidence": "千葉市議会事務局入札参加資格等審査会の運営に関し、必要な事項を定めたもの。 総務課 総務班 043-245-5465",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -46,10 +32,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.chiba.jp/",
+     "source_url": "https://www.city.chiba.jp/shisei/koho-kocho/index.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -57,20 +46,6 @@
    "name": "銚子市",
    "official_site": "https://www.city.choshi.chiba.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0479-24-8181",
-     "email": null,
-     "form_url": null,
-     "postal_code": "288-8601",
-     "postal_address": "千葉県銚子市若宮町1-1",
-     "hours": null,
-     "source_url": "https://www.city.choshi.chiba.jp/",
-     "evidence": "銚子市役所(法人番号:600002012…01 千葉県銚子市若宮町1-1 電話番号:0479-24-8181(代表)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -95,73 +70,24 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.choshi.chiba.jp/",
+     "source_url": "https://www.city.choshi.chiba.jp/shisei/index0172.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
    "code": "122033",
    "name": "市川市",
    "official_site": "https://www.city.ichikawa.lg.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "047-334-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "272-8501",
-     "postal_address": "千葉県市川市八幡1丁目1番1号",
-     "hours": null,
-     "source_url": "https://www.city.ichikawa.lg.jp/",
-     "evidence": "市川市役所 法人番号6000020122…1 千葉県市川市八幡1丁目1番1号 Tel:047-334-1111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局議事課",
-     "phone": "047-712-8673",
-     "email": null,
-     "form_url": null,
-     "postal_code": "272-8501",
-     "postal_address": "千葉県市川市八幡1丁目1番1号",
-     "hours": null,
-     "source_url": "https://www.city.ichikawa.lg.jp/adv/ba.php?id=10&ef1=4",
-     "evidence": "議会事務局議事課調査グループ 〒272-8501千葉県市川市八幡1丁目1番1号 Tel:047-712-8673Fax:047-",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育振興部教育総務課",
-     "phone": "047-383-9224",
-     "email": null,
-     "form_url": null,
-     "postal_code": "272-8501",
-     "postal_address": "千葉県市川市南八幡2丁目20番2号 4階",
-     "hours": null,
-     "source_url": "https://www.city.ichikawa.lg.jp/adv/ba.php?id=12&ef1=4",
-     "evidence": "教育振興部教育総務課直通 〒272-85…市川市南八幡2丁目20番2号 4階 Tel:047-383-9224Fax:047-",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市長公室広報広聴課",
-     "phone": "047-712-8633",
-     "email": null,
-     "form_url": "https://faq.city.ichikawa.lg.jp/faq/faq/web/form101.html?section=04020000",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.ichikawa.lg.jp/page/56789.html",
-     "evidence": "市長公室広報広聴課広聴・Webグループ …01千葉県市川市八幡1丁目1番1号 Tel:047-712-8633Fax:047-",
-     "note": null
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -170,34 +96,6 @@
    "official_site": "https://www.city.funabashi.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "047-436-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "273-8501",
-     "postal_address": "千葉県船橋市湊町2-10-25",
-     "hours": null,
-     "source_url": "https://www.city.funabashi.lg.jp/",
-     "evidence": "船橋市役所 〒273-8501 千葉県…2-10-25 (地図・ご案内) 代表電話 047-436-2111お問い合わせ",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "船橋市議会",
-     "phone": "047-436-3012",
-     "email": null,
-     "form_url": null,
-     "postal_code": "273-8501",
-     "postal_address": "千葉県船橋市湊町2-10-25",
-     "hours": null,
-     "source_url": "https://www.city.funabashi.lg.jp/assembly/index.html",
-     "evidence": "議会 〒273-8501 千葉県船橋市湊町2-10-25(地図・ご案内) 代表電話:047-436-3012 お問い合わせ",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -209,8 +107,12 @@
      "hours": null,
      "source_url": "https://www.city.funabashi.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -219,31 +121,17 @@
    "official_site": "https://www.city.tateyama.chiba.jp/",
    "contacts": [
     {
-     "type": "general",
+     "type": "education",
      "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0470-22-3111",
+     "department": "教育総務係",
+     "phone": "0470-22-3685",
      "email": null,
      "form_url": null,
-     "postal_code": "294-8601",
-     "postal_address": "千葉県館山市北条1145-1",
+     "postal_code": null,
+     "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.tateyama.chiba.jp/",
-     "evidence": "館山市役所 法人番号 500002012…地と地図) 電話:直通電話番号一覧 又は 0470-22-3111(代表電話)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会係",
-     "phone": "0470-22-3527",
-     "email": "gikai.j@city.tateyama.chiba.jp",
-     "form_url": null,
-     "postal_code": "294-8601",
-     "postal_address": "千葉県館山市北条1145-1",
-     "hours": null,
-     "source_url": "https://www.city.tateyama.chiba.jp/gikai/page100049.html",
-     "evidence": "議会係住所:〒294-8601 千葉県館山市北条1145-1 電話:0470-22-3527",
+     "source_url": "https://www.city.tateyama.chiba.jp/shisei/page050012.html",
+     "evidence": "教育総務係 0470-22-3685",
      "note": null
     },
     {
@@ -258,8 +146,12 @@
      "hours": null,
      "source_url": "https://www.city.tateyama.chiba.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -282,20 +174,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0438-23-7184",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kisarazu.lg.jp/gyoseijoho/shigikai/index.html",
-     "evidence": "議会事務局 〒292-8501 千葉県木更津市富士見1-2-1 駅前庁舎(スパークルシティ木更津7階) 庶務係電話番号:0438-23-7184",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -305,10 +183,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.kisarazu.lg.jp/",
+     "source_url": "https://www.city.kisarazu.lg.jp/gyoseijoho/koho_kocho/index.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -316,48 +197,6 @@
    "name": "松戸市",
    "official_site": "https://www.city.matsudo.chiba.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "047-366-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "271-8588",
-     "postal_address": "千葉県松戸市根本387番地の5",
-     "hours": null,
-     "source_url": "https://www.city.matsudo.chiba.jp/",
-     "evidence": "松戸市役所 法人番号400002012…千葉県松戸市根本387番地の5 電話番号 047-366-1111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "市議会事務局",
-     "phone": "047-366-7381",
-     "email": null,
-     "form_url": null,
-     "postal_code": "271-8588",
-     "postal_address": "千葉県松戸市根本387番地の5 議会棟1階",
-     "hours": null,
-     "source_url": "https://www.city.matsudo.chiba.jp/gikai/index.html",
-     "evidence": "市議会事務局 所在地:〒271-8588 千葉県松戸市根本387番地の5 議会棟1階 電話:庶務課 047-366-7381",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会",
-     "phone": "047-366-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "271-8588",
-     "postal_address": "松戸市根本387番地の5",
-     "hours": null,
-     "source_url": "https://www.city.matsudo.chiba.jp/kyouiku/index.html",
-     "evidence": "教育委員会へのお問い合わせ) 住所:〒271-8588 松戸市根本387番地の5 電話:047-366-1111",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -372,6 +211,10 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -380,47 +223,23 @@
    "official_site": "https://www.city.noda.chiba.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "04-7125-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "278-8550",
-     "postal_address": "千葉県野田市鶴奉7番地の1",
-     "hours": null,
-     "source_url": "https://www.city.noda.chiba.jp/",
-     "evidence": "野田市役所 主な課の仕事 〒278-8550 千葉県野田市鶴奉7番地の1 電話番号:04-7125-1111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "04-7124-0109",
-     "email": null,
-     "form_url": null,
-     "postal_code": "278-8550",
-     "postal_address": "千葉県野田市鶴奉7番地の1",
-     "hours": null,
-     "source_url": "https://www.city.noda.chiba.jp/gikai/index.html",
-     "evidence": "議会事務局 〒278-8550 千葉県野田市鶴奉7番地の1 電話:04-7124-0109",
-     "note": null
-    },
-    {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "広報広聴課市民相談係",
+     "phone": "04-7123-1068",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.noda.chiba.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.city.noda.chiba.jp/shichoshitsu/1010381.html",
+     "evidence": "広報広聴課市民相談係(電話:04-7123-1068)へ御連絡くださ",
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -429,34 +248,6 @@
    "official_site": "https://www.city.mobara.chiba.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0475-23-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "297-8511",
-     "postal_address": "千葉県茂原市道表1番地",
-     "hours": null,
-     "source_url": "https://www.city.mobara.chiba.jp/",
-     "evidence": "茂原市役所 (法人番号 8000020…7-8511 千葉県茂原市道表1番地 電話:0475-23-2111(代表) ファク",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0475-20-1585",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.mobara.chiba.jp/soshiki_list.html",
-     "evidence": "議会事務局 庶務係 庶務係 電話 0475-20-1585",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -468,57 +259,23 @@
      "hours": null,
      "source_url": "https://www.city.mobara.chiba.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
    "code": "122114",
    "name": "成田市",
    "official_site": "https://www.city.narita.chiba.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0476-22-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.narita.chiba.jp/",
-     "evidence": "市役所へのアクセス 代表電話番号0476-22-1111",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "成田市議会",
-     "phone": "0476-20-1570",
-     "email": "gikai@city.narita.chiba.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.narita.chiba.jp/gikai/2026_gikaihoukokukai.html",
-     "evidence": "議会棟2階) 電話番号:0476-20-1570",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市へのご意見・お問い合わせ",
-     "phone": null,
-     "email": null,
-     "form_url": "https://logoform.jp/form/kR3j/1874300",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.narita.chiba.jp/shisei/page101500.html",
-     "evidence": "リンク「市へのご意見・お問い合わせ」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -528,16 +285,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "043-484-1111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.city.sakura.lg.jp/",
-     "evidence": null,
+     "evidence": "佐倉市役所 〒285-8501 千葉県佐倉市海隣寺町97電話 043-484-1111(代)",
      "note": null
     },
     {
@@ -552,7 +309,7 @@
      "hours": null,
      "source_url": "https://www.city.sakura.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -566,7 +323,7 @@
      "hours": null,
      "source_url": "https://www.city.sakura.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -575,20 +332,6 @@
    "name": "東金市",
    "official_site": "https://www.city.togane.chiba.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0475-50-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "283-8511",
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.togane.chiba.jp/",
-     "evidence": "市役所所在地)千葉県東金市東岩崎1番地1 電話:0475-50-1111(代表)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -602,21 +345,11 @@
      "source_url": "https://www.city.togane.chiba.jp/category/8-0-0-0-0-0-0-0-0-0.html",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報広聴係",
-     "phone": "0475-50-1114",
-     "email": null,
-     "form_url": "https://www.city.togane.chiba.jp/cmsform/enquete.php?id=3",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.togane.chiba.jp/0000001379.html",
-     "evidence": "広報広聴係 電話: 0475-50-1114",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "feedback",
+    "general"
    ]
   },
   {
@@ -626,35 +359,49 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0479-62-1212",
      "email": null,
      "form_url": null,
-     "postal_code": null,
+     "postal_code": "289-2595",
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.city.asahi.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.asahi.lg.jp/",
-     "evidence": null,
+     "evidence": "旭市役所 〒289-2595 千葉県旭市ニの2132番地 [旭市へのアクセス] 電話:0479-62-1212(代表)",
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0479-62-5304",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.asahi.lg.jp/soshiki/23/1156.html",
+     "evidence": "議会事務局議事班 旭市ニの2132(本庁舎4階) Tel:0479-62-5304",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育総務課",
+     "phone": "0479-85-8617",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.asahi.lg.jp/site/kyoiku/",
+     "evidence": "教育総務課総務班 旭市ニの2132(本庁舎4階) Tel:0479-85-8617",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -662,7 +409,7 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.asahi.lg.jp/",
+     "source_url": "https://www.city.asahi.lg.jp/life/5/19/108",
      "evidence": null,
      "note": null
     }
@@ -675,44 +422,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "047-451-1151",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.city.narashino.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "047-451-1151",
-     "email": null,
-     "form_url": null,
-     "postal_code": "275-8601",
-     "postal_address": "千葉県習志野市鷺沼2丁目1番1号",
-     "hours": null,
-     "source_url": "https://www.city.narashino.lg.jp/joho/shigikai/index.html",
-     "evidence": "議会事務局 〒275-8601 千葉県習志野市鷺沼2丁目1番1号 電話番号:047-451-1151(代表番号)",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "習志野市教育委員会",
-     "phone": "047-451-1151",
-     "email": null,
-     "form_url": null,
-     "postal_code": "275-8601",
-     "postal_address": "千葉県習志野市鷺沼2丁目1番1号",
-     "hours": null,
-     "source_url": "https://www.city.narashino.lg.jp/kosodate/kyoiku/index.html",
-     "evidence": "習志野市教育委員会 〒275-8601 千葉県習志野市鷺沼2丁目1番1号 電話番号:047-451-1151",
+     "evidence": "習志野市 Narashino City …5時15分 (祝日、年末年始を除く) 電話:047-451-1151(代表)",
      "note": null
     },
     {
@@ -729,6 +448,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -749,45 +471,21 @@
      "source_url": "https://www.city.kashiwa.lg.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局議事課",
-     "phone": "04-7167-1451",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kashiwa.lg.jp/gikaigiji/assembly/bocho/seiganchinjo.html",
-     "evidence": "議会事務局議事課 柏市柏5丁目10番1号(本庁舎6階) 電話番号: 04-7167-1451",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報部広報広聴課",
-     "phone": "04-7167-1119",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kashiwa.lg.jp/kohokocho/shiseijoho/about_kashiwa/shicho/tegami/tegami.html",
-     "evidence": "広報部広報広聴課 柏市柏5丁目10番1号(本庁舎3階) 電話番号: 04-7167-1119",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
    "code": "122181",
    "name": "勝浦市",
-   "official_site": "https://www.city.katsuura.lg.jp/forms/top/top.aspx",
+   "official_site": "https://www.city.katsuura.lg.jp/",
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -795,27 +493,27 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.katsuura.lg.jp/forms/top/top.aspx",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.katsuura.lg.jp/forms/top/top.aspx",
+     "source_url": "https://www.city.katsuura.lg.jp/",
      "evidence": null,
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0470-73-6662",
+     "email": null,
+     "form_url": null,
+     "postal_code": "299-5292",
+     "postal_address": "千葉県勝浦市新官1343番地の1",
+     "hours": null,
+     "source_url": "https://www.city.katsuura.lg.jp/site/gikai/",
+     "evidence": "議会事務局代表 〒299-5292千葉県勝浦市新官1343番地の1 Tel:0470-73-6662",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -823,7 +521,7 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.katsuura.lg.jp/forms/top/top.aspx",
+     "source_url": "https://www.city.katsuura.lg.jp/life/6/28/",
      "evidence": null,
      "note": null
     }
@@ -860,7 +558,7 @@
      "hours": null,
      "source_url": "https://www.city.ichihara.chiba.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -874,7 +572,7 @@
      "hours": null,
      "source_url": "https://www.city.ichihara.chiba.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -882,49 +580,11 @@
    "code": "122203",
    "name": "流山市",
    "official_site": "https://www.city.nagareyama.chiba.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "04-7158-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "270-0192",
-     "postal_address": "千葉県流山市平和台1-1-1",
-     "hours": null,
-     "source_url": "https://www.city.nagareyama.chiba.jp/",
-     "evidence": "流山市役所 〒270-0192 千葉県流山市平和台1-1-1 代表電話:04-7158-1111",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "流山市議会事務局",
-     "phone": "04-7150-6099",
-     "email": null,
-     "form_url": null,
-     "postal_code": "270-0192",
-     "postal_address": "千葉県流山市平和台1-1-1 流山市役所第1庁舎4階",
-     "hours": null,
-     "source_url": "https://www.nagareyamagikai.jp/",
-     "evidence": "流山市議会事務局 〒270-0192 千葉県流山市平和台1-1-1 流山市役所第1庁舎4階 TEL:04-7150-6099",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "ご意見・ご要望・お問い合わせ",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.nagareyama.chiba.jp/cgi-bin/enquetes/ecf4426352a4449f955255446fe19808",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.nagareyama.chiba.jp/information/1008466/1008467/index.html",
-     "evidence": "リンク「ご意見・ご要望・お問い合わせ」",
-     "note": "電話番号の掲載なし（フォームで受付）"
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -980,49 +640,11 @@
    "code": "122220",
    "name": "我孫子市",
    "official_site": "https://www.city.abiko.chiba.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "04-7185-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "270-1192",
-     "postal_address": "千葉県 我孫子市 我孫子1858番地",
-     "hours": null,
-     "source_url": "https://www.city.abiko.chiba.jp/",
-     "evidence": "我孫子市役所 法人番号900002012… 千葉県我孫子市我孫子1858番地 電話:04-7185-1111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "我孫子市議会",
-     "phone": "04-7185-1655",
-     "email": null,
-     "form_url": null,
-     "postal_code": "270-1192",
-     "postal_address": "千葉県我孫子市我孫子1858番地",
-     "hours": null,
-     "source_url": "https://www.city.abiko.chiba.jp/shisei/shigikai/index.html",
-     "evidence": "議会棟2階) 電話:04-7185-1655 ファクス:04",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "秘書広報課",
-     "phone": "04-7185-1714",
-     "email": null,
-     "form_url": "https://www.city.abiko.chiba.jp/cgi-bin/formmail/formmail.cgi?d=10595",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.abiko.chiba.jp/shisei/shisei_sanka/mail.html",
-     "evidence": "秘書広報課 〒270-1192 千葉県我孫子市我孫子1858番地(本庁舎2階) 電話:04-7185-1714 ファクス:04",
-     "note": null
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -1045,20 +667,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "04-7093-7825",
-     "email": null,
-     "form_url": null,
-     "postal_code": "296-8601",
-     "postal_address": "千葉県鴨川市横渚1450 5階",
-     "hours": null,
-     "source_url": "https://www.city.kamogawa.lg.jp/site/gikai/",
-     "evidence": "議会事務局 (代表) 〒296-8601千葉県鴨川市横渚1450 5階 Tel:04-7093-7825Fax:04-7",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -1068,10 +676,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.kamogawa.lg.jp/",
+     "source_url": "https://www.city.kamogawa.lg.jp/life/6/27/166/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -1080,47 +691,23 @@
    "official_site": "https://www.city.kamagaya.chiba.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "047-445-1141",
-     "email": null,
-     "form_url": null,
-     "postal_code": "273-0195",
-     "postal_address": "千葉県鎌ケ谷市新鎌ケ谷二丁目6番1号",
-     "hours": null,
-     "source_url": "https://www.city.kamagaya.chiba.jp/",
-     "evidence": "市役所案内 各課のページ 〒273-01…県鎌ケ谷市新鎌ケ谷二丁目6番1号 代表電話:047-445-1141",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "047-445-1191",
-     "email": null,
-     "form_url": null,
-     "postal_code": "273-0195",
-     "postal_address": "千葉県鎌ケ谷市新鎌ケ谷二丁目6番1号",
-     "hours": null,
-     "source_url": "https://www.city.kamagaya.chiba.jp/gikai/index.html",
-     "evidence": "議会事務局 〒273-0195 千葉県鎌ケ谷市新鎌ケ谷二丁目6番1号 直通電話:047-445-1191 ファクス:04",
-     "note": null
-    },
-    {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "広報広聴室",
+     "phone": "047-445-1088",
      "email": null,
-     "form_url": null,
+     "form_url": "https://www.city.kamagaya.chiba.jp/cgi-bin/formmail/formmail.cgi?d=111011301120",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.kamagaya.chiba.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.city.kamagaya.chiba.jp/footer_website/kakuka_mokuji.html",
+     "evidence": "広報広聴室 電話:047-445-1088",
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -1141,35 +728,11 @@
      "source_url": "https://www.city.kimitsu.lg.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "君津市議会",
-     "phone": "0439-56-1497",
-     "email": null,
-     "form_url": null,
-     "postal_code": "299-1192",
-     "postal_address": "千葉県君津市久保2丁目13番1号",
-     "hours": null,
-     "source_url": "https://www.city.kimitsu.lg.jp/adv/ba.php?id=66&ef1=5",
-     "evidence": "議会 〒299-1192 千葉県君津市久保2丁目13番1号 Tel:0439-56-1497",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市長への手紙",
-     "phone": null,
-     "email": null,
-     "form_url": "https://logoform.jp/procedure/Tpmw/987",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kimitsu.lg.jp/life/5/32/221/",
-     "evidence": "リンク「市長への手紙」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -1190,35 +753,11 @@
      "source_url": "https://www.city.futtsu.lg.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "富津市議会",
-     "phone": "0439-80-1331",
-     "email": null,
-     "form_url": null,
-     "postal_code": "293-8506",
-     "postal_address": "千葉県富津市下飯野2443番地 市議会へのアクセス",
-     "hours": null,
-     "source_url": "https://www.futtsu-gikai.jp/",
-     "evidence": "議会へのアクセス 電話番号:0439-80-1331 ファクシミリ:",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "富津市役所総務部秘書広報課",
-     "phone": "0439-80-1225",
-     "email": null,
-     "form_url": "https://www.city.futtsu.lg.jp/mailform/inquiry.cgi?so=2e977855c4012933b030e7915831570f8c031a19&ref=https%3A%2F%2Fwww.city.futtsu.lg.jp%2F0000000592.html",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.futtsu.lg.jp/0000000592.html",
-     "evidence": "富津市役所総務部秘書広報課 電話: 0439-80-1225",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -1253,21 +792,10 @@
      "source_url": "https://www.city.urayasu.lg.jp/shisei/shigikai/index.html",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広聴広報課",
-     "phone": "047-712-6056",
-     "email": null,
-     "form_url": "https://www.city.urayasu.lg.jp/cgi-bin/contacts/g100104",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.urayasu.lg.jp/shisei/kocho/1005440.html",
-     "evidence": "広聴広報課 〒279-8501 千葉県浦安市猫実一丁目1番1号(市役所3階) 電話:047-712-6056 ファクス:04",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "feedback"
    ]
   },
   {
@@ -1276,61 +804,23 @@
    "official_site": "https://www.city.yotsukaido.chiba.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "043-421-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "284-8555",
-     "postal_address": "千葉県四街道市鹿渡無番地",
-     "hours": null,
-     "source_url": "https://www.city.yotsukaido.chiba.jp/",
-     "evidence": "市役所への行き方 市へのお問い合わせ(組…-8555 千葉県四街道市鹿渡無番地 電話:043-421-2111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "043-421-6152",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.yotsukaido.chiba.jp/shigikai/shigikai/seigan-chinjou.html",
-     "evidence": "議会事務局 電話:043-421-6152",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育部教育総務課",
-     "phone": "043-424-8924",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.yotsukaido.chiba.jp/b_education/work/kyoikuiinkaigaiyo.html",
-     "evidence": "教育部教育総務課 電話:043-424-8924 ファクス:04",
-     "note": null
-    },
-    {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "経営企画部秘書課",
+     "phone": "043-421-6164",
      "email": null,
-     "form_url": null,
+     "form_url": "https://www.city.yotsukaido.chiba.jp/cgi-bin/formmail/formmail.cgi?d=mayor",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.yotsukaido.chiba.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.city.yotsukaido.chiba.jp/shichonoheya/sityouhenotegami.html",
+     "evidence": "経営企画部秘書課 電話:043-421-6164",
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -1339,47 +829,23 @@
    "official_site": "https://www.city.sodegaura.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0438-62-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "299-0292",
-     "postal_address": "千葉県袖ケ浦市坂戸市場1番地1",
-     "hours": null,
-     "source_url": "https://www.city.sodegaura.lg.jp/",
-     "evidence": "袖ケ浦市役所 〒299-0292千葉県袖… 法人番号6000020122297 電話:0438-62-2111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局議会事務局議事調査班",
-     "phone": "0438-62-3450",
-     "email": null,
-     "form_url": null,
-     "postal_code": "299-0292",
-     "postal_address": "千葉県袖ケ浦市坂戸市場1番地1 北庁舎4階",
-     "hours": null,
-     "source_url": "https://www.city.sodegaura.lg.jp/site/shigikai/",
-     "evidence": "議会事務局議会事務局議事調査班 〒299-0292千葉県袖ケ浦市坂戸市場1番地1 北庁舎4階 Tel:0438-62-3450",
-     "note": null
-    },
-    {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
+     "agent_status": "found",
+     "department": "市民の声 令和5年度中に寄せられた意見と回答",
      "phone": null,
      "email": null,
-     "form_url": null,
+     "form_url": "https://www.city.sodegaura.lg.jp/form/detail.php?sec_sec1=6&inq=02&lif_id=85231",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.sodegaura.lg.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.city.sodegaura.lg.jp/site/mayor/iken-kaitou-05.html",
+     "evidence": "リンク「市民の声 令和5年度中に寄せられた意見と回答」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   }
  ]

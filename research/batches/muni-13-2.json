@@ -7,49 +7,11 @@
    "code": "131229",
    "name": "葛飾区",
    "official_site": "https://www.city.katsushika.lg.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "03-3695-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "124-8555",
-     "postal_address": "東京都葛飾区立石5-13-1",
-     "hours": null,
-     "source_url": "https://www.city.katsushika.lg.jp/",
-     "evidence": "葛飾区役所 〒124-8555 東京都葛飾区立石5-13-1 電話:03-3695-1111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "区議会事務局 庶務係",
-     "phone": "03-5654-8502",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.katsushika-kugikai.jp/",
-     "evidence": "区議会事務局 庶務係 電話(直通) 03(5654)8502",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "区長へのはがき・メール",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.katsushika.lg.jp/cgi-bin2/enquetes/5d34944cc3ed4b278602a72fc875b44c",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.katsushika.lg.jp/information/kucho/1005396.html",
-     "evidence": "リンク「区長へのご意見・ご要望」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -58,292 +20,78 @@
    "official_site": "https://www.city.edogawa.tokyo.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "03-3652-1151",
-     "email": null,
-     "form_url": null,
-     "postal_code": "132-8501",
-     "postal_address": "東京都江戸川区中央一丁目4番1号",
-     "hours": null,
-     "source_url": "https://www.city.edogawa.tokyo.jp/",
-     "evidence": "江戸川区役所 法人番号 10000201…東京都江戸川区中央一丁目4番1号 電話番号:03-3652-1151(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "江戸川区議会",
-     "phone": "03-5662-6736",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.gikai.city.edogawa.tokyo.jp/",
-     "evidence": "議会へのアクセス 東京都江戸川区中央1丁目4番1号 電話 03-5662-6736",
-     "note": null
-    },
-    {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
+     "agent_status": "found",
+     "department": "区民の声(区長への手紙) 江戸川区ホームページ",
      "phone": null,
      "email": null,
-     "form_url": null,
+     "form_url": "https://www.city.edogawa.tokyo.jp/e004/kuseijoho/kohokocho/goiken/kuminnokoe/mf_kumin.html",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.edogawa.tokyo.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.city.edogawa.tokyo.jp/e004/kuseijoho/kohokocho/goiken/kuminnokoe/index.html",
+     "evidence": "リンク「区民の声(区長への手紙)」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
    "code": "132012",
    "name": "八王子市",
    "official_site": "https://www.city.hachioji.tokyo.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "042-626-3111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.hachioji.tokyo.jp/",
-     "evidence": "八王子市役所 郵便番号:192-8501…4番1号 [ 地図・フロア案内 ] 電話: 042-626-3111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局議事課",
-     "phone": "042-620-7312",
-     "email": null,
-     "form_url": null,
-     "postal_code": "192-8501",
-     "postal_address": "八王子市元本郷町三丁目24番1号",
-     "hours": null,
-     "source_url": "https://www.city.hachioji.tokyo.jp/contents/shigikai_1/siminnnomisasam/seigann/p026066.html",
-     "evidence": "議会事務局議事課 〒192-8501 八王子市元本郷町三丁目24番1号 電話:042-620-7312",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広聴担当",
-     "phone": "042-620-7411",
-     "email": null,
-     "form_url": "https://www.city.hachioji.tokyo.jp/inquiry/mailform400300_000292.html?PAGE_NO=3053",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.hachioji.tokyo.jp/shisei/001/002/005/001/p003053.html",
-     "evidence": "広聴担当) 八王子市元本郷町三丁目24番1号 電話:042-620-7411",
-     "note": null
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
    "code": "132021",
    "name": "立川市",
    "official_site": "https://www.city.tachikawa.lg.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "042-523-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "190-8666",
-     "postal_address": "東京都立川市泉町1156-9",
-     "hours": null,
-     "source_url": "https://www.city.tachikawa.lg.jp/",
-     "evidence": "立川市役所 〒190-8666 東京都立川市泉町1156-9 電話番号:042-523-2111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "042-528-4343",
-     "email": null,
-     "form_url": null,
-     "postal_code": "190-8666",
-     "postal_address": "東京都立川市泉町1156-9",
-     "hours": null,
-     "source_url": "https://www.city.tachikawa.lg.jp/shigikai/index.html",
-     "evidence": "議会事務局(市役所3階) 〒190-8666 東京都立川市泉町1156-9 電話番号:042-528-4343 ファックス:0",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報広聴係",
-     "phone": "042-523-2111",
-     "email": null,
-     "form_url": "https://www.city.tachikawa.lg.jp/cgi-bin/contacts/G0010020010",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.tachikawa.lg.jp/shisei/sanka/1006065/1006433.html",
-     "evidence": "広報広聴係 〒190-8666 立川市泉町1156-9 電話番号(代表・内線):042-523-2111(内線2744~",
-     "note": null
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
    "code": "132039",
    "name": "武蔵野市",
    "official_site": "https://www.city.musashino.lg.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0422-51-5131",
-     "email": null,
-     "form_url": null,
-     "postal_code": "180-8777",
-     "postal_address": "東京都武蔵野市緑町2-2-28",
-     "hours": null,
-     "source_url": "https://www.city.musashino.lg.jp/",
-     "evidence": "武蔵野市役所 〒180-8777 東京都武蔵野市緑町2-2-28 代表電話番号:0422-51-5131",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0422-60-1882",
-     "email": null,
-     "form_url": null,
-     "postal_code": "180-8777",
-     "postal_address": "東京都武蔵野市緑町2-2-28",
-     "hours": null,
-     "source_url": "https://www.city.musashino.lg.jp/shigikai/index.html",
-     "evidence": "議会事務局 〒180-8777 東京都武蔵野市緑町2-2-28 電話番号:0422-60-1882(庶務係)、04",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市長への手紙",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.musashino.lg.jp/cgi-crm/CRM030/CRM030_001/G00400201/1003018",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.musashino.lg.jp/",
-     "evidence": "リンク「市長への手紙」",
-     "note": "電話番号の掲載なし（フォームで受付）"
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
    "code": "132047",
    "name": "三鷹市",
    "official_site": "https://www.city.mitaka.lg.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0422-45-1151",
-     "email": null,
-     "form_url": null,
-     "postal_code": "181-8555",
-     "postal_address": "東京都三鷹市野崎一丁目1番1号",
-     "hours": null,
-     "source_url": "https://www.city.mitaka.lg.jp/",
-     "evidence": "三鷹市役所 住所 〒181-8555 東京都三鷹市野崎一丁目1番1号 電話 0422-45-1151(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "三鷹市議会",
-     "phone": "0422-44-0249",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.gikai.city.mitaka.tokyo.jp/",
-     "evidence": "議会 〒181-8555 三鷹市野崎一丁目 1番1号 直通:0422-44-0249",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "ご意見・お問い合わせ",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.mitaka.lg.jp/cgi-bin/mailform/mail.cgi?contentname=%e3%81%94%e6%84%8f%e8%a6%8b%e3%83%bb%e3%81%8a%e5%95%8f%e3%81%84%e5%90%88%e3%82%8f%e3%81%9b§ionname=%e7%9b%b8%e8%ab%87%e3%83%bb%e6%83%85%e5%a0%b1%e8%aa%b2§ionmail=344b0f9ab499c23167801a510bb37b0440a2639ed4847b9f&title=%E3%83%88%E3%83%83%E3%83%97%E3%83%9A%E3%83%BC%E3%82%B8&fromurl=%2Findex%2Ehtml&fromurlmobile=%2Fi%2F&css=cx",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.mitaka.lg.jp/",
-     "evidence": "リンク「ご意見・お問い合わせ」",
-     "note": "電話番号の掲載なし（フォームで受付）"
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
    "code": "132055",
    "name": "青梅市",
    "official_site": "https://www.city.ome.tokyo.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0428-22-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "198-8701",
-     "postal_address": "東京都青梅市東青梅1丁目11番地の1",
-     "hours": null,
-     "source_url": "https://www.city.ome.tokyo.jp/",
-     "evidence": "青梅市役所 法人番号8000020132…京都青梅市東青梅1丁目11番地の1 Tel:0428-22-1111(代表) Fax",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局調査係",
-     "phone": "0428-22-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "198-8701",
-     "postal_address": "青梅市東青梅1-11-1",
-     "hours": null,
-     "source_url": "https://www.city.ome.tokyo.jp/site/gikai/",
-     "evidence": "議会議会事務局調査係 〒198-8701青梅市東青梅1-11-1 Tel:0428-22-1111(内線2203)",
-     "note": "同じ組織のほかの番号：0428-22-3074"
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市民相談係",
-     "phone": "0428-22-1111",
-     "email": null,
-     "form_url": "https://e1878a06.form.kintoneapp.com/public/89bb8c850622b62784d6e6cf86a44ad177674b5e2b7d5e790bcf58a4e7628e83",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.ome.tokyo.jp/soshiki/10/75068.html",
-     "evidence": "市民相談係 〒198-8701青梅市東青梅1-11-1 Tel:0428-22-1111(内線2312・",
-     "note": null
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -352,61 +100,23 @@
    "official_site": "https://www.city.fuchu.tokyo.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "042-364-4111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "183-8703",
-     "postal_address": "東京都府中市宮西町2丁目24番地",
-     "hours": null,
-     "source_url": "https://www.city.fuchu.tokyo.jp/",
-     "evidence": "府中市役所 法人番号8000020132… 東京都府中市宮西町2丁目24番地 電話:042-364-4111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "042-335-4505",
-     "email": "gikaisyomu01@city.fuchu.tokyo.jp",
-     "form_url": null,
-     "postal_code": "183-8703",
-     "postal_address": "東京都府中市宮西町2丁目24番地",
-     "hours": null,
-     "source_url": "https://www.city.fuchu.tokyo.jp/gikai/index.html",
-     "evidence": "議会事務局 〒183-8703 東京都府中市宮西町2丁目24番地 電話:042-335-4505(代表)",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "府中市教育委員会",
-     "phone": "042-364-4111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "183-8703",
-     "postal_address": "東京都府中市宮西町2丁目24番地",
-     "hours": null,
-     "source_url": "https://www.city.fuchu.tokyo.jp/kyoiku/index.html",
-     "evidence": "府中市教育委員会 〒183-8703 東京都府中市宮西町2丁目24番地 電話:042-364-4111(代表)",
-     "note": null
-    },
-    {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
+     "agent_status": "found",
+     "department": "広聴担当",
+     "phone": "042-366-1711",
+     "email": "kouchou01@city.fuchu.tokyo.jp",
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.fuchu.tokyo.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.city.fuchu.tokyo.jp/gyosei/soshiki/siminkyodosuisin/koutyo.html",
+     "evidence": "広聴担当 電話:042-366-1711",
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -440,7 +150,7 @@
      "hours": null,
      "source_url": "https://www.city.akishima.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -454,18 +164,32 @@
      "hours": null,
      "source_url": "https://www.city.akishima.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
   {
    "code": "132080",
    "name": "調布市",
-   "official_site": "https://www.city.chofu.tokyo.jp/www/toppage/0000000000000/APM03000.html",
+   "official_site": "https://www.city.chofu.lg.jp/",
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "042-481-7111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "182-8511",
+     "postal_address": "東京都調布市小島町2丁目35番地1",
+     "hours": null,
+     "source_url": "https://www.city.chofu.lg.jp/",
+     "evidence": "調布市役所 〒182-8511 東京都調布市小島町2丁目35番地1 電話番号:042-481-7111(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -473,36 +197,22 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.chofu.tokyo.jp/www/toppage/0000000000000/APM03000.html",
+     "source_url": "https://www.city.chofu.lg.jp/shiseijouhou/gikai/index.html",
      "evidence": null,
      "note": null
     },
     {
      "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "調布市市民部市民相談課",
+     "phone": "042-481-7032",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.chofu.tokyo.jp/www/toppage/0000000000000/APM03000.html",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.chofu.tokyo.jp/www/toppage/0000000000000/APM03000.html",
-     "evidence": null,
+     "source_url": "https://www.city.chofu.lg.jp/030060/p019032.html",
+     "evidence": "調布市市民部市民相談課 電話番号:042-481-7032から3",
      "note": null
     }
    ]
@@ -512,20 +222,6 @@
    "name": "町田市",
    "official_site": "https://www.city.machida.tokyo.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "042-722-3111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "194-8520",
-     "postal_address": "東京都町田市森野 2-2-22",
-     "hours": null,
-     "source_url": "https://www.city.machida.tokyo.jp/",
-     "evidence": "町田市役所 〒194-8520 東京都町田市森野 2-2-22 代表電話 : 042-722-3111",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -539,70 +235,22 @@
      "source_url": "https://www.gikai-machida.jp/index.asp",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広聴課",
-     "phone": "042-724-2102",
-     "email": null,
-     "form_url": "https://www.city.machida.tokyo.jp/cgi-bin/formmail/formmail.cgi?d=letter",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.machida.tokyo.jp/shigo/shite.html",
-     "evidence": "広聴課 電話:042-724-2102",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "feedback",
+    "general"
    ]
   },
   {
    "code": "132101",
    "name": "小金井市",
    "official_site": "https://www.city.koganei.lg.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "042-383-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.koganei.lg.jp/",
-     "evidence": "小金井市役所市役所へのアクセス 〒184…東京都小金井市本町6丁目6番3号 電話番号:042-383-1111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局議事係",
-     "phone": "042-387-9947",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.koganei.lg.jp/shisei/gikaijimukyoku/teianhoho/seigan_chinzyo.html",
-     "evidence": "議会事務局議事係 電話:042-387-9947",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報秘書課広聴係",
-     "phone": "042-387-9818",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.koganei.lg.jp/shisei/461/kocho/shiminnokoe_matome.html",
-     "evidence": "広報秘書課広聴係 電話:042-387-9818",
-     "note": null
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -610,20 +258,6 @@
    "name": "小平市",
    "official_site": "https://www.city.kodaira.tokyo.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "042-341-1211",
-     "email": null,
-     "form_url": null,
-     "postal_code": "187-8701",
-     "postal_address": "東京都小平市小川町2丁目1333番地",
-     "hours": null,
-     "source_url": "https://www.city.kodaira.tokyo.jp/",
-     "evidence": "小平市役所 〒187-8701 東京都小平市小川町2丁目1333番地 代表電話:042-341-1211",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "fetch_failed",
@@ -650,8 +284,11 @@
      "hours": null,
      "source_url": "https://www.city.kodaira.tokyo.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -659,34 +296,6 @@
    "name": "日野市",
    "official_site": "https://www.city.hino.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "042-585-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "191-8686",
-     "postal_address": "東京都日野市神明1の12の1",
-     "hours": null,
-     "source_url": "https://www.city.hino.lg.jp/",
-     "evidence": "日野市役所 〒191-8686 東京都日野市神明1の12の1 代表電話:042-585-1111",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "042-514-8007",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.hino.lg.jp/shigikai/index.html",
-     "evidence": "議会事務局 直通電話:庶務調査係 042-514-8007",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -699,8 +308,12 @@
      "hours": null,
      "source_url": "https://www.city.hino.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -756,49 +369,11 @@
    "code": "132144",
    "name": "国分寺市",
    "official_site": "https://www.city.kokubunji.tokyo.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "042-325-0111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "185-8501",
-     "postal_address": "東京都国分寺市泉町二丁目2番18号",
-     "hours": null,
-     "source_url": "https://www.city.kokubunji.tokyo.jp/",
-     "evidence": "国分寺市役所 〒185-8501 東京都国分寺市泉町二丁目2番18号 代表電話番号:042-325-0111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局 総務担当",
-     "phone": "042-312-8706",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kokubunji.tokyo.jp/shigikai/index.html",
-     "evidence": "議会事務局 総務担当 電話番号:042-312-8706",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広聴担当",
-     "phone": "042-312-8713",
-     "email": null,
-     "form_url": "https://www.city.kokubunji.tokyo.jp/cgi-crm/CRM030/CRM030_001/7041/1000078",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kokubunji.tokyo.jp/shisei/kouchou/1000078.html",
-     "evidence": "広聴担当 電話番号:042-312-8713 ファクス番号:",
-     "note": null
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -808,16 +383,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "042-576-2111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.city.kunitachi.tokyo.jp/",
-     "evidence": null,
+     "evidence": "国立市 Kunitachi City…東京都国立市富士見台2-47-1 電話番号 042-576-2111(代表)",
      "note": null
     },
     {
@@ -846,7 +421,7 @@
      "hours": null,
      "source_url": "https://www.city.kunitachi.tokyo.jp/machi/kokoku/6132.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -854,49 +429,11 @@
    "code": "132187",
    "name": "福生市",
    "official_site": "https://www.city.fussa.tokyo.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "042-551-1511",
-     "email": null,
-     "form_url": null,
-     "postal_code": "197-8501",
-     "postal_address": "東京都福生市本町5",
-     "hours": null,
-     "source_url": "https://www.city.fussa.tokyo.jp/",
-     "evidence": "市役所へのアクセス 〒197-8501 東京都福生市本町5 代表電話:042-551-1511",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局 議事係",
-     "phone": "042-551-1525",
-     "email": null,
-     "form_url": null,
-     "postal_code": "197-8501",
-     "postal_address": "東京都福生市本町5",
-     "hours": null,
-     "source_url": "https://www.city.fussa.tokyo.jp/assembly/everybody/1000443.html",
-     "evidence": "議会事務局 議事係 〒197-8501 東京都福生市本町5 電話:042-551-1525",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報広聴係",
-     "phone": "042-551-1529",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.fussa.tokyo.jp/municipal/qa/1016492.html",
-     "evidence": "広報広聴係 〒197-8501 東京都福生市本町5 電話:042-551-1529",
-     "note": null
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -917,35 +454,11 @@
      "source_url": "https://www.city.komae.tokyo.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "03-3430-1128",
-     "email": null,
-     "form_url": null,
-     "postal_code": "201-8585",
-     "postal_address": "狛江市和泉本町1-1-5",
-     "hours": null,
-     "source_url": "https://www.city.komae.tokyo.jp/index.cfm/49,html",
-     "evidence": "議会事務局 〒201-8585 狛江市和泉本町1-1-5 電話:03-3430-1128 ファクス:03",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報広聴担当",
-     "phone": "03-3430-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.komae.tokyo.jp/index.cfm/50,0,413,html",
-     "evidence": "広報広聴担当 東京都狛江市和泉本町1-1-5 電話:03-3430-1111 (内線)240",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -955,95 +468,33 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.higashiyamato.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
      "agent_status": "found",
-     "department": "議会事務局庶務調査係",
+     "department": "代表電話",
      "phone": "042-563-2111",
      "email": null,
      "form_url": null,
      "postal_code": "207-8585",
      "postal_address": "東京都東大和市中央3-930",
      "hours": null,
-     "source_url": "https://www.city.higashiyamato.lg.jp/shisei/gikai/index.html",
-     "evidence": "議会事務局庶務調査係 〒207-8585 東京都東大和市中央3-930 電話:042-563-2111(内線:2002",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市政へのご意見・ご提案",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.higashiyamato.lg.jp/cgi-bin/enquetes/5400f99914cb42d6bc0bce1a945a4ac8",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
      "source_url": "https://www.city.higashiyamato.lg.jp/",
-     "evidence": "リンク「市政へのご意見・ご提案」",
-     "note": "電話番号の掲載なし（フォームで受付）"
+     "evidence": "東大和市 〒207-8585 東京都東大和市中央3-930 電話:042-563-2111(代表)",
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
    "code": "132217",
    "name": "清瀬市",
    "official_site": "https://www.city.kiyose.lg.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "042-492-5111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "204-8511",
-     "postal_address": "東京都清瀬市中里5丁目842番地",
-     "hours": null,
-     "source_url": "https://www.city.kiyose.lg.jp/",
-     "evidence": "清瀬市役所の個別郵便番号です。 電話番号:042-492-5111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局議事係",
-     "phone": "042-497-2567",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kiyose.lg.jp/sigikai/gikaitetsuzuki/1005988.html",
-     "evidence": "議会事務局議事係 〒204-8511 …842 清瀬市役所4階 電話番号(直通):042-497-2567",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市へのご意見・お問い合わせ",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.kiyose.lg.jp/cgi-bin/enquetes/3c176c3def5041e0bee76e47302367ee",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kiyose.lg.jp/siseijouhou/kouhou/1004968.html",
-     "evidence": "リンク「市へのご意見・お問い合わせ」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   }
  ]

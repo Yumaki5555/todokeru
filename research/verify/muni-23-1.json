@@ -3,22 +3,14 @@
  "checked_at": "2026-11-03",
  "result": {
   "entities": 27,
-  "contacts": 81,
-  "verified": 11,
+  "contacts": 70,
+  "verified": 0,
   "unverified": 70,
   "unavailable": 0,
   "errors": 0
  },
  "errors": [],
  "reports": [
-  {
-   "id": "231002-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
   {
    "id": "231002-assembly",
    "agent_status": "auto_not_found",
@@ -27,231 +19,193 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "231002-feedback",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "email": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "232017-general",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232017-feedback",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232017-assembly",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232025-general",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232025-feedback",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232025-assembly",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
-  },
-  {
-   "id": "232033-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "232033-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "232033-feedback",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "form_url": "ok（直接は開けないため、出典ページの「市民メール専用フォーム」から開く案内にする）"
-   },
-   "status": "verified"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232041-general",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232041-feedback",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232041-assembly",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232050-general",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232050-feedback",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232050-assembly",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232068-general",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232068-feedback",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232068-assembly",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232076-general",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232076-feedback",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232076-assembly",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232084-general",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232084-feedback",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232084-assembly",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232092-general",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232092-feedback",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232092-assembly",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232106-general",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232106-feedback",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232106-assembly",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232114-general",
@@ -268,208 +222,151 @@
    "why": "公式ドメインか自動で判定できない（toyota-shigikai.jp）"
   },
   {
-   "id": "232114-feedback",
-   "agent_status": "found",
-   "checks": {
-    "form_url": "ok（直接は開けないため、出典ページの「受付専用メールフォーム(代表)」から開く案内にする）"
-   },
-   "status": "verified"
-  },
-  {
    "id": "232122-general",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232122-feedback",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232122-assembly",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
-  },
-  {
-   "id": "232131-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "232131-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "232131-feedback",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "form_url": "ok（直接は開けないため、出典ページの「総合政策部広報広聴課へのお問い合わせは専用フォームをご利用ください」から開く案内にする）"
-   },
-   "status": "verified"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232149-general",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232149-feedback",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232149-assembly",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232157-general",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232157-feedback",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232157-assembly",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232165-general",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232165-feedback",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232165-assembly",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232173-general",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232173-feedback",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232173-assembly",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232190-general",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232190-feedback",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232190-assembly",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232203-general",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232203-feedback",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232203-assembly",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
-  },
-  {
-   "id": "232211-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "232211-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232211-feedback",
@@ -483,126 +380,126 @@
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232220-feedback",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232220-assembly",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232238-general",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232238-feedback",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232238-assembly",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232246-general",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232246-feedback",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232246-assembly",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232254-general",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232254-feedback",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232254-assembly",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232262-general",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232262-feedback",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232262-assembly",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232271-general",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232271-feedback",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   },
   {
    "id": "232271-assembly",
    "agent_status": "fetch_failed",
    "checks": {},
    "status": "unverified",
-   "why": "出典ページを開けない（fetch failed）"
+   "why": "調査で確認できなかった（fetch_failed）"
   }
  ]
 }

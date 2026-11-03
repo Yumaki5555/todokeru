@@ -48,7 +48,7 @@
      "hours": null,
      "source_url": "https://www.town.nagashima.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -72,20 +72,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0995-75-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "899-6192",
-     "postal_address": "鹿児島県姶良郡湧水町中津川603番地",
-     "hours": null,
-     "source_url": "https://www.town.yusui.kagoshima.jp/site/gikai/",
-     "evidence": "議会事務局 〒899-6192 鹿児島県姶良郡湧水町中津川603番地代表 Tel:0995-75-2111Fax:0995",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -95,10 +81,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.yusui.kagoshima.jp/",
+     "source_url": "https://www.town.yusui.kagoshima.jp/life/1/4/30/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -106,20 +95,6 @@
    "name": "大崎町",
    "official_site": "https://www.town.kagoshima-osaki.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "099-476-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "899-7305",
-     "postal_address": "鹿児島県曽於郡大崎町仮宿1029番地",
-     "hours": null,
-     "source_url": "https://www.town.kagoshima-osaki.lg.jp/",
-     "evidence": "大崎町役場 〒899-7305 鹿児島県曽於郡大崎町仮宿1029番地 電話:099-476-1111(代表)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -133,21 +108,11 @@
      "source_url": "https://www.town.kagoshima-osaki.lg.jp/so_densan/machiannai/chogikai/index.html",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "ご意見・ご要望・お問い合わせ",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.town.kagoshima-osaki.lg.jp/so_densan/machiannai/gaiyo/goikenbako/goiken.html",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.kagoshima-osaki.lg.jp/so_densan/machiannai/gaiyo/goikenbako/index.html",
-     "evidence": "リンク「ご意見・ご要望」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "feedback",
+    "general"
    ]
   },
   {
@@ -220,17 +185,17 @@
     },
     {
      "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0994-22-0511",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.kinko.lg.jp/",
-     "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "source_url": "https://www.town.kinko.lg.jp/gikai-h/chose/soshiki/gikai/index.html",
+     "evidence": "議会事務局 連絡先 Tel:0994-22-0511(代表)",
+     "note": "同じ組織のほかの番号：0994-22-3045"
     },
     {
      "type": "feedback",
@@ -242,9 +207,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.kinko.lg.jp/",
+     "source_url": "https://www.town.kinko.lg.jp/somu-h/chose/koho/iken/index.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
    ]
   },
@@ -253,20 +218,6 @@
    "name": "南大隅町",
    "official_site": "https://www.town.minamiosumi.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0994-24-3111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "893-2501",
-     "postal_address": "鹿児島県肝属郡南大隅町根占川北226",
-     "hours": null,
-     "source_url": "https://www.town.minamiosumi.lg.jp/",
-     "evidence": "南大隅町役場〒893-2501 鹿児島県肝属郡南大隅町根占川北226電話番号:0994-24-3111(代表) ファク",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -279,7 +230,7 @@
      "hours": null,
      "source_url": "https://www.town.minamiosumi.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -293,8 +244,11 @@
      "hours": null,
      "source_url": "https://www.town.minamiosumi.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -326,9 +280,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://kimotsuki-town.jp/",
+     "source_url": "https://kimotsuki-town.jp/soshiki/gikaijimukyoku/index.html",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": null
     },
     {
      "type": "feedback",
@@ -353,16 +307,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0997-27-1111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "891-3692",
+     "postal_address": "鹿児島県熊毛郡中種子町野間5186番地",
      "hours": null,
      "source_url": "https://town.nakatane.kagoshima.jp/",
-     "evidence": null,
+     "evidence": "中種子町役場 〒891-3692 鹿児島県熊毛郡中種子町野間5186番地 電話番号:0997-27-1111",
      "note": null
     },
     {
@@ -389,9 +343,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://town.nakatane.kagoshima.jp/",
+     "source_url": "https://town.nakatane.kagoshima.jp/koho/machinojoho/koho-kocho/index.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
    ]
   },
@@ -440,7 +394,7 @@
      "hours": null,
      "source_url": "http://www.town.minamitane.kagoshima.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -464,20 +418,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0997-43-5900",
-     "email": null,
-     "form_url": null,
-     "postal_code": "891-4292",
-     "postal_address": "鹿児島県熊毛郡屋久島町小瀬田849番地20",
-     "hours": null,
-     "source_url": "https://www.town.yakushima.kagoshima.jp/gyosei/gikai/2889.html",
-     "evidence": "議会事務局 〒891-4292 鹿児島県熊毛郡屋久島町小瀬田849番地20 電話:0997-43-5900",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -489,8 +429,11 @@
      "hours": null,
      "source_url": "https://www.town.yakushima.kagoshima.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -499,31 +442,17 @@
    "official_site": "https://www.vill.yamato.lg.jp/",
    "contacts": [
     {
-     "type": "general",
+     "type": "education",
      "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0997-57-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.vill.yamato.lg.jp/",
-     "evidence": "大和村役場 お問い合わせ 開庁時間:8時…12月29日から1月3日を除く) 代表電話 0997-57-2111 ファックス 0",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0997-57-2216",
+     "department": "大和村役場教育委員会",
+     "phone": "0997-57-2154",
      "email": null,
      "form_url": null,
      "postal_code": "894-3192",
      "postal_address": "鹿児島県大島郡大和村大和浜100番地",
      "hours": null,
-     "source_url": "https://www.vill.yamato.lg.jp/gikai/sonse/yamatosongikai/segan-chinjo.html",
-     "evidence": "議会事務局 〒894-3192 鹿児島県大島郡大和村大和浜100番地 電話:0997-57-2216",
+     "source_url": "https://www.vill.yamato.lg.jp/hpkanri/kurashi/kyoiku-bunka/gakkokyoiku/kyoikuinkai.html",
+     "evidence": "大和村役場教育委員会事務局 〒894-3…鹿児島県大島郡大和村大和浜100番地 電話:0997-57-2154",
      "note": null
     },
     {
@@ -536,10 +465,14 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.vill.yamato.lg.jp/",
+     "source_url": "https://www.vill.yamato.lg.jp/hpkanri/sonse/kocho/index.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -573,7 +506,7 @@
      "hours": null,
      "source_url": "https://www.uken.net/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -587,7 +520,7 @@
      "hours": null,
      "source_url": "https://www.uken.net/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -598,16 +531,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0997-72-1111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "894-1592",
+     "postal_address": "鹿児島県大島郡瀬戸内町古仁屋船津23",
      "hours": null,
      "source_url": "https://www.town.setouchi.lg.jp/",
-     "evidence": null,
+     "evidence": "瀬戸内町役場〒894-1592 鹿児島県大島郡瀬戸内町古仁屋船津23 電話番号:0997-72-1111 ファックス:0",
      "note": null
     },
     {
@@ -622,20 +555,6 @@
      "hours": null,
      "source_url": "https://www.town.setouchi.lg.jp/cho/chosei/gikai/index.html",
      "evidence": null,
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "瀬戸内町教育委員会総務課",
-     "phone": "0997-72-0113",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.setouchi.lg.jp/kyoiku/kyoikuiinkaigijiroku.html",
-     "evidence": "瀬戸内町教育委員会総務課 鹿児島県大島郡瀬戸内町古仁屋船津23番地 電話番号:0997-72-0113",
      "note": null
     },
     {
@@ -661,16 +580,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0997-62-3111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "894-0192",
+     "postal_address": "鹿児島県大島郡龍郷町浦110番地",
      "hours": null,
      "source_url": "https://www.town.tatsugo.lg.jp/",
-     "evidence": null,
+     "evidence": "龍郷町役場〒894-0192 鹿児島県大島郡龍郷町浦110番地電話:0997-62-3111FAX:0997",
      "note": null
     },
     {
@@ -685,7 +604,7 @@
      "hours": null,
      "source_url": "https://www.town.tatsugo.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -710,16 +629,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0997-65-1111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "891-6292",
+     "postal_address": "鹿児島県大島郡喜界町大字湾1746番地",
      "hours": null,
      "source_url": "https://www.town.kikai.lg.jp/",
-     "evidence": null,
+     "evidence": "喜界町役場 〒891-6292 鹿児島県大島郡喜界町大字湾1746番地 電話番号:0997-65-1111 ファックス番号",
      "note": null
     },
     {
@@ -734,7 +653,7 @@
      "hours": null,
      "source_url": "https://www.town.kikai.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -748,7 +667,7 @@
      "hours": null,
      "source_url": "https://www.town.kikai.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -759,16 +678,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0997-82-1111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "891-7192",
+     "postal_address": "鹿児島県大島郡徳之島町亀津7203番地",
      "hours": null,
      "source_url": "https://www.tokunoshima-town.org/",
-     "evidence": null,
+     "evidence": "徳之島町役場 〒891-7192 鹿児島県大島郡徳之島町亀津7203番地 電話番号:0997-82-1111",
      "note": null
     },
     {
@@ -797,7 +716,7 @@
      "hours": null,
      "source_url": "https://www.tokunoshima-town.org/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -806,20 +725,6 @@
    "name": "天城町",
    "official_site": "https://www.town.amagi.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0997-85-3111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "891-7692",
-     "postal_address": "鹿児島県大島郡天城町平土野2691-1",
-     "hours": null,
-     "source_url": "https://www.town.amagi.lg.jp/",
-     "evidence": "天城町役場 〒891-7692 鹿児島県大島郡天城町平土野2691-1 TEL/0997-85-3111(代表)・FAX",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -848,6 +753,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -870,20 +778,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0997-86-3150",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.isen.kagoshima.jp/r8rinzi2.html",
-     "evidence": "議会事務局 電話番号:0997-86-3150",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -893,10 +787,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.isen.kagoshima.jp/",
+     "source_url": "https://www.town.isen.kagoshima.jp/mirai/chosejoho/isen_koho-kouchou.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -919,17 +816,17 @@
      "note": null
     },
     {
-     "type": "assembly",
+     "type": "education",
      "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0997-92-2569",
+     "department": "和泊町役場教育委員会",
+     "phone": "0997-92-0009",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.wadomari.lg.jp/gikai/wadomaricho/gikai/gikaidayori.html",
-     "evidence": "議会事務局 TEL:0997-92-2569",
+     "source_url": "https://www.town.wadomari.lg.jp/soumu/kurashi/kyoiku/index.html",
+     "evidence": "和泊町役場教育委員会事務局 TEL:0997-92-0009",
      "note": null
     },
     {
@@ -944,8 +841,11 @@
      "hours": null,
      "source_url": "https://www.town.wadomari.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -982,20 +882,6 @@
      "note": null
     },
     {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会事務局学校教育係",
-     "phone": "0997-84-3158",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.china.lg.jp/kosodate-kyoiku/kyoiku-iinkai/1944.html",
-     "evidence": "教育委員会事務局学校教育係 〒891-9…大島郡知名町大字知名1100番地 電話番号:0997-84-3158",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -1007,7 +893,7 @@
      "hours": null,
      "source_url": "https://www.town.china.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -1042,7 +928,7 @@
      "hours": null,
      "source_url": "https://www.yoron.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -1056,7 +942,7 @@
      "hours": null,
      "source_url": "https://www.yoron.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   }

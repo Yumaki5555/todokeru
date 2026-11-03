@@ -21,35 +21,11 @@
      "source_url": "https://www.city.niigata.lg.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "新潟市議会事務局",
-     "phone": "025-226-3375",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.niigata.lg.jp/shigikai/index.html",
-     "evidence": "新潟市議会事務局 〒951-8550 新潟市中央区学校町通1番町602-1 総務課電話:025-226-3375",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "ご意見・お問い合わせ 新潟市",
-     "phone": null,
-     "email": "kocho@city.niigata.lg.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.niigata.lg.jp/homepage/ask.html",
-     "evidence": "リンク「ご意見・お問い合わせ」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -59,16 +35,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0258-35-1122",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "940-8501",
+     "postal_address": "新潟県長岡市大手通1丁目4番地10",
      "hours": null,
      "source_url": "https://www.city.nagaoka.niigata.jp/",
-     "evidence": null,
+     "evidence": "長岡市 アクセス 〒940-8501 新潟県長岡市大手通1丁目4番地10 電話:0258-35-1122(代表)",
      "note": null
     },
     {
@@ -83,22 +59,11 @@
      "hours": null,
      "source_url": "https://www.city.nagaoka.niigata.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市長への手紙",
-     "phone": null,
-     "email": null,
-     "form_url": "https://logoform.jp/form/P5EF/1383913",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.nagaoka.niigata.jp/shityo/tegami/index.html",
-     "evidence": "リンク「市長への手紙」",
-     "note": "電話番号の掲載なし（フォームで受付）"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "feedback"
    ]
   },
   {
@@ -107,34 +72,6 @@
    "official_site": "https://www.city.sanjo.niigata.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0256-34-5511",
-     "email": null,
-     "form_url": null,
-     "postal_code": "955-8686",
-     "postal_address": "新潟県三条市旭町2-3-1",
-     "hours": null,
-     "source_url": "https://www.city.sanjo.niigata.jp/",
-     "evidence": "市役所案内 市民総合窓口と受付時間 三条…86 新潟県三条市旭町2-3-1 電話: 0256-34-5511 (代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局 議事調査係",
-     "phone": "0256-34-5583",
-     "email": null,
-     "form_url": null,
-     "postal_code": "955-8686",
-     "postal_address": "新潟県三条市旭町2-3-1",
-     "hours": null,
-     "source_url": "https://www.city.sanjo.niigata.jp/shisei/shigikai/5507.html",
-     "evidence": "議会事務局 議事調査係 〒955-8686 新潟県三条市旭町2-3-1 電話 : 0256-34-5583",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -146,57 +83,23 @@
      "hours": null,
      "source_url": "https://www.city.sanjo.niigata.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
    "code": "152056",
    "name": "柏崎市",
    "official_site": "https://www.city.kashiwazaki.lg.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0257-23-5111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "945-8511",
-     "postal_address": "新潟県柏崎市日石町2番1号",
-     "hours": null,
-     "source_url": "https://www.city.kashiwazaki.lg.jp/",
-     "evidence": "柏崎市役所 〒945-8511 新潟県柏崎市日石町2番1号 電話番号:0257-23-5111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0257-21-2340",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kashiwazaki.lg.jp/shigikai/gikainokohokocho/45841.html",
-     "evidence": "議会事務局 〒945-8511 新潟県柏崎市日石町2番1号 市役所 本館2階 電話:0257-21-2340",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "お問い合わせ・ご意見・ご要望",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.kashiwazaki.lg.jp/shiseijoho/otoiawase_goiken_goyobo/otoiawase/10701.html",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kashiwazaki.lg.jp/shiseijoho/otoiawase_goiken_goyobo/index.html",
-     "evidence": "リンク「お問い合わせ ご意見・ご要望」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -205,20 +108,6 @@
    "official_site": "https://www.city.shibata.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0254-22-3030",
-     "email": null,
-     "form_url": null,
-     "postal_code": "957-8686",
-     "postal_address": "新潟県新発田市中央町3丁目3番3号",
-     "hours": null,
-     "source_url": "https://www.city.shibata.lg.jp/",
-     "evidence": "新発田市役所 〒957-8686 新潟県新発田市中央町3丁目3番3号 電話番号:0254-22-3030(代表)",
-     "note": null
-    },
-    {
      "type": "assembly",
      "agent_status": "auto_not_found",
      "department": null,
@@ -230,22 +119,25 @@
      "hours": null,
      "source_url": "https://www.city.shibata.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
+     "agent_status": "found",
+     "department": "市長への手紙とは",
      "phone": null,
      "email": null,
-     "form_url": null,
+     "form_url": "https://www.city.shibata.lg.jp/cgi-bin/enquetes/a0a19e6641864effb1d7c62b47e7a51b",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.shibata.lg.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.city.shibata.lg.jp/machidukuri/mayor/1001650.html",
+     "evidence": "リンク「「市長への手紙」を送る」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -255,35 +147,49 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0258-83-3511",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "947-8501",
+     "postal_address": "新潟県小千谷市城内2-7-5",
      "hours": null,
      "source_url": "https://www.city.ojiya.niigata.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.ojiya.niigata.jp/",
-     "evidence": null,
+     "evidence": "小千谷市役所 法人番号400002015…-8501新潟県小千谷市城内2-7-5 電話0258-83-3511(代表)",
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "議会事務局庶務議事係",
+     "phone": "0258-83-3505",
+     "email": null,
+     "form_url": null,
+     "postal_code": "947-8501",
+     "postal_address": "新潟県小千谷市城内2丁目7番5号",
+     "hours": null,
+     "source_url": "https://www.city.ojiya.niigata.jp/site/gikai/",
+     "evidence": "議会事務局庶務議事係 〒947-8501 新潟県小千谷市城内2丁目7番5号 (小千谷市役所(本庁舎)4階) Tel:0258-83-3505",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育総務係",
+     "phone": "0258-83-3519",
+     "email": null,
+     "form_url": null,
+     "postal_code": "947-0028",
+     "postal_address": "新潟県小千谷市城内4丁目1番38号",
+     "hours": null,
+     "source_url": "https://www.city.ojiya.niigata.jp/soshiki/1.html",
+     "evidence": "教育総務係 Tel:0258-83-3519学校教育係",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -291,7 +197,7 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.ojiya.niigata.jp/",
+     "source_url": "https://www.city.ojiya.niigata.jp/life/5/45/",
      "evidence": null,
      "note": null
     }
@@ -317,20 +223,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0256-52-0080",
-     "email": "gikaijimu@city.kamo.niigata.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kamo.niigata.jp/docs/323886.html",
-     "evidence": "議会事務局 電話: 0256-52-0080",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -342,8 +234,11 @@
      "hours": null,
      "source_url": "https://www.city.kamo.niigata.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -352,34 +247,6 @@
    "official_site": "https://www.city.tokamachi.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "025-757-3111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "948-8501",
-     "postal_address": "新潟県十日町市千歳町3丁目3番地",
-     "hours": null,
-     "source_url": "https://www.city.tokamachi.lg.jp/",
-     "evidence": "十日町市役所 所在地:〒948-8501 新潟県十日町市千歳町3丁目3番地 電話:025-757-3111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局 議事係",
-     "phone": "025-757-3119",
-     "email": null,
-     "form_url": null,
-     "postal_code": "948-8501",
-     "postal_address": "新潟県十日町市千歳町3丁目3番地",
-     "hours": null,
-     "source_url": "https://www.city.tokamachi.lg.jp/shisei_machizukuri/tokamachishigikai/2657.html",
-     "evidence": "議会事務局 議事係 所在地:〒948-8501 新潟県十日町市千歳町3丁目3番地(本庁3階) 直通電話番号:025-757-3119",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -391,8 +258,12 @@
      "hours": null,
      "source_url": "https://www.city.tokamachi.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -401,61 +272,23 @@
    "official_site": "https://www.city.mitsuke.niigata.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0258-62-1700",
-     "email": null,
-     "form_url": null,
-     "postal_code": "954-8686",
-     "postal_address": "新潟県見附市昭和町2丁目1番1号",
-     "hours": null,
-     "source_url": "https://www.city.mitsuke.niigata.jp/",
-     "evidence": "見附市役所 法人番号8000020152…6 新潟県見附市昭和町2丁目1番1号 電話:0258-62-1700(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0258-62-1700",
-     "email": null,
-     "form_url": null,
-     "postal_code": "954-8686",
-     "postal_address": "新潟県見附市昭和町2丁目1番1号",
-     "hours": null,
-     "source_url": "https://www.city.mitsuke.niigata.jp/site/gikai/2803.html",
-     "evidence": "議会事務局代表 〒954-8686新潟県見附市昭和町2丁目1番1号 Tel:0258-62-1700Fax:0258",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務課総務管理係",
-     "phone": "0258-62-1700",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.mitsuke.niigata.jp/site/kyikuiinnkai/55522.html",
-     "evidence": "教育総務課総務管理係 〒954-8686 新潟県見附市昭和町2-1-1 Tel:0258-62-1700(内線411・4",
-     "note": null
-    },
-    {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "企画調整課秘書広報室",
+     "phone": "0258-62-1700",
      "email": null,
-     "form_url": null,
+     "form_url": "https://www.city.mitsuke.niigata.jp/form/detail.php?sec_sec1=2&inq=02&lif_id=54889",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.mitsuke.niigata.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.city.mitsuke.niigata.jp/soshiki/2/54889.html",
+     "evidence": "企画調整課秘書広報室 〒954-8686新潟県見附市昭和町2丁目1番1号 Tel:0258-62-1700Fax:0258",
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -464,34 +297,6 @@
    "official_site": "https://www.city.murakami.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0254-53-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "958-8501",
-     "postal_address": "新潟県村上市三之町1番1号",
-     "hours": null,
-     "source_url": "https://www.city.murakami.lg.jp/",
-     "evidence": "村上市役所 法人番号7000020152…501 新潟県村上市三之町1番1号 Tel:0254-53-2111(代表)Fax:",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0254-53-3219",
-     "email": null,
-     "form_url": null,
-     "postal_code": "958-8501",
-     "postal_address": "新潟県村上市三之町1番1号",
-     "hours": null,
-     "source_url": "https://www.city.murakami.lg.jp/site/shigikai/",
-     "evidence": "議会事務局 〒958-8501新潟県村上市三之町1番1号 Tel:0254-53-3219Fax:0254",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -503,8 +308,12 @@
      "hours": null,
      "source_url": "https://www.city.murakami.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -513,34 +322,6 @@
    "official_site": "https://www.city.tsubame.niigata.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0256-92-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "959-0295",
-     "postal_address": "新潟県燕市吉田西太田1934番地",
-     "hours": null,
-     "source_url": "https://www.city.tsubame.niigata.jp/",
-     "evidence": "燕市役所 〒959-0295 新潟県燕市吉田西太田1934番地 電話番号 0256-92-1111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局 議事課",
-     "phone": "0256-77-8341",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.tsubame.niigata.jp/keikaku/gikai/6449.html",
-     "evidence": "議会事務局 議事課 議事調査チーム 〒959-0295 新潟県燕市吉田西太田1934番地 電話番号:0256-77-8341",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -552,8 +333,12 @@
      "hours": null,
      "source_url": "https://www.city.tsubame.niigata.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -574,35 +359,11 @@
      "source_url": "https://www.city.itoigawa.lg.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局議会係",
-     "phone": "025-552-1511",
-     "email": null,
-     "form_url": null,
-     "postal_code": "941-8501",
-     "postal_address": "新潟県糸魚川市一の宮1-2-5 庁舎5階",
-     "hours": null,
-     "source_url": "https://www.city.itoigawa.lg.jp/site/gikai/2825.html",
-     "evidence": "議会事務局議会係代表 〒941-8501新潟県糸魚川市一の宮1-2-5 庁舎5階 Tel:025-552-1511",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "ご意見直通便",
-     "phone": null,
-     "email": null,
-     "form_url": "https://logoform.jp/form/uqfT/949531",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.itoigawa.lg.jp/page/2764.html",
-     "evidence": "リンク「ご意見直通便」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -610,20 +371,6 @@
    "name": "妙高市",
    "official_site": "https://www.city.myoko.niigata.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0255-72-5111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "944-8686",
-     "postal_address": "新潟県妙高市栄町5-1",
-     "hours": null,
-     "source_url": "https://www.city.myoko.niigata.jp/",
-     "evidence": "妙高市役所 〒944-8686 新潟県妙高市栄町5-1 TEL 0255-72-5111(代表)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -650,8 +397,11 @@
      "hours": null,
      "source_url": "https://www.city.myoko.niigata.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -659,34 +409,6 @@
    "name": "五泉市",
    "official_site": "https://www.city.gosen.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0250-43-3911",
-     "email": null,
-     "form_url": null,
-     "postal_code": "959-1692",
-     "postal_address": "新潟県五泉市太田1094番地1",
-     "hours": null,
-     "source_url": "https://www.city.gosen.lg.jp/",
-     "evidence": "五泉市役所 〒959-1692 新潟県五泉市太田1094番地1 電話:0250-43-3911(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0250-43-3911",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.gosen.lg.jp/parliament/index.html",
-     "evidence": "議会事務局 郵便番号959-1692 新潟県五泉市太田1094番地1 電話番号:0250-43-3911(代表) ファッ",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -699,8 +421,12 @@
      "hours": null,
      "source_url": "https://www.city.gosen.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -721,49 +447,11 @@
      "source_url": "https://www.city.joetsu.niigata.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "025-520-5803",
-     "email": "gikai@city.joetsu.lg.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.joetsu.niigata.jp/site/gikai/",
-     "evidence": "議会事務局 gikai@city.joe…ル送信時は@を半角にしてください) Tel:025-520-5803Fax:025-",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務課",
-     "phone": "025-545-9243",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.joetsu.niigata.jp/soshiki/",
-     "evidence": "教育総務課 Tel:025-545-9243(教育総務課)",
-     "note": "同じ組織のほかの番号：025-545-9261"
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市民の声ポスト(市政に対する意見・提案)、市への問合せ",
-     "phone": null,
-     "email": "j-talk@city.joetsu.lg.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.joetsu.niigata.jp/soshiki/koho/post-post.html",
-     "evidence": "リンク「市民の声ポスト(市政に対する意見・提案)、市への問合せ」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -786,20 +474,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0250-61-2489",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.agano.niigata.jp/shisei_machizukuri/gikai/gikainogaiyo/3241.html",
-     "evidence": "議会事務局 〒959-2092 新潟県阿賀野市岡山町10番15号 電話:0250-61-2489 ファックス:0",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -813,6 +487,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -822,45 +499,45 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0259-63-3111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "952-1292",
+     "postal_address": "新潟県佐渡市千種232",
      "hours": null,
      "source_url": "https://www.city.sado.niigata.jp/",
-     "evidence": null,
+     "evidence": "佐渡市 法人番号900002015224…2-1292 新潟県佐渡市千種232Tel:0259-63-3111(代表)",
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "議会事務局庶務係",
+     "phone": "0259-67-7555",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "952-1292",
+     "postal_address": "佐渡市千種232",
      "hours": null,
-     "source_url": "https://www.city.sado.niigata.jp/",
-     "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "source_url": "https://www.city.sado.niigata.jp/site/gikai/",
+     "evidence": "議会事務局庶務係 〒952-1292佐渡市千種232 Tel:0259-67-7555Fax:0259",
+     "note": null
     },
     {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
+     "agent_status": "found",
+     "department": "「佐渡市特定居住促進計画(改訂案)」についてご意見をお待ちしています",
      "phone": null,
      "email": null,
-     "form_url": null,
+     "form_url": "https://www.city.sado.niigata.jp/form/detail.php?sec_sec1=83&inq=02&lif_id=87468",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.sado.niigata.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.city.sado.niigata.jp/site/publiccomment/87468.html",
+     "evidence": "リンク「「佐渡市特定居住促進計画(改訂案)」についてご意見をお待ちしています」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
    ]
   },
@@ -895,7 +572,7 @@
      "hours": null,
      "source_url": "https://www.city.uonuma.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -909,7 +586,7 @@
      "hours": null,
      "source_url": "https://www.city.uonuma.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -920,30 +597,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "025-773-6660",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.city.minamiuonuma.niigata.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局 議事係",
-     "phone": "025-773-6650",
-     "email": "yokuroi@hotmail.com",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.minamiuonuma.niigata.jp/gikai/docs/75522.html",
-     "evidence": "議会事務局 議事係 電話: 025-773-6650",
+     "evidence": "南魚沼市 所在地 〒949-6696 …除く) 8時30分~17時15分 電話番号 025-773-6660(代表)",
      "note": null
     },
     {
@@ -960,6 +623,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -969,60 +635,35 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0254-43-6111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "959-2693",
+     "postal_address": "新潟県胎内市新和町2番10号",
      "hours": null,
      "source_url": "https://www.city.tainai.niigata.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局議会係",
-     "phone": "0254-43-6111",
-     "email": "gikai@city.tainai.lg.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.tainai.niigata.jp/gyose/gikai/index.html",
-     "evidence": "議会事務局議会係 新潟県胎内市新和町2番10号 電話番号:0254-43-6111",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会学校教育課庶務係",
-     "phone": "0254-47-2711",
-     "email": "gakuji@city.tainai.lg.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.tainai.niigata.jp/kurashi/kyoiku/kyoiku/inkai/index.html",
-     "evidence": "教育委員会学校教育課庶務係 新潟県胎内市黒川1410 電話番号:0254-47-2711",
+     "evidence": "胎内市 〒959-2693 新潟県胎内市新和町2番10号 交通アクセス 電話:0254-43-6111(代表)",
      "note": null
     },
     {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
+     "agent_status": "found",
+     "department": "総合政策課広報情報推進係",
+     "phone": "0254-43-6111",
+     "email": "koho@city.tainai.lg.jp",
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.tainai.niigata.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.city.tainai.niigata.jp/gyose/koho/index.html",
+     "evidence": "総合政策課広報情報推進係 新潟県胎内市新和町2番10号 電話番号:0254-43-6111",
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -1031,34 +672,6 @@
    "official_site": "https://www.town.seiro.niigata.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0254-27-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.seiro.niigata.jp/",
-     "evidence": "聖籠町役場 〒957-0192 新潟県北…金曜日 祝日および年末年始を除く 電話番号:0254-27-2111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0254-27-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.seiro.niigata.jp/7/11/962.html",
-     "evidence": "議会事務局 新潟県北蒲原郡聖籠町大字諏訪山1635番地4 電話番号:0254-27-2111(代表)",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -1070,8 +683,12 @@
      "hours": null,
      "source_url": "https://www.town.seiro.niigata.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -1094,20 +711,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "弥彦村議会事務局",
-     "phone": "0256-94-1028",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.vill.yahiko.niigata.jp/council/",
-     "evidence": "弥彦村議会事務局 〒959-0392 新潟県西蒲原郡弥彦村大字矢作402番地(弥彦村役場敷地内) 電話番号0256-94-1028",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -1119,8 +722,11 @@
      "hours": null,
      "source_url": "https://www.vill.yahiko.niigata.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -1144,17 +750,17 @@
     },
     {
      "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0256-57-6300",
+     "email": "t3001@town.tagami.lg.jp",
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.tagami.niigata.jp/",
-     "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "source_url": "https://www.town.tagami.niigata.jp/gikai/docs/8684.html",
+     "evidence": "議会事務局 電話: 0256-57-6300",
+     "note": null
     },
     {
      "type": "feedback",
@@ -1168,7 +774,7 @@
      "hours": null,
      "source_url": "https://www.town.tagami.niigata.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -1217,7 +823,7 @@
      "hours": null,
      "source_url": "https://www.town.aga.niigata.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -1241,33 +847,22 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0258-78-3112",
-     "email": "gikai@town.izumozaki.niigata.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.izumozaki.niigata.jp/gikai/",
-     "evidence": "議会事務局 住所:出雲崎町大字川西140番地 電話番号:0258-78-3112",
-     "note": null
-    },
-    {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
+     "agent_status": "found",
+     "department": "ご意見・お問い合わせ",
      "phone": null,
      "email": null,
-     "form_url": null,
+     "form_url": "https://www.town.izumozaki.niigata.jp/contact/form",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.izumozaki.niigata.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.town.izumozaki.niigata.jp/contact/",
+     "evidence": "リンク「ご意見・お問い合わせ」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -1275,20 +870,6 @@
    "name": "湯沢町",
    "official_site": "https://www.town.yuzawa.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "025-784-3451",
-     "email": null,
-     "form_url": null,
-     "postal_code": "949-6192",
-     "postal_address": "新潟県南魚沼郡湯沢町大字神立300番地",
-     "hours": null,
-     "source_url": "https://www.town.yuzawa.lg.jp/",
-     "evidence": "湯沢町役場 法人番号 900002015…沼郡湯沢町大字神立300番地 代表電話番号:025-784-3451",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -1315,8 +896,11 @@
      "hours": null,
      "source_url": "https://www.town.yuzawa.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -1326,21 +910,7 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.tsunan.niigata.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -1354,7 +924,21 @@
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "025-765-5581",
+     "email": null,
+     "form_url": null,
+     "postal_code": "949-8292",
+     "postal_address": "新潟県中魚沼郡津南町大字下船渡戊585番地",
+     "hours": null,
+     "source_url": "https://www.town.tsunan.niigata.jp/site/gikai/",
+     "evidence": "議会事務局代表 〒949-8292 新潟県中魚沼郡津南町大字下船渡戊585番地 Tel:025-765-5581Fax:025-",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -1364,7 +948,7 @@
      "hours": null,
      "source_url": "https://www.town.tsunan.niigata.jp/",
      "evidence": null,
-     "note": null
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -1424,35 +1008,35 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0254-64-1441",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "http://www.vill.sekikawa.niigata.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "http://www.vill.sekikawa.niigata.jp/",
-     "evidence": null,
+     "evidence": "村役場への行き方】 〒959-3292 新潟県岩船郡関川村大字下関912番地 電話:(0254) 64-1441(代表)",
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0254-64-1494",
+     "email": "gikai@vill.sekikawa.lg.jp",
+     "form_url": null,
+     "postal_code": "959-3292",
+     "postal_address": "新潟県岩船郡関川村大字下関912番地",
+     "hours": null,
+     "source_url": "https://www.vill.sekikawa.niigata.jp:443/709/index.html",
+     "evidence": "議会事務局 〒959-3292 新潟県岩…l.sekikawa.lg.jp TEL:(0254) 64-1494 / FAX:(",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -1460,7 +1044,7 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "http://www.vill.sekikawa.niigata.jp/",
+     "source_url": "https://www.vill.sekikawa.niigata.jp:443/327/index.html",
      "evidence": null,
      "note": null
     }
@@ -1473,16 +1057,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0254-55-2111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "958-0061",
+     "postal_address": "新潟県岩船郡粟島浦村字日ノ見山1513-11",
      "hours": null,
      "source_url": "https://www.vill.awashimaura.lg.jp/",
-     "evidence": null,
+     "evidence": "粟島浦村役場 〒958-0061新潟県岩船郡粟島浦村字日ノ見山1513-11 TEL:0254-55-2111 FAX:025",
      "note": null
     },
     {
@@ -1497,7 +1081,7 @@
      "hours": null,
      "source_url": "https://www.vill.awashimaura.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -1511,7 +1095,7 @@
      "hours": null,
      "source_url": "https://www.vill.awashimaura.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   }

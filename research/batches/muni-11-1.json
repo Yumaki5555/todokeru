@@ -6,11 +6,25 @@
   {
    "code": "111007",
    "name": "さいたま市",
-   "official_site": "https://www.city.saitama.jp/",
+   "official_site": "https://www.city.saitama.lg.jp/",
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "048-829-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "330-9588",
+     "postal_address": "さいたま市浦和区常盤六丁目4番4号",
+     "hours": null,
+     "source_url": "https://www.city.saitama.lg.jp/",
+     "evidence": "さいたま市役所 住所:〒330-9588 さいたま市浦和区常盤六丁目4番4号 電話:048-829-1111(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -18,13 +32,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.saitama.jp/",
+     "source_url": "https://www.city.saitama.lg.jp/gikai/index.html",
      "evidence": null,
      "note": null
     },
     {
      "type": "feedback",
-     "agent_status": "fetch_failed",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -32,23 +46,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.saitama.jp/",
+     "source_url": "https://www.city.saitama.lg.jp/",
      "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.saitama.jp/",
-     "evidence": null,
-     "note": null
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -59,46 +59,22 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kawagoe.saitama.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
      "agent_status": "found",
-     "department": "議会事務局 議事課",
-     "phone": "049-224-6067",
+     "department": "代表電話",
+     "phone": "049-224-8811",
      "email": null,
      "form_url": null,
      "postal_code": "350-8601",
-     "postal_address": "川越市元町1丁目3番地1",
+     "postal_address": "埼玉県川越市元町1丁目3番地1",
      "hours": null,
-     "source_url": "https://www.city.kawagoe.saitama.jp/shigikai/g-about/1007564.html",
-     "evidence": "議会事務局 議事課 議事担当 〒350-8601 川越市元町1丁目3番地1 電話番号:049-224-6067",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広聴担当",
-     "phone": "049-224-5011",
-     "email": null,
-     "form_url": "https://www.city.kawagoe.saitama.jp/cgi-bin/enquetes/e5506abc7e78472a8bbb88938a2bd531",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kawagoe.saitama.jp/shisei/koho/1009774/1010505/1010508/1010509.html",
-     "evidence": "広聴担当 〒350-8601 川越市元町1丁目3番地1 電話番号:049-224-5011 ファクス番号:",
+     "source_url": "https://www.city.kawagoe.saitama.jp/",
+     "evidence": "川越市 法人番号400002011201…1 埼玉県川越市元町1丁目3番地1 電話:049-224-8811(代表)",
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -119,35 +95,11 @@
      "source_url": "https://www.city.kumagaya.lg.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "048-524-1573",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kumagaya.lg.jp/shigikai/seigan_tinjo.html",
-     "evidence": "議会事務局 電話:048-524-1573(直通) ファク",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報広聴課",
-     "phone": "048-524-1111",
-     "email": null,
-     "form_url": "https://www.city.kumagaya.lg.jp/cgi-bin/formmail/formmail.cgi?d=kakuka",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kumagaya.lg.jp/aboutweb/otoiawase.html",
-     "evidence": "広報広聴課 電話:048-524-1111(代表) 内線2",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -155,20 +107,6 @@
    "name": "川口市",
    "official_site": "https://www.city.kawaguchi.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "048-258-1110",
-     "email": null,
-     "form_url": null,
-     "postal_code": "332-8601",
-     "postal_address": "埼玉県川口市青木2丁目1番1号",
-     "hours": null,
-     "source_url": "https://www.city.kawaguchi.lg.jp/",
-     "evidence": "市役所への地図フロアマップ) 電話:048-258-1110(代表)電話:0",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "fetch_failed",
@@ -197,104 +135,31 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
    "code": "112062",
    "name": "行田市",
    "official_site": "https://www.city.gyoda.lg.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "048-556-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "361-8601",
-     "postal_address": "埼玉県行田市本丸2番5号",
-     "hours": null,
-     "source_url": "https://www.city.gyoda.lg.jp/",
-     "evidence": "行田市役所 〒361-8601 埼玉県行田市本丸2番5号 電話番号:048-556-1111(代表) ファク",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "048-556-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "361-8601",
-     "postal_address": "埼玉県行田市本丸2番5号",
-     "hours": null,
-     "source_url": "https://www.city.gyoda.lg.jp/soshiki/gikai_jimukyoku/gikai/7380.html",
-     "evidence": "議会事務局 〒361-8601 埼玉県行田市本丸2番5号 電話番号:048-556-1111",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報広聴課",
-     "phone": "048-556-1111",
-     "email": null,
-     "form_url": "https://www.city.gyoda.lg.jp/cgi-bin/inquiry.php/7?page_no=7256",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.gyoda.lg.jp/otoiawase.html",
-     "evidence": "広報広聴課 〒361-8601 埼玉県行田市本丸2番5号 電話番号:048-556-1111",
-     "note": null
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
    "code": "112071",
    "name": "秩父市",
    "official_site": "https://www.city.chichibu.lg.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0494-22-2211",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.chichibu.lg.jp/",
-     "evidence": "秩父市役所(法人番号:100002011…番15号 電話:0494-22-22110494-22-2211(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0494-25-5224",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.chichibu.lg.jp/1894.html",
-     "evidence": "議会事務局 所在地/〒368-8686…4階) 電話番号/0494-25-52240494-25-5224 FAX/ 04",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "秘書広報課",
-     "phone": "0494-22-2505",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.chichibu.lg.jp/2262.html",
-     "evidence": "秘書広報課 所在地/〒368-8686…15号 (秩父市役所本庁舎3階) 電話番号/0494-22-2505 FAX/049",
-     "note": null
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -302,34 +167,6 @@
    "name": "所沢市",
    "official_site": "https://www.city.tokorozawa.saitama.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "04-2998-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.tokorozawa.saitama.jp/",
-     "evidence": "所沢市役所 〒359-8501 埼玉県所沢市並木一丁目1番地の1 電話番号:04-2998-1111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "04-2998-9256",
-     "email": null,
-     "form_url": null,
-     "postal_code": "359-8501",
-     "postal_address": "埼玉県所沢市並木一丁目1番地の1",
-     "hours": null,
-     "source_url": "https://www.city.tokorozawa.saitama.jp/shigikai/index.html",
-     "evidence": "議会事務局 〒359-8501 埼玉県所沢市並木一丁目1番地の1 電話:04-2998-9256(直通)",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -344,6 +181,10 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -353,30 +194,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.hanno.lg.jp",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
      "agent_status": "found",
-     "department": "議会事務局議会総務課",
+     "department": "代表電話",
      "phone": "042-973-2111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "357-8501",
+     "postal_address": "埼玉県飯能市大字双柳1番地の1",
      "hours": null,
-     "source_url": "https://www.city.hanno.lg.jp/shiseijoho/shigikai/index.html",
-     "evidence": "議会事務局議会総務課 電話番号: 042-973-2111(代表) 内線4",
+     "source_url": "https://www.city.hanno.lg.jp",
+     "evidence": "飯能市 Hanno City 〒357-… 埼玉県飯能市大字双柳1番地の1 電話番号:042-973-2111 (代表) ファ",
      "note": null
     },
     {
@@ -391,8 +218,11 @@
      "hours": null,
      "source_url": "https://www.city.hanno.lg.jp",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -400,20 +230,6 @@
    "name": "加須市",
    "official_site": "https://www.city.kazo.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0480-62-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kazo.lg.jp/",
-     "evidence": "加須市役所 〒347-8501 埼玉県加須市三俣二丁目1番地1 電話番号:0480-62-1111(代表)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "found",
@@ -440,8 +256,11 @@
      "hours": null,
      "source_url": "https://www.city.kazo.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -451,16 +270,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0495-25-1111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "367-8501",
+     "postal_address": "埼玉県本庄市本庄3丁目5番3号",
      "hours": null,
      "source_url": "https://www.city.honjo.lg.jp/",
-     "evidence": null,
+     "evidence": "本庄市 Honjo City 法人番号…玉県本庄市本庄3丁目5番3号 電話番号:0495-25-1111(代表)",
      "note": null
     },
     {
@@ -475,7 +294,7 @@
      "hours": null,
      "source_url": "https://www.city.honjo.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -489,7 +308,7 @@
      "hours": null,
      "source_url": "https://www.city.honjo.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -497,49 +316,11 @@
    "code": "112127",
    "name": "東松山市",
    "official_site": "https://www.city.higashimatsuyama.lg.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0493-23-2221",
-     "email": null,
-     "form_url": null,
-     "postal_code": "355-8601",
-     "postal_address": "埼玉県東松山市松葉町1-1-58",
-     "hours": null,
-     "source_url": "https://www.city.higashimatsuyama.lg.jp/",
-     "evidence": "東松山市役所〒355-8601 埼玉県東松山市松葉町1-1-58Tel:0493-23-2221(代表)Fax:",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0493-21-1418",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.higashimatsuyama.lg.jp/adv/ba.php?id=165",
-     "evidence": "議会事務局 埼玉県東松山市松葉町1-1-58 東松山市役所本庁舎3階 Tel:0493-21-1418Fax:0493",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報広聴課広報広聴課",
-     "phone": "0493-21-1410",
-     "email": null,
-     "form_url": "https://www.city.higashimatsuyama.lg.jp/form/detail.php?sec_sec1=6&lif_id=4302",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.higashimatsuyama.lg.jp/soshiki/6/4302.html",
-     "evidence": "広報広聴課広報広聴課 〒355-8601埼玉県東松山市松葉町1-1-58 Tel:0493-21-1410Fax:0493",
-     "note": null
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -547,20 +328,6 @@
    "name": "春日部市",
    "official_site": "https://www.city.kasukabe.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "048-736-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "344-8577",
-     "postal_address": "埼玉県春日部市中央七丁目2番地1",
-     "hours": null,
-     "source_url": "https://www.city.kasukabe.lg.jp/",
-     "evidence": "春日部市役所 法人番号400002011…埼玉県春日部市中央七丁目2番地1 電話番号:048-736-1111(代表)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "found",
@@ -576,96 +343,33 @@
      "note": null
     },
     {
-     "type": "education",
-     "agent_status": "found",
-     "department": "春日部市教育委員会",
-     "phone": "048-736-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "344-8577",
-     "postal_address": "埼玉県春日部市中央七丁目2番地1春日部市教育委員会事務局",
-     "hours": null,
-     "source_url": "https://www.city.kasukabe.lg.jp/kosodate_kyoiku_bunka/kyoikuiinkai/index.html",
-     "evidence": "春日部市教育委員会事務局電話番号 048-736-1111(代表)ファック",
-     "note": null
-    },
-    {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "広報広聴担当",
+     "phone": "048-736-1120",
      "email": null,
-     "form_url": null,
+     "form_url": "https://www.city.kasukabe.lg.jp/cgi-bin/inquiry.php/205?page_no=6652",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.kasukabe.lg.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.city.kasukabe.lg.jp/shiseijoho/kocho/6652.html",
+     "evidence": "広報広聴担当 所在地:〒344-8577 春日部市中央七丁目2番地1 電話(直通):048-736-1120",
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
    "code": "112151",
    "name": "狭山市",
    "official_site": "https://www.city.sayama.saitama.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "04-2953-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.sayama.saitama.jp/",
-     "evidence": "狭山市役所 法人番号4000020112…埼玉県狭山市入間川1丁目23番5号 電話:04-2953-1111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "狭山市議会",
-     "phone": "04-2953-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "350-1380",
-     "postal_address": "埼玉県狭山市入間川1丁目23番5号",
-     "hours": null,
-     "source_url": "https://www.city.sayama.saitama.jp/gikai/index.html",
-     "evidence": "議会 SAYAMA CITY COUNC…埼玉県狭山市入間川1丁目23番5号 電話:04-2953-1111(内線3311・",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務課",
-     "phone": "04-2946-8472",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.sayama.saitama.jp/shisei/shinososhiki/kakuka/index.html",
-     "evidence": "教育総務課 教育行政の総合調整に関することなど 04-2946-8472",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報課",
-     "phone": "04-2935-3765",
-     "email": null,
-     "form_url": "https://logoform.jp/form/6LWm/713883",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.sayama.saitama.jp/shisei/kouhou/koucho/index.html",
-     "evidence": "広報課 狭山市入間川1丁目23番5号 電話:04-2935-3765",
-     "note": null
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -673,20 +377,6 @@
    "name": "羽生市",
    "official_site": "https://www.city.hanyu.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "048-561-1121",
-     "email": null,
-     "form_url": null,
-     "postal_code": "348-8601",
-     "postal_address": "埼玉県羽生市東6丁目15番地",
-     "hours": null,
-     "source_url": "https://www.city.hanyu.lg.jp/",
-     "evidence": "羽生市役所 〒348-8601 埼玉県羽生市東6丁目15番地 TEL:048-561-1121(代表)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -702,20 +392,6 @@
      "note": null
     },
     {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務課",
-     "phone": "048-561-1121",
-     "email": "kyousoumu@city.hanyu.lg.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.hanyu.lg.jp/docs/2014100100087/",
-     "evidence": "教育総務課 住所:埼玉県羽生市東6丁目15番地 TEL:048-561-1121",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -727,8 +403,11 @@
      "hours": null,
      "source_url": "https://www.city.hanyu.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -751,159 +430,44 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会総務課",
-     "phone": "048-541-1321",
-     "email": null,
-     "form_url": null,
-     "postal_code": "365-8601",
-     "postal_address": "埼玉県鴻巣市中央1-1",
-     "hours": null,
-     "source_url": "https://www.city.kounosu.saitama.jp/site/gikai/",
-     "evidence": "議会総務課 〒365-8601埼玉県鴻巣市中央1-1(本庁舎5階) Tel:048-541-1321Fax:048-",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育部教育総務課総務担当",
-     "phone": "048-541-1321",
-     "email": null,
-     "form_url": null,
-     "postal_code": "365-8601",
-     "postal_address": "埼玉県鴻巣市中央1-1",
-     "hours": null,
-     "source_url": "https://www.city.kounosu.saitama.jp/site/konosu-education/",
-     "evidence": "教育部教育総務課総務担当 〒365-8601埼玉県鴻巣市中央1-1(本庁舎3階) Tel:048-541-1321Fax:048-",
-     "note": null
-    },
-    {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "市長政策室秘書課広聴広報担当",
+     "phone": "048-541-1321",
      "email": null,
-     "form_url": null,
+     "form_url": "https://www.city.kounosu.saitama.jp/form/detail.php?sec_sec1=53&inq=04&lif_id=37131",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.kounosu.saitama.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.city.kounosu.saitama.jp/site/mayor/3021.html",
+     "evidence": "市長政策室秘書課広聴広報担当 〒365-…埼玉県鴻巣市中央1-1(新館2階) Tel:048-541-1321Fax:048-",
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
    "code": "112186",
    "name": "深谷市",
    "official_site": "https://www.city.fukaya.saitama.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "048-571-1211",
-     "email": null,
-     "form_url": null,
-     "postal_code": "366-8501",
-     "postal_address": "埼玉県深谷市仲町11番1号",
-     "hours": null,
-     "source_url": "https://www.city.fukaya.saitama.jp/",
-     "evidence": "深谷市役所 〒366-8501 埼玉県深谷市仲町11番1号 電話:048-571-1211(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "048-574-6662",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.fukaya.saitama.jp/gikai/index.html",
-     "evidence": "議会事務局 〒366-8501 埼玉県深谷市仲町11-1 電話番号:048-574-6662",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "秘書課",
-     "phone": "048-574-6631",
-     "email": null,
-     "form_url": "https://www.city.fukaya.saitama.jp/cgi-bin/inquiry.php/70?page_no=11791",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.fukaya.saitama.jp/shisei/kohokocho/kocho/1391041870340.html",
-     "evidence": "秘書課 〒366-8501 埼玉県深谷市仲町11-1 電話:048-574-6631",
-     "note": null
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
    "code": "112194",
    "name": "上尾市",
    "official_site": "https://www.city.ageo.lg.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "048-775-5111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "362-8501",
-     "postal_address": "埼玉県上尾市本町三丁目1番1号",
-     "hours": null,
-     "source_url": "https://www.city.ageo.lg.jp/",
-     "evidence": "市役所のアクセス・開庁時間) 〒362-8501 埼玉県上尾市本町三丁目1番1号 電話048-775-5111(代表)組織別電",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "上尾市議会",
-     "phone": "048-775-9452",
-     "email": null,
-     "form_url": null,
-     "postal_code": "362-8501",
-     "postal_address": "埼玉県上尾市本町3-1-1",
-     "hours": null,
-     "source_url": "https://www.city.ageo.lg.jp/site/shigikai/",
-     "evidence": "議会 〒362-8501 埼玉県上尾市本町3-1-1Tel:048-775-9452Fax:048-",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務部教育総務課",
-     "phone": "048-775-9469",
-     "email": null,
-     "form_url": null,
-     "postal_code": "362-8501",
-     "postal_address": "上尾市本町3-1-1 本庁舎 7階",
-     "hours": null,
-     "source_url": "https://www.city.ageo.lg.jp/site/iinkai/",
-     "evidence": "教育総務部教育総務課 〒362-8501…1 本庁舎 7階 庶務・ICT担当 Tel:048-775-9469",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報広聴課",
-     "phone": "048-775-4918",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.ageo.lg.jp/page/4-hagaki.html",
-     "evidence": "広報広聴課 〒362-8501上尾市本町3-1-1 本庁舎 3階 直通 Tel:048-775-4918",
-     "note": null
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -913,16 +477,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "048-922-0151",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "340-8550",
+     "postal_address": "埼玉県草加市高砂1丁目1番1号",
      "hours": null,
      "source_url": "https://www.city.soka.saitama.jp/",
-     "evidence": null,
+     "evidence": "草加市 SOKA CITY 郵便番号:…埼玉県草加市高砂1丁目1番1号 電話番号:048-922-0151(代表) ファク",
      "note": null
     },
     {
@@ -949,9 +513,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.soka.saitama.jp/",
+     "source_url": "https://www.city.soka.saitama.jp/li/060/050/index.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
    ]
   },
@@ -959,49 +523,11 @@
    "code": "112224",
    "name": "越谷市",
    "official_site": "https://www.city.koshigaya.saitama.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "048-964-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.koshigaya.saitama.jp/",
-     "evidence": "越谷市役所 〒343-8501 埼玉県越谷市越ヶ谷四丁目2番1号 電話:048-964-2111(代表) ファク",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "048-963-9261",
-     "email": null,
-     "form_url": null,
-     "postal_code": "343-8501",
-     "postal_address": "埼玉県越谷市越ヶ谷四丁目2番1号",
-     "hours": null,
-     "source_url": "https://www.city.koshigaya.saitama.jp/gikai/index.html",
-     "evidence": "議会事務局 〒343-8501 埼玉県越谷市越ヶ谷四丁目2番1号 電話:048-963-9261 ファクス:04",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広聴担当",
-     "phone": "048-963-9336",
-     "email": null,
-     "form_url": "https://www.city.koshigaya.saitama.jp/toiawase/toiawase.html",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.koshigaya.saitama.jp/kurashi_shisei/shisei/koho/kocho/siminnnoteiannseido.html",
-     "evidence": "広聴担当(本庁舎3階) 電話:048-963-9336",
-     "note": null
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -1009,20 +535,6 @@
    "name": "蕨市",
    "official_site": "https://www.city.warabi.saitama.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "048-432-3200",
-     "email": null,
-     "form_url": null,
-     "postal_code": "335-8501",
-     "postal_address": "埼玉県蕨市中央5丁目14番15号",
-     "hours": null,
-     "source_url": "https://www.city.warabi.saitama.jp/",
-     "evidence": "蕨市役所 〒335-8501 埼玉県蕨市中央5丁目14番15号 代表電話:048-432-3200",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "fetch_failed",
@@ -1051,6 +563,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -1073,34 +588,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "048-441-1800",
-     "email": null,
-     "form_url": null,
-     "postal_code": "335-8588",
-     "postal_address": "埼玉県戸田市上戸田1丁目18番1号",
-     "hours": null,
-     "source_url": "https://www2.city.toda.saitama.jp/gikai/",
-     "evidence": "議会事務局 住所 〒335-8588 埼玉県戸田市上戸田1丁目18番1号 電話番号 048-441-1800",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務課",
-     "phone": "048-424-9582",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.toda.saitama.jp/soshiki/",
-     "evidence": "教育総務課 電話:048-424-9582(直通)(総務担",
-     "note": "同じ組織のほかの番号：048-424-9584"
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -1114,6 +601,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   }
  ]

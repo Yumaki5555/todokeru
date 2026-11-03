@@ -6,11 +6,25 @@
   {
    "code": "352012",
    "name": "下関市",
-   "official_site": "https://www.city.shimonoseki.lg.jp/www/toppage/0000000000000/APM03000.html",
+   "official_site": "https://www.city.shimonoseki.lg.jp/",
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "083-231-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "750-8521",
+     "postal_address": "山口県下関市南部町1番1号",
+     "hours": null,
+     "source_url": "https://www.city.shimonoseki.lg.jp/",
+     "evidence": "下関市 〒750-8521 山口県下関市南部町1番1号 083-231-1111(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -18,36 +32,22 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.shimonoseki.lg.jp/www/toppage/0000000000000/APM03000.html",
+     "source_url": "https://www.city.shimonoseki.lg.jp/site/gikai/",
      "evidence": null,
      "note": null
     },
     {
      "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "秘書課報道広聴室",
+     "phone": "083-242-0801",
      "email": null,
-     "form_url": null,
+     "form_url": "https://www.city.shimonoseki.lg.jp/form/detail.php?sec_sec1=2&lif_id=162780",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.shimonoseki.lg.jp/www/toppage/0000000000000/APM03000.html",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.shimonoseki.lg.jp/www/toppage/0000000000000/APM03000.html",
-     "evidence": null,
+     "source_url": "https://www.city.shimonoseki.lg.jp/soshiki/2/4715.html",
+     "evidence": "秘書課報道広聴室(電話番号:083-242-0801)にご連絡をお願",
      "note": null
     }
    ]
@@ -59,109 +59,33 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0836-31-4111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.city.ube.yamaguchi.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "宇部市議会",
-     "phone": "0836-34-8812",
-     "email": null,
-     "form_url": null,
-     "postal_code": "755-8601",
-     "postal_address": "宇部市常盤町一丁目7番1号",
-     "hours": null,
-     "source_url": "https://www.city.ube.yamaguchi.jp/shisei/1006704/index.html",
-     "evidence": "議会運営、請願・陳情の受付、視察対応、その他議事・調査等に関すること 電話番号:0836-34-8812 ファクス番号:",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報広聴課",
-     "phone": "0836-34-8123",
-     "email": null,
-     "form_url": "https://www.city.ube.yamaguchi.jp/cgi-bin/enquetes/d5ccf8e2dced4d42a9dd9855e3488b80",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.ube.yamaguchi.jp/shisei/kouhou/ikenchoushuu/1021688/index.html",
-     "evidence": "広報広聴課 〒755-8601 宇部市…、報道機関との連絡に関すること 電話番号:0836-34-8123 ファクス番号:",
+     "evidence": "〒755-8601 宇部市常盤町一丁目7番1号 電話番号:0836-31-4111(代表)",
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
    "code": "352039",
    "name": "山口市",
    "official_site": "https://www.city.yamaguchi.lg.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "083-922-4111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "753-8650",
-     "postal_address": "山口市亀山町2番1号",
-     "hours": null,
-     "source_url": "https://www.city.yamaguchi.lg.jp/",
-     "evidence": "山口市役所 法人番号2000020352…53-8650 山口市亀山町2番1号 電話:083-922-4111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "山口市議会",
-     "phone": "083-934-2854",
-     "email": null,
-     "form_url": null,
-     "postal_code": "753-8650",
-     "postal_address": "山口県山口市亀山町2番1号",
-     "hours": null,
-     "source_url": "https://www.city.yamaguchi.lg.jp/site/gikai/",
-     "evidence": "議会 〒753-8650山口県山口市亀山町2番1号 Tel:083-934-2854Fax:083-",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務課",
-     "phone": "083-934-2859",
-     "email": null,
-     "form_url": null,
-     "postal_code": "753-8650",
-     "postal_address": "山口市亀山町2番1号 山口市役所2階",
-     "hours": null,
-     "source_url": "https://www.city.yamaguchi.lg.jp/adv/ba.php?id=22",
-     "evidence": "教育総務課 〒753-8650 山口市亀山町2番1号 山口市役所2階 代表 Tel:083-934-2859",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市民相談担当",
-     "phone": "083-934-2753",
-     "email": null,
-     "form_url": "https://www.city.yamaguchi.lg.jp/form/detail.php?sec_sec1=16",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.yamaguchi.lg.jp/soshiki/16/",
-     "evidence": "市民相談担当) Tel:083-934-2753(広報担当)",
-     "note": null
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -169,34 +93,6 @@
    "name": "萩市",
    "official_site": "https://www.city.hagi.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0838-25-3131",
-     "email": null,
-     "form_url": null,
-     "postal_code": "758-8555",
-     "postal_address": "山口県萩市大字江向510番地",
-     "hours": null,
-     "source_url": "https://www.city.hagi.lg.jp/",
-     "evidence": "役所への行き方) 〒758-8555 山口県萩市大字江向510番地 0838-25-3131(代表)組織別問",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0838-25-3144",
-     "email": null,
-     "form_url": null,
-     "postal_code": "758-8555",
-     "postal_address": "山口県萩市大字江向510番地",
-     "hours": null,
-     "source_url": "https://www.city.hagi.lg.jp/site/gikai/",
-     "evidence": "議会事務局 〒758-8555 山口県萩市大字江向510番地 総務管理係 Tel:0838-25-3144",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -211,55 +107,21 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
    "code": "352063",
    "name": "防府市",
    "official_site": "https://www.city.hofu.yamaguchi.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0835-23-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "747-8501",
-     "postal_address": "山口県防府市寿町7番1号",
-     "hours": null,
-     "source_url": "https://www.city.hofu.yamaguchi.jp/",
-     "evidence": "防府市役所 法人番号:200002035…7-8501 山口県防府市寿町7番1号 電話0835-23-2111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "防府市議会",
-     "phone": "0835-25-2182",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.hofu.yamaguchi.jp/site/sigikai/",
-     "evidence": "議会棟) 電話(0835)25-2182 Fax(083",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市長への提言",
-     "phone": null,
-     "email": null,
-     "form_url": "https://logoform.jp/form/cJ9c/213819",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.hofu.yamaguchi.jp/soshiki/113/shichou-teigen.html",
-     "evidence": "リンク「市長への提言」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -267,20 +129,6 @@
    "name": "下松市",
    "official_site": "https://www.city.kudamatsu.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0833-45-1700",
-     "email": null,
-     "form_url": null,
-     "postal_code": "744-8585",
-     "postal_address": "山口県下松市大手町3-3-3",
-     "hours": null,
-     "source_url": "https://www.city.kudamatsu.lg.jp/",
-     "evidence": "下松市役所〒744-8585 山口県下松市大手町3-3-3電話:0833-45-1700(代表)※開庁日",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -294,35 +142,11 @@
      "source_url": "https://www.city.kudamatsu.lg.jp/gikai/index.html",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務課管理係",
-     "phone": "0833-45-1866",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kudamatsu.lg.jp/kyo-soumu/index.html",
-     "evidence": "教育総務課管理係 山口県下松市大手町3丁目3番3号 電話番号:0833-45-1866",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "秘書課秘書係",
-     "phone": "0833-45-1801",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kudamatsu.lg.jp/kikaku/hisyo/goiken.html",
-     "evidence": "秘書課秘書係 山口県下松市大手町3丁目3番3号 電話番号:0833-45-1801",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "feedback",
+    "general"
    ]
   },
   {
@@ -332,35 +156,35 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0827-29-5000",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "740-8585",
+     "postal_address": "山口県岩国市今津町1丁目14-51",
      "hours": null,
      "source_url": "https://www.city.iwakuni.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.iwakuni.lg.jp/",
-     "evidence": null,
+     "evidence": "岩国市役所 (法人番号100002035…岩国市今津町1丁目14-51(地図)Tel:0827-29-5000(代表) | 各",
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "岩国市議会",
+     "phone": "0827-29-5190",
+     "email": null,
+     "form_url": null,
+     "postal_code": "740-8585",
+     "postal_address": "山口県岩国市今津町一丁目14-51 岩国市役所6階",
+     "hours": null,
+     "source_url": "http://www.iwakunishigikai.jp/",
+     "evidence": "議会 〒740-8585 山口県岩国市…丁目14-51 岩国市役所6階 TEL/0827-29-5190 FAX/082",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -368,7 +192,7 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.iwakuni.lg.jp/",
+     "source_url": "https://www.city.iwakuni.lg.jp/life/4/23/",
      "evidence": null,
      "note": null
     }
@@ -392,35 +216,11 @@
      "source_url": "https://www.city.hikari.lg.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0833-72-1611",
-     "email": null,
-     "form_url": null,
-     "postal_code": "743-8501",
-     "postal_address": "光市中央六丁目1番1号",
-     "hours": null,
-     "source_url": "https://www.city.hikari.lg.jp/shisei/shimin/shigikai/8724.html",
-     "evidence": "議会事務局 住所:〒743-8501 光市中央六丁目1番1号 電話番号:0833-72-1611(議事係)、16",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市民相談係",
-     "phone": "0833-72-1452",
-     "email": "seikatsuanzen@city.hikari.lg.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.hikari.lg.jp/soshiki/1/johosuishin/938.html",
-     "evidence": "市民相談係 住所:〒743-8501 光市中央六丁目1番1号 電話番号:0833-72-1452",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -428,34 +228,6 @@
    "name": "長門市",
    "official_site": "https://www.city.nagato.yamaguchi.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0837-22-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "759-4192",
-     "postal_address": "山口県長門市東深川1339番地2",
-     "hours": null,
-     "source_url": "https://www.city.nagato.yamaguchi.jp/",
-     "evidence": "長門市役所 法人番号5000020352… 山口県長門市東深川1339番地2 Tel:0837-22-2111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0837-23-1248",
-     "email": null,
-     "form_url": null,
-     "postal_code": "759-4192",
-     "postal_address": "長門市東深川1339番地2",
-     "hours": null,
-     "source_url": "https://www.city.nagato.yamaguchi.jp/adv/ba.php?id=24",
-     "evidence": "議会事務局 〒759-4192長門市東深川1339番地2 Tel:0837‐23‐1248Fax:0837",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -468,8 +240,12 @@
      "hours": null,
      "source_url": "https://www.city.nagato.yamaguchi.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -479,35 +255,49 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0820-22-2111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.city-yanai.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city-yanai.jp/",
-     "evidence": null,
+     "evidence": "柳井市役所 法人番号 400002035…口県柳井市南町一丁目10番2号 Tel : 0820-22-2111(代表)Fax",
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "議会事務局議会事務局",
+     "phone": "0820-22-2129",
+     "email": null,
+     "form_url": null,
+     "postal_code": "742-8714",
+     "postal_address": "山口県柳井市南町一丁目10番2号 庁舎5階",
+     "hours": null,
+     "source_url": "https://www.city-yanai.jp/site/shigikai/seigan.html",
+     "evidence": "議会事務局議会事務局 〒742-8714山口県柳井市南町一丁目10番2号 庁舎5階 Tel:0820-22-2129",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育総務課教育総務課",
+     "phone": "0820-25-2422",
+     "email": null,
+     "form_url": null,
+     "postal_code": "742-0021",
+     "postal_address": "山口県柳井市柳井3670番地1",
+     "hours": null,
+     "source_url": "https://www.city-yanai.jp/soshiki/68/kyoikuiinkaikaigiroku.html",
+     "evidence": "教育総務課教育総務課 〒742-0021山口県柳井市柳井3670番地1 Tel:0820-25-2422Fax:0820",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -515,7 +305,7 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city-yanai.jp/",
+     "source_url": "https://www.city-yanai.jp/soshiki/3/menu-ikentoiawase.html",
      "evidence": null,
      "note": null
     }
@@ -524,11 +314,11 @@
   {
    "code": "352136",
    "name": "美祢市",
-   "official_site": "https://www2.city.mine.lg.jp/www/toppage/0000000000000/APM03000.html",
+   "official_site": "https://www2.city.mine.lg.jp/",
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -536,27 +326,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www2.city.mine.lg.jp/www/toppage/0000000000000/APM03000.html",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www2.city.mine.lg.jp/www/toppage/0000000000000/APM03000.html",
+     "source_url": "https://www2.city.mine.lg.jp/",
      "evidence": null,
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -564,9 +340,23 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www2.city.mine.lg.jp/www/toppage/0000000000000/APM03000.html",
+     "source_url": "https://www2.city.mine.lg.jp/gyosei/shigikai/index.html",
      "evidence": null,
      "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www2.city.mine.lg.jp/",
+     "evidence": null,
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -577,60 +367,22 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.shunan.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
      "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0834-22-8503",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.shunan.lg.jp/site/gk/",
-     "evidence": "議会事務局 議事担当 Tel:0834-22-8503",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育政策担当",
-     "phone": "0834-22-8532",
+     "department": "代表電話",
+     "phone": "0834-22-8211",
      "email": null,
      "form_url": null,
      "postal_code": "745-8655",
      "postal_address": "山口県周南市岐山通1-1",
      "hours": null,
-     "source_url": "https://www.city.shunan.lg.jp/site/ed/1664.html",
-     "evidence": "教育政策担当 Tel:0834-22-8532",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報広聴担当",
-     "phone": "0834-22-8232",
-     "email": null,
-     "form_url": "https://www.city.shunan.lg.jp/form/detail.php?sec_sec1=3&lif_id=111920",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.shunan.lg.jp/soshiki/3/111920.html",
-     "evidence": "広報広聴担当 Tel:0834-22-8232",
+     "source_url": "https://www.city.shunan.lg.jp/",
+     "evidence": "周南市役所法人番号40000203521…-8655 山口県周南市岐山通1-1 電話:0834-22-8211 ファクス:08",
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -640,46 +392,22 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.sanyo-onoda.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
      "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0836-82-1182",
+     "department": "代表電話",
+     "phone": "0836-82-1111",
      "email": null,
      "form_url": null,
      "postal_code": "756-8601",
-     "postal_address": "山口県山陽小野田市日の出一丁目1番1号 庁舎3階",
+     "postal_address": "山口県山陽小野田市日の出一丁目1番1号",
      "hours": null,
-     "source_url": "https://www.city.sanyo-onoda.lg.jp/site/sigikai/",
-     "evidence": "議会事務局 〒756-8601山口県山陽小野田市日の出一丁目1番1号 庁舎3階 代表 Tel:0836-82-1182",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市民相談係",
-     "phone": "0836-82-1133",
-     "email": null,
-     "form_url": "https://www.city.sanyo-onoda.lg.jp/form/detail.php?sec_sec1=84&inq=03&lif_id=158237",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.sanyo-onoda.lg.jp/soshiki/84/minasannokoe.html",
-     "evidence": "市民相談係 Tel:0836-82-1133",
+     "source_url": "https://www.city.sanyo-onoda.lg.jp/",
+     "evidence": "6-8601 山口県山陽小野田市日の出一丁目1番1号 電話:0836-82-1111(代表)Fax:",
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -688,34 +416,6 @@
    "official_site": "https://www.town.suo-oshima.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0820-74-1000",
-     "email": null,
-     "form_url": null,
-     "postal_code": "742-2192",
-     "postal_address": "山口県大島郡周防大島町大字小松126-2",
-     "hours": null,
-     "source_url": "https://www.town.suo-oshima.lg.jp/",
-     "evidence": "周防大島町役場 〒742-2192 山口県大島郡周防大島町大字小松126-2 電話:0820-74-1000(代表)/Fax",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局議事課",
-     "phone": "0820-74-1003",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.suo-oshima.lg.jp/site/gikai/14007.html",
-     "evidence": "議会事務局議事課議事班 Tel:0820-74-1003Fax:0820",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -725,10 +425,14 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.suo-oshima.lg.jp/",
+     "source_url": "https://www.town.suo-oshima.lg.jp/life/4/26/96/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -738,35 +442,35 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0827-52-2135",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "740-8501",
+     "postal_address": "山口県玖珂郡和木町和木1丁目1番1号",
      "hours": null,
      "source_url": "https://www.town.waki.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.waki.lg.jp/",
-     "evidence": null,
+     "evidence": "和木町役場 法人番号8000020353…口県玖珂郡和木町和木1丁目1番1号 Tel:0827-52-2135(代表) Fax",
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0827-52-2137",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.waki.lg.jp/site/gikai/332.html",
+     "evidence": "議会事務局代表 〒740-8501 山口県玖珂郡和木町和木1丁目1番1号Tel:0827-52-2137Fax:0827",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -774,7 +478,7 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.waki.lg.jp/",
+     "source_url": "https://www.town.waki.lg.jp/soshiki/",
      "evidence": null,
      "note": null
     }
@@ -787,6 +491,20 @@
    "contacts": [
     {
      "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0820-62-0311",
+     "email": null,
+     "form_url": null,
+     "postal_code": "742-1402",
+     "postal_address": "山口県熊毛郡上関町大字長島448番地",
+     "hours": null,
+     "source_url": "https://www.town.kaminoseki.lg.jp/",
+     "evidence": "上関町役場 〒742-1402 山口県熊毛郡上関町大字長島448番地 電話/0820-62-0311 FAX/082",
+     "note": null
+    },
+    {
+     "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
@@ -796,6 +514,30 @@
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.town.kaminoseki.lg.jp/",
+     "evidence": null,
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly"
+   ]
+  },
+  {
+   "code": "353434",
+   "name": "田布施町",
+   "official_site": "https://www.town.tabuse.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.tabuse.lg.jp/",
      "evidence": null,
      "note": null
     },
@@ -803,78 +545,29 @@
      "type": "assembly",
      "agent_status": "found",
      "department": "議会事務局",
-     "phone": "0820-62-0364",
+     "phone": "0820-52-5800",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "742-1592",
+     "postal_address": "山口県熊毛郡田布施町大字下田布施3440番地1",
      "hours": null,
-     "source_url": "https://www.town.kaminoseki.lg.jp/%e7%b5%84%e7%b9%94%e5%9b%b3%e3%83%bb%e9%80%a3%e7%b5%a1%e5%85%88.html",
-     "evidence": "議会事務局 0820-62-0364",
+     "source_url": "https://www.town.tabuse.lg.jp/site/gikai/",
+     "evidence": "議会事務局代表 〒742-1592山口県熊毛郡田布施町大字下田布施3440番地1 Tel:0820-52-5800Fax:0820",
      "note": null
     },
     {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
+     "agent_status": "found",
+     "department": "町政へのご意見・ご提案はこちらから",
      "phone": null,
      "email": null,
-     "form_url": null,
+     "form_url": "https://www.town.tabuse.lg.jp/form/detail.php?sec_sec1=3&lif_id=1862",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.kaminoseki.lg.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
-    }
-   ]
-  },
-  {
-   "code": "353434",
-   "name": "田布施町",
-   "official_site": "https://www.town.tabuse.lg.jp/www/index.html",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.tabuse.lg.jp/www/index.html",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.tabuse.lg.jp/www/index.html",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.tabuse.lg.jp/www/index.html",
-     "evidence": null,
-     "note": null
+     "source_url": "https://www.town.tabuse.lg.jp/soshiki/3/1862.html",
+     "evidence": "リンク「ご意見・ご提案」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
    ]
   },
@@ -898,34 +591,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0820-56-7110",
-     "email": null,
-     "form_url": null,
-     "postal_code": "742-1195",
-     "postal_address": "山口県熊毛郡平生町大字平生町210-1",
-     "hours": null,
-     "source_url": "https://www.town.hirao.lg.jp/soshiki/gikai/gikai/index.html",
-     "evidence": "議会事務局 〒742-1195 山口県熊毛郡平生町大字平生町210-1 電話番号:0820-56-7110",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会",
-     "phone": "0820-56-6083",
-     "email": null,
-     "form_url": null,
-     "postal_code": "742-1195",
-     "postal_address": "山口県熊毛郡平生町大字平生町210-1",
-     "hours": null,
-     "source_url": "https://www.town.hirao.lg.jp/kosodate/3061.html",
-     "evidence": "教育委員会 〒742-1195 山口県熊毛郡平生町大字平生町210-1 電話番号:0820-56-6083",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -937,8 +602,11 @@
      "hours": null,
      "source_url": "https://www.town.hirao.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -986,7 +654,7 @@
      "hours": null,
      "source_url": "https://www.town.abu.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   }

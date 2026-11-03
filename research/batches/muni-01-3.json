@@ -10,30 +10,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0136-33-2211",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "044-0292",
+     "postal_address": "北海道虻田郡喜茂別町字喜茂別123番地",
      "hours": null,
      "source_url": "https://www.town.kimobetsu.hokkaido.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0136-33-2217",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.kimobetsu.hokkaido.jp/town/detail.php?content=180",
-     "evidence": "議会事務局/議事係 電話番号:直通:0136-33-2217",
+     "evidence": "喜茂別町役場> 〒044-0292 北海…時間 午前8時45分~午後5時30分 電話:0136-33-2211 FAX:013",
      "note": null
     },
     {
@@ -50,6 +36,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -95,9 +84,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town-kyogoku.jp/",
+     "source_url": "https://www.town-kyogoku.jp/life/5/27/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
    ]
   },
@@ -108,7 +97,21 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0136-22-1121",
+     "email": null,
+     "form_url": null,
+     "postal_code": "044-0001",
+     "postal_address": "北海道虻田郡倶知安町北1条東3丁目3番地",
+     "hours": null,
+     "source_url": "https://www.town.kutchan.hokkaido.jp/",
+     "evidence": "倶知安町役場 法人番号400002001…虻田郡倶知安町北1条東3丁目3番地 TEL:0136-22-1121 FAX:013",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -116,13 +119,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.kutchan.hokkaido.jp/",
+     "source_url": "https://www.town.kutchan.hokkaido.jp/gikai/",
      "evidence": null,
      "note": null
     },
     {
      "type": "feedback",
-     "agent_status": "fetch_failed",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -130,21 +133,7 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.kutchan.hokkaido.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.kutchan.hokkaido.jp/",
+     "source_url": "https://www.town.kutchan.hokkaido.jp/contact/",
      "evidence": null,
      "note": null
     }
@@ -242,9 +231,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.iwanai.hokkaido.jp/",
+     "source_url": "https://www.town.iwanai.hokkaido.jp/%e5%ba%83%e5%a0%b1%e3%81%ab%e5%af%be%e3%81%99%e3%82%8b%e3%81%94%e6%84%8f%e8%a6%8b%e3%83%bb%e3%81%94%e6%84%9f%e6%83%b3%e3%82%92%e3%81%a9%e3%81%86%e3%81%9e/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
    ]
   },
@@ -293,7 +282,7 @@
      "hours": null,
      "source_url": "https://www.vill.tomari.hokkaido.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -342,7 +331,7 @@
      "hours": null,
      "source_url": "https://www.vill.kamoenai.hokkaido.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -377,7 +366,7 @@
      "hours": null,
      "source_url": "https://www.town.shakotan.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -391,7 +380,7 @@
      "hours": null,
      "source_url": "https://www.town.shakotan.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -401,34 +390,6 @@
    "official_site": "https://www.town.furubira.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0135-42-2181",
-     "email": null,
-     "form_url": null,
-     "postal_code": "046-0192",
-     "postal_address": "北海道古平郡古平町大字浜町50番地 古平町役場",
-     "hours": null,
-     "source_url": "https://www.town.furubira.lg.jp/",
-     "evidence": "古平町役場 【電話】 0135-42-2181(代表) 【FA",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0135-42-2170",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.furubira.lg.jp/town/detail.php?id=60",
-     "evidence": "議会事務局 TEL:0135-42-2170 FAX:013",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -440,8 +401,12 @@
      "hours": null,
      "source_url": "https://www.town.furubira.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -451,44 +416,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0135-32-2511",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "048-2492",
+     "postal_address": "北海道余市郡仁木町西町1丁目36番地1",
      "hours": null,
      "source_url": "https://www.town.niki.hokkaido.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0135-32-3954",
-     "email": null,
-     "form_url": null,
-     "postal_code": "048-2492",
-     "postal_address": "北海道余市郡仁木町西町1丁目36番地1",
-     "hours": null,
-     "source_url": "https://www.town.niki.hokkaido.jp/section/gikai/index.html",
-     "evidence": "議会事務局 総務議事係 住所:郵便番号048-2492 北海道余市郡仁木町西町1丁目36番地1 電話番号:0135-32-3954",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会",
-     "phone": "0135-32-3621",
-     "email": "kyouiku02-niki@town.niki.hokkaido.jp",
-     "form_url": null,
-     "postal_code": "048-2492",
-     "postal_address": "北海道余市郡仁木町西町1丁目36番地1",
-     "hours": null,
-     "source_url": "https://www.town.niki.hokkaido.jp/section/index.html",
-     "evidence": "教育委員会のページ 住所:郵便番号048…余市郡仁木町西町1丁目36番地1 電話番号:0135-32-3621",
+     "evidence": "仁木町 各課のお問い合わせ一覧 〒048…海道余市郡仁木町西町1丁目36番地1 電話:0135-32-2511(代表)",
      "note": null
     },
     {
@@ -503,8 +440,11 @@
      "hours": null,
      "source_url": "https://www.town.niki.hokkaido.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -513,34 +453,6 @@
    "official_site": "https://www.town.yoichi.hokkaido.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0135-21-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "046-8546",
-     "postal_address": "北海道余市郡余市町朝日町26番地",
-     "hours": null,
-     "source_url": "https://www.town.yoichi.hokkaido.jp/",
-     "evidence": "余市町役場 〒046-8546 北海道余市郡余市町朝日町26番地 TEL:0135-21-2111(代表) FAX",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0135-21-2132",
-     "email": "giji.gki@town.yoichi.hokkaido.jp",
-     "form_url": null,
-     "postal_code": "046-8546",
-     "postal_address": "北海道余市郡余市町朝日町26番地",
-     "hours": null,
-     "source_url": "https://www.town.yoichi.hokkaido.jp/gikai/index.html",
-     "evidence": "議会事務局 〒046-8546 北海道余市郡余市町朝日町26番地 TEL : 0135-21-2132 (直通) /",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -552,8 +464,12 @@
      "hours": null,
      "source_url": "https://www.town.yoichi.hokkaido.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -615,7 +531,7 @@
      "hours": null,
      "source_url": "https://www.akaigawa.com/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -672,63 +588,11 @@
    "code": "014249",
    "name": "奈井江町",
    "official_site": "https://www.town.naie.hokkaido.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0125-65-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "079-0392",
-     "postal_address": "北海道空知郡奈井江町字奈井江11番地",
-     "hours": null,
-     "source_url": "https://www.town.naie.hokkaido.jp/",
-     "evidence": "奈井江町役場 〒079-0392 北海道空知郡奈井江町字奈井江11番地 電話番号: 0125-65-2111(代表) FAX",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0125-65-2166",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.naie.hokkaido.jp/oshirase/2047/",
-     "evidence": "議会事務局TEL:0125-65-2166FAX:0125",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会",
-     "phone": "0125-65-5381",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.naie.hokkaido.jp/lifestage/education/",
-     "evidence": "教育委員会事務局TEL:0125-65-5381,0125-65",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報協働係",
-     "phone": "0125-65-2112",
-     "email": null,
-     "form_url": "https://www.town.naie.hokkaido.jp/town/tegamitp/form/",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.naie.hokkaido.jp/town/tegamitp/",
-     "evidence": "広報協働係TEL:0125-65-2112FAX:0125",
-     "note": null
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -751,20 +615,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0125-62-2880",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://town.kamisunagawa.hokkaido.jp/gikai_jimukyoku/index.html",
-     "evidence": "議会事務局 電話番号:0125-62-2880",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -774,10 +624,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://town.kamisunagawa.hokkaido.jp/",
+     "source_url": "https://town.kamisunagawa.hokkaido.jp/chosei/koho/index.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -785,20 +638,6 @@
    "name": "由仁町",
    "official_site": "https://www.town.yuni.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0123-83-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "069-1292",
-     "postal_address": "北海道夕張郡由仁町 新光200番地",
-     "hours": null,
-     "source_url": "https://www.town.yuni.lg.jp/",
-     "evidence": "由仁町役場Yuni Town 開庁時間平…海道夕張郡由仁町 新光200番地 TEL.(0123)-83-2111(代表)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -825,8 +664,11 @@
      "hours": null,
      "source_url": "https://www.town.yuni.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -899,21 +741,7 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.kuriyama.hokkaido.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -927,7 +755,21 @@
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0123-73-7517",
+     "email": null,
+     "form_url": null,
+     "postal_code": "069-1512",
+     "postal_address": "北海道夕張郡栗山町松風3丁目252番地",
+     "hours": null,
+     "source_url": "https://www.town.kuriyama.hokkaido.jp/site/gikai/",
+     "evidence": "議会事務局 〒069-1512 北海道夕張郡栗山町松風3丁目252番地 Tel:0123-73-7517(直通)Fax:",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -935,7 +777,7 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.kuriyama.hokkaido.jp/",
+     "source_url": "https://www.town.kuriyama.hokkaido.jp/site/voice/",
      "evidence": null,
      "note": null
     }
@@ -961,20 +803,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0126-53-2321",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.tsukigata.hokkaido.jp/page/1608.html",
-     "evidence": "議会事務局 Tel:0126-53-2321Fax:0126",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -984,10 +812,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.tsukigata.hokkaido.jp/",
+     "source_url": "https://www.town.tsukigata.hokkaido.jp/life/6/25/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -1021,7 +852,7 @@
      "hours": null,
      "source_url": "https://www.town.urausu.hokkaido.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -1035,7 +866,7 @@
      "hours": null,
      "source_url": "https://www.town.urausu.hokkaido.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -1059,20 +890,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0125-76-3191",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.shintotsukawa.lg.jp/hotnews/detail/00000607.html",
-     "evidence": "議会事務局 電話:0125-76-3191",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -1084,8 +901,11 @@
      "hours": null,
      "source_url": "https://www.town.shintotsukawa.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -1119,6 +939,20 @@
      "hours": null,
      "source_url": "https://www.town.moseushi.hokkaido.jp/gikai/index.html",
      "evidence": null,
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育委員会教育課",
+     "phone": "0164-32-2525",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.moseushi.hokkaido.jp/soshiki/school_kyoiku.html",
+     "evidence": "教育委員会教育課学校教育グループ 電話 0164-32-2525 FAX 016",
      "note": null
     },
     {
@@ -1206,20 +1040,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会担当",
-     "phone": "0125-77-2215",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.uryu.hokkaido.jp/docs/4956.html",
-     "evidence": "議会担当 電話: 0125-77-2215",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -1233,6 +1053,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -1255,20 +1078,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0164-34-7035",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.hokuryu.hokkaido.jp/chosei/gikai-gaiyou/",
-     "evidence": "議会事務局 〒078-2512 北海道雨竜郡北竜町字和11番地1 TEL:0164-34-7035",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -1280,8 +1089,11 @@
      "hours": null,
      "source_url": "http://www.town.hokuryu.hokkaido.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -1289,34 +1101,6 @@
    "name": "沼田町",
    "official_site": "https://www.town.numata.hokkaido.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0164-35-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "078-2202",
-     "postal_address": "北海道雨竜郡沼田町南1条3丁目6番53号",
-     "hours": null,
-     "source_url": "https://www.town.numata.hokkaido.jp/",
-     "evidence": "沼田町役場 〒078-2202 北海道雨竜郡沼田町南1条3丁目6番53号 代表電話:0164-35-2111",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "沼田町議会",
-     "phone": "0164-35-2117",
-     "email": "gikai@town.numata.lg.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.numata.hokkaido.jp/section/gikai/ujj7s300000013iy.html",
-     "evidence": "議会 直通電話番号:0164-35-2117",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -1329,8 +1113,12 @@
      "hours": null,
      "source_url": "https://www.town.numata.hokkaido.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -1351,35 +1139,11 @@
      "source_url": "https://www.town.takasu.hokkaido.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0166-74-3660",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.takasu.hokkaido.jp/adv/ba.php?id=8",
-     "evidence": "議会事務局 北海道上川郡鷹栖町南1条3丁目5番1号 Tel:0166-74-3660Fax:0166",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "推進課広報広聴係",
-     "phone": "0166-74-3831",
-     "email": null,
-     "form_url": "https://www.town.takasu.hokkaido.jp/form/detail.php?sec_sec1=3&inq=04&lif_id=3399",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.takasu.hokkaido.jp/page/3399.html",
-     "evidence": "推進課広報広聴係 〒071-1292北海道上川郡鷹栖町南1条3丁目5番1号 Tel:0166-74-3831Fax:0166",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -1387,20 +1151,6 @@
    "name": "東神楽町",
    "official_site": "https://www.town.higashikagura.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0166-83-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.higashikagura.lg.jp/",
-     "evidence": "役場窓口のご案内 アクセス 郵便番号:0…郡東神楽町南1条西1丁目3番2号 代表電話:0166-83-2111",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -1429,6 +1179,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -1449,35 +1202,11 @@
      "source_url": "https://town.tohma.hokkaido.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局議事係",
-     "phone": "0166-84-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.tohma.hokkaido.jp/parliament/1426",
-     "evidence": "議会事務局議事係 〒078-1393 北…郡当麻町3条東2丁目11番1号 電話番号 0166-84-2111",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "町長への手紙",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.town.tohma.hokkaido.jp/form",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.tohma.hokkaido.jp/form/letter-to-the-mayor",
-     "evidence": "リンク「町長への手紙 町長へのご意見はこちら」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -1501,30 +1230,16 @@
     },
     {
      "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.pippu.hokkaido.jp/",
-     "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
-    },
-    {
-     "type": "education",
      "agent_status": "found",
-     "department": "教育委員会",
-     "phone": "0166-85-2262",
-     "email": "kyouiku@town.pippu.hokkaido.jp",
+     "department": "議会事務局",
+     "phone": "0166-85-4808",
+     "email": "ichigo@town.pippu.hokkaido.jp",
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.pippu.hokkaido.jp/cms/section/kyouiku/bpi2up00000002fw.html",
-     "evidence": "教育委員会 電話: 0166-85-2262",
+     "source_url": "https://www.town.pippu.hokkaido.jp/cms/section/gikai/index.html",
+     "evidence": "議会事務局 窓口情報 電話:0166-85-4808",
      "note": null
     },
     {
@@ -1539,7 +1254,7 @@
      "hours": null,
      "source_url": "https://www.town.pippu.hokkaido.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   }

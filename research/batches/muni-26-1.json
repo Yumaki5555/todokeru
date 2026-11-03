@@ -9,20 +9,6 @@
    "official_site": "https://www.city.kyoto.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "075-222-3111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "604-8571",
-     "postal_address": "京都市中京区寺町通御池上る上本能寺前町488番地 市役所へのアクセス組織一覧",
-     "hours": null,
-     "source_url": "https://www.city.kyoto.lg.jp/",
-     "evidence": "市役所へのアクセス組織一覧 電話:075-222-3111(代表)",
-     "note": null
-    },
-    {
      "type": "assembly",
      "agent_status": "auto_not_found",
      "department": null,
@@ -34,22 +20,12 @@
      "hours": null,
      "source_url": "https://www.city.kyoto.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "総合企画局市長公室広報担当",
-     "phone": "075-222-3094",
-     "email": null,
-     "form_url": "https://sc.city.kyoto.lg.jp/multiform/multiform.php?form_id=4514&_ga=2.204663125.47474370.1707789691-432798845.1704936245",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kyoto.lg.jp/sogo/page/0000189443.html",
-     "evidence": "総合企画局市長公室広報担当 電話:075-222-3094",
-     "note": null
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "feedback",
+    "general"
    ]
   },
   {
@@ -58,20 +34,6 @@
    "official_site": "https://www.city.fukuchiyama.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0773-22-6111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "620-8501",
-     "postal_address": "京都府福知山市字内記13番地の1",
-     "hours": null,
-     "source_url": "https://www.city.fukuchiyama.lg.jp/",
-     "evidence": "福知山市役所法人番号 400002026… 京都府福知山市字内記13番地の1 Tel:0773-22-6111(代表)",
-     "note": null
-    },
-    {
      "type": "assembly",
      "agent_status": "auto_not_found",
      "department": null,
@@ -83,7 +45,7 @@
      "hours": null,
      "source_url": "https://www.city.fukuchiyama.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -97,8 +59,11 @@
      "hours": null,
      "source_url": "https://www.city.fukuchiyama.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -108,16 +73,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0773-62-2300",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "625-8555",
+     "postal_address": "京都府舞鶴市字北吸1044番地",
      "hours": null,
      "source_url": "https://www.city.maizuru.kyoto.jp/",
-     "evidence": null,
+     "evidence": "舞鶴市 〒625-8555 京都府舞鶴市字北吸1044番地 電話:0773-62-2300(代表)",
      "note": null
     },
     {
@@ -133,21 +98,10 @@
      "source_url": "https://www.city.maizuru.kyoto.jp/sigikai/index.html",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報広聴課",
-     "phone": "0773-66-1041",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.maizuru.kyoto.jp/shisei/category/3-20-0-0-0-0-0-0-0-0.html",
-     "evidence": "広報広聴課 電話:0773-66-1041",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "feedback"
    ]
   },
   {
@@ -155,20 +109,6 @@
    "name": "綾部市",
    "official_site": "https://www.city.ayabe.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0773-42-3280",
-     "email": null,
-     "form_url": null,
-     "postal_code": "623-8501",
-     "postal_address": "京都府綾部市若竹町8番地の1各課直通ダイアル交通アクセス",
-     "hours": null,
-     "source_url": "https://www.city.ayabe.lg.jp/",
-     "evidence": "綾部市役所(法人番号:300002026…番地の1各課直通ダイアル交通アクセス 電話:0773-42-3280(代表) ファク",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -182,21 +122,11 @@
      "source_url": "https://www.city.ayabe.lg.jp/category/7-23-0-0-0-0-0-0-0-0.html",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広聴担当",
-     "phone": "0773-42-4205",
-     "email": null,
-     "form_url": "https://www.city.ayabe.lg.jp/mailform/inquiry.cgi?so=c6060f2a425039935d21fbff21daaf9dec3225e1&ref=https%3A%2F%2Fwww.city.ayabe.lg.jp%2Fsoshiki%2F1-1-2-0-0_1.html",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.ayabe.lg.jp/soshiki/1-1-2-0-0_7.html",
-     "evidence": "広聴担当 電話: 0773-42-4205 ファクス: 0",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "feedback",
+    "general"
    ]
   },
   {
@@ -219,34 +149,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0774-20-8747",
-     "email": null,
-     "form_url": null,
-     "postal_code": "611-8501",
-     "postal_address": "京都府宇治市宇治琵琶33番地",
-     "hours": null,
-     "source_url": "https://www.city.uji.kyoto.jp/site/gikaijimukyoku/",
-     "evidence": "議会事務局 〒611-8501京都府宇治市宇治琵琶33番地 Tel:0774-20-8747(直通)Fax:",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務課",
-     "phone": "0774-20-8755",
-     "email": null,
-     "form_url": null,
-     "postal_code": "611-8501",
-     "postal_address": "京都府宇治市宇治琵琶33番地",
-     "hours": null,
-     "source_url": "https://www.city.uji.kyoto.jp/site/school/",
-     "evidence": "教育総務課 〒611-8501京都府宇治市宇治琵琶33番地 Tel:0774-20-8755Fax:0774",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -258,18 +160,21 @@
      "hours": null,
      "source_url": "https://www.city.uji.kyoto.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
    "code": "262056",
    "name": "宮津市",
-   "official_site": "https://www.city.miyazu.kyoto.jp/www/normal_top.jsp",
+   "official_site": "https://www.city.miyazu.kyoto.jp/",
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -277,8 +182,22 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.miyazu.kyoto.jp/www/normal_top.jsp",
+     "source_url": "https://www.city.miyazu.kyoto.jp/",
      "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0772-45-1639",
+     "email": null,
+     "form_url": null,
+     "postal_code": "626-8501",
+     "postal_address": "京都府宮津市字柳縄手345番地の1",
+     "hours": null,
+     "source_url": "https://www.city.miyazu.kyoto.jp/site/gikai/",
+     "evidence": "議会事務局 〒626-8501京都府宮津市字柳縄手345番地の1Tel:0772-45-1639Fax:0772",
      "note": null
     },
     {
@@ -291,21 +210,7 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.miyazu.kyoto.jp/www/normal_top.jsp",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.miyazu.kyoto.jp/www/normal_top.jsp",
+     "source_url": "https://www.city.miyazu.kyoto.jp/ques/questionnaire.php?openid=2",
      "evidence": null,
      "note": null
     }
@@ -342,7 +247,7 @@
      "hours": null,
      "source_url": "https://www.city.kameoka.kyoto.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -356,7 +261,7 @@
      "hours": null,
      "source_url": "https://www.city.kameoka.kyoto.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -367,46 +272,35 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0774-52-1111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.city.joyo.kyoto.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "城陽市議会",
-     "phone": "0774-56-4000",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.joyo.kyoto.jp/gikai/index.htm",
-     "evidence": "議会で作成しています。 花しょうぶイラ…陽市寺田東ノ口16番地、17番地 TEL:0774-56-4000",
+     "evidence": "城陽市 各課の窓口 電話:0774-52-1111(代表)",
      "note": null
     },
     {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
+     "agent_status": "found",
+     "department": "令和6年度版 市民の声",
      "phone": null,
      "email": null,
-     "form_url": null,
+     "form_url": "https://www.city.joyo.kyoto.jp/mailform/inquiry.cgi?so=c1eece234ac009d25f5d2fda3adaa3bfdc39d0c3&ref=https%3A%2F%2Fwww.city.joyo.kyoto.jp%2F0000011516.html",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.joyo.kyoto.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.city.joyo.kyoto.jp/0000011516.html",
+     "evidence": "リンク「令和6年度版 市民の声」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -429,34 +323,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "向日市議会",
-     "phone": "075-931-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "617-8665",
-     "postal_address": "京都府向日市寺戸町中野20番地",
-     "hours": null,
-     "source_url": "https://www.city.muko.kyoto.jp/life/5/30/",
-     "evidence": "議会棟 〒617‐8665京都府向日市寺戸町中野20番地 Tel:075-931-1111(代表)Fax:",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育部文教課教育総務係",
-     "phone": "075-874-2974",
-     "email": null,
-     "form_url": null,
-     "postal_code": "617-8665",
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.muko.kyoto.jp/soshiki/33/1751.html",
-     "evidence": "教育部文教課教育総務係 〒617‐8665京都府向日市寺戸町中野20番地 Tel:075-874-2974Fax:075-",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -470,6 +336,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -479,30 +348,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "075-951-2121",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "617-8501",
+     "postal_address": "京都府長岡京市開田一丁目1番1号",
      "hours": null,
      "source_url": "https://www.city.nagaokakyo.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "事務局議会事務局議事調査係",
-     "phone": "075-955-9731",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.nagaokakyo.lg.jp/0000011480.html",
-     "evidence": "事務局議会事務局議事調査係 本庁舎5階 電話: 075-955-9731",
+     "evidence": "長岡京市 〒617-8501 京都府長岡京市開田一丁目1番1号 電話:075-951-2121(代表) ファク",
      "note": null
     },
     {
@@ -517,8 +372,11 @@
      "hours": null,
      "source_url": "https://www.city.nagaokakyo.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -526,20 +384,6 @@
    "name": "八幡市",
    "official_site": "https://www.city.yawata.kyoto.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "075-983-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "614-8501",
-     "postal_address": "京都府八幡市八幡園内75",
-     "hours": null,
-     "source_url": "https://www.city.yawata.kyoto.jp/",
-     "evidence": "八幡市役所 〒614-8501 京都府八幡市八幡園内75 電話:075-983-1111(代表) ファッ",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -566,8 +410,11 @@
      "hours": null,
      "source_url": "https://www.city.yawata.kyoto.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -575,34 +422,6 @@
    "name": "京田辺市",
    "official_site": "https://www.city.kyotanabe.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0774-63-1122",
-     "email": null,
-     "form_url": null,
-     "postal_code": "610-0393",
-     "postal_address": "京都府京田辺市田辺80",
-     "hours": null,
-     "source_url": "https://www.city.kyotanabe.lg.jp/",
-     "evidence": "京田辺市役所〒610-0393 京都府京田辺市田辺80 電話:0774-63-1122(代表) ファッ",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0774-64-1380",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kyotanabe.lg.jp/0000000397.html",
-     "evidence": "議会事務局 電話: (庶務/議事)0774-64-1380",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -617,6 +436,10 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -625,61 +448,23 @@
    "official_site": "https://www.city.kyotango.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0772-69-0001",
-     "email": null,
-     "form_url": null,
-     "postal_code": "627-8567",
-     "postal_address": "京都府京丹後市峰山町杉谷889番地",
-     "hours": null,
-     "source_url": "https://www.city.kyotango.lg.jp/",
-     "evidence": "京丹後市役所 〒627-8567 京都府京丹後市峰山町杉谷889番地 電話:0772-69-0001(代表) ファッ",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0772-69-0010",
-     "email": null,
-     "form_url": null,
-     "postal_code": "627-8567",
-     "postal_address": "京都府京丹後市峰山町杉谷889番地",
-     "hours": null,
-     "source_url": "https://www.city.kyotango.lg.jp/shigikai/index.html",
-     "evidence": "議会事務局 〒627-8567 京都府京丹後市峰山町杉谷889番地 電話:0772-69-0010",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務課",
-     "phone": "0772-69-0610",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kyotango.lg.jp/top/shisei/gaiyo/4/6118.html",
-     "evidence": "教育総務課 総合調整、施設維持管理など 電話 0772-69-0610 / ファックス",
-     "note": null
-    },
-    {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "秘書広報広聴課",
+     "phone": "0772-69-0110",
      "email": null,
-     "form_url": null,
+     "form_url": "https://www.city.kyotango.lg.jp/cdn-cgi/l/email-protection",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.kyotango.lg.jp/top/shisei/gaiyo/3923.html",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.city.kyotango.lg.jp/top/soshiki/mayoroffice/hishokoho/index.html",
+     "evidence": "秘書広報広聴課 電話番号 0772-69-0110",
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -689,46 +474,22 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0771-68-0001",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "622-8651",
+     "postal_address": "京都府南丹市園部町小桜町47番地 市役所へのアクセス",
      "hours": null,
      "source_url": "https://www.city.nantan.kyoto.jp/www/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0771-68-0059",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.nantan.kyoto.jp/www/gove/144/006/000/index_70343.html",
-     "evidence": "議会事務局 TEL:0771-68-0059",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "秘書広報課",
-     "phone": "0771-68-0065",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.nantan.kyoto.jp/www/gove/137/006/000/index_94861.html",
-     "evidence": "秘書広報課 TEL:0771-68-0065",
+     "evidence": "市役所へのアクセスTEL:0771-68-0001/FAX:077",
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -738,30 +499,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0774-72-0501",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "619-0286",
+     "postal_address": "京都府木津川市木津南垣外110-9",
      "hours": null,
      "source_url": "https://www.city.kizugawa.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0774-75-1240",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kizugawa.lg.jp/0000001663.html",
-     "evidence": "議会事務局 電話: 0774-75-1240",
+     "evidence": "木津川市 〒619-0286 京都府木津川市木津南垣外110-9 電話番号:0774-72-0501(代表)ファック",
      "note": null
     },
     {
@@ -776,8 +523,11 @@
      "hours": null,
      "source_url": "https://www.city.kizugawa.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -812,21 +562,10 @@
      "source_url": "http://www.town.oyamazaki.kyoto.jp/cyoseijyohomachinosyokai/gikai/2343.html",
      "evidence": "議会係 〒618-8501 京都府乙訓郡大山崎町字円明寺小字夏目3番地 電話番号:(075)956-2101(代表) ファッ",
      "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "お問い合わせ・ご意見",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.town.oyamazaki.kyoto.jp/cgi-bin/inquiry.php/2?page_no=2393",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.oyamazaki.kyoto.jp/2393.html",
-     "evidence": "リンク「お問い合わせご意見」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "feedback"
    ]
   },
   {
@@ -836,30 +575,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "075-631-6111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "613-8585",
+     "postal_address": "京都府久世郡久御山町島田ミスノ38番地",
      "hours": null,
      "source_url": "https://www.town.kumiyama.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "075-631-9996",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.kumiyama.lg.jp/0000000681.html",
-     "evidence": "議会事務局(3階) 電話: 075(631)9996、0774(45",
+     "evidence": "久御山町 法人番号 800002026…御山町島田ミスノ38番地 電話番号(代表) 075-631-6111、0774-45",
      "note": null
     },
     {
@@ -874,8 +599,11 @@
      "hours": null,
      "source_url": "https://www.town.kumiyama.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -884,20 +612,6 @@
    "official_site": "https://www.town.ide.kyoto.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0774-82-2001",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.ide.kyoto.jp/",
-     "evidence": "井手町役場 〒610-0302 京都府綴喜郡井手町大字井手小字東高月8番地 電話:0774-82-2001(代表)",
-     "note": null
-    },
-    {
      "type": "assembly",
      "agent_status": "auto_not_found",
      "department": null,
@@ -909,7 +623,7 @@
      "hours": null,
      "source_url": "https://www.town.ide.kyoto.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -923,8 +637,11 @@
      "hours": null,
      "source_url": "https://www.town.ide.kyoto.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -932,20 +649,6 @@
    "name": "宇治田原町",
    "official_site": "https://www.town.ujitawara.kyoto.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0774-88-2250",
-     "email": null,
-     "form_url": null,
-     "postal_code": "610-0289",
-     "postal_address": "京都府綴喜郡宇治田原町",
-     "hours": null,
-     "source_url": "https://www.town.ujitawara.kyoto.jp/",
-     "evidence": "宇治田原町役場 〒610-0289 京都府綴喜郡宇治田原町 大字立川小字坂口18-1電話:0774-88-2250(代表)ファック",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -972,8 +675,11 @@
      "hours": null,
      "source_url": "https://www.town.ujitawara.kyoto.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -983,16 +689,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0743-95-2301",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "619-1303",
+     "postal_address": "京都府相楽郡笠置町笠置西通90-1",
      "hours": null,
      "source_url": "https://www.town.kasagi.lg.jp/",
-     "evidence": null,
+     "evidence": "笠置町役場 電話番号:0743-95-2301",
      "note": null
     },
     {
@@ -1021,7 +727,7 @@
      "hours": null,
      "source_url": "https://www.town.kasagi.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -1045,34 +751,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0774-78-3003",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.wazuka.lg.jp/kakukanogoannai/gikaijimukyoku/machigikai/index.html",
-     "evidence": "議会事務局 電話番号:0774-78-3003",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会",
-     "phone": "0774-78-4335",
-     "email": null,
-     "form_url": null,
-     "postal_code": "619-1205",
-     "postal_address": "京都府相楽郡和束町大字中小字平田23番地の1",
-     "hours": null,
-     "source_url": "https://www.union.sourakutoubu.lg.jp/",
-     "evidence": "教育委員会〉電話:0774-78-4335 ファックス:0",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -1084,8 +762,11 @@
      "hours": null,
      "source_url": "https://www.town.wazuka.lg.jp/index.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -1108,20 +789,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "精華町議会",
-     "phone": "0774-95-1908",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.seika.kyoto.jp/gikai/index.html",
-     "evidence": "議会 〒619-0285 京都府相楽郡…小字北尻70番地 (精華町役場6階) 電話:0774-95-1908",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -1133,8 +800,11 @@
      "hours": null,
      "source_url": "https://www.town.seika.kyoto.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -1182,7 +852,7 @@
      "hours": null,
      "source_url": "https://www.vill.minamiyamashiro.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -1191,34 +861,6 @@
    "name": "京丹波町",
    "official_site": "https://www.town.kyotamba.kyoto.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0771-82-0200",
-     "email": null,
-     "form_url": null,
-     "postal_code": "622-0292",
-     "postal_address": "京都府船井郡京丹波町蒲生蒲生野487番地1",
-     "hours": null,
-     "source_url": "https://www.town.kyotamba.kyoto.jp/",
-     "evidence": "京丹波町役場法人番号4000020264…船井郡京丹波町蒲生蒲生野487番地1 電話.0771-82-0200(代表) ファッ",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0771-82-3805",
-     "email": null,
-     "form_url": null,
-     "postal_code": "622-0292",
-     "postal_address": "京都府船井郡京丹波町蒲生蒲生野487番地1",
-     "hours": null,
-     "source_url": "https://www.town.kyotamba.kyoto.jp/kakukakarasagasu/gikaijimukyoku/index.html",
-     "evidence": "議会事務局 〒622-0292 京都府船井郡京丹波町蒲生蒲生野487番地1 電話番号:0771-82-3805",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -1231,8 +873,12 @@
      "hours": null,
      "source_url": "https://www.town.kyotamba.kyoto.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -1280,7 +926,7 @@
      "hours": null,
      "source_url": "https://www.town.ine.kyoto.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -1289,20 +935,6 @@
    "name": "与謝野町",
    "official_site": "https://www.town.yosano.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0772-43-9000",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.yosano.lg.jp/",
-     "evidence": "本庁舎代表番号:0772-43-9000",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -1331,6 +963,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   }
  ]

@@ -9,20 +9,6 @@
    "official_site": "https://www.town.shiwa.iwate.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "019-672-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.shiwa.iwate.jp/",
-     "evidence": "紫波町役場(シワチョウ) 〒028-3…波中央駅前二丁目3番地1 TEL:(代表)019-672-2111 FAX:019",
-     "note": null
-    },
-    {
      "type": "assembly",
      "agent_status": "auto_not_found",
      "department": null,
@@ -50,6 +36,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -59,30 +48,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "019-697-2111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.town.yahaba.iwate.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "矢巾町議会",
-     "phone": "019-697-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "028-3692",
-     "postal_address": "岩手県紫波郡矢巾町大字南矢幅第13地割123番地",
-     "hours": null,
-     "source_url": "https://www.town.yahaba.iwate.jp/soshiki/gikai/yahabagikai/seigan/",
-     "evidence": "議会 〒028-3692 岩手県紫波郡矢巾町大字南矢幅第13地割123番地 TEL:019-697-2111(代表) FAX",
+     "evidence": "矢巾町(ヤハバチョウ) 〒028-36…町大字南矢幅第13地割123番地 TEL:019-697-2111(代表) FAX",
      "note": null
     },
     {
@@ -99,6 +74,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -121,20 +99,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0197-82-2115",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.nishiwaga.lg.jp/kurashi_tetsuzuki/yakuba_madoguchiannai/1864.html",
-     "evidence": "議会事務局 監査委員事務局 電話 : 0197-82-2115",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -146,8 +110,11 @@
      "hours": null,
      "source_url": "https://www.town.nishiwaga.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -157,46 +124,22 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0197-42-2111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.town.kanegasaki.iwate.jp/",
-     "evidence": null,
+     "evidence": "金ケ崎町役場 〒029-4592 岩手県胆沢郡金ケ崎町西根南町22-1 電話 0197-42-2111(代) FAX",
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0197-42-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "029-4592",
-     "postal_address": "岩手県胆沢郡金ケ崎町西根南町22-1 金ケ崎町役場 4階",
-     "hours": null,
-     "source_url": "https://www.town.kanegasaki.iwate.jp/gikai/",
-     "evidence": "議会事務局 住所:〒029-4592 岩…根南町22-1 金ケ崎町役場 4階 TEL:0197-42-2111",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "町へのお問い合わせ・ご意見",
-     "phone": null,
-     "email": null,
-     "form_url": "https://logoform.jp/form/QZQz/163048",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.kanegasaki.iwate.jp/contact/goiken",
-     "evidence": "リンク「お問合せ・ご意見」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -230,7 +173,7 @@
      "hours": null,
      "source_url": "https://www.town.hiraizumi.iwate.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -244,7 +187,7 @@
      "hours": null,
      "source_url": "https://www.town.hiraizumi.iwate.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -253,34 +196,6 @@
    "name": "住田町",
    "official_site": "https://www.town.sumita.iwate.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0192-46-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "029-2396",
-     "postal_address": "岩手県気仙郡住田町世田米字川向88番地1",
-     "hours": null,
-     "source_url": "https://www.town.sumita.iwate.jp/",
-     "evidence": "住田町役場/〒029-2396 岩手県気仙郡住田町世田米字川向88番地1 TEL 0192-46-2111(代表) FAX",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0192-46-3754",
-     "email": "gikai@town.sumita.iwate.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.sumita.iwate.jp/docs/2015021700097/",
-     "evidence": "議会事務局 電話:0192-46-3754",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -293,8 +208,12 @@
      "hours": null,
      "source_url": "https://www.town.sumita.iwate.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -328,7 +247,7 @@
      "hours": null,
      "source_url": "https://www.town.otsuchi.iwate.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -342,7 +261,7 @@
      "hours": null,
      "source_url": "https://www.town.otsuchi.iwate.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -366,20 +285,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0193-82-3114",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.yamada.iwate.jp/chousei/gikai/",
-     "evidence": "議会事務局 電話: 0193-82-3114",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -393,6 +298,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -400,34 +308,6 @@
    "name": "岩泉町",
    "official_site": "https://www.town.iwaizumi.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0194-22-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "027-0595",
-     "postal_address": "岩手県下閉伊郡岩泉町岩泉字惣畑59番地5",
-     "hours": null,
-     "source_url": "https://www.town.iwaizumi.lg.jp/",
-     "evidence": "岩泉町役場 〒027-0595 岩手県下閉伊郡岩泉町岩泉字惣畑59番地5 代表電話:0194-22-2111",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0194-22-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "027-0595",
-     "postal_address": "岩手県下閉伊郡岩泉町岩泉字惣畑59-5 本庁舎3階",
-     "hours": null,
-     "source_url": "https://www.town.iwaizumi.lg.jp/docs/2016021700155/",
-     "evidence": "議会事務局 住所:〒027-0595 岩…泉町岩泉字惣畑59-5 本庁舎3階 TEL:0194-22-2111 内線 事務局:",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -440,8 +320,12 @@
      "hours": null,
      "source_url": "https://www.town.iwaizumi.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -451,16 +335,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0194-34-2111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "028-8407",
+     "postal_address": "岩手県下閉伊郡田野畑村田野畑143-1",
      "hours": null,
      "source_url": "https://www.vill.tanohata.iwate.jp/",
-     "evidence": null,
+     "evidence": "田野畑村役場 〒028-8407 岩手県下閉伊郡田野畑村田野畑143-1 TEL 0194-34-2111 FAX 019",
      "note": null
     },
     {
@@ -475,7 +359,7 @@
      "hours": null,
      "source_url": "https://www.vill.tanohata.iwate.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -524,7 +408,21 @@
      "hours": null,
      "source_url": "https://www.vill.fudai.iwate.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育委員会",
+     "phone": "0194-35-2711",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.fudai.iwate.jp/lifescene/kosodate.html",
+     "evidence": "教育委員会事務局 0194-35-2711 までご相談くだ",
+     "note": null
     },
     {
      "type": "feedback",
@@ -538,7 +436,7 @@
      "hours": null,
      "source_url": "https://www.vill.fudai.iwate.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -549,44 +447,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0195-46-2111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "028-6302",
+     "postal_address": "岩手県九戸郡軽米町大字軽米10-85",
      "hours": null,
      "source_url": "https://www.town.karumai.iwate.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "軽米町議会事務局",
-     "phone": "0195-46-4745",
-     "email": "gikai@town.karumai.iwate.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.karumai.iwate.jp/article/gyosei/gikai/",
-     "evidence": "軽米町議会事務局 TEL 0195-46-4745",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会",
-     "phone": "0195-46-4743",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.karumai.iwate.jp/article/gyosei/renraku/entry-basename-4.html",
-     "evidence": "教育委員会事務局 町教育行政の計画策定、教育に関する相談、生涯学習の推進など 0195-46-4743",
+     "evidence": "軽米町役場 〒028-6302 岩手県九戸郡軽米町大字軽米10-85 TEL:0195-46-2111",
      "note": null
     },
     {
@@ -603,6 +473,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -610,34 +483,6 @@
    "name": "野田村",
    "official_site": "https://www.vill.noda.iwate.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0194-78-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.vill.noda.iwate.jp/",
-     "evidence": "野田村役場 〒028-8201 岩手県九戸郡野田村大字野田第20地割14番地 電話番号:0194-78-2111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0194-78-2934",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.vill.noda.iwate.jp/soshiki/gikaijimukyoku/nodasongikai/302.html",
-     "evidence": "議会事務局 電話番号:0194-78-2934",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -650,8 +495,12 @@
      "hours": null,
      "source_url": "https://www.vill.noda.iwate.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -699,7 +548,7 @@
      "hours": null,
      "source_url": "https://www.vill.kunohe.iwate.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -724,17 +573,17 @@
     },
     {
      "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0194-65-5922",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.hirono.iwate.jp/",
-     "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "source_url": "https://www.town.hirono.iwate.jp/doc/2022060600011/",
+     "evidence": "議会事務局 郵便番号:028-7995 住所:岩手県九戸郡洋野町種市23-27 種市庁舎2階 TEL:0194-65-5922",
+     "note": null
     },
     {
      "type": "feedback",
@@ -746,9 +595,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.hirono.iwate.jp/",
+     "source_url": "https://www.town.hirono.iwate.jp/contact/opinion/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
    ]
   },
@@ -759,30 +608,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0195-33-2111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.town.ichinohe.iwate.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "一戸町議会",
-     "phone": "0195-33-4863",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.ichinohe.iwate.jp/gyoseijoho/2/1406.html",
-     "evidence": "議会 事務局 〒028-5311 岩手県二戸郡一戸町高善寺字大川鉢24番地9 電話番号:0195-33-4863",
+     "evidence": "一戸町役場 〒028-5311 岩手県二戸郡一戸町高善寺字 大川鉢24番地9 電話番号:0195-33-2111",
      "note": null
     },
     {
@@ -797,8 +632,11 @@
      "hours": null,
      "source_url": "https://www.town.ichinohe.iwate.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   }
  ]

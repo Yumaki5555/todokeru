@@ -9,48 +9,6 @@
    "official_site": "https://www.town.shibata.miyagi.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0224-55-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.shibata.miyagi.jp/",
-     "evidence": "役場案内図 →窓口業務時間案内 法人番号…丁目3-45 [ 地図 ] 代表電話番号:0224-55-2111",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0224-55-2136",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.shibata.miyagi.jp/index.cfm/1,1360,2,html",
-     "evidence": "議会事務局 問い合わせ 0224-55-2136",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務課",
-     "phone": "0224-55-2134",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.shibata.miyagi.jp/index.cfm/1,1360,2,html",
-     "evidence": "教育総務課 問い合わせ 0224-55-2134",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -60,10 +18,14 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.shibata.miyagi.jp/",
+     "source_url": "https://www.town.shibata.miyagi.jp/index.cfm/82,0,223,html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -73,21 +35,7 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.kawasaki.miyagi.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -101,17 +49,31 @@
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
-     "department": null,
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0224-84-2301",
+     "email": "kawasaki2@town.kawasaki.miyagi.jp",
+     "form_url": null,
+     "postal_code": "989-1592",
+     "postal_address": "宮城県柴田郡川崎町大字前川字裏丁175-1",
+     "hours": null,
+     "source_url": "https://www.town.kawasaki.miyagi.jp/site/gikai/",
+     "evidence": "議会事務局事務局 〒989-1592 宮…awasaki.miyagi.jp Tel:0224-84-2301Fax:0224",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "川崎町まち・ひと・しごと創生総合戦略(中間案)に対する寄せられたご意見",
      "phone": null,
      "email": null,
-     "form_url": null,
+     "form_url": "https://www.town.kawasaki.miyagi.jp/form/detail.php?sec_sec1=4&inq=04&lif_id=7",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.kawasaki.miyagi.jp/",
-     "evidence": null,
-     "note": null
+     "source_url": "https://www.town.kawasaki.miyagi.jp/soshiki/chishin/7.html",
+     "evidence": "リンク「川崎町まち・ひと・しごと創生総合戦略(中間案)に対する寄せられたご意見」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
    ]
   },
@@ -120,34 +82,6 @@
    "name": "丸森町",
    "official_site": "https://www.town.marumori.miyagi.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0224-72-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "981-2192",
-     "postal_address": "宮城県伊具郡丸森町字鳥屋120番地",
-     "hours": null,
-     "source_url": "https://www.town.marumori.miyagi.jp/",
-     "evidence": "丸森町役場 〒981-2192 宮城県伊具郡丸森町字鳥屋120番地 TEL:0224-72-2111 (代表) 開庁",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0224-72-3038",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.marumori.miyagi.jp/town/detail.php?content=451",
-     "evidence": "議会事務局 電 話:0224-72-3038",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -162,6 +96,10 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -171,16 +109,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0223-34-1111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "989-2393",
+     "postal_address": "宮城県亘理郡亘理町字悠里1番地",
      "hours": null,
      "source_url": "https://www.town.watari.miyagi.jp/",
-     "evidence": null,
+     "evidence": "亘理町役場 〒989-2393 宮城県亘理郡亘理町字悠里1番地 TEL:0223-34-1111(代)【総務課】",
      "note": null
     },
     {
@@ -195,7 +133,7 @@
      "hours": null,
      "source_url": "https://www.town.watari.miyagi.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -209,7 +147,7 @@
      "hours": null,
      "source_url": "https://www.town.watari.miyagi.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -233,20 +171,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0223-37-5114",
-     "email": null,
-     "form_url": null,
-     "postal_code": "989-2292",
-     "postal_address": "宮城県亘理郡山元町浅生原字作田山32番地",
-     "hours": null,
-     "source_url": "https://www.town.yamamoto.miyagi.jp/site/gikai/",
-     "evidence": "議会事務局議事班 〒989-2292 宮城県亘理郡山元町浅生原字作田山32番地 Tel:0223-37-5114Fax:0223",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -258,8 +182,11 @@
      "hours": null,
      "source_url": "https://www.town.yamamoto.miyagi.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -269,30 +196,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.miyagi-matsushima.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
      "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "022-354-5712",
+     "department": "代表電話",
+     "phone": "022-354-5701",
      "email": null,
      "form_url": null,
      "postal_code": "981-0215",
-     "postal_address": "宮城県宮城郡松島町高城字帰命院下一19番地の1",
+     "postal_address": "宮城郡松島町高城字帰命院下一19番地の1",
      "hours": null,
-     "source_url": "https://www.town.miyagi-matsushima.lg.jp/site/gikai/",
-     "evidence": "議会事務局 〒981-0215 宮城県宮城郡松島町高城字帰命院下一19番地の1 Tel.022-354-5712(直通) Fax",
+     "source_url": "https://www.town.miyagi-matsushima.lg.jp/",
+     "evidence": "松島町 法人番号30000200440…松島町高城字帰命院下一19番地の1 Tel:022-354-5701(代表)Fax:",
      "note": null
     },
     {
@@ -305,10 +218,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.miyagi-matsushima.lg.jp/",
+     "source_url": "https://www.town.miyagi-matsushima.lg.jp/life/6/27/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -356,7 +272,7 @@
      "hours": null,
      "source_url": "https://www.shichigahama.com/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -381,17 +297,17 @@
     },
     {
      "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "022-767-2127",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.rifu.miyagi.jp/",
-     "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "source_url": "https://www.town.rifu.miyagi.jp/gyosei/chosei/rifuchogikai/index.html",
+     "evidence": "議会事務局 〒981-0112 宮城県宮城郡利府町利府字新並松4番地 電話番号:022-767-2127 ファックス番号",
+     "note": null
     },
     {
      "type": "feedback",
@@ -403,9 +319,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.rifu.miyagi.jp/",
+     "source_url": "https://www.town.rifu.miyagi.jp/gyosei/chosei/koho_kocho/index.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
    ]
   },
@@ -429,20 +345,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "大和町議会",
-     "phone": "022-345-7506",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.taiwa.miyagi.jp/choseijoho/gikai/index.html",
-     "evidence": "議会サイト 〒981-3680 宮城県…町吉岡まほろば一丁目1番地の1 電話番号:022-345-7506(代表)",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -454,8 +356,11 @@
      "hours": null,
      "source_url": "https://www.town.taiwa.miyagi.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -465,44 +370,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "022-359-3111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "981-3592",
+     "postal_address": "宮城県黒川郡大郷町粕川字西長崎5-8",
      "hours": null,
      "source_url": "https://www.town.miyagi-osato.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "022-359-5513",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.miyagi-osato.lg.jp/adv/ba.php?id=66",
-     "evidence": "議会事務局 宮城県黒川郡大郷町粕川字西長崎5番地の8Tel:022-359-5513Fax:022-",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会学校教育課",
-     "phone": "022-359-5514",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.miyagi-osato.lg.jp/soshiki/kyouiku/kyoikuinkai-niteigijioku.html",
-     "evidence": "教育委員会学校教育課 宮城県黒川郡大郷町粕川字西長崎5番地の8Tel:022-359-5514Fax:022-",
+     "evidence": "大郷町 〒981-3592 宮城県黒川郡大郷町粕川字西長崎5-8 Tel:022-359-3111(代表) Fax",
      "note": null
     },
     {
@@ -515,10 +392,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.miyagi-osato.lg.jp/",
+     "source_url": "https://www.town.miyagi-osato.lg.jp/life/4/32/118/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -528,16 +408,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "022-345-5111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "981-3692",
+     "postal_address": "宮城県黒川郡大衡村大衡字平林62番地",
      "hours": null,
      "source_url": "https://www.village.ohira.miyagi.jp/",
-     "evidence": null,
+     "evidence": "大衡村 Ohira Village 法…県黒川郡大衡村大衡字平林62番地 電話番号:022-345-5111 (代表)",
      "note": null
     },
     {
@@ -566,7 +446,7 @@
      "hours": null,
      "source_url": "https://www.village.ohira.miyagi.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -577,16 +457,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0229-65-2111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "981-4122",
+     "postal_address": "宮城県加美郡色麻町四竃字北谷地41番地",
      "hours": null,
      "source_url": "https://www.town.shikama.miyagi.jp/",
-     "evidence": null,
+     "evidence": "色麻町 〒981-4122 宮城県加美郡色麻町四竃字北谷地41番地 電話:0229-65-2111(代表) ファッ",
      "note": null
     },
     {
@@ -615,7 +495,7 @@
      "hours": null,
      "source_url": "https://www.town.shikama.miyagi.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -624,48 +504,6 @@
    "name": "加美町",
    "official_site": "https://www.town.kami.miyagi.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0229-63-3111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "981-4292",
-     "postal_address": "宮城県加美郡加美町字西田三番5番地",
-     "hours": null,
-     "source_url": "https://www.town.kami.miyagi.jp/",
-     "evidence": "加美町役場 〒981-4292 宮城県加美郡加美町字西田三番5番地 電話番号:0229-63-3111(代表)(テレホ",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0229-67-5120",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.kami.miyagi.jp/choseijoho/kamimachigikai/index.html",
-     "evidence": "議会事務局 〒981-4392 宮城県加美郡加美町字長檀75番地2 電話番号 0229-67-5120(直通)",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "加美町教育委員会教育総務課",
-     "phone": "0229-69-5112",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.kami.miyagi.jp/kosodate_kyoiku/kyoikuiinkai/index.html",
-     "evidence": "加美町教育委員会教育総務課 〒981-…加美町宮崎字屋敷一番52番地4 電話番号 0229-69-5112(直通)",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -678,8 +516,12 @@
      "hours": null,
      "source_url": "https://www.town.kami.miyagi.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -687,48 +529,6 @@
    "name": "涌谷町",
    "official_site": "https://www.town.wakuya.miyagi.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0229-43-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "987-0192",
-     "postal_address": "宮城県遠田郡涌谷町字新町裏153番地2",
-     "hours": null,
-     "source_url": "https://www.town.wakuya.miyagi.jp/",
-     "evidence": "涌谷町役場 〒987-0192 宮城県遠田郡涌谷町字新町裏153番地2 電話:0229-43-2111(代表) ファク",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0229-43-2127",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.wakuya.miyagi.jp/gyose/gikai/index.html",
-     "evidence": "議会事務局総務班 宮城県遠田郡涌谷町字新町裏153番地2 電話:0229-43-2127",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務課",
-     "phone": "0229-43-2140",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.wakuya.miyagi.jp/kurashi/kyoiku/index.html",
-     "evidence": "教育総務課教育総務班 宮城県遠田郡涌谷町字新町裏153番地2 電話:0229-43-2140",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -743,6 +543,10 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -765,34 +569,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0229-33-2118",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.misato.miyagi.jp/18toiawase/index.html",
-     "evidence": "議会事務局 0229-33-2118",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務課",
-     "phone": "0229-58-0500",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.misato.miyagi.jp/13jyoho/fuzoku/2013-0915-1232-32.html",
-     "evidence": "教育総務課 電話 0229-58-0500",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -804,8 +580,11 @@
      "hours": null,
      "source_url": "https://www.town.misato.miyagi.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -828,20 +607,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0225-54-3131",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://gikai-town-onagawa.jp/",
-     "evidence": "議会事務局 電話:0225-54-3131",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -853,8 +618,11 @@
      "hours": null,
      "source_url": "https://www.town.onagawa.miyagi.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -877,20 +645,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0226-46-1375",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.minamisanriku.miyagi.jp/gikai/index.html",
-     "evidence": "議会事務局 〒986-0725 宮城県本吉郡南三陸町志津川字沼田101番地 電話番号:0226-46-1375",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -902,8 +656,11 @@
      "hours": null,
      "source_url": "https://www.town.minamisanriku.miyagi.jp/soshiki/1002/16/2/2009.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   }
  ]

@@ -57,16 +57,16 @@
    {
     "id": "331007-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "086-803-1000",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "700-8544",
+    "postal_address": "岡山市北区大供一丁目1番1号",
     "hours": null,
     "source_url": "https://www.city.okayama.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -97,6 +97,21 @@
     "source_url": "https://www.city.okayama.jp/gikai/index.html",
     "verified_at": null,
     "status": "unverified",
+    "note": null
+   },
+   {
+    "id": "331007-education",
+    "type": "education",
+    "department": "局教育総務部教育企画総務課",
+    "phone": "086-803-1571",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.okayama.jp/shisei/0000020389.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -546,16 +561,16 @@
    {
     "id": "332119-feedback",
     "type": "feedback",
-    "department": "広聴・ご意見窓口",
+    "department": "広聴・広報",
     "phone": null,
     "email": null,
-    "form_url": null,
+    "form_url": "https://www.city.bizen.okayama.jp/form/detail.php?sec_sec1=2",
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.bizen.okayama.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.city.bizen.okayama.jp/life/3/21/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -765,16 +780,16 @@
    {
     "id": "332151-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0868-72-1111",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "707-8501",
+    "postal_address": "岡山県美作市美来1番地",
     "hours": null,
     "source_url": "https://www.city.mimasaka.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -918,16 +933,16 @@
    {
     "id": "334235-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "086-482-0611",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "701-0303",
+    "postal_address": "岡山県都窪郡早島町前潟 360-1",
     "hours": null,
     "source_url": "https://www.town.hayashima.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -1159,7 +1174,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.kagamino.lg.jp/",
+    "source_url": "https://www.town.kagamino.lg.jp/life/4/22/",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -1331,6 +1346,21 @@
     "verified_at": null,
     "status": "unverified",
     "note": null
+   },
+   {
+    "id": "336432-education",
+    "type": "education",
+    "department": "教育委員会",
+    "phone": "0868-79-2216",
+    "email": null,
+    "form_url": null,
+    "postal_code": "707-0503",
+    "postal_address": "岡山県英田郡西粟倉村大字影石33番地1",
+    "hours": null,
+    "source_url": "https://www.vill.nishiawakura.okayama.jp/wp/category/kurashi/kosodate_kyouiku/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -1399,7 +1429,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.misaki.okayama.jp/",
+    "source_url": "https://www.town.okayama-misaki.lg.jp/",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -1414,7 +1444,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.misaki.okayama.jp/",
+    "source_url": "https://www.town.okayama-misaki.lg.jp/",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -1423,15 +1453,15 @@
     "id": "336661-assembly",
     "type": "assembly",
     "department": "議会事務局",
-    "phone": null,
+    "phone": "0868-66-1128",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "709-3717",
+    "postal_address": "岡山県久米郡美咲町原田2144番地1",
     "hours": null,
-    "source_url": "https://www.town.misaki.okayama.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.town.okayama-misaki.lg.jp/kakuka/gikaijimukyoku/gyomu/1/41.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]

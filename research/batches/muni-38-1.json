@@ -23,20 +23,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "市議会事務局",
-     "phone": "089-948-6646",
-     "email": null,
-     "form_url": null,
-     "postal_code": "790-8571",
-     "postal_address": "愛媛県松山市二番町四丁目7-2 別館5階",
-     "hours": null,
-     "source_url": "https://www.city.matsuyama.ehime.jp/shisei/kakukaichiran/shigikai/202003-hatsugen.html",
-     "evidence": "市議会事務局 〒790-8571 愛媛県松山市二番町四丁目7-2 別館5階 総務課 電話:089-948-6646",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -46,10 +32,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.matsuyama.ehime.jp/",
+     "source_url": "https://www.city.matsuyama.ehime.jp/shigikai/20240617teigen.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -83,7 +72,7 @@
      "hours": null,
      "source_url": "https://www.city.imabari.ehime.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -97,7 +86,7 @@
      "hours": null,
      "source_url": "https://www.city.imabari.ehime.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -132,7 +121,7 @@
      "hours": null,
      "source_url": "https://www.city.uwajima.ehime.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -146,7 +135,7 @@
      "hours": null,
      "source_url": "https://www.city.uwajima.ehime.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -170,20 +159,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0894-22-5998",
-     "email": "gikai@city.yawatahama.ehime.jp",
-     "form_url": null,
-     "postal_code": "796-8501",
-     "postal_address": "八幡浜市北浜1-1-1",
-     "hours": null,
-     "source_url": "https://www.city.yawatahama.ehime.jp/category/gikai/",
-     "evidence": "議会事務局 〒796-8501 八幡浜市北浜1-1-1 TEL 0894-22-5998(直通) FAX",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -193,10 +168,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.yawatahama.ehime.jp/",
+     "source_url": "https://www.city.yawatahama.ehime.jp/category/mayor/kaito/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -206,46 +184,22 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.niihama.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
      "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0897-65-1320",
+     "department": "代表電話",
+     "phone": "0897-65-1234",
      "email": null,
      "form_url": null,
      "postal_code": "792-8585",
      "postal_address": "愛媛県新居浜市一宮町一丁目5番1号",
      "hours": null,
-     "source_url": "https://www.city.niihama.lg.jp/site/gikai/",
-     "evidence": "議会事務局 〒792-8585愛媛県新居…目5番1号 新居浜市役所(6階) Tel:0897-65-1320Fax:0897",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "秘書課",
-     "phone": "0897-65-1231",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.niihama.lg.jp/soshiki/hisyokouhou/siminnokoe.html",
-     "evidence": "秘書課 〒792-8585愛媛県新居浜市一宮町一丁目5番1号 Tel:0897-65-1231Fax:0897",
+     "source_url": "https://www.city.niihama.lg.jp/",
+     "evidence": "新居浜市 〒792-8585 愛媛県新居浜市一宮町一丁目5番1号 Tel:(0897)65-1234(代表)メールで",
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -253,20 +207,6 @@
    "name": "西条市",
    "official_site": "https://www.city.saijo.ehime.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0897-56-5151",
-     "email": null,
-     "form_url": null,
-     "postal_code": "793-8601",
-     "postal_address": "愛媛県西条市明屋敷164番地",
-     "hours": null,
-     "source_url": "https://www.city.saijo.ehime.jp/",
-     "evidence": "西条市役所 〒793-8601 愛媛県西条市明屋敷164番地 Tel:0897-56-5151(代表)Fax:",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -280,21 +220,11 @@
      "source_url": "https://www.city.saijo.ehime.jp/life/4/32/198/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市政へのご意見・ご提言",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.saijo.ehime.jp/form/detail.php?sec_sec1=6&inq=04&lif_id=136544",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.saijo.ehime.jp/soshiki/citypromo/kocho.html",
-     "evidence": "リンク「市政へのご意見・ご提言」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "feedback",
+    "general"
    ]
   },
   {
@@ -302,34 +232,6 @@
    "name": "大洲市",
    "official_site": "https://www.city.ozu.ehime.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0893-24-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "795-8601",
-     "postal_address": "愛媛県大洲市大洲690番地の1",
-     "hours": null,
-     "source_url": "https://www.city.ozu.ehime.jp/",
-     "evidence": "大洲市役所 〒795-8601 愛媛県大洲市大洲690番地の1 Tel:0893-24-2111(代表) Fax",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局調査係",
-     "phone": "0893-24-1730",
-     "email": null,
-     "form_url": null,
-     "postal_code": "795-8601",
-     "postal_address": "愛媛県大洲市大洲690番地の1",
-     "hours": null,
-     "source_url": "https://www.city.ozu.ehime.jp/site/gikai/",
-     "evidence": "議会事務局調査係 〒795-8601愛媛県大洲市大洲690番地の1 Tel:0893-24-1730Fax:0893",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -342,8 +244,12 @@
      "hours": null,
      "source_url": "https://www.city.ozu.ehime.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -352,31 +258,17 @@
    "official_site": "https://www.city.iyo.lg.jp/",
    "contacts": [
     {
-     "type": "general",
+     "type": "education",
      "agent_status": "found",
-     "department": "代表電話",
-     "phone": "089-982-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "799-3193",
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.iyo.lg.jp/",
-     "evidence": "伊予市役所 庁舎案内 組織案内 法…県伊予市米湊820番地 【地図】 電話番号:089-982-1111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "089-982-6551",
+     "department": "教育委員会事務局学校教育課",
+     "phone": "089-989-9871",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.iyo.lg.jp/gikai/shise/gikai/index.html",
-     "evidence": "議会事務局 伊予市米湊820番地 電話番号:089-982-6551",
+     "source_url": "https://www.city.iyo.lg.jp/gakoukyouiku/kyoiku/kyoiku/index.html",
+     "evidence": "教育委員会事務局学校教育課 伊予市米湊820番地 電話番号:089-989-9871",
      "note": null
     },
     {
@@ -393,6 +285,10 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -426,7 +322,7 @@
      "hours": null,
      "source_url": "https://www.city.shikokuchuo.ehime.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -440,7 +336,7 @@
      "hours": null,
      "source_url": "https://www.city.shikokuchuo.ehime.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -465,81 +361,46 @@
     },
     {
      "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0894-62-6413",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.seiyo.ehime.jp/",
-     "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "source_url": "https://www.city.seiyo.ehime.jp/shisei/shigikai/index.html",
+     "evidence": "議会事務局 愛媛県西予市宇和町卯之町三丁目434番地1 電話:0894-62-6413",
+     "note": null
     },
     {
-     "type": "feedback",
+     "type": "education",
      "agent_status": "found",
-     "department": "ご意見・お問い合わせ",
-     "phone": null,
+     "department": "教育総務課",
+     "phone": "0894-62-6430",
      "email": null,
-     "form_url": "https://www.city.seiyo.ehime.jp/cgi-bin/inquiry.php/82?page_no=5472",
+     "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.seiyo.ehime.jp/5472.html",
-     "evidence": "リンク「ご意見・お問い合わせ」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
+     "source_url": "https://www.city.seiyo.ehime.jp/kurashi/kosodate_kyouiku/kyouiku_iinkai/2319.html",
+     "evidence": "教育総務課 愛媛県西予市宇和町卯之町三丁目434番地1 電話:0894-62-6430",
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "feedback"
    ]
   },
   {
    "code": "382159",
    "name": "東温市",
    "official_site": "https://www.city.toon.ehime.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "089-964-2001",
-     "email": null,
-     "form_url": null,
-     "postal_code": "791-0292",
-     "postal_address": "愛媛県東温市見奈良530番地1",
-     "hours": null,
-     "source_url": "https://www.city.toon.ehime.jp/",
-     "evidence": "東温市役所 法人番号 30000203…92 愛媛県東温市見奈良530番地1 電話:089-964-2001(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "089-964-4422",
-     "email": null,
-     "form_url": null,
-     "postal_code": "791-0292",
-     "postal_address": "愛媛県東温市見奈良530番地1",
-     "hours": null,
-     "source_url": "https://www.city.toon.ehime.jp/site/120/",
-     "evidence": "議会事務局代表 〒791-0292愛媛県東温市見奈良530番地1(市役所5階) Tel:089-964-4422",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "意見箱に寄せられたご意見と回答を掲載します",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.toon.ehime.jp/form/detail.php?sec_sec1=2&inq=03&lif_id=26657",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.toon.ehime.jp/site/1102/",
-     "evidence": "リンク「ご意見箱・回答」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -549,21 +410,7 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.kamijima.lg.jp",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -577,7 +424,21 @@
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0897-77-2500",
+     "email": null,
+     "form_url": null,
+     "postal_code": "794-2592",
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kamijima.lg.jp/site/gikai/",
+     "evidence": "議会事務局 〒794-2592 愛媛県越…町弓削下弓削210番地 【地図】 Tel:0897-77-2500(代表) Fax",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -585,7 +446,7 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.kamijima.lg.jp",
+     "source_url": "https://www.town.kamijima.lg.jp/ques/questionnaire.php?openid=3",
      "evidence": null,
      "note": null
     }
@@ -644,49 +505,11 @@
    "code": "384011",
    "name": "松前町",
    "official_site": "https://www.town.masaki.ehime.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "089-985-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "791-3192",
-     "postal_address": "愛媛県伊予郡松前町大字筒井631番地",
-     "hours": null,
-     "source_url": "https://www.town.masaki.ehime.jp/",
-     "evidence": "松前町役場 〒791-3192 愛媛県伊予郡松前町大字筒井631番地 Tel:089-985-2111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "089-985-4130",
-     "email": null,
-     "form_url": null,
-     "postal_code": "791-3192",
-     "postal_address": "愛媛県伊予郡松前町大字筒井631番地",
-     "hours": null,
-     "source_url": "https://www.town.masaki.ehime.jp/adv/ba.php?id=5",
-     "evidence": "議会事務局 Tel:089-985-4130Fax:089-",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報広聴係",
-     "phone": "089-985-4132",
-     "email": null,
-     "form_url": "https://www.town.masaki.ehime.jp/form/detail.php?sec_sec1=2&inq=02&lif_id=35777",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.masaki.ehime.jp/soshiki/2/17704.html",
-     "evidence": "広報広聴係 Tel:089-985-4132Fax:089-",
-     "note": null
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -696,7 +519,21 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "089-962-2323",
+     "email": null,
+     "form_url": null,
+     "postal_code": "791-2195",
+     "postal_address": "愛媛県伊予郡砥部町宮内1392番地",
+     "hours": null,
+     "source_url": "https://www.town.tobe.ehime.jp/",
+     "evidence": "砥部町役場 〒791-2195 愛媛県伊予郡砥部町宮内1392番地 電話番号 089-962-2323(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -704,13 +541,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.tobe.ehime.jp/",
+     "source_url": "https://www.town.tobe.ehime.jp/gyoseijoho/tobechogikai/index.html",
      "evidence": null,
      "note": null
     },
     {
      "type": "feedback",
-     "agent_status": "fetch_failed",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -720,21 +557,7 @@
      "hours": null,
      "source_url": "https://www.town.tobe.ehime.jp/",
      "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.tobe.ehime.jp/",
-     "evidence": null,
-     "note": null
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -745,21 +568,7 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.uchiko.ehime.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -773,7 +582,7 @@
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -781,9 +590,23 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.uchiko.ehime.jp/",
+     "source_url": "https://www.town.uchiko.ehime.jp/life/14/39",
      "evidence": null,
      "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "広報・広聴",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.town.uchiko.ehime.jp/form/detail.php?sec_sec1=1",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.uchiko.ehime.jp/life/14/40",
+     "evidence": "リンク「広報・広聴」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
    ]
   },
@@ -818,7 +641,7 @@
      "hours": null,
      "source_url": "https://www.town.ikata.ehime.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -832,7 +655,7 @@
      "hours": null,
      "source_url": "https://www.town.ikata.ehime.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -842,32 +665,18 @@
    "official_site": "https://www.town.matsuno.ehime.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0895-42-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "798-2192",
-     "postal_address": "愛媛県北宇和郡松野町大字松丸343",
-     "hours": null,
-     "source_url": "https://www.town.matsuno.ehime.jp/",
-     "evidence": "松野町役場 〒798-2192 愛媛県北宇和郡松野町大字松丸343Tel:0895-42-1111(代表) Fax",
-     "note": null
-    },
-    {
      "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "松野町議会",
+     "phone": "0895-42-1117",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.matsuno.ehime.jp/",
-     "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "source_url": "https://www.town.matsuno.ehime.jp/soshiki/8/",
+     "evidence": "議会だより 連絡先 〒798-2192 …野町大字松丸343番地(本庁2階) Tel:0895-42-1117(直通)",
+     "note": null
     },
     {
      "type": "feedback",
@@ -881,8 +690,11 @@
      "hours": null,
      "source_url": "https://www.town.matsuno.ehime.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -916,7 +728,7 @@
      "hours": null,
      "source_url": "https://www.town.kihoku.ehime.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -930,7 +742,7 @@
      "hours": null,
      "source_url": "https://www.town.kihoku.ehime.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -939,20 +751,6 @@
    "name": "愛南町",
    "official_site": "https://www.town.ainan.ehime.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0895-72-1211",
-     "email": null,
-     "form_url": null,
-     "postal_code": "798-4196",
-     "postal_address": "所在地 愛媛県南宇和郡愛南町城辺甲2420番地",
-     "hours": null,
-     "source_url": "https://www.town.ainan.ehime.jp/",
-     "evidence": "愛南町役場 郵便番号 798-4196 …南宇和郡愛南町城辺甲2420番地 電話番号:0895-72-1211(代表)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -965,7 +763,7 @@
      "hours": null,
      "source_url": "https://www.town.ainan.ehime.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -979,8 +777,11 @@
      "hours": null,
      "source_url": "https://www.town.ainan.ehime.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   }
  ]

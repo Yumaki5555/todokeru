@@ -57,32 +57,32 @@
    {
     "id": "352012-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "083-231-1111",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "750-8521",
+    "postal_address": "山口県下関市南部町1番1号",
     "hours": null,
-    "source_url": "https://www.city.shimonoseki.lg.jp/www/toppage/0000000000000/APM03000.html",
-    "verified_at": null,
-    "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "source_url": "https://www.city.shimonoseki.lg.jp/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    },
    {
     "id": "352012-feedback",
     "type": "feedback",
-    "department": "広聴・ご意見窓口",
-    "phone": null,
+    "department": "秘書課報道広聴室",
+    "phone": "083-242-0801",
     "email": null,
-    "form_url": null,
+    "form_url": "https://www.city.shimonoseki.lg.jp/form/detail.php?sec_sec1=2&lif_id=162780",
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.shimonoseki.lg.jp/www/toppage/0000000000000/APM03000.html",
-    "verified_at": null,
-    "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "source_url": "https://www.city.shimonoseki.lg.jp/soshiki/2/4715.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    },
    {
     "id": "352012-assembly",
@@ -94,10 +94,10 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.shimonoseki.lg.jp/www/toppage/0000000000000/APM03000.html",
+    "source_url": "https://www.city.shimonoseki.lg.jp/site/gikai/",
     "verified_at": null,
     "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "note": null
    }
   ]
  },
@@ -108,16 +108,16 @@
    {
     "id": "352021-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0836-31-4111",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.ube.yamaguchi.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -394,16 +394,16 @@
    {
     "id": "352080-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0827-29-5000",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "740-8585",
+    "postal_address": "山口県岩国市今津町1丁目14-51",
     "hours": null,
     "source_url": "https://www.city.iwakuni.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -416,7 +416,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.iwakuni.lg.jp/",
+    "source_url": "https://www.city.iwakuni.lg.jp/life/4/23/",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -424,14 +424,14 @@
    {
     "id": "352080-assembly",
     "type": "assembly",
-    "department": "議会事務局",
+    "department": "岩国市議会",
     "phone": null,
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.iwakuni.lg.jp/",
+    "source_url": null,
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -547,7 +547,7 @@
    {
     "id": "352128-general",
     "type": "general",
-    "department": "代表窓口",
+    "department": "代表電話",
     "phone": null,
     "email": null,
     "form_url": null,
@@ -569,7 +569,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city-yanai.jp/",
+    "source_url": "https://www.city-yanai.jp/soshiki/3/menu-ikentoiawase.html",
     "verified_at": null,
     "status": "unverified",
     "note": "出典の確認待ち"
@@ -577,14 +577,14 @@
    {
     "id": "352128-assembly",
     "type": "assembly",
-    "department": "議会事務局",
+    "department": "議会事務局議会事務局",
     "phone": null,
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city-yanai.jp/",
+    "source_url": "https://www.city-yanai.jp/site/shigikai/seigan.html",
     "verified_at": null,
     "status": "unverified",
     "note": "出典の確認待ち"
@@ -605,10 +605,10 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www2.city.mine.lg.jp/www/toppage/0000000000000/APM03000.html",
+    "source_url": "https://www2.city.mine.lg.jp/",
     "verified_at": null,
     "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "note": null
    },
    {
     "id": "352136-feedback",
@@ -620,10 +620,10 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www2.city.mine.lg.jp/www/toppage/0000000000000/APM03000.html",
+    "source_url": "https://www2.city.mine.lg.jp/",
     "verified_at": null,
     "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "note": null
    },
    {
     "id": "352136-assembly",
@@ -635,10 +635,10 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www2.city.mine.lg.jp/www/toppage/0000000000000/APM03000.html",
+    "source_url": "https://www2.city.mine.lg.jp/gyosei/shigikai/index.html",
     "verified_at": null,
     "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "note": null
    }
   ]
  },
@@ -649,16 +649,16 @@
    {
     "id": "352152-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0834-22-8211",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "745-8655",
+    "postal_address": "山口県周南市岐山通1-1",
     "hours": null,
     "source_url": "https://www.city.shunan.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -715,16 +715,16 @@
    {
     "id": "352161-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0836-82-1111",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "756-8601",
+    "postal_address": "山口県山陽小野田市日の出一丁目1番1号",
     "hours": null,
     "source_url": "https://www.city.sanyo-onoda.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -788,7 +788,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.suo-oshima.lg.jp/",
+    "source_url": "https://www.town.suo-oshima.lg.jp/life/4/26/96/",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -817,16 +817,16 @@
    {
     "id": "353213-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0827-52-2135",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "740-8501",
+    "postal_address": "山口県玖珂郡和木町和木1丁目1番1号",
     "hours": null,
     "source_url": "https://www.town.waki.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -839,7 +839,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.waki.lg.jp/",
+    "source_url": "https://www.town.waki.lg.jp/soshiki/",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -848,15 +848,15 @@
     "id": "353213-assembly",
     "type": "assembly",
     "department": "議会事務局",
-    "phone": null,
+    "phone": "0827-52-2137",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.waki.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.town.waki.lg.jp/site/gikai/332.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -872,13 +872,12 @@
     "phone": "0820-62-0311",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "742-1402",
+    "postal_address": "山口県熊毛郡上関町大字長島448番地",
     "hours": null,
-    "source_url": "https://www.town.kaminoseki.lg.jp/%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9.html",
-    "verified_at": null,
-    "matched_at": "2026-11-02",
-    "status": "auto_matched",
+    "source_url": "https://www.town.kaminoseki.lg.jp/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -927,40 +926,40 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.tabuse.lg.jp/www/index.html",
+    "source_url": "https://www.town.tabuse.lg.jp/",
     "verified_at": null,
     "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "note": null
    },
    {
     "id": "353434-feedback",
     "type": "feedback",
-    "department": "広聴・ご意見窓口",
+    "department": "町政へのご意見・ご提案はこちらから",
     "phone": null,
     "email": null,
-    "form_url": null,
+    "form_url": "https://www.town.tabuse.lg.jp/form/detail.php?sec_sec1=3&lif_id=1862",
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.tabuse.lg.jp/www/index.html",
-    "verified_at": null,
-    "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "source_url": "https://www.town.tabuse.lg.jp/soshiki/3/1862.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    },
    {
     "id": "353434-assembly",
     "type": "assembly",
     "department": "議会事務局",
-    "phone": null,
+    "phone": "0820-52-5800",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "742-1592",
+    "postal_address": "山口県熊毛郡田布施町大字下田布施3440番地1",
     "hours": null,
-    "source_url": "https://www.town.tabuse.lg.jp/www/index.html",
-    "verified_at": null,
-    "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "source_url": "https://www.town.tabuse.lg.jp/site/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },

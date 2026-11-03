@@ -57,46 +57,47 @@
    {
     "id": "162019-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "076-431-6111",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "930-8510",
+    "postal_address": "富山県富山市新桜町7番38号",
     "hours": null,
-    "source_url": "https://www.city.toyama.toyama.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.city.toyama.lg.jp/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
     "id": "162019-feedback",
     "type": "feedback",
-    "department": "広聴・ご意見窓口",
+    "department": "市民の声(市へのご意見・ご要望)",
     "phone": null,
     "email": null,
-    "form_url": null,
+    "form_url": "https://www.city.toyama.lg.jp/cgi-bin/enquetes/675e7724152f4b0d9c2a6ea07bd7860c",
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.toyama.toyama.jp/",
-    "verified_at": null,
-    "status": "unverified",
-    "note": null
+    "source_url": "https://www.city.toyama.lg.jp/shisei/koho/1010862/1012156/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null,
+    "form_via_page": "市へご意見・ご要望を送る(入力フォームへ)"
    },
    {
     "id": "162019-assembly",
     "type": "assembly",
-    "department": "議会事務局",
-    "phone": null,
+    "department": "議会事務局 庶務課",
+    "phone": "076-443-2157",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "930-8510",
+    "postal_address": "富山市新桜町7番38号",
     "hours": null,
-    "source_url": "https://www.city.toyama.toyama.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.city.toyama.lg.jp/gikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -247,7 +248,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.himi.toyama.jp/",
+    "source_url": "https://www.city.himi.toyama.jp/gyosei/soshiki/gikai/index.html",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -472,10 +473,10 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.nanto.toyama.jp/cms-sypher/www/index.jsp",
+    "source_url": "https://www.city.nanto.toyama.jp/",
     "verified_at": null,
     "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "note": null
    },
    {
     "id": "162108-feedback",
@@ -487,25 +488,25 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.nanto.toyama.jp/cms-sypher/www/index.jsp",
+    "source_url": "https://www.city.nanto.toyama.jp/",
     "verified_at": null,
     "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "note": null
    },
    {
     "id": "162108-assembly",
     "type": "assembly",
-    "department": "議会事務局",
-    "phone": null,
+    "department": "南砺市議会事務局",
+    "phone": "0763-23-2222",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.nanto.toyama.jp/cms-sypher/www/index.jsp",
-    "verified_at": null,
-    "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "source_url": "https://www.nanto-shigikai.jp/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -640,7 +641,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.kamiichi.toyama.jp/",
+    "source_url": "https://www.town.kamiichi.toyama.jp/life/3/30/148/",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -669,17 +670,17 @@
    {
     "id": "163236-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "076-463-1121",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "930-0292",
+    "postal_address": "富山県中新川郡立山町前沢2440番地",
     "hours": null,
-    "source_url": "https://www.town.tateyama.toyama.jp/pub/",
-    "verified_at": null,
-    "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "source_url": "https://www.town.tateyama.toyama.jp/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    },
    {
     "id": "163236-feedback",
@@ -691,10 +692,10 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.tateyama.toyama.jp/pub/",
+    "source_url": "https://www.town.tateyama.toyama.jp/cgi-bin/inquiry.php/26?page_no=1",
     "verified_at": null,
     "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "note": null
    },
    {
     "id": "163236-assembly",
@@ -706,10 +707,10 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.tateyama.toyama.jp/pub/",
+    "source_url": "https://www.town.tateyama.toyama.jp/choseijoho/tateyamamachigikai/index.html",
     "verified_at": null,
     "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "note": null
    }
   ]
  },

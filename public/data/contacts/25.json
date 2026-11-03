@@ -109,16 +109,16 @@
    {
     "id": "252026-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0749-22-1411",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "522-8501",
+    "postal_address": "滋賀県彦根市元町4番2号",
     "hours": null,
     "source_url": "https://www.city.hikone.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -160,16 +160,16 @@
    {
     "id": "252034-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0749-62-4111",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "526-8501",
+    "postal_address": "滋賀県長浜市八幡東町632番地",
     "hours": null,
     "source_url": "https://www.city.nagahama.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -328,16 +328,16 @@
    {
     "id": "252077-feedback",
     "type": "feedback",
-    "department": "広聴・ご意見窓口",
+    "department": "広報・広聴",
     "phone": null,
     "email": null,
-    "form_url": null,
+    "form_url": "https://www.city.moriyama.lg.jp/cgi-list/download.cgi?category=180&text=&group=0&sort=2",
     "postal_code": null,
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.moriyama.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -364,16 +364,16 @@
    {
     "id": "252085-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "077-553-1234",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "520-3088",
+    "postal_address": "滋賀県栗東市安養寺一丁目13番33号",
     "hours": null,
     "source_url": "https://www.city.ritto.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -422,10 +422,9 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.koka.lg.jp/1119.htm",
-    "verified_at": null,
-    "matched_at": "2026-11-02",
-    "status": "auto_matched",
+    "source_url": "https://www.city.koka.lg.jp/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -482,16 +481,16 @@
    {
     "id": "252107-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "077-587-1121",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "520-2395",
+    "postal_address": "滋賀県野洲市小篠原2100番地1",
     "hours": null,
     "source_url": "https://www.city.yasu.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -591,10 +590,10 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.takashima.lg.jp/www/toppage/0000000000000/APM03000.html",
+    "source_url": "https://www.city.takashima.lg.jp/",
     "verified_at": null,
     "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "note": null
    },
    {
     "id": "252123-feedback",
@@ -606,10 +605,10 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.takashima.lg.jp/www/toppage/0000000000000/APM03000.html",
+    "source_url": "https://www.city.takashima.lg.jp/",
     "verified_at": null,
     "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "note": null
    },
    {
     "id": "252123-assembly",
@@ -621,10 +620,10 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.takashima.lg.jp/www/toppage/0000000000000/APM03000.html",
+    "source_url": "https://www.city.takashima.lg.jp/gyoseijoho/webshigikai/index.html",
     "verified_at": null,
     "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "note": null
    }
   ]
  },
@@ -686,16 +685,16 @@
    {
     "id": "252140-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0749-53-5100",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "521-8501",
+    "postal_address": "米原市米原1016",
     "hours": null,
     "source_url": "https://www.city.maibara.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -708,7 +707,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.maibara.lg.jp/",
+    "source_url": "https://www.city.maibara.lg.jp/soshiki/seisaku/kohotoukei/index.html",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -854,16 +853,16 @@
    {
     "id": "254258-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0749-42-4111",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.town.aisho.shiga.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -956,7 +955,7 @@
    {
     "id": "254428-general",
     "type": "general",
-    "department": "代表窓口",
+    "department": "代表電話",
     "phone": null,
     "email": null,
     "form_url": null,

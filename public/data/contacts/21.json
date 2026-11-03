@@ -131,7 +131,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.ogaki.lg.jp/",
+    "source_url": "https://www.city.ogaki.lg.jp/category/1-19-0-0-0-0-0-0-0-0.html",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -201,6 +201,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "212032-education",
+    "type": "education",
+    "department": "教育総務係",
+    "phone": "0577-35-3153",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.takayama.lg.jp/soshiki/1001876/1001877.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -262,16 +277,16 @@
    {
     "id": "212059-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0575-22-3131",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "501-3894",
+    "postal_address": "岐阜県関市若草通3丁目1番地",
     "hours": null,
     "source_url": "https://www.city.seki.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -452,7 +467,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.mizunami.lg.jp/",
+    "source_url": "https://www.city.mizunami.lg.jp/shisei/kouchou_kouhou/index.html",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -496,7 +511,7 @@
    {
     "id": "212091-feedback",
     "type": "feedback",
-    "department": "広聴・ご意見窓口",
+    "department": "市政への提言",
     "phone": null,
     "email": null,
     "form_url": null,
@@ -506,7 +521,7 @@
     "source_url": "https://www.city.hashima.lg.jp/",
     "verified_at": null,
     "status": "unverified",
-    "note": null
+    "note": "連絡先を出典ページで照合できなかったため未確認"
    },
    {
     "id": "212091-assembly",
@@ -634,16 +649,16 @@
    {
     "id": "212121-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0572-54-1111",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "509-5192",
+    "postal_address": "岐阜県土岐市土岐津町土岐口2101番地",
     "hours": null,
     "source_url": "https://www.city.toki.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -685,16 +700,16 @@
    {
     "id": "212130-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "058-383-1111",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.kakamigahara.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -707,7 +722,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.kakamigahara.lg.jp/",
+    "source_url": "https://www.city.kakamigahara.lg.jp/shisei/koho/index.html",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -715,16 +730,16 @@
    {
     "id": "212130-assembly",
     "type": "assembly",
-    "department": "議会事務局",
-    "phone": null,
+    "department": "議会総務課",
+    "phone": "058-383-2001",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.kakamigahara.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.city.kakamigahara.lg.jp/shisei/shigikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -941,7 +956,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.hida.gifu.jp/",
+    "source_url": "https://www.city.hida.gifu.jp/life/4/34/",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -970,16 +985,16 @@
    {
     "id": "212181-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "058-323-1155",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "501-0491",
+    "postal_address": "岐阜県本巣市早野255番地",
     "hours": null,
     "source_url": "https://www.city.motosu.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -1051,16 +1066,16 @@
    {
     "id": "212199-feedback",
     "type": "feedback",
-    "department": "広聴・ご意見窓口",
-    "phone": null,
+    "department": "秘書広報課",
+    "phone": "0575-67-1147",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.gujo.gifu.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.city.gujo.gifu.jp/admin/detail/2751.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -1073,7 +1088,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.gujo.gifu.jp/",
+    "source_url": "https://www.city.gujo.gifu.jp/admin/room_assembly_mayor_message/",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -1160,7 +1175,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.kaizu.lg.jp/",
+    "source_url": "https://www.city.kaizu.lg.jp/shisei/category/2-9-0-0-0-0-0-0-0-0.html",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -1169,15 +1184,30 @@
     "id": "212211-assembly",
     "type": "assembly",
     "department": "議会事務局",
-    "phone": null,
+    "phone": "0584-53-1111",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.kaizu.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.city.kaizu.lg.jp/soshiki_list.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "212211-education",
+    "type": "education",
+    "department": "教育総務係",
+    "phone": "0584-53-1467",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kaizu.lg.jp/soshiki_list.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -1189,16 +1219,16 @@
    {
     "id": "213021-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "058-247-1331",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "501-6197",
+    "postal_address": "岐阜県羽島郡岐南町八剣7丁目107番地",
     "hours": null,
     "source_url": "https://www.town.ginan.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -1240,31 +1270,31 @@
    {
     "id": "213039-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "058-388-1111",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "501-6181",
+    "postal_address": "岐阜県羽島郡笠松町司町1番地",
     "hours": null,
     "source_url": "https://www.town.kasamatsu.gifu.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
     "id": "213039-feedback",
     "type": "feedback",
-    "department": "広聴・ご意見窓口",
+    "department": "ご意見・お問合せ",
     "phone": null,
     "email": null,
-    "form_url": null,
+    "form_url": "https://www.town.kasamatsu.gifu.jp/formmail_list/formmail_kikaku/7/",
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.kasamatsu.gifu.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.town.kasamatsu.gifu.jp/formmail_list/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -1444,16 +1474,16 @@
    {
     "id": "213811-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0584-27-3111",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.town.godo.gifu.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -1627,31 +1657,31 @@
    {
     "id": "214019-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0585-22-2111",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "501-0692",
+    "postal_address": "岐阜県揖斐郡揖斐川町三輪133番地",
     "hours": null,
     "source_url": "https://www.town.ibigawa.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
     "id": "214019-feedback",
     "type": "feedback",
-    "department": "広聴・ご意見窓口",
+    "department": "広報・広聴",
     "phone": null,
     "email": null,
-    "form_url": null,
+    "form_url": "https://logoform.jp/procedure/PdPX/529",
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.ibigawa.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.town.ibigawa.lg.jp/life/6/27/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -1700,7 +1730,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town-ono.jp/",
+    "source_url": "https://www.town-ono.jp/category/5-27-0-0-0-0-0-0-0-0.html",
     "verified_at": null,
     "status": "unverified",
     "note": "出典の確認待ち"
@@ -1729,16 +1759,16 @@
    {
     "id": "214043-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0585-45-3111",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "503-2492",
+    "postal_address": "岐阜県揖斐郡池田町六之井1468番地の1",
     "hours": null,
     "source_url": "https://www.town.gifu-ikeda.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -1760,16 +1790,16 @@
     "id": "214043-assembly",
     "type": "assembly",
     "department": "議会事務局",
-    "phone": null,
+    "phone": "0585-45-3111",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.gifu-ikeda.lg.jp/category/1-0-0-0-0-0-0-0-0-0.html",
-    "verified_at": null,
-    "status": "unverified",
-    "note": null
+    "source_url": "https://www.town.gifu-ikeda.lg.jp/0000003736.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -1868,10 +1898,10 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.sakahogi.gifu.jp/",
+    "source_url": "https://sakahogi-town.stream.jfit.co.jp/",
     "verified_at": null,
     "status": "unverified",
-    "note": null
+    "note": "出典の確認待ち"
    }
   ]
  },
@@ -1933,7 +1963,7 @@
    {
     "id": "215031-general",
     "type": "general",
-    "department": "代表窓口",
+    "department": "代表電話",
     "phone": null,
     "email": null,
     "form_url": null,
@@ -1984,7 +2014,7 @@
    {
     "id": "215040-general",
     "type": "general",
-    "department": "代表窓口",
+    "department": "代表電話",
     "phone": null,
     "email": null,
     "form_url": null,

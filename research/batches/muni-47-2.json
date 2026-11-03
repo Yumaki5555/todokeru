@@ -23,20 +23,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "098-956-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "904-0293",
-     "postal_address": "沖縄県中頭郡嘉手納町字嘉手納588",
-     "hours": null,
-     "source_url": "https://www.town.kadena.okinawa.jp/departments/kak266.html",
-     "evidence": "議会事務局 連絡先 主な業務 関連リンク 連絡先 場所:役場3階 課電話番号:098-956-1111(内線340・3",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -48,8 +34,11 @@
      "hours": null,
      "source_url": "https://www.town.kadena.okinawa.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -95,9 +84,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.chatan.jp/",
+     "source_url": "https://www.chatan.jp/choseijoho/sodan.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
    ]
   },
@@ -170,20 +159,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "098-895-4318",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.vill.nakagusuku.okinawa.jp/gikai/",
-     "evidence": "議会事務局 電話 098-895-4318(直通)",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -195,8 +170,11 @@
      "hours": null,
      "source_url": "https://www.vill.nakagusuku.okinawa.jp/index.jsp",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -219,20 +197,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局議会事務局",
-     "phone": "098-945-5122",
-     "email": null,
-     "form_url": null,
-     "postal_code": "903-0220",
-     "postal_address": "沖縄県中頭郡西原町字与那城140番地の1 庁舎3階",
-     "hours": null,
-     "source_url": "https://www.town.nishihara.okinawa.jp/site/gikai/",
-     "evidence": "議会議会事務局議会事務局 〒903-0220沖縄県中頭郡西原町字与那城140番地の1 庁舎3階 Tel:098-945-5122",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -242,10 +206,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.nishihara.okinawa.jp/",
+     "source_url": "https://www.town.nishihara.okinawa.jp/life/5/25/143/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -255,30 +222,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "098-945-2201",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "901-1392",
+     "postal_address": "沖縄県島尻郡与那原町字上与那原16番地",
      "hours": null,
      "source_url": "https://www.town.yonabaru.okinawa.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "098-945-5775",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.yonabaru.okinawa.jp/soshiki/18/45.html",
-     "evidence": "議会事務局 098-945-5775",
+     "evidence": "与那原町 〒901-1392 沖縄県島尻郡与那原町字上与那原16番地 電話番号:098-945-2201(代表)",
      "note": null
     },
     {
@@ -291,10 +244,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.yonabaru.okinawa.jp/",
+     "source_url": "https://www.town.yonabaru.okinawa.jp/life/5/24/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -353,44 +309,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "098-987-2321",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.vill.tokashiki.okinawa.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "098-987-2132",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.vill.tokashiki.okinawa.jp/gyoseijoho/tokashikisonyakubanitsuite/access.html",
-     "evidence": "議会事務局:098-987-2132",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "渡嘉敷村教育委員会",
-     "phone": "098-987-2120",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.vill.tokashiki.okinawa.jp/iryo_kyoiku_fukushi/2570.html",
-     "evidence": "渡嘉敷村教育委員会 沖縄県島尻郡渡嘉敷村字渡嘉敷 183 電話番号:098-987-2120",
+     "evidence": "渡嘉敷村役場 沖縄県島尻郡渡嘉敷村字 渡嘉敷183 電話番号:098-987-2321",
      "note": null
     },
     {
@@ -405,8 +333,11 @@
      "hours": null,
      "source_url": "https://www.vill.tokashiki.okinawa.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -429,20 +360,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "098-987-2143",
-     "email": null,
-     "form_url": null,
-     "postal_code": "901-3402",
-     "postal_address": "沖縄県島尻郡座間味村座間味109",
-     "hours": null,
-     "source_url": "https://www.vill.zamami.okinawa.jp/sonsei/songikai/",
-     "evidence": "議会事務局が担当しています 〒901-… 沖縄県島尻郡座間味村座間味109 電話:098-987-2143",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -456,6 +373,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -465,16 +385,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "098-988-2016",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "901-3792",
+     "postal_address": "沖縄県島尻郡粟国村字東483番地",
      "hours": null,
      "source_url": "https://www.vill.aguni.okinawa.jp/",
-     "evidence": null,
+     "evidence": "粟国村役場 〒901-3792 沖縄県島尻郡粟国村字東483番地 電話番号:098-988-2016 ファックス番号",
      "note": null
     },
     {
@@ -492,20 +412,6 @@
      "note": null
     },
     {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会",
-     "phone": "098-988-2449",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.vill.aguni.okinawa.jp/10/68.html",
-     "evidence": "教育委員会 〒901-3702 沖縄県島尻郡粟国村東483番地 電話:098-988-2449 ファックス:0",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -517,7 +423,7 @@
      "hours": null,
      "source_url": "https://www.vill.aguni.okinawa.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -528,16 +434,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "098-989-2002",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "901-3692",
+     "postal_address": "沖縄県島尻郡渡名喜村1917番地の3",
      "hours": null,
      "source_url": "https://www.vill.tonaki.okinawa.jp/index.jsp",
-     "evidence": null,
+     "evidence": "渡名喜村役場 〒901-3692 沖縄県島尻郡渡名喜村1917番地の3 TEL:098-989-2002 FAX:098",
      "note": null
     },
     {
@@ -580,7 +486,7 @@
      "hours": null,
      "source_url": "https://www.vill.tonaki.okinawa.jp/index.jsp",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -678,7 +584,7 @@
      "hours": null,
      "source_url": "https://vill.kitadaito.okinawa.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -689,30 +595,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.vill.iheya.okinawa.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
      "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0980-46-2737",
+     "department": "代表電話",
+     "phone": "0980-46-2001",
      "email": null,
      "form_url": null,
      "postal_code": "905-0793",
      "postal_address": "沖縄県伊平屋村字我喜屋251",
      "hours": null,
-     "source_url": "https://www.vill.iheya.okinawa.jp/site/gikai-subsaite/",
-     "evidence": "議会事務局 〒905-0793沖縄県伊平屋村字我喜屋251 Tel:0980-46-2737Fax:0980",
+     "source_url": "https://www.vill.iheya.okinawa.jp/",
+     "evidence": "伊平屋村 〒905-0793沖縄県伊平屋村字我喜屋251 電話番号: 0980-46-2001(代表)Fax:",
      "note": null
     },
     {
@@ -725,10 +617,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.vill.iheya.okinawa.jp/",
+     "source_url": "https://www.vill.iheya.okinawa.jp/life/5/27/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -762,7 +657,7 @@
      "hours": null,
      "source_url": "https://vill.izena.okinawa.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -776,7 +671,7 @@
      "hours": null,
      "source_url": "https://vill.izena.okinawa.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -814,20 +709,6 @@
      "note": null
     },
     {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会",
-     "phone": "098-985-2287",
-     "email": "kyoiku@town.kumejima.lg.jp",
-     "form_url": null,
-     "postal_code": "901-3192",
-     "postal_address": "久米島町字仲泊966-33",
-     "hours": null,
-     "source_url": "https://www.town.kumejima.okinawa.jp/docs/2017071200015/",
-     "evidence": "教育委員会 TEL:098-985-2287",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -839,7 +720,7 @@
      "hours": null,
      "source_url": "https://www.town.kumejima.okinawa.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -937,7 +818,7 @@
      "hours": null,
      "source_url": "https://www.vill.tarama.okinawa.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -947,34 +828,6 @@
    "official_site": "https://www.town.taketomi.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0980-82-6191",
-     "email": null,
-     "form_url": null,
-     "postal_code": "907-8503",
-     "postal_address": "沖縄県石垣市美崎町11番地1",
-     "hours": null,
-     "source_url": "https://www.town.taketomi.lg.jp/",
-     "evidence": "竹富町役場 〒907-8503 沖縄県石垣市美崎町11番地1 Tel:0980-82-6191(代表) Fax",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0980-82-3748",
-     "email": "gikai@town.taketomi.okinawa.jp",
-     "form_url": null,
-     "postal_code": "907-8503",
-     "postal_address": "沖縄県石垣市美崎町11番地1",
-     "hours": null,
-     "source_url": "https://www.town.taketomi.lg.jp/soshiki/gikaijimu/",
-     "evidence": "議会事務局が担当しています。 〒907-8503 沖縄県石垣市美崎町11番地1 Tel:0980-82-3748 Fax:098",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -986,8 +839,12 @@
      "hours": null,
      "source_url": "https://www.town.taketomi.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -997,30 +854,44 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0980-87-2241",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "907-1801",
+     "postal_address": "沖縄県八重山郡与那国町字与那国129",
      "hours": null,
      "source_url": "https://www.town.yonaguni.okinawa.jp/",
-     "evidence": null,
+     "evidence": "与那国町 〒907-1801 沖縄県八重山郡与那国町字与那国129 TEL:0980-87-2241(代表)FAX:",
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0980-87-2246",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.yonaguni.okinawa.jp/category/bunya/chosei/gikai/",
-     "evidence": null,
+     "source_url": "https://www.town.yonaguni.okinawa.jp/docs/2025121200021/",
+     "evidence": "議会事務局 TEL:0980-87-2246",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育委員会",
+     "phone": "0980-87-2002",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.yonaguni.okinawa.jp/docs/2018080700015/",
+     "evidence": "教育委員会 0980-87-2002",
      "note": null
     },
     {
@@ -1035,7 +906,7 @@
      "hours": null,
      "source_url": "https://www.town.yonaguni.okinawa.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   }

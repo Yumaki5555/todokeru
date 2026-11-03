@@ -3,16 +3,23 @@
  "checked_at": "2026-11-03",
  "result": {
   "entities": 22,
-  "contacts": 70,
-  "verified": 41,
-  "unverified": 29,
+  "contacts": 30,
+  "verified": 10,
+  "unverified": 20,
   "unavailable": 0,
   "errors": 0
  },
  "errors": [],
  "reports": [
   {
-   "id": "271004-general",
+   "id": "271004-assembly",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "271004-education",
    "agent_status": "found",
    "checks": {
     "phone": "ok",
@@ -22,27 +29,14 @@
    "status": "verified"
   },
   {
-   "id": "271004-assembly",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "271004-feedback",
+   "id": "271403-general",
    "agent_status": "found",
    "checks": {
     "phone": "ok",
-    "form_url": "ok"
+    "postal_code": "ok",
+    "postal_address": "ok"
    },
    "status": "verified"
-  },
-  {
-   "id": "271403-general",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
   },
   {
    "id": "271403-assembly",
@@ -59,26 +53,6 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "272027-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "272027-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "272027-feedback",
    "agent_status": "auto_not_found",
    "checks": {},
@@ -91,24 +65,6 @@
    "checks": {},
    "status": "unverified",
    "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "272035-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "272035-feedback",
-   "agent_status": "found",
-   "checks": {
-    "form_url": "ok"
-   },
-   "status": "verified"
   },
   {
    "id": "272043-general",
@@ -132,51 +88,12 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "272051-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "272051-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "272051-education",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "272051-feedback",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "email": "ok",
-    "form_url": "ok（直接は開けないため、出典ページの「市政に対するご意見・ご要望(市民の声)送信フォーム」から開く案内にする）"
-   },
-   "status": "verified"
-  },
-  {
    "id": "272060-general",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok"
+   },
+   "status": "verified"
   },
   {
    "id": "272060-assembly",
@@ -186,19 +103,12 @@
    "why": "公式ドメインか自動で判定できない（izumiotsu.gsl-service.net）"
   },
   {
-   "id": "272060-education",
+   "id": "272060-feedback",
    "agent_status": "found",
    "checks": {
-    "phone": "ok"
+    "form_url": "ok"
    },
    "status": "verified"
-  },
-  {
-   "id": "272060-feedback",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
   },
   {
    "id": "272078-general",
@@ -208,14 +118,6 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "272078-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "272078-feedback",
    "agent_status": "auto_not_found",
    "checks": {},
@@ -223,53 +125,12 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "272086-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "272086-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "272086-feedback",
-   "agent_status": "found",
-   "checks": {
-    "form_url": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "272094-general",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "272094-assembly",
    "agent_status": "found",
    "checks": {
     "phone": "ok",
     "postal_code": "ok",
     "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "272094-education",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
    },
    "status": "verified"
   },
@@ -281,87 +142,12 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "272108-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "272108-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "272108-feedback",
-   "agent_status": "found",
-   "checks": {
-    "form_url": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "272116-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "272116-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "272116-feedback",
-   "agent_status": "found",
-   "checks": {
-    "form_url": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "272124-general",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "272124-assembly",
    "agent_status": "found",
    "checks": {
     "phone": "ok",
     "postal_code": "ok",
     "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "272124-education",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "272124-feedback",
-   "agent_status": "found",
-   "checks": {
-    "form_url": "ok（直接は開けないため、出典ページの「ご意見・お問合せ」から開く案内にする）"
    },
    "status": "verified"
   },
@@ -373,28 +159,11 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "272132-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "email": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "272132-feedback",
    "agent_status": "auto_not_found",
    "checks": {},
    "status": "unverified",
    "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "272141-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
   },
   {
    "id": "272141-assembly",
@@ -404,98 +173,18 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "272141-feedback",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "form_url": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "272159-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "272159-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "272159-feedback",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "272167-general",
    "agent_status": "found",
    "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "272167-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "272167-feedback",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "email": "ok"
+    "form_url": "ok"
    },
    "status": "verified"
   },
   {
    "id": "272175-general",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "272175-assembly",
    "agent_status": "found",
    "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "272175-feedback",
-   "agent_status": "found",
-   "checks": {
-    "form_url": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "272183-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
+    "phone": "ok"
    },
    "status": "verified"
   },
@@ -508,16 +197,9 @@
   },
   {
    "id": "272183-feedback",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "272191-general",
    "agent_status": "found",
    "checks": {
-    "phone": "ok"
+    "form_url": "ok"
    },
    "status": "verified"
   },
@@ -536,24 +218,6 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "272205-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "272205-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "272205-feedback",
    "agent_status": "auto_not_found",
    "checks": {},
@@ -562,13 +226,6 @@
   },
   {
    "id": "272213-general",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "272213-assembly",
    "agent_status": "found",
    "checks": {
     "phone": "ok",

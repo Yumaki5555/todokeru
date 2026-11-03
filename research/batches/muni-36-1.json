@@ -7,96 +7,72 @@
    "code": "362018",
    "name": "徳島市",
    "official_site": "https://www.city.tokushima.tokushima.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "088-621-5111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "770-8571",
-     "postal_address": "徳島県徳島市幸町2丁目5番地",
-     "hours": null,
-     "source_url": "https://www.city.tokushima.tokushima.jp/",
-     "evidence": "徳島市役所 〒770-8571 徳島県徳島市幸町2丁目5番地 電話:088-621-5111(代表) ファク",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "徳島市議会事務局 議事調査課",
-     "phone": "088-621-5115",
-     "email": null,
-     "form_url": null,
-     "postal_code": "770-8571",
-     "postal_address": "徳島県徳島市幸町2丁目5番地",
-     "hours": null,
-     "source_url": "https://www.city.tokushima.tokushima.jp/shigikai/kakusyu_tetuduki/seigan.html",
-     "evidence": "徳島市議会事務局 議事調査課 〒770-8571 徳島県徳島市幸町2丁目5番地(南館3階) 電話番号:088-621-5115",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報広聴課",
-     "phone": "088-621-5091",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.tokushima.tokushima.jp/shisei/koho_kocho/shiminnokoe/kaitou-koukai-kijyun.html",
-     "evidence": "広報広聴課 〒770-8571 徳島県徳島市幸町2丁目5番地(本館9階) 電話番号:088-621-5091",
-     "note": null
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
    "code": "362026",
    "name": "鳴門市",
-   "official_site": "https://www.city.naruto.tokushima.jp/",
+   "official_site": "https://www.city.naruto.lg.jp/",
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "088-684-1111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.naruto.tokushima.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.naruto.tokushima.jp/",
-     "evidence": null,
+     "source_url": "https://www.city.naruto.lg.jp/",
+     "evidence": "鳴門市役所 〒772-8501 徳島県鳴門市撫養町南浜字東浜170 TEL 088-684-1111(代表)",
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "088-684-1234",
+     "email": "gikai@city.naruto.i-tokushima.jp",
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.naruto.tokushima.jp/",
-     "evidence": null,
+     "source_url": "https://www.city.naruto.lg.jp/gikai/docs/2025122500335/",
+     "evidence": "議会事務局 TEL:088-684-1234",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育総務課",
+     "phone": "088-686-8801",
+     "email": "kyoikusomu@city.naruto.i-tokushima.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.naruto.lg.jp/soshiki/",
+     "evidence": "教育総務課TEL:088-686-8801 E-mail:",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "秘書広聴室",
+     "phone": "088-684-1544",
+     "email": "hisyokoho@city.naruto.i-tokushima.jp",
+     "form_url": "https://www.city.naruto.lg.jp/inquiry/hitokoto/",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.naruto.lg.jp/docs/2024042505895/",
+     "evidence": "秘書広聴室 TEL:088-684-1544",
      "note": null
     }
    ]
@@ -107,20 +83,6 @@
    "official_site": "https://www.city.komatsushima.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0885-32-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.komatsushima.lg.jp/",
-     "evidence": "小松島市役所 〒773-8501 徳島県小松島市横須町1番1号 電話番号0885-32-2111(代表)",
-     "note": null
-    },
-    {
      "type": "assembly",
      "agent_status": "auto_not_found",
      "department": null,
@@ -130,9 +92,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.komatsushima.lg.jp/",
+     "source_url": "https://www.city.komatsushima.lg.jp/shisei/soshiki/gikai/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": null
     },
     {
      "type": "feedback",
@@ -146,8 +108,11 @@
      "hours": null,
      "source_url": "https://www.city.komatsushima.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -181,7 +146,7 @@
      "hours": null,
      "source_url": "https://www.city.anan.tokushima.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -195,7 +160,7 @@
      "hours": null,
      "source_url": "https://www.city.anan.tokushima.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -220,45 +185,31 @@
     },
     {
      "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.yoshinogawa.lg.jp/",
-     "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
-    },
-    {
-     "type": "education",
      "agent_status": "found",
-     "department": "教育委員会",
-     "phone": "0883-25-6611",
-     "email": "kawashima@yoshinogawa.i-tokushima.jp",
+     "department": "吉野川市議会",
+     "phone": "0883-22-2241",
+     "email": "gikai@yoshinogawa.i-tokushima.jp",
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.yoshinogawa.lg.jp/soshiki/",
-     "evidence": "教育委員会部門・防災局部門・会計部門] ※詳しくはこちら。(画像が開きます) 電話番号:0883-25-6611FAX:0883",
-     "note": "同じ組織のほかの番号：0883-42-4112・0883-43-2111"
+     "source_url": "https://www.city.yoshinogawa.lg.jp/soshiki/gikaik/",
+     "evidence": "議会だより >>新着情報の一覧を見る 連絡先 TEL:0883-22-2241",
+     "note": null
     },
     {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
+     "agent_status": "found",
+     "department": "市長へのメール",
      "phone": null,
      "email": null,
-     "form_url": null,
+     "form_url": "https://www.city.yoshinogawa.lg.jp/inquiry/",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.yoshinogawa.lg.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.city.yoshinogawa.lg.jp/inquiry/mayor/",
+     "evidence": "リンク「市長へのメール」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
    ]
   },
@@ -282,34 +233,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "阿波市議会",
-     "phone": "0883-36-8750",
-     "email": null,
-     "form_url": null,
-     "postal_code": "771-1695",
-     "postal_address": "徳島県阿波市市場町切幡字古田201番地1",
-     "hours": null,
-     "source_url": "https://www.city.awa.lg.jp/gikai/",
-     "evidence": "議会 〒771-1695徳島県阿波市市場町切幡字古田201番地1 TEL:0883-36-8750FAX:0883",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務課",
-     "phone": "0883-36-8740",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.awa.lg.jp/soshiki/",
-     "evidence": "教育総務課TEL:0883-36-8740",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -321,8 +244,11 @@
      "hours": null,
      "source_url": "https://www.city.awa.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -330,20 +256,6 @@
    "name": "美馬市",
    "official_site": "https://www.city.mima.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0883-52-1212",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.mima.lg.jp/",
-     "evidence": "美馬市役所 〒777-8577 徳島県美馬市穴吹町穴吹字九反地5番地 TEL 0883-52-1212(代表)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -370,8 +282,11 @@
      "hours": null,
      "source_url": "https://www.city.mima.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -405,7 +320,7 @@
      "hours": null,
      "source_url": "https://www.miyoshi.i-tokushima.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -419,7 +334,7 @@
      "hours": null,
      "source_url": "https://www.miyoshi.i-tokushima.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -454,7 +369,7 @@
      "hours": null,
      "source_url": "https://www.town.katsuura.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -468,7 +383,7 @@
      "hours": null,
      "source_url": "https://www.town.katsuura.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -479,16 +394,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0885-46-0111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "771-4501",
+     "postal_address": "徳島県勝浦郡上勝町大字福原字下横峯3-1",
      "hours": null,
      "source_url": "https://www.kamikatsu.jp/",
-     "evidence": null,
+     "evidence": "上勝町役場 〒771-4501 徳島県勝浦郡上勝町大字福原字下横峯3-1 電話:(0885)46-0111 FAX:(08",
      "note": null
     },
     {
@@ -531,7 +446,7 @@
      "hours": null,
      "source_url": "https://www.kamikatsu.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -540,34 +455,6 @@
    "name": "佐那河内村",
    "official_site": "https://www.vill.sanagochi.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "088-679-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "771-4195",
-     "postal_address": "徳島県名東郡佐那河内村下字西ノハナ31番地",
-     "hours": null,
-     "source_url": "https://www.vill.sanagochi.lg.jp/",
-     "evidence": "佐那河内村役場 〒771-4195 徳島県名東郡佐那河内村下字西ノハナ31番地 TEL:088-679-2111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "088-679-2152",
-     "email": "gikai@vill.sanagochi.lg.jp",
-     "form_url": null,
-     "postal_code": "771-4195",
-     "postal_address": "徳島県名東郡佐那河内村下字西ノハナ31番地",
-     "hours": null,
-     "source_url": "https://www.vill.sanagochi.lg.jp/gikai/",
-     "evidence": "議会事務局 〒771-4195 徳島県名東郡佐那河内村下字西ノハナ31番地 TEL:088-679-2152",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -580,8 +467,12 @@
      "hours": null,
      "source_url": "https://www.vill.sanagochi.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -589,34 +480,6 @@
    "name": "石井町",
    "official_site": "https://www.town.ishii.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "088-674-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "779-3295",
-     "postal_address": "徳島県名西郡石井町高川原字高川原121-1",
-     "hours": null,
-     "source_url": "https://www.town.ishii.lg.jp/",
-     "evidence": "石井町役場 サイトマップ ご意見・ご提案…名西郡石井町高川原字高川原121-1 電話:088-674-1111(代表)FAX:",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "石井町議会",
-     "phone": "088-674-7500",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.ishii.lg.jp/soshiki/gikaijimukyoku/",
-     "evidence": "議会を傍聴しませんか 会議録を見たいとき…、議事録の調整及び保管など 連絡先 TEL:088-674-7500",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -631,6 +494,10 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -640,30 +507,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "088-676-1111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "771-3395",
+     "postal_address": "徳島県名西郡神山町神領字本野間100",
      "hours": null,
      "source_url": "https://www.town.kamiyama.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "088-676-1511",
-     "email": "gikai@kamiyama.i-tokushima.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.kamiyama.lg.jp/docs/2025040100334/",
-     "evidence": "議会事務局 TEL:088-676-1511",
+     "evidence": "神山町役場〒771-3395徳島県名西郡…舎へのアクセス / 庁舎フロア図) TEL:088-676-1111 FAX:088",
      "note": null
     },
     {
@@ -680,6 +533,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -689,16 +545,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0884-62-1121",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.town.tokushima-naka.lg.jp/",
-     "evidence": null,
+     "evidence": "那賀町役場 〒771-5295 徳島県那賀郡那賀町和食郷字南川104番地1 電話:0884-62-1121ファックス:08",
      "note": null
     },
     {
@@ -713,7 +569,7 @@
      "hours": null,
      "source_url": "https://www.town.tokushima-naka.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -727,7 +583,7 @@
      "hours": null,
      "source_url": "https://www.town.tokushima-naka.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -737,20 +593,6 @@
    "official_site": "https://www.town.tokushima-mugi.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0884-72-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "775-8570",
-     "postal_address": "徳島県海部郡牟岐町大字中村字本村7-4",
-     "hours": null,
-     "source_url": "https://www.town.tokushima-mugi.lg.jp/",
-     "evidence": "牟岐町役場〒775-8570徳島県海部郡牟岐町大字中村字本村7-4TELL:0884-72-1111(代表)法人番号",
-     "note": null
-    },
-    {
      "type": "assembly",
      "agent_status": "auto_not_found",
      "department": null,
@@ -762,7 +604,7 @@
      "hours": null,
      "source_url": "https://www.town.tokushima-mugi.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -776,8 +618,11 @@
      "hours": null,
      "source_url": "https://www.town.tokushima-mugi.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -800,20 +645,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "美波町議会",
-     "phone": "0884-77-3630",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.minami.lg.jp/gikai/",
-     "evidence": "議会 徳島県海部郡美波町奥河内字本村18-1 電話:0884-77-3630 FAX:088",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -825,8 +656,11 @@
      "hours": null,
      "source_url": "https://www.town.minami.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -836,16 +670,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0884-73-1234",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "775-0295",
+     "postal_address": "徳島県海部郡海陽町大里字上中須128",
      "hours": null,
      "source_url": "https://www.town.kaiyo.lg.jp/",
-     "evidence": null,
+     "evidence": "海陽町役場 〒775-0295 徳島県海部郡海陽町大里字上中須128 TEL 0884-73-1234(代) FAX",
      "note": null
     },
     {
@@ -858,22 +692,8 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.kaiyo.lg.jp/",
+     "source_url": "https://www.town.kaiyo.lg.jp/soshiki/gikai/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育政策課",
-     "phone": "0884-73-1246",
-     "email": "kyoikuseisaku@kaiyo-town.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.kaiyo.lg.jp/soshiki/",
-     "evidence": "教育政策課電話番号:0884-73-1246Eメール:kyo",
      "note": null
     },
     {
@@ -888,7 +708,7 @@
      "hours": null,
      "source_url": "https://www.town.kaiyo.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -912,34 +732,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "088-699-8720",
-     "email": "gikai@matsushige.i-tokushima.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.matsushige.tokushima.jp/docs/2015112600053/",
-     "evidence": "議会事務局 TEL:088-699-8720",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務課",
-     "phone": "088-699-8719",
-     "email": "kyoso@matsushige.i-tokushima.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.matsushige.tokushima.jp/soshiki/",
-     "evidence": "教育総務課 課のページへ kyoso@matsushige.i-tokushima.jp 088-699-8719",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -951,8 +743,11 @@
      "hours": null,
      "source_url": "https://www.town.matsushige.tokushima.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -960,20 +755,6 @@
    "name": "北島町",
    "official_site": "https://www.town.kitajima.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "088-698-9801",
-     "email": null,
-     "form_url": null,
-     "postal_code": "771-0285",
-     "postal_address": "徳島県板野郡北島町中村字上地23-1",
-     "hours": null,
-     "source_url": "https://www.town.kitajima.lg.jp/",
-     "evidence": "北島町役場 庁舎案内 〒771-0285 徳島県板野郡北島町中村字上地23-1 電話:088-698-9801(代表) 088",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -1002,6 +783,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -1024,34 +808,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "088-637-3127",
-     "email": null,
-     "form_url": null,
-     "postal_code": "771-1292",
-     "postal_address": "徳島県板野郡藍住町奥野字矢上前52番地1",
-     "hours": null,
-     "source_url": "https://www.town.aizumi.lg.jp/gikai/",
-     "evidence": "議会事務局(藍住町合同庁舎5階) 〒771-1292 徳島県板野郡藍住町奥野字矢上前52番地1 電話:088-637-3127",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会",
-     "phone": "088-637-3128",
-     "email": "syakaikyouiku@aizumi.i-tokushima.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.aizumi.lg.jp/unit/",
-     "evidence": "教育委員会(社会教育)電話番号:088-637-3128Eメール:sya",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -1063,8 +819,11 @@
      "hours": null,
      "source_url": "https://www.town.aizumi.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -1126,7 +885,7 @@
      "hours": null,
      "source_url": "http://www.town.itano.tokushima.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -1175,7 +934,7 @@
      "hours": null,
      "source_url": "https://www.townkamiita.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -1224,7 +983,7 @@
      "hours": null,
      "source_url": "https://www.town.tokushima-tsurugi.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -1271,9 +1030,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.higashimiyoshi.lg.jp/",
+     "source_url": "https://www.town.higashimiyoshi.lg.jp/inquiry/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
    ]
   }

@@ -23,20 +23,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "幌延町議会",
-     "phone": "01632-5-1111",
-     "email": "gikai@town.horonobe.lg.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.horonobe.lg.jp/www4/section/gikai/index.html",
-     "evidence": "議会の定例会・臨時会・委員会の議事運営に…n.horonobe.lg.jp 電話番号:01632-5-1111(内線311・3",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -48,8 +34,11 @@
      "hours": null,
      "source_url": "https://www.town.horonobe.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -72,20 +61,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0152-77-6559",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.bihoro.hokkaido.jp/adv/ba.php?id=16",
-     "evidence": "議会事務局 〒092-8650 北海道網走郡美幌町字東2条北2丁目25番地 Tel:0152-77-6559",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -99,55 +74,20 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
    "code": "015440",
    "name": "津別町",
    "official_site": "https://www.town.tsubetsu.hokkaido.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0152-76-2713",
-     "email": null,
-     "form_url": null,
-     "postal_code": "092-0292",
-     "postal_address": "北海道網走郡津別町字幸町41番地",
-     "hours": null,
-     "source_url": "https://www.town.tsubetsu.hokkaido.jp/",
-     "evidence": "役場代表) 0152-76-2713(教育委員会 中",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0152-77-8393",
-     "email": null,
-     "form_url": null,
-     "postal_code": "092-0292",
-     "postal_address": "北海道網走郡津別町字幸町41",
-     "hours": null,
-     "source_url": "https://www.town.tsubetsu.hokkaido.jp/choseijoho/tsubetsugikai/1743.html",
-     "evidence": "議会事務局 〒092-0292 北海道網走郡津別町字幸町41 電話番号:0152-77-8393 ファクス番号:",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "ご意見・お問い合わせ",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.town.tsubetsu.hokkaido.jp/cgi-bin/inquiry.php/40?page_no=2399",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.tsubetsu.hokkaido.jp/goiken_otoiawase/index.html",
-     "evidence": "リンク「ご意見・お問い合わせ」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -181,20 +121,6 @@
      "hours": null,
      "source_url": "http://gikai-sharitown.net/",
      "evidence": "議会 〒099-4192 北海道斜里郡斜里町本町12番地 電話:0152-26-8392",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会学校教育課総務係",
-     "phone": "0152-26-8391",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.shari.hokkaido.jp/kosodate_kyoiku_bunka_sports/kyoiku/gakkokankeitetsuzuki/645.html",
-     "evidence": "教育委員会学校教育課総務係 斜里町役場総合庁舎2階(窓口13番) 電話番号 0152-26-8391(内線231)",
      "note": null
     },
     {
@@ -233,20 +159,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0152-25-2188",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.kiyosato.hokkaido.jp/administration/?content=360",
-     "evidence": "議会事務局 〒099-4492 北海道斜里郡清里町羽衣町13番地 電話:0152-25-2188",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -258,8 +170,11 @@
      "hours": null,
      "source_url": "https://www.town.kiyosato.hokkaido.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -282,20 +197,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "小清水町議会",
-     "phone": "0152-62-4477",
-     "email": null,
-     "form_url": null,
-     "postal_code": "099-3698",
-     "postal_address": "北海道斜里郡小清水町元町2丁目1番1号",
-     "hours": null,
-     "source_url": "https://www.town.koshimizu.hokkaido.jp/banner_click.php?url=%2Fgikai%2F&id=24&type=3",
-     "evidence": "議会 〒099-3698 北海道斜里郡小清水町元町2丁目1番1号 電話 0152-62-4477",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -307,8 +208,11 @@
      "hours": null,
      "source_url": "https://www.town.koshimizu.hokkaido.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -342,21 +246,7 @@
      "hours": null,
      "source_url": "https://www.town.kunneppu.hokkaido.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "訓子府町教育委員会",
-     "phone": "0157-47-2122",
-     "email": "kanri@town.kunneppu.hokkaido.jp",
-     "form_url": null,
-     "postal_code": "099-1498",
-     "postal_address": "訓子府町東町398番地",
-     "hours": null,
-     "source_url": "https://www.town.kunneppu.hokkaido.jp/education/kyouiku_culture.html",
-     "evidence": "訓子府町教育委員会 〒099-1498 訓子府町東町398番地 電話: 0157-47-2122 Fax: 01",
-     "note": null
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -370,7 +260,7 @@
      "hours": null,
      "source_url": "https://www.town.kunneppu.hokkaido.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -394,20 +284,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0157-52-3391",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.oketo.hokkaido.jp/gikai/",
-     "evidence": "議会事務局TEL:0157-52-3391FAX:0157",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -419,8 +295,11 @@
      "hours": null,
      "source_url": "https://www.town.oketo.hokkaido.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -428,20 +307,6 @@
    "name": "佐呂間町",
    "official_site": "https://www.town.saroma.hokkaido.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "01587-2-1211",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.saroma.hokkaido.jp/",
-     "evidence": "佐呂間町役場 〒093-0592 北海道常呂郡佐呂間町字永代町3番地の1 電話 01587-2-1211(代表 総務課)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -468,8 +333,11 @@
      "hours": null,
      "source_url": "https://www.town.saroma.hokkaido.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -503,7 +371,7 @@
      "hours": null,
      "source_url": "https://engaru.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -517,7 +385,7 @@
      "hours": null,
      "source_url": "https://engaru.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -552,7 +420,7 @@
      "hours": null,
      "source_url": "https://www.town.yubetsu.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -566,7 +434,7 @@
      "hours": null,
      "source_url": "https://www.town.yubetsu.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -575,20 +443,6 @@
    "name": "滝上町",
    "official_site": "https://www.town.takinoue.hokkaido.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0158-29-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "099-5692",
-     "postal_address": "北海道紋別郡滝上町字滝ノ上市街地4条通2丁目1番地",
-     "hours": null,
-     "source_url": "https://www.town.takinoue.hokkaido.jp/",
-     "evidence": "滝上町役場 〒099-5692 北海道紋…町字滝ノ上市街地4条通2丁目1番地 電話:0158-29-2111(代表電話) F",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -599,9 +453,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.takinoue.hokkaido.jp/",
+     "source_url": "https://www.town.takinoue.hokkaido.jp/chosei/chocho/tyoutyousyuunin/20260901.html",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": null
     },
     {
      "type": "feedback",
@@ -613,10 +467,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.takinoue.hokkaido.jp/",
+     "source_url": "https://www.town.takinoue.hokkaido.jp/chosei/oshirase/260407.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -639,20 +496,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "興部町議会",
-     "phone": "0158-82-2135",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.okoppe.lg.jp/cms/section/gikai/index.html",
-     "evidence": "議会の記事 窓口情報 電話 0158-82-2135(内線361)",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -666,6 +509,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -689,30 +535,16 @@
     },
     {
      "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.vill.nishiokoppe.lg.jp/",
-     "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
-    },
-    {
-     "type": "education",
      "agent_status": "found",
-     "department": "教育委員会",
-     "phone": "0158-87-2501",
+     "department": "議会事務局",
+     "phone": "0158-87-2111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.vill.nishiokoppe.lg.jp/section/kikaku/feeuub0000003991.html",
-     "evidence": "教育委員会 電話番号: 0158-87-2501",
+     "source_url": "https://www.vill.nishiokoppe.lg.jp/section/gikai/index.html",
+     "evidence": "議会事務局の項目 窓口 電話番号: 0158-87-2111",
      "note": null
     },
     {
@@ -727,7 +559,7 @@
      "hours": null,
      "source_url": "https://www.vill.nishiokoppe.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -751,20 +583,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0158-84-2121",
-     "email": null,
-     "form_url": null,
-     "postal_code": "098-1792",
-     "postal_address": "北海道紋別郡雄武町本町",
-     "hours": null,
-     "source_url": "https://www.town.oumu.hokkaido.jp/gyoseijoho/omuchogikai/2478.html",
-     "evidence": "議会事務局 〒098-1792 北海道紋別郡雄武町本町 電話番号:0158-84-2121",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -776,8 +594,11 @@
      "hours": null,
      "source_url": "https://www.town.oumu.hokkaido.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -785,20 +606,6 @@
    "name": "大空町",
    "official_site": "https://www.town.ozora.hokkaido.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0152-74-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.ozora.hokkaido.jp/",
-     "evidence": "大空町役場 〒099-2392 北海…日から翌年1月5日までは除く) 電話番号:0152-74-2111(代表)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -825,8 +632,11 @@
      "hours": null,
      "source_url": "https://www.town.ozora.hokkaido.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -834,34 +644,6 @@
    "name": "豊浦町",
    "official_site": "https://www.town.toyoura.hokkaido.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0142-83-2121",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.toyoura.hokkaido.jp/",
-     "evidence": "豊浦町役場 電話0142-83-2121(代表) FAX",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0142-83-1419",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.toyoura.hokkaido.jp/hotnews/detail/00006914.html",
-     "evidence": "議会事務局 〒049-5416 虻田郡豊浦町字船見町10番地 豊浦町役場 電話:0142-83-1419",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -876,6 +658,10 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -899,17 +685,17 @@
     },
     {
      "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
+     "agent_status": "found",
+     "department": "壮瞥町議会",
+     "phone": "0142-66-2121",
+     "email": "gikai@town.sobetsu.lg.jp",
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.sobetsu.lg.jp/",
-     "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "source_url": "https://www.town.sobetsu.lg.jp/gikai.html",
+     "evidence": "議会情報 文字サイズ 標準 拡大 観光情報サイト 移住情報サイト 0142-66-2121",
+     "note": null
     },
     {
      "type": "feedback",
@@ -923,7 +709,7 @@
      "hours": null,
      "source_url": "https://www.town.sobetsu.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -947,17 +733,55 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0144-82-6620",
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.shiraoi.hokkaido.jp/docs/page2014070900014.html",
-     "evidence": "議会事務局 電話: 0144-82-6620",
+     "source_url": "https://www.town.shiraoi.hokkaido.jp/town/42/",
+     "evidence": null,
+     "note": null
+    }
+   ],
+   "skipped_types": [
+    "assembly"
+   ]
+  },
+  {
+   "code": "015814",
+   "name": "厚真町",
+   "official_site": "https://www.town.atsuma.lg.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.atsuma.lg.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0145-27-2485",
+     "email": null,
+     "form_url": null,
+     "postal_code": "059-1692",
+     "postal_address": "北海道勇払郡厚真町京町120番地",
+     "hours": null,
+     "source_url": "https://www.town.atsuma.lg.jp/adv/ba.php?id=10",
+     "evidence": "議会事務局代表 〒059-1692北海道勇払郡厚真町京町120番地 Tel:0145-27-2485Fax:0145",
      "note": null
     },
     {
@@ -970,56 +794,7 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.shiraoi.hokkaido.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
-    }
-   ]
-  },
-  {
-   "code": "015814",
-   "name": "厚真町",
-   "official_site": "https://www.town.atsuma.lg.jp/office/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.atsuma.lg.jp/office/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.atsuma.lg.jp/office/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.atsuma.lg.jp/office/",
+     "source_url": "https://www.town.atsuma.lg.jp/life/5/31/",
      "evidence": null,
      "note": null
     }
@@ -1032,35 +807,35 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0142-76-2121",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "http://www.town.toyako.hokkaido.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "http://www.town.toyako.hokkaido.jp/",
-     "evidence": null,
+     "evidence": "洞爺湖町役場 TEL : (代表) 0142-76-2121FAX : 01",
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0142-74-3011",
+     "email": "gi_giji@town.toyako.hokkaido.jp",
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "http://www.town.toyako.hokkaido.jp/town_administration/town_council",
+     "evidence": "議会事務局 電話 0142-74-3011(直通) FAX",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -1068,7 +843,7 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "http://www.town.toyako.hokkaido.jp/",
+     "source_url": "http://www.town.toyako.hokkaido.jp/town_administration/greeting/contact/",
      "evidence": null,
      "note": null
     }
@@ -1081,30 +856,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0145-22-2511",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.town.abira.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0145-26-2700",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.abira.lg.jp/gyosei/renraku",
-     "evidence": "議会事務局 0145-26-2700",
+     "evidence": "安平町役場 〒059-1595 北海道勇払郡安平町早来大町95番地 電話 0145-22-2511",
      "note": null
     },
     {
@@ -1119,8 +880,11 @@
      "hours": null,
      "source_url": "https://www.town.abira.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -1130,30 +894,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0145-42-2411",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.town.mukawa.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0145-42-2486",
-     "email": "gikai@town.mukawa.lg.jp",
-     "form_url": null,
-     "postal_code": "054-8660",
-     "postal_address": "北海道勇払郡むかわ町美幸2丁目88番地",
-     "hours": null,
-     "source_url": "https://www.town.mukawa.lg.jp/1045.htm",
-     "evidence": "議会事務局 所在地/〒054-8660…払郡むかわ町美幸2丁目88番地 電話番号/0145-42-2486 E-mail/",
+     "evidence": "本庁 〒054-8660 北海道勇払郡むかわ町美幸2丁目88番地 TEL 0145-42-2411(代)",
      "note": null
     },
     {
@@ -1168,8 +918,11 @@
      "hours": null,
      "source_url": "https://www.town.mukawa.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -1179,45 +932,17 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "01456-2-5131",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.town.hidaka.hokkaido.jp/",
-     "evidence": null,
+     "evidence": "日高町 〒059-2192 北海道沙流郡日高町門別本町210番地の1 電話:01456-2-5131(代表)",
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "01456-2-6500",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.hidaka.hokkaido.jp/council/",
-     "evidence": "議会事務局 〒059-2192 北海道沙流郡日高町門別本町210番地の1 電話番号01456-2-6500",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "auto_not_found",
-     "department": "様似町教育委員会生涯学習課",
-     "phone": "0146-36-2521",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.hidaka.hokkaido.jp/education/?content=4268",
-     "evidence": "様似町教育委員会生涯学習課内) 電話:0146-36-2521(直通)",
-     "note": "別の自治体の窓口だったため除外"
     },
     {
      "type": "feedback",
@@ -1231,8 +956,11 @@
      "hours": null,
      "source_url": "https://www.town.hidaka.hokkaido.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -1242,16 +970,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "01457-2-2221",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "055-0192",
+     "postal_address": "北海道沙流郡平取町本町28番地",
      "hours": null,
      "source_url": "https://www.town.biratori.hokkaido.jp/",
-     "evidence": null,
+     "evidence": "平取町 法人番号50000200160… 北海道沙流郡平取町本町28番地 電話番号:01457-2-2221 (代表)",
      "note": null
     },
     {
@@ -1280,7 +1008,7 @@
      "hours": null,
      "source_url": "https://www.town.biratori.hokkaido.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -1329,7 +1057,7 @@
      "hours": null,
      "source_url": "https://www.niikappu.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -1465,20 +1193,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "えりも町議会",
-     "phone": "01466-2-2113",
-     "email": null,
-     "form_url": null,
-     "postal_code": "058-0292",
-     "postal_address": "北海道幌泉郡えりも町字本町206番地",
-     "hours": null,
-     "source_url": "https://www.town.erimo.lg.jp/section/gikai/sg6h940000007bb0.html",
-     "evidence": "議会 住所:〒058-0292 北海道幌泉郡えりも町字本町206番地 電話番号:01466-2-2113",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -1492,6 +1206,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -1528,20 +1245,6 @@
      "note": null
     },
     {
-     "type": "education",
-     "agent_status": "auto_not_found",
-     "department": "様似町教育委員会生涯学習課",
-     "phone": "0146-36-2521",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.shinhidaka-hokkaido.jp/hotnews/detail/00008919.html",
-     "evidence": "様似町教育委員会生涯学習課内) 電 話:0146-36-2521(直通)",
-     "note": "別の自治体の窓口だったため除外"
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -1551,9 +1254,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.shinhidaka-hokkaido.jp/",
+     "source_url": "https://www.shinhidaka-hokkaido.jp/hotnews/detail/00002165.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
    ]
   }

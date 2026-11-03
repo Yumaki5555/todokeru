@@ -181,7 +181,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.amagasaki.hyogo.jp/",
+    "source_url": "https://www.city.amagasaki.hyogo.jp/1002179.html",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -481,16 +481,16 @@
    {
     "id": "282081-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0791-23-7111",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "678-8585",
+    "postal_address": "兵庫県相生市旭1丁目1番3号",
     "hours": null,
     "source_url": "https://www.city.aioi.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -554,7 +554,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.toyooka.lg.jp/",
+    "source_url": "https://www.city.toyooka.lg.jp/shigikai/1006458/index.html",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -562,16 +562,31 @@
    {
     "id": "282090-assembly",
     "type": "assembly",
-    "department": "議会事務局",
-    "phone": null,
+    "department": "議会事務局 総務係",
+    "phone": "0796-23-1119",
+    "email": null,
+    "form_url": null,
+    "postal_code": "668-8666",
+    "postal_address": "豊岡市中央町2番4号",
+    "hours": null,
+    "source_url": "https://www.city.toyooka.lg.jp/shigikai/1003800.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "282090-education",
+    "type": "education",
+    "department": "教育総務係",
+    "phone": "0796-23-1117",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.toyooka.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.city.toyooka.lg.jp/shisei/soshiki/busho/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -685,16 +700,16 @@
    {
     "id": "282138-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0795-22-3111",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "677-8511",
+    "postal_address": "兵庫県西脇市下戸田128番地の1",
     "hours": null,
     "source_url": "https://www.city.nishiwaki.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -817,16 +832,16 @@
    {
     "id": "282154-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0794-82-2000",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "673-0492",
+    "postal_address": "兵庫県三木市上の丸町10番30号",
     "hours": null,
     "source_url": "https://www.city.miki.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -906,7 +921,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.takasago.lg.jp/",
+    "source_url": "https://www.city.takasago.lg.jp/soshikikarasagasu/gikaijimukyoku/index.html",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -1103,16 +1118,16 @@
    {
     "id": "282201-feedback",
     "type": "feedback",
-    "department": "広聴・ご意見窓口",
+    "department": "市長への手紙",
     "phone": null,
     "email": null,
-    "form_url": null,
+    "form_url": "https://www.city.kasai.hyogo.jp/form/detail.php?sec_sec1=9",
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.kasai.hyogo.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.city.kasai.hyogo.jp/life/5/33/176/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -1490,16 +1505,16 @@
    {
     "id": "282278-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0790-63-3000",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "671-2593",
+    "postal_address": "兵庫県宍粟市山崎町中広瀬133番地6",
     "hours": null,
     "source_url": "https://www.city.shiso.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -1644,16 +1659,16 @@
    {
     "id": "283011-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "072-766-0001",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "666-0292",
+    "postal_address": "兵庫県川辺郡猪名川町上野字北畑11-1",
     "hours": null,
     "source_url": "https://www.town.inagawa.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -1675,15 +1690,15 @@
     "id": "283011-assembly",
     "type": "assembly",
     "department": "議会事務局",
-    "phone": null,
+    "phone": "072-766-8710",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.inagawa.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.town.inagawa.lg.jp/857.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -1848,16 +1863,16 @@
    {
     "id": "284424-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0790-26-1010",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "679-2392",
+    "postal_address": "兵庫県神崎郡市川町西川辺165-3",
     "hours": null,
     "source_url": "https://www.town.ichikawa.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -2031,16 +2046,16 @@
    {
     "id": "284645-feedback",
     "type": "feedback",
-    "department": "広聴・ご意見窓口",
+    "department": "まちづくりレターへご意見をお寄せください!",
     "phone": null,
     "email": null,
-    "form_url": null,
+    "form_url": "https://www.town.hyogo-taishi.lg.jp/cgi-bin/inquiry.php/1",
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.hyogo-taishi.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.town.hyogo-taishi.lg.jp/boshu/1520662811701.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -2089,10 +2104,10 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.kamigori.hyogo.jp/cms-sypher/www/index.jsp",
+    "source_url": "https://www.town.kamigori.hyogo.jp/",
     "verified_at": null,
     "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "note": null
    },
    {
     "id": "284815-feedback",
@@ -2104,25 +2119,25 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.kamigori.hyogo.jp/cms-sypher/www/index.jsp",
+    "source_url": "https://www.town.kamigori.hyogo.jp/",
     "verified_at": null,
     "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "note": null
    },
    {
     "id": "284815-assembly",
     "type": "assembly",
     "department": "議会事務局",
-    "phone": null,
+    "phone": "0791-52-3512",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.kamigori.hyogo.jp/cms-sypher/www/index.jsp",
-    "verified_at": null,
-    "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "source_url": "https://www.town.kamigori.hyogo.jp/tyoseizyoho/gikai/2889.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -2155,7 +2170,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.sayo.lg.jp/cms-sypher/www/normal_top.jsp",
+    "source_url": "https://www.town.sayo.lg.jp/cms-sypher/www/service/result.jsp?genre=51",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -2191,10 +2206,10 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.mikata-kami.lg.jp/www/index.html",
+    "source_url": "https://www.town.mikata-kami.lg.jp/",
     "verified_at": null,
     "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "note": null
    },
    {
     "id": "285854-feedback",
@@ -2206,25 +2221,25 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.mikata-kami.lg.jp/www/index.html",
+    "source_url": "https://www.town.mikata-kami.lg.jp/",
     "verified_at": null,
     "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "note": null
    },
    {
     "id": "285854-assembly",
     "type": "assembly",
     "department": "議会事務局",
-    "phone": null,
+    "phone": "0796-36-1963",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.mikata-kami.lg.jp/www/index.html",
-    "verified_at": null,
-    "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "source_url": "https://www.town.mikata-kami.lg.jp/gyouseijouhou/yakusho-madoguchiannai/4560.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },

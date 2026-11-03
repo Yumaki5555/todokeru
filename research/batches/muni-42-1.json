@@ -10,46 +10,22 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.nagasaki.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
      "agent_status": "found",
-     "department": "議会事務局議事調査課",
-     "phone": "095-829-1200",
+     "department": "代表電話",
+     "phone": "095-822-8888",
      "email": null,
      "form_url": null,
      "postal_code": "850-8685",
      "postal_address": "長崎県長崎市魚の町4-1",
      "hours": null,
-     "source_url": "https://www.city.nagasaki.lg.jp/site/gikai/94323.html",
-     "evidence": "議会事務局議事調査課代表 〒850-8685長崎県長崎市魚の町4-1(5階) Tel:095-829-1200Fax:095-",
+     "source_url": "https://www.city.nagasaki.lg.jp/",
+     "evidence": "長崎市 法人番号60000204220…850-8685 長崎県長崎市魚の町4-1 095-822-8888(代表)",
      "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広聴",
-     "phone": null,
-     "email": null,
-     "form_url": "https://apply.e-tumo.jp/city-nagasaki-u/offer/offerList_initDisplay",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.nagasaki.lg.jp/life/7/58/",
-     "evidence": "リンク「広聴」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -83,7 +59,7 @@
      "hours": null,
      "source_url": "https://www.city.sasebo.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -97,7 +73,7 @@
      "hours": null,
      "source_url": "https://www.city.sasebo.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -108,44 +84,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.shimabara.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
      "agent_status": "found",
-     "department": "島原市議会",
+     "department": "代表電話",
      "phone": "0957-63-1111",
      "email": null,
      "form_url": null,
      "postal_code": "855-8555",
      "postal_address": "長崎県島原市上の町537番地",
      "hours": null,
-     "source_url": "https://www.city.shimabara.lg.jp/gikai/",
-     "evidence": "議会だより 令和8年11月(第271号)…55 長崎県島原市上の町537番地 TEL:0957-63-1111 FAX:095",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務課",
-     "phone": "0957-68-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.shimabara.lg.jp/page5830.html",
-     "evidence": "教育総務課TEL:0957-68-1111(内線620-6",
+     "source_url": "https://www.city.shimabara.lg.jp/",
+     "evidence": "島原市役所】 〒855-8555 長崎県島原市上の町537番地 TEL:0957-63-1111 FAX:095",
      "note": null
     },
     {
@@ -162,6 +110,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -195,7 +146,7 @@
      "hours": null,
      "source_url": "https://www.city.isahaya.nagasaki.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -209,7 +160,7 @@
      "hours": null,
      "source_url": "https://www.city.isahaya.nagasaki.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -218,20 +169,6 @@
    "name": "大村市",
    "official_site": "https://www.city.omura.nagasaki.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0957-53-4111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "856-8686",
-     "postal_address": "長崎県大村市玖島1丁目25番地",
-     "hours": null,
-     "source_url": "https://www.city.omura.nagasaki.jp/",
-     "evidence": "大村市役所法人番号:5000020422…長崎県大村市玖島1丁目25番地代表電話番号:0957-53-4111",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -245,21 +182,11 @@
      "source_url": "https://www.city.omura.nagasaki.jp/gikaichousa/shise/shigikai/index.html",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報推進グループ",
-     "phone": "0957-53-4111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.omura.nagasaki.jp/kouhou/voice/003.html",
-     "evidence": "広報推進グループ 856-8686 大村市玖島1丁目25番地 本館2階 電話番号:0957-53-4111(内線:209)",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "feedback",
+    "general"
    ]
   },
   {
@@ -267,20 +194,6 @@
    "name": "平戸市",
    "official_site": "https://www.city.hirado.nagasaki.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0950-22-4111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "859-5192",
-     "postal_address": "長崎県平戸市岩の上町1508番地3",
-     "hours": null,
-     "source_url": "https://www.city.hirado.nagasaki.jp/",
-     "evidence": "平戸市役所〒859-5192 長崎県平戸市岩の上町1508番地3 電話:0950-22-4111(代表)FAX:",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -293,7 +206,7 @@
      "hours": null,
      "source_url": "https://www.city.hirado.nagasaki.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -309,6 +222,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -342,7 +258,7 @@
      "hours": null,
      "source_url": "https://www.city-matsuura.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -356,7 +272,7 @@
      "hours": null,
      "source_url": "https://www.city-matsuura.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -367,31 +283,45 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0920-53-6111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "817-8510",
+     "postal_address": "長崎県対馬市厳原町国分1441番地",
      "hours": null,
      "source_url": "https://www.city.tsushima.nagasaki.jp/",
-     "evidence": null,
+     "evidence": "対馬市 〒817-8510 長崎県対馬市厳原町国分1441番地 電話番号:0920-53-6111(代表)",
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0920-58-1379",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.tsushima.nagasaki.jp/",
-     "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "source_url": "https://www.city.tsushima.nagasaki.jp/gyousei/soshiki/soumu/somuka/gaiyo/3334.html",
+     "evidence": "議会事務局 〒817-1292 対馬市豊玉町仁位380番地 電話 0920-58-1379",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "対馬市教育委員会",
+     "phone": "0920-88-2000",
+     "email": null,
+     "form_url": null,
+     "postal_code": "817-1301",
+     "postal_address": "長崎県対馬市峰町三根451番地",
+     "hours": null,
+     "source_url": "https://www.city.tsushima.nagasaki.jp/gyousei/mokuteki/2/index.html",
+     "evidence": "対馬市教育委員会事務局 〒817-1301 長崎県対馬市峰町三根451番地 電話番号:0920-88-2000(教育総務課)",
+     "note": null
     },
     {
      "type": "feedback",
@@ -405,7 +335,7 @@
      "hours": null,
      "source_url": "https://www.city.tsushima.nagasaki.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -416,60 +346,22 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.iki.nagasaki.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
      "agent_status": "found",
-     "department": "議会事務局",
+     "department": "代表電話",
      "phone": "0920-48-1111",
      "email": null,
      "form_url": null,
      "postal_code": "811-5192",
      "postal_address": "長崎県壱岐市郷ノ浦町本村触562番地",
      "hours": null,
-     "source_url": "https://www.city.iki.nagasaki.jp/soshiki/gikai_jimukyoku/shigikai/index.html",
-     "evidence": "議会事務局 ページの先頭へ 長崎県壱岐市 〒811-5192 長崎県壱岐市郷ノ浦町本村触562番地 電話番号:0920-48-1111",
+     "source_url": "https://www.city.iki.nagasaki.jp/",
+     "evidence": "-5192 長崎県壱岐市郷ノ浦町本村触562番地 電話番号:0920-48-1111(代表)",
      "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務課",
-     "phone": "0920-45-1202",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.iki.nagasaki.jp/shiyakusho/tel/3285.html",
-     "evidence": "教育総務課 0920-45-1202",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "壱岐市ホームページに関するご意見・ご要望について",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.iki.nagasaki.jp/cgi-bin/inquiry.php/110",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.iki.nagasaki.jp/cgi-bin/inquiry.php/38?page_no=1",
-     "evidence": "リンク「ご意見・ご要望」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -478,34 +370,6 @@
    "official_site": "https://www.city.goto.nagasaki.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0959-72-6111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "853-8501",
-     "postal_address": "長崎県五島市福江町1番1号",
-     "hours": null,
-     "source_url": "https://www.city.goto.nagasaki.jp/",
-     "evidence": "五島市役所 郵便番号:853-8501 長崎県五島市福江町1番1号 電話番号:0959-72-6111(代表) ファク",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局 庶務係",
-     "phone": "0959-72-7923",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.goto.nagasaki.jp/s001/010/010/010/020/20200501083000.html",
-     "evidence": "議会事務局 庶務係・議事係 郵便番号:853-8501 長崎県五島市福江町1番1号(本庁舎) 直通電話:0959-72-7923",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -517,8 +381,12 @@
      "hours": null,
      "source_url": "https://www.city.goto.nagasaki.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -528,30 +396,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0959-37-0011",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.city.saikai.nagasaki.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0959-37-0075",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.saikai.nagasaki.jp/shisei/joho/1/2710.html",
-     "evidence": "議会事務局 0959-37-0075",
+     "evidence": "西海市役所 〒857-2392 長崎…大瀬戸町瀬戸樫浦郷2222番地 電話番号:0959-37-0011",
      "note": null
     },
     {
@@ -566,8 +420,11 @@
      "hours": null,
      "source_url": "https://www.city.saikai.nagasaki.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -588,49 +445,11 @@
      "source_url": "https://www.city.unzen.nagasaki.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0957-38-3120",
-     "email": "gikai@city.unzen.lg.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.unzen.nagasaki.jp/kiji0038687/index.html",
-     "evidence": "議会事務局 電話:0957-38-3120 FAX:095",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会総務課",
-     "phone": "0957-47-7854",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.unzen.nagasaki.jp/classset002.html",
-     "evidence": "教育委員会総務課 TEL:0957-47-7854FAX:0957",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市長へのメール",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.unzen.nagasaki.jp/dynamic/entry/pub/AnsForm.aspx?c_id=39&entry_ins=1&pg=1&mst=1",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.unzen.nagasaki.jp/dynamic/entry/pub/default.aspx?c_id=39&pg=1",
-     "evidence": "リンク「市長へのメール」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -664,21 +483,7 @@
      "hours": null,
      "source_url": "https://www.city.minamishimabara.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "南島原市教育委員会",
-     "phone": "0957-73-6701",
-     "email": null,
-     "form_url": null,
-     "postal_code": "859-2412",
-     "postal_address": "長崎県南島原市南有馬町乙1023番地",
-     "hours": null,
-     "source_url": "https://www.city.minamishimabara.lg.jp/kyouiku/default.html?site=1",
-     "evidence": "南島原市教育委員会 〒859-2412 …・休日、12月29日~翌年1月3日を除く) 0957-73-6701",
-     "note": null
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -692,7 +497,7 @@
      "hours": null,
      "source_url": "https://www.city.minamishimabara.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -749,63 +554,11 @@
    "code": "423084",
    "name": "時津町",
    "official_site": "https://www.town.togitsu.nagasaki.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "095-882-2211",
-     "email": null,
-     "form_url": null,
-     "postal_code": "851-2198",
-     "postal_address": "長崎県西彼杵郡時津町浦郷274-1",
-     "hours": null,
-     "source_url": "https://www.town.togitsu.nagasaki.jp/",
-     "evidence": "時津町役場 法人番号 50000204…県西彼杵郡時津町浦郷274-1 電話番号:095-882-2211(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "095-882-3959",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.togitsu.nagasaki.jp/gyoseijoho/chogikai/2693.html",
-     "evidence": "議会事務局 〒851-2198 長崎県西彼杵郡時津町浦郷274-1 電話番号:095-882-3959(直通)",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務課",
-     "phone": "095-801-1266",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.togitsu.nagasaki.jp/kurashi_tetsuzuki/sodammadoguchi/2498.html",
-     "evidence": "教育総務課 095-801-1266",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "まちづくりへのご提案",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.town.togitsu.nagasaki.jp/cgi-bin/inquiry.php/2?page_no=3562",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.togitsu.nagasaki.jp/soshikikarasagasu/seisakuzaimuka/gyoseijoho/kocho/3562.html",
-     "evidence": "リンク「まちづくりへのご提案」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -839,7 +592,7 @@
      "hours": null,
      "source_url": "https://www.sonogi.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -853,7 +606,7 @@
      "hours": null,
      "source_url": "https://www.sonogi.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -864,16 +617,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0956-82-3131",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "859-3692",
+     "postal_address": "長崎県東彼杵郡川棚町中組郷1518-1",
      "hours": null,
      "source_url": "https://www.kawatana.jp/",
-     "evidence": null,
+     "evidence": "9-3692 長崎県東彼杵郡川棚町中組郷1518-1 電話:0956-82-3131(代表)",
      "note": null
     },
     {
@@ -916,7 +669,7 @@
      "hours": null,
      "source_url": "https://www.kawatana.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -937,7 +690,7 @@
      "hours": null,
      "source_url": "https://www.town.hasami.lg.jp/",
      "evidence": null,
-     "note": null
+     "note": "本庁の代表番号を1つに特定できない"
     },
     {
      "type": "assembly",
@@ -951,7 +704,7 @@
      "hours": null,
      "source_url": "https://www.town.hasami.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -965,7 +718,7 @@
      "hours": null,
      "source_url": "https://www.town.hasami.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -1000,7 +753,7 @@
      "hours": null,
      "source_url": "https://www.town.ojika.lg.jp/index.html",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -1014,7 +767,7 @@
      "hours": null,
      "source_url": "https://www.town.ojika.lg.jp/index.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },

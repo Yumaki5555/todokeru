@@ -329,21 +329,10 @@
      "source_url": "https://www.city.kitanagoya.lg.jp/gikai/index.html",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "秘書広報課",
-     "phone": "0568-48-0078",
-     "email": "hisho@city.kitanagoya.lg.jp",
-     "form_url": "https://logoform.jp/form/SkLd/809098",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kitanagoya.lg.jp/shisei/kocho/1004968.html",
-     "evidence": "秘書広報課 〒481-8531 愛知県北名古屋市西之保清水田15番地 電話:0568-48-0078",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "feedback"
    ]
   },
   {
@@ -1099,35 +1088,11 @@
      "source_url": "https://www.town.taketoyo.lg.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0569-72-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "470-2392",
-     "postal_address": "愛知県知多郡武豊町字長尾山2番地",
-     "hours": null,
-     "source_url": "https://www.town.taketoyo.lg.jp/gikai/index.html",
-     "evidence": "議会事務局 〒470-2392 愛知県知多郡武豊町字長尾山2番地 電話番号: 0569-72-1111",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "ご意見・ご質問",
-     "phone": null,
-     "email": null,
-     "form_url": "https://logoform.jp/form/qsmP/1519445",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.taketoyo.lg.jp/chousei/1001548/1002657/1002911.html",
-     "evidence": "リンク「町長への提案」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -1283,20 +1248,6 @@
    "official_site": "https://www.vill.toyone.aichi.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0536-85-1311",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.vill.toyone.aichi.jp/",
-     "evidence": "豊根村役場 〒449-0403 愛知県北設楽郡豊根村下黒川字蕨平2番地 電話:0536-85-1311 (代表)",
-     "note": null
-    },
-    {
      "type": "assembly",
      "agent_status": "auto_not_found",
      "department": null,
@@ -1322,8 +1273,11 @@
      "hours": null,
      "source_url": "https://www.vill.toyone.aichi.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   }
  ]

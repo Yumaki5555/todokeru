@@ -7,49 +7,11 @@
    "code": "341002",
    "name": "広島市",
    "official_site": "https://www.city.hiroshima.lg.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "082-245-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.hiroshima.lg.jp/",
-     "evidence": "広島市役所 〒730-8586 広島市中区国泰寺町一丁目6番34号 代表電話:082-245-2111",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局市政調査課",
-     "phone": "082-504-2438",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.hiroshima.lg.jp/gikai/seigan_chinjou/1010221.html",
-     "evidence": "議会事務局市政調査課:電話082-504-2438にお問い合わせく",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市政へのご意見・ご要望",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.hiroshima.lg.jp/cgi-bin/enquetes/49f6887102d4471986b6813f320a67fc",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.hiroshima.lg.jp/shisei/kouchou/1021840/1016739.html",
-     "evidence": "リンク「市政へのご意見・ご要望」",
-     "note": "電話番号の掲載なし（フォームで受付）"
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -57,34 +19,6 @@
    "name": "呉市",
    "official_site": "https://www.city.kure.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0823-25-3100",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kure.lg.jp/",
-     "evidence": "呉市役所 法人番号 900002034…01 広島県呉市中央4丁目1番6号 Tel:0823-25-3100(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会総務課議会総務グループ",
-     "phone": "0823-25-3243",
-     "email": "gikaisou@city.kure.lg.jp",
-     "form_url": null,
-     "postal_code": "737-8501",
-     "postal_address": "広島県呉市中央4丁目1番6号",
-     "hours": null,
-     "source_url": "https://www.city.kure.lg.jp/site/gikai/",
-     "evidence": "議会総務課議会総務グループ 0823-25-3243",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -99,6 +33,10 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -119,35 +57,11 @@
      "source_url": "https://www.city.takehara.lg.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0846-22-7761",
-     "email": null,
-     "form_url": null,
-     "postal_code": "725-8666",
-     "postal_address": "広島県竹原市中央五丁目6番28号",
-     "hours": null,
-     "source_url": "https://www.city.takehara.lg.jp/gyoseijoho/takeharashigikai/index.html",
-     "evidence": "議会事務局 〒725-8666 広島県竹原市中央五丁目6番28号 電話番号:0846-22-7761",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市長へのメール",
-     "phone": null,
-     "email": null,
-     "form_url": "https://94ef04e8.form.kintoneapp.com/public/d0e4b2c61aae0c2667ce837b1f5a5367a8e671c0e32916266b456b44041120c5",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.takehara.lg.jp/",
-     "evidence": "リンク「市長へのメール」",
-     "note": "電話番号の掲載なし（フォームで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -170,20 +84,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0848-67-6137",
-     "email": "gikai@city.mihara.hiroshima.jp",
-     "form_url": null,
-     "postal_code": "723-8601",
-     "postal_address": "広島県三原市港町三丁目5番1号",
-     "hours": null,
-     "source_url": "https://www.city.mihara.hiroshima.jp/site/gikai/",
-     "evidence": "議会事務局 〒723-8601 広島県三原市港町三丁目5番1号 Tel:0848-67-6137",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -197,6 +97,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -217,35 +120,11 @@
      "source_url": "https://www.city.onomichi.hiroshima.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局議事調査係",
-     "phone": "0848-38-9371",
-     "email": null,
-     "form_url": null,
-     "postal_code": "722-8501",
-     "postal_address": "広島県尾道市久保1丁目15-1 本庁舎4階",
-     "hours": null,
-     "source_url": "https://www.city.onomichi.hiroshima.jp/site/gikai/1369.html",
-     "evidence": "議会事務局議事調査係 〒722-8501…市久保1丁目15-1 本庁舎4階 Tel:(0848)38-9371",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報・広聴",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.onomichi.hiroshima.jp/form/detail.php?sec_sec1=11",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.onomichi.hiroshima.jp/life/3/24/",
-     "evidence": "リンク「広報・広聴」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -254,34 +133,6 @@
    "official_site": "https://www.city.fukuyama.hiroshima.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "084-921-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "720-8501",
-     "postal_address": "広島県福山市東桜町3番5号",
-     "hours": null,
-     "source_url": "https://www.city.fukuyama.hiroshima.jp/",
-     "evidence": "福山市役所 〒720-8501 広島県福山市東桜町3番5号 電話番号:084-921-2111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "福山市議会",
-     "phone": "084-928-1136",
-     "email": null,
-     "form_url": null,
-     "postal_code": "720-8501",
-     "postal_address": "福山市東桜町3番5号 議会棟2階",
-     "hours": null,
-     "source_url": "https://www.city.fukuyama.hiroshima.jp/adv/ba.php?id=11",
-     "evidence": "議会棟2階 直通 Tel:084-928-1136",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -293,8 +144,12 @@
      "hours": null,
      "source_url": "https://www.city.fukuyama.hiroshima.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -303,34 +158,6 @@
    "official_site": "https://www.city.fuchu.hiroshima.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0847-44-9099",
-     "email": null,
-     "form_url": null,
-     "postal_code": "726-8601",
-     "postal_address": "広島県府中市府川町315",
-     "hours": null,
-     "source_url": "https://www.city.fuchu.hiroshima.jp/",
-     "evidence": "府中市役所 〒726-8601 広島県府中市府川町315 電話番号:0847-44-9099(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0847-44-9099",
-     "email": null,
-     "form_url": null,
-     "postal_code": "726-8601",
-     "postal_address": "広島県府中市府川町315",
-     "hours": null,
-     "source_url": "https://www.city.fuchu.hiroshima.jp/soshiki/gikai_jimukyoku/shigikai/index.html",
-     "evidence": "議会事務局 ページトップへ 広島県府中市 府中市役所 〒726-8601 広島県府中市府川町315 電話番号:0847-44-9099",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -342,8 +169,12 @@
      "hours": null,
      "source_url": "https://www.city.fuchu.hiroshima.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -352,48 +183,6 @@
    "official_site": "https://www.city.miyoshi.hiroshima.jp/index.html",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0824-62-6111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "728-8501",
-     "postal_address": "広島県三次市十日市中二丁目8番1号",
-     "hours": null,
-     "source_url": "https://www.city.miyoshi.hiroshima.jp/index.html",
-     "evidence": "三次市役所 法人番号7000020342…広島県三次市十日市中二丁目8番1号 Tel:0824-62-6111(代表) Fax",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局議事係",
-     "phone": "0824-62-6179",
-     "email": "gikaijimu@city.miyoshi.hiroshima.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.miyoshi.hiroshima.jp/soshiki/5/2077.html",
-     "evidence": "議会事務局議事係 0824-62-6179",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育部教育企画課教育企画係",
-     "phone": "0824-62-6412",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.miyoshi.hiroshima.jp/site/education-report/3240.html",
-     "evidence": "教育部教育企画課教育企画係 Tel:0824-62-6412Fax:0824",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -403,10 +192,14 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.miyoshi.hiroshima.jp/index.html",
+     "source_url": "https://www.city.miyoshi.hiroshima.jp/life/6/51/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -414,20 +207,6 @@
    "name": "庄原市",
    "official_site": "https://www.city.shobara.hiroshima.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0824-73-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.shobara.hiroshima.jp/",
-     "evidence": "庄原市役所 〒727-8501 広島県庄原市中本町一丁目10-1 電話:(0824)73-1111(代表)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -452,10 +231,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.shobara.hiroshima.jp/",
+     "source_url": "https://www.city.shobara.hiroshima.jp/main/government/kohokocho/index.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -465,60 +247,22 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0827-59-2111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "739-0692",
+     "postal_address": "広島県大竹市小方1丁目11番1号",
      "hours": null,
      "source_url": "https://www.city.otake.hiroshima.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局議事係",
-     "phone": "0827-59-2183",
-     "email": "gikai@city.otake.hiroshima.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.otake.hiroshima.jp/soshiki/shigikai/gikaijimu/1519275325445.html",
-     "evidence": "議会事務局議事係 電話番号:(0827)59-2183",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "総務学事課教育総務係",
-     "phone": "0827-59-2184",
-     "email": "sogaku-somu@city.otake.hiroshima.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.otake.hiroshima.jp/kosodate/kyoikuiinkai/1455553211090.html",
-     "evidence": "総務学事課教育総務係 電話番号:(0827)59-2184",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "企画財政課広報広聴係",
-     "phone": "0827-59-2124",
-     "email": "koho@city.otake.hiroshima.jp",
-     "form_url": "https://apply.e-tumo.jp/city-otake-hiroshima-u/offer/offerList_detail?tempSeq=30682",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.otake.hiroshima.jp/soshiki/somu/kikakuzaisei/gyomu/3/9145.html",
-     "evidence": "企画財政課広報広聴係 電話番号:(0827)59-2124",
+     "evidence": "大竹市 Otake City 〒739…島県大竹市小方1丁目11番1号 電話番号(0827)59-2111(代表)",
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -528,30 +272,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "082-422-2111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "739-8601",
+     "postal_address": "広島県東広島市西条栄町8番29号",
      "hours": null,
      "source_url": "https://www.city.higashihiroshima.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "082-420-0966",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.higashihiroshima.lg.jp/shgikai/index.html",
-     "evidence": "議会事務局 〒739-8601 東広島市西条栄町8番29号 本館9階 電話:082-420-0966",
+     "evidence": "東広島市 Higashihiroshim…1 広島県東広島市西条栄町8番29号 電話:082-422-2111(代表)",
      "note": null
     },
     {
@@ -568,6 +298,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -577,35 +310,35 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0829-20-0001",
      "email": null,
      "form_url": null,
-     "postal_code": null,
+     "postal_code": "738-8501",
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.city.hatsukaichi.hiroshima.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.hatsukaichi.hiroshima.jp/",
-     "evidence": null,
+     "evidence": "市役所へのアクセス】 電話:0829-20-0001(代表) ファク",
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0829-30-9211",
+     "email": null,
+     "form_url": null,
+     "postal_code": "738-8501",
+     "postal_address": "広島県廿日市市下平良一丁目11番1号",
+     "hours": null,
+     "source_url": "https://www.city.hatsukaichi.hiroshima.jp/site/shigikai/",
+     "evidence": "議会事務局 〒738-8501広島県廿日市市下平良一丁目11番1号 議事総務係電話:0829-30-9211",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -613,7 +346,7 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.hatsukaichi.hiroshima.jp/",
+     "source_url": "https://www.city.hatsukaichi.hiroshima.jp/life/4/71/",
      "evidence": null,
      "note": null
     }
@@ -662,9 +395,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.akitakata.jp/ja/",
+     "source_url": "https://www.akitakata.jp/ja/shisei/section/kikaku/machidukuriiinkai/30machidukuri-iinkai/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
    ]
   },
@@ -724,35 +457,35 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "082-286-3111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "735-8686",
+     "postal_address": "広島県安芸郡府中町大通三丁目5番1号",
      "hours": null,
      "source_url": "https://www.town.fuchu.hiroshima.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.fuchu.hiroshima.jp/",
-     "evidence": null,
+     "evidence": "府中町役場法人番号20000203430…広島県安芸郡府中町大通三丁目5番1号Tel:082-286-3111(代表) Fax",
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "082-286-3281",
+     "email": null,
+     "form_url": null,
+     "postal_code": "735-8686",
+     "postal_address": "広島県安芸郡府中町大通三丁目5番1号",
+     "hours": null,
+     "source_url": "https://www.town.fuchu.hiroshima.jp/adv/ba.php?id=55",
+     "evidence": "議会事務局 〒735-8686広島県安芸郡府中町大通三丁目5番1号 Tel:082-286-3281Fax:082-",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -760,7 +493,7 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.fuchu.hiroshima.jp/",
+     "source_url": "https://www.town.fuchu.hiroshima.jp/life/5/36/193/",
      "evidence": null,
      "note": null
     }
@@ -773,7 +506,21 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "082-822-2121",
+     "email": null,
+     "form_url": null,
+     "postal_code": "736-8601",
+     "postal_address": "広島県安芸郡海田町南昭和町14番17号",
+     "hours": null,
+     "source_url": "https://www.town.kaita.lg.jp/",
+     "evidence": "海田町役場 Tel:082-822-2121(代表) Fax",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -781,13 +528,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.kaita.lg.jp/",
+     "source_url": "https://www.town.kaita.lg.jp/adv/ba.php?id=107",
      "evidence": null,
      "note": null
     },
     {
      "type": "feedback",
-     "agent_status": "fetch_failed",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -797,21 +544,7 @@
      "hours": null,
      "source_url": "https://www.town.kaita.lg.jp/",
      "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.kaita.lg.jp/",
-     "evidence": null,
-     "note": null
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -870,20 +603,6 @@
    "official_site": "https://www.town.saka.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "082-820-1500",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.saka.lg.jp/",
-     "evidence": "坂町役場 TEL:082-820-1500(代表)",
-     "note": null
-    },
-    {
      "type": "assembly",
      "agent_status": "auto_not_found",
      "department": null,
@@ -911,6 +630,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -948,17 +670,17 @@
     },
     {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
+     "agent_status": "found",
+     "department": "町長への手紙",
      "phone": null,
      "email": null,
-     "form_url": null,
+     "form_url": "https://www.akiota.jp/form/detail.php?sec_sec1=3&inq=02&lif_id=12372",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.akiota.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.akiota.jp/site/chocho-shitsu/7280.html",
+     "evidence": "リンク「町長への手紙」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
    ]
   },
@@ -983,17 +705,17 @@
     },
     {
      "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0826-72-7367",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "731-1595",
+     "postal_address": "広島県山県郡北広島町有田1234番地",
      "hours": null,
-     "source_url": "https://www.town.kitahiroshima.lg.jp/",
-     "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "source_url": "https://www.town.kitahiroshima.lg.jp/site/gikai/",
+     "evidence": "議会事務局 Tel:0826-72-7367Fax:0826",
+     "note": null
     },
     {
      "type": "feedback",
@@ -1005,9 +727,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.kitahiroshima.lg.jp/",
+     "source_url": "https://www.town.kitahiroshima.lg.jp/life/4/20/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
    ]
   },
@@ -1056,7 +778,7 @@
      "hours": null,
      "source_url": "https://www.town.osakikamijima.hiroshima.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -1066,34 +788,6 @@
    "official_site": "https://www.town.sera.hiroshima.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0847-22-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "722-1192",
-     "postal_address": "広島県世羅郡世羅町西上原123-1",
-     "hours": null,
-     "source_url": "https://www.town.sera.hiroshima.jp/",
-     "evidence": "世羅町役場 法人番号300002034…広島県世羅郡世羅町西上原123-1 Tel:0847-22-1111(代表) Fax",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "世羅町議会",
-     "phone": "0847-22-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.sera.hiroshima.jp/soshiki/2.html",
-     "evidence": "議会事務 連絡先 世羅郡世羅町大字西上原123番地1 Tel:0847-22-1111代表",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -1103,10 +797,14 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.sera.hiroshima.jp/",
+     "source_url": "https://www.town.sera.hiroshima.jp/life/4/7/42/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -1116,16 +814,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0847-89-3330",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "720-1522",
+     "postal_address": "広島県神石郡神石高原町小畠1701番地",
      "hours": null,
      "source_url": "https://www.jinsekigun.jp/",
-     "evidence": null,
+     "evidence": "神石高原町役場 〒720-1522 広島県神石郡神石高原町小畠1701番地 電話 0847-89-3330 FAX 084",
      "note": null
     },
     {
@@ -1140,7 +838,7 @@
      "hours": null,
      "source_url": "https://www.jinsekigun.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -1154,7 +852,7 @@
      "hours": null,
      "source_url": "https://www.jinsekigun.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   }

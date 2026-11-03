@@ -524,12 +524,12 @@
     }
    ],
    "status": "merged",
-   "researched_at": "2026-11-01",
-   "merged_at": "2026-11-01",
+   "researched_at": "2026-11-03",
+   "merged_at": "2026-11-03",
    "result": {
     "entities": 21,
-    "contacts": 63,
-    "verified": 63,
+    "contacts": 3,
+    "verified": 3,
     "unverified": 0,
     "unavailable": 0,
     "errors": 0
@@ -631,9 +631,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 21,
-    "contacts": 64,
-    "verified": 44,
-    "unverified": 20,
+    "contacts": 20,
+    "verified": 6,
+    "unverified": 14,
     "unavailable": 0,
     "errors": 0
    }
@@ -730,9 +730,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 20,
-    "contacts": 67,
-    "verified": 29,
-    "unverified": 38,
+    "contacts": 38,
+    "verified": 4,
+    "unverified": 34,
     "unavailable": 0,
     "errors": 0
    }
@@ -817,9 +817,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 17,
-    "contacts": 53,
-    "verified": 26,
-    "unverified": 27,
+    "contacts": 28,
+    "verified": 9,
+    "unverified": 19,
     "unavailable": 0,
     "errors": 0
    }
@@ -900,9 +900,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 16,
-    "contacts": 49,
-    "verified": 18,
-    "unverified": 31,
+    "contacts": 32,
+    "verified": 7,
+    "unverified": 25,
     "unavailable": 0,
     "errors": 0
    }
@@ -1003,9 +1003,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 21,
-    "contacts": 69,
-    "verified": 41,
-    "unverified": 28,
+    "contacts": 28,
+    "verified": 7,
+    "unverified": 21,
     "unavailable": 0,
     "errors": 0
    }
@@ -1106,9 +1106,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 21,
-    "contacts": 66,
-    "verified": 43,
-    "unverified": 23,
+    "contacts": 23,
+    "verified": 4,
+    "unverified": 19,
     "unavailable": 0,
     "errors": 0
    }
@@ -1209,9 +1209,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 21,
-    "contacts": 70,
-    "verified": 30,
-    "unverified": 40,
+    "contacts": 40,
+    "verified": 5,
+    "unverified": 35,
     "unavailable": 0,
     "errors": 0
    }
@@ -1336,9 +1336,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 27,
-    "contacts": 85,
-    "verified": 46,
-    "unverified": 39,
+    "contacts": 41,
+    "verified": 11,
+    "unverified": 30,
     "unavailable": 0,
     "errors": 0
    }
@@ -1463,9 +1463,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 27,
-    "contacts": 84,
-    "verified": 42,
-    "unverified": 42,
+    "contacts": 42,
+    "verified": 7,
+    "unverified": 35,
     "unavailable": 0,
     "errors": 0
    }
@@ -1570,9 +1570,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 22,
-    "contacts": 70,
-    "verified": 41,
-    "unverified": 29,
+    "contacts": 30,
+    "verified": 10,
+    "unverified": 20,
     "unavailable": 0,
     "errors": 0
    }
@@ -1673,9 +1673,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 21,
-    "contacts": 66,
-    "verified": 22,
-    "unverified": 44,
+    "contacts": 44,
+    "verified": 10,
+    "unverified": 34,
     "unavailable": 0,
     "errors": 0
    }
@@ -1812,9 +1812,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 30,
-    "contacts": 90,
-    "verified": 37,
-    "unverified": 53,
+    "contacts": 54,
+    "verified": 9,
+    "unverified": 45,
     "unavailable": 0,
     "errors": 0
    }
@@ -1951,9 +1951,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 30,
-    "contacts": 96,
-    "verified": 25,
-    "unverified": 71,
+    "contacts": 71,
+    "verified": 6,
+    "unverified": 65,
     "unavailable": 0,
     "errors": 0
    }
@@ -2090,9 +2090,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 30,
-    "contacts": 95,
-    "verified": 25,
-    "unverified": 70,
+    "contacts": 71,
+    "verified": 6,
+    "unverified": 65,
     "unavailable": 0,
     "errors": 0
    }
@@ -2229,9 +2229,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 30,
-    "contacts": 95,
-    "verified": 21,
-    "unverified": 74,
+    "contacts": 75,
+    "verified": 6,
+    "unverified": 69,
     "unavailable": 0,
     "errors": 0
    }
@@ -2368,9 +2368,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 30,
-    "contacts": 96,
-    "verified": 24,
-    "unverified": 72,
+    "contacts": 71,
+    "verified": 7,
+    "unverified": 64,
     "unavailable": 0,
     "errors": 0
    }
@@ -2503,9 +2503,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 29,
-    "contacts": 91,
-    "verified": 9,
-    "unverified": 82,
+    "contacts": 83,
+    "verified": 5,
+    "unverified": 78,
     "unavailable": 0,
     "errors": 0
    }
@@ -2602,9 +2602,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 20,
-    "contacts": 62,
-    "verified": 16,
-    "unverified": 46,
+    "contacts": 47,
+    "verified": 6,
+    "unverified": 41,
     "unavailable": 0,
     "errors": 0
    }
@@ -2701,9 +2701,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 20,
-    "contacts": 60,
-    "verified": 10,
-    "unverified": 50,
+    "contacts": 51,
+    "verified": 11,
+    "unverified": 40,
     "unavailable": 0,
     "errors": 0
    }
@@ -2788,9 +2788,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 17,
-    "contacts": 52,
-    "verified": 11,
-    "unverified": 41,
+    "contacts": 41,
+    "verified": 7,
+    "unverified": 34,
     "unavailable": 0,
     "errors": 0
    }
@@ -2871,9 +2871,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 16,
-    "contacts": 49,
-    "verified": 15,
-    "unverified": 34,
+    "contacts": 35,
+    "verified": 7,
+    "unverified": 28,
     "unavailable": 0,
     "errors": 0
    }
@@ -2962,9 +2962,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 18,
-    "contacts": 59,
-    "verified": 27,
-    "unverified": 32,
+    "contacts": 34,
+    "verified": 11,
+    "unverified": 23,
     "unavailable": 0,
     "errors": 0
    }
@@ -3049,9 +3049,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 17,
-    "contacts": 56,
-    "verified": 20,
-    "unverified": 36,
+    "contacts": 36,
+    "verified": 7,
+    "unverified": 29,
     "unavailable": 0,
     "errors": 0
    }
@@ -3168,9 +3168,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 25,
-    "contacts": 77,
-    "verified": 26,
-    "unverified": 51,
+    "contacts": 51,
+    "verified": 9,
+    "unverified": 42,
     "unavailable": 0,
     "errors": 0
    }
@@ -3259,9 +3259,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 18,
-    "contacts": 57,
-    "verified": 25,
-    "unverified": 32,
+    "contacts": 33,
+    "verified": 9,
+    "unverified": 24,
     "unavailable": 0,
     "errors": 0
    }
@@ -3346,9 +3346,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 17,
-    "contacts": 51,
-    "verified": 13,
-    "unverified": 38,
+    "contacts": 39,
+    "verified": 5,
+    "unverified": 34,
     "unavailable": 0,
     "errors": 0
    }
@@ -3485,9 +3485,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 30,
-    "contacts": 93,
-    "verified": 29,
-    "unverified": 64,
+    "contacts": 66,
+    "verified": 18,
+    "unverified": 48,
     "unavailable": 0,
     "errors": 0
    }
@@ -3620,9 +3620,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 29,
-    "contacts": 88,
-    "verified": 16,
-    "unverified": 72,
+    "contacts": 72,
+    "verified": 9,
+    "unverified": 63,
     "unavailable": 0,
     "errors": 0
    }
@@ -3727,9 +3727,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 22,
-    "contacts": 68,
-    "verified": 24,
-    "unverified": 44,
+    "contacts": 44,
+    "verified": 10,
+    "unverified": 34,
     "unavailable": 0,
     "errors": 0
    }
@@ -3834,9 +3834,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 22,
-    "contacts": 72,
-    "verified": 32,
-    "unverified": 40,
+    "contacts": 40,
+    "verified": 3,
+    "unverified": 37,
     "unavailable": 0,
     "errors": 0
    }
@@ -3953,9 +3953,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 25,
-    "contacts": 76,
-    "verified": 27,
-    "unverified": 49,
+    "contacts": 50,
+    "verified": 11,
+    "unverified": 39,
     "unavailable": 0,
     "errors": 0
    }
@@ -4044,9 +4044,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 18,
-    "contacts": 56,
-    "verified": 26,
-    "unverified": 30,
+    "contacts": 30,
+    "verified": 4,
+    "unverified": 26,
     "unavailable": 0,
     "errors": 0
    }
@@ -4131,9 +4131,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 17,
-    "contacts": 52,
-    "verified": 17,
-    "unverified": 35,
+    "contacts": 35,
+    "verified": 5,
+    "unverified": 30,
     "unavailable": 0,
     "errors": 0
    }
@@ -4270,9 +4270,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 30,
-    "contacts": 93,
-    "verified": 36,
-    "unverified": 57,
+    "contacts": 58,
+    "verified": 17,
+    "unverified": 41,
     "unavailable": 0,
     "errors": 0
    }
@@ -4349,9 +4349,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 15,
-    "contacts": 45,
-    "verified": 12,
-    "unverified": 33,
+    "contacts": 33,
+    "verified": 6,
+    "unverified": 27,
     "unavailable": 0,
     "errors": 0
    }
@@ -4444,9 +4444,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 19,
-    "contacts": 59,
-    "verified": 23,
-    "unverified": 36,
+    "contacts": 38,
+    "verified": 9,
+    "unverified": 29,
     "unavailable": 0,
     "errors": 0
    }
@@ -4531,9 +4531,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 17,
-    "contacts": 53,
-    "verified": 28,
-    "unverified": 25,
+    "contacts": 26,
+    "verified": 5,
+    "unverified": 21,
     "unavailable": 0,
     "errors": 0
    }
@@ -4658,9 +4658,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 27,
-    "contacts": 84,
-    "verified": 23,
-    "unverified": 61,
+    "contacts": 63,
+    "verified": 13,
+    "unverified": 50,
     "unavailable": 0,
     "errors": 0
    }
@@ -4781,9 +4781,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 26,
-    "contacts": 79,
-    "verified": 29,
-    "unverified": 50,
+    "contacts": 51,
+    "verified": 10,
+    "unverified": 41,
     "unavailable": 0,
     "errors": 0
    }
@@ -4904,9 +4904,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 26,
-    "contacts": 81,
-    "verified": 18,
-    "unverified": 63,
+    "contacts": 64,
+    "verified": 8,
+    "unverified": 56,
     "unavailable": 0,
     "errors": 0
    }
@@ -5023,9 +5023,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 25,
-    "contacts": 78,
-    "verified": 15,
-    "unverified": 63,
+    "contacts": 63,
+    "verified": 8,
+    "unverified": 55,
     "unavailable": 0,
     "errors": 0
    }
@@ -5126,9 +5126,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 21,
-    "contacts": 67,
-    "verified": 27,
-    "unverified": 40,
+    "contacts": 42,
+    "verified": 9,
+    "unverified": 33,
     "unavailable": 0,
     "errors": 0
    }
@@ -5229,9 +5229,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 21,
-    "contacts": 65,
-    "verified": 19,
-    "unverified": 46,
+    "contacts": 46,
+    "verified": 8,
+    "unverified": 38,
     "unavailable": 0,
     "errors": 0
    }
@@ -5320,9 +5320,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 18,
-    "contacts": 56,
-    "verified": 27,
-    "unverified": 29,
+    "contacts": 29,
+    "verified": 3,
+    "unverified": 26,
     "unavailable": 0,
     "errors": 0
    }
@@ -5407,9 +5407,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 17,
-    "contacts": 53,
-    "verified": 18,
-    "unverified": 35,
+    "contacts": 36,
+    "verified": 6,
+    "unverified": 30,
     "unavailable": 0,
     "errors": 0
    }
@@ -5534,8 +5534,8 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 27,
-    "contacts": 81,
-    "verified": 11,
+    "contacts": 70,
+    "verified": 0,
     "unverified": 70,
     "unavailable": 0,
     "errors": 0
@@ -5661,8 +5661,8 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 27,
-    "contacts": 81,
-    "verified": 4,
+    "contacts": 77,
+    "verified": 0,
     "unverified": 77,
     "unavailable": 0,
     "errors": 0
@@ -5796,9 +5796,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 29,
-    "contacts": 96,
-    "verified": 38,
-    "unverified": 58,
+    "contacts": 58,
+    "verified": 3,
+    "unverified": 55,
     "unavailable": 0,
     "errors": 0
    }
@@ -5891,9 +5891,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 19,
-    "contacts": 60,
-    "verified": 23,
-    "unverified": 37,
+    "contacts": 37,
+    "verified": 8,
+    "unverified": 29,
     "unavailable": 0,
     "errors": 0
    }
@@ -6014,9 +6014,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 26,
-    "contacts": 82,
-    "verified": 31,
-    "unverified": 51,
+    "contacts": 51,
+    "verified": 10,
+    "unverified": 41,
     "unavailable": 0,
     "errors": 0
    }
@@ -6117,9 +6117,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 21,
-    "contacts": 69,
-    "verified": 36,
-    "unverified": 33,
+    "contacts": 34,
+    "verified": 6,
+    "unverified": 28,
     "unavailable": 0,
     "errors": 0
    }
@@ -6216,9 +6216,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 20,
-    "contacts": 64,
-    "verified": 26,
-    "unverified": 38,
+    "contacts": 38,
+    "verified": 7,
+    "unverified": 31,
     "unavailable": 0,
     "errors": 0
    }
@@ -6315,9 +6315,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 20,
-    "contacts": 65,
-    "verified": 30,
-    "unverified": 35,
+    "contacts": 35,
+    "verified": 5,
+    "unverified": 30,
     "unavailable": 0,
     "errors": 0
    }
@@ -6410,9 +6410,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 19,
-    "contacts": 61,
-    "verified": 10,
-    "unverified": 51,
+    "contacts": 52,
+    "verified": 8,
+    "unverified": 44,
     "unavailable": 0,
     "errors": 0
    }
@@ -6549,9 +6549,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 30,
-    "contacts": 96,
-    "verified": 35,
-    "unverified": 61,
+    "contacts": 61,
+    "verified": 6,
+    "unverified": 55,
     "unavailable": 0,
     "errors": 0
    }
@@ -6644,9 +6644,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 19,
-    "contacts": 60,
-    "verified": 16,
-    "unverified": 44,
+    "contacts": 46,
+    "verified": 7,
+    "unverified": 39,
     "unavailable": 0,
     "errors": 0
    }
@@ -6739,9 +6739,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 19,
-    "contacts": 61,
-    "verified": 24,
-    "unverified": 37,
+    "contacts": 39,
+    "verified": 10,
+    "unverified": 29,
     "unavailable": 0,
     "errors": 0
    }
@@ -6866,9 +6866,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 27,
-    "contacts": 85,
-    "verified": 34,
-    "unverified": 51,
+    "contacts": 53,
+    "verified": 7,
+    "unverified": 46,
     "unavailable": 0,
     "errors": 0
    }
@@ -6977,9 +6977,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 23,
-    "contacts": 71,
-    "verified": 25,
-    "unverified": 46,
+    "contacts": 46,
+    "verified": 8,
+    "unverified": 38,
     "unavailable": 0,
     "errors": 0
    }
@@ -7072,9 +7072,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 19,
-    "contacts": 61,
-    "verified": 28,
-    "unverified": 33,
+    "contacts": 34,
+    "verified": 11,
+    "unverified": 23,
     "unavailable": 0,
     "errors": 0
    }
@@ -7187,9 +7187,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 24,
-    "contacts": 79,
-    "verified": 21,
-    "unverified": 58,
+    "contacts": 59,
+    "verified": 9,
+    "unverified": 50,
     "unavailable": 0,
     "errors": 0
    }
@@ -7274,9 +7274,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 17,
-    "contacts": 55,
-    "verified": 19,
-    "unverified": 36,
+    "contacts": 36,
+    "verified": 6,
+    "unverified": 30,
     "unavailable": 0,
     "errors": 0
    }
@@ -7373,9 +7373,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 20,
-    "contacts": 60,
-    "verified": 19,
-    "unverified": 41,
+    "contacts": 43,
+    "verified": 8,
+    "unverified": 35,
     "unavailable": 0,
     "errors": 0
    }
@@ -7460,9 +7460,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 17,
-    "contacts": 53,
-    "verified": 11,
-    "unverified": 42,
+    "contacts": 42,
+    "verified": 3,
+    "unverified": 39,
     "unavailable": 0,
     "errors": 0
    }
@@ -7547,9 +7547,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 17,
-    "contacts": 57,
-    "verified": 15,
-    "unverified": 42,
+    "contacts": 42,
+    "verified": 4,
+    "unverified": 38,
     "unavailable": 0,
     "errors": 0
    }
@@ -7686,9 +7686,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 30,
-    "contacts": 96,
-    "verified": 43,
-    "unverified": 53,
+    "contacts": 55,
+    "verified": 8,
+    "unverified": 47,
     "unavailable": 0,
     "errors": 0
    }
@@ -7825,9 +7825,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 30,
-    "contacts": 92,
-    "verified": 25,
-    "unverified": 67,
+    "contacts": 67,
+    "verified": 11,
+    "unverified": 56,
     "unavailable": 0,
     "errors": 0
    }
@@ -7924,9 +7924,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 20,
-    "contacts": 62,
-    "verified": 24,
-    "unverified": 38,
+    "contacts": 38,
+    "verified": 6,
+    "unverified": 32,
     "unavailable": 0,
     "errors": 0
    }
@@ -8027,9 +8027,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 21,
-    "contacts": 70,
-    "verified": 21,
-    "unverified": 49,
+    "contacts": 50,
+    "verified": 7,
+    "unverified": 43,
     "unavailable": 0,
     "errors": 0
    }
@@ -8138,9 +8138,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 23,
-    "contacts": 70,
-    "verified": 17,
-    "unverified": 53,
+    "contacts": 54,
+    "verified": 11,
+    "unverified": 43,
     "unavailable": 0,
     "errors": 0
    }
@@ -8245,9 +8245,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 22,
-    "contacts": 68,
-    "verified": 9,
-    "unverified": 59,
+    "contacts": 59,
+    "verified": 5,
+    "unverified": 54,
     "unavailable": 0,
     "errors": 0
    }
@@ -8336,9 +8336,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 18,
-    "contacts": 56,
-    "verified": 19,
-    "unverified": 37,
+    "contacts": 38,
+    "verified": 8,
+    "unverified": 30,
     "unavailable": 0,
     "errors": 0
    }
@@ -8459,9 +8459,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 26,
-    "contacts": 79,
-    "verified": 22,
-    "unverified": 57,
+    "contacts": 60,
+    "verified": 14,
+    "unverified": 46,
     "unavailable": 0,
     "errors": 0
    }
@@ -8566,9 +8566,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 22,
-    "contacts": 72,
-    "verified": 25,
-    "unverified": 47,
+    "contacts": 47,
+    "verified": 8,
+    "unverified": 39,
     "unavailable": 0,
     "errors": 0
    }
@@ -8669,9 +8669,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 21,
-    "contacts": 65,
-    "verified": 12,
-    "unverified": 53,
+    "contacts": 55,
+    "verified": 7,
+    "unverified": 48,
     "unavailable": 0,
     "errors": 0
    }
@@ -8772,9 +8772,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 21,
-    "contacts": 66,
-    "verified": 24,
-    "unverified": 42,
+    "contacts": 43,
+    "verified": 7,
+    "unverified": 36,
     "unavailable": 0,
     "errors": 0
    }
@@ -8871,9 +8871,9 @@
    "merged_at": "2026-11-03",
    "result": {
     "entities": 20,
-    "contacts": 64,
-    "verified": 12,
-    "unverified": 52,
+    "contacts": 53,
+    "verified": 8,
+    "unverified": 45,
     "unavailable": 0,
     "errors": 0
    }

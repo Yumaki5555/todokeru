@@ -34,7 +34,7 @@
      "hours": null,
      "source_url": "https://www.town.miyota.nagano.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -48,7 +48,7 @@
      "hours": null,
      "source_url": "https://www.town.miyota.nagano.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -72,20 +72,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0267-88-8413",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.tateshina.nagano.jp/gyoseijoho/gikai/index.html",
-     "evidence": "議会事務局 電話: 0267-88-8413",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -97,8 +83,11 @@
      "hours": null,
      "source_url": "https://www.town.tateshina.nagano.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -108,16 +97,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0268-49-0111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "386-1601",
+     "postal_address": "長野県小県郡青木村大字田沢111",
      "hours": null,
      "source_url": "https://www.vill.aoki.nagano.jp/",
-     "evidence": null,
+     "evidence": "青木村役場 〒386-1601 長野県小県郡青木村大字田沢111 TEL 0268-49-0111 FAX 026",
      "note": null
     },
     {
@@ -146,7 +135,7 @@
      "hours": null,
      "source_url": "https://www.vill.aoki.nagano.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -155,20 +144,6 @@
    "name": "長和町",
    "official_site": "https://town.nagawa.nagano.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0268-68-3111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://town.nagawa.nagano.jp/",
-     "evidence": "長和町役場 〒386-0603 長野県小県郡長和町古町4247-1 電話番号:0268-68-3111(代表)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -195,8 +170,11 @@
      "hours": null,
      "source_url": "https://town.nagawa.nagano.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -206,44 +184,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0266-27-1111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "393-8501",
+     "postal_address": "長野県諏訪郡下諏訪町4613番地8",
      "hours": null,
      "source_url": "https://www.town.shimosuwa.lg.jp/www/index.html",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局 庶務議事係",
-     "phone": "0266-27-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.shimosuwa.lg.jp/www/contents/1625547462778/index.html",
-     "evidence": "議会事務局 庶務議事係 下諏訪町4613-8 (窓口受付時間:平日午前9時から午後4時30分まで) 電話番号:0266-27-1111",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務係",
-     "phone": "0266-27-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.shimosuwa.lg.jp/www/contents/1500358231426/index.html",
-     "evidence": "教育総務係 下諏訪町4613-8 電話番号:0266-27-1111",
+     "evidence": "下諏訪町 Shimosuwa Town …長野県諏訪郡下諏訪町4613番地8 電話 0266-27-1111(代表)",
      "note": null
     },
     {
@@ -256,10 +206,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.shimosuwa.lg.jp/www/index.html",
+     "source_url": "https://www.town.shimosuwa.lg.jp/www/genre/1476845924278/index.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -269,30 +222,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0266-62-2250",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "399-0292",
+     "postal_address": "長野県諏訪郡富士見町落合10777番地",
      "hours": null,
      "source_url": "https://www.town.fujimi.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "富士見町議会",
-     "phone": "0266-62-9403",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.fujimi.lg.jp/site/gikai/gikai-contents05.html",
-     "evidence": "議会・監査委員事務局 Tel:0266-62-9403Fax:0266",
+     "evidence": "富士見町 〒399-0292 長野県諏訪郡富士見町落合10777番地 代表 Tel:0266-62-2250 Fax:026",
      "note": null
     },
     {
@@ -309,6 +248,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -356,7 +298,7 @@
      "hours": null,
      "source_url": "https://www.vill.hara.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -366,34 +308,6 @@
    "official_site": "https://www.town.tatsuno.lg.jp/index.html",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0266-41-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "399-0493",
-     "postal_address": "長野県上伊那郡辰野町中央1番地",
-     "hours": null,
-     "source_url": "https://www.town.tatsuno.lg.jp/index.html",
-     "evidence": "辰野町役場 (法人番号700002020… 長野県上伊那郡辰野町中央1番地 電話番号:0266-41-1111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0266-41-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.tatsuno.lg.jp/gyosei/soshiki/gikaijimukyoku/choseijoho/1/2414.html",
-     "evidence": "議会事務局(電話:0266-41-1111)に提出締切日を",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -405,8 +319,12 @@
      "hours": null,
      "source_url": "https://www.town.tatsuno.lg.jp/index.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -415,34 +333,6 @@
    "official_site": "https://www.town.minowa.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0265-79-3111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.minowa.lg.jp/",
-     "evidence": "役場へのアクセス 電話番号:0265-79-3111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0265-79-3187",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.minowa.lg.jp/gyoseijoho/koho-kocho/koho/1/9917.html",
-     "evidence": "議会事務局長 (局長)田中(担当)宮尾・毛利 電話:0265-79-3187",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -454,57 +344,23 @@
      "hours": null,
      "source_url": "https://www.town.minowa.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
    "code": "203840",
    "name": "飯島町",
    "official_site": "https://www.town.iijima.lg.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0265-86-3111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "399-3797",
-     "postal_address": "長野県上伊那郡",
-     "hours": null,
-     "source_url": "https://www.town.iijima.lg.jp/",
-     "evidence": "飯島町役場 法人番号:600002020…町飯島2537番地(住所を確認) 電話番号:0265-86-3111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0265-86-3111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.iijima.lg.jp/administration/?content=42",
-     "evidence": "議会事務局 〒399-3797 長野県上伊那郡飯島町飯島2537番地 電話:0265-86-3111",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "文書広報係",
-     "phone": "0265-86-3111",
-     "email": null,
-     "form_url": "https://apply.e-tumo.jp/town-iijima-nagano-u/profile/userLogin_initDisplay.action?nextURL=CqTLFdO4vobwRXKkDKpoiDQ9f2VYJzSnteZl3tSRyl04%2FiaRmfzM%2FE27qdGD%2FB7sw8NhT9lfF6BP%0D%0ApuGaOG7cIGJqV1Dod7jUH%2BHNkYYL%2Flzh5QLSdc6etruTvrgv%2FCf9n8S%2FV78p%2FoI%3DJsvXqtpzzB4%3D%0D%0A",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.iijima.lg.jp/administration/?content=259",
-     "evidence": "文書広報係 〒399-3797 長野県上伊那郡飯島町飯島2537番地 電話:0265-86-3111",
-     "note": null
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -514,45 +370,59 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0265-72-2104",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "399-4592",
+     "postal_address": "長野県上伊那郡南箕輪村4825-1",
      "hours": null,
      "source_url": "https://www.vill.minamiminowa.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.vill.minamiminowa.lg.jp/",
-     "evidence": null,
+     "evidence": "南箕輪村役場 法人番号50000202…長野県上伊那郡南箕輪村4825-1 Tel:0265-72-2104(代表)",
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0265-72-2361",
      "email": null,
      "form_url": null,
+     "postal_code": "399-4592",
+     "postal_address": "長野県上伊那郡南箕輪村4825-1",
+     "hours": null,
+     "source_url": "https://www.vill.minamiminowa.lg.jp/site/gikai/",
+     "evidence": "議会事務局 〒399-4592長野県上伊那郡南箕輪村4825-1 Tel:0265-72-2361Fax:0265",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育委員会事務局教育委員会",
+     "phone": "0265-98-5110",
+     "email": null,
+     "form_url": null,
+     "postal_code": "399-4511",
+     "postal_address": "長野県上伊那郡南箕輪村4817番地1",
+     "hours": null,
+     "source_url": "https://www.vill.minamiminowa.lg.jp/soshiki/kyouiku/gakkou-c.html",
+     "evidence": "教育委員会事務局教育委員会事務局 〒39…野県上伊那郡南箕輪村4817番地1 Tel:0265-98-5110Fax:0265",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "ご意見投稿コーナー",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.vill.minamiminowa.lg.jp/form/detail.php?sec_sec1=2&check",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.vill.minamiminowa.lg.jp/",
-     "evidence": null,
-     "note": null
+     "source_url": "https://www.vill.minamiminowa.lg.jp/soshiki/soumu/goiken.html",
+     "evidence": "リンク「村政へのご意見・相談」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
    ]
   },
@@ -561,34 +431,6 @@
    "name": "中川村",
    "official_site": "https://www.vill.nakagawa.nagano.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0265-88-3001",
-     "email": null,
-     "form_url": null,
-     "postal_code": "399-3892",
-     "postal_address": "長野県上伊那郡中川村大草4045-1",
-     "hours": null,
-     "source_url": "https://www.vill.nakagawa.nagano.jp/",
-     "evidence": "中川村役場 法人番号5000020203…野県上伊那郡中川村大草4045-1 Tel:0265-88-3001(代表) Fax",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0265-88-3058",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.vill.nakagawa.nagano.jp/adv/ba.php?id=70",
-     "evidence": "議会事務局 〒399-3892 長野県上伊那郡中川村大草4045-1 Tel:0265-88-3058",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -603,6 +445,10 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -636,7 +482,7 @@
      "hours": null,
      "source_url": "https://www.vill.miyada.nagano.jp/?",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -650,7 +496,7 @@
      "hours": null,
      "source_url": "https://www.vill.miyada.nagano.jp/?",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -699,7 +545,7 @@
      "hours": null,
      "source_url": "https://www.town.matsukawa.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -748,7 +594,7 @@
      "hours": null,
      "source_url": "https://www.town.nagano-takamori.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -797,7 +643,7 @@
      "hours": null,
      "source_url": "http://www.town.anan.nagano.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -806,34 +652,6 @@
    "name": "阿智村",
    "official_site": "https://www.vill.achi.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0265-43-2220",
-     "email": null,
-     "form_url": null,
-     "postal_code": "395-0303",
-     "postal_address": "長野県下伊那郡阿智村駒場483",
-     "hours": null,
-     "source_url": "https://www.vill.achi.lg.jp/",
-     "evidence": "役場への行き方)開庁時間 | 組織別電話…03 長野県下伊那郡阿智村駒場483Tel:0265-43-2220(代表)メールで",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0265-43-2220",
-     "email": null,
-     "form_url": null,
-     "postal_code": "395-0303",
-     "postal_address": "長野県下伊那郡阿智村駒場483番地",
-     "hours": null,
-     "source_url": "https://www.vill.achi.lg.jp/soshiki/24/20241201gikaikousei.html",
-     "evidence": "議会事務局 代表 〒395-0303 長野県下伊那郡阿智村駒場483番地 電話:0265-43-2220 Fax:026",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -846,8 +664,12 @@
      "hours": null,
      "source_url": "https://www.vill.achi.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -895,7 +717,7 @@
      "hours": null,
      "source_url": "https://hirayamura.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -930,7 +752,7 @@
      "hours": null,
      "source_url": "https://nebamura.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -944,7 +766,7 @@
      "hours": null,
      "source_url": "https://nebamura.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -955,16 +777,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0260-27-2311",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.vill-shimojo.jp/",
-     "evidence": null,
+     "evidence": "下條村 〒399-2101 長野県下伊那郡下條村睦沢8801-1 電話 0260-27-2311(代表)",
      "note": null
     },
     {
@@ -977,9 +799,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.vill-shimojo.jp/",
+     "source_url": "https://www.vill-shimojo.jp/gyousei/simojomura_songikai/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": null
     },
     {
      "type": "feedback",
@@ -993,7 +815,7 @@
      "hours": null,
      "source_url": "https://www.vill-shimojo.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -1028,7 +850,7 @@
      "hours": null,
      "source_url": "https://www.urugi.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -1042,7 +864,7 @@
      "hours": null,
      "source_url": "https://www.urugi.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -1105,7 +927,7 @@
      "hours": null,
      "source_url": "https://www.vill-tenryu.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -1154,7 +976,7 @@
      "hours": null,
      "source_url": "https://vill.yasuoka.nagano.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -1189,7 +1011,7 @@
      "hours": null,
      "source_url": "https://www.vill.takagi.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -1203,7 +1025,7 @@
      "hours": null,
      "source_url": "https://www.vill.takagi.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -1227,20 +1049,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0265-35-9063",
-     "email": "gikai@vill.nagano-toyooka.lg.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.vill.nagano-toyooka.lg.jp/01gikai/index.html",
-     "evidence": "議会事務局 電話:0265-35-9063",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -1252,8 +1060,11 @@
      "hours": null,
      "source_url": "https://www.vill.nagano-toyooka.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -1263,16 +1074,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0265-39-2001",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.vill.ooshika.nagano.jp/",
-     "evidence": null,
+     "evidence": "大鹿村役場 〒399-3502 長野県下伊那郡大鹿村大字大河原354 TEL(0265)39-2001(代)",
      "note": null
     },
     {
@@ -1287,21 +1098,7 @@
      "hours": null,
      "source_url": "https://www.vill.ooshika.nagano.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "大鹿村教育委員会",
-     "phone": "0265-39-2100",
-     "email": "kyoiku@vill.ooshika.lg.jp",
-     "form_url": null,
-     "postal_code": "399-3502",
-     "postal_address": "長野県下伊那郡大鹿村大字大河原391番地2",
-     "hours": null,
-     "source_url": "https://www.vill.ooshika.nagano.jp/category/oshika-board-education/",
-     "evidence": "大鹿村教育委員会 〒399-3502 …那郡大鹿村大字大河原391番地2 TEL(0265)39-2100(代) FAX(",
-     "note": null
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -1315,7 +1112,7 @@
      "hours": null,
      "source_url": "https://www.vill.ooshika.nagano.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   }

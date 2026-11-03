@@ -32,9 +32,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.yokohama.lg.jp/",
+     "source_url": "https://www.city.yokohama.lg.jp/city-info/yokohamashi/org/gikai/soshiki-gyomu/index.html",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": null
     },
     {
      "type": "feedback",
@@ -58,20 +58,6 @@
    "official_site": "https://www.city.kawasaki.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "044-200-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "210-8577",
-     "postal_address": "川崎市川崎区宮本町1番地",
-     "hours": null,
-     "source_url": "https://www.city.kawasaki.jp/",
-     "evidence": "川崎市役所 開庁時間:月曜日から金曜日の…0-8577川崎市川崎区宮本町1番地 電話:044-200-2111(代表)",
-     "note": null
-    },
-    {
      "type": "assembly",
      "agent_status": "auto_not_found",
      "department": null,
@@ -86,33 +72,22 @@
      "note": null
     },
     {
-     "type": "education",
-     "agent_status": "found",
-     "department": "川崎市教育委員会",
-     "phone": "044-200-3261",
-     "email": null,
-     "form_url": null,
-     "postal_code": "210-8577",
-     "postal_address": "川崎市川崎区宮本町1番地",
-     "hours": null,
-     "source_url": "https://www.city.kawasaki.jp/880/",
-     "evidence": "川崎市教育委員会 開庁時間:月曜日から金…-8577 川崎市川崎区宮本町1番地 電話:044-200-3261(代表)",
-     "note": null
-    },
-    {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
+     "agent_status": "found",
+     "department": "オンライン手続",
      "phone": null,
      "email": null,
-     "form_url": null,
+     "form_url": "https://logoform.jp/form/FUQz/456712",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.kawasaki.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.city.kawasaki.jp/980/page/0000081651.html",
+     "evidence": "リンク「オンライン手続 | 市議会ご意見箱外部リンク」",
+     "note": "電話番号の掲載なし（フォームで受付）"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -133,35 +108,11 @@
      "source_url": "https://www.city.sagamihara.kanagawa.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会総務課",
-     "phone": "042-769-8277",
-     "email": null,
-     "form_url": null,
-     "postal_code": "252-5277",
-     "postal_address": "神奈川県相模原市中央区中央2-11-15 市役所本館2階",
-     "hours": null,
-     "source_url": "https://www.sagamihara-shigikai.jp/",
-     "evidence": "議会総務課 TEL:042-769-8277 FAX:042",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市へのご意見・ご提案",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/shisei_opinion/1026888/index.html",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/shisei_opinion/index.html",
-     "evidence": "リンク「市へのご意見・ご提案」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -198,20 +149,6 @@
      "note": null
     },
     {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務部総務課",
-     "phone": "046-822-8468",
-     "email": null,
-     "form_url": null,
-     "postal_code": "238-8550",
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.yokosuka.kanagawa.jp/8110/iinkai/iinkai01.html",
-     "evidence": "教育総務部総務課」で届きます> 電話番号:046-822-8468",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -231,49 +168,11 @@
    "code": "142034",
    "name": "平塚市",
    "official_site": "https://www.city.hiratsuka.kanagawa.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0463-23-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.hiratsuka.kanagawa.jp/",
-     "evidence": "平塚市役所 法人番号3000020142…神奈川県平塚市浅間町9番1号 電話番号 :0463-23-1111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "平塚市議会",
-     "phone": "0463-21-8791",
-     "email": null,
-     "form_url": null,
-     "postal_code": "254-8686",
-     "postal_address": "神奈川県平塚市浅間町9番1号 本館8階",
-     "hours": null,
-     "source_url": "https://www.city.hiratsuka.kanagawa.jp/gikai/page-c_02222.html",
-     "evidence": "議会局 〒254-8686 神奈川県平塚市浅間町9番1号 本館8階 直通電話:0463-21-8791",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市長への手紙",
-     "phone": null,
-     "email": null,
-     "form_url": "https://dshinsei.e-kanagawa.lg.jp/142034-u/offer/offerList_detail?tempSeq=120645",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.hiratsuka.kanagawa.jp/kocho/page-c_01456.html",
-     "evidence": "リンク「市長への手紙」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -282,47 +181,23 @@
    "official_site": "https://www.city.kamakura.kanagawa.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0467-23-3000",
-     "email": null,
-     "form_url": null,
-     "postal_code": "248-8686",
-     "postal_address": "鎌倉市御成町18-10",
-     "hours": null,
-     "source_url": "https://www.city.kamakura.kanagawa.jp/",
-     "evidence": "鎌倉市役所 法人番号:300002014…8686 鎌倉市御成町18-10 電話番号:0467-23-3000(代表) ファク",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0467-23-3000",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kamakura.kanagawa.jp/gikai/index.html",
-     "evidence": "議会事務局 鎌倉市御成町18-10 本庁舎2階 電話番号:0467-23-3000",
-     "note": null
-    },
-    {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "相談担当",
+     "phone": "0467-61-3864",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.kamakura.kanagawa.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.city.kamakura.kanagawa.jp/soudan/goiken_goteian.html",
+     "evidence": "相談担当 鎌倉市御成町18-10 本庁舎1階 電話番号:0467-61-3864",
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -343,35 +218,11 @@
      "source_url": "https://www.city.fujisawa.kanagawa.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "藤沢市議会",
-     "phone": "0466-25-1111",
-     "email": "fj-giji@city.fujisawa.lg.jp",
-     "form_url": null,
-     "postal_code": "251-8601",
-     "postal_address": "神奈川県藤沢市朝日町1-1 市議会へのアクセス",
-     "hours": null,
-     "source_url": "https://shigikai.city.fujisawa.kanagawa.jp/",
-     "evidence": "議会へのアクセス 電話番号(内線):0466-25-1111 内線5622",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市民相談情報課",
-     "phone": "0466-25-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.fujisawa.kanagawa.jp/soudanc2-1/shise/kocho/goiken/kocho.html",
-     "evidence": "市民相談情報課へお電話またはご来庁ください。 【電話】0466-25-1111(藤沢市コンタク",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -392,35 +243,11 @@
      "source_url": "https://www.city.odawara.kanagawa.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会総務課",
-     "phone": "0465-33-1761",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.odawara.kanagawa.jp/citycounc/acommittee/acommittee-data/tinjyou.html",
-     "evidence": "議会総務課 電話番号:0465-33-1761",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広聴係",
-     "phone": "0465-33-1263",
-     "email": null,
-     "form_url": "https://www.city.odawara.kanagawa.jp/request.php?page_url=https%3A%2F%2Fwww.city.odawara.kanagawa.jp%2Ffield%2Fmunicipality%2Fannouncing%2Fshiseiikenteian2.html&contact_msection_id=28",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.odawara.kanagawa.jp/field/municipality/announcing/shiseiikenteian2.html",
-     "evidence": "広聴係 電話番号:0465-33-1263",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -428,34 +255,6 @@
    "name": "茅ヶ崎市",
    "official_site": "https://www.city.chigasaki.kanagawa.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0467-82-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "253-8686",
-     "postal_address": "神奈川県茅ヶ崎市茅ヶ崎一丁目1番1号",
-     "hours": null,
-     "source_url": "https://www.city.chigasaki.kanagawa.jp/",
-     "evidence": "茅ヶ崎市役所 開庁時間:月曜日から金曜日…奈川県茅ヶ崎市茅ヶ崎一丁目1番1号 電話:0467-82-1111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局 総務担当",
-     "phone": "0467-81-7211",
-     "email": null,
-     "form_url": null,
-     "postal_code": "253-8686",
-     "postal_address": "茅ヶ崎市茅ヶ崎一丁目1番1号",
-     "hours": null,
-     "source_url": "https://www.city.chigasaki.kanagawa.jp/gikai/index.html",
-     "evidence": "議会事務局 総務担当 市役所本庁舎6階 〒253-8686 茅ヶ崎市茅ヶ崎一丁目1番1号 電話:0467-81-7211",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -470,6 +269,10 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -479,30 +282,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.zushi.kanagawa.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
      "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "046-872-8141",
+     "department": "代表電話",
+     "phone": "046-873-1111",
      "email": null,
      "form_url": null,
      "postal_code": "249-8686",
-     "postal_address": "神奈川県逗子市逗子5丁目2番16号",
+     "postal_address": "神奈川県逗子市逗子5-2-16",
      "hours": null,
-     "source_url": "https://www.city.zushi.kanagawa.jp/shisei/gikai/index.html",
-     "evidence": "議会事務局 〒249-8686 神奈川県逗子市逗子5丁目2番16号 電話番号:046-872-8141",
+     "source_url": "https://www.city.zushi.kanagawa.jp/",
+     "evidence": "逗子市 〒249-8686 神奈川県逗子市逗子5-2-16 電話番号:046-873-1111(代表)",
      "note": null
     },
     {
@@ -519,6 +308,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -528,31 +320,31 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "046-882-1111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.city.miura.kanagawa.jp/",
-     "evidence": null,
+     "evidence": "三浦市役所分館2階) 046-882-1111(内線355・3",
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "046-882-1111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.miura.kanagawa.jp/",
-     "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "source_url": "https://www.city.miura.kanagawa.jp/soshiki/gikaijimukyoku/408.html",
+     "evidence": "議会事務局(046-882-1111内線462)まで",
+     "note": null
     },
     {
      "type": "feedback",
@@ -566,46 +358,32 @@
      "hours": null,
      "source_url": "https://www.city.miura.kanagawa.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
   {
    "code": "142115",
    "name": "秦野市",
-   "official_site": "https://www.city.hadano.kanagawa.jp/www/index.html",
+   "official_site": "https://www.city.hadano.kanagawa.jp/",
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0463-82-5111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "257-8501",
+     "postal_address": "神奈川県秦野市桜町1-3-2",
      "hours": null,
-     "source_url": "https://www.city.hadano.kanagawa.jp/www/index.html",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.hadano.kanagawa.jp/www/index.html",
-     "evidence": null,
+     "source_url": "https://www.city.hadano.kanagawa.jp/",
+     "evidence": "秦野市役所 法人番号 500002014… 神奈川県秦野市桜町1-3-2 電話番号:0463-82-5111(代表)",
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -613,8 +391,36 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.hadano.kanagawa.jp/www/index.html",
+     "source_url": "https://www.city.hadano.kanagawa.jp/gikai/index.html",
      "evidence": null,
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育総務担当",
+     "phone": "0463-84-2783",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hadano.kanagawa.jp/kosodate-kyoiku/kyoikuiinkai/8880.html",
+     "evidence": "教育総務担当 電話番号:0463-84-2783",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "広報広聴課",
+     "phone": "0463-82-5117",
+     "email": null,
+     "form_url": "https://www.city.hadano.kanagawa.jp/cgi-bin/inquiry.php/205",
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.hadano.kanagawa.jp/shisei/kocho/9607.html",
+     "evidence": "広報広聴課へお電話ください。 電話番号:0463-82-5117",
      "note": null
     }
    ]
@@ -625,34 +431,6 @@
    "official_site": "https://www.city.atsugi.kanagawa.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "046-223-1511",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.atsugi.kanagawa.jp/",
-     "evidence": "厚木市役所 法人番号5000020142…県厚木市中町3丁目17番17号 電話番号 046-223-1511(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会総務係",
-     "phone": "046-225-2700",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.atsugi.kanagawa.jp/shigikai/index.html",
-     "evidence": "議会総務係 〒243-8511 厚木市中町3-17-17(市役所本庁舎5階) 電話番号:046-225-2700",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -664,8 +442,12 @@
      "hours": null,
      "source_url": "https://www.city.atsugi.kanagawa.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -686,35 +468,11 @@
      "source_url": "https://www.city.yamato.lg.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "046-260-5502",
-     "email": null,
-     "form_url": null,
-     "postal_code": "242-8601",
-     "postal_address": "大和市下鶴間1-1-1",
-     "hours": null,
-     "source_url": "https://www.city.yamato.lg.jp/gyosei/yamatoshiinfo/13856.html",
-     "evidence": "議会事務局 〒242-8601 大和市下鶴間1-1-1 (本庁舎5階 案内図) 総務係:046-260-5502",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市長への手紙",
-     "phone": null,
-     "email": null,
-     "form_url": "https://dshinsei.e-kanagawa.lg.jp/142131-u/offer/offerList_detail?tempSeq=86983",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.yamato.lg.jp/gyosei/shiseijoho/kocho/shihenogoteian_goiken/shichohenotegami/7597.html",
-     "evidence": "リンク「市長への手紙」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -723,20 +481,6 @@
    "official_site": "https://www.city.isehara.kanagawa.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0463-94-4711",
-     "email": null,
-     "form_url": null,
-     "postal_code": "259-1188",
-     "postal_address": "神奈川県伊勢原市田中348番地",
-     "hours": null,
-     "source_url": "https://www.city.isehara.kanagawa.jp/",
-     "evidence": "市役所へのアクセス 市の組織 〒259…8 神奈川県伊勢原市田中348番地 電話:0463-94-4711(代表)",
-     "note": null
-    },
-    {
      "type": "assembly",
      "agent_status": "auto_not_found",
      "department": null,
@@ -748,7 +492,7 @@
      "hours": null,
      "source_url": "https://www.city.isehara.kanagawa.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -762,8 +506,11 @@
      "hours": null,
      "source_url": "https://www.city.isehara.kanagawa.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -771,20 +518,6 @@
    "name": "海老名市",
    "official_site": "https://www.city.ebina.kanagawa.jp/index.html",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "046-231-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "243-0492",
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.ebina.kanagawa.jp/index.html",
-     "evidence": "市役所へのアクセス] 電話:046-231-2111(代表)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "fetch_failed",
@@ -798,21 +531,11 @@
      "source_url": "http://ebina.gijiroku.com/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "相談係",
-     "phone": "046-235-4567",
-     "email": null,
-     "form_url": "https://www.city.ebina.kanagawa.jp/cgi-bin/contacts/G003005",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.ebina.kanagawa.jp/mayor/1000963.html",
-     "evidence": "相談係:046-235-4567",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "feedback",
+    "general"
    ]
   },
   {
@@ -822,46 +545,22 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.zama.kanagawa.jp/www/toppage/0000000000000/APM03000.html",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
      "agent_status": "found",
-     "department": "議会事務局 庶務議事係",
-     "phone": "046-252-8872",
+     "department": "代表電話",
+     "phone": "046-255-1111",
      "email": null,
      "form_url": null,
      "postal_code": "252-8566",
-     "postal_address": "座間市緑ケ丘一丁目1番1号",
+     "postal_address": "神奈川県座間市緑ケ丘一丁目1番1号",
      "hours": null,
-     "source_url": "https://www.city.zama.kanagawa.jp/shigikai/index.html",
-     "evidence": "議会事務局 庶務議事係 〒252-8566 座間市緑ケ丘一丁目1番1号 電話番号:046-252-8872",
+     "source_url": "https://www.city.zama.kanagawa.jp/www/toppage/0000000000000/APM03000.html",
+     "evidence": "座間市 〒252-8566 神奈川県座間市緑ケ丘一丁目1番1号 電話番号:046-255-1111(代表) / フ",
      "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市長への提案",
-     "phone": null,
-     "email": null,
-     "form_url": "https://dshinsei.e-kanagawa.lg.jp/142166-u/offer/offerList_detail.action?tempSeq=4663",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.zama.kanagawa.jp/shisei/mayor/1004037.html",
-     "evidence": "リンク「市長への提案」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   }
  ]

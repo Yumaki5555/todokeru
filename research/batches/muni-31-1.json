@@ -6,39 +6,53 @@
   {
    "code": "312011",
    "name": "鳥取市",
-   "official_site": "https://www.city.tottori.lg.jp/www/index.html",
+   "official_site": "https://www.city.tottori.lg.jp/",
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0857-22-8111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.tottori.lg.jp/www/index.html",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.tottori.lg.jp/www/index.html",
-     "evidence": null,
+     "source_url": "https://www.city.tottori.lg.jp/",
+     "evidence": "鳥取市役所 〒680-8571 鳥取県鳥取市幸町71番地 Tel:0857-22-8111(代表/コールセ",
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "市議会市議会事務局議事係",
+     "phone": "0857-30-8444",
+     "email": null,
+     "form_url": null,
+     "postal_code": "680-8571",
+     "postal_address": "鳥取市幸町71番地",
+     "hours": null,
+     "source_url": "https://www.city.tottori.lg.jp/site/shigikai/6343.html",
+     "evidence": "市議会市議会事務局議事係 〒680-85…市幸町71番地 市役所本庁舎7階 Tel:0857-30-8444",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育委員会教育総務課総務係",
+     "phone": "0857-30-8403",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.tottori.lg.jp/page/51152.html",
+     "evidence": "教育委員会教育総務課総務係 鳥取県鳥取市幸町71番地 市役所本庁舎5階 Tel:0857-30-8403Fax:0857",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -46,7 +60,7 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.tottori.lg.jp/www/index.html",
+     "source_url": "https://www.city.tottori.lg.jp/site/shiseiteian/",
      "evidence": null,
      "note": null
     }
@@ -57,48 +71,6 @@
    "name": "米子市",
    "official_site": "https://www.city.yonago.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0859-22-7111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "683-8686",
-     "postal_address": "鳥取県米子市加茂町一丁目1番地",
-     "hours": null,
-     "source_url": "https://www.city.yonago.lg.jp/",
-     "evidence": "米子市役所 〒683-8686 鳥取県米子市加茂町一丁目1番地 代表番号:0859-22-7111 市役所庁舎案内",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0859-23-5522",
-     "email": null,
-     "form_url": null,
-     "postal_code": "683-8686",
-     "postal_address": "鳥取県米子市加茂町1丁目1番地",
-     "hours": null,
-     "source_url": "https://www.city.yonago.lg.jp/gikai/",
-     "evidence": "議会事務局 所在地/〒683-8686…1丁目1番地 (市役所本庁舎5階) 電話/0859-23-5522 ファクシミリ/",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会",
-     "phone": "0859-23-5421",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.yonago.lg.jp/1106.htm",
-     "evidence": "教育委員会事務局) TEL:0859-23-5421",
-     "note": "同じ組織のほかの番号：0859-21-8376・0859-21-8373・0859-23-5434"
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -111,8 +83,12 @@
      "hours": null,
      "source_url": "https://www.city.yonago.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -135,17 +111,17 @@
      "note": null
     },
     {
-     "type": "assembly",
+     "type": "education",
      "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0858-22-8145",
+     "department": "教育総務課",
+     "phone": "0858-22-8165",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.kurayoshi.lg.jp/1072.htm",
-     "evidence": "議会事務局 〒682-8611 鳥取県倉吉市葵町722 電話番号:0858-22-8145",
+     "source_url": "https://www.city.kurayoshi.lg.jp/1243.htm",
+     "evidence": "教育総務課 〒682-0823 鳥取県倉吉市東町435-1 電話番号:0858-22-8165",
      "note": null
     },
     {
@@ -162,6 +138,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -220,16 +199,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0857-73-1411",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "681-8501",
+     "postal_address": "鳥取県岩美郡岩美町浦富675-1",
      "hours": null,
      "source_url": "https://www.iwami.gr.jp/",
-     "evidence": null,
+     "evidence": "せ 〒681-8501鳥取県岩美郡岩美町浦富675-1電話 0857-73-1411(代表)電話 0",
      "note": null
     },
     {
@@ -268,48 +247,6 @@
    "official_site": "https://www.town.wakasa.tottori.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0858-82-2211",
-     "email": null,
-     "form_url": null,
-     "postal_code": "680-0792",
-     "postal_address": "鳥取県八頭郡若桜町大字若桜801番地5",
-     "hours": null,
-     "source_url": "https://www.town.wakasa.tottori.jp/",
-     "evidence": "若桜町役場 〒680-0792 鳥取県八頭郡若桜町大字若桜801番地5 電話:0858-82-2211 (代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0858-82-2212",
-     "email": null,
-     "form_url": null,
-     "postal_code": "680-0792",
-     "postal_address": "鳥取県八頭郡若桜町大字若桜801番地5",
-     "hours": null,
-     "source_url": "https://www.town.wakasa.tottori.jp/soshikikarasagasu/gikaijimukyoku/1/1/388.html",
-     "evidence": "議会事務局 〒680-0792 鳥取県八頭郡若桜町大字若桜801番地5 電話番号:0858-82-2212",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会",
-     "phone": "0858-82-2213",
-     "email": null,
-     "form_url": null,
-     "postal_code": "680-0701",
-     "postal_address": "鳥取県八頭郡若桜町大字若桜757番地",
-     "hours": null,
-     "source_url": "https://www.town.wakasa.tottori.jp/kosodate_kyoiku/732.html",
-     "evidence": "教育委員会 〒680-0701 鳥取県八頭郡若桜町大字若桜757番地 電話番号:0858-82-2213",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -321,8 +258,12 @@
      "hours": null,
      "source_url": "https://www.town.wakasa.tottori.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -356,7 +297,7 @@
      "hours": null,
      "source_url": "https://www1.town.chizu.tottori.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -370,7 +311,7 @@
      "hours": null,
      "source_url": "https://www1.town.chizu.tottori.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -379,34 +320,6 @@
    "name": "八頭町",
    "official_site": "https://www.town.yazu.tottori.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0858-76-0201",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.yazu.tottori.jp/",
-     "evidence": "八頭町役場 法人番号1000020313… 鳥取県八頭郡八頭町郡家493番地 電話:0858-76-0201(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0858-72-3975",
-     "email": null,
-     "form_url": null,
-     "postal_code": "680-0495",
-     "postal_address": "鳥取県八頭郡八頭町船岡539番地",
-     "hours": null,
-     "source_url": "https://www.town.yazu.tottori.jp/adv/ba.php?id=9",
-     "evidence": "議会事務局 〒680-0495鳥取県八頭郡八頭町船岡539番地 電話:0858-72-3975ファックス:08",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -421,6 +334,10 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -443,20 +360,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0858-43-3511",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.misasa.tottori.jp/315/319/333/368/2031/37816.html",
-     "evidence": "議会事務局 電話0858-43-3511 FAX0858",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -470,6 +373,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -503,7 +409,7 @@
      "hours": null,
      "source_url": "https://www.yurihama.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -517,7 +423,7 @@
      "hours": null,
      "source_url": "https://www.yurihama.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -528,46 +434,22 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0858-52-2111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "689-2392",
+     "postal_address": "鳥取県東伯郡琴浦町大字徳万591-2",
      "hours": null,
      "source_url": "https://www.town.kotoura.tottori.jp/",
-     "evidence": null,
+     "evidence": "本庁舎:〒689-2392 鳥取県東伯郡琴浦町大字徳万591-2 TEL:0858-52-2111 FAX:085",
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0858-52-1710",
-     "email": "gikai@town.kotoura.tottori.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.kotoura.tottori.jp/docs/2026061100020/",
-     "evidence": "議会事務局 電話:0858-52-1710",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "町民の声",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.town.kotoura.tottori.jp/inquiry/3/",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.kotoura.tottori.jp/bunya/tyoumin_koe/",
-     "evidence": "リンク「町民の声」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -605,17 +487,17 @@
     },
     {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
+     "agent_status": "found",
+     "department": "町民の声への対応状況 (公表)",
      "phone": null,
      "email": null,
-     "form_url": null,
+     "form_url": "https://www.e-hokuei.net/form/detail.php?sec_sec1=4&inq=04&lif_id=9378",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.e-hokuei.net/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.e-hokuei.net/soshiki/4/1277.html",
+     "evidence": "リンク「町民の声への対応状況 (公表)」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
    ]
   },
@@ -626,16 +508,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0859-27-0211",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.hiezu.jp/",
-     "evidence": null,
+     "evidence": "日吉津村 〒689-3553 鳥取県西…津872番地15 [ 地図 ] TEL: 0859-27-0211(代表) /",
      "note": null
     },
     {
@@ -664,7 +546,7 @@
      "hours": null,
      "source_url": "https://www.hiezu.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -724,46 +606,22 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0859-66-3112",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "683-0351",
+     "postal_address": "鳥取県西伯郡南部町法勝寺377-1",
      "hours": null,
      "source_url": "https://www.town.nanbu.tottori.jp/",
-     "evidence": null,
+     "evidence": "[ 電話 0859-66-3112(代表) FAX",
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0859-66-4804",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.nanbu.tottori.jp/admin/gikai/",
-     "evidence": "議会事務局 窓口:法勝寺庁舎 3階( 庁舎案内 ) 電話0859-66-4804",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "ご意見・お問い合わせはこちら",
-     "phone": null,
-     "email": null,
-     "form_url": "https://apply.e-tumo.jp/town-nanbu-tottori-u/",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.nanbu.tottori.jp/admin/8/w634/",
-     "evidence": "リンク「ご意見・お問合せ各課連絡先一覧」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -773,16 +631,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0859-68-3111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "689-4133",
+     "postal_address": "鳥取県西伯郡伯耆町吉長37番地3",
      "hours": null,
      "source_url": "https://www.houki-town.jp/",
-     "evidence": null,
+     "evidence": "伯耆町役場 〒689-4133 鳥取県西伯郡伯耆町吉長37番地3 電話 0859-68-3111",
      "note": null
     },
     {
@@ -809,9 +667,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.houki-town.jp/",
+     "source_url": "https://www.houki-town.jp/new1/chousei/g866/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
    ]
   },
@@ -835,20 +693,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0859-82-1900",
-     "email": null,
-     "form_url": null,
-     "postal_code": "689-5292",
-     "postal_address": "鳥取県日野郡日南町霞800",
-     "hours": null,
-     "source_url": "https://www.town.nichinan.lg.jp/gyosei_gikai/denwacho/2492.html",
-     "evidence": "議会事務局 TEL:0859-82-1900/FAX:085",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -860,8 +704,11 @@
      "hours": null,
      "source_url": "https://www.town.nichinan.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -871,30 +718,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0859-72-0331",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "689-4503",
+     "postal_address": "鳥取県",
      "hours": null,
      "source_url": "https://www.town.hino.tottori.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0859-72-0335",
-     "email": "gikai@town.tottori-hino.lg.jp",
-     "form_url": null,
-     "postal_code": "689-4503",
-     "postal_address": "日野町根雨101番地",
-     "hours": null,
-     "source_url": "https://www.town.hino.tottori.jp/gikai/",
-     "evidence": "議会事務局 所在地/〒689-4503日野町根雨101番地 電話番号/0859-72-0335 電話番号/08",
+     "evidence": "日野町役場 〒689-4503 鳥取県 日野郡日野町根雨101番地 TEL/ 0859-72-0331 0859-72",
      "note": null
     },
     {
@@ -909,8 +742,11 @@
      "hours": null,
      "source_url": "https://www.town.hino.tottori.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -944,7 +780,7 @@
      "hours": null,
      "source_url": "https://www.town-kofu.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "education",
@@ -972,7 +808,7 @@
      "hours": null,
      "source_url": "https://www.town-kofu.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   }

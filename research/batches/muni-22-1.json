@@ -34,7 +34,7 @@
      "hours": null,
      "source_url": "https://www.city.shizuoka.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -70,35 +70,11 @@
      "source_url": "https://www.city.hamamatsu.shizuoka.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "市役所議会事務局調査法制課",
-     "phone": "053-457-2513",
-     "email": null,
-     "form_url": null,
-     "postal_code": "430-8652",
-     "postal_address": "浜松市中央区元城町103-2",
-     "hours": null,
-     "source_url": "https://www.city.hamamatsu.shizuoka.jp/gikai/index.html",
-     "evidence": "市役所議会事務局調査法制課 〒430-8652 浜松市中央区元城町103-2 電話番号:053-457-2513",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広聴広報課",
-     "phone": "053-457-2021",
-     "email": "koho2@city.hamamatsu.shizuoka.jp",
-     "form_url": "https://www.city.hamamatsu.shizuoka.jp/koho2/kocho/form.html",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.hamamatsu.shizuoka.jp/voice/",
-     "evidence": "広聴広報課(TEL:053-457-2021、お問い合わせフ",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -119,49 +95,11 @@
      "source_url": "https://www.city.numazu.shizuoka.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "055-934-4711",
-     "email": null,
-     "form_url": null,
-     "postal_code": "410-8601",
-     "postal_address": "静岡県沼津市御幸町16-1",
-     "hours": null,
-     "source_url": "https://www.city.numazu.shizuoka.jp/shisei/g-shigiki/g-sigiki/index.htm",
-     "evidence": "議会事務局 〒410-8601 静岡県沼津市御幸町16-1 電話:055-934-4711",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会事務局教育企画課",
-     "phone": "055-934-4821",
-     "email": null,
-     "form_url": null,
-     "postal_code": "410-8601",
-     "postal_address": "静岡県沼津市御幸町16-1",
-     "hours": null,
-     "source_url": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kyoiku/index.htm",
-     "evidence": "教育委員会事務局教育企画課 〒410-8601 静岡県沼津市御幸町16-1 電話:055-934-4821",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市民の声",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.numazu.shizuoka.jp/opinion/op_form/index.htm",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.numazu.shizuoka.jp/opinion/index.htm",
-     "evidence": "リンク「市民の声リンクバナー市民の声」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -170,32 +108,18 @@
    "official_site": "https://www.city.atami.lg.jp/",
    "contacts": [
     {
-     "type": "general",
+     "type": "assembly",
      "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0557-86-6000",
+     "department": "議会事務局",
+     "phone": "0557-86-6644",
      "email": null,
      "form_url": null,
      "postal_code": "413-8550",
-     "postal_address": "静岡県熱海市中央町1番1号",
+     "postal_address": "熱海市中央町1-1",
      "hours": null,
-     "source_url": "https://www.city.atami.lg.jp/",
-     "evidence": "熱海市役所 〒413-8550 静岡県熱海市中央町1番1号 代表電話:0557-86-6000",
+     "source_url": "https://www.city.atami.lg.jp/shigikai/index.html",
+     "evidence": "議会事務局 〒413-8550 熱海市中央町1-1 電話:0557-86-6644 ファクス:05",
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.atami.lg.jp/",
-     "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -207,10 +131,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.atami.lg.jp/",
+     "source_url": "https://www.city.atami.lg.jp/shisei/koho/index.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -219,47 +146,23 @@
    "official_site": "https://www.city.mishima.shizuoka.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "055-975-3111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "411-8666",
-     "postal_address": "静岡県三島市北田町4-47",
-     "hours": null,
-     "source_url": "https://www.city.mishima.shizuoka.jp/",
-     "evidence": "三島市役所 法人番号8000020222…666 静岡県三島市北田町4-47 Tel:055-975-3111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "055-983-2600",
-     "email": null,
-     "form_url": null,
-     "postal_code": "411-8666",
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.mishima.shizuoka.jp/adv/ba.php?id=12",
-     "evidence": "議会事務局代表 〒411-8666静岡県三島市北田町4−47 Tel:055-983-2600Fax:055-",
-     "note": null
-    },
-    {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "広報広聴課",
+     "phone": "055-983-2620",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.mishima.shizuoka.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.city.mishima.shizuoka.jp/soshiki/32/",
+     "evidence": "広報広聴課代表 〒411-8666 静岡県三島市北田町4-47 Tel:055-983-2620",
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -294,21 +197,10 @@
      "source_url": "https://www.city.fujinomiya.lg.jp/shiseijoho/shigikai/index.html",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報課広聴広報係",
-     "phone": "0544-22-1119",
-     "email": "info@city.fujinomiya.lg.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.fujinomiya.lg.jp/1015310000/p003083.html",
-     "evidence": "広報課広聴広報係 〒418-8601 静…市弓沢町150番地(市役所3階) 電話番号:0544-22-1119",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "feedback"
    ]
   },
   {
@@ -316,34 +208,6 @@
    "name": "伊東市",
    "official_site": "https://www.city.ito.shizuoka.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0557-36-0111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "414-8555",
-     "postal_address": "静岡県伊東市大原二丁目1番1号",
-     "hours": null,
-     "source_url": "https://www.city.ito.shizuoka.jp/",
-     "evidence": "伊東市役所 〒414-8555 静岡県伊…二丁目1番1号 (アクセス) 電話番号:0557-36-0111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0557-32-1981",
-     "email": "gikai@city.ito.shizuoka.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.ito.shizuoka.jp/gyosei/soshikikarasagasu/gikaijimukyoku/shiseijoho/1/557.html",
-     "evidence": "議会事務局 〒414-8555 静岡県伊東市大原2-1-1 電話番号:0557-32-1981",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -356,8 +220,12 @@
      "hours": null,
      "source_url": "https://www.city.ito.shizuoka.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -365,20 +233,6 @@
    "name": "島田市",
    "official_site": "https://www.city.shimada.shizuoka.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0547-37-5111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "427-8501",
-     "postal_address": "静岡県島田市中央町1-1",
-     "hours": null,
-     "source_url": "https://www.city.shimada.shizuoka.jp/",
-     "evidence": "島田市役所 〒427-8501 静岡県島田市中央町1-1 TEL:0547-37-5111(代表)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -392,21 +246,11 @@
      "source_url": "https://www.city.shimada.shizuoka.jp/gyosei/shisei/shimadashigikai/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市長への手紙受付件数一覧",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.shimada.shizuoka.jp/gyosei/shisei/shityo/sityoutegamiforms/",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.shimada.shizuoka.jp/gyosei-docs/ikenshokai.html",
-     "evidence": "リンク「市長への手紙受付件数一覧」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "feedback",
+    "general"
    ]
   },
   {
@@ -416,30 +260,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0545-51-0123",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "417-8601",
+     "postal_address": "静岡県富士市永田町1丁目100番地",
      "hours": null,
      "source_url": "https://www.city.fuji.shizuoka.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局 議事調査担当",
-     "phone": "0545-55-2878",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.fuji.shizuoka.jp/5105000000/p007176.html",
-     "evidence": "議会事務局 議事調査担当 市庁舎9階南側 電話番号:0545-55-2878",
+     "evidence": "富士市 いただきへの、はじまり 法人番号…県富士市永田町1丁目100番地 電話番号: 0545-51-0123(代表)",
      "note": null
     },
     {
@@ -456,6 +286,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -478,20 +311,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0538-37-4822",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.iwata.shizuoka.jp/shigikai/seigan_chinjou/1005427.html",
-     "evidence": "議会事務局 〒438-8650 静岡…間:午前8時30分~午後5時15分 電話:0538-37-4822",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -505,6 +324,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -538,7 +360,7 @@
      "hours": null,
      "source_url": "https://www.city.yaizu.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -552,7 +374,7 @@
      "hours": null,
      "source_url": "https://www.city.yaizu.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -561,48 +383,6 @@
    "name": "掛川市",
    "official_site": "https://www.city.kakegawa.shizuoka.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0537-21-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "436-8650",
-     "postal_address": "静岡県掛川市長谷一丁目1番地の1",
-     "hours": null,
-     "source_url": "https://www.city.kakegawa.shizuoka.jp/",
-     "evidence": "掛川市役所庁舎案内 〒436-8650 静岡県掛川市長谷一丁目1番地の1電話:0537-21-1111(代表) FAX",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0537-21-1160",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kakegawa.shizuoka.jp/gyosei/shisei/shigikai/",
-     "evidence": "議会事務局 TEL: 0537-21-1160 FAX:053",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会",
-     "phone": "0537-21-1109",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kakegawa.shizuoka.jp/gyosei/kosodate/kyoikuiinkai/",
-     "evidence": "教育委員会 TEL: 0537-21-1109 FAX:053",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -615,57 +395,23 @@
      "hours": null,
      "source_url": "https://www.city.kakegawa.shizuoka.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
    "code": "222143",
    "name": "藤枝市",
    "official_site": "https://www.city.fujieda.shizuoka.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "054-643-3111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "426-8722",
-     "postal_address": "静岡県藤枝市岡出山1-11-1",
-     "hours": null,
-     "source_url": "https://www.city.fujieda.shizuoka.jp/",
-     "evidence": "藤枝市役所法人番号10000202221…22 静岡県藤枝市岡出山1-11-1 電話:054-643-3111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "054-643-3552",
-     "email": null,
-     "form_url": null,
-     "postal_code": "426-8722",
-     "postal_address": "藤枝市岡出山1-11-1",
-     "hours": null,
-     "source_url": "https://www.city.fujieda.shizuoka.jp/shigikai/index.html",
-     "evidence": "議会事務局 住所:〒426-8722 藤枝市岡出山1-11-1 電話:054-643-3552",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市長への手紙",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.fujieda.shizuoka.jp/cgi-bin/inquiry.php/21",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.fujieda.shizuoka.jp/soshiki/kikakuzaisei/koho/gyomu/kocho/18716.html",
-     "evidence": "リンク「市長への手紙」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -688,20 +434,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0550-82-4323",
-     "email": "gikai@city.gotemba.lg.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.gotemba.lg.jp/gikai",
-     "evidence": "議会事務局 電話:0550-82-4323",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -711,10 +443,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.gotemba.lg.jp/",
+     "source_url": "https://www.city.gotemba.lg.jp/gyousei/category/g-4",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -737,20 +472,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0538-44-3143",
-     "email": "gikai@city.fukuroi.shizuoka.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.fukuroi.shizuoka.jp/soshiki/35/2/seiganchinjyou.html",
-     "evidence": "議会事務局(電話0538-44-3143)までお問い合わ",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -762,8 +483,11 @@
      "hours": null,
      "source_url": "https://www.city.fukuroi.shizuoka.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -771,20 +495,6 @@
    "name": "下田市",
    "official_site": "https://www.city.shimoda.shizuoka.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0558-22-2211",
-     "email": null,
-     "form_url": null,
-     "postal_code": "415-8501",
-     "postal_address": "静岡県下田市河内101番地の1",
-     "hours": null,
-     "source_url": "https://www.city.shimoda.shizuoka.jp/",
-     "evidence": "下田市役所 法人番号:800002022… 静岡県下田市河内101番地の1 代表電話:0558-22-2211",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -809,10 +519,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.shimoda.shizuoka.jp/",
+     "source_url": "https://www.city.shimoda.shizuoka.jp/category/080500kouhou/index.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -820,34 +533,6 @@
    "name": "裾野市",
    "official_site": "https://www.city.susono.shizuoka.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "055-992-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "410-1192",
-     "postal_address": "静岡県裾野市佐野1059番地",
-     "hours": null,
-     "source_url": "https://www.city.susono.shizuoka.jp/",
-     "evidence": "裾野市役所 〒410-1192 静岡県裾野市佐野1059番地電話番号:055-992-1111(代表) ファク",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "055-995-1839",
-     "email": null,
-     "form_url": null,
-     "postal_code": "410-1192",
-     "postal_address": "静岡県裾野市佐野1059 裾野市役所5階",
-     "hours": null,
-     "source_url": "https://www.city.susono.shizuoka.jp/shisei/2/1/18047.html",
-     "evidence": "議会事務局 〒410-1192 静岡県裾野市佐野1059 裾野市役所5階 電話:055-995-1839",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -860,8 +545,12 @@
      "hours": null,
      "source_url": "https://www.city.susono.shizuoka.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -884,20 +573,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "053-576-4791",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/gikaijimukyoku/index.html",
-     "evidence": "議会事務局 〒431-0492 静岡県湖西市吉美3268番地 電話番号:053-576-4791 ファクス番号:",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -909,8 +584,11 @@
      "hours": null,
      "source_url": "https://www.city.kosai.shizuoka.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   }
  ]

@@ -3,38 +3,14 @@
  "checked_at": "2026-11-03",
  "result": {
   "entities": 17,
-  "contacts": 56,
-  "verified": 20,
-  "unverified": 36,
+  "contacts": 36,
+  "verified": 7,
+  "unverified": 29,
   "unavailable": 0,
   "errors": 0
  },
  "errors": [],
  "reports": [
-  {
-   "id": "043231-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "043231-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "043231-education",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
   {
    "id": "043231-feedback",
    "agent_status": "auto_not_found",
@@ -44,40 +20,27 @@
   },
   {
    "id": "043249-general",
-   "agent_status": "fetch_failed",
+   "agent_status": "auto_not_found",
    "checks": {},
    "status": "unverified",
-   "why": "調査で確認できなかった（fetch_failed）"
-  },
-  {
-   "id": "043249-feedback",
-   "agent_status": "fetch_failed",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（fetch_failed）"
+   "why": "調査で確認できなかった（auto_not_found）"
   },
   {
    "id": "043249-assembly",
-   "agent_status": "fetch_failed",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（fetch_failed）"
-  },
-  {
-   "id": "043419-general",
    "agent_status": "found",
    "checks": {
     "phone": "ok",
+    "email": "ok",
     "postal_code": "ok",
     "postal_address": "ok"
    },
    "status": "verified"
   },
   {
-   "id": "043419-assembly",
+   "id": "043249-feedback",
    "agent_status": "found",
    "checks": {
-    "phone": "ok"
+    "form_url": "ok"
    },
    "status": "verified"
   },
@@ -90,10 +53,13 @@
   },
   {
    "id": "043613-general",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
   },
   {
    "id": "043613-assembly",
@@ -117,16 +83,6 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "043621-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "043621-feedback",
    "agent_status": "auto_not_found",
    "checks": {},
@@ -135,13 +91,6 @@
   },
   {
    "id": "044016-general",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "044016-assembly",
    "agent_status": "found",
    "checks": {
     "phone": "ok",
@@ -187,10 +136,11 @@
   },
   {
    "id": "044067-assembly",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok"
+   },
+   "status": "verified"
   },
   {
    "id": "044067-feedback",
@@ -207,14 +157,6 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "044211-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "044211-feedback",
    "agent_status": "auto_not_found",
    "checks": {},
@@ -223,24 +165,11 @@
   },
   {
    "id": "044229-general",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "044229-assembly",
    "agent_status": "found",
    "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "044229-education",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
    },
    "status": "verified"
   },
@@ -253,7 +182,7 @@
   },
   {
    "id": "044245-general",
-   "agent_status": "auto_not_found",
+   "agent_status": "found",
    "checks": {},
    "status": "unverified",
    "why": "公式ドメインか自動で判定できない（www.village.ohira.miyagi.jp）"
@@ -274,10 +203,13 @@
   },
   {
    "id": "044440-general",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
   },
   {
    "id": "044440-assembly",
@@ -294,63 +226,11 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "044458-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "044458-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "044458-education",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "044458-feedback",
    "agent_status": "auto_not_found",
    "checks": {},
    "status": "unverified",
    "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "045012-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "045012-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "045012-education",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
   },
   {
    "id": "045012-feedback",
@@ -367,22 +247,6 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "045055-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "045055-education",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "045055-feedback",
    "agent_status": "auto_not_found",
    "checks": {},
@@ -397,14 +261,6 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "045811-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "045811-feedback",
    "agent_status": "auto_not_found",
    "checks": {},
@@ -417,14 +273,6 @@
    "checks": {},
    "status": "unverified",
    "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "046060-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
   },
   {
    "id": "046060-feedback",

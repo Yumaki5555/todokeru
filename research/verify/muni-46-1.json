@@ -3,34 +3,14 @@
  "checked_at": "2026-11-03",
  "result": {
   "entities": 22,
-  "contacts": 72,
-  "verified": 25,
-  "unverified": 47,
+  "contacts": 47,
+  "verified": 8,
+  "unverified": 39,
   "unavailable": 0,
   "errors": 0
  },
  "errors": [],
  "reports": [
-  {
-   "id": "462012-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "462012-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
   {
    "id": "462012-feedback",
    "agent_status": "auto_not_found",
@@ -40,47 +20,6 @@
   },
   {
    "id": "462039-general",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "462039-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "462039-education",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "462039-feedback",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "462047-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "462047-assembly",
    "agent_status": "found",
    "checks": {
     "phone": "ok",
@@ -97,29 +36,11 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "462063-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "462063-assembly",
    "agent_status": "auto_not_found",
    "checks": {},
    "status": "unverified",
    "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "462063-feedback",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
   },
   {
    "id": "462080-general",
@@ -130,10 +51,12 @@
   },
   {
    "id": "462080-assembly",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "email": "ok"
+   },
+   "status": "verified"
   },
   {
    "id": "462080-feedback",
@@ -144,10 +67,11 @@
   },
   {
    "id": "462101-general",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok"
+   },
+   "status": "verified"
   },
   {
    "id": "462101-assembly",
@@ -164,16 +88,6 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "462136-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "462136-assembly",
    "agent_status": "auto_not_found",
    "checks": {},
@@ -188,7 +102,22 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "462144-general",
+   "id": "462144-feedback",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "462152-general",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
+  },
+  {
+   "id": "462152-assembly",
    "agent_status": "found",
    "checks": {
     "phone": "ok",
@@ -198,40 +127,13 @@
    "status": "verified"
   },
   {
-   "id": "462144-assembly",
+   "id": "462152-feedback",
    "agent_status": "found",
    "checks": {
-    "phone": "ok"
+    "phone": "ok",
+    "form_url": "ok"
    },
    "status": "verified"
-  },
-  {
-   "id": "462144-feedback",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "462152-general",
-   "agent_status": "fetch_failed",
-   "checks": {},
-   "status": "unverified",
-   "why": "出典ページを開けない（HTTP 404）"
-  },
-  {
-   "id": "462152-feedback",
-   "agent_status": "fetch_failed",
-   "checks": {},
-   "status": "unverified",
-   "why": "出典ページを開けない（HTTP 404）"
-  },
-  {
-   "id": "462152-assembly",
-   "agent_status": "fetch_failed",
-   "checks": {},
-   "status": "unverified",
-   "why": "出典ページを開けない（HTTP 404）"
   },
   {
    "id": "462161-general",
@@ -239,14 +141,6 @@
    "checks": {},
    "status": "unverified",
    "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "462161-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
   },
   {
    "id": "462161-feedback",
@@ -270,16 +164,8 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "462179-feedback",
-   "agent_status": "found",
-   "checks": {
-    "form_url": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "462187-general",
-   "agent_status": "auto_not_found",
+   "agent_status": "found",
    "checks": {},
    "status": "unverified",
    "why": "公式ドメインか自動で判定できない（www.city-kirishima.jp）"
@@ -313,39 +199,11 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "462195-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "462195-education",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "462195-feedback",
    "agent_status": "auto_not_found",
    "checks": {},
    "status": "unverified",
    "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "462209-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
   },
   {
    "id": "462209-assembly",
@@ -369,53 +227,12 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "462217-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "462217-education",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "462217-feedback",
-   "agent_status": "found",
-   "checks": {
-    "form_url": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "462225-general",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "462225-assembly",
    "agent_status": "found",
    "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "462225-education",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
    },
    "status": "verified"
   },
@@ -428,25 +245,11 @@
   },
   {
    "id": "462233-general",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "462233-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "462233-feedback",
    "agent_status": "found",
    "checks": {
     "phone": "ok",
-    "form_url": "ok"
+    "postal_code": "ok",
+    "postal_address": "ok"
    },
    "status": "verified"
   },
@@ -479,14 +282,6 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "462250-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "462250-feedback",
    "agent_status": "auto_not_found",
    "checks": {},
@@ -495,7 +290,7 @@
   },
   {
    "id": "463035-general",
-   "agent_status": "auto_not_found",
+   "agent_status": "found",
    "checks": {},
    "status": "unverified",
    "why": "公式ドメインか自動で判定できない（mishimamura.com）"

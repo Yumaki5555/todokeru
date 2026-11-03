@@ -9,48 +9,6 @@
    "official_site": "https://www.city.yamagata-yamagata.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "023-641-1212",
-     "email": null,
-     "form_url": null,
-     "postal_code": "990-8540",
-     "postal_address": "山形県山形市旅篭町二丁目3番25号",
-     "hours": null,
-     "source_url": "https://www.city.yamagata-yamagata.lg.jp/",
-     "evidence": "山形市役所 〒990-8540 山形県山形市旅篭町二丁目3番25号 代表電話:023-641-1212",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "023-642-8404",
-     "email": "giji@city.yamagata-yamagata.lg.jp",
-     "form_url": null,
-     "postal_code": "990-8540",
-     "postal_address": "山形市旅篭町二丁目3番25号",
-     "hours": null,
-     "source_url": "https://www.city.yamagata-yamagata.lg.jp/gikai/index.html",
-     "evidence": "議会事務局 〒990-8540 山形市旅篭町二丁目3番25号 電話番号:023-642-8404",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会教育総務課",
-     "phone": "023-641-1212",
-     "email": "kyouiku-soumu@city.yamagata-yamagata.lg.jp",
-     "form_url": null,
-     "postal_code": "990-8540",
-     "postal_address": "山形市旅篭町二丁目3番25号",
-     "hours": null,
-     "source_url": "https://www.city.yamagata-yamagata.lg.jp/kosodatekyoiku/kyoikuiinkai/index.html",
-     "evidence": "教育委員会教育総務課 〒990-8540 山形市旅篭町二丁目3番25号 電話番号:023-641-1212(代表)",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -64,6 +22,10 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -71,34 +33,6 @@
    "name": "米沢市",
    "official_site": "https://www.city.yonezawa.yamagata.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0238-22-5111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.yonezawa.yamagata.jp/",
-     "evidence": "米沢市役所 法人番号700002006…山形県米沢市金池五丁目2番25号 電話番号:0238-22-5111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "市議会事務局",
-     "phone": "0238-22-5111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "992-8501",
-     "postal_address": "山形県米沢市金池五丁目2番25号",
-     "hours": null,
-     "source_url": "https://www.city.yonezawa.yamagata.jp/gikai/5491.html",
-     "evidence": "市議会事務局(市役所4階東側) (総務担当、議事調査担当) 〒992-8501 山形県米沢市金池五丁目2番25号 電話:0238-22-5111",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -111,8 +45,12 @@
      "hours": null,
      "source_url": "https://www.city.yonezawa.yamagata.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -122,109 +60,33 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.tsuruoka.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
      "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0235-35-1908",
+     "department": "代表電話",
+     "phone": "0235-25-2111",
      "email": null,
      "form_url": null,
      "postal_code": "997-8601",
      "postal_address": "山形県鶴岡市馬場町9番25号",
      "hours": null,
-     "source_url": "https://www.city.tsuruoka.lg.jp/shisei/gikai/shimingikai/seigantinzyou.html",
-     "evidence": "議会事務局 〒997-8601 山形県鶴岡市馬場町9番25号 電話:0235-35-1908",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "鶴岡市総務課広報広聴係",
-     "phone": "0235-25-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.tsuruoka.lg.jp/shisei/koutyou/ikenteian/soumugoikengoteigen.html",
-     "evidence": "鶴岡市総務課広報広聴係 電話:0235-25-2111(内線316)",
+     "source_url": "https://www.city.tsuruoka.lg.jp/",
+     "evidence": "鶴岡市 〒997-8601 山形県鶴岡市馬場町9番25号 電話:0235-25-2111(代表電話) F",
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
    "code": "062049",
    "name": "酒田市",
    "official_site": "https://www.city.sakata.lg.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0234-22-5111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.sakata.lg.jp/",
-     "evidence": "酒田市役所 〒998-8540 山形県酒田市本町二丁目2番45号 電話:0234-22-5111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局 議事調査係",
-     "phone": "0234-26-5770",
-     "email": null,
-     "form_url": null,
-     "postal_code": "998-8540",
-     "postal_address": "酒田市本町二丁目2-45",
-     "hours": null,
-     "source_url": "https://www.city.sakata.lg.jp/shisei/shigikai/sakatashigikai.html",
-     "evidence": "議会事務局 議事調査係 〒998-8540 酒田市本町二丁目2-45 電話:0234-26-5770",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務係",
-     "phone": "0234-26-5772",
-     "email": null,
-     "form_url": null,
-     "postal_code": "998-8540",
-     "postal_address": "酒田市本町二丁目2-45",
-     "hours": null,
-     "source_url": "https://www.city.sakata.lg.jp/kosodate/kyouiku/kyoikuiinkai/seigan.html",
-     "evidence": "教育総務係 〒998-8540 酒田市本町二丁目2-45 電話:0234-26-5772 ファックス:0",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "ご意見・お問い合わせ",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.sakata.lg.jp/shisei/goiken_otoiawase/mail.html",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.sakata.lg.jp/shisei/goiken_otoiawase/index.html",
-     "evidence": "リンク「ご意見・お問い合わせ」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -234,60 +96,22 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0233-22-2111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "996-8501",
+     "postal_address": "山形県新庄市沖の町10番37号",
      "hours": null,
      "source_url": "https://www.city.shinjo.yamagata.jp/",
-     "evidence": null,
+     "evidence": "新庄市 SHINJO CITY 郵便番… 山形県新庄市沖の町10番37号 電話番号:0233-22-2111(代表) ファク",
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0233-23-5002",
-     "email": null,
-     "form_url": null,
-     "postal_code": "996-8501",
-     "postal_address": "山形県新庄市沖の町10番37号",
-     "hours": null,
-     "source_url": "https://www.city.shinjo.yamagata.jp/s015/040/20200526093959.html",
-     "evidence": "議会事務局 郵便番号:996-8501 山形県新庄市沖の町10番37号 電話番号:0233-23-5002",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務課",
-     "phone": "0233-23-5004",
-     "email": null,
-     "form_url": null,
-     "postal_code": "996-8501",
-     "postal_address": "山形県新庄市沖の町10番37号",
-     "hours": null,
-     "source_url": "https://www.city.shinjo.yamagata.jp/s016/030/20150226204925.html",
-     "evidence": "教育総務課 郵便番号:996-8501 山形県新庄市沖の町10番37号 電話番号:0233-23-5004",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市政などに関するご意見をお待ちしています",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.shinjo.yamagata.jp/form/002/SITE000000000000000004.html",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.shinjo.yamagata.jp/s002/020/20211021104859.html",
-     "evidence": "リンク「市民の声」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -297,46 +121,22 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0237-86-2111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "991-8601",
+     "postal_address": "山形県寒河江市中央一丁目9番45号",
      "hours": null,
      "source_url": "https://www.city.sagae.yamagata.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0237-85-1899",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.sagae.yamagata.jp/shigikai/index.html",
-     "evidence": "議会事務局 電話:0237-85-1899 ファックス:0",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報広聴係",
-     "phone": "0237-85-1431",
-     "email": "cherry@city.sagae.yamagata.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.sagae.yamagata.jp/toiawase/goiken.html",
-     "evidence": "広報広聴係 電話:0237-85-1431 ファックス:0",
+     "evidence": "寒河江市 法人番号:500002006…県寒河江市中央一丁目9番45号 代表電話:0237-86-2111",
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -346,21 +146,7 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kaminoyama.yamagata.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -374,7 +160,35 @@
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "議会事務局議事庶務係",
+     "phone": "023-672-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kaminoyama.yamagata.jp/site/gikai/seigan-tinzyou.html",
+     "evidence": "議会事務局議事庶務係 〒999-3192 山形県上山市河崎一丁目1番10号 Tel:023-672-1111(代)",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育委員会教育委員会",
+     "phone": "023-672-1111",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.kaminoyama.yamagata.jp/soshiki/39/km201300038.html",
+     "evidence": "教育委員会教育委員会 〒999-3192 山形県上山市河崎一丁目1番10号 Tel:023-672-1111(代)",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -382,7 +196,7 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.kaminoyama.yamagata.jp/",
+     "source_url": "https://www.city.kaminoyama.yamagata.jp/soshiki/",
      "evidence": null,
      "note": null
     }
@@ -395,30 +209,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.murayama.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
      "agent_status": "found",
-     "department": "議会事務局",
+     "department": "代表電話",
      "phone": "0237-55-2111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "995-8666",
+     "postal_address": "山形県村山市中央一丁目3番6号",
      "hours": null,
-     "source_url": "https://www.city.murayama.lg.jp/shisei/gikai/seiganchinjou.html",
-     "evidence": "議会事務局 電話:0237-55-2111 ファックス:0",
+     "source_url": "https://www.city.murayama.lg.jp/",
+     "evidence": "分まで(祝日・休日・12月29日から1月3日を除く) 電話:0237-55-2111(代表) 法人番",
      "note": null
     },
     {
@@ -433,8 +233,11 @@
      "hours": null,
      "source_url": "https://www.city.murayama.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -457,20 +260,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0238-82-8021",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.nagai.yamagata.jp/shigikai/6/3868.html",
-     "evidence": "議会事務局 議事・調査係 〒993-8601 山形県長井市栄町1番1号 電話番号:0238-82-8021",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -482,8 +271,11 @@
      "hours": null,
      "source_url": "https://www.city.nagai.yamagata.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -493,16 +285,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "023-654-1111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "994-8510",
+     "postal_address": "山形県天童市老野森一丁目1番1号",
      "hours": null,
      "source_url": "https://www.city.tendo.yamagata.jp/",
-     "evidence": null,
+     "evidence": "天童市 情報を探す 注目ワード モ… 山形県天童市老野森一丁目1番1号 TEL/023-654-1111(代表)",
      "note": null
     },
     {
@@ -517,7 +309,7 @@
      "hours": null,
      "source_url": "https://www.city.tendo.yamagata.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -531,7 +323,7 @@
      "hours": null,
      "source_url": "https://www.city.tendo.yamagata.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -542,30 +334,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.higashine.yamagata.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
      "agent_status": "found",
-     "department": "議会事務局",
+     "department": "代表電話",
      "phone": "0237-42-1111",
      "email": null,
      "form_url": null,
      "postal_code": "999-3795",
-     "postal_address": "東根市中央一丁目1番1号",
+     "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.higashine.yamagata.jp/section_list/section018/",
-     "evidence": "議会事務局 〒999-3795 東根市中央一丁目1番1号 TEL : 0237-42-1111(代表)メールで",
+     "source_url": "https://www.city.higashine.yamagata.jp/",
+     "evidence": "東根市 〒999-3795 山形県東根市中央 1−1−1 代表電話:0237-42-1111",
      "note": null
     },
     {
@@ -580,8 +358,11 @@
      "hours": null,
      "source_url": "https://www.city.higashine.yamagata.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -615,7 +396,7 @@
      "hours": null,
      "source_url": "https://www.city.obanazawa.yamagata.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -629,7 +410,7 @@
      "hours": null,
      "source_url": "https://www.city.obanazawa.yamagata.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -676,9 +457,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "http://www.city.nanyo.yamagata.jp/aramasi/678",
+     "source_url": "http://www.city.nanyo.yamagata.jp/kouhoukoucyo/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
    ]
   },
@@ -689,30 +470,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "023-667-1111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.town.yamanobe.yamagata.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局議事係",
-     "phone": "023-667-1117",
-     "email": null,
-     "form_url": null,
-     "postal_code": "990-0392",
-     "postal_address": "山形県東村山郡山辺町緑ケ丘5番地",
-     "hours": null,
-     "source_url": "https://www.town.yamanobe.yamagata.jp/site/gikai/gikai260507.html",
-     "evidence": "議会事務局議事係 〒990-0392山形県東村山郡山辺町緑ケ丘5番地 Tel:023-667-1117Fax:023-",
+     "evidence": "山辺町 〒990-0392 山形県東村山郡山辺町緑ケ丘5番地 Tel:023-667-1111(代表)",
      "note": null
     },
     {
@@ -725,10 +492,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.yamanobe.yamagata.jp/",
+     "source_url": "https://www.town.yamanobe.yamagata.jp/life/5/48/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -736,34 +506,6 @@
    "name": "中山町",
    "official_site": "https://www.town.nakayama.yamagata.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "023-662-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.nakayama.yamagata.jp/",
-     "evidence": "役場への行き方)電話番号:023-662-2111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "023-662-4370",
-     "email": null,
-     "form_url": null,
-     "postal_code": "990-0492",
-     "postal_address": "山形県東村山郡中山町大字長崎120番地",
-     "hours": null,
-     "source_url": "https://www.town.nakayama.yamagata.jp/gikai/seigan_chinjo/1287.html",
-     "evidence": "議会事務局 〒990-0492 山形県東村山郡中山町大字長崎120番地 電話番号:023-662-4370",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -778,6 +520,10 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -785,20 +531,6 @@
    "name": "河北町",
    "official_site": "https://www.town.kahoku.yamagata.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0237-73-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "999-3511",
-     "postal_address": "山形県西村山郡河北町谷地戊81",
-     "hours": null,
-     "source_url": "https://www.town.kahoku.yamagata.jp/",
-     "evidence": "河北町役場 〒999-3511 山形県西村山郡河北町谷地戊81 電話番号:0237-73-2111(代表)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -825,8 +557,11 @@
      "hours": null,
      "source_url": "https://www.town.kahoku.yamagata.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -849,20 +584,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0237-74-5055",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.nishikawa.yamagata.jp/soshiki/0/info.html",
-     "evidence": "議会事務局 議事係 Tel:0237-74-5055",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -876,6 +597,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -883,20 +607,6 @@
    "name": "朝日町",
    "official_site": "https://www.town.asahi.yamagata.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0237-67-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "990-1442",
-     "postal_address": "山形県西村山郡朝日町大字宮宿1115",
-     "hours": null,
-     "source_url": "https://www.town.asahi.yamagata.jp/",
-     "evidence": "朝日町役場 〒990-1442 山形県西村山郡朝日町大字宮宿1115 電話 0237-67-2111(代表)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -909,7 +619,7 @@
      "hours": null,
      "source_url": "https://www.town.asahi.yamagata.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -923,8 +633,11 @@
      "hours": null,
      "source_url": "https://www.town.asahi.yamagata.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   }
  ]

@@ -10,35 +10,35 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0241-48-5511",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.town.mishima.fukushima.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.mishima.fukushima.jp/",
-     "evidence": null,
+     "evidence": "三島町役場 〒969-7511 福島県大沼郡三島町大字宮下字宮下350 Tel 0241-48-5511(代表)",
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "三島町議会",
+     "phone": "0241-48-5588",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.mishima.fukushima.jp/soshiki/1.html",
+     "evidence": "議会の運営に関すること、監査に関すること…県大沼郡三島町大字宮下字宮下350 Tel:0241-48-5588代表",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -46,7 +46,7 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.mishima.fukushima.jp/",
+     "source_url": "https://www.town.mishima.fukushima.jp/life/4/21/68/",
      "evidence": null,
      "note": null
     }
@@ -59,21 +59,7 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.kaneyama.fukushima.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -87,7 +73,7 @@
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -97,7 +83,21 @@
      "hours": null,
      "source_url": "https://www.town.kaneyama.fukushima.jp/",
      "evidence": null,
-     "note": null
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.kaneyama.fukushima.jp/",
+     "evidence": null,
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -108,16 +108,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0241-57-2111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.vill.showa.fukushima.jp/",
-     "evidence": null,
+     "evidence": "昭和村役場 〒968-0103 福島県大沼郡昭和村下中津川字中島652 TEL 0241-57-2111",
      "note": null
     },
     {
@@ -132,7 +132,7 @@
      "hours": null,
      "source_url": "https://www.vill.showa.fukushima.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -156,20 +156,6 @@
    "official_site": "https://www.town.aizumisato.fukushima.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0242-55-1122",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.aizumisato.fukushima.jp/",
-     "evidence": "会津美里町役場 〒969-6292 福島県大沼郡会津美里町字新布才地1番地 【電話番号】0242-55-1122(代表)",
-     "note": null
-    },
-    {
      "type": "assembly",
      "agent_status": "auto_not_found",
      "department": null,
@@ -181,7 +167,7 @@
      "hours": null,
      "source_url": "https://www.town.aizumisato.fukushima.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -195,8 +181,11 @@
      "hours": null,
      "source_url": "https://www.town.aizumisato.fukushima.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -206,30 +195,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0248-25-1111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "961-8501",
+     "postal_address": "福島県西白河郡西郷村大字熊倉字折口原40番地",
      "hours": null,
      "source_url": "https://www.vill.nishigo.fukushima.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0248-25-2980",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.vill.nishigo.fukushima.jp/sonseijoho/nishigomuragikai/seigan_chinjo/index.html",
-     "evidence": "議会事務局 電話番号:0248-25-2980",
+     "evidence": "西郷村 法人番号300002007461…河郡西郷村大字熊倉字折口原40番地 電話:0248-25-1111(代表)ファック",
      "note": null
     },
     {
@@ -244,8 +219,11 @@
      "hours": null,
      "source_url": "https://www.vill.nishigo.fukushima.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -268,20 +246,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0248-53-2499",
-     "email": null,
-     "form_url": null,
-     "postal_code": "969-0196",
-     "postal_address": "福島県西白河郡泉崎村大字泉崎字八丸145番地",
-     "hours": null,
-     "source_url": "https://www.vill.izumizaki.fukushima.jp/muragikai/page000140.html",
-     "evidence": "議会事務局 〒969-0196 福島県西白河郡泉崎村大字泉崎字八丸145番地 電話番号:0248-53-2499",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -291,10 +255,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.vill.izumizaki.fukushima.jp/",
+     "source_url": "https://www.vill.izumizaki.fukushima.jp/gyosei/kouhou-kouchou/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -340,9 +307,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.vill-nakajima.jp/",
+     "source_url": "https://www.vill-nakajima.jp/page/dir000451.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
    ]
   },
@@ -366,20 +333,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0248-42-2118",
-     "email": null,
-     "form_url": null,
-     "postal_code": "969-0296",
-     "postal_address": "福島県西白河郡矢吹町一本木101",
-     "hours": null,
-     "source_url": "https://www.town.yabuki.fukushima.jp/page/page000030.html",
-     "evidence": "議会事務局です。 役場3階 〒969-0…福島県西白河郡矢吹町一本木101 電話番号:0248-42-2118",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -391,8 +344,11 @@
      "hours": null,
      "source_url": "https://www.town.yabuki.fukushima.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -402,16 +358,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0247-33-2111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.town.tanagura.fukushima.jp/",
-     "evidence": null,
+     "evidence": "棚倉町 〒963-6192 福島県東白川郡棚倉町大字棚倉字中居野33 【電話番号】 0247-33-2111(代表)",
      "note": null
     },
     {
@@ -440,7 +396,7 @@
      "hours": null,
      "source_url": "https://www.town.tanagura.fukushima.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -464,20 +420,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0247-46-4578",
-     "email": null,
-     "form_url": null,
-     "postal_code": "963-5192",
-     "postal_address": "福島県東白川郡矢祭町大字東舘字舘本66",
-     "hours": null,
-     "source_url": "https://www.town.yamatsuri.fukushima.jp/page/page000156.html",
-     "evidence": "議会事務局 です。 〒963-5192 福島県東白川郡矢祭町大字東舘字舘本66 電話番号:0247-46-4578",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -489,8 +431,11 @@
      "hours": null,
      "source_url": "https://www.town.yamatsuri.fukushima.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -513,20 +458,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0247-43-2150",
-     "email": null,
-     "form_url": null,
-     "postal_code": "963-5492",
-     "postal_address": "福島県東白川郡塙町大字塙字大町三丁目21番地",
-     "hours": null,
-     "source_url": "https://www.town.hanawa.fukushima.jp/page/page000469.html",
-     "evidence": "議会事務局です。 〒963-5492 福…郡塙町大字塙字大町三丁目21番地 電話番号:0247-43-2150 ファックス番号",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -538,8 +469,11 @@
      "hours": null,
      "source_url": "https://www.town.hanawa.fukushima.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -563,17 +497,17 @@
     },
     {
      "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0247-49-3115",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "963-8401",
+     "postal_address": "鮫川村大字赤坂中野字新宿39番地5 役場庁舎2階",
      "hours": null,
-     "source_url": "https://www.vill.samegawa.fukushima.jp/",
-     "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "source_url": "https://www.vill.samegawa.fukushima.jp/section.php?code=8",
+     "evidence": "議会事務局 〒963-8401 鮫川村大…野字新宿39番地5 役場庁舎2階 電話番号:0247-49-3115",
+     "note": null
     },
     {
      "type": "feedback",
@@ -585,9 +519,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.vill.samegawa.fukushima.jp/",
+     "source_url": "https://www.vill.samegawa.fukushima.jp/iken-teian/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
    ]
   },
@@ -609,35 +543,11 @@
      "source_url": "https://www.town.ishikawa.fukushima.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0247-26-2116",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.ishikawa.fukushima.jp/admin/assembly/",
-     "evidence": "議会事務局TEL.0247-26-2116",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "ご意見・ご感想",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.town.ishikawa.fukushima.jp/guide/form.html",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.ishikawa.fukushima.jp//guide/mail.html",
-     "evidence": "リンク「ご意見・ご感想」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -661,17 +571,17 @@
     },
     {
      "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "玉川村議会",
+     "phone": "0247-57-4630",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.vill.tamakawa.fukushima.jp/",
-     "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "source_url": "https://www.vill.tamakawa.fukushima.jp/guide/",
+     "evidence": "議会運営・監査など 〒963-6392 福島県石川郡玉川村大字小高字中畷9 0247-57-4630",
+     "note": null
     },
     {
      "type": "feedback",
@@ -696,21 +606,7 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.vill.hirata.fukushima.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -724,7 +620,21 @@
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0247-55-3558",
+     "email": null,
+     "form_url": null,
+     "postal_code": "963-8292",
+     "postal_address": "福島県石川郡平田村大字永田字切田116",
+     "hours": null,
+     "source_url": "https://www.vill.hirata.fukushima.jp/site/gikai/",
+     "evidence": "議会事務局 〒963-8292福島県石川郡平田村大字永田字切田116 Tel:0247-55-3558",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -734,7 +644,7 @@
      "hours": null,
      "source_url": "https://www.vill.hirata.fukushima.jp/",
      "evidence": null,
-     "note": null
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -769,7 +679,7 @@
      "hours": null,
      "source_url": "https://www.town.asakawa.fukushima.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -783,7 +693,7 @@
      "hours": null,
      "source_url": "https://www.town.asakawa.fukushima.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -794,16 +704,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0247-53-3111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "963-8304",
+     "postal_address": "福島県石川郡古殿町大字松川字新桑原31番地",
      "hours": null,
      "source_url": "https://www.town.furudono.fukushima.jp/",
-     "evidence": null,
+     "evidence": "古殿町役場 〒963-8304 福島県石川郡古殿町大字松川字新桑原31番地 電話:0247-53-3111 FAX:024",
      "note": null
     },
     {
@@ -832,7 +742,7 @@
      "hours": null,
      "source_url": "https://www.town.furudono.fukushima.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -841,20 +751,6 @@
    "name": "三春町",
    "official_site": "https://www.town.miharu.fukushima.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0247-62-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.miharu.fukushima.jp/",
-     "evidence": "三春町役場 〒963-7796 福島県田村郡三春町字大町1番地の2 電話番号:0247-62-2111(代表)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -867,7 +763,7 @@
      "hours": null,
      "source_url": "https://www.town.miharu.fukushima.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -881,8 +777,11 @@
      "hours": null,
      "source_url": "https://www.town.miharu.fukushima.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -916,7 +815,7 @@
      "hours": null,
      "source_url": "https://www.town.ono.fukushima.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -954,20 +853,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0240-27-4165",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.hirono.fukushima.jp/chousei/soshiki/1003522.html",
-     "evidence": "議会事務局 電話 0240-27-4165",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -981,6 +866,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -1077,7 +965,7 @@
      "hours": null,
      "source_url": "https://www.tomioka-town.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -1112,7 +1000,7 @@
      "hours": null,
      "source_url": "https://www.kawauchimura.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -1126,7 +1014,7 @@
      "hours": null,
      "source_url": "https://www.kawauchimura.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -1150,20 +1038,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0240-23-7840",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.okuma.fukushima.jp/soshiki/somu/13024.html",
-     "evidence": "議会事務局 庶務係 0240-23-7840",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -1177,6 +1051,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -1196,50 +1073,12 @@
      "hours": null,
      "source_url": "https://www.town.fukushima-futaba.lg.jp/",
      "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0240-33-0309",
-     "email": "gikai@town.futaba.fukushima.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.fukushima-futaba.lg.jp/2572.htm",
-     "evidence": "議会事務局 所在地/〒979-1495…番地4 電話番号/0240-33-03090240-33-0309 FAX/024",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務課",
-     "phone": "0246-84-5210",
-     "email": "kyouiku@town.futaba.fukushima.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.fukushima-futaba.lg.jp/2640.htm",
-     "evidence": "教育総務課 所在地/〒974-8212…9-4 電話番号/0246-84-52100246-84-5210 FAX/024",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "秘書広報課",
-     "phone": "0240-33-0125",
-     "email": "hisyo-koho@town.futaba.fukushima.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.fukushima-futaba.lg.jp/3896.htm",
-     "evidence": "秘書広報課 所在地/〒979-1495…番地4 電話番号/0240-33-01250240-33-0125 FAX/024",
-     "note": null
+     "note": "本庁の代表番号を1つに特定できない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -1285,9 +1124,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.namie.fukushima.jp/",
+     "source_url": "https://www.town.namie.fukushima.jp/life/12/11/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
    ]
   },
@@ -1298,7 +1137,7 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -1308,118 +1147,20 @@
      "hours": null,
      "source_url": "https://www.katsurao.org/",
      "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.katsurao.org/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.katsurao.org/",
-     "evidence": null,
-     "note": null
-    }
-   ]
-  },
-  {
-   "code": "075612",
-   "name": "新地町",
-   "official_site": "https://www.shinchi-town.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.shinchi-town.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.shinchi-town.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.shinchi-town.jp/",
-     "evidence": null,
-     "note": null
-    }
-   ]
-  },
-  {
-   "code": "075647",
-   "name": "飯舘村",
-   "official_site": "https://www.vill.iitate.fukushima.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0244-42-1611",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.vill.iitate.fukushima.jp/",
-     "evidence": "飯舘村役場〒960-1892 福島県相馬郡飯舘村伊丹沢字伊丹沢580番地1 Tel0244-42-1611(代表)",
      "note": null
     },
     {
      "type": "assembly",
      "agent_status": "found",
      "department": "議会事務局",
-     "phone": "0244-42-1628",
+     "phone": "0240-29-2160",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "979-1602",
+     "postal_address": "福島県双葉郡葛尾村大字落合字落合16",
      "hours": null,
-     "source_url": "https://www.vill.iitate.fukushima.jp/site/gikai/",
-     "evidence": "議会事務局 〒960-1892 福島県相馬郡飯舘村伊丹沢字伊丹沢580番地1 Tel:0244-42-1628Fax:0244",
+     "source_url": "https://www.katsurao.org/site/gikai/",
+     "evidence": "議会事務局 〒979-1602 福島県双葉郡葛尾村大字落合字落合16 Tel:0240-29-2160Fax:0240",
      "note": null
     },
     {
@@ -1432,10 +1173,84 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.vill.iitate.fukushima.jp/",
+     "source_url": "https://www.katsurao.org/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ]
+  },
+  {
+   "code": "075612",
+   "name": "新地町",
+   "official_site": "https://www.shinchi-town.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0244-62-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "979-2792",
+     "postal_address": "福島県相馬郡新地町谷地小屋字樋掛田30",
+     "hours": null,
+     "source_url": "https://www.shinchi-town.jp/",
+     "evidence": "新地町役場への行き方) 電話:0244-62-2111(代表) ファッ",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "found",
+     "department": "新地町役場議会事務局",
+     "phone": "0244-62-2190",
+     "email": null,
+     "form_url": null,
+     "postal_code": "979-2792",
+     "postal_address": "福島県相馬郡新地町谷地小屋字樋掛田30",
+     "hours": null,
+     "source_url": "https://www.shinchi-town.jp/site/gikai/",
+     "evidence": "新地町役場議会事務局 〒979-2792 福島県相馬郡新地町谷地小屋字樋掛田30(新地町役場への行き方) 電話:0244-62-2190",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.shinchi-town.jp/",
+     "evidence": null,
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ]
+  },
+  {
+   "code": "075647",
+   "name": "飯舘村",
+   "official_site": "https://www.vill.iitate.fukushima.jp/",
+   "contacts": [
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.vill.iitate.fukushima.jp/life/5/19/",
+     "evidence": null,
+     "note": null
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   }
  ]

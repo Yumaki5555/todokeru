@@ -10,46 +10,22 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "058-247-1331",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "501-6197",
+     "postal_address": "岐阜県羽島郡岐南町八剣7丁目107番地",
      "hours": null,
      "source_url": "https://www.town.ginan.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "058-247-1682",
-     "email": "gikai@town.ginan.lg.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.ginan.lg.jp/1952.htm",
-     "evidence": "議会事務局 TEL:058-247-1682",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "企画広報課",
-     "phone": "058-247-1335",
-     "email": "kikaku@town.ginan.lg.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.ginan.lg.jp/4669.htm",
-     "evidence": "企画広報課 TEL:058-247-1335",
+     "evidence": "6197岐阜県羽島郡岐南町八剣7丁目107番地代表電話番号:058-247-1331FAX番号:05",
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -59,46 +35,35 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "058-388-1111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "501-6181",
+     "postal_address": "岐阜県羽島郡笠松町司町1番地",
      "hours": null,
      "source_url": "https://www.town.kasamatsu.gifu.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "058-388-1110",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.kasamatsu.gifu.jp/docs/2013011100070/",
-     "evidence": "議会事務局 電話:058-388-1110",
+     "evidence": "501-6181 岐阜県羽島郡笠松町司町1番地 代表電話 058-388-1111",
      "note": null
     },
     {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
+     "agent_status": "found",
+     "department": "ご意見・お問合せ",
      "phone": null,
      "email": null,
-     "form_url": null,
+     "form_url": "https://www.town.kasamatsu.gifu.jp/formmail_list/formmail_kikaku/7/",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.kasamatsu.gifu.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.town.kasamatsu.gifu.jp/formmail_list/",
+     "evidence": "リンク「ご意見・お問い合わせ」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -121,20 +86,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0584-32-5084",
-     "email": null,
-     "form_url": null,
-     "postal_code": "503-1392",
-     "postal_address": "岐阜県養老郡養老町高田798番地",
-     "hours": null,
-     "source_url": "https://www.town.yoro.gifu.jp/government/assembly/index.html",
-     "evidence": "議会事務局 〒503-1392 岐阜県養老郡養老町高田798番地 電話番号:0584-32-5084 ファクス番号:",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -148,6 +99,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -155,34 +109,6 @@
    "name": "垂井町",
    "official_site": "https://www.town.tarui.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0584-22-1151",
-     "email": null,
-     "form_url": null,
-     "postal_code": "503-2193",
-     "postal_address": "岐阜県不破郡垂井町宮代2957-11",
-     "hours": null,
-     "source_url": "https://www.town.tarui.lg.jp/",
-     "evidence": "垂井町役場 法人番号7000020213…阜県不破郡垂井町宮代2957-11 Tel:0584-22-1151(代表)Fax:",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0584-22-1155",
-     "email": null,
-     "form_url": null,
-     "postal_code": "503-2193",
-     "postal_address": "岐阜県不破郡垂井町宮代2957-11",
-     "hours": null,
-     "source_url": "https://www.town.tarui.lg.jp/site/gikai/",
-     "evidence": "議会事務局 〒503-2193岐阜県不破郡垂井町宮代2957-11 Tel:0584-22-1155Fax:0584",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -197,6 +123,10 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -219,20 +149,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0584-43-3050",
-     "email": "gikai@town.sekigahara.gifu.jp",
-     "form_url": null,
-     "postal_code": "503-1592",
-     "postal_address": "岐阜県不破郡関ケ原町大字関ケ原894-58",
-     "hours": null,
-     "source_url": "https://www.town.sekigahara.gifu.jp/gikai/",
-     "evidence": "議会事務局 所在地/〒503-1592…関ケ原町大字関ケ原894-58 電話番号/0584-43-3050 電話番号/05",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -244,8 +160,11 @@
      "hours": null,
      "source_url": "https://www.town.sekigahara.gifu.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -255,30 +174,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0584-27-3111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.town.godo.gifu.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局 議事庶務係",
-     "phone": "0584-27-5363",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.godo.gifu.jp/contents/gikai/gikai01.html",
-     "evidence": "議会事務局 議事庶務係(窓口 25) TEL:0584-27-5363",
+     "evidence": "役場へのアクセス 〒503-2392 岐阜県安八郡神戸町大字神戸1111番地 TEL:0584-27-3111",
      "note": null
     },
     {
@@ -293,8 +198,11 @@
      "hours": null,
      "source_url": "https://www.town.godo.gifu.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -331,20 +239,6 @@
      "note": null
     },
     {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会",
-     "phone": "0584-69-4500",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://town.wanouchi.gifu.jp/portal/parenting-education/education/post0024594/",
-     "evidence": "教育委員会 電話 0584-69-4500 FAX 058",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -366,48 +260,6 @@
    "official_site": "https://www.town.anpachi.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0584-64-3111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "503-0198",
-     "postal_address": "岐阜県安八郡安八町氷取161番地",
-     "hours": null,
-     "source_url": "https://www.town.anpachi.lg.jp/",
-     "evidence": "安八町役場(法人番号:900002021…8 岐阜県安八郡安八町氷取161番地 電話:0584-64-3111(代表) ファッ",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0584-64-4931",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.anpachi.lg.jp/soshiki_list.html",
-     "evidence": "議会事務局 電話番号 0584-64-4931",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "安八町教育委員会",
-     "phone": "0584-64-4342",
-     "email": null,
-     "form_url": null,
-     "postal_code": "503-0115",
-     "postal_address": "岐阜県安八郡安八町南今ヶ渕400番地",
-     "hours": null,
-     "source_url": "https://www.town.anpachi.lg.jp/school/index.html",
-     "evidence": "安八町教育委員会 〒503-0115 岐阜県安八郡安八町南今ヶ渕400番地 電話:0584-64-4342(教育課学校教育",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -421,6 +273,10 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -430,46 +286,35 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.ibigawa.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
      "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0585-22-6881",
+     "department": "代表電話",
+     "phone": "0585-22-2111",
      "email": null,
      "form_url": null,
      "postal_code": "501-0692",
      "postal_address": "岐阜県揖斐郡揖斐川町三輪133番地",
      "hours": null,
-     "source_url": "https://www.town.ibigawa.lg.jp/site/gikai/",
-     "evidence": "議会事務局代表 〒501-0692岐阜県揖斐郡揖斐川町三輪133番地 Tel:0585-22-6881Fax:0585",
+     "source_url": "https://www.town.ibigawa.lg.jp/",
+     "evidence": "揖斐川町 法人番号8000020214… 岐阜県揖斐郡揖斐川町三輪133番地 電話:0585-22-2111(代表) ファッ",
      "note": null
     },
     {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
+     "agent_status": "found",
+     "department": "広報・広聴",
      "phone": null,
      "email": null,
-     "form_url": null,
+     "form_url": "https://logoform.jp/procedure/PdPX/529",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.ibigawa.lg.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.town.ibigawa.lg.jp/life/6/27/",
+     "evidence": "リンク「広報・広聴」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -515,9 +360,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town-ono.jp/",
+     "source_url": "https://www.town-ono.jp/category/5-27-0-0-0-0-0-0-0-0.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
    ]
   },
@@ -528,30 +373,30 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0585-45-3111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "503-2492",
+     "postal_address": "岐阜県揖斐郡池田町六之井1468番地の1",
      "hours": null,
      "source_url": "https://www.town.gifu-ikeda.lg.jp/",
-     "evidence": null,
+     "evidence": "92 岐阜県揖斐郡池田町六之井1468番地の1 代表電話番号0585-45-3111",
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0585-45-3111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.gifu-ikeda.lg.jp/category/1-0-0-0-0-0-0-0-0-0.html",
-     "evidence": null,
+     "source_url": "https://www.town.gifu-ikeda.lg.jp/0000003736.html",
+     "evidence": "議会事務局 電話: 0585-45-3111",
      "note": null
     },
     {
@@ -566,7 +411,7 @@
      "hours": null,
      "source_url": "https://www.town.gifu-ikeda.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -576,31 +421,56 @@
    "official_site": "https://www.town.kitagata.gifu.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "058-323-1111",
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.town.kitagata.gifu.jp/",
-     "evidence": "北方町役場 法人番号3000020214…県本巣郡北方町長谷川1丁目1番地 電話番号:058-323-1111 (代表)",
-     "note": null
-    },
+     "evidence": null,
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
+    }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
+   ]
+  },
+  {
+   "code": "215015",
+   "name": "坂祝町",
+   "official_site": "https://www.town.sakahogi.gifu.jp/",
+   "contacts": [
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "058-323-1117",
+     "type": "general",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.kitagata.gifu.jp/gyoseijoho/gikai/2672.html",
-     "evidence": "議会事務局 〒501‐0492 岐阜県本巣郡北方町長谷川1丁目1番地 電話番号:058-323-1117",
+     "source_url": "https://www.town.sakahogi.gifu.jp/",
+     "evidence": null,
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "fetch_failed",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://sakahogi-town.stream.jfit.co.jp/",
+     "evidence": null,
      "note": null
     },
     {
@@ -613,58 +483,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.kitagata.gifu.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
-    }
-   ]
-  },
-  {
-   "code": "215015",
-   "name": "坂祝町",
-   "official_site": "https://www.town.sakahogi.gifu.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
      "source_url": "https://www.town.sakahogi.gifu.jp/",
      "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.sakahogi.gifu.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.sakahogi.gifu.jp/",
-     "evidence": null,
-     "note": null
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -686,35 +507,11 @@
      "source_url": "https://www.town.tomika.gifu.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0574-54-2161",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.tomika.gifu.jp/docs/221.html",
-     "evidence": "議会事務局 電話: 0574-54-2161",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "町民の声 ~皆さまのアイデアや発想、ご提案をお寄せください~",
-     "phone": null,
-     "email": null,
-     "form_url": "https://logoform.jp/form/h4vq/665452",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.tomika.gifu.jp/docs/1535047.html",
-     "evidence": "リンク「町民の声 ~皆さまのアイデアや発想、ご提案をお寄せください~」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -724,16 +521,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0574-53-2511",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "509-0393",
+     "postal_address": "岐阜県加茂郡川辺町中川辺1518-4",
      "hours": null,
      "source_url": "https://www.kawabe-gifu.jp/",
-     "evidence": null,
+     "evidence": "川辺町役場 Tel. 0574-53-2511",
      "note": null
     },
     {
@@ -762,7 +559,7 @@
      "hours": null,
      "source_url": "https://www.kawabe-gifu.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -773,16 +570,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0574-48-1111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "509-0492",
+     "postal_address": "岐阜県加茂郡七宗町上麻生2442番地3",
      "hours": null,
      "source_url": "https://www.hichiso.jp/",
-     "evidence": null,
+     "evidence": "七宗町役場 TEL. 0574-48-1111 FAX. 05",
      "note": null
     },
     {
@@ -811,7 +608,7 @@
      "hours": null,
      "source_url": "https://www.hichiso.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -820,20 +617,6 @@
    "name": "八百津町",
    "official_site": "https://www.town.yaotsu.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0574-43-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.yaotsu.lg.jp/",
-     "evidence": "八百津町役場 法人番号 80000202…3番地2 TEL:0574-43-21110574-43-2111(代表) FAX",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -862,6 +645,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -895,7 +681,7 @@
      "hours": null,
      "source_url": "https://www.vill.shirakawa.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -909,7 +695,7 @@
      "hours": null,
      "source_url": "https://www.vill.shirakawa.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -944,7 +730,7 @@
      "hours": null,
      "source_url": "https://www.vill.higashishirakawa.gifu.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -958,7 +744,7 @@
      "hours": null,
      "source_url": "https://www.vill.higashishirakawa.gifu.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -982,20 +768,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0574-67-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.mitake.lg.jp/portal/town/parliament/post0003666/",
-     "evidence": "議会事務局 電話 0574-67-2111",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -1009,6 +781,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {

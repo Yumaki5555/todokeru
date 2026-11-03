@@ -10,30 +10,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.habikino.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
      "agent_status": "found",
-     "department": "議会事務局",
+     "department": "代表電話",
      "phone": "072-958-1111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "583-8585",
+     "postal_address": "大阪府羽曳野市誉田4-1-1",
      "hours": null,
-     "source_url": "https://www.city.habikino.lg.jp/soshiki/gikaijimu/gikaijimu_shigikai/950.html",
-     "evidence": "議会事務局 大阪府羽曳野市誉田4丁目1番1号 電話番号:072-958-1111(代表)",
+     "source_url": "https://www.city.habikino.lg.jp/",
+     "evidence": "羽曳野市 Habikino City (…5 大阪府羽曳野市誉田4-1-1 電話番号:072-958-1111(代表)",
      "note": null
     },
     {
@@ -48,8 +34,11 @@
      "hours": null,
      "source_url": "https://www.city.habikino.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -59,16 +48,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "072-885-1231",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "571-8585",
+     "postal_address": "大阪府門真市中町1-1",
      "hours": null,
      "source_url": "https://www.city.kadoma.osaka.jp/",
-     "evidence": null,
+     "evidence": "(大代表)/ 072-885-1231(代表)",
      "note": null
     },
     {
@@ -84,21 +73,10 @@
      "source_url": "https://www.city.kadoma.osaka.jp/shisei/shigikai/index.html",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "人権市民相談課",
-     "phone": "06-6902-5648",
-     "email": null,
-     "form_url": "https://www.city.kadoma.osaka.jp/cgi-bin/inquiry.php/95?page_no=3374",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kadoma.osaka.jp/soshiki/shiminbunkabu/8/shiseijoho/3/3374.html",
-     "evidence": "人権市民相談課(広聴) 本館2階 〒571-8585 大阪府門真市中町1-1 電話06-6902-5648",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "feedback"
    ]
   },
   {
@@ -146,7 +124,7 @@
      "hours": null,
      "source_url": "https://www.city.settsu.osaka.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -157,16 +135,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "072-265-1001",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "592-8585",
+     "postal_address": "大阪府高石市加茂4丁目1番1号",
      "hours": null,
      "source_url": "https://www.city.takaishi.lg.jp/",
-     "evidence": null,
+     "evidence": "高石市役所 〒592-8585 大阪府…30分(祝日・年末年始を除く) 電話番号 072-265-1001 直通ダイヤルは",
      "note": null
     },
     {
@@ -181,7 +159,7 @@
      "hours": null,
      "source_url": "https://www.city.takaishi.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -195,7 +173,7 @@
      "hours": null,
      "source_url": "https://www.city.takaishi.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -217,35 +195,11 @@
      "source_url": "https://www.city.fujiidera.lg.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "072-939-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.fujiidera.lg.jp/soshiki/gikaijimu/shigikai/9684.html",
-     "evidence": "議会事務局 〒583-8583 大阪府藤…目1番1号 市役所7階71番窓口 電話番号:072-939-1111 (代表)",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "年度別(市民の声の公表)",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.fujiidera.lg.jp/cgi-bin/inquiry.php/16?page_no=8918",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.fujiidera.lg.jp/soshiki/shiminseikatsu/kyoudoujinken/shisei/shisei/siminnokoekouhyou/8918.html",
-     "evidence": "リンク「年度別(市民の声の公表)」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -253,20 +207,6 @@
    "name": "東大阪市",
    "official_site": "https://www.city.higashiosaka.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "06-4309-3000",
-     "email": null,
-     "form_url": null,
-     "postal_code": "577-8521",
-     "postal_address": "東大阪市荒本北一丁目1番1号",
-     "hours": null,
-     "source_url": "https://www.city.higashiosaka.lg.jp/",
-     "evidence": "東大阪市役所 〒577-8521東大阪市…人番号:8000020272272) 電話:06-4309-3000(代表)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "fetch_failed",
@@ -295,6 +235,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -342,7 +285,7 @@
      "hours": null,
      "source_url": "https://www.city.sennan.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -351,20 +294,6 @@
    "name": "四條畷市",
    "official_site": "https://www.city.shijonawate.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "072-877-2121",
-     "email": null,
-     "form_url": null,
-     "postal_code": "575-8501",
-     "postal_address": "四條畷市中野本町1番1号",
-     "hours": null,
-     "source_url": "https://www.city.shijonawate.lg.jp/",
-     "evidence": "四條畷市役所 〒575-8501 四條畷市中野本町1番1号 Tel:072-877-2121(代表)Tel:",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -378,21 +307,11 @@
      "source_url": "https://www.city.shijonawate.lg.jp/life/8/54/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "秘書政策課公聴担当",
-     "phone": "072-877-2121",
-     "email": null,
-     "form_url": "https://www.city.shijonawate.lg.jp/form/detail.php?sec_sec1=4&inq=02&lif_id=122211",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.shijonawate.lg.jp/site/kocho/",
-     "evidence": "秘書政策課公聴担当 〒575-8501大阪府四條畷市中野本町1番1号本館2階 Tel:072-877-2121 0743-71",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "feedback",
+    "general"
    ]
   },
   {
@@ -400,20 +319,6 @@
    "name": "交野市",
    "official_site": "https://www.city.katano.osaka.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "072-892-0121",
-     "email": null,
-     "form_url": null,
-     "postal_code": "576-8501",
-     "postal_address": "大阪府交野市私部1丁目1番1号",
-     "hours": null,
-     "source_url": "https://www.city.katano.osaka.jp/",
-     "evidence": "市役所のご案内 ご意見・ご提案・お問い合…01 大阪府交野市私部1丁目1番1号 電話:072-892-0121(代表)FAX:",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "fetch_failed",
@@ -426,20 +331,6 @@
      "hours": null,
      "source_url": "http://katano.gsl-service.net/",
      "evidence": null,
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務企画課",
-     "phone": "072-810-0530",
-     "email": "kyouiku@city.katano.osaka.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.katano.osaka.jp/docs/2024100800016/",
-     "evidence": "教育総務企画課 TEL:072-810-0530",
      "note": null
     },
     {
@@ -456,6 +347,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -465,30 +359,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "072-366-0011",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.city.osakasayama.osaka.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "072-360-4453",
-     "email": "gikai@city.osakasayama.osaka.jp",
-     "form_url": null,
-     "postal_code": "589-8501",
-     "postal_address": "大阪府大阪狭山市狭山一丁目2384番地の1",
-     "hours": null,
-     "source_url": "https://www.gikai-web.com/osakasayama/",
-     "evidence": "議会事務局 〒589-8501 大阪府大阪狭山市狭山一丁目2384番地の1 TEL:072-360-4453(直通)",
+     "evidence": "1 大阪府大阪狭山市狭山一丁目2384番地の1 電話番号:072-366-0011(代表)",
      "note": null
     },
     {
@@ -505,104 +385,31 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
    "code": "272329",
    "name": "阪南市",
    "official_site": "https://www.city.hannan.lg.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "072-471-5678",
-     "email": null,
-     "form_url": null,
-     "postal_code": "599-0292",
-     "postal_address": "大阪府阪南市尾崎町35番地の1",
-     "hours": null,
-     "source_url": "https://www.city.hannan.lg.jp/",
-     "evidence": "阪南市役所 〒599-0292 大阪府…閉庁日に関らず取り扱いしています) 電話:072-471-5678(代表番号)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局 庶務課",
-     "phone": "072-471-5680",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.hannan.lg.jp/shigikai/annai/seigan/index.html",
-     "evidence": "議会事務局 庶務課 〒599-0292 大阪府阪南市尾崎町35-1 電話:072-471-5680",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市政へのご意見(市民の声)について",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.hannan.lg.jp/cgi-bin/inquiry.php/1?page_no=1",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.hannan.lg.jp/kakuka/mirai/skyousou/shiminnokoe.html",
-     "evidence": "リンク「「市民の声」の公表」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
    "code": "273015",
    "name": "島本町",
    "official_site": "https://www.town.shimamoto.lg.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "075-961-5151",
-     "email": null,
-     "form_url": null,
-     "postal_code": "618-8570",
-     "postal_address": "大阪府三島郡島本町桜井二丁目1番1号",
-     "hours": null,
-     "source_url": "https://www.town.shimamoto.lg.jp/",
-     "evidence": "島本町役場 島本町公式マスコットキャラ…阪府三島郡島本町桜井二丁目1番1号 Tel:075-961-5151(代表)Fax:",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局議会総務課",
-     "phone": "075-962-6315",
-     "email": null,
-     "form_url": null,
-     "postal_code": "618-8570",
-     "postal_address": "大阪府三島郡島本町桜井二丁目1番1号",
-     "hours": null,
-     "source_url": "https://www.town.shimamoto.lg.jp/site/shimamotochogikai/",
-     "evidence": "議会事務局議会総務課直通 〒618-8570大阪府三島郡島本町桜井二丁目1番1号 Tel:075-962-6315Fax:075-",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "町政に関するご意見・ご要望をお寄せください",
-     "phone": null,
-     "email": null,
-     "form_url": "https://logoform.jp/form/8bKw/714367",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.shimamoto.lg.jp/soshiki/5/1221.html",
-     "evidence": "リンク「ご意見・ご要望」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -625,20 +432,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "072-739-3430",
-     "email": null,
-     "form_url": null,
-     "postal_code": "563-0292",
-     "postal_address": "大阪府豊能郡豊能町余野414番地の1 本庁舎2階",
-     "hours": null,
-     "source_url": "https://www.town.toyono.osaka.jp/gyousei/gikai/about/page000418.html",
-     "evidence": "議会事務局 〒563-0292 大阪府豊…町余野414番地の1 本庁舎2階 電話番号:072-739-3430",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -648,10 +441,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.toyono.osaka.jp/",
+     "source_url": "https://www.town.toyono.osaka.jp/section.php?code=49",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -683,9 +479,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.nose.osaka.jp/",
+     "source_url": "http://www.town.nose.osaka.jp/chosei/gikai/index.html",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": null
     },
     {
      "type": "education",
@@ -711,9 +507,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.nose.osaka.jp/",
+     "source_url": "http://www.town.nose.osaka.jp/kurashi/koho__kocho/index.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
    ]
   },
@@ -724,16 +520,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0725-22-1122",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.town.tadaoka.osaka.jp/",
-     "evidence": null,
+     "evidence": "忠岡町 Tadaoka Town 法人番…郡忠岡町忠岡東1丁目34番1号 電話番号 0725-22-1122(代表)",
      "note": null
     },
     {
@@ -811,7 +607,7 @@
      "hours": null,
      "source_url": "https://www.town.kumatori.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -822,30 +618,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "072-466-1000",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "598-8588",
+     "postal_address": "大阪府泉南郡田尻町嘉祥寺375番地1",
      "hours": null,
      "source_url": "https://www.town.tajiri.osaka.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "072-466-5000",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.tajiri.osaka.jp/toppusita/otoiawase.html",
-     "evidence": "議会事務局 電話 : 072-466-5000",
+     "evidence": "田尻町 TAJIRI TOWN Fa…日に関わらず取り扱いしています。) 電話:072-466-1000(代表) ファッ",
      "note": null
     },
     {
@@ -858,10 +640,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.tajiri.osaka.jp/",
+     "source_url": "https://www.town.tajiri.osaka.jp/gyoseijoho/koho_kocho/index.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -884,33 +669,22 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局 議会総務課",
-     "phone": "072-492-2785",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.misaki.osaka.jp/soshiki/gikai/chogikai/index.html",
-     "evidence": "議会事務局 議会総務課 庶務係 大阪府泉南郡岬町深日2000-1 電話:072-492-2785",
-     "note": null
-    },
-    {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
+     "agent_status": "found",
+     "department": "町へのご意見やご提案に対する回答について",
      "phone": null,
      "email": null,
-     "form_url": null,
+     "form_url": "https://www.town.misaki.osaka.jp/cgi-bin/inquiry.php/7?page_no=4218",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.misaki.osaka.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.town.misaki.osaka.jp/soshiki/4218.html",
+     "evidence": "リンク「町へのご意見やご提案に対する回答について」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -920,30 +694,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0721-98-0300",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "583-8580",
+     "postal_address": "大阪府南河内郡太子町大字山田88番地",
      "hours": null,
      "source_url": "https://www.town.taishi.osaka.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0721-98-5540",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.taishi.osaka.jp/busyo/gikai_jimu/taishichougikai/index.html",
-     "evidence": "議会事務局 電話:0721-98-5540",
+     "evidence": "83-8580 大阪府南河内郡太子町大字山田88番地 電話:0721-98-0300(代表) ファッ",
      "note": null
     },
     {
@@ -972,8 +732,11 @@
      "hours": null,
      "source_url": "https://www.town.taishi.osaka.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -983,30 +746,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0721-93-2500",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.town.kanan.osaka.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0721-93-2500",
-     "email": "gikai@town.kanan.osaka.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.kanan.osaka.jp/gyoseijoho/gikai/4523.html",
-     "evidence": "議会事務局 〒585-8585 大阪府南河内郡河南町大字白木1359番地の6 電話番号:0721-93-2500(内線:330・",
+     "evidence": "河南町 KANAN TOWN 法人番号…郡河南町大字白木1359番地の6 電話番号:0721-93-2500(代表番号)",
      "note": null
     },
     {
@@ -1021,8 +770,11 @@
      "hours": null,
      "source_url": "https://www.town.kanan.osaka.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -1032,30 +784,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0721-72-0081",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.vill.chihayaakasaka.osaka.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0721-26-7168",
-     "email": null,
-     "form_url": null,
-     "postal_code": "585-8501",
-     "postal_address": "大阪府南河内郡千早赤阪村大字水分180番地",
-     "hours": null,
-     "source_url": "https://www.vill.chihayaakasaka.osaka.jp/kakuka/gikai/2_1/index.html",
-     "evidence": "議会事務局 〒585-8501 大阪府南河内郡千早赤阪村大字水分180番地 電話番号:0721-26-7168(直通)",
+     "evidence": "千早赤阪村 Chihaya akasak…河内郡千早赤阪村大字水分180番地 電話: 0721-72-0081(代表)",
      "note": null
     },
     {
@@ -1070,8 +808,11 @@
      "hours": null,
      "source_url": "https://www.vill.chihayaakasaka.osaka.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   }
  ]

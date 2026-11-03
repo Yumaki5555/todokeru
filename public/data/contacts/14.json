@@ -94,7 +94,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.yokohama.lg.jp/",
+    "source_url": "https://www.city.yokohama.lg.jp/city-info/yokohamashi/org/gikai/soshiki-gyomu/index.html",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -357,16 +357,16 @@
    {
     "id": "142042-feedback",
     "type": "feedback",
-    "department": "広聴・ご意見窓口",
-    "phone": null,
+    "department": "相談担当",
+    "phone": "0467-61-3864",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.kamakura.kanagawa.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.city.kamakura.kanagawa.jp/soudan/goiken_goteian.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -546,16 +546,16 @@
    {
     "id": "142085-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "046-873-1111",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "249-8686",
+    "postal_address": "神奈川県逗子市逗子5-2-16",
     "hours": null,
     "source_url": "https://www.city.zushi.kanagawa.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -604,10 +604,9 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.miura.kanagawa.jp/soshiki/digitalka/digitalka_joho/325.html",
-    "verified_at": null,
-    "matched_at": "2026-11-02",
-    "status": "auto_matched",
+    "source_url": "https://www.city.miura.kanagawa.jp/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -629,16 +628,16 @@
     "id": "142107-assembly",
     "type": "assembly",
     "department": "議会事務局",
-    "phone": null,
+    "phone": "046-882-1111",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.miura.kanagawa.jp/",
-    "verified_at": null,
-    "status": "unverified",
-    "note": null
+    "source_url": "https://www.city.miura.kanagawa.jp/soshiki/gikaijimukyoku/408.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": "代表電話と同じ番号です"
    }
   ]
  },
@@ -649,32 +648,32 @@
    {
     "id": "142115-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0463-82-5111",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "257-8501",
+    "postal_address": "神奈川県秦野市桜町1-3-2",
     "hours": null,
-    "source_url": "https://www.city.hadano.kanagawa.jp/www/index.html",
-    "verified_at": null,
-    "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "source_url": "https://www.city.hadano.kanagawa.jp/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    },
    {
     "id": "142115-feedback",
     "type": "feedback",
-    "department": "広聴・ご意見窓口",
-    "phone": null,
+    "department": "広報広聴課",
+    "phone": "0463-82-5117",
     "email": null,
-    "form_url": null,
+    "form_url": "https://www.city.hadano.kanagawa.jp/cgi-bin/inquiry.php/205",
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.hadano.kanagawa.jp/www/index.html",
-    "verified_at": null,
-    "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "source_url": "https://www.city.hadano.kanagawa.jp/shisei/kocho/9607.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    },
    {
     "id": "142115-assembly",
@@ -686,10 +685,25 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.hadano.kanagawa.jp/www/index.html",
+    "source_url": "https://www.city.hadano.kanagawa.jp/gikai/index.html",
     "verified_at": null,
     "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "note": null
+   },
+   {
+    "id": "142115-education",
+    "type": "education",
+    "department": "教育総務担当",
+    "phone": "0463-84-2783",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.hadano.kanagawa.jp/kosodate-kyoiku/kyoikuiinkai/8880.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -905,16 +919,16 @@
    {
     "id": "142166-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "046-255-1111",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "252-8566",
+    "postal_address": "神奈川県座間市緑ケ丘一丁目1番1号",
     "hours": null,
     "source_url": "https://www.city.zama.kanagawa.jp/www/toppage/0000000000000/APM03000.html",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -1058,16 +1072,16 @@
    {
     "id": "143014-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "046-876-1111",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "240-0192",
+    "postal_address": "神奈川県三浦郡葉山町堀内2135番地",
     "hours": null,
     "source_url": "https://www.town.hayama.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -1109,16 +1123,16 @@
    {
     "id": "143219-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0467-74-1111",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "253-0196",
+    "postal_address": "神奈川県高座郡寒川町宮山165",
     "hours": null,
     "source_url": "https://www.town.samukawa.kanagawa.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -1175,7 +1189,7 @@
    {
     "id": "143413-feedback",
     "type": "feedback",
-    "department": "町政へのご意見・ご提案制度「まちのこえ」/大磯町ホームページ",
+    "department": "町政へのご意見・ご提案制度「まちのこえ」",
     "phone": null,
     "email": null,
     "form_url": null,
@@ -1211,16 +1225,16 @@
    {
     "id": "143421-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0463-71-3311",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "259-0196",
+    "postal_address": "神奈川県中郡二宮町二宮961番地",
     "hours": null,
     "source_url": "https://www.town.ninomiya.kanagawa.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -1262,17 +1276,17 @@
    {
     "id": "143618-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0465-81-1111",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.nakai.kanagawa.jp/forms/top/top.aspx",
-    "verified_at": null,
-    "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "source_url": "https://www.town.nakai.kanagawa.jp/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    },
    {
     "id": "143618-feedback",
@@ -1284,10 +1298,10 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.nakai.kanagawa.jp/forms/top/top.aspx",
+    "source_url": "https://www.town.nakai.kanagawa.jp/",
     "verified_at": null,
     "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "note": null
    },
    {
     "id": "143618-assembly",
@@ -1299,10 +1313,10 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.nakai.kanagawa.jp/forms/top/top.aspx",
+    "source_url": "https://www.town.nakai.kanagawa.jp/soshiki/gikaijimukyoku/index.html",
     "verified_at": null,
     "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "note": null
    }
   ]
  },
@@ -1313,16 +1327,16 @@
    {
     "id": "143626-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0465-83-1311",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "258-8501",
+    "postal_address": "神奈川県足柄上郡大井町金子1995番地",
     "hours": null,
     "source_url": "https://www.town.oi.kanagawa.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -1335,7 +1349,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.oi.kanagawa.jp/",
+    "source_url": "https://www.town.oi.kanagawa.jp/life/3/27/141/",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -1351,6 +1365,21 @@
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.town.oi.kanagawa.jp/site/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "143626-education",
+    "type": "education",
+    "department": "教育総務課",
+    "phone": "0465-85-5015",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.oi.kanagawa.jp/soshiki/14/kyouikuiinnkaikaigiroku-r8.html",
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
@@ -1438,7 +1467,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.yamakita.kanagawa.jp/",
+    "source_url": "https://www.town.yamakita.kanagawa.jp/category/2-4-0-0-0.html",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -1540,7 +1569,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.hakone.kanagawa.jp/",
+    "source_url": "https://www.town.hakone.kanagawa.jp/www/genre/1000600000060/index.html",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -1737,16 +1766,16 @@
    {
     "id": "144029-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "046-288-1211",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "243-0195",
+    "postal_address": "神奈川県愛甲郡清川村煤ヶ谷2216番地",
     "hours": null,
     "source_url": "https://www.town.kiyokawa.kanagawa.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {

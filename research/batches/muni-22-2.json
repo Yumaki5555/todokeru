@@ -35,21 +35,10 @@
      "source_url": "https://www.city.izu.shizuoka.jp/shiseijoho/4/index.html",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "秘書室",
-     "phone": "0558-72-1187",
-     "email": null,
-     "form_url": "https://logoform.jp/form/xJaA/81322",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.izu.shizuoka.jp/shiseijoho/5/8/otoiawase.html",
-     "evidence": "秘書室 伊豆市小立野38-2 電話:0558-72-1187 ファックス:0",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "feedback"
    ]
   },
   {
@@ -57,20 +46,6 @@
    "name": "御前崎市",
    "official_site": "https://www.city.omaezaki.shizuoka.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0537-85-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.omaezaki.shizuoka.jp/",
-     "evidence": "御前崎市役所 〒437-1692 静岡県御前崎市池新田5585番地 電話番号:0537-85-1111(代表)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -83,7 +58,7 @@
      "hours": null,
      "source_url": "https://www.city.omaezaki.shizuoka.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -97,8 +72,11 @@
      "hours": null,
      "source_url": "https://www.city.omaezaki.shizuoka.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -108,30 +86,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0537-35-2111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "439-8650",
+     "postal_address": "静岡県菊川市堀之内61",
      "hours": null,
      "source_url": "https://www.city.kikugawa.shizuoka.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0537-35-0941",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kikugawa.shizuoka.jp/gikai/index_costom.html",
-     "evidence": "議会事務局 電話:(0537)35-0941",
+     "evidence": "菊川市役所〒439-8650 静岡県菊川市堀之内61電話番号:0537-35-2111",
      "note": null
     },
     {
@@ -148,6 +112,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -156,47 +123,23 @@
    "official_site": "https://www.city.izunokuni.shizuoka.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "055-948-1411",
-     "email": null,
-     "form_url": null,
-     "postal_code": "410-2292",
-     "postal_address": "静岡県伊豆の国市長岡340-1",
-     "hours": null,
-     "source_url": "https://www.city.izunokuni.shizuoka.jp/",
-     "evidence": "伊豆の国市役所法人番号 10000202… 静岡県伊豆の国市長岡340-1 電話番号:055-948-1411(代表)ファック",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "055-948-1417",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.izunokuni.shizuoka.jp/gikai/shisei/gikai/index.html",
-     "evidence": "議会事務局 静岡県伊豆の国市長岡340-1 伊豆の国市役所伊豆長岡庁舎2階 電話番号:055-948-1417",
-     "note": null
-    },
-    {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
+     "agent_status": "found",
+     "department": "伊豆の国市",
      "phone": null,
      "email": null,
-     "form_url": null,
+     "form_url": "https://www.city.izunokuni.shizuoka.jp/nyuryokuform/index.html",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.izunokuni.shizuoka.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.city.izunokuni.shizuoka.jp/shiminnokoe.html",
+     "evidence": "リンク「市民の声」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -219,20 +162,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0548-53-2650",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.makinohara.shizuoka.jp/site/gikai/",
-     "evidence": "議会事務局代表 牧之原市相良275 Tel:0548-53-2650",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -246,6 +175,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -269,17 +201,17 @@
     },
     {
      "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0557-95-6307",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "413-0411",
+     "postal_address": "静岡県賀茂郡東伊豆町稲取3354番地",
      "hours": null,
-     "source_url": "https://www.town.higashiizu.lg.jp/",
-     "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "source_url": "https://www.town.higashiizu.lg.jp/gikai/chinjyo_youbo/1120.html",
+     "evidence": "議会事務局 〒413-0411 静岡県賀茂郡東伊豆町稲取3354番地 (電話)0557-95-6307",
+     "note": null
     },
     {
      "type": "feedback",
@@ -293,7 +225,7 @@
      "hours": null,
      "source_url": "https://www.town.higashiizu.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -317,20 +249,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0558-34-1957",
-     "email": "gikai@town.kawazu.lg.jp",
-     "form_url": null,
-     "postal_code": "413-0595",
-     "postal_address": "静岡県賀茂郡河津町田中212-2",
-     "hours": null,
-     "source_url": "https://www.town.kawazu.shizuoka.jp/gyousei/gikai/",
-     "evidence": "議会事務局 〒413-0595 静岡県賀茂郡河津町田中212-2 TEL 0558-34-1957",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -342,8 +260,11 @@
      "hours": null,
      "source_url": "https://www.town.kawazu.shizuoka.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -353,44 +274,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0558-62-1111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "415-0392",
+     "postal_address": "静岡県賀茂郡南伊豆町下賀茂315-1",
      "hours": null,
      "source_url": "https://www.town.minamiizu.shizuoka.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0558-62-6240",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.minamiizu.shizuoka.jp/docs/2021122800031/",
-     "evidence": "議会事務局 住所:静岡県 賀茂郡 南伊豆町 下賀茂315-1 TEL:0558-62-6240",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会",
-     "phone": "0558-62-0604",
-     "email": "kyoin@town.minamiizu.shizuoka.jp0558-62-0604",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.minamiizu.shizuoka.jp/soshiki/",
-     "evidence": "教育委員会事務局kyoin@town.minamiizu.shizuoka.jp0558-62-0604",
+     "evidence": "南伊豆町役場 〒415-0392 静岡県賀茂郡南伊豆町下賀茂315-1 Tel.0558-62-1111(代) Fax.",
      "note": null
     },
     {
@@ -407,6 +300,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -429,20 +325,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0558-42-3961",
-     "email": null,
-     "form_url": null,
-     "postal_code": "410-3696",
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.matsuzaki.shizuoka.jp/docs/2016020501012/",
-     "evidence": "議会事務局 住所:〒410-3696 静岡県賀茂郡松崎町宮内301-1 本庁3F TEL:0558-42-3961",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -454,8 +336,11 @@
      "hours": null,
      "source_url": "https://www.town.matsuzaki.shizuoka.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -478,17 +363,17 @@
      "note": null
     },
     {
-     "type": "assembly",
+     "type": "education",
      "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0558-52-1962",
-     "email": "gikai@town.nishiizu.lg.jp",
+     "department": "教育委員会",
+     "phone": "0558-56-0212",
+     "email": "kyouiku@town.nishiizu.lg.jp",
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.nishiizu.shizuoka.jp/kakuka/gikai/",
-     "evidence": "議会事務局 [昼間]電話:0558-52-1962(窓口)",
+     "source_url": "https://www.town.nishiizu.shizuoka.jp/kakuka/kyouiku/",
+     "evidence": "教育委員会事務局 [昼間]電話:0558-56-0212(直通)",
      "note": null
     },
     {
@@ -503,8 +388,11 @@
      "hours": null,
      "source_url": "https://www.town.nishiizu.shizuoka.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -513,34 +401,6 @@
    "official_site": "https://www.town.kannami.shizuoka.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "055-978-2250",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.kannami.shizuoka.jp/",
-     "evidence": "函南町役場 〒419-0192 静岡県田…日曜日、祝日、年末年始を除く) 電話番号: 055-978-2250(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "055-979-8122",
-     "email": null,
-     "form_url": null,
-     "postal_code": "419-0192",
-     "postal_address": "静岡県田方郡函南町平井717番地の13",
-     "hours": null,
-     "source_url": "https://www.town.kannami.shizuoka.jp/gikai/1146.html",
-     "evidence": "議会事務局 〒419-0192 静岡県田方郡函南町平井717番地の13 電話番号:055-979-8122",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -552,8 +412,12 @@
      "hours": null,
      "source_url": "https://www.town.kannami.shizuoka.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -562,34 +426,6 @@
    "official_site": "https://www.town.shimizu.shizuoka.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "055-973-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "411-8650",
-     "postal_address": "静岡県駿東郡清水町堂庭210-1",
-     "hours": null,
-     "source_url": "https://www.town.shimizu.shizuoka.jp/",
-     "evidence": "清水町役場 (庁舎へのアクセス・地図) …0 静岡県駿東郡清水町堂庭210-1 電話:055-973-1111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局 議事調査係",
-     "phone": "055-981-8240",
-     "email": null,
-     "form_url": null,
-     "postal_code": "411-8650",
-     "postal_address": "静岡県駿東郡清水町堂庭210番地の1",
-     "hours": null,
-     "source_url": "https://www.town.shimizu.shizuoka.jp/gikai/gikai00089.html",
-     "evidence": "議会事務局 議事調査係 (役場4階) 〒411-8650 静岡県駿東郡清水町堂庭210番地の1 電話番号:直通番号(055-981-8240",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -599,10 +435,14 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.shimizu.shizuoka.jp/",
+     "source_url": "https://www.town.shimizu.shizuoka.jp/category00000060.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -612,16 +452,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "055-986-2131",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "411-8668",
+     "postal_address": "静岡県駿東郡長泉町中土狩828",
      "hours": null,
      "source_url": "https://www.town.nagaizumi.lg.jp/",
-     "evidence": null,
+     "evidence": "長泉町 NAGAIZUMI Town … 静岡県駿東郡長泉町中土狩828 電話番号:055-986-2131(代表)",
      "note": null
     },
     {
@@ -723,34 +563,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0548-33-2141",
-     "email": "gikai@town.yoshida.shizuoka.jp",
-     "form_url": null,
-     "postal_code": "421-0395",
-     "postal_address": "静岡県榛原郡吉田町住吉87番地",
-     "hours": null,
-     "source_url": "https://www.town.yoshida.shizuoka.jp/2497.htm",
-     "evidence": "議会事務局 所在地/〒 421-0395静岡県榛原郡吉田町住吉87番地 電話番号/ 0548-33-2141 電話番号/ 0",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会",
-     "phone": "0548-33-2151",
-     "email": "gakkou@town.yoshida.shizuoka.jp",
-     "form_url": null,
-     "postal_code": "421-0395",
-     "postal_address": "静岡県榛原郡吉田町住吉87番地",
-     "hours": null,
-     "source_url": "https://www.town.yoshida.shizuoka.jp/2395.htm",
-     "evidence": "教育委員会事務局) 所在地/〒 421…岡県榛原郡吉田町住吉87番地 電話番号/ 0548-33-2151 電話番号/ 0",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -762,8 +574,11 @@
      "hours": null,
      "source_url": "https://www.town.yoshida.shizuoka.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -786,20 +601,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0547-56-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "428-0313",
-     "postal_address": "榛原郡川根本町上長尾627",
-     "hours": null,
-     "source_url": "https://www.town.kawanehon.shizuoka.jp/soshiki/gikai/1/index.html",
-     "evidence": "議会事務局 ページトップへ 川根本町役場 〒428-0313 榛原郡川根本町上長尾627 電話番号:0547-56-1111",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -811,8 +612,11 @@
      "hours": null,
      "source_url": "https://www.town.kawanehon.shizuoka.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -844,9 +648,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.morimachi.shizuoka.jp/",
+     "source_url": "https://www.town.morimachi.shizuoka.jp/gyosei/machinososhiki/gikaijimukyoku/index.html",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": null
     },
     {
      "type": "feedback",
@@ -860,7 +664,7 @@
      "hours": null,
      "source_url": "https://www.town.morimachi.shizuoka.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   }

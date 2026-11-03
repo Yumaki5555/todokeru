@@ -6,49 +6,49 @@
   {
    "code": "162019",
    "name": "富山市",
-   "official_site": "https://www.city.toyama.toyama.jp/",
+   "official_site": "https://www.city.toyama.lg.jp/",
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "076-431-6111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "930-8510",
+     "postal_address": "富山県富山市新桜町7番38号",
      "hours": null,
-     "source_url": "https://www.city.toyama.toyama.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.toyama.toyama.jp/",
-     "evidence": null,
+     "source_url": "https://www.city.toyama.lg.jp/",
+     "evidence": "富山市役所 〒930-8510 富山県富山市新桜町7番38号 電話番号:076-431-6111(代表)",
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "議会事務局 庶務課",
+     "phone": "076-443-2157",
      "email": null,
      "form_url": null,
+     "postal_code": "930-8510",
+     "postal_address": "富山市新桜町7番38号",
+     "hours": null,
+     "source_url": "https://www.city.toyama.lg.jp/gikai/index.html",
+     "evidence": "議会事務局 庶務課 〒930-8510 富山市新桜町7番38号 電話番号:076-443-2157",
+     "note": "同じ組織のほかの番号：076-443-2158"
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "市民の声(市へのご意見・ご要望)",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.city.toyama.lg.jp/cgi-bin/enquetes/675e7724152f4b0d9c2a6ea07bd7860c",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.toyama.toyama.jp/",
-     "evidence": null,
-     "note": null
+     "source_url": "https://www.city.toyama.lg.jp/shisei/koho/1010862/1012156/index.html",
+     "evidence": "リンク「市民の声(市へのご意見・ご要望)」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
    ]
   },
@@ -83,7 +83,7 @@
      "hours": null,
      "source_url": "https://www.city.takaoka.toyama.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -119,35 +119,11 @@
      "source_url": "https://www.city.uozu.toyama.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "市議会事務局 議事調査係",
-     "phone": "0765-23-1041",
-     "email": null,
-     "form_url": null,
-     "postal_code": "937-8555",
-     "postal_address": "魚津市釈迦堂1-10-1",
-     "hours": null,
-     "source_url": "https://www.city.uozu.toyama.jp/guide/svGuideDtl.aspx?servno=614&cdkb=ctg&cd=1109&topkb=C",
-     "evidence": "市議会事務局 議事調査係 〒937-8555 魚津市釈迦堂1-10-1 TEL:0765-23-1041",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報広聴係",
-     "phone": "0765-23-1015",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.uozu.toyama.jp/guide/svGuideDtl.aspx?servno=589&cdkb=ctg&cd=3701&topkb=C",
-     "evidence": "広報広聴係 〒937-8555 魚津市釈迦堂1-10-1 TEL:0765-23-1015 FAX:076",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -156,20 +132,6 @@
    "official_site": "https://www.city.himi.toyama.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0766-74-8100",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.himi.toyama.jp/",
-     "evidence": "氷見市役所 〒935-8686 富山県氷見市鞍川1060番地 電話:0766-74-8100(代表)",
-     "note": null
-    },
-    {
      "type": "assembly",
      "agent_status": "auto_not_found",
      "department": null,
@@ -179,24 +141,27 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.himi.toyama.jp/",
+     "source_url": "https://www.city.himi.toyama.jp/gyosei/soshiki/gikai/index.html",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": null
     },
     {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
+     "agent_status": "found",
+     "department": "氷見市市民の声・市民要望公開システムの運用を開始します",
      "phone": null,
      "email": null,
-     "form_url": null,
+     "form_url": "https://www.city.himi.toyama.jp/cgi-bin/inquiry.php/3?page_no=3815",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.himi.toyama.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.city.himi.toyama.jp/gyosei/shisei/koho_kocho/3/3815.html",
+     "evidence": "リンク「氷見市市民の声・市民要望公開システムの運用を開始します」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -205,34 +170,6 @@
    "official_site": "https://www.city.namerikawa.toyama.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "076-475-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "936-8601",
-     "postal_address": "富山県滑川市寺家町104",
-     "hours": null,
-     "source_url": "https://www.city.namerikawa.toyama.jp/",
-     "evidence": "滑川市役所 〒936-8601 富山県滑川市寺家町104 電話番号:076-475-2111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "076-475-2120",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.namerikawa.toyama.jp/gikai/5/1941.html",
-     "evidence": "議会事務局 〒936-8601 富山県滑川市寺家町104番地 電話番号:076-475-2120",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -244,8 +181,12 @@
      "hours": null,
      "source_url": "https://www.city.namerikawa.toyama.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -279,7 +220,7 @@
      "hours": null,
      "source_url": "https://www.city.kurobe.toyama.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -293,7 +234,7 @@
      "hours": null,
      "source_url": "https://www.city.kurobe.toyama.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -302,20 +243,6 @@
    "name": "砺波市",
    "official_site": "https://www.city.tonami.toyama.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0763-33-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "939-1398",
-     "postal_address": "富山県砺波市栄町7番3号",
-     "hours": null,
-     "source_url": "https://www.city.tonami.toyama.jp/",
-     "evidence": "砺波市役所 法人番号:70000201…1398 富山県砺波市栄町7番3号 TEL:0763-33-1111(代表)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -342,8 +269,11 @@
      "hours": null,
      "source_url": "https://www.city.tonami.toyama.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -366,20 +296,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0766-67-1760",
-     "email": null,
-     "form_url": null,
-     "postal_code": "932-8611",
-     "postal_address": "富山県小矢部市本町1番1号",
-     "hours": null,
-     "source_url": "https://www.city.oyabe.toyama.jp/shigikai/index.html",
-     "evidence": "議会事務局 〒932-8611 富山県小矢部市本町1番1号 電話番号:0766-67-1760",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -393,16 +309,19 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
    "code": "162108",
    "name": "南砺市",
-   "official_site": "https://www.city.nanto.toyama.jp/cms-sypher/www/index.jsp",
+   "official_site": "https://www.city.nanto.toyama.jp/",
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -410,27 +329,27 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.nanto.toyama.jp/cms-sypher/www/index.jsp",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.nanto.toyama.jp/cms-sypher/www/index.jsp",
+     "source_url": "https://www.city.nanto.toyama.jp/",
      "evidence": null,
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "南砺市議会事務局",
+     "phone": "0763-23-2222",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.nanto-shigikai.jp/",
+     "evidence": "南砺市議会事務局 〒939-1692 富山県南砺市荒木1550 (福光庁舎) [アクセス] TEL 0763-23-2222",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -438,9 +357,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.nanto.toyama.jp/cms-sypher/www/index.jsp",
+     "source_url": "https://www.city.nanto.toyama.jp/",
      "evidence": null,
-     "note": null
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -462,35 +381,11 @@
      "source_url": "https://www.city.imizu.toyama.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局 議事調査課",
-     "phone": "0766-51-6610",
-     "email": null,
-     "form_url": null,
-     "postal_code": "939-0294",
-     "postal_address": "射水市新開発410番地1",
-     "hours": null,
-     "source_url": "https://www.city.imizu.toyama.jp/guide/svGuideDtl.aspx?servno=14770",
-     "evidence": "議会事務局 議事調査課 所在地:〒939-0294 射水市新開発410番地1 電話:0766-51-6610",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市長への手紙・市へのメール",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.imizu.toyama.jp/mailfrm/mfrmMain.aspx",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.imizu.toyama.jp/guide/svGuideDtl.aspx?servno=5278",
-     "evidence": "リンク「市長への手紙・市へのメール」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -562,17 +457,55 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "076-472-2550",
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
      "email": null,
      "form_url": null,
-     "postal_code": "930-0393",
-     "postal_address": "上市町法音寺1番地",
+     "postal_code": null,
+     "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.kamiichi.toyama.jp/adv/ba.php?id=4",
-     "evidence": "議会事務局代表 〒930-0393上市町法音寺1番地 Tel:076-472-2550Fax:076-",
+     "source_url": "https://www.town.kamiichi.toyama.jp/life/3/30/148/",
+     "evidence": null,
+     "note": null
+    }
+   ],
+   "skipped_types": [
+    "assembly"
+   ]
+  },
+  {
+   "code": "163236",
+   "name": "立山町",
+   "official_site": "https://www.town.tateyama.toyama.jp/",
+   "contacts": [
+    {
+     "type": "general",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "076-463-1121",
+     "email": null,
+     "form_url": null,
+     "postal_code": "930-0292",
+     "postal_address": "富山県中新川郡立山町前沢2440番地",
+     "hours": null,
+     "source_url": "https://www.town.tateyama.toyama.jp/",
+     "evidence": "立山町役場 〒930-0292 富山県中…tateyama.toyama.jp 電話:076-463-1121(代表)",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.town.tateyama.toyama.jp/choseijoho/tateyamamachigikai/index.html",
+     "evidence": null,
      "note": null
     },
     {
@@ -585,56 +518,7 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.kamiichi.toyama.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
-    }
-   ]
-  },
-  {
-   "code": "163236",
-   "name": "立山町",
-   "official_site": "https://www.town.tateyama.toyama.jp/pub/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.tateyama.toyama.jp/pub/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.tateyama.toyama.jp/pub/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.tateyama.toyama.jp/pub/",
+     "source_url": "https://www.town.tateyama.toyama.jp/cgi-bin/inquiry.php/26?page_no=1",
      "evidence": null,
      "note": null
     }
@@ -646,20 +530,6 @@
    "official_site": "https://www.town.nyuzen.toyama.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0765-72-1100",
-     "email": null,
-     "form_url": null,
-     "postal_code": "939-0693",
-     "postal_address": "富山県下新川郡入善町入膳423",
-     "hours": null,
-     "source_url": "https://www.town.nyuzen.toyama.jp/",
-     "evidence": "入善町役場 〒939-0693 富山県下新川郡入善町入膳423 電話:0765-72-1100 (代表)",
-     "note": null
-    },
-    {
      "type": "assembly",
      "agent_status": "auto_not_found",
      "department": null,
@@ -671,7 +541,7 @@
      "hours": null,
      "source_url": "https://www.town.nyuzen.toyama.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -685,8 +555,11 @@
      "hours": null,
      "source_url": "https://www.town.nyuzen.toyama.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -695,20 +568,6 @@
    "official_site": "https://www.town.asahi.toyama.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0765-83-1100",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.asahi.toyama.jp/",
-     "evidence": "朝日町役場 〒939-0793 富山県下新川郡朝日町道下1133 電話番号:0765-83-1100(代表)",
-     "note": null
-    },
-    {
      "type": "assembly",
      "agent_status": "auto_not_found",
      "department": null,
@@ -720,7 +579,7 @@
      "hours": null,
      "source_url": "https://www.town.asahi.toyama.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -734,8 +593,11 @@
      "hours": null,
      "source_url": "https://www.town.asahi.toyama.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   }
  ]

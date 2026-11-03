@@ -3,9 +3,9 @@
  "checked_at": "2026-11-03",
  "result": {
   "entities": 19,
-  "contacts": 60,
-  "verified": 16,
-  "unverified": 44,
+  "contacts": 46,
+  "verified": 7,
+  "unverified": 39,
   "unavailable": 0,
   "errors": 0
  },
@@ -13,52 +13,36 @@
  "reports": [
   {
    "id": "312011-general",
-   "agent_status": "fetch_failed",
-   "checks": {},
-   "status": "unverified",
-   "why": "出典ページを開けない（HTTP 404）"
-  },
-  {
-   "id": "312011-feedback",
-   "agent_status": "fetch_failed",
-   "checks": {},
-   "status": "unverified",
-   "why": "出典ページを開けない（HTTP 404）"
-  },
-  {
-   "id": "312011-assembly",
-   "agent_status": "fetch_failed",
-   "checks": {},
-   "status": "unverified",
-   "why": "出典ページを開けない（HTTP 404）"
-  },
-  {
-   "id": "312029-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "312029-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "312029-education",
    "agent_status": "found",
    "checks": {
     "phone": "ok"
    },
    "status": "verified"
+  },
+  {
+   "id": "312011-assembly",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "312011-education",
+   "agent_status": "found",
+   "checks": {
+    "phone": "ok"
+   },
+   "status": "verified"
+  },
+  {
+   "id": "312011-feedback",
+   "agent_status": "auto_not_found",
+   "checks": {},
+   "status": "unverified",
+   "why": "調査で確認できなかった（auto_not_found）"
   },
   {
    "id": "312029-feedback",
@@ -75,7 +59,7 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "312037-assembly",
+   "id": "312037-education",
    "agent_status": "found",
    "checks": {
     "phone": "ok"
@@ -112,7 +96,7 @@
   },
   {
    "id": "313025-general",
-   "agent_status": "auto_not_found",
+   "agent_status": "found",
    "checks": {},
    "status": "unverified",
    "why": "公式ドメインか自動で判定できない（www.iwami.gr.jp）"
@@ -130,36 +114,6 @@
    "checks": {},
    "status": "unverified",
    "why": "公式ドメインか自動で判定できない（www.iwami.gr.jp）"
-  },
-  {
-   "id": "313254-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "313254-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "313254-education",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
   },
   {
    "id": "313254-feedback",
@@ -190,24 +144,6 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "313297-general",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "313297-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "313297-feedback",
    "agent_status": "auto_not_found",
    "checks": {},
@@ -220,14 +156,6 @@
    "checks": {},
    "status": "unverified",
    "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "313645-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
   },
   {
    "id": "313645-feedback",
@@ -259,25 +187,11 @@
   },
   {
    "id": "313718-general",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "313718-assembly",
    "agent_status": "found",
    "checks": {
     "phone": "ok",
-    "email": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "313718-feedback",
-   "agent_status": "found",
-   "checks": {
-    "form_url": "ok"
+    "postal_code": "ok",
+    "postal_address": "ok"
    },
    "status": "verified"
   },
@@ -297,14 +211,14 @@
   },
   {
    "id": "313726-feedback",
-   "agent_status": "auto_not_found",
+   "agent_status": "found",
    "checks": {},
    "status": "unverified",
    "why": "公式ドメインか自動で判定できない（www.e-hokuei.net）"
   },
   {
    "id": "313840-general",
-   "agent_status": "auto_not_found",
+   "agent_status": "found",
    "checks": {},
    "status": "unverified",
    "why": "公式ドメインか自動で判定できない（www.hiezu.jp）"
@@ -346,30 +260,17 @@
   },
   {
    "id": "313891-general",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "313891-assembly",
    "agent_status": "found",
    "checks": {
-    "phone": "ok"
-   },
-   "status": "verified"
-  },
-  {
-   "id": "313891-feedback",
-   "agent_status": "found",
-   "checks": {
-    "form_url": "ok"
+    "phone": "ok",
+    "postal_code": "ok",
+    "postal_address": "ok"
    },
    "status": "verified"
   },
   {
    "id": "313904-general",
-   "agent_status": "auto_not_found",
+   "agent_status": "found",
    "checks": {},
    "status": "unverified",
    "why": "公式ドメインか自動で判定できない（www.houki-town.jp）"
@@ -396,16 +297,6 @@
    "why": "調査で確認できなかった（auto_not_found）"
   },
   {
-   "id": "314013-assembly",
-   "agent_status": "found",
-   "checks": {
-    "phone": "ok",
-    "postal_code": "ok",
-    "postal_address": "ok"
-   },
-   "status": "verified"
-  },
-  {
    "id": "314013-feedback",
    "agent_status": "auto_not_found",
    "checks": {},
@@ -414,17 +305,9 @@
   },
   {
    "id": "314021-general",
-   "agent_status": "auto_not_found",
-   "checks": {},
-   "status": "unverified",
-   "why": "調査で確認できなかった（auto_not_found）"
-  },
-  {
-   "id": "314021-assembly",
    "agent_status": "found",
    "checks": {
     "phone": "ok",
-    "email": "ok",
     "postal_code": "ok",
     "postal_address": "ok"
    },

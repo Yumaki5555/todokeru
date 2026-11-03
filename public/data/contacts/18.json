@@ -123,16 +123,16 @@
    {
     "id": "182028-feedback",
     "type": "feedback",
-    "department": "広聴・ご意見窓口",
+    "department": "広報広聴課",
     "phone": null,
     "email": null,
-    "form_url": null,
+    "form_url": "https://www.city.tsuruga.lg.jp/form/detail.php?sec_sec1=8",
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.tsuruga.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.city.tsuruga.lg.jp/soshiki/8/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -327,16 +327,16 @@
    {
     "id": "182079-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0778-51-2200",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "916-8666",
+    "postal_address": "福井県鯖江市西山町13番1号",
     "hours": null,
     "source_url": "https://www.city.sabae.fukui.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -419,6 +419,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "182087-education",
+    "type": "education",
+    "department": "教育総務課",
+    "phone": "0776-73-8039",
+    "email": "kyouiku@city.awara.lg.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.awara.lg.jp/shozoku.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -429,16 +444,16 @@
    {
     "id": "182095-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0778-22-3000",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "915-8530",
+    "postal_address": "福井県越前市府中一丁目13-7",
     "hours": null,
     "source_url": "https://www.city.echizen.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -451,7 +466,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.echizen.lg.jp/",
+    "source_url": "https://www.city.echizen.lg.jp/other/shicho/iken/index.html",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -480,16 +495,16 @@
    {
     "id": "182109-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0776-66-1500",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.city.fukui-sakai.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -502,7 +517,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.fukui-sakai.lg.jp/",
+    "source_url": "https://www.city.fukui-sakai.lg.jp/shisei/kocho/index.html",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -619,7 +634,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.ikeda.fukui.jp/",
+    "source_url": "https://www.town.ikeda.fukui.jp/gyousei/gyousei/1941/index.html",
     "verified_at": null,
     "status": "unverified",
     "note": null

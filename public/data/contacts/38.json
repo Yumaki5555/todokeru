@@ -80,7 +80,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.matsuyama.ehime.jp/",
+    "source_url": "https://www.city.matsuyama.ehime.jp/shigikai/20240617teigen.html",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -234,7 +234,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.yawatahama.ehime.jp/",
+    "source_url": "https://www.city.yawatahama.ehime.jp/category/mayor/kaito/",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -263,16 +263,16 @@
    {
     "id": "382051-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0897-65-1234",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "792-8585",
+    "postal_address": "愛媛県新居浜市一宮町一丁目5番1号",
     "hours": null,
     "source_url": "https://www.city.niihama.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -457,6 +457,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "382108-education",
+    "type": "education",
+    "department": "教育委員会事務局学校教育課",
+    "phone": "089-989-9871",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.iyo.lg.jp/gakoukyouiku/kyoiku/kyoiku/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -549,15 +564,30 @@
     "id": "382141-assembly",
     "type": "assembly",
     "department": "議会事務局",
-    "phone": null,
+    "phone": "0894-62-6413",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.seiyo.ehime.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.city.seiyo.ehime.jp/shisei/shigikai/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "382141-education",
+    "type": "education",
+    "department": "教育総務課",
+    "phone": "0894-62-6430",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.seiyo.ehime.jp/kurashi/kosodate_kyouiku/kyouiku_iinkai/2319.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -642,7 +672,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.kamijima.lg.jp",
+    "source_url": "https://www.town.kamijima.lg.jp/ques/questionnaire.php?openid=3",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -651,15 +681,15 @@
     "id": "383562-assembly",
     "type": "assembly",
     "department": "議会事務局",
-    "phone": null,
+    "phone": "0897-77-2500",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.kamijima.lg.jp",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.town.kamijima.lg.jp/site/gikai/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -773,16 +803,16 @@
    {
     "id": "384020-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "089-962-2323",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "791-2195",
+    "postal_address": "愛媛県伊予郡砥部町宮内1392番地",
     "hours": null,
     "source_url": "https://www.town.tobe.ehime.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -810,7 +840,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.tobe.ehime.jp/",
+    "source_url": "https://www.town.tobe.ehime.jp/gyoseijoho/tobechogikai/index.html",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -839,16 +869,16 @@
    {
     "id": "384224-feedback",
     "type": "feedback",
-    "department": "広聴・ご意見窓口",
+    "department": "広報・広聴",
     "phone": null,
     "email": null,
-    "form_url": null,
+    "form_url": "https://www.town.uchiko.ehime.jp/form/detail.php?sec_sec1=1",
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.uchiko.ehime.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.town.uchiko.ehime.jp/life/14/40",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -861,7 +891,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.uchiko.ehime.jp/",
+    "source_url": "https://www.town.uchiko.ehime.jp/life/14/39",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -956,16 +986,16 @@
    {
     "id": "384844-assembly",
     "type": "assembly",
-    "department": "議会事務局",
-    "phone": null,
+    "department": "松野町議会",
+    "phone": "0895-42-1117",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.matsuno.ehime.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.town.matsuno.ehime.jp/soshiki/8/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]

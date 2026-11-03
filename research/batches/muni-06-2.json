@@ -23,20 +23,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0237-62-2228",
-     "email": null,
-     "form_url": null,
-     "postal_code": "990-1101",
-     "postal_address": "山形県西村山郡大江町大字左沢882-1",
-     "hours": null,
-     "source_url": "https://www.town.oe.yamagata.jp/government/chousei/council/112",
-     "evidence": "議会事務局 〒990-1101 山形県西村山郡大江町大字左沢882-1 TEL : 0237-62-2228FAX : 02",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -48,8 +34,11 @@
      "hours": null,
      "source_url": "https://www.town.oe.yamagata.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -59,16 +48,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0237-35-2111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.town.oishida.yamagata.jp/",
-     "evidence": null,
+     "evidence": "-4112 山形県北村山郡大石田町緑町1番地 代表電話:0237-35-2111",
      "note": null
     },
     {
@@ -97,7 +86,7 @@
      "hours": null,
      "source_url": "https://www.town.oishida.yamagata.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -106,34 +95,6 @@
    "name": "金山町",
    "official_site": "https://www.town.kaneyama.yamagata.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0233-52-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "999-5402",
-     "postal_address": "山形県最上郡金山町大字金山324-1",
-     "hours": null,
-     "source_url": "https://www.town.kaneyama.yamagata.jp/",
-     "evidence": "金山町役場 法人番号 80000200…山形県最上郡金山町大字金山324-1 電話:0233-52-2111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "金山町議会事務局",
-     "phone": "0233-29-5638",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.kaneyama.yamagata.jp/kaneyamamachigikai/index.html",
-     "evidence": "金山町議会事務局 〒999-5402 金山町大字金山324-1(金山町役場内) 電話番号:0233-29-5638",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -146,8 +107,12 @@
      "hours": null,
      "source_url": "https://www.town.kaneyama.yamagata.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -181,7 +146,7 @@
      "hours": null,
      "source_url": "https://town.mogami.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -195,7 +160,7 @@
      "hours": null,
      "source_url": "https://town.mogami.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -206,16 +171,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0233-32-2111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.town.funagata.yamagata.jp/",
-     "evidence": null,
+     "evidence": "舟形町 FUNAGATA TOWN 郵…山形県最上郡舟形町舟形263番地 電話番号:0233-32-2111(代表番号) フ",
      "note": null
     },
     {
@@ -244,7 +209,7 @@
      "hours": null,
      "source_url": "https://www.town.funagata.yamagata.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -293,7 +258,7 @@
      "hours": null,
      "source_url": "https://www.town.mamurogawa.yamagata.jp/index.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -317,20 +282,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0233-75-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.vill.ohkura.yamagata.jp/gyoseijoho/okurasongikai/1029.html",
-     "evidence": "議会事務局 事務局 電話番号:0233-75-2111 内線322",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -340,10 +291,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.vill.ohkura.yamagata.jp/",
+     "source_url": "https://www.vill.ohkura.yamagata.jp/gyoseijoho/koho_kocho/index.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -391,7 +345,7 @@
      "hours": null,
      "source_url": "https://www.vill.sakegawa.yamagata.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -440,7 +394,7 @@
      "hours": null,
      "source_url": "https://www.vill.tozawa.yamagata.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -464,17 +418,17 @@
      "note": null
     },
     {
-     "type": "assembly",
+     "type": "education",
      "agent_status": "found",
-     "department": "議会事務局議事係",
-     "phone": "0238-52-4485",
+     "department": "教育委員会",
+     "phone": "0238-52-4474",
      "email": null,
      "form_url": null,
-     "postal_code": "992-0392",
-     "postal_address": "山形県東置賜郡高畠町大字高畠436",
+     "postal_code": null,
+     "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.takahata.yamagata.jp/site/gikai/",
-     "evidence": "議会事務局議事係 〒992-0392山形県東置賜郡高畠町大字高畠436 電話番号:0238-52-4485",
+     "source_url": "https://www.town.takahata.yamagata.jp/soshiki/1.html",
+     "evidence": "教育委員会 連絡先 山形県東置賜郡高畠町大字高畠436 Tel:0238-52-4474(教育総務課)",
      "note": null
     },
     {
@@ -487,10 +441,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.takahata.yamagata.jp/",
+     "source_url": "https://www.town.takahata.yamagata.jp/life/5/21/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -499,20 +456,6 @@
    "official_site": "https://www.town.kawanishi.yamagata.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0238-42-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "999-0193",
-     "postal_address": "山形県東置賜郡川西町大字上小松977番地1",
-     "hours": null,
-     "source_url": "https://www.town.kawanishi.yamagata.jp/",
-     "evidence": "川西町役場 〒999-0193 山形県東置賜郡川西町大字上小松977番地1 TEL0238-42-2111(代表)FAX0",
-     "note": null
-    },
-    {
      "type": "assembly",
      "agent_status": "auto_not_found",
      "department": null,
@@ -524,7 +467,7 @@
      "hours": null,
      "source_url": "https://www.town.kawanishi.yamagata.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -538,8 +481,11 @@
      "hours": null,
      "source_url": "https://www.town.kawanishi.yamagata.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -549,21 +495,7 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.oguni.yamagata.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -577,7 +509,21 @@
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0238-62-2448",
+     "email": null,
+     "form_url": null,
+     "postal_code": "999-1363",
+     "postal_address": "山形県西置賜郡小国町大字小国小坂町2-70",
+     "hours": null,
+     "source_url": "https://www.town.oguni.yamagata.jp/site/gikai/1248.html",
+     "evidence": "議会事務局 〒999-1363 山形県西置賜郡小国町大字小国小坂町2-70 Tel:0238-62-2448Fax:0238",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -585,7 +531,7 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.oguni.yamagata.jp/",
+     "source_url": "https://www.town.oguni.yamagata.jp/life/5/23/",
      "evidence": null,
      "note": null
     }
@@ -596,34 +542,6 @@
    "name": "白鷹町",
    "official_site": "https://www.town.shirataka.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0238-85-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "992-0892",
-     "postal_address": "山形県西置賜郡白鷹町大字荒砥甲833番地アクセスマップ",
-     "hours": null,
-     "source_url": "https://www.town.shirataka.lg.jp/",
-     "evidence": "白鷹町役場 〒992-0892 山形県西…町大字荒砥甲833番地アクセスマップ 電話 0238-85-2111(代表) ファッ",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "白鷹町議会",
-     "phone": "0238-85-6135",
-     "email": "gikaijimu@so.town.shirataka.yamagata.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.shirataka.lg.jp/1053.htm",
-     "evidence": "議会の本会議の議事や委員会に関すること 電話番号:0238-85-6135(直通)",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -638,6 +556,10 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -645,34 +567,6 @@
    "name": "飯豊町",
    "official_site": "https://www.town.iide.yamagata.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0238-72-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "999-0696",
-     "postal_address": "山形県西置賜郡飯豊町大字椿2888番地",
-     "hours": null,
-     "source_url": "https://www.town.iide.yamagata.jp/",
-     "evidence": "飯豊町役場 〒999-0696 山形県西置賜郡飯豊町大字椿2888番地 電話番号0238-72-2111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0238-87-0527",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.iide.yamagata.jp/004/sonotagikainikannsurukoto.html",
-     "evidence": "議会事務局までお問い合わせください。 この記事に関するお問い合わせ先 担当課/議会事務局 議事室 TEL/0238-87-0527",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -687,6 +581,10 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -694,34 +592,6 @@
    "name": "三川町",
    "official_site": "https://www.town.mikawa.yamagata.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0235-66-3111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.mikawa.yamagata.jp/",
-     "evidence": "三川町役場 〒997-1301 山形県東田川郡三川町大字横山字西田85番地 電話:0235-66-3111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0235-35-7039",
-     "email": null,
-     "form_url": null,
-     "postal_code": "997-1301",
-     "postal_address": "山形県東田川郡三川町大字横山字西田85番地",
-     "hours": null,
-     "source_url": "https://www.town.mikawa.yamagata.jp/gikai/seigan-tinjyo.html",
-     "evidence": "議会事務局 〒997-1301 山形県東田川郡三川町大字横山字西田85番地 電話:0235-35-7039 ファックス:0",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -736,6 +606,10 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -794,30 +668,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0234-72-3311",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.town.yuza.yamagata.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "遊佐町議会事務局",
-     "phone": "0234-72-5889",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.yuza.yamagata.jp/genre/gikai",
-     "evidence": "遊佐町議会事務局 担当:議事係 TEL:0234-72-5889",
+     "evidence": "遊佐町 Yuza Town 〒999-…県飽海郡遊佐町遊佐字舞鶴202番地 TEL:0234-72-3311(代表)",
      "note": null
     },
     {
@@ -834,6 +694,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   }
  ]

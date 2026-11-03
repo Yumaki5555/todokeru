@@ -23,20 +23,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "大津市議会",
-     "phone": "077-528-2640",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.otsu.lg.jp/gikai/index.html",
-     "evidence": "議会局 〒520-8575 滋賀県大津市御陵町3-1 電話:077-528-2640",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -50,6 +36,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -59,46 +48,22 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0749-22-1411",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "522-8501",
+     "postal_address": "滋賀県彦根市元町4番2号",
      "hours": null,
      "source_url": "https://www.city.hikone.lg.jp/",
-     "evidence": null,
+     "evidence": "彦根市 Hikone City 〒52…01 滋賀県彦根市元町4番2号 電話番号: 0749-22-1411(代表)",
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会課",
-     "phone": "0749-30-6130",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.hikone.lg.jp/shisei/gikai/12/5797.html",
-     "evidence": "議会課 電話:0749-30-6130",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市政への意見・提言",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.hikone.lg.jp/cdn-cgi/l/email-protection",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.hikone.lg.jp/shisei/shisei/3/5080.html",
-     "evidence": "リンク「市政への意見・提言」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -108,16 +73,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0749-62-4111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "526-8501",
+     "postal_address": "滋賀県長浜市八幡東町632番地",
      "hours": null,
      "source_url": "https://www.city.nagahama.lg.jp/",
-     "evidence": null,
+     "evidence": "長浜市 〒526-8501 滋賀県長浜市八幡東町632番地 電話:0749-62-4111(代表)",
      "note": null
     },
     {
@@ -156,34 +121,6 @@
    "official_site": "https://www.city.omihachiman.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0748-33-3111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "523-8501",
-     "postal_address": "滋賀県近江八幡市桜宮町236番地",
-     "hours": null,
-     "source_url": "https://www.city.omihachiman.lg.jp/",
-     "evidence": "近江八幡市役所 法人番号9000020…01 滋賀県近江八幡市桜宮町236番地電話:0748-33-3111(代表)開庁時間",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0748-36-5528",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.omihachiman.lg.jp/soshiki/gikai/index.html",
-     "evidence": "議会事務局 電話番号 : 0748-36-5528",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -195,8 +132,12 @@
      "hours": null,
      "source_url": "https://www.city.omihachiman.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -205,34 +146,6 @@
    "official_site": "https://www.city.kusatsu.shiga.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "077-563-1234",
-     "email": null,
-     "form_url": null,
-     "postal_code": "525-8588",
-     "postal_address": "滋賀県草津市草津三丁目13番30号",
-     "hours": null,
-     "source_url": "https://www.city.kusatsu.shiga.jp/",
-     "evidence": "草津市役所 法人番号 700002025…日、日曜日、祝日及び年末年始は休み) 電話 077-563-1234(代表)(開庁時",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局 議事庶務課",
-     "phone": "077-561-2413",
-     "email": null,
-     "form_url": null,
-     "postal_code": "525-8588",
-     "postal_address": "滋賀県草津市草津三丁目13番30号",
-     "hours": null,
-     "source_url": "https://www.city.kusatsu.shiga.jp/shigikai/index.html",
-     "evidence": "議会事務局 議事庶務課 議事庶務係 〒525-8588 滋賀県草津市草津三丁目13番30号 電話番号:077-561-2413",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -244,8 +157,12 @@
      "hours": null,
      "source_url": "https://www.city.kusatsu.shiga.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -254,47 +171,23 @@
    "official_site": "https://www.city.moriyama.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "077-583-2525",
-     "email": null,
-     "form_url": null,
-     "postal_code": "524-8585",
-     "postal_address": "滋賀県守山市吉身二丁目5番22号",
-     "hours": null,
-     "source_url": "https://www.city.moriyama.lg.jp/",
-     "evidence": "守山市役所 〒524-8585 滋賀県守山市吉身二丁目5番22号 代表電話番号:077-583-2525 ファクス:07",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "077-582-1151",
-     "email": null,
-     "form_url": null,
-     "postal_code": "524-8585",
-     "postal_address": "滋賀県守山市吉身二丁目5番22号",
-     "hours": null,
-     "source_url": "https://www.city.moriyama.lg.jp/shiseijouhou/shigikai/1003141/1003356.html",
-     "evidence": "議会事務局 〒524-8585 滋賀県守山市吉身二丁目5番22号 電話番号:077-582-1151 ファクス番号:",
-     "note": null
-    },
-    {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
+     "agent_status": "found",
+     "department": "広報・広聴",
      "phone": null,
      "email": null,
-     "form_url": null,
+     "form_url": "https://www.city.moriyama.lg.jp/cgi-list/download.cgi?category=180&text=&group=0&sort=2",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.city.moriyama.lg.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "evidence": "リンク「広報・広聴」",
+     "note": "電話番号の掲載なし（フォームで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -304,16 +197,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "077-553-1234",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "520-3088",
+     "postal_address": "滋賀県栗東市安養寺一丁目13番33号",
      "hours": null,
      "source_url": "https://www.city.ritto.lg.jp/",
-     "evidence": null,
+     "evidence": "栗東市 RITTO CITY 〒52…栗東市安養寺一丁目13番33号 電話番号:077-553-1234(代表)ファック",
      "note": null
     },
     {
@@ -342,7 +235,7 @@
      "hours": null,
      "source_url": "https://www.city.ritto.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -353,60 +246,22 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0748-65-0650",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.city.koka.lg.jp/",
-     "evidence": null,
+     "evidence": "甲賀市役所 〒528-8502 甲賀市…053番地 TEL 0748-65-06500748-65-0650",
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0748-69-2258",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.koka.lg.jp/council/",
-     "evidence": "議会事務局 所在地/〒 528-850…番地 電話番号/ 0748-69-22580748-69-2258 FAX/074",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "甲賀市教育委員会",
-     "phone": "0748-69-2239",
-     "email": null,
-     "form_url": null,
-     "postal_code": "528-8502",
-     "postal_address": "甲賀市水口町水口6053番地",
-     "hours": null,
-     "source_url": "https://www.city.koka.lg.jp/kyouiku/",
-     "evidence": "甲賀市教育委員会 〒528-8502 甲賀市水口町水口6053番地 TEL 0748-69-2239",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市政への提言",
-     "phone": null,
-     "email": null,
-     "form_url": "https://logoform.jp/form/w8kD/1406453",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.koka.lg.jp/26289.htm",
-     "evidence": "リンク「市政への提言」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -416,16 +271,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "077-587-1121",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "520-2395",
+     "postal_address": "滋賀県野洲市小篠原2100番地1",
      "hours": null,
      "source_url": "https://www.city.yasu.lg.jp/",
-     "evidence": null,
+     "evidence": "野洲市 Yasu city 〒520-…滋賀県野洲市小篠原2100番地1 代表電話:077-587-1121",
      "note": null
     },
     {
@@ -454,7 +309,7 @@
      "hours": null,
      "source_url": "https://www.city.yasu.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -503,18 +358,18 @@
      "hours": null,
      "source_url": "https://www.city.shiga-konan.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
   {
    "code": "252123",
    "name": "高島市",
-   "official_site": "https://www.city.takashima.lg.jp/www/toppage/0000000000000/APM03000.html",
+   "official_site": "https://www.city.takashima.lg.jp/",
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -522,27 +377,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.takashima.lg.jp/www/toppage/0000000000000/APM03000.html",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.takashima.lg.jp/www/toppage/0000000000000/APM03000.html",
+     "source_url": "https://www.city.takashima.lg.jp/",
      "evidence": null,
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -550,9 +391,23 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.takashima.lg.jp/www/toppage/0000000000000/APM03000.html",
+     "source_url": "https://www.city.takashima.lg.jp/gyoseijoho/webshigikai/index.html",
      "evidence": null,
      "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
+     "department": null,
+     "phone": null,
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.takashima.lg.jp/",
+     "evidence": null,
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -587,7 +442,7 @@
      "hours": null,
      "source_url": "https://www.city.higashiomi.shiga.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -601,7 +456,7 @@
      "hours": null,
      "source_url": "https://www.city.higashiomi.shiga.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -612,30 +467,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0749-53-5100",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "521-8501",
+     "postal_address": "米原市米原1016",
      "hours": null,
      "source_url": "https://www.city.maibara.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0749-53-5134",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.maibara.lg.jp/soshiki/gikai/gikai/seigan/1911.html",
-     "evidence": "議会事務局 電話:0749-53-5134",
+     "evidence": "本庁舎〒521-8501 米原市米原1016 電話:0749-53-5100 ファックス:0",
      "note": null
     },
     {
@@ -648,10 +489,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.maibara.lg.jp/",
+     "source_url": "https://www.city.maibara.lg.jp/soshiki/seisaku/kohotoukei/index.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -660,34 +504,6 @@
    "official_site": "https://www.town.shiga-hino.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0748-52-1211",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.shiga-hino.lg.jp/",
-     "evidence": "日野町役場(地図・フロア案内) 所在地:…n.shiga-hino.lg.jp 電話:0748-52-1211(代表) ファッ",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0748-52-6551",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.shiga-hino.lg.jp/0000006537.html",
-     "evidence": "議会事務局事務局 電話: 0748-52-6551",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -699,8 +515,12 @@
      "hours": null,
      "source_url": "https://www.town.shiga-hino.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -709,48 +529,6 @@
    "official_site": "https://www.town.ryuoh.shiga.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0748-58-3700",
-     "email": null,
-     "form_url": null,
-     "postal_code": "520-2592",
-     "postal_address": "滋賀県蒲生郡竜王町大字小口3番地",
-     "hours": null,
-     "source_url": "https://www.town.ryuoh.shiga.jp/",
-     "evidence": "竜王町役場 〒520-2592 滋賀県蒲生郡竜王町大字小口3番地 TEL:0748-58-3700(代表) FAX",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0748-58-3713",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.ryuoh.shiga.jp/parliament/gikaidayori/gikaidayori.html",
-     "evidence": "議会事務局 TEL:0748-58-3713",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務課",
-     "phone": "0748-58-3710",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.ryuoh.shiga.jp/life/education/iinkai.html",
-     "evidence": "教育総務課 TEL:0748-58-3710 学校教育課 T",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -762,8 +540,12 @@
      "hours": null,
      "source_url": "https://www.town.ryuoh.shiga.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -773,30 +555,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0749-42-4111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.town.aisho.shiga.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0749-42-7670",
-     "email": null,
-     "form_url": null,
-     "postal_code": "529-1380",
-     "postal_address": "滋賀県愛知郡愛荘町愛知川72番地",
-     "hours": null,
-     "source_url": "https://www.town.aisho.shiga.jp/gikai/index.html",
-     "evidence": "議会事務局 〒529-1380 滋賀県愛知郡愛荘町愛知川72番地 電話番号:0749-42-7670",
+     "evidence": "本庁舎〒529-1380 滋賀県愛知郡愛荘町愛知川72番地電話:0749-42-4111ファックス:07",
      "note": null
     },
     {
@@ -811,8 +579,11 @@
      "hours": null,
      "source_url": "https://www.town.aisho.shiga.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -820,20 +591,6 @@
    "name": "豊郷町",
    "official_site": "https://www.town.toyosato.shiga.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0749-35-8111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "529-1169",
-     "postal_address": "滋賀県犬上郡豊郷町石畑375番地アクセス",
-     "hours": null,
-     "source_url": "https://www.town.toyosato.shiga.jp/",
-     "evidence": "豊郷町役場 (法人番号:9000020…県犬上郡豊郷町石畑375番地アクセス 電話:0749-35-8111(代表)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -860,8 +617,11 @@
      "hours": null,
      "source_url": "https://www.town.toyosato.shiga.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -871,16 +631,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0749-38-3311",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "522-0244",
+     "postal_address": "滋賀県犬上郡甲良町在士353-1",
      "hours": null,
      "source_url": "https://www.kouratown.jp/",
-     "evidence": null,
+     "evidence": "甲良町役場 〒522-0244 滋賀県犬上郡甲良町在士353-1 電話:0749-38-3311 ファックス:0",
      "note": null
     },
     {
@@ -919,48 +679,6 @@
    "official_site": "https://www.town.taga.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0749-48-8111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "522-0341",
-     "postal_address": "滋賀県犬上郡多賀町多賀324",
-     "hours": null,
-     "source_url": "https://www.town.taga.lg.jp/",
-     "evidence": "多賀町役場 〒522-0341 滋賀県犬上郡多賀町多賀324 電話番号:0749-48-8111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0749-48-8126",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.taga.lg.jp/choseijoho/tagachogikai/6/1598.html",
-     "evidence": "議会事務局 電話:0749-48-8126",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務係",
-     "phone": "0749-48-8123",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.taga.lg.jp/choseijoho/yakusho_madoguchiannai/2271.html",
-     "evidence": "教育総務係 電話:0749-48-8123",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -974,6 +692,10 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   }
  ]

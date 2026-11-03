@@ -21,35 +21,11 @@
      "source_url": "https://www.city.morioka.iwate.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局 議事総務課",
-     "phone": "019-613-8315",
-     "email": null,
-     "form_url": null,
-     "postal_code": "020-8530",
-     "postal_address": "盛岡市内丸12-2 盛岡市役所本館3階",
-     "hours": null,
-     "source_url": "https://www.city.morioka.iwate.jp/shisei/shigikai/index.html",
-     "evidence": "議会事務局 議事総務課 〒020-8530 盛岡市内丸12-2 盛岡市役所本館3階 電話番号:019-613-8315",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市民の意見箱~市長への手紙~について",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.morioka.iwate.jp/cgi-bin/enquetes/2bb7a73db84544b093f9fb1600d64e73",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.morioka.iwate.jp/shisei/kocho_koho/kocho/1044377/1044378.html",
-     "evidence": "リンク「市長への手紙」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -83,21 +59,7 @@
      "hours": null,
      "source_url": "https://www.city.miyako.iwate.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務課",
-     "phone": "0193-62-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.miyako.iwate.jp/gyosei/kosodate_kyoiku/kyoikuiinkai/6822.html",
-     "evidence": "教育総務課 〒027-8501 岩手県宮古市宮町一丁目1-30 電話番号:0193‐62‐2111",
-     "note": null
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -111,7 +73,7 @@
      "hours": null,
      "source_url": "https://www.city.miyako.iwate.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -185,31 +147,31 @@
     },
     {
      "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "議会事務局議事課",
+     "phone": "0198-41-3597",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "025-8601",
+     "postal_address": "岩手県花巻市花城町9番30号",
      "hours": null,
-     "source_url": "https://www.city.hanamaki.iwate.jp/",
-     "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "source_url": "https://www.city.hanamaki.iwate.jp/shigikai/index.html",
+     "evidence": "議会事務局議事課 〒025-8601 岩手県花巻市花城町9番30号 総務係 電話:0198-41-3597",
+     "note": null
     },
     {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
+     "agent_status": "found",
+     "department": "市政への意見・提言",
      "phone": null,
      "email": null,
-     "form_url": null,
+     "form_url": "https://www.city.hanamaki.iwate.jp/cgi-bin/contacts/G002001001",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.hanamaki.iwate.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.city.hanamaki.iwate.jp/shisei/iken/1002743.html",
+     "evidence": "リンク「市政への意見・提言」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
    ]
   },
@@ -244,7 +206,7 @@
      "hours": null,
      "source_url": "https://www.city.kitakami.iwate.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -258,7 +220,7 @@
      "hours": null,
      "source_url": "https://www.city.kitakami.iwate.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -342,7 +304,7 @@
      "hours": null,
      "source_url": "https://www.city.tono.iwate.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -356,7 +318,7 @@
      "hours": null,
      "source_url": "https://www.city.tono.iwate.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -405,7 +367,7 @@
      "hours": null,
      "source_url": "https://www.city.ichinoseki.iwate.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -465,16 +427,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0193-52-0100",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "026-8686",
+     "postal_address": "岩手県釜石市天神町5番20号",
      "hours": null,
      "source_url": "https://www.city.kamaishi.iwate.jp/",
-     "evidence": null,
+     "evidence": "釜石市 法人番号:8000020032…86 岩手県釜石市天神町5番20号 Tel:0193-52-0100(代表)/Fax",
      "note": null
     },
     {
@@ -514,16 +476,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0195-23-3111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "028-6192",
+     "postal_address": "岩手県二戸市福岡字川又47番地",
      "hours": null,
      "source_url": "https://www.city.ninohe.lg.jp/",
-     "evidence": null,
+     "evidence": "〒028-6192 岩手県二戸市福岡字川又47番地 電話:0195-23-3111(代表)",
      "note": null
     },
     {
@@ -539,21 +501,10 @@
      "source_url": "https://www.city.ninohe.lg.jp/menu/21",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "ご意見・お問い合わせ",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.ninohe.lg.jp/forms/contactaccept/edit/div/1",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.ninohe.lg.jp/",
-     "evidence": "リンク「ご意見・お問い合わせ」",
-     "note": "電話番号の掲載なし（フォームで受付）"
     }
+   ],
+   "skipped_types": [
+    "feedback"
    ]
   },
   {
@@ -574,84 +525,22 @@
      "source_url": "https://www.city.hachimantai.lg.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0195-74-2429",
-     "email": null,
-     "form_url": null,
-     "postal_code": "028-7397",
-     "postal_address": "岩手県八幡平市野駄21-170",
-     "hours": null,
-     "source_url": "https://www.city.hachimantai.lg.jp/adv/ba.php?id=70",
-     "evidence": "議会事務局代表 〒028-7397岩手県八幡平市野駄21-170 Tel:0195-74-2429Fax:0195",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "わたしの提言",
-     "phone": null,
-     "email": "kizai@city.hachimantai.lg.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.hachimantai.lg.jp/soshiki/kizai/1734.html",
-     "evidence": "リンク「わたしの提言」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
    "code": "032158",
    "name": "奥州市",
    "official_site": "https://www.city.oshu.iwate.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0197-24-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "023-8501",
-     "postal_address": "岩手県奥州市水沢大手町一丁目1番地",
-     "hours": null,
-     "source_url": "https://www.city.oshu.iwate.jp/",
-     "evidence": "奥州市役所 法人番号6000020032…手県奥州市水沢大手町一丁目1番地 電話番号:0197-24-2111(代表)ファック",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局 議事調査係",
-     "phone": "0197-34-1575",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.oshu.iwate.jp/gikai/4183.html",
-     "evidence": "議会事務局 議事調査係 〒023-8501 岩手県奥州市水沢大手町1-1 電話番号:0197-34-1575",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広聴広報係",
-     "phone": "000-0000-0000",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.oshu.iwate.jp/cgi-bin/inquiry.php/16?page_no=1",
-     "evidence": "広聴広報係へのお問い合わせの表組みです。…電話番号 電話番号を入力してください。(例:000-0000-0000)",
-     "note": null
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -661,30 +550,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "019-684-2111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "020-0692",
+     "postal_address": "岩手県滝沢市中鵜飼55",
      "hours": null,
      "source_url": "https://www.city.takizawa.iwate.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局 議事総務課",
-     "phone": "019-656-6591",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.takizawa.iwate.jp/shigikai",
-     "evidence": "議会事務局 議事総務課 電話 019-656-6591",
+     "evidence": "滝沢市 TAKIZAWA CITY 〒…692 岩手県滝沢市中鵜飼55 代表電話:019-684-2111",
      "note": null
     },
     {
@@ -699,8 +574,11 @@
      "hours": null,
      "source_url": "https://www.city.takizawa.iwate.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -710,16 +588,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "019-692-2111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
+     "postal_code": "020-0595",
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.town.shizukuishi.iwate.jp/",
-     "evidence": null,
+     "evidence": "雫石町 企業広告 ファーム菅久 株式…番地1[→ GoogleMap] TEL(019)692-2111(代表) FAX",
      "note": null
     },
     {
@@ -734,7 +612,7 @@
      "hours": null,
      "source_url": "https://www.town.shizukuishi.iwate.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -748,18 +626,32 @@
      "hours": null,
      "source_url": "https://www.town.shizukuishi.iwate.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
   {
    "code": "033022",
    "name": "葛巻町",
-   "official_site": "https://www.town.kuzumaki.iwate.jp/",
+   "official_site": "https://www.town.kuzumaki.lg.jp/",
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0195-66-2111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "028-5495",
+     "postal_address": "岩手県岩手郡葛巻町葛巻16-1-1",
+     "hours": null,
+     "source_url": "https://www.town.kuzumaki.lg.jp/",
+     "evidence": "葛巻町役場 庁舎のご案内 サイトマップ … 岩手県岩手郡葛巻町葛巻16-1-1TEL:0195-66-2111(代表)FAX:",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -767,13 +659,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.kuzumaki.iwate.jp/",
+     "source_url": "https://www.town.kuzumaki.lg.jp/category/bunya/shigoto/gikai/",
      "evidence": null,
      "note": null
     },
     {
      "type": "feedback",
-     "agent_status": "fetch_failed",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -781,23 +673,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.kuzumaki.iwate.jp/",
+     "source_url": "https://www.town.kuzumaki.lg.jp/",
      "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.kuzumaki.iwate.jp/",
-     "evidence": null,
-     "note": null
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -807,20 +685,6 @@
    "official_site": "https://town.iwate.iwate.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0195-62-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "028-4395",
-     "postal_address": "岩手県岩手郡岩手町大字五日市10-44",
-     "hours": null,
-     "source_url": "https://town.iwate.iwate.jp/",
-     "evidence": "岩手町役場〒028-4395 岩手県岩手郡岩手町大字五日市10-44代表電話:0195-62-2111 FAX:019",
-     "note": null
-    },
-    {
      "type": "assembly",
      "agent_status": "auto_not_found",
      "department": null,
@@ -832,7 +696,7 @@
      "hours": null,
      "source_url": "https://town.iwate.iwate.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -846,8 +710,11 @@
      "hours": null,
      "source_url": "https://town.iwate.iwate.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   }
  ]

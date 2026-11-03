@@ -109,16 +109,16 @@
    {
     "id": "052027-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0185-52-2111",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "016-8501",
+    "postal_address": "秋田県能代市上町1番3号",
     "hours": null,
     "source_url": "https://www.city.noshiro.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -430,17 +430,18 @@
    {
     "id": "052108-feedback",
     "type": "feedback",
-    "department": "広聴・ご意見窓口",
-    "phone": null,
+    "department": "総務部秘書広報課",
+    "phone": "0184-24-6237",
     "email": null,
-    "form_url": null,
+    "form_url": "https://www.city.yurihonjo.lg.jp/cgi-bin/contacts/G1005155000",
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.yurihonjo.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
-    "note": null
+    "source_url": "https://www.city.yurihonjo.lg.jp/1001506/1001553/1001595/1013183.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null,
+    "form_via_page": "お問い合わせは専用フォームをご利用ください"
    },
    {
     "id": "052108-assembly",
@@ -481,31 +482,31 @@
    {
     "id": "052116-feedback",
     "type": "feedback",
-    "department": "広聴・ご意見窓口",
+    "department": "市民の皆さんの声をお聞かせください",
     "phone": null,
     "email": null,
-    "form_url": null,
+    "form_url": "https://www.city.katagami.lg.jp/cgi-bin/inquiry.php/5?page_no=2771",
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.katagami.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.city.katagami.lg.jp/gyosei/machizukuri/2771.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
     "id": "052116-assembly",
     "type": "assembly",
     "department": "議会事務局",
-    "phone": null,
+    "phone": "018-853-5330",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.katagami.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.city.katagami.lg.jp/gyosei/gyoseijoho/shigikai/2847.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -1079,7 +1080,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.hachirogata.akita.jp/",
+    "source_url": "https://www.town.hachirogata.akita.jp/chosei/1001532/index.html",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -1088,15 +1089,15 @@
     "id": "053635-assembly",
     "type": "assembly",
     "department": "議会事務局",
-    "phone": null,
+    "phone": "018-875-5810",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.hachirogata.akita.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.town.hachirogata.akita.jp/madoguchi/1001574.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -1210,16 +1211,16 @@
    {
     "id": "054348-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0187-84-1111",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "019-1541",
+    "postal_address": "秋田県仙北郡美郷町土崎字上野乙170番地10",
     "hours": null,
     "source_url": "https://www.town.misato.akita.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -1261,16 +1262,16 @@
    {
     "id": "054631-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0183-62-2111",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "012-1131",
+    "postal_address": "秋田県雄勝郡羽後町西馬音内字中野177",
     "hours": null,
     "source_url": "https://www.town.ugo.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -1312,17 +1313,17 @@
    {
     "id": "054640-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0182-47-3401",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "019-0801",
+    "postal_address": "秋田県雄勝郡東成瀬村田子内字仙人下30-1",
     "hours": null,
-    "source_url": "https://www.higashinaruse.com/",
-    "verified_at": null,
-    "status": "unverified",
-    "note": "出典の確認待ち"
+    "source_url": "https://vill.higashinaruse.lg.jp/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    },
    {
     "id": "054640-feedback",
@@ -1334,25 +1335,25 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.higashinaruse.com/",
+    "source_url": "https://vill.higashinaruse.lg.jp/",
     "verified_at": null,
     "status": "unverified",
-    "note": "出典の確認待ち"
+    "note": null
    },
    {
     "id": "054640-assembly",
     "type": "assembly",
     "department": "議会事務局",
-    "phone": null,
+    "phone": "0182-47-3411",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.higashinaruse.com/",
-    "verified_at": null,
-    "status": "unverified",
-    "note": "出典の確認待ち"
+    "source_url": "https://vill.higashinaruse.lg.jp/villager/post-35682/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  }

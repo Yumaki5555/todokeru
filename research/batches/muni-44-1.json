@@ -20,99 +20,23 @@
      "hours": null,
      "source_url": "https://www.city.oita.oita.jp/",
      "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局議事課",
-     "phone": "097-537-5645",
-     "email": "gikaigiji@city.oita.oita.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.oita.oita.jp/o186/shigikai/seganchinjo/1341818373163.html",
-     "evidence": "議会事務局議事課 電話番号:(097)537-5645",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務課",
-     "phone": "097-537-5671",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.oita.oita.jp/o029/shisejoho/annai/shinososhiki.html",
-     "evidence": "教育総務課097-537-5671",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "企画部広聴広報課",
-     "phone": "097-537-5601",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.oita.oita.jp/o029/shisejoho/kohokocho/230714uketukezyoukyou.html",
-     "evidence": "企画部広聴広報課 電話番号:(097)537-5601",
-     "note": null
+     "note": "本庁の代表番号を1つに特定できない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
    "code": "442020",
    "name": "別府市",
    "official_site": "https://www.city.beppu.oita.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0977-21-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.beppu.oita.jp/",
-     "evidence": "別府市役所 代表電話 0977-21-1111",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0977-21-1547",
-     "email": "sec-cc@city.beppu.lg.jp",
-     "form_url": null,
-     "postal_code": "874-8511",
-     "postal_address": "大分県別府市上野口町1-15",
-     "hours": null,
-     "source_url": "https://www.city.beppu.oita.jp/gikai/index.html",
-     "evidence": "議会事務局 〒874-8511大分県別府市上野口町1-15 TEL:0977-21-1547 FAX:097",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "別府市へのご意見・お問い合わせ",
-     "phone": null,
-     "email": null,
-     "form_url": "https://logoform.jp/form/ktEY/586850",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.beppu.oita.jp/sisei/kouhou_koutyou/detail181.html",
-     "evidence": "リンク「メールでのご意見・お問い合わせ」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -209,7 +133,7 @@
      "hours": null,
      "source_url": "https://www.city.hita.oita.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -223,7 +147,7 @@
      "hours": null,
      "source_url": "https://www.city.hita.oita.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -234,30 +158,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0972-22-3111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "876-8585",
+     "postal_address": "大分県佐伯市中村南町1-1",
      "hours": null,
      "source_url": "https://www.city.saiki.oita.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0972-22-3643",
-     "email": "gikai@city.saiki.lg.jp",
-     "form_url": null,
-     "postal_code": "876-8585",
-     "postal_address": "大分県佐伯市中村南町1番1号",
-     "hours": null,
-     "source_url": "https://www.city.saiki.oita.jp/gikai/default.html",
-     "evidence": "議会事務局 〒876-8585 大分県佐伯市中村南町1番1号 TEL:0972-22-3643 FAX:097",
+     "evidence": "佐伯市 法人番号 2000020442… 大分県佐伯市中村南町1-1 電話番号:0972-22-3111(代表)0972",
      "note": null
     },
     {
@@ -274,6 +184,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -297,17 +210,31 @@
     },
     {
      "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0972-72-1070",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.usuki.oita.jp/",
-     "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "source_url": "https://www.city.usuki.oita.jp/docs/2014020300550/",
+     "evidence": "議会事務局 TEL:0972-72-1070",
+     "note": null
+    },
+    {
+     "type": "education",
+     "agent_status": "found",
+     "department": "教育総務課",
+     "phone": "0972-72-1071",
+     "email": null,
+     "form_url": null,
+     "postal_code": null,
+     "postal_address": null,
+     "hours": null,
+     "source_url": "https://www.city.usuki.oita.jp/docs/2019022700018/",
+     "evidence": "教育総務課 教育総務 0972-72-1071",
+     "note": null
     },
     {
      "type": "feedback",
@@ -319,9 +246,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.usuki.oita.jp/",
+     "source_url": "https://www.city.usuki.oita.jp/categories/shimin/sodan/teigen/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
    ]
   },
@@ -332,45 +259,45 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0570-01-2934",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "879-2435",
+     "postal_address": "大分県津久見市宮本町20番15号",
      "hours": null,
      "source_url": "https://www.city.tsukumi.oita.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.tsukumi.oita.jp/",
-     "evidence": null,
+     "evidence": "津久見市役所 法人番号100002044… 大分県津久見市宮本町20番15号 Tel:0570-01-2934(代表) Fax",
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0972-82-9518",
      "email": null,
      "form_url": null,
+     "postal_code": "879-2435",
+     "postal_address": "大分県津久見市宮本町20番15号",
+     "hours": null,
+     "source_url": "https://www.city.tsukumi.oita.jp/site/gikai/33622.html",
+     "evidence": "議会事務局 〒879-2435大分県津久見市宮本町20番15号 Tel:0972-82-9518Fax:0972",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "found",
+     "department": "市政へのご意見",
+     "phone": null,
+     "email": null,
+     "form_url": "https://www.city.tsukumi.oita.jp/form/detail.php?sec_sec1=7",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.tsukumi.oita.jp/",
-     "evidence": null,
-     "note": null
+     "source_url": "https://www.city.tsukumi.oita.jp/ques/questionnaire.php?openid=2",
+     "evidence": "リンク「市政へのご意見」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
    ]
   },
@@ -379,34 +306,6 @@
    "name": "竹田市",
    "official_site": "https://www.city.taketa.oita.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0974-63-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "878-8555",
-     "postal_address": "大分県竹田市大字会々1650番地",
-     "hours": null,
-     "source_url": "https://www.city.taketa.oita.jp/",
-     "evidence": "竹田市役所 〒878-8555 大分県竹田市大字会々1650番地 電話番号:0974-63-1111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0974-63-4813",
-     "email": "gikai@city.taketa.lg.jp",
-     "form_url": null,
-     "postal_code": "878-8555",
-     "postal_address": "大分県竹田市大字会々1650番地",
-     "hours": null,
-     "source_url": "https://www.city.taketa.oita.jp/shisei_machizukuri/taketashigikai/index.html",
-     "evidence": "議会事務局 〒878-8555 大分県竹田市大字会々1650番地 電話:0974-63-4813(代表)",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -419,8 +318,12 @@
      "hours": null,
      "source_url": "https://www.city.taketa.oita.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -444,17 +347,17 @@
     },
     {
      "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0978-25-6450",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.bungotakada.oita.jp/",
-     "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "source_url": "https://www.city.bungotakada.oita.jp/site/gikai-subsite/",
+     "evidence": "議会事務局 〒879-0692 大分県豊後高田市是永町39番地3 Tel:0978-25-6450Fax:0978",
+     "note": null
     },
     {
      "type": "feedback",
@@ -466,9 +369,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.bungotakada.oita.jp/",
+     "source_url": "https://www.city.bungotakada.oita.jp/life/4/39/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
    ]
   },
@@ -504,70 +407,21 @@
      "source_url": "https://www.city.kitsuki.lg.jp/shiseimachidukuri/shigikai/index.html",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "秘書広報広聴係",
-     "phone": "0978-62-1800",
-     "email": null,
-     "form_url": "https://www.city.kitsuki.lg.jp/cgi-bin/inquiry.php/148?page_no=8971",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kitsuki.lg.jp/soshiki/1/soumu/jichikihonjourei/8971.html",
-     "evidence": "秘書広報広聴係 〒873-0001 大分県杵築市大字杵築377番地1 電話番号:0978-62-1800",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "feedback"
    ]
   },
   {
    "code": "442119",
    "name": "宇佐市",
    "official_site": "https://www.city.usa.oita.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0978-32-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "879-0492",
-     "postal_address": "大分県宇佐市大字上田1030番地の1",
-     "hours": null,
-     "source_url": "https://www.city.usa.oita.jp/",
-     "evidence": "宇佐市役所 法人番号4000020442…宇佐市大字上田1030番地の1 電話番号 :0978-32-1111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局 議事係",
-     "phone": "0978-27-8204",
-     "email": null,
-     "form_url": null,
-     "postal_code": "879-0492",
-     "postal_address": "大分県宇佐市大字上田1030番地の1 本庁舎4階",
-     "hours": null,
-     "source_url": "https://www.city.usa.oita.jp/sougo/soshiki/20/gikai/index.html",
-     "evidence": "議会事務局 議事係 〒879-0492 大分県宇佐市大字上田1030番地の1 本庁舎4階 電話番号:0978-27-8204",
-     "note": "同じ組織のほかの番号：0978-32-2328"
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報広聴係",
-     "phone": "0978-27-8106",
-     "email": null,
-     "form_url": "https://www.city.usa.oita.jp/cgi-bin/inquiry.php/2?page_no=11324",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.usa.oita.jp/sougo/soudan/11324.html",
-     "evidence": "広報広聴係 〒879-0492 大分県宇…田1030番地の1 本庁舎3階 電話番号:0978-27-8106",
-     "note": null
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -625,20 +479,6 @@
    "official_site": "https://www.city.yufu.oita.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "097-582-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.yufu.oita.jp/",
-     "evidence": "本庁舎 〒879-5498 大分県由布市庄内町柿原302番地 TEL: 097-582-1111(代表)",
-     "note": null
-    },
-    {
      "type": "assembly",
      "agent_status": "auto_not_found",
      "department": null,
@@ -666,55 +506,20 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
    "code": "442143",
    "name": "国東市",
    "official_site": "https://www.city.kunisaki.oita.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0978-72-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "873-0503",
-     "postal_address": "大分県国東市国東町鶴川149番地",
-     "hours": null,
-     "source_url": "https://www.city.kunisaki.oita.jp/",
-     "evidence": "国東市役所 法人番号4000020442…で(祝日・休日・年末年始を除く) 電話番号:0978-72-1111(代表)ファクス",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0978-72-5196",
-     "email": null,
-     "form_url": null,
-     "postal_code": "873-0503",
-     "postal_address": "大分県国東市国東町鶴川149番地",
-     "hours": null,
-     "source_url": "https://www.city.kunisaki.oita.jp/site/gikai/",
-     "evidence": "議会事務局 〒873-0503大分県国東市国東町鶴川149番地 (本庁舎4階) 庶務係 Tel:0978-72-5196",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報・広聴",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.kunisaki.oita.jp/soshiki/catv/otoiawase.html",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.kunisaki.oita.jp/life/4/23/",
-     "evidence": "リンク「広報・広聴」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -762,7 +567,7 @@
      "hours": null,
      "source_url": "https://www.himeshima.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -771,20 +576,6 @@
    "name": "日出町",
    "official_site": "https://www.town.hiji.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0977-73-3111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "879-1592",
-     "postal_address": "大分県速見郡日出町2974番地1",
-     "hours": null,
-     "source_url": "https://www.town.hiji.lg.jp/",
-     "evidence": "日出町役場 〒879-1592 大分県速見郡日出町2974番地1 電話番号:0977-73-3111(代表)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -811,8 +602,11 @@
      "hours": null,
      "source_url": "https://www.town.hiji.lg.jp/kurashi_tetsuzuki/otoiawase.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -822,30 +616,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0973-76-2111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.town.kokonoe.oita.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0973-76-3814",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.kokonoe.oita.jp/docs/2016122100380/",
-     "evidence": "議会事務局・監査事務局 TEL:0973-76-3814",
+     "evidence": "九重町役場 〒879-4895 大分県玖珠郡九重町大字後野上8-1 TEL:0973-76-2111",
      "note": null
     },
     {
@@ -862,6 +642,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {

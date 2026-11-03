@@ -57,17 +57,17 @@
    {
     "id": "312011-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0857-22-8111",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.tottori.lg.jp/www/index.html",
-    "verified_at": null,
-    "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "source_url": "https://www.city.tottori.lg.jp/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    },
    {
     "id": "312011-feedback",
@@ -79,25 +79,40 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.tottori.lg.jp/www/index.html",
+    "source_url": "https://www.city.tottori.lg.jp/site/shiseiteian/",
     "verified_at": null,
     "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "note": null
    },
    {
     "id": "312011-assembly",
     "type": "assembly",
-    "department": "議会事務局",
-    "phone": null,
+    "department": "市議会市議会事務局議事係",
+    "phone": "0857-30-8444",
+    "email": null,
+    "form_url": null,
+    "postal_code": "680-8571",
+    "postal_address": "鳥取市幸町71番地",
+    "hours": null,
+    "source_url": "https://www.city.tottori.lg.jp/site/shigikai/6343.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
+   },
+   {
+    "id": "312011-education",
+    "type": "education",
+    "department": "教育委員会教育総務課総務係",
+    "phone": "0857-30-8403",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.tottori.lg.jp/www/index.html",
-    "verified_at": null,
-    "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "source_url": "https://www.city.tottori.lg.jp/page/51152.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -215,6 +230,21 @@
     "verified_at": "2026-11-03",
     "status": "verified",
     "note": null
+   },
+   {
+    "id": "312037-education",
+    "type": "education",
+    "department": "教育総務課",
+    "phone": "0858-22-8165",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.city.kurayoshi.lg.jp/1243.htm",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  },
@@ -276,7 +306,7 @@
    {
     "id": "313025-general",
     "type": "general",
-    "department": "代表窓口",
+    "department": "代表電話",
     "phone": null,
     "email": null,
     "form_url": null,
@@ -597,16 +627,16 @@
    {
     "id": "313718-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0858-52-2111",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "689-2392",
+    "postal_address": "鳥取県東伯郡琴浦町大字徳万591-2",
     "hours": null,
     "source_url": "https://www.town.kotoura.tottori.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -663,14 +693,14 @@
    {
     "id": "313726-feedback",
     "type": "feedback",
-    "department": "広聴・ご意見窓口",
+    "department": "町民の声への対応状況 (公表)",
     "phone": null,
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.e-hokuei.net/",
+    "source_url": "https://www.e-hokuei.net/soshiki/4/1277.html",
     "verified_at": null,
     "status": "unverified",
     "note": "出典の確認待ち"
@@ -699,7 +729,7 @@
    {
     "id": "313840-general",
     "type": "general",
-    "department": "代表窓口",
+    "department": "代表電話",
     "phone": null,
     "email": null,
     "form_url": null,
@@ -801,16 +831,16 @@
    {
     "id": "313891-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0859-66-3112",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "683-0351",
+    "postal_address": "鳥取県西伯郡南部町法勝寺377-1",
     "hours": null,
     "source_url": "https://www.town.nanbu.tottori.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -852,7 +882,7 @@
    {
     "id": "313904-general",
     "type": "general",
-    "department": "代表窓口",
+    "department": "代表電話",
     "phone": null,
     "email": null,
     "form_url": null,
@@ -874,7 +904,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.houki-town.jp/",
+    "source_url": "https://www.houki-town.jp/new1/chousei/g866/",
     "verified_at": null,
     "status": "unverified",
     "note": "出典の確認待ち"
@@ -954,16 +984,16 @@
    {
     "id": "314021-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0859-72-0331",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "689-4503",
+    "postal_address": "鳥取県",
     "hours": null,
     "source_url": "https://www.town.hino.tottori.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {

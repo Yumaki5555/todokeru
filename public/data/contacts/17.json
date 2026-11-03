@@ -57,16 +57,16 @@
    {
     "id": "172014-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "076-220-2111",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "920-8577",
+    "postal_address": "金沢市広坂1-1-1",
     "hours": null,
     "source_url": "https://www4.city.kanazawa.lg.jp/index.html",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -240,16 +240,16 @@
    {
     "id": "172049-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0768-22-2211",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "928-8525",
+    "postal_address": "石川県輪島市二ツ屋町2字29番地",
     "hours": null,
     "source_url": "https://www.city.wajima.ishikawa.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -306,16 +306,16 @@
    {
     "id": "172057-feedback",
     "type": "feedback",
-    "department": "広聴・ご意見窓口",
+    "department": "ご意見・お問い合わせ",
     "phone": null,
     "email": null,
-    "form_url": null,
+    "form_url": "https://www.city.suzu.lg.jp/form/detail.php?sec_sec1=2",
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.suzu.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.city.suzu.lg.jp/life/3/28/152/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -364,7 +364,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.kaga.ishikawa.jp/",
+    "source_url": "https://www.city.kaga.ishikawa.jp/shisei_gikai/koho_kocho/index.html",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -430,7 +430,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.hakui.lg.jp/",
+    "source_url": "https://www.city.hakui.lg.jp/soshiki/gikai/index.html",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -459,16 +459,16 @@
    {
     "id": "172090-feedback",
     "type": "feedback",
-    "department": "広聴・ご意見窓口",
-    "phone": null,
+    "department": "広報広聴室",
+    "phone": "076-283-7112",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.kahoku.lg.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.city.kahoku.lg.jp/soshiki/100000/100410/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -546,16 +546,16 @@
    {
     "id": "172111-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0761-58-1111",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "923-1297",
+    "postal_address": "石川県能美市来丸町1110番地",
     "hours": null,
-    "source_url": "https://www.city.nomi.ishikawa.jp/www/index.html",
-    "verified_at": null,
-    "status": "unverified",
+    "source_url": "https://www.city.nomi.lg.jp/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -568,7 +568,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.nomi.ishikawa.jp/www/index.html",
+    "source_url": "https://www.city.nomi.lg.jp/inquiry/",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -583,7 +583,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.city.nomi.ishikawa.jp/www/index.html",
+    "source_url": "https://www.city.nomi.lg.jp/shisei/gikai/",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -648,16 +648,16 @@
    {
     "id": "173240-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "076-277-1111",
     "email": null,
     "form_url": null,
     "postal_code": null,
     "postal_address": null,
     "hours": null,
     "source_url": "https://www.town.kawakita.ishikawa.jp/",
-    "verified_at": null,
-    "status": "unverified",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    },
    {
@@ -688,6 +688,21 @@
     "source_url": null,
     "verified_at": null,
     "status": "unverified",
+    "note": null
+   },
+   {
+    "id": "173240-education",
+    "type": "education",
+    "department": "教育委員会",
+    "phone": "076-277-1151",
+    "email": null,
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.kawakita.ishikawa.jp/gyosei1/kyouiku/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
     "note": null
    }
   ]
@@ -823,7 +838,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.shika.lg.jp/",
+    "source_url": "https://www.town.shika.lg.jp/life/7/25/",
     "verified_at": null,
     "status": "unverified",
     "note": null
@@ -889,7 +904,7 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.hodatsushimizu.jp/",
+    "source_url": "https://www.hodatsushimizu.jp/soshiki/gikaijimukyoku/644.html",
     "verified_at": null,
     "status": "unverified",
     "note": "出典の確認待ち"
@@ -1005,17 +1020,17 @@
    {
     "id": "174637-general",
     "type": "general",
-    "department": "代表窓口",
-    "phone": null,
+    "department": "代表電話",
+    "phone": "0768-62-1000",
     "email": null,
     "form_url": null,
-    "postal_code": null,
-    "postal_address": null,
+    "postal_code": "927-0492",
+    "postal_address": "石川県鳳珠郡能登町宇出津ト字50番地1",
     "hours": null,
-    "source_url": "https://www.town.noto.lg.jp/www/total_top.jsp",
-    "verified_at": null,
-    "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "source_url": "https://www.town.noto.lg.jp/",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    },
    {
     "id": "174637-feedback",
@@ -1027,10 +1042,10 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.noto.lg.jp/www/total_top.jsp",
+    "source_url": "https://www.town.noto.lg.jp/",
     "verified_at": null,
     "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "note": null
    },
    {
     "id": "174637-assembly",
@@ -1042,10 +1057,25 @@
     "postal_code": null,
     "postal_address": null,
     "hours": null,
-    "source_url": "https://www.town.noto.lg.jp/www/total_top.jsp",
+    "source_url": "https://www.town.noto.lg.jp/chosei/gikai/index.html",
     "verified_at": null,
     "status": "unverified",
-    "note": "出典ページを自動で開けなかったため未確認"
+    "note": null
+   },
+   {
+    "id": "174637-education",
+    "type": "education",
+    "department": "教育委員会",
+    "phone": "0768-62-8537",
+    "email": "kyouikuiinkai@town.noto.lg.jp",
+    "form_url": null,
+    "postal_code": null,
+    "postal_address": null,
+    "hours": null,
+    "source_url": "https://www.town.noto.lg.jp/kakuka/1012/gyomu/kyouikufront/index.html",
+    "verified_at": "2026-11-03",
+    "status": "verified",
+    "note": null
    }
   ]
  }

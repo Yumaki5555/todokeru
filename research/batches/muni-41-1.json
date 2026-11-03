@@ -10,46 +10,22 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0952-24-3151",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
      "source_url": "https://www.city.saga.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0952-40-7310",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.saga.lg.jp/shisei/sagashioshiru/8/380.html",
-     "evidence": "議会事務局 0952-40-7310",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広聴係",
-     "phone": "0952-40-7024",
-     "email": null,
-     "form_url": "https://www.city.saga.lg.jp/cgi-bin/inquiry.php/16?page_no=1452",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.saga.lg.jp/shisei/koho-kocho/2/2/1452.html",
-     "evidence": "広聴係 〒840-8501 佐賀市栄町1番1号 本庁2階 電話:0952-40-7024",
+     "evidence": "佐賀市 SAGA City 〒840-8501 佐賀市栄町1番1号 電話番号:0952-24-3151(代表)",
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -70,35 +46,11 @@
      "source_url": "https://www.city.karatsu.lg.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0955-72-9162",
-     "email": null,
-     "form_url": null,
-     "postal_code": "847-8511",
-     "postal_address": "佐賀県唐津市西城内1番1号",
-     "hours": null,
-     "source_url": "https://www.city.karatsu.lg.jp/site/shigikai/",
-     "evidence": "議会事務局 〒847-8511 佐賀県唐津市西城内1番1号 電話:0955-72-9162",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "総合政策部広聴広報課",
-     "phone": "0955-72-9189",
-     "email": null,
-     "form_url": "https://www.city.karatsu.lg.jp/form/detail.php?sec_sec1=5&lif_id=41843",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.karatsu.lg.jp/site/ikenbako/",
-     "evidence": "総合政策部広聴広報課代表 〒847-8511佐賀県唐津市西城内1番1号 Tel:0955-72-9189Fax:0955",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -119,35 +71,11 @@
      "source_url": "https://www.city.tosu.lg.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局議事調査係",
-     "phone": "0942-85-3612",
-     "email": null,
-     "form_url": null,
-     "postal_code": "841-8511",
-     "postal_address": "佐賀県鳥栖市宿町1118番地",
-     "hours": null,
-     "source_url": "https://www.city.tosu.lg.jp/site/assembly/",
-     "evidence": "議会事務局議事調査係 〒841-8511 佐賀県鳥栖市宿町1118番地Tel:0942-85-3612Fax:0942",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報・広聴",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.tosu.lg.jp/form/detail.php?sec_sec1=7",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.tosu.lg.jp/life/6/28/",
-     "evidence": "リンク「広報・広聴」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -157,30 +85,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0952-75-2111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "846-8501",
+     "postal_address": "佐賀県多久市北多久町大字小侍7-1",
      "hours": null,
      "source_url": "https://www.city.taku.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局議事係",
-     "phone": "0952-75-4828",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.taku.lg.jp/site/parliament/23072.html",
-     "evidence": "議会事務局議事係 佐賀県多久市北多久町大字小侍7-1 Tel:0952-75-4828Fax:0952",
+     "evidence": "46-8501 佐賀県多久市北多久町大字小侍7-1 Tel:0952-75-2111(代表)",
      "note": null
     },
     {
@@ -197,44 +111,47 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
    "code": "412058",
    "name": "伊万里市",
-   "official_site": "https://www.city.imari.saga.jp/",
+   "official_site": "https://www.city.imari.lg.jp/",
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0955-23-2111",
      "email": null,
      "form_url": null,
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.imari.saga.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.imari.saga.jp/",
-     "evidence": null,
+     "source_url": "https://www.city.imari.lg.jp/",
+     "evidence": "伊万里市役所 法人番号 10000204…番地1 TEL 0955-23-21110955-23-2111(代表)",
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0955-23-2594",
+     "email": "gikai@city.imari.lg.jp",
+     "form_url": null,
+     "postal_code": "848-8501",
+     "postal_address": "佐賀県伊万里市立花町1355番地1",
+     "hours": null,
+     "source_url": "https://www.city.imari.lg.jp/gikai/",
+     "evidence": "議会事務局 所在地/〒848-8501 佐賀県伊万里市立花町1355番地1 電話番号/0955-23-2594 電話番号/09",
+     "note": null
+    },
+    {
+     "type": "feedback",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -242,7 +159,7 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.city.imari.saga.jp/",
+     "source_url": "https://www.city.imari.lg.jp/4156.htm",
      "evidence": null,
      "note": null
     }
@@ -255,16 +172,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0954-23-9111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "843-8639",
+     "postal_address": "佐賀県武雄市武雄町大字昭和12番地10",
      "hours": null,
      "source_url": "https://www.city.takeo.lg.jp/",
-     "evidence": null,
+     "evidence": "武雄市役所 〒843-8639 佐賀県武雄市武雄町大字昭和12番地10 電話:0954-23-9111 FAX:095",
      "note": null
     },
     {
@@ -279,7 +196,7 @@
      "hours": null,
      "source_url": "https://www.city.takeo.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -293,7 +210,7 @@
      "hours": null,
      "source_url": "https://www.city.takeo.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -303,34 +220,6 @@
    "official_site": "https://www.city.saga-kashima.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0954-63-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.saga-kashima.lg.jp/",
-     "evidence": "鹿島市役所 〒849-1312 鹿島市大字納富分2643番地1 TEL:0954-63-2111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0954-63-2104",
-     "email": null,
-     "form_url": null,
-     "postal_code": "849-1312",
-     "postal_address": "佐賀県鹿島市大字納富分2643番地1",
-     "hours": null,
-     "source_url": "https://www.city.saga-kashima.lg.jp/main/382.html",
-     "evidence": "議会事務局 〒849-1312 佐賀県鹿島市大字納富分2643番地1 電話:0954-63-2104 ファックス:0",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -342,8 +231,12 @@
      "hours": null,
      "source_url": "https://www.city.saga-kashima.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -351,20 +244,6 @@
    "name": "小城市",
    "official_site": "https://www.city.ogi.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0952-37-6111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.ogi.lg.jp/",
-     "evidence": "小城市役所 〒845-8511 佐賀県…312番地2 小城市へのアクセス 電話番号:0952-37-6111(代表)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "fetch_failed",
@@ -393,6 +272,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -400,48 +282,6 @@
    "name": "嬉野市",
    "official_site": "https://www.city.ureshino.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0954-43-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "843-0392",
-     "postal_address": "佐賀県嬉野市嬉野町大字下宿乙1185番地",
-     "hours": null,
-     "source_url": "https://www.city.ureshino.lg.jp/",
-     "evidence": "市役所庁舎案内 問い合わせ窓口一覧 〒…嬉野町大字下宿乙1185番地 電話番号 : 0954-43-1111(代表) FAX",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0954-27-7354",
-     "email": "gikai@city.ureshino.lg.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.ureshino.lg.jp/gikai.html",
-     "evidence": "議会事務局 TEL:0954-27-7354",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務課",
-     "phone": "0954-27-7349",
-     "email": "kyouiku@city.ureshino.lg.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.ureshino.lg.jp/edu.html",
-     "evidence": "教育総務課 TEL:0954-27-7349",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -456,6 +296,10 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -463,34 +307,6 @@
    "name": "神埼市",
    "official_site": "https://www.city.kanzaki.saga.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0952-52-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "842-8601",
-     "postal_address": "佐賀県神埼市神埼町鶴3542番地1",
-     "hours": null,
-     "source_url": "https://www.city.kanzaki.saga.jp/",
-     "evidence": "神埼市役所 〒842-8601 佐賀県神埼市神埼町鶴3542番地1 TEL:0952-52-1111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0952-37-3596",
-     "email": null,
-     "form_url": null,
-     "postal_code": "842-8601",
-     "postal_address": "佐賀県神埼市神埼町鶴3542番地1",
-     "hours": null,
-     "source_url": "https://www.city.kanzaki.saga.jp/main/27.html",
-     "evidence": "議会事務局 〒842-8601 佐賀県神埼市神埼町鶴3542番地1 TEL:0952-37-3596",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -505,6 +321,10 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -538,7 +358,7 @@
      "hours": null,
      "source_url": "https://www.town.yoshinogari.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -552,7 +372,7 @@
      "hours": null,
      "source_url": "https://www.town.yoshinogari.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -563,30 +383,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0942-92-2011",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "841-0204",
+     "postal_address": "佐賀県三養基郡基山町大字宮浦666番地",
      "hours": null,
      "source_url": "https://www.town.kiyama.lg.jp/",
-     "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0942-92-6543",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.kiyama.lg.jp/gikai/default.html",
-     "evidence": "議会事務局 〒841-0204 佐賀県三養基郡基山町大字宮浦666番地 TEL:0942-92-6543 FAX:094",
+     "evidence": "基山町 法人番号10000204134…養基郡基山町大字宮浦666番地 Tel:0942-92-2011(代表・総合案内",
      "note": null
     },
     {
@@ -603,6 +409,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -625,20 +434,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0952-52-2184",
-     "email": "0952-52-4935gikai@town.kamimine.lg.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.kamimine.lg.jp/classset002.html",
-     "evidence": "議会事務局 TEL:0952-52-2184FAX:0952",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -652,6 +447,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -699,7 +497,7 @@
      "hours": null,
      "source_url": "https://www.town.miyaki.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -708,34 +506,6 @@
    "name": "玄海町",
    "official_site": "https://www.town.genkai.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0955-52-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "847-1421",
-     "postal_address": "佐賀県東松浦郡玄海町大字諸浦348番地",
-     "hours": null,
-     "source_url": "https://www.town.genkai.lg.jp/",
-     "evidence": "玄海町役場 〒847-1421 佐賀県東松浦郡玄海町大字諸浦348番地 Tel:0955-52-2111(代表) Fax",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0955-52-2194",
-     "email": null,
-     "form_url": null,
-     "postal_code": "847-1421",
-     "postal_address": "佐賀県東松浦郡玄海町諸浦348番地",
-     "hours": null,
-     "source_url": "https://www.town.genkai.lg.jp/soshiki/12/58723.html",
-     "evidence": "議会事務局 〒847-1421佐賀県東松浦郡玄海町諸浦348番地 代表 Tel:0955-52-2194",
-     "note": null
-    },
     {
      "type": "feedback",
      "agent_status": "auto_not_found",
@@ -748,8 +518,12 @@
      "hours": null,
      "source_url": "https://www.town.genkai.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {
@@ -783,7 +557,7 @@
      "hours": null,
      "source_url": "https://www.town.arita.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -797,7 +571,7 @@
      "hours": null,
      "source_url": "https://www.town.arita.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -819,35 +593,11 @@
      "source_url": "https://www.town.omachi.lg.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "大町町議会",
-     "phone": "0952-82-3159",
-     "email": null,
-     "form_url": null,
-     "postal_code": "849-2101",
-     "postal_address": "佐賀県杵島郡大町町大町5017",
-     "hours": null,
-     "source_url": "https://www.town.omachi.lg.jp/gikai/default.html",
-     "evidence": "議会へのお問い合わせ TEL:0952-82-3159",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "町政へのご意見・ご要望・お問い合わせ",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.town.omachi.lg.jp/dynamic/kosodateijyu/entry/pub/ansform.aspx?c_id=35",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.omachi.lg.jp/list00249.html",
-     "evidence": "リンク「町政へのご意見・ご要望・お問い合わせ」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "feedback"
    ]
   },
   {
@@ -919,20 +669,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0952-84-7126",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.shiroishi.lg.jp/chousei_machi/gikai.html",
-     "evidence": "議会事務局 電話(直通):0952-84-7126",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -944,8 +680,11 @@
      "hours": null,
      "source_url": "https://www.town.shiroishi.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -968,34 +707,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0954-67-2151",
-     "email": null,
-     "form_url": null,
-     "postal_code": "849-1698",
-     "postal_address": "佐賀県藤津郡太良町大字多良1番地6",
-     "hours": null,
-     "source_url": "https://www.town.tara.lg.jp/chosei/_1010.html",
-     "evidence": "議会事務局 〒849-1698 佐賀県藤…多良1番地6(太良町役場 3階) 電話番号:0954-67-2151",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育総務係",
-     "phone": "0954-67-0317",
-     "email": null,
-     "form_url": null,
-     "postal_code": "849-1698",
-     "postal_address": "佐賀県藤津郡太良町大字多良1番地6",
-     "hours": null,
-     "source_url": "https://www.town.tara.lg.jp/ed_web.html",
-     "evidence": "教育総務係 〒849-1698 佐賀県藤…多良1番地6(太良町役場 1階) 電話番号:0954-67-0317",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -1009,6 +720,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   }
  ]

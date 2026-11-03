@@ -46,9 +46,9 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.ubuyama-v.jp/",
+     "source_url": "http://www.ubuyama-v.jp/soshikikarasagasu/kikakushinkoka/koho_kocho/index.html",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": null
     }
    ]
   },
@@ -121,20 +121,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "096-279-4364",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.vill.nishihara.kumamoto.jp/classset002.html",
-     "evidence": "議会事務局 TEL:096-279-4364FAX:096-",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -146,8 +132,11 @@
      "hours": null,
      "source_url": "https://www.vill.nishihara.kumamoto.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -181,7 +170,7 @@
      "hours": null,
      "source_url": "https://www.vill.minamiaso.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -195,7 +184,7 @@
      "hours": null,
      "source_url": "https://www.vill.minamiaso.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -219,34 +208,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "御船町議会",
-     "phone": "096-282-1386",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.mifune.kumamoto.jp/gikai/",
-     "evidence": "議会交際費 会議録 〒861-3…県上益城郡御船町大字御船995-1 TEL:096-282-1386 FAX:096",
-     "note": null
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会",
-     "phone": "096-282-1700",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.mifune.kumamoto.jp/hpkiji/pub/default.aspx?c_id=3&class_set_id=2",
-     "evidence": "教育委員会 TEL:096-282-1700",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -260,6 +221,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -282,33 +246,22 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "096-237-5525",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.kumamoto-kashima.lg.jp/q/aview/130/6379.html",
-     "evidence": "議会事務局 電話番号:096-237-5525 この記事に関す",
-     "note": null
-    },
-    {
      "type": "feedback",
-     "agent_status": "auto_not_found",
-     "department": null,
+     "agent_status": "found",
+     "department": "広報広聴",
      "phone": null,
      "email": null,
-     "form_url": null,
+     "form_url": "https://www.town.kumamoto-kashima.lg.jp/q/sform/",
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.kumamoto-kashima.lg.jp/",
-     "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "source_url": "https://www.town.kumamoto-kashima.lg.jp/q/list/165.html",
+     "evidence": "リンク「広報広聴」",
+     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -366,20 +319,6 @@
    "official_site": "https://www.town.kosa.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "096-234-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "861-4696",
-     "postal_address": "熊本県上益城郡甲佐町大字豊内719番地4",
-     "hours": null,
-     "source_url": "https://www.town.kosa.lg.jp/",
-     "evidence": "甲佐町役場 〒861-4696熊本県上益城郡甲佐町大字豊内719番地4 電話番号 096-234-1111(代表)",
-     "note": null
-    },
-    {
      "type": "assembly",
      "agent_status": "auto_not_found",
      "department": null,
@@ -391,7 +330,7 @@
      "hours": null,
      "source_url": "https://www.town.kosa.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -405,8 +344,11 @@
      "hours": null,
      "source_url": "https://www.town.kosa.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -416,31 +358,31 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0967-72-1111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "861-3592",
+     "postal_address": "熊本県上益城郡山都町浜町6番地",
      "hours": null,
      "source_url": "https://www.town.kumamoto-yamato.lg.jp/",
-     "evidence": null,
+     "evidence": "山都町 法人番号 6000020434…2 熊本県上益城郡山都町浜町6番地 Tel:0967-72-1111(代表)0967",
      "note": null
     },
     {
      "type": "assembly",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "議会事務局",
+     "phone": "0967-72-1289",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "861-3592",
+     "postal_address": "熊本県上益城郡山都町浜町6番地",
      "hours": null,
-     "source_url": "https://www.town.kumamoto-yamato.lg.jp/",
-     "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "source_url": "https://www.town.kumamoto-yamato.lg.jp/gikai/list00560.html",
+     "evidence": "議会事務局 〒861-3592 熊本県上益城郡山都町浜町6番地 電話:0967-72-1289 (直通) FA",
+     "note": null
     },
     {
      "type": "feedback",
@@ -454,7 +396,7 @@
      "hours": null,
      "source_url": "https://www.town.kumamoto-yamato.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -478,20 +420,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "氷川町議会",
-     "phone": "0965-52-5858",
-     "email": null,
-     "form_url": null,
-     "postal_code": "869-4814",
-     "postal_address": "熊本県八代郡氷川町島地642番地",
-     "hours": null,
-     "source_url": "https://www.town.hikawa.kumamoto.jp/gikai/default.html",
-     "evidence": "議会 〒869-4814 熊本県八代郡氷川町島地642番地 TEL:(0965)52-5858 FAX:(09",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -505,6 +433,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -538,7 +469,7 @@
      "hours": null,
      "source_url": "https://www.town.ashikita.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -552,7 +483,7 @@
      "hours": null,
      "source_url": "https://www.town.ashikita.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -563,7 +494,21 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "fetch_failed",
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0966-78-3111",
+     "email": null,
+     "form_url": null,
+     "postal_code": "869-5692",
+     "postal_address": "熊本県葦北郡津奈木町大字小津奈木2123番地",
+     "hours": null,
+     "source_url": "https://www.town.tsunagi.lg.jp/",
+     "evidence": "津奈木町役場 〒869-5692 熊本県葦北郡津奈木町大字小津奈木2123番地 Tel:0966-78-3111",
+     "note": null
+    },
+    {
+     "type": "assembly",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -571,13 +516,13 @@
      "postal_code": null,
      "postal_address": null,
      "hours": null,
-     "source_url": "https://www.town.tsunagi.lg.jp/",
+     "source_url": "https://www.town.tsunagi.lg.jp/hpkiji/pub/List.aspx?c_id=3&class_set_id=1&class_id=619",
      "evidence": null,
      "note": null
     },
     {
      "type": "feedback",
-     "agent_status": "fetch_failed",
+     "agent_status": "auto_not_found",
      "department": null,
      "phone": null,
      "email": null,
@@ -587,21 +532,7 @@
      "hours": null,
      "source_url": "https://www.town.tsunagi.lg.jp/",
      "evidence": null,
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "fetch_failed",
-     "department": null,
-     "phone": null,
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.town.tsunagi.lg.jp/",
-     "evidence": null,
-     "note": null
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -636,7 +567,7 @@
      "hours": null,
      "source_url": "https://www.town.kumamoto-nishiki.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -650,7 +581,7 @@
      "hours": null,
      "source_url": "https://www.town.kumamoto-nishiki.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -685,7 +616,7 @@
      "hours": null,
      "source_url": "https://www.town.taragi.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -699,7 +630,7 @@
      "hours": null,
      "source_url": "https://www.town.taragi.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -723,20 +654,6 @@
      "note": null
     },
     {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局",
-     "phone": "0966-43-4111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "868-0621",
-     "postal_address": "熊本県球磨郡湯前町1989-1",
-     "hours": null,
-     "source_url": "https://www.town.yunomae.lg.jp/gikai/default.html",
-     "evidence": "議会事務局 〒868-0621 熊本県球磨郡湯前町1989-1 Tel:0966-43-4111 Fax:096",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -750,6 +667,9 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly"
    ]
   },
   {
@@ -783,21 +703,7 @@
      "hours": null,
      "source_url": "https://www.vill.mizukami.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
-    },
-    {
-     "type": "education",
-     "agent_status": "found",
-     "department": "教育委員会",
-     "phone": "0966-44-0333",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.vill.mizukami.lg.jp/classset002.html",
-     "evidence": "教育委員会 TEL:0966-44-0333お問い合わせフォ",
-     "note": null
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -811,7 +717,7 @@
      "hours": null,
      "source_url": "https://www.vill.mizukami.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -820,20 +726,6 @@
    "name": "相良村",
    "official_site": "https://www.vill.sagara.lg.jp/",
    "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0966-35-0211",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.vill.sagara.lg.jp/",
-     "evidence": "相良村役場 〒868-8501 熊本県球磨郡相良村大字深水2500-1 電話番号:0966-35-0211(代表)",
-     "note": null
-    },
     {
      "type": "assembly",
      "agent_status": "auto_not_found",
@@ -846,7 +738,7 @@
      "hours": null,
      "source_url": "https://www.vill.sagara.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -860,8 +752,11 @@
      "hours": null,
      "source_url": "https://www.vill.sagara.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
+   ],
+   "skipped_types": [
+    "general"
    ]
   },
   {
@@ -895,7 +790,7 @@
      "hours": null,
      "source_url": "https://www.vill.itsuki.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -909,7 +804,7 @@
      "hours": null,
      "source_url": "https://www.vill.itsuki.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -944,7 +839,7 @@
      "hours": null,
      "source_url": "https://www.vill.yamae.lg.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -958,7 +853,7 @@
      "hours": null,
      "source_url": "https://www.vill.yamae.lg.jp/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -993,7 +888,7 @@
      "hours": null,
      "source_url": "https://www.kumamura.com/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",
@@ -1007,7 +902,7 @@
      "hours": null,
      "source_url": "https://www.kumamura.com/",
      "evidence": null,
-     "note": "トップページに「ご意見」「市民の声」などへのリンクが見つからない"
+     "note": "トップページ・サイトマップに「ご意見」「市民の声」などへのリンクが見つからない"
     }
    ]
   },
@@ -1018,16 +913,16 @@
    "contacts": [
     {
      "type": "general",
-     "agent_status": "auto_not_found",
-     "department": null,
-     "phone": null,
+     "agent_status": "found",
+     "department": "代表電話",
+     "phone": "0966-45-1111",
      "email": null,
      "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
+     "postal_code": "868-0408",
+     "postal_address": "熊本県球磨郡あさぎり町免田東1199番地",
      "hours": null,
      "source_url": "https://www.town.asagiri.lg.jp/",
-     "evidence": null,
+     "evidence": "あさぎり町 法人番号 4000020…磨郡あさぎり町免田東1199番地 電話番号:0966-45-1111(代表)",
      "note": null
     },
     {
@@ -1091,7 +986,7 @@
      "hours": null,
      "source_url": "https://reihoku-kumamoto.jp/",
      "evidence": null,
-     "note": "トップページに「議会」へのリンクが見つからない"
+     "note": "トップページ・サイトマップに「議会」へのリンクが見つからない"
     },
     {
      "type": "feedback",

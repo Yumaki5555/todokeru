@@ -9,20 +9,6 @@
    "official_site": "https://www.city.nagoya.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "052-961-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.nagoya.jp/",
-     "evidence": "名古屋市役所 〒460-8508 愛…屋市中区三の丸三丁目1番1号 代表電話: 052-961-1111",
-     "note": null
-    },
-    {
      "type": "assembly",
      "agent_status": "auto_not_found",
      "department": null,
@@ -35,21 +21,11 @@
      "source_url": "https://www.city.nagoya.jp/shikai/index.html",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広聴担当",
-     "phone": "052-972-3139",
-     "email": "a3139@sportsshimin.city.nagoya.lg.jp",
-     "form_url": null,
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.nagoya.jp/shisei/kouchou/1028241/index.html",
-     "evidence": "広聴担当 電話番号:052-972-3139 ファクス番号:",
-     "note": null
     }
+   ],
+   "skipped_types": [
+    "feedback",
+    "general"
    ]
   },
   {
@@ -154,49 +130,11 @@
    "code": "232033",
    "name": "一宮市",
    "official_site": "https://www.city.ichinomiya.aichi.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0586-28-8100",
-     "email": null,
-     "form_url": null,
-     "postal_code": "491-8501",
-     "postal_address": "愛知県一宮市本町2丁目5番6号",
-     "hours": null,
-     "source_url": "https://www.city.ichinomiya.aichi.jp/",
-     "evidence": "一宮市役所 法人番号:300002023…愛知県一宮市本町2丁目5番6号 代表電話:0586-28-8100 (窓口・電話対",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会局総務課",
-     "phone": "0586-28-9138",
-     "email": null,
-     "form_url": null,
-     "postal_code": "491-8501",
-     "postal_address": "愛知県一宮市本町2丁目5番6号 一宮市役所本庁舎12階",
-     "hours": null,
-     "source_url": "https://www.city.ichinomiya.aichi.jp/shigikai/index.html",
-     "evidence": "議会局総務課 〒491-8501 愛知…目5番6号 一宮市役所本庁舎12階 電話:0586-28-9138",
-     "note": "同じ組織のほかの番号：0586-28-9139"
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報課",
-     "phone": "0586-28-8951",
-     "email": null,
-     "form_url": "https://www.city.ichinomiya.aichi.jp/cgi-bin/contacts/g10051030",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.ichinomiya.aichi.jp/about/mail.html",
-     "evidence": "広報課 〒491-8501 愛知県一宮…丁目5番6号 一宮市役所本庁舎6階 電話:0586-28-8951",
-     "note": null
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -574,21 +512,10 @@
      "source_url": "https://toyota-shigikai.jp/",
      "evidence": null,
      "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "市へのご意見・お問合せ",
-     "phone": null,
-     "email": null,
-     "form_url": "https://www.city.toyota.aichi.jp/cgi-bin/contacts/az05",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.toyota.aichi.jp/iken/index.html",
-     "evidence": "リンク「市へのご意見・お問合せ」",
-     "note": "電話番号の掲載なし（フォーム・メールで受付）"
     }
+   ],
+   "skipped_types": [
+    "feedback"
    ]
   },
   {
@@ -644,49 +571,11 @@
    "code": "232131",
    "name": "西尾市",
    "official_site": "https://www.city.nishio.aichi.jp/",
-   "contacts": [
-    {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0563-56-2111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "445-8501",
-     "postal_address": "愛知県西尾市寄住町下田22番地",
-     "hours": null,
-     "source_url": "https://www.city.nishio.aichi.jp/",
-     "evidence": "西尾市役所 〒445-8501 愛知県西尾市寄住町下田22番地 代表電話:0563-56-2111",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "議会事務局 議事課",
-     "phone": "0563-65-2182",
-     "email": null,
-     "form_url": null,
-     "postal_code": "445-8501",
-     "postal_address": "西尾市寄住町下田22番地",
-     "hours": null,
-     "source_url": "https://www.city.nishio.aichi.jp/gikai/nittei/1004369.html",
-     "evidence": "議会事務局 議事課 〒445-8501 西尾市寄住町下田22番地 電話 議事:0563-65-2182",
-     "note": null
-    },
-    {
-     "type": "feedback",
-     "agent_status": "found",
-     "department": "広報広聴課",
-     "phone": "0563-65-2159",
-     "email": null,
-     "form_url": "https://www.city.nishio.aichi.jp/cgi-bin/contacts/G110019",
-     "postal_code": null,
-     "postal_address": null,
-     "hours": null,
-     "source_url": "https://www.city.nishio.aichi.jp/shisei/kocho/1001530/1003548.html",
-     "evidence": "広報広聴課 〒445-8501 西尾市寄住町下田22番地 電話 広報・広聴:0563-65-2159",
-     "note": null
-    }
+   "contacts": [],
+   "skipped_types": [
+    "assembly",
+    "feedback",
+    "general"
    ]
   },
   {
@@ -989,34 +878,6 @@
    "official_site": "https://www.city.shinshiro.lg.jp/",
    "contacts": [
     {
-     "type": "general",
-     "agent_status": "found",
-     "department": "代表電話",
-     "phone": "0536-23-1111",
-     "email": null,
-     "form_url": null,
-     "postal_code": "441-1392",
-     "postal_address": "愛知県新城市字東入船115番地",
-     "hours": null,
-     "source_url": "https://www.city.shinshiro.lg.jp/",
-     "evidence": "新城市役所 法人番号7000020232…92愛知県新城市字東入船115番地 電話番号0536-23-1111(代表)",
-     "note": null
-    },
-    {
-     "type": "assembly",
-     "agent_status": "found",
-     "department": "新城市議会",
-     "phone": "0536-23-7657",
-     "email": null,
-     "form_url": null,
-     "postal_code": "441-1392",
-     "postal_address": "愛知県新城市字東入船115番地",
-     "hours": null,
-     "source_url": "https://www.city.shinshiro.lg.jp/shigikai/index.html",
-     "evidence": "議会 法人番号7000020232211…92愛知県新城市字東入船115番地 電話番号0536-23-7657",
-     "note": null
-    },
-    {
      "type": "feedback",
      "agent_status": "auto_not_found",
      "department": null,
@@ -1030,6 +891,10 @@
      "evidence": null,
      "note": null
     }
+   ],
+   "skipped_types": [
+    "assembly",
+    "general"
    ]
   },
   {

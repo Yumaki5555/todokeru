@@ -75,10 +75,117 @@ const hostOf = (u) => {
 };
 const isHttps = (u) => typeof u === 'string' && /^https:\/\//.test(u) && hostOf(u) !== '';
 
-// ---- ページを開く（同じ URL は1回だけ。サイトに負担をかけないよう、同じサイトへは間をあける） ----
+// ---- ページを開く（同じ URL は1回だけ。巡回ルールは todokeru_tools/02_collect_candidates.py の Client と同じ） ----
+//   robots.txt（RFC 9309）を守る・同じサイトへは前の取得が終わってから 1.5秒以上（Crawl-delay があればその秒数）あける・
+//   401/403/429/503 が返ったらそのサイトはその回はやめる・転送は自分でたどり、行き先ごとに同じ確認をする
 const pageCache = new Map();
 const lastHit = new Map();
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const UA_TOKEN = 'todokerupubliccontactresearch';
+const MIN_GAP_MS = 1500;
+const MAX_CRAWL_DELAY = 600; // これより長い Crawl-delay（秒）のサイトは取りに行かない
+const STOP_CODES = new Set([401, 403, 429, 503]);
+const robotsCache = new Map(); // origin → 判定 | false（制限なし）| null（確かめられない＝取りに行かない）
+const stopped = new Map(); // host → 断られたときの HTTP 状態
+const safeDecode = (s) => {
+  try {
+    return decodeURIComponent(s);
+  } catch {
+    return s;
+  }
+};
+
+// robots.txt の読み方：空行では区切らない・* と $ が使える・いちばん長く一致した指定に従う（同じ長さなら許可）
+function parseRobots(text) {
+  const groups = [];
+  let cur = null;
+  let uaRun = false;
+  for (const raw of text.replace(/^﻿/, '').split(/\r\n|\r|\n/)) {
+    const line = raw.split('#')[0].trim();
+    const i = line.indexOf(':');
+    if (i < 0) continue;
+    const k = line.slice(0, i).trim().toLowerCase();
+    const v = line.slice(i + 1).trim();
+    if (k === 'user-agent' || k === 'useragent') {
+      if (!uaRun) groups.push((cur = { ua: new Set(), rules: [], delay: null }));
+      cur.ua.add(v.split('/')[0].trim().toLowerCase());
+      uaRun = true;
+    } else if (cur) {
+      uaRun = false;
+      if ((k === 'allow' || k === 'disallow') && v) {
+        const pat = safeDecode(v);
+        const end = pat.endsWith('$');
+        const body = (end ? pat.slice(0, -1) : pat).replace(/[.+?^${}()|[\]\\]/g, '\\$&').replace(/\*/g, '.*');
+        cur.rules.push({ allow: k === 'allow', n: pat.length, rx: new RegExp('^' + body + (end ? '$' : ''), 's') });
+      } else if (k === 'crawl-delay' && v !== '' && Number.isFinite(Number(v))) cur.delay = Math.max(cur.delay ?? 0, Number(v));
+    }
+  }
+  let mine = groups.filter((g) => g.ua.has(UA_TOKEN));
+  if (!mine.length) mine = groups.filter((g) => g.ua.has('*'));
+  return { rules: mine.flatMap((g) => g.rules), delay: Math.max(0, ...mine.map((g) => g.delay ?? 0)) };
+}
+function robotsAllows(robots, url) {
+  const u = new URL(url);
+  const path = safeDecode(u.pathname + u.search);
+  if (path === '/robots.txt') return true;
+  let best = null;
+  for (const r of robots.rules) if (r.rx.test(path) && (!best || r.n > best.n || (r.n === best.n && r.allow))) best = r;
+  return !best || best.allow;
+}
+async function politeWait(url) {
+  const r = robotsCache.get(new URL(url).origin);
+  const wait = (lastHit.get(hostOf(url)) || 0) + Math.max(MIN_GAP_MS, (r ? r.delay : 0) * 1000) - Date.now();
+  if (wait > 0) await sleep(wait);
+}
+async function crawlBlock(url) {
+  const host = hostOf(url);
+  if (stopped.has(host)) return `同じサイトに断られたため中止（HTTP ${stopped.get(host)}）`;
+  const origin = new URL(url).origin;
+  if (!robotsCache.has(origin)) {
+    await politeWait(url);
+    let v = null;
+    try {
+      const r = await fetch(origin + '/robots.txt', { headers: HEADERS, redirect: 'follow', signal: AbortSignal.timeout(10000) });
+      // robots.txt が 4xx（無い・閲覧不可）なら制限なし、5xx・通信失敗は全部だめ（RFC 9309 2.3.1.3・2.3.1.4）
+      if (r.ok) v = parseRobots((await r.text()).slice(0, 500000));
+      else if (r.status >= 400 && r.status < 500) v = false;
+    } catch {
+      v = null;
+    }
+    lastHit.set(host, Date.now());
+    robotsCache.set(origin, v);
+  }
+  const robots = robotsCache.get(origin);
+  if (robots === null) return 'robots.txt を確かめられないため取得しない';
+  if (robots && !robotsAllows(robots, url)) return 'robots.txt で自動取得が禁止されている';
+  if (robots && robots.delay > MAX_CRAWL_DELAY) return `robots.txt の間隔指定が長すぎる（${robots.delay}秒）`;
+  return null;
+}
+// 取得できたら { status, ok, ct, buf, finalUrl }、ルールで取りに行かないときは { blocked: 理由 }
+async function politeFetch(url) {
+  for (let hop = 0; hop <= 5; hop++) {
+    const why = await crawlBlock(url);
+    if (why) return { blocked: why };
+    await politeWait(url);
+    const host = hostOf(url);
+    try {
+      const r = await fetch(url, { headers: HEADERS, redirect: 'manual', signal: AbortSignal.timeout(25000) });
+      const loc = r.status >= 300 && r.status < 400 ? r.headers.get('location') : null;
+      const ct = r.headers.get('content-type') || '';
+      if (STOP_CODES.has(r.status)) stopped.set(host, r.status);
+      const buf = !loc && !/pdf/i.test(ct) ? new Uint8Array(await r.arrayBuffer()) : null;
+      if (!buf) await r.body?.cancel();
+      if (loc) {
+        url = new URL(loc, url).href;
+        continue;
+      }
+      return { status: r.status, ok: r.ok, ct, buf, finalUrl: url };
+    } finally {
+      lastHit.set(host, Date.now());
+    }
+  }
+  return { blocked: '転送が多すぎる' };
+}
 
 function decode(buf, contentType) {
   let cs = /charset=([\w-]+)/i.exec(contentType || '')?.[1];
@@ -95,25 +202,17 @@ function decode(buf, contentType) {
   }
 }
 
-const HEADERS = { 'user-agent': 'Mozilla/5.0 (compatible; todokeru-contact-check/1.0; +https://yumaki5555.github.io/todokeru/)', 'accept-language': 'ja' };
+const HEADERS = { 'user-agent': 'Mozilla/5.0 (compatible; TodokeruPublicContactResearch/1.0; +https://yumaki5555.github.io/todokeru/)', 'accept-language': 'ja' };
 async function fetchPage(url) {
   if (pageCache.has(url)) return pageCache.get(url);
   const job = (async () => {
-    const host = hostOf(url);
-    const wait = (lastHit.get(host) || 0) + 800 - Date.now();
-    if (wait > 0) await sleep(wait);
-    lastHit.set(host, Date.now());
     try {
-      const r = await fetch(url, {
-        headers: HEADERS,
-        redirect: 'follow',
-        signal: AbortSignal.timeout(25000),
-      });
-      const ct = r.headers.get('content-type') || '';
+      const r = await politeFetch(url);
+      if (r.blocked) return { ok: false, error: r.blocked };
       if (!r.ok) return { ok: false, error: `HTTP ${r.status}` };
-      if (/pdf/i.test(ct)) return { ok: false, error: 'PDF のため自動照合できない' };
-      const raw = decode(new Uint8Array(await r.arrayBuffer()), ct);
-      return { ok: true, raw, text: toText(raw), finalUrl: r.url };
+      if (/pdf/i.test(r.ct)) return { ok: false, error: 'PDF のため自動照合できない' };
+      const raw = decode(r.buf, r.ct);
+      return { ok: true, raw, text: toText(raw), finalUrl: r.finalUrl };
     } catch (e) {
       return { ok: false, error: e.name === 'TimeoutError' ? 'タイムアウト' : String(e.message || e) };
     }
@@ -185,24 +284,25 @@ async function formOk(formUrl, sourceUrl, page) {
 async function formViaPage(formUrl, page) {
   const u = new URL(formUrl);
   if (!u.pathname.includes('/cgi-bin/')) return null; // この仕組みのフォームは /cgi-bin/enquetes/・/cgi-bin/contacts/ にある
-  const host = hostOf(formUrl);
-  const wait = (lastHit.get(host) || 0) + 800 - Date.now();
-  if (wait > 0) await sleep(wait);
-  lastHit.set(host, Date.now());
+  let label = null;
+  for (const m of page.raw.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)) {
+    const h = m[1].replace(/&amp;/g, '&');
+    if (h !== formUrl && !h.endsWith(u.pathname + u.search)) continue;
+    label = toText(m[2]).trim().replace(/[。.]$/, '') || null;
+    if (label) break;
+  }
+  if (!label) return null;
   let text;
   try {
-    const r = await fetch(formUrl, { headers: HEADERS, redirect: 'follow', signal: AbortSignal.timeout(25000) });
-    text = toText(decode(new Uint8Array(await r.arrayBuffer()), r.headers.get('content-type') || ''));
+    const r = await politeFetch(formUrl);
+    // robots.txt などで確かめられないときは、確実に開ける「出典ページから開く」案内にする
+    if (r.blocked) return label;
+    text = r.buf ? toText(decode(r.buf, r.ct)) : '';
   } catch {
     return null;
   }
   if (!text.includes('正規のアクセス元')) return null;
-  for (const m of page.raw.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)) {
-    const h = m[1].replace(/&amp;/g, '&');
-    if (h !== formUrl && !h.endsWith(u.pathname + u.search)) continue;
-    const label = toText(m[2]).trim().replace(/[。.]$/, '');
-    if (label) return label;
-  }
+  return label;
   return 'フォームへのリンク';
 }
 

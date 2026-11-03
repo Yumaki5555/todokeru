@@ -108,7 +108,7 @@ async function checkPage(e, input) {
   if (!/^https:\/\//.test(url)) return { ok: false, error: '出典ページのURL（https:// で始まる）を入れてください' };
   try {
     const r = await fetch(url, {
-      headers: { 'user-agent': 'Mozilla/5.0 (compatible; todokeru-contact-check/1.0; +https://yumaki5555.github.io/todokeru/)', 'accept-language': 'ja' },
+      headers: { 'user-agent': 'Mozilla/5.0 (compatible; TodokeruPublicContactResearch/1.0; +https://yumaki5555.github.io/todokeru/)', 'accept-language': 'ja' },
       redirect: 'follow',
       signal: AbortSignal.timeout(20000),
     });

@@ -8091,3 +8091,4 @@
 {"date":"2026-11-03","batch":"petition-muni-47-2","id":"473481-petition","change":"added","status":"verified"}
 {"date":"2026-11-03","batch":"petition-muni-47-2","id":"473502-petition","change":"added","status":"verified"}
 {"date":"2026-11-03","batch":"petition-muni-47-2","id":"473821-petition","change":"added","status":"verified"}
+{"date":"2026-11-04","batch":"manual-review","id":"452017-feedback","change":"updated","fields":{"source_url":["https://www.city.miyazaki.miyazaki.jp/form/otoiawase/","https://www.city.miyazaki.miyazaki.jp/city/public_relations/hearing/contact.html"],"form_url":["https://www.city.miyazaki.miyazaki.jp/form/","https://www.city.miyazaki.miyazaki.jp/form/otoiawase/"],"verified_at":["2026-11-03","2026-11-04"]},"reason":"出典が robots.txt で巡回禁止のページだったため、巡回してよい広聴のページ（フォームへのリンクあり）に差し替え"}

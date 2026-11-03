@@ -1,7 +1,7 @@
 // サイト全体の枠（ヘッダー・本文・フッター）と、URL に応じたページの切り替え
 import { useEffect, useMemo, useRef, type ReactElement } from 'react';
 import { findGuide } from './content/guides';
-import { parseHash, useHash, type Route } from './router';
+import { navigate, parseHash, useHash, type Route } from './router';
 import { scrollToSection } from './lib/dom';
 import { restoreSpot, savedSpot, startScrollMemory } from './lib/scrollMemory';
 import { SITE } from './site';
@@ -17,10 +17,13 @@ import { PetitionGuidePage } from './pages/PetitionGuidePage';
 import { PhoneGuidePage } from './pages/PhoneGuidePage';
 import { PublicCommentGuidePage } from './pages/PublicCommentGuidePage';
 import { SignatureGuidePage } from './pages/SignatureGuidePage';
+import { ThreeMinutesPage } from './pages/ThreeMinutesPage';
 
 /** URL のパスから、表示するページと題名を決める */
 export function resolvePage(route: Route): { title: string | null; element: ReactElement } {
   const { path } = route;
+  // 以前の「3分でわかる」の場所（トップの中 #/?s=sanpun）も、3分ガイドのページを表示する
+  if (path === '/sanpun' || isOldSanpun(route)) return { title: '3分でわかる', element: <ThreeMinutesPage /> };
   if (path === '/') return { title: null, element: <HomePage /> };
   if (path === '/guide/phone') return { title: 'はじめての行政電話ガイド', element: <PhoneGuidePage route={route} /> };
   if (path === '/guide/email') return { title: 'メール・フォーム・郵送で届ける', element: <MailGuidePage route={route} /> };
@@ -35,12 +38,19 @@ export function resolvePage(route: Route): { title: string | null; element: Reac
   return { title: 'ページが見つかりません', element: <NotFoundPage /> };
 }
 
+const isOldSanpun = (route: Route) => route.path === '/' && route.query.get('s') === 'sanpun';
+
 export function App() {
   const hash = useHash();
   const route = useMemo(() => parseHash(hash), [hash]);
   const page = resolvePage(route);
   const prevPath = useRef<string | null>(null);
   const section = route.query.get('s');
+
+  // 古い URL は新しい URL に置き換える（履歴は増やさない）
+  useEffect(() => {
+    if (isOldSanpun(route)) navigate('/sanpun', { replace: true });
+  }, [route]);
 
   useEffect(() => {
     document.title = page.title ? `${page.title}｜${SITE.name}` : `${SITE.name}｜${SITE.catchCopy}`;
@@ -60,7 +70,8 @@ export function App() {
       restoreSpot(spot);
       return;
     }
-    if (section) {
+    // 古い「3分でわかる」の URL は、置き換えたあと新しいページの先頭から表示する
+    if (section && !isOldSanpun(route)) {
       // #/guide/phone?s=ch3 のように見出しの指定があれば、その見出しへ
       requestAnimationFrame(() => scrollToSection(section));
       return;

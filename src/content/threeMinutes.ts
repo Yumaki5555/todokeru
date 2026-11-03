@@ -1,14 +1,15 @@
-// 「まず3分でわかる」の内容（4つのSTEP）
+// 「3分でわかる」の内容（4つのSTEP＋声を届ける前に知っておきたいこと）
 // 各STEPは「大きなアイコン＋短い見出し＋1文」。説明の代わりに選択肢のカードや小さな図で見せる。
 // 電話・メール・パブコメ・請願などは順番に行う手順ではなく、目的に合わせて選ぶ「方法」として STEP 2 に並べる。
-import type { ThreeMinuteMethod, ThreeMinutePurpose, ThreeMinuteStep } from '../types';
+// PURPOSES（目的 → こんな方法があります）はトップの「何をしたいですか？」と共通。直すときはここだけ直す。
+import type { BeforeYouSendItem, GuideSlug, ThreeMinuteMethod, ThreeMinutePurpose, ThreeMinuteStep } from '../types';
 
 export const THREE_MINUTE_STEPS: ThreeMinuteStep[] = [
   {
     no: 1,
     title: '何をしたい？',
     icon: 'bulb',
-    text: 'あてはまるものを押すと、向いている方法に印がつきます。',
+    text: 'あてはまるものを押すと、使える方法が出てきます。',
     choices: 'purposes',
   },
   {
@@ -54,20 +55,87 @@ export const THREE_MINUTE_STEPS: ThreeMinuteStep[] = [
   },
 ];
 
-/** STEP 1：したいこと → 向いている方法（label の「/」は折り返してよい位置。表示しない） */
+/** したいこと → こんな方法があります（トップと STEP 1 で共通。label の「/」は折り返してよい位置。表示しない）
+ *  to の 'contacts'（窓口を探す）と 'official'（公式サイトを探す）は、届ける方法ではなく補助の行動 */
 export const PURPOSES: ThreeMinutePurpose[] = [
-  { id: 'question', label: '質問・確認したい', icon: 'question', methods: ['phone', 'email'] },
-  { id: 'opinion', label: '意見や要望を/伝えたい', icon: 'chat', methods: ['phone', 'email', 'public-comment'] },
-  { id: 'change', label: '制度やルールの/変更を求めたい', icon: 'scale', methods: ['public-comment', 'petition', 'signature'] },
-  { id: 'info', label: '情報や資料を/入手したい', icon: 'folder', methods: ['disclosure', 'phone', 'email'] },
+  {
+    id: 'question',
+    label: '質問・/確認したい',
+    icon: 'question',
+    ways: [
+      { when: '直接確認する', to: ['phone'] },
+      { when: '文章で質問する', to: ['email'] },
+      { when: '担当部署がわからない', to: ['contacts'] },
+    ],
+  },
+  {
+    id: 'opinion',
+    label: '意見・要望を/伝えたい',
+    icon: 'chat',
+    ways: [
+      { when: '担当部署に伝える', to: ['phone', 'email'] },
+      { when: '募集中の案に意見を出す', to: ['public-comment'] },
+      { when: '議会に要望する', to: ['petition'] },
+    ],
+  },
+  {
+    id: 'change',
+    label: '制度を/変えてほしい',
+    icon: 'scale',
+    ways: [
+      { when: '募集中の案がある', to: ['public-comment'] },
+      { when: '議会に働きかける', to: ['petition'] },
+      { when: '担当部署に伝える', to: ['phone', 'email'] },
+      { when: '賛同の声を集める', to: ['signature'] },
+    ],
+  },
+  {
+    id: 'info',
+    label: '情報・資料が/ほしい',
+    icon: 'folder',
+    ways: [
+      { when: '内容を確認する', to: ['phone', 'email'] },
+      { when: '公開資料を調べる', to: ['official'] },
+      { when: '行政文書の開示を求める', to: ['disclosure'] },
+    ],
+  },
 ];
+
+/** その目的で使える「届ける方法」（STEP 2 の印に使う。補助の行動は含めない） */
+export function purposeMethods(p: ThreeMinutePurpose): GuideSlug[] {
+  return p.ways.flatMap((w) => w.to).filter((t): t is GuideSlug => t !== 'contacts' && t !== 'official');
+}
 
 /** STEP 2：6つの方法（並列の選択肢。並び順は「声を届ける方法を知る」と同じ。「/」は折り返してよい位置） */
 export const METHODS: ThreeMinuteMethod[] = [
   { slug: 'phone', label: '電話', sub: 'その場で/聞ける' },
-  { slug: 'email', label: 'メール・郵送', sub: '文章で/残せる' },
+  { slug: 'email', label: 'メール・/手紙', sub: '文章で/残せる' },
   { slug: 'public-comment', label: 'パブリック/コメント', sub: '募集中の案に/意見' },
   { slug: 'petition', label: '請願・陳情', sub: '議会に/検討を求める' },
   { slug: 'disclosure', label: '情報公開/請求', sub: '行政の文書を/見る' },
   { slug: 'signature', label: '署名', sub: '賛同の声を/集める' },
+];
+
+/** 3分ガイドの最後：声を届ける前に知っておきたいこと（詳しくは各マニュアルへ） */
+export const BEFORE_YOU_SEND: BeforeYouSendItem[] = [
+  {
+    icon: 'scale',
+    text: '意見を出しても、必ず採用されるとは限りません。パブコメは多数決ではありません。',
+    link: { label: 'パブコメのしくみ', to: '/guide/public-comment?s=sanpun' },
+  },
+  {
+    icon: 'route',
+    text: '手続きごとに、役割・出す先・条件が違います。',
+    link: { label: '請願と陳情の違い', to: '/guide/petition?s=sanpun' },
+  },
+  {
+    icon: 'memo',
+    text: '確かめた事実と、自分の意見を分けて伝えます。',
+    link: { label: 'メールの書き方', to: '/guide/email?s=ch1' },
+  },
+  {
+    icon: 'sparkle',
+    text: 'AIの答えは公式の資料で確かめ、最後は自分で判断します。',
+    link: { label: 'AIの使い方', to: '/guide/public-comment?s=ai' },
+  },
 ];

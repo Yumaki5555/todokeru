@@ -211,9 +211,9 @@ describe('メール・フォーム・郵送：マニュアルへの入口', () =
     expect(links[i + 1]).toHaveAttribute('aria-current', 'page');
   });
 
-  it('トップの「声を届ける方法を知る」からこのページへ行ける', () => {
+  it('トップの「すべての方法を見る」からこのページへ行ける', () => {
     open('#/');
-    const methods = screen.getByRole('region', { name: '声を届ける方法を知る' });
+    const methods = screen.getByRole('region', { name: 'すべての方法を見る' });
     expect(within(methods).getByRole('link', { name: 'メール・フォーム・郵送' })).toHaveAttribute('href', '#/guide/email');
   });
 

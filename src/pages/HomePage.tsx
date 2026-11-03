@@ -1,14 +1,15 @@
-// トップページ：題名 →「まず3分でわかる」（4つのSTEPの案内図）→ 方法を知る → 窓口を探す → 関連サイト
+// トップページ：題名 → 何をしたいですか？（目的 → こんな方法があります）→ すぐ使いたい方 → 3分でわかる（入り口）→ すべての方法 → 関連サイト
+// わからない人には目的からの道案内を、決まっている人には最短の入り口を
 import { GUIDES, guidePath } from '../content/guides';
 import { href } from '../router';
-import { scrollToSection } from '../lib/dom';
 import { SITE } from '../site';
 import type { IconName } from '../types';
 import { Icon } from '../components/Icon';
 import { BackToPageTop } from '../components/Links';
-import { ThreeMinutes } from '../components/ThreeMinutes';
+import { Breakable, PurposeFinder, usePurpose } from '../components/PurposeFinder';
 
 export function HomePage() {
+  const [purpose, setPurpose] = usePurpose();
   return (
     <>
       <div className="hero">
@@ -20,30 +21,23 @@ export function HomePage() {
             <p className="hero-catch">{SITE.catchCopy}</p>
           </div>
           <HeroArt />
-          <a
-            className="gate-main"
-            href={href('/', { s: 'sanpun' })}
-            onClick={(e) => {
-              if (e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) return;
-              e.preventDefault();
-              scrollToSection('sanpun');
-            }}
-          >
-            <span className="gate-icon" aria-hidden="true">
-              <Icon name="book" />
-            </span>
-            <b className="gate-text">まず3分でわかる</b>
-            <span className="gate-go" aria-hidden="true">
-              <Icon name="arrow-right" />
-            </span>
-          </a>
+          <p className="hero-lead">
+            <span>疑問や意見を、適切な窓口へ。</span>
+            <span>調べ方・考え方・書き方・届け方を案内します。</span>
+          </p>
         </div>
       </div>
 
       <div className="wrap home-sections">
-        <ThreeMinutes />
+        <section className="section home-purpose" id="purpose" aria-labelledby="purpose-h">
+          <h2 id="purpose-h" className="section-title">
+            何をしたいですか？
+          </h2>
+          <PurposeFinder purpose={purpose} onChange={setPurpose} />
+        </section>
+        <QuickStart />
+        <SanpunCard />
         <GuideMenu />
-        <ContactsCard />
         <RelatedSites />
         <AboutBrief />
       </div>
@@ -72,11 +66,63 @@ function HeroArt() {
   );
 }
 
+/** すぐ使いたい方：作る・探す・書くを始める場所へ直接（台本・文面の作成欄は各ページの最初にある） */
+const QUICK: { to: string; icon: IconName; label: string }[] = [
+  { to: '/guide/phone', icon: 'phone', label: '電話の台本を/作る' },
+  { to: '/guide/email', icon: 'mail', label: 'メール・手紙を/作る' },
+  { to: '/contacts', icon: 'building', label: '全国の窓口を/探す' },
+  { to: '/guide/public-comment', icon: 'comment', label: 'パブコメを/書く' },
+];
+
+function QuickStart() {
+  return (
+    <section className="section" id="quick" aria-labelledby="quick-h">
+      <h2 id="quick-h" className="section-title">
+        すぐ使いたい方
+      </h2>
+      <ul className="quick-grid">
+        {QUICK.map((q) => (
+          <li key={q.to}>
+            <a className="quick-link" href={href(q.to)}>
+              <span className="quick-icon" aria-hidden="true">
+                <Icon name={q.icon} />
+              </span>
+              <b>
+                <Breakable label={q.label} />
+              </b>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
+/** 初めての方へ：3分ガイドへの入り口（1枚） */
+function SanpunCard() {
+  return (
+    <section className="section" id="first" aria-label="初めての方へ">
+      <a className="sanpun-card" href={href('/sanpun')}>
+        <span className="sanpun-icon" aria-hidden="true">
+          <Icon name="book" />
+        </span>
+        <span className="sanpun-text">
+          <span className="sanpun-label">初めての方へ</span>
+          <b>3分でわかる</b>
+          <span>制度の仕組み・声の届け方・注意点を知る</span>
+        </span>
+        <Icon name="arrow-right" className="sanpun-go" />
+      </a>
+    </section>
+  );
+}
+
+/** すべての方法：6つのガイド（準備中は「準備中」と表示） */
 function GuideMenu() {
   return (
     <section className="section" id="methods" aria-labelledby="methods-h">
       <h2 id="methods-h" className="section-title">
-        声を届ける方法を知る
+        すべての方法を見る
       </h2>
       <ul className="menu-grid">
         {GUIDES.map((g) => {
@@ -93,42 +139,6 @@ function GuideMenu() {
             </li>
           );
         })}
-      </ul>
-    </section>
-  );
-}
-
-/** 窓口検索の3つの入り口（押すと、その探し方を選んだ状態で窓口検索が開く） */
-const FINDER_WAYS: { tab: string; icon: IconName; label: string; sub: string }[] = [
-  { tab: 'area', icon: 'map', label: '地域から探す', sub: '都道府県・市区町村・議会' },
-  { tab: 'agency', icon: 'landmark', label: '国の機関から探す', sub: '府省庁・国会' },
-  { tab: 'search', icon: 'search', label: '名前で検索', sub: '例：江東区、厚生労働省' },
-];
-
-function ContactsCard() {
-  return (
-    <section className="section finder-panel" id="contacts" aria-labelledby="contacts-h">
-      <h2 id="contacts-h" className="finder-panel-title">
-        <span className="finder-card-icon" aria-hidden="true">
-          <Icon name="building" />
-        </span>
-        <a href={href('/contacts')}>全国の窓口を探す</a>
-      </h2>
-      <ul className="finder-ways">
-        {FINDER_WAYS.map((w) => (
-          <li key={w.tab}>
-            <a href={href('/contacts', { tab: w.tab })}>
-              <span className="finder-way-icon" aria-hidden="true">
-                <Icon name={w.icon} />
-              </span>
-              <span className="finder-way-text">
-                <b>{w.label}</b>
-                <span>{w.sub}</span>
-              </span>
-              <Icon name="arrow-right" className="finder-way-go" />
-            </a>
-          </li>
-        ))}
       </ul>
     </section>
   );

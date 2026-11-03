@@ -548,9 +548,9 @@ p.lead {
   grid-template-columns: minmax(0, 1fr) auto;
   grid-template-areas:
     'head art'
-    'gate gate';
+    'lead lead';
   align-items: center;
-  gap: 14px 12px;
+  gap: 6px 12px;
 }
 
 .hero-head {
@@ -571,10 +571,23 @@ p.lead {
   color: var(--c-main-dark);
 }
 
+/* 何ができるサイトかを2行で */
+.hero-lead {
+  grid-area: lead;
+  margin: 0;
+  font-size: var(--fs-small);
+  line-height: 1.6;
+  color: var(--c-text-sub);
+}
+
+.hero-lead span {
+  display: inline-block; /* 文の途中で折り返さず、1文ずつ改行する */
+}
+
 /* 吹き出しのイラスト */
 .hero-art {
   grid-area: art;
-  width: 104px;
+  width: 84px;
   height: auto;
 }
 
@@ -608,59 +621,12 @@ p.lead {
   stroke-linecap: round;
 }
 
-.gate-main {
-  grid-area: gate;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 12px 16px;
-  border-radius: 16px;
-  background: var(--c-main);
-  color: #fff;
-  text-decoration: none;
-  box-shadow: 0 4px 0 var(--c-main-deep);
-}
-
-.gate-main:hover {
-  background: var(--c-main-dark);
-  color: #fff;
-}
-
-.gate-icon {
-  display: grid;
-  place-items: center;
-  width: 48px;
-  height: 48px;
-  flex: none;
-  border-radius: 12px;
-  background: rgba(255, 255, 255, 0.18);
-}
-
-.gate-icon .icon {
-  width: 28px;
-  height: 28px;
-}
-
-.gate-text {
-  flex: 1;
-  min-width: 0;
-  font-size: clamp(1.375rem, 1.2rem + 0.9vw, 1.75rem);
-  line-height: 1.3;
-}
-
-.gate-go .icon {
-  width: 26px;
-  height: 26px;
-  transform: rotate(90deg); /* 下（このページの解説）へ */
-}
-
 /* 短いラベルは「・」などの区切りで折り返し、単語の途中では切らない */
 .fig-text b,
 .menu-name,
 .breakable,
 .seg button,
 .call-flow b,
-.finder-way-text b,
 .act-label {
   word-break: keep-all;
 }
@@ -684,22 +650,21 @@ p.lead {
     grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
     grid-template-areas:
       'head art'
-      'gate art';
-    gap: 16px 32px;
+      'lead art';
+    gap: 8px 32px;
   }
   .hero-art {
     width: 100%;
-    max-width: 240px;
+    max-width: 200px;
     justify-self: center;
   }
-  .gate-main {
-    justify-self: start;
-    min-width: 22rem;
+  .hero-lead {
+    font-size: var(--fs-body);
   }
 }
 
 .home-sections > .section:first-child {
-  margin-top: 24px;
+  margin-top: 16px;
 }
 
 /* ---- まず3分でわかる ---- */
@@ -780,7 +745,7 @@ p.lead {
   background: #fff;
 }
 
-.step h3 {
+.step h2 {
   font-size: 1.125rem;
   margin-bottom: 2px;
 }
@@ -809,29 +774,39 @@ p.lead {
   height: 18px;
 }
 
-/* STEP 1：したいことを選ぶボタン（押すと STEP 2 の向いている方法に印） */
+/* 何をしたいですか？（トップと STEP 1 で共通）：2列×2行のカード。選ぶと色が変わり、チェック印がつく */
 .purpose-pick {
   list-style: none;
   display: grid;
-  gap: 6px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
   margin-top: 10px;
 }
 
+.purpose-pick li {
+  min-width: 0;
+}
+
 .purpose-pick button {
+  position: relative;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 10px;
+  justify-content: center;
+  gap: 4px;
   width: 100%;
-  min-height: 44px;
-  padding: 6px 12px;
+  height: 100%;
+  min-height: 84px;
+  padding: 10px 6px;
   border: 2px solid var(--c-main-line);
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius);
   background: #fff;
   color: var(--c-text);
   font: inherit;
+  font-size: 1rem;
   font-weight: 700;
-  line-height: 1.4;
-  text-align: left;
+  line-height: 1.35;
+  text-align: center;
   cursor: pointer;
 }
 
@@ -840,43 +815,155 @@ p.lead {
   background: var(--c-main-tint);
 }
 
-.purpose-pick .icon {
-  flex: none;
+.purpose-icon {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--c-main-tint);
+  color: var(--c-main-dark);
+}
+
+.purpose-icon .icon {
   width: 22px;
   height: 22px;
-  color: var(--c-main);
 }
 
 .purpose-pick button[aria-pressed='true'] {
-  border-color: var(--c-main);
+  border-color: var(--c-main-deep);
+  background: var(--c-main);
+  color: #fff;
+  box-shadow: 0 0 0 2px var(--c-main-deep);
+}
+
+.purpose-pick button[aria-pressed='true'] .purpose-icon {
+  background: #fff;
+}
+
+.purpose-mark {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #fff;
+  color: var(--c-main-dark);
+}
+
+.purpose-mark .icon {
+  width: 16px;
+  height: 16px;
+}
+
+/* 選んだ目的の「こんな方法があります」（カードのすぐ下に小さく） */
+.way-result:not(:empty) {
+  margin-top: 10px;
+  padding: 10px 12px 12px;
+  border: 2px solid var(--c-main);
+  border-radius: var(--radius);
+  background: var(--c-main-tint);
+}
+
+.way-title {
+  margin: 0 0 6px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--c-main-deep);
+}
+
+.way-list {
+  list-style: none;
+  display: grid;
+  gap: 6px;
+}
+
+.way-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 10px;
+  padding-top: 6px;
+  border-top: 1px solid var(--c-main-line);
+}
+
+.way-row:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.way-when {
+  flex: 1 1 10em;
+  font-size: var(--fs-small);
+  line-height: 1.5;
+}
+
+.way-when::after {
+  content: ' →';
+  color: var(--c-main-dark);
+}
+
+.way-to {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.way-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  min-height: 40px;
+  padding: 4px 12px;
+  border: 2px solid var(--c-main);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--c-main-deep);
+  font-weight: 700;
+  line-height: 1.3;
+  text-decoration: none;
+  word-break: keep-all;
+}
+
+a.way-chip:hover {
   background: var(--c-main);
   color: #fff;
 }
 
-.purpose-pick button[aria-pressed='true'] .icon {
-  color: #fff;
+.way-chip .icon {
+  flex: none;
+  width: 18px;
+  height: 18px;
+}
+
+/* 補助の行動（窓口・公式サイトを探す）は点線の枠で、届ける方法と見分ける */
+.way-chip.is-aux {
+  border-style: dashed;
+  font-weight: 400;
+}
+
+.way-chip.is-coming {
+  border-color: var(--c-line);
+  color: var(--c-text-sub);
+  font-weight: 400;
+}
+
+.way-soon-note {
+  flex-basis: 100%;
+  font-size: 0.8125rem;
+  color: var(--c-text-sub);
+}
+
+.way-note {
+  margin: 10px 0 0;
+  font-size: var(--fs-small);
+  line-height: 1.6;
 }
 
 /* STEP 2：6つの方法（並列の選択肢の小さなカード） */
-.method-hint {
-  margin: 8px 0 0;
-  font-size: var(--fs-small);
-  font-weight: 700;
-  color: var(--c-main-deep);
-}
-
-.method-hint:empty {
-  margin: 0;
-}
-
-.method-hint .icon {
-  width: 16px;
-  height: 16px;
-  margin-right: 2px;
-  vertical-align: -3px;
-  color: var(--c-main);
-}
-
 .method-cards {
   list-style: none;
   display: grid;
@@ -1085,7 +1172,10 @@ p.lead {
     height: 32px;
   }
   .purpose-pick {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .way-when {
+    flex: 0 0 14em; /* 広い画面では、場面と方法を離しすぎない */
   }
   .method-cards {
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1256,20 +1346,176 @@ p.lead {
   line-height: 1.7;
 }
 
-/* ---- 全国の窓口を探す（横長のカード） ---- */
-.finder-card-icon {
+/* ---- すぐ使いたい方（2列×2行、広い画面は4列） ---- */
+.quick-grid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+@media (min-width: 760px) {
+  .quick-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px;
+  }
+}
+
+.quick-grid li {
+  min-width: 0;
+}
+
+.quick-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 100%;
+  min-height: 60px;
+  padding: 8px 10px;
+  border: 2px solid var(--c-main);
+  border-radius: var(--radius);
+  background: #fff;
+  color: var(--c-text);
+  line-height: 1.35;
+  text-decoration: none;
+}
+
+.quick-link:hover {
+  background: var(--c-main-tint);
+  color: var(--c-text);
+}
+
+.quick-icon {
   display: grid;
   place-items: center;
-  width: 56px;
-  height: 56px;
+  flex: none;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
   background: var(--c-main);
   color: #fff;
 }
 
-.finder-card-icon .icon {
-  width: 30px;
-  height: 30px;
+.quick-icon .icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* ---- 初めての方へ：3分でわかる（入り口のカード1枚） ---- */
+.sanpun-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  border: 1px solid var(--c-main-line);
+  border-radius: var(--radius);
+  background: var(--c-main-tint);
+  color: var(--c-text);
+  text-decoration: none;
+}
+
+.sanpun-card:hover {
+  border-color: var(--c-main);
+  color: var(--c-text);
+}
+
+.sanpun-icon {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: var(--c-main);
+  color: #fff;
+}
+
+.sanpun-icon .icon {
+  width: 26px;
+  height: 26px;
+}
+
+.sanpun-text {
+  display: grid;
+  flex: 1;
+  min-width: 0;
+  line-height: 1.45;
+}
+
+.sanpun-label {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--c-main-dark);
+}
+
+.sanpun-text b {
+  font-size: 1.125rem;
+  color: var(--c-main-deep);
+}
+
+.sanpun-text span:last-child {
+  font-size: var(--fs-small);
+  color: var(--c-text-sub);
+}
+
+.sanpun-go {
+  flex: none;
+  width: 22px;
+  height: 22px;
+  color: var(--c-main);
+}
+
+/* ---- 3分ガイドの最後：声を届ける前に知っておきたいこと ---- */
+.before-list {
+  list-style: none;
+  display: grid;
+  gap: 8px;
+  max-width: 44em;
+}
+
+.before-list li {
+  display: grid;
+  grid-template-columns: 36px minmax(0, 1fr);
+  gap: 10px;
+  align-items: start;
+  padding: 10px 12px;
+  border: 1px solid var(--c-line);
+  border-radius: var(--radius);
+  background: #fff;
+}
+
+.before-icon {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--c-main-tint);
+  color: var(--c-main-dark);
+}
+
+.before-icon .icon {
+  width: 20px;
+  height: 20px;
+}
+
+.before-list p {
+  margin: 0;
+  line-height: 1.7;
+}
+
+.before-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  margin-left: 6px;
+  font-size: var(--fs-small);
+  white-space: nowrap;
+}
+
+.before-link .icon {
+  width: 16px;
+  height: 16px;
 }
 
 /* ---- 関連サイト ---- */
@@ -2632,112 +2878,6 @@ p.lead {
   .menu-grid {
     grid-template-columns: repeat(6, minmax(0, 1fr));
   }
-}
-
-/* ==== トップ：全国の窓口を探す（3つの入り口） ==== */
-.finder-panel {
-  padding: 18px 16px 16px;
-  border-radius: 20px;
-  background: var(--c-main);
-  color: #fff;
-}
-
-.finder-panel-title {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 14px;
-  font-size: clamp(1.375rem, 1.2rem + 1vw, 1.875rem);
-}
-
-.finder-panel-title a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.finder-panel-title a:hover {
-  color: #fff;
-  text-decoration: underline;
-}
-
-.finder-panel .finder-card-icon {
-  background: #fff;
-  color: var(--c-main);
-}
-
-.finder-ways {
-  list-style: none;
-  display: grid;
-  gap: 10px;
-}
-
-@media (min-width: 760px) {
-  .finder-ways {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 12px;
-  }
-}
-
-.finder-ways li {
-  min-width: 0;
-}
-
-.finder-ways a {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  height: 100%;
-  min-height: 76px;
-  padding: 12px 14px;
-  border-radius: 14px;
-  background: #fff;
-  color: var(--c-text);
-  text-decoration: none;
-  box-shadow: 0 3px 0 var(--c-main-deep);
-}
-
-.finder-ways a:hover {
-  background: var(--c-main-tint);
-  color: var(--c-text);
-}
-
-.finder-way-icon {
-  display: grid;
-  place-items: center;
-  width: 48px;
-  height: 48px;
-  flex: none;
-  border-radius: 50%;
-  background: var(--c-main-tint);
-  color: var(--c-main-dark);
-}
-
-.finder-way-icon .icon {
-  width: 26px;
-  height: 26px;
-}
-
-.finder-way-text {
-  display: grid;
-  flex: 1;
-  min-width: 0;
-  line-height: 1.4;
-}
-
-.finder-way-text b {
-  font-size: 1.125rem;
-  color: var(--c-main-deep);
-}
-
-.finder-way-text span {
-  font-size: 0.875rem;
-  color: var(--c-text-sub);
-}
-
-.finder-way-go {
-  width: 22px;
-  height: 22px;
-  color: var(--c-main);
 }
 
 /* ==== 窓口検索：ページ冒頭の登録状況 ==== */

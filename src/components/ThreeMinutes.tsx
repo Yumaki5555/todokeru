@@ -1,22 +1,17 @@
-// 「まず3分でわかる」：4つのSTEPを縦の流れで見せる（大きなアイコン＋短い見出し＋1文＋選択肢や小さな図）
-// STEP 1 の目的を押すと、STEP 2 の方法のうち向いているものに印がつく（押さなくても全部読める）
-import { Fragment, useState } from 'react';
+// 「3分でわかる」：4つのSTEPを縦の流れで見せる（大きなアイコン＋短い見出し＋1文＋選択肢や小さな図）
+// STEP 1 はトップと同じ「何をしたいですか？」の部品。目的を押すと、STEP 2 の方法のうち使えるものに印がつく（押さなくても全部読める）
+import { BEFORE_YOU_SEND, METHODS, THREE_MINUTE_STEPS, purposeMethods } from '../content/threeMinutes';
 import { findGuide, guidePath } from '../content/guides';
-import { METHODS, PURPOSES, THREE_MINUTE_STEPS } from '../content/threeMinutes';
 import { href } from '../router';
 import type { ThreeMinutePurpose, ThreeMinuteStep } from '../types';
 import { Icon } from './Icon';
 import { SmartLink } from './Links';
+import { Breakable, PurposeFinder, usePurpose } from './PurposeFinder';
 
 export function ThreeMinutes() {
-  const [purposeId, setPurposeId] = useState<string | null>(null);
-  const purpose = PURPOSES.find((p) => p.id === purposeId);
+  const [purpose, setPurpose] = usePurpose();
   return (
-    <section className="section three-min" id="sanpun" aria-labelledby="sanpun-h" tabIndex={-1}>
-      <div className="band">
-        <span className="band-label">まず3分でわかる</span>
-        <h2 id="sanpun-h">4つのステップで、声の届け方をつかむ</h2>
-      </div>
+    <section className="section three-min" id="sanpun" aria-label="4つのステップ" tabIndex={-1}>
       <ol className="steps">
         {THREE_MINUTE_STEPS.map((s) => (
           <li className="step" key={s.no}>
@@ -24,12 +19,12 @@ export function ThreeMinutes() {
               <Icon name={s.icon} />
             </span>
             <div className="step-body">
-              <h3 id={`step${s.no}-h`}>
+              <h2 id={`step${s.no}-h`}>
                 <span className="step-no">STEP {s.no}</span>
                 {s.title}
-              </h3>
+              </h2>
               <p className="step-text">{s.text}</p>
-              {s.choices === 'purposes' && <PurposePicker value={purposeId} onChange={setPurposeId} />}
+              {s.choices === 'purposes' && <PurposeFinder purpose={purpose} onChange={setPurpose} />}
               {s.choices === 'methods' && <MethodCards purpose={purpose} />}
               {s.figure && <StepFigure figure={s.figure} />}
               {s.more && (
@@ -50,82 +45,68 @@ export function ThreeMinutes() {
   );
 }
 
-/** STEP 1：したいことを1つ押す（もう一度押すと外れる） */
-function PurposePicker({ value, onChange }: { value: string | null; onChange: (id: string | null) => void }) {
+/** ガイドの最後：声を届ける前に知っておきたいこと（1行ずつ。詳しくは各マニュアルへ） */
+export function BeforeYouSend() {
   return (
-    <ul className="purpose-pick">
-      {PURPOSES.map((p) => (
-        <li key={p.id}>
-          <button type="button" aria-pressed={value === p.id} onClick={() => onChange(value === p.id ? null : p.id)}>
-            <Icon name={p.icon} />
-            <Breakable label={p.label} />
-          </button>
-        </li>
-      ))}
-    </ul>
+    <section className="section before-send" id="before" aria-labelledby="before-h">
+      <h2 id="before-h" className="section-title">
+        声を届ける前に知っておきたいこと
+      </h2>
+      <ul className="before-list">
+        {BEFORE_YOU_SEND.map((b) => (
+          <li key={b.text}>
+            <span className="before-icon" aria-hidden="true">
+              <Icon name={b.icon} />
+            </span>
+            <p>
+              {b.text}
+              <SmartLink to={b.link.to} className="before-link">
+                {b.link.label}
+                <Icon name="arrow-right" />
+              </SmartLink>
+            </p>
+          </li>
+        ))}
+      </ul>
+    </section>
   );
 }
 
 /** STEP 2：6つの方法の小さなカード（押すと、その方法のガイドへ） */
 function MethodCards({ purpose }: { purpose: ThreeMinutePurpose | undefined }) {
-  const names = METHODS.filter((m) => purpose?.methods.includes(m.slug)).map((m) => plain(m.label));
+  const marked = purpose ? purposeMethods(purpose) : [];
   return (
-    <>
-      <p className="method-hint" aria-live="polite">
-        {purpose && (
-          <>
-            <Icon name="check" />「{plain(purpose.label)}」に向いている方法：{names.join('、')}
-          </>
-        )}
-      </p>
-      <ul className="method-cards">
-        {METHODS.map((m) => {
-          const g = findGuide(m.slug)!;
-          const match = !!purpose?.methods.includes(m.slug);
-          const coming = g.status === 'coming';
-          return (
-            <li className={'method-card' + (match ? ' is-match' : '')} key={m.slug}>
-              <a href={href(guidePath(m.slug))}>
-                <span className="method-icon" aria-hidden="true">
-                  <Icon name={g.icon} />
+    <ul className="method-cards">
+      {METHODS.map((m) => {
+        const g = findGuide(m.slug)!;
+        const match = marked.includes(m.slug);
+        const coming = g.status === 'coming';
+        return (
+          <li className={'method-card' + (match ? ' is-match' : '')} key={m.slug}>
+            <a href={href(guidePath(m.slug))}>
+              <span className="method-icon" aria-hidden="true">
+                <Icon name={g.icon} />
+              </span>
+              <b className="method-name">
+                <Breakable label={m.label} />
+              </b>
+              <span className="method-sub">
+                <Breakable label={m.sub} />
+              </span>
+              {coming && <span className="menu-soon">準備中</span>}
+              {match && (
+                <span className="method-mark">
+                  <Icon name="check" />
+                  <span className="sr-only">（選んだ目的に使える）</span>
                 </span>
-                <b className="method-name">
-                  <Breakable label={m.label} />
-                </b>
-                <span className="method-sub">
-                  <Breakable label={m.sub} />
-                </span>
-                {coming && <span className="menu-soon">準備中</span>}
-                {match && (
-                  <span className="method-mark">
-                    <Icon name="check" />
-                    <span className="sr-only">（向いている）</span>
-                  </span>
-                )}
-              </a>
-            </li>
-          );
-        })}
-      </ul>
-    </>
+              )}
+            </a>
+          </li>
+        );
+      })}
+    </ul>
   );
 }
-
-/** 「/」の位置だけで折り返す（短いラベルは単語の途中で切らない） */
-function Breakable({ label }: { label: string }) {
-  return (
-    <span className="breakable">
-      {label.split('/').map((part, i) => (
-        <Fragment key={i}>
-          {i > 0 && <wbr />}
-          {part}
-        </Fragment>
-      ))}
-    </span>
-  );
-}
-
-const plain = (label: string) => label.replace(/\//g, '');
 
 function StepFigure({ figure }: { figure: NonNullable<ThreeMinuteStep['figure']> }) {
   const List = figure.kind === 'list' ? 'ol' : 'ul';

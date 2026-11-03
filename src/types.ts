@@ -188,12 +188,25 @@ export interface ThreeMinuteStep {
   more?: { label: string; to: string }[];
 }
 
-/** STEP 1「何をしたい？」の1つ */
+/** 「何をしたい？」の1つ（トップと3分ガイドの STEP 1 で共通） */
 export interface ThreeMinutePurpose {
   id: string;
   label: string; // 「/」の位置で折り返してよい（表示しない）
   icon: IconName;
-  methods: GuideSlug[]; // 向いている方法
+  ways: PurposeWay[]; // こんな方法があります（場面 → 行き先）
+}
+
+/** 目的を選んだときに出す1行。to は届ける方法（同じ slug のガイド）か、補助の行動（窓口を探す・公式サイトを探す） */
+export interface PurposeWay {
+  when: string;
+  to: (GuideSlug | 'contacts' | 'official')[];
+}
+
+/** 3分ガイドの最後「声を届ける前に知っておきたいこと」の1つ */
+export interface BeforeYouSendItem {
+  icon: IconName;
+  text: string;
+  link: { label: string; to: string };
 }
 
 /** STEP 2「方法を選ぼう」の1つ（行き先は同じ slug のガイド） */

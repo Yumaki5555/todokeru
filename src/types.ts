@@ -378,6 +378,18 @@ export interface PubcomPrompt {
 }
 
 /** 図の1こま（アイコン＋短い言葉） */
+/** 書き方マニュアル（パブコメ・請願陳情・署名）の4つのまとまり
+ *  short は画面下のメニューの短い名前。optional は「必要なときだけ」読めばよいまとまり */
+export interface GuidePart {
+  id: string;
+  no: number;
+  icon: IconName;
+  title: string;
+  sub: string;
+  short: string;
+  optional?: boolean;
+}
+
 export interface PubcomFigItem {
   icon: IconName;
   label: string;

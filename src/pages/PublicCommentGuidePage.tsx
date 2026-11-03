@@ -2,6 +2,7 @@
 // 上から順に：① 3分でわかる → ② AIを使ってみよう → ③ もっと詳しく調べる（必要な人だけ開く） → ④ 提出する
 //   #/guide/public-comment?s=prompts  AIへの指示文の選択から表示
 // 文章と指示文は content/pubcomManual.ts にまとめてある。
+import { useRef } from 'react';
 import { GUIDES, guidePath } from '../content/guides';
 import {
   AI_KEY,
@@ -33,14 +34,15 @@ import type { PromptId, PubcomRevision } from '../types';
 import { Checklist } from '../components/Checklist';
 import { CopyButton } from '../components/CopyButton';
 import { Icon } from '../components/Icon';
-import { AiTip, Flow, GoPrompt, Part, Sources } from '../components/GuideParts';
-import { JumpLink, PageEndNav } from '../components/Links';
+import { AiTip, Flow, GoPrompt, Part, PartBar, PartMenu, Sources } from '../components/GuideParts';
+import { PageEndNav } from '../components/Links';
 import { PageHead } from '../components/PageHead';
 import { PromptPicker } from '../components/PromptPicker';
 
 const PATH = '/guide/public-comment';
 
 export function PublicCommentGuidePage() {
+  const menuRef = useRef<HTMLElement>(null);
   const [promptId, setPromptId] = useSessionChoice<PromptId>('todokeru:prompt:pubcom:v1', DEFAULT_PROMPT, PROMPTS.map((p) => p.id));
   // 「AIでできること」から：その指示文を選んで、指示文の選択へ移る
   const pickPrompt = (id: PromptId) => {
@@ -52,28 +54,7 @@ export function PublicCommentGuidePage() {
     <div className="wrap page pubcom-guide">
       <PageHead title={PUBCOM_GUIDE.title} sub={PUBCOM_GUIDE.subtitle} />
 
-      <nav aria-label="このページの内容">
-        <ol className="pc-menu">
-          {PUBCOM_PARTS.map((p) => (
-            <li key={p.id}>
-              <JumpLink path={PATH} id={p.id} className="pc-menu-link">
-                <span className="pc-menu-icon" aria-hidden="true">
-                  <Icon name={p.icon} />
-                </span>
-                <span className="pc-menu-text">
-                  <b>
-                    <span className="pc-num" aria-hidden="true">
-                      {p.no}
-                    </span>
-                    {p.title}
-                  </b>
-                  <span>{p.sub}</span>
-                </span>
-              </JumpLink>
-            </li>
-          ))}
-        </ol>
-      </nav>
+      <PartMenu path={PATH} parts={PUBCOM_PARTS} navRef={menuRef} />
 
       {/* ① 3分でわかる */}
       <Part part={PUBCOM_PARTS[0]}>
@@ -250,7 +231,7 @@ export function PublicCommentGuidePage() {
       </Part>
 
       {/* ③ もっと詳しく調べる */}
-      <Part part={PUBCOM_PARTS[2]}>
+      <Part part={PUBCOM_PARTS[2]} skipTo={{ path: PATH, part: PUBCOM_PARTS[3] }}>
         <p className="pc-lead">必要な人だけ、開いて読んでください。</p>
         <div className="chapters pc-research">
           {RESEARCH.map((r, i) => (
@@ -423,6 +404,7 @@ export function PublicCommentGuidePage() {
         </ul>
       </section>
       <PageEndNav />
+      <PartBar path={PATH} parts={PUBCOM_PARTS} topRef={menuRef} />
     </div>
   );
 }

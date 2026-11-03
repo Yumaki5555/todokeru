@@ -2,6 +2,7 @@
 // パブコメの書き方と同じ並び：① 3分でわかる → ② 書いてみよう → ③ もっと詳しく → ④ 提出する
 //   #/guide/petition?s=prompts  AIへの指示文の選択から表示
 // 文章と指示文は content/petitionManual.ts にまとめてある。
+import { useRef } from 'react';
 import { GUIDES, guidePath } from '../content/guides';
 import {
   AFTER_FLOW,
@@ -32,7 +33,7 @@ import { href } from '../router';
 import type { PetitionCard, PetitionPromptId, PetitionStep } from '../types';
 import { Checklist } from '../components/Checklist';
 import { CopyButton } from '../components/CopyButton';
-import { AiTip, Flow, Part, Sources } from '../components/GuideParts';
+import { AiTip, Flow, Part, PartBar, PartMenu, Sources } from '../components/GuideParts';
 import { Icon } from '../components/Icon';
 import { JumpLink, PageEndNav, SmartLink } from '../components/Links';
 import { PageHead } from '../components/PageHead';
@@ -41,6 +42,7 @@ import { PromptPicker } from '../components/PromptPicker';
 const PATH = '/guide/petition';
 
 export function PetitionGuidePage() {
+  const menuRef = useRef<HTMLElement>(null);
   const [promptId, setPromptId] = useSessionChoice<PetitionPromptId>('todokeru:prompt:petition:v1', DEFAULT_PROMPT, PETITION_PROMPTS.map((p) => p.id));
   // 「AIでできること」などから：その指示文を選んで、指示文の選択へ移る
   const pickPrompt = (id: PetitionPromptId) => {
@@ -52,28 +54,7 @@ export function PetitionGuidePage() {
     <div className="wrap page pubcom-guide petition-guide">
       <PageHead title={PETITION_GUIDE.title} sub={PETITION_GUIDE.subtitle} />
 
-      <nav aria-label="このページの内容">
-        <ol className="pc-menu">
-          {PETITION_PARTS.map((p) => (
-            <li key={p.id}>
-              <JumpLink path={PATH} id={p.id} className="pc-menu-link">
-                <span className="pc-menu-icon" aria-hidden="true">
-                  <Icon name={p.icon} />
-                </span>
-                <span className="pc-menu-text">
-                  <b>
-                    <span className="pc-num" aria-hidden="true">
-                      {p.no}
-                    </span>
-                    {p.title}
-                  </b>
-                  <span>{p.sub}</span>
-                </span>
-              </JumpLink>
-            </li>
-          ))}
-        </ol>
-      </nav>
+      <PartMenu path={PATH} parts={PETITION_PARTS} navRef={menuRef} />
 
       {/* ① 3分でわかる */}
       <Part part={PETITION_PARTS[0]}>
@@ -167,7 +148,7 @@ export function PetitionGuidePage() {
       </Part>
 
       {/* ③ もっと詳しく */}
-      <Part part={PETITION_PARTS[2]}>
+      <Part part={PETITION_PARTS[2]} skipTo={{ path: PATH, part: PETITION_PARTS[3] }}>
         <section className="pc-sub pc-double" id="double-check" aria-labelledby="double-h">
           <h3 id="double-h" className="pc-sub-title">
             {DOUBLE_CHECK.title}
@@ -331,6 +312,7 @@ export function PetitionGuidePage() {
         </ul>
       </section>
       <PageEndNav />
+      <PartBar path={PATH} parts={PETITION_PARTS} topRef={menuRef} />
     </div>
   );
 }

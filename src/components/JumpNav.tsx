@@ -14,6 +14,8 @@ export interface JumpItem {
   area?: string;
   icon: IconName;
   label: string;
+  /** まとまりの番号（あればアイコンの代わりに丸数字を出す） */
+  no?: number;
 }
 
 /** ids のうち、画面の上から3割の線を最後に越えたもの（＝いま読んでいるところ）。並びはページの上から順 */
@@ -125,26 +127,36 @@ export function JumpNav({
   );
 }
 
-/** 画面の下の小さな移動メニュー（狭い画面だけ） */
+/** 画面の下の小さな移動メニュー（狭い画面だけ。wide なら広い画面でも、画面下の中央に小さく出す） */
 export function JumpBar({
   path,
   items,
   current,
   topRef,
+  label = '画面下の移動メニュー',
+  wide = false,
 }: {
   path: string;
   items: JumpItem[];
   current: string | null;
   topRef: RefObject<HTMLElement | null>;
+  label?: string;
+  wide?: boolean;
 }) {
   const shown = useBarShown(topRef);
   return (
-    <nav className="jump-bar" aria-label="画面下の移動メニュー" hidden={!shown}>
+    <nav className={'jump-bar' + (wide ? ' jump-bar-wide' : '')} aria-label={label} hidden={!shown}>
       <ul>
         {items.map((it) => (
           <li key={it.label}>
             <JumpLink path={path} id={it.id} push current={isCurrent(it, current)}>
-              <Icon name={it.icon} />
+              {it.no ? (
+                <span className="jump-no" aria-hidden="true">
+                  {it.no}
+                </span>
+              ) : (
+                <Icon name={it.icon} />
+              )}
               {it.label}
             </JumpLink>
           </li>

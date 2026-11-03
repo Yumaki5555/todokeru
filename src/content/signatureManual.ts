@@ -24,7 +24,7 @@
 //   ・地方自治法 第74条・第74条の2・第74条の3、施行令 第92条、総務省「直接請求制度」：条例の制定改廃の請求は有権者の50分の1以上、
 //     議会の解散・解職は原則3分の1以上。決められた様式の署名簿に有権者が自署し、署名収集者が直接署名させる。選挙管理委員会が審査する。電子で集める規定はない。
 //   ・地方自治法 第124条・請願法 第2条：請願は議員の紹介が必要。署名簿を求める規定はない。
-import type { IconName, PubcomFigItem, SignaturePrompt, SignaturePromptId, SignatureSite, SignatureStep } from '../types';
+import type { GuidePart, IconName, PubcomFigItem, SignaturePrompt, SignaturePromptId, SignatureSite, SignatureStep } from '../types';
 import { SITE } from '../site';
 
 export const SIGNATURE_GUIDE = {
@@ -81,11 +81,11 @@ export const ENTRY: { id: string; mark: string; icon: IconName; title: string; s
 ];
 
 /** ページの4つの入り口 */
-export const SIGNATURE_PARTS: { id: string; no: number; icon: IconName; title: string; sub: string }[] = [
-  { id: 'sanpun', no: 1, icon: 'bulb', title: '3分でわかる', sub: '署名のしくみと注意点' },
-  { id: 'try', no: 2, icon: 'route', title: 'やってみよう', sub: '賛同・立ち上げの手順' },
-  { id: 'more', no: 3, icon: 'search', title: 'もっと詳しく', sub: 'ひな形・AI・サイトの違い' },
-  { id: 'act', no: 4, icon: 'send', title: '署名する・公開する', sub: '最後の確認' },
+export const SIGNATURE_PARTS: GuidePart[] = [
+  { id: 'sanpun', no: 1, icon: 'bulb', title: '3分でわかる', sub: '署名のしくみと注意点', short: 'わかる' },
+  { id: 'try', no: 2, icon: 'route', title: 'やってみよう', sub: '賛同・立ち上げの手順', short: 'やってみる' },
+  { id: 'more', no: 3, icon: 'search', title: 'もっと詳しく', sub: 'ひな形・AI・サイトの違い', short: '詳しく', optional: true },
+  { id: 'act', no: 4, icon: 'send', title: '署名する・公開する', sub: '最後の確認', short: '最後の確認' },
 ];
 
 // ---- ① 3分でわかる ----

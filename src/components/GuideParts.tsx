@@ -1,12 +1,60 @@
-// 書き方マニュアル（パブコメ・請願陳情）で共通の小さな部品
+// 書き方マニュアル（パブコメ・請願陳情・署名）で共通の小さな部品
 // 見た目のクラス名は、最初に作ったパブコメの書き方（pc-）のものをそのまま使う。
-import type { ReactNode } from 'react';
-import type { PubcomFigItem } from '../types';
+import type { ReactNode, RefObject } from 'react';
+import type { GuidePart, PubcomFigItem } from '../types';
 import { Icon } from './Icon';
-import { SmartLink } from './Links';
+import { JumpBar, useScrollSpy } from './JumpNav';
+import { JumpLink, SmartLink } from './Links';
 
-/** ページの入り口のそれぞれ（番号と見出し） */
-export function Part({ part, children }: { part: { id: string; no: number; title: string }; children: ReactNode }) {
+/** 丸数字（①〜⑨） */
+const circled = (no: number) => String.fromCharCode(0x2460 + no - 1);
+
+/** ページ最初の目次（4つのまとまりへの入り口） */
+export function PartMenu({ path, parts, navRef }: { path: string; parts: GuidePart[]; navRef: RefObject<HTMLElement | null> }) {
+  return (
+    <nav aria-label="このページの内容" id="contents" tabIndex={-1} ref={navRef}>
+      <ol className="pc-menu">
+        {parts.map((p) => (
+          <li key={p.id}>
+            <JumpLink path={path} id={p.id} className="pc-menu-link">
+              <span className="pc-menu-icon" aria-hidden="true">
+                <Icon name={p.icon} />
+              </span>
+              <span className="pc-menu-text">
+                <b>
+                  <span className="pc-num" aria-hidden="true">
+                    {p.no}
+                  </span>
+                  {p.title}
+                </b>
+                <span>{p.sub}</span>
+                {p.optional && <span className="pc-optional">必要なときだけ</span>}
+              </span>
+            </JumpLink>
+          </li>
+        ))}
+      </ol>
+    </nav>
+  );
+}
+
+/** 目次が見えなくなったら、画面の下に4つのまとまりを出し、いま読んでいるところに印を付ける */
+export function PartBar({ path, parts, topRef }: { path: string; parts: GuidePart[]; topRef: RefObject<HTMLElement | null> }) {
+  const current = useScrollSpy(parts.map((p) => p.id));
+  return (
+    <JumpBar
+      path={path}
+      items={parts.map((p) => ({ id: p.id, no: p.no, icon: p.icon, label: p.short }))}
+      current={current}
+      topRef={topRef}
+      label="このページの目次（いま読んでいるところに印）"
+      wide
+    />
+  );
+}
+
+/** ページの入り口のそれぞれ（番号と見出し）。skipTo：必要なときだけ読むまとまりで、飛ばして進む先 */
+export function Part({ part, skipTo, children }: { part: GuidePart; skipTo?: { path: string; part: GuidePart }; children: ReactNode }) {
   return (
     <section className="section pc-part" id={part.id} aria-labelledby={`${part.id}-h`} tabIndex={-1}>
       <div className="pc-part-head">
@@ -15,6 +63,17 @@ export function Part({ part, children }: { part: { id: string; no: number; title
         </span>
         <h2 id={`${part.id}-h`}>{part.title}</h2>
       </div>
+      {skipTo && (
+        <p className="pc-skip">
+          <Icon name="info" />
+          <span>
+            ここは、必要なときだけ読めば大丈夫です。{' '}
+            <JumpLink path={skipTo.path} id={skipTo.part.id}>
+              {circled(skipTo.part.no)}「{skipTo.part.title}」へ進む
+            </JumpLink>
+          </span>
+        </p>
+      )}
       {children}
     </section>
   );

@@ -36,26 +36,17 @@ import { href } from '../router';
 import type { IconName, SignaturePromptId, SignatureStep } from '../types';
 import { Checklist } from '../components/Checklist';
 import { CopyButton } from '../components/CopyButton';
-import { AiTip, Flow, Part, Sources } from '../components/GuideParts';
+import { AiTip, Flow, Part, PartBar, PartMenu, Sources } from '../components/GuideParts';
 import { Icon } from '../components/Icon';
-import { JumpBar, useScrollSpy, type JumpItem } from '../components/JumpNav';
 import { JumpLink, PageEndNav, SmartLink } from '../components/Links';
 import { PageHead } from '../components/PageHead';
 import { PromptPicker } from '../components/PromptPicker';
 
 const PATH = '/guide/signature';
 
-/** スマホで上の入り口が見えなくなったときに、画面の下に出す移動メニュー */
-const BAR: JumpItem[] = [
-  { id: 'join', icon: 'heart', label: '賛同する' },
-  { id: 'start', icon: 'signature', label: '立ち上げる' },
-  { id: 'contents', icon: 'list', label: '目次' },
-];
-
 export function SignatureGuidePage() {
   const [promptId, setPromptId] = useSessionChoice<SignaturePromptId>('todokeru:prompt:signature:v1', DEFAULT_PROMPT, SIGNATURE_PROMPTS.map((p) => p.id));
-  const topNav = useRef<HTMLElement>(null);
-  const area = useScrollSpy(['join', 'start', 'more']);
+  const menuRef = useRef<HTMLElement>(null);
   // 「AIでできること」から：その指示文を選んで、指示文の選択へ移る
   const pickPrompt = (id: SignaturePromptId) => {
     setPromptId(id);
@@ -67,7 +58,7 @@ export function SignatureGuidePage() {
       <PageHead title={SIGNATURE_GUIDE.title} sub={SIGNATURE_GUIDE.subtitle} />
 
       {/* 大きな2つの入り口。それぞれの手順へページの中で移る */}
-      <nav aria-label="どちらから始める？" ref={topNav}>
+      <nav aria-label="どちらから始める？">
         <ul className="sg-entry">
           {ENTRY.map((e) => (
             <li key={e.id}>
@@ -91,28 +82,7 @@ export function SignatureGuidePage() {
         </ul>
       </nav>
 
-      <nav aria-label="このページの内容" id="contents" tabIndex={-1}>
-        <ol className="pc-menu">
-          {SIGNATURE_PARTS.map((p) => (
-            <li key={p.id}>
-              <JumpLink path={PATH} id={p.id} className="pc-menu-link">
-                <span className="pc-menu-icon" aria-hidden="true">
-                  <Icon name={p.icon} />
-                </span>
-                <span className="pc-menu-text">
-                  <b>
-                    <span className="pc-num" aria-hidden="true">
-                      {p.no}
-                    </span>
-                    {p.title}
-                  </b>
-                  <span>{p.sub}</span>
-                </span>
-              </JumpLink>
-            </li>
-          ))}
-        </ol>
-      </nav>
+      <PartMenu path={PATH} parts={SIGNATURE_PARTS} navRef={menuRef} />
 
       {/* ① 3分でわかる */}
       <Part part={SIGNATURE_PARTS[0]}>
@@ -157,7 +127,7 @@ export function SignatureGuidePage() {
       </Part>
 
       {/* ③ もっと詳しく */}
-      <Part part={SIGNATURE_PARTS[2]}>
+      <Part part={SIGNATURE_PARTS[2]} skipTo={{ path: PATH, part: SIGNATURE_PARTS[3] }}>
         <section className="pc-sub" id="template" aria-labelledby="template-h" tabIndex={-1}>
           <h3 id="template-h" className="pc-sub-title">
             {SIGNATURE_TEMPLATE.title}
@@ -344,7 +314,7 @@ export function SignatureGuidePage() {
         </ul>
       </section>
       <PageEndNav />
-      <JumpBar path={PATH} items={BAR} current={area} topRef={topNav} />
+      <PartBar path={PATH} parts={SIGNATURE_PARTS} topRef={menuRef} />
     </div>
   );
 }

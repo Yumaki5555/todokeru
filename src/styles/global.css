@@ -493,6 +493,22 @@ a:hover {
   cursor: pointer;
 }
 
+/* ページ末尾の報告の案内（1行だけ・メインより目立たせない） */
+.report-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 12px;
+  margin: 36px 0 0;
+  font-size: var(--fs-small);
+  color: var(--c-text-sub);
+}
+
+.report-line + .page-end-nav,
+.report-line + .home-about {
+  margin-top: 12px;
+}
+
 .page-end-nav {
   display: flex;
   flex-wrap: wrap;
@@ -1397,6 +1413,64 @@ a.way-chip:hover {
 .quick-icon .icon {
   width: 20px;
   height: 20px;
+}
+
+/* ---- AIで考えを文章に整理したいとき（すぐ使いたい方の下。各ページのAIへの指示文へ） ---- */
+.ai-entry {
+  margin-top: 12px;
+  padding: 12px 14px;
+  border: 1px solid var(--c-main-line);
+  border-radius: var(--radius);
+  background: #fff;
+}
+
+.ai-entry p {
+  margin: 0;
+}
+
+.ai-entry-head {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px !important;
+  color: var(--c-main-deep);
+}
+
+.ai-entry-head .icon {
+  flex: none;
+  color: var(--c-main);
+}
+
+.ai-entry-links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.ai-entry-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  min-height: 44px;
+  padding: 6px 14px;
+  border: 2px solid var(--c-main);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--c-main-deep);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.ai-entry-links a:hover {
+  background: var(--c-main-tint);
+}
+
+.ai-entry-note {
+  color: var(--c-text-sub);
+  font-size: 0.875rem;
 }
 
 /* ---- 初めての方へ：3分でわかる（入り口のカード1枚） ---- */
@@ -2761,6 +2835,7 @@ a.way-chip:hover {
   .site-bar,
   .site-footer,
   .page-end-nav,
+  .report-line,
   .toc-actions,
   .script-actions,
   .sample > .copy-row {
@@ -4338,6 +4413,42 @@ p.mail-label {
   color: var(--c-text-sub);
 }
 
+/* 「必要なときだけ」の印（目次の③） */
+.pc-menu-text > .pc-optional {
+  justify-self: center;
+  margin-top: 2px;
+  padding: 0 8px;
+  border: 1px solid var(--c-line);
+  border-radius: 999px;
+  background: var(--c-bg-sub);
+  color: var(--c-text-sub);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+/* 必要なときだけ読むまとまりの冒頭：飛ばして次へ進む案内 */
+.pc-skip {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin: 8px 0 0;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  background: var(--c-bg-sub);
+  line-height: 1.6;
+}
+
+.pc-skip > .icon {
+  flex: none;
+  margin-top: 0.25em;
+  color: var(--c-main);
+}
+
+.pc-skip a {
+  font-weight: 700;
+  white-space: nowrap;
+}
+
 /* 小さな丸数字 */
 .pc-num {
   display: inline-grid;
@@ -5355,6 +5466,78 @@ p.mail-label {
   .jump-bar a[aria-current] {
     background: var(--c-main-tint);
   }
+}
+
+/* 長いガイド（パブコメ・請願陳情・署名）の画面下のメニュー：4つのまとまりを並べ、いま読んでいるところに印。
+   広い画面でも、画面下の中央に小さく出す */
+.jump-bar-wide ul {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.jump-no {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--c-main-dark);
+  color: #fff;
+  font-size: 0.8125rem;
+  line-height: 1;
+}
+
+@media (min-width: 1000px) {
+  body:has(.jump-bar-wide) {
+    padding-bottom: 80px;
+  }
+
+  .jump-bar-wide:not([hidden]) {
+    display: block;
+    position: fixed;
+    left: 50%;
+    bottom: 12px;
+    z-index: 20;
+    width: min(600px, calc(100% - 32px));
+    padding: 4px;
+    border: 1px solid var(--c-line);
+    border-radius: var(--radius);
+    background: rgb(255 255 255 / 96%);
+    box-shadow: 0 2px 12px rgb(0 0 0 / 12%);
+    transform: translateX(-50%);
+  }
+
+  .jump-bar-wide ul {
+    list-style: none;
+    display: grid;
+    gap: 4px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .jump-bar-wide a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    min-height: 44px;
+    border-radius: var(--radius-sm);
+    color: var(--c-main-deep);
+    font-size: 0.9375rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-decoration: none;
+  }
+
+  .jump-bar-wide a:hover,
+  .jump-bar-wide a[aria-current] {
+    background: var(--c-main-tint);
+  }
+}
+
+.jump-bar a[aria-current] .jump-no {
+  background: var(--c-main);
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--c-main);
 }
 
 @media print {

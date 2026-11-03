@@ -3,7 +3,7 @@
 // 制度の説明は、e-Gov「パブリック・コメント制度について」と行政手続法 第6章（第38条〜第45条）・第46条で確かめた（2026年11月3日）。
 //   ・意見の数ではなく内容を考慮する（e-Gov）　・案の公示から30日以上（第39条）　・提出意見を十分に考慮（第42条）
 //   ・結果と考え方を公示。意見は整理・要約して公示できる（第43条）　・自治体は第6章の対象外で、趣旨にのっとり措置に努める（第3条第3項・第46条）
-import type { IconName, PromptId, PubcomAiStep, PubcomFigItem, PubcomPrompt, PubcomResearch, PubcomStep } from '../types';
+import type { GuidePart, PromptId, PubcomAiStep, PubcomFigItem, PubcomPrompt, PubcomResearch, PubcomStep } from '../types';
 import { SITE } from '../site';
 
 export const PUBCOM_GUIDE = {
@@ -14,11 +14,11 @@ export const PUBCOM_GUIDE = {
 export const EGOV_PUBCOM = { label: 'e-Govパブリック・コメント', url: 'https://public-comment.e-gov.go.jp/', desc: '国の募集中の案件と結果（公式）' };
 
 /** ページの4つの入り口 */
-export const PUBCOM_PARTS: { id: string; no: number; icon: IconName; title: string; sub: string }[] = [
-  { id: 'sanpun', no: 1, icon: 'bulb', title: '3分でわかる', sub: 'しくみと書き方の基本' },
-  { id: 'ai', no: 2, icon: 'sparkle', title: 'AIを使ってみよう', sub: '目的別の指示文をコピー' },
-  { id: 'research', no: 3, icon: 'search', title: 'もっと詳しく調べる', sub: '法律・統計・他の自治体' },
-  { id: 'submit', no: 4, icon: 'send', title: '提出する', sub: '確認・提出・結果' },
+export const PUBCOM_PARTS: GuidePart[] = [
+  { id: 'sanpun', no: 1, icon: 'bulb', title: '3分でわかる', sub: 'しくみと書き方の基本', short: 'わかる' },
+  { id: 'ai', no: 2, icon: 'sparkle', title: 'AIを使ってみよう', sub: '目的別の指示文をコピー', short: 'AIを使う' },
+  { id: 'research', no: 3, icon: 'search', title: 'もっと詳しく調べる', sub: '法律・統計・他の自治体', short: '調べる', optional: true },
+  { id: 'submit', no: 4, icon: 'send', title: '提出する', sub: '確認・提出・結果', short: '提出する' },
 ];
 
 // ---- ① 3分でわかる ----

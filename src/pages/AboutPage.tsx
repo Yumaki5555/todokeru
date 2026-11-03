@@ -4,8 +4,8 @@ import type { DataSummary } from '../types';
 import { loadSummary } from '../data/loaders';
 import { href } from '../router';
 import { guidePath } from '../content/guides';
-import { SITE, SUPERVISION, formatDate } from '../site';
-import { PageEndNav } from '../components/Links';
+import { REPORT, SITE, SUPERVISION, formatDate } from '../site';
+import { PageEndNav, ReportLink } from '../components/Links';
 import { PageHead } from '../components/PageHead';
 import { Toc } from '../components/Toc';
 
@@ -15,6 +15,8 @@ const SECTIONS = [
   { id: 'operator', label: '運営について' },
   { id: 'sources', label: '情報の出典' },
   { id: 'caution', label: '利用上の注意' },
+  // 報告先が未設定のあいだは出さない
+  ...(REPORT.formUrl ? [{ id: 'report', label: '間違いを見つけたら' }] : []),
   { id: 'privacy', label: '個人情報とプライバシー' },
   { id: 'supervision', label: '電話ガイドの監修について' },
   { id: 'disclaimer', label: '免責事項' },
@@ -140,6 +142,20 @@ export function AboutPage() {
             </ul>
           </Sec>
 
+          {REPORT.formUrl && (
+            <Sec id="report" title="間違いを見つけたら">
+              <p>連絡先・受付時間の誤り、切れたリンク、使いにくいところ、追加してほしい情報などに気づいたら、Google フォーム（新しいタブで開きます）で知らせてください。</p>
+              <ul className="plain-list">
+                <li>どのページ・どの窓口のことかと、気づいたことを書いてください。正しい情報が載っている公式ページの URL があれば、確かめるのが早くなります。</li>
+                <li>匿名で送れます。名前や連絡先は、返信が必要なときだけ書いてください。</li>
+                <li>報告をもとに公式ページで確かめてから直します。すべてのご要望への対応・返信はお約束できません。窓口の誤りは、窓口検索の各窓口の「誤りを報告」からも送れます。</li>
+              </ul>
+              <p>
+                <ReportLink className="btn btn-secondary">間違い・ご要望を送る</ReportLink>
+              </p>
+            </Sec>
+          )}
+
           <Sec id="privacy" title="個人情報とプライバシー">
             <ul className="plain-list">
               <li>会員登録はありません。</li>
@@ -197,7 +213,7 @@ export function AboutPage() {
         </div>
       </div>
 
-      <PageEndNav />
+      <PageEndNav report={false} />
     </div>
   );
 }

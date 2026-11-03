@@ -20,6 +20,7 @@ import { telHref } from '../lib/text';
 import { href } from '../router';
 import { SITE, formatDate } from '../site';
 import { Icon } from './Icon';
+import { ReportLink } from './Links';
 
 export type Entity =
   { kind: 'agency'; agency: Agency } | { kind: 'pref'; pref: Prefecture } | { kind: 'muni'; muni: Municipality; pref: Prefecture };
@@ -121,9 +122,9 @@ export function ContactCard({ entity }: { entity: Entity }) {
       {status === 'ok' && !hasBase && <NotResearched entity={entity} types={types} />}
       {status === 'ok' && (hasBase || extras.length > 0) && (
         <ul className="slots">
-          {hasBase && types.map((t) => <ContactSlot key={t} type={t} contacts={contacts.filter((c) => c.type === t)} />)}
+          {hasBase && types.map((t) => <ContactSlot key={t} type={t} contacts={contacts.filter((c) => c.type === t)} owner={name} />)}
           {extras.map((s) => (
-            <ContactSlot key={s.type} type={s.type} contacts={s.contacts} from={s.from} />
+            <ContactSlot key={s.type} type={s.type} contacts={s.contacts} from={s.from} owner={s.from || name} />
           ))}
         </ul>
       )}
@@ -222,7 +223,8 @@ function NotResearched({ entity, types }: { entity: Entity; types: ContactType[]
 }
 
 /** 窓口の種類ごとの欄。from：ほかの自治体の窓口を出すとき（市区町村の結果に出す都道府県の警察）、その自治体の名前 */
-function ContactSlot({ type, contacts, from }: { type: ContactType; contacts: Contact[]; from?: string }) {
+/** owner：窓口を持つ機関・自治体の名前（誤りの報告に、どの窓口かを書き込むため） */
+function ContactSlot({ type, contacts, from, owner }: { type: ContactType; contacts: Contact[]; from?: string; owner: string }) {
   const info = CONTACT_TYPE_INFO[type];
   const shown = contacts.filter(isDisplayable);
   const unavailable = contacts.find((c) => c.status === 'unavailable');
@@ -238,7 +240,7 @@ function ContactSlot({ type, contacts, from }: { type: ContactType; contacts: Co
       </h4>
       {from && <p className="slot-lead">警察は都道府県の仕事なので、{from}の窓口を出しています。</p>}
       {shown.length > 0 ? (
-        shown.map((c) => <ContactView key={c.id} c={c} />)
+        shown.map((c) => <ContactView key={c.id} c={c} owner={owner} />)
       ) : unavailable && unavailable.source_url && unavailable.verified_at ? (
         <p className="slot-state">
           <span className="badge badge-muted">{STATUS_LABEL.unavailable}</span>
@@ -264,7 +266,7 @@ function ContactSlot({ type, contacts, from }: { type: ContactType; contacts: Co
   );
 }
 
-function ContactView({ c }: { c: Contact }) {
+function ContactView({ c, owner }: { c: Contact; owner: string }) {
   return (
     <div className="contact">
       <p className="contact-name">
@@ -351,6 +353,7 @@ function ContactView({ c }: { c: Contact }) {
           </a>
         </span>
         <span>{c.status === 'auto_matched' ? `照合日：${formatDate(c.matched_at!)}` : `最終確認日：${formatDate(c.verified_at!)}`}</span>
+        <ReportLink prefill={{ kind: '掲載内容の間違い', detail: `窓口：${owner} ${c.department}（${c.id}）\n` }}>誤りを報告</ReportLink>
       </p>
     </div>
   );

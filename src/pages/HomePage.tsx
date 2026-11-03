@@ -1,11 +1,11 @@
-// トップページ：題名 → 何をしたいですか？（目的 → こんな方法があります）→ すぐ使いたい方 → 3分でわかる（入り口）→ すべての方法 → 関連サイト
+// トップページ：題名 → 何をしたいですか？（目的 → こんな方法があります）→ すぐ使いたい方（＋AIの指示文への入り口）→ 3分でわかる（入り口）→ すべての方法 → 関連サイト
 // わからない人には目的からの道案内を、決まっている人には最短の入り口を
 import { GUIDES, guidePath } from '../content/guides';
 import { href } from '../router';
 import { SITE } from '../site';
 import type { IconName } from '../types';
 import { Icon } from '../components/Icon';
-import { BackToPageTop } from '../components/Links';
+import { BackToPageTop, ReportLine, SmartLink } from '../components/Links';
 import { Breakable, PurposeFinder, usePurpose } from '../components/PurposeFinder';
 
 export function HomePage() {
@@ -74,6 +74,13 @@ const QUICK: { to: string; icon: IconName; label: string }[] = [
   { to: '/guide/public-comment', icon: 'comment', label: 'パブコメを/書く' },
 ];
 
+/** AIで考えを整理したいとき：目的別の「AIへの指示文」へ直接（指示文は各書き方ページの中にある） */
+const AI_ENTRIES: { to: string; label: string }[] = [
+  { to: '/guide/public-comment?s=prompts', label: 'パブコメの意見を文章にする' },
+  { to: '/guide/petition?s=prompts', label: '陳情書・請願書を作る' },
+  { to: '/guide/signature?s=prompts', label: '署名文を作る' },
+];
+
 function QuickStart() {
   return (
     <section className="section" id="quick" aria-labelledby="quick-h">
@@ -94,6 +101,24 @@ function QuickStart() {
           </li>
         ))}
       </ul>
+      <div className="ai-entry" role="group" aria-labelledby="ai-entry-h">
+        <p className="ai-entry-head" id="ai-entry-h">
+          <Icon name="sparkle" />
+          <b>AIで考えを文章に整理したいとき</b>
+        </p>
+        <p>目的に合う「AIへの指示文」を選んでコピーし、ふだん使っているAIに貼り付けます。</p>
+        <ul className="ai-entry-links">
+          {AI_ENTRIES.map((a) => (
+            <li key={a.to}>
+              <SmartLink to={a.to}>
+                {a.label}
+                <Icon name="arrow-right" className="icon-inline" />
+              </SmartLink>
+            </li>
+          ))}
+        </ul>
+        <p className="ai-entry-note">電話・メールで伝える内容は、台本・文面づくりの「もっと詳しく整理する」で、AIを使わずに整えられます。</p>
+      </div>
     </section>
   );
 }
@@ -177,6 +202,8 @@ function RelatedSites() {
 
 function AboutBrief() {
   return (
+    <>
+    <ReportLine />
     <section className="home-about" id="about" aria-label="このサイトについて">
       <p>
         <span className="badge badge-muted">民間運営</span>
@@ -184,5 +211,6 @@ function AboutBrief() {
       </p>
       <BackToPageTop />
     </section>
+    </>
   );
 }

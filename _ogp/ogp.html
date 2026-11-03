@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>ogp</title>
+<!-- SNS用サムネイル（public/ogp.png）の元。1200×630 で画面写真を撮って使う（npm run ogp）。
+     入口サイト「日本を知る。」の ogp.png と同じ形。絵はトップの吹き出し（HeroArt）と favicon をそのまま使う。 -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700;900&display=swap">
+<style>
+:root{--bg:#F5F7FA;--main:#007f93;--main-dark:#00616f;--main-deep:#004a55;--main-tint:#e6f3f5;--text:#1f2a2e}
+*{box-sizing:border-box}
+html,body{margin:0;width:1200px;height:630px;overflow:hidden}
+body{background:var(--bg);font-family:"Noto Sans JP","Yu Gothic UI","Meiryo",sans-serif;color:var(--text);position:relative}
+.frame{position:absolute;inset:0;border-bottom:14px solid var(--main-deep)}
+.text{position:absolute;left:80px;top:64px;width:780px}
+.brand{display:flex;align-items:center;gap:14px;color:var(--main-deep);font-weight:700;font-size:26px;letter-spacing:.04em}
+.brand svg{width:44px;height:44px}
+h1{margin:22px 0 0;color:var(--main-deep);font-weight:900;font-size:112px;line-height:1.12;letter-spacing:.04em;white-space:nowrap}
+.sub{margin:16px 0 0;color:var(--main-deep);font-weight:700;font-size:38px}
+.catch{display:inline-block;margin:18px 0 0;color:var(--main);font-weight:900;font-size:36px;background:linear-gradient(transparent 66%,var(--main-tint) 66%)}
+.chips{display:flex;gap:12px;margin-top:30px}
+.chip{padding:8px 18px;border-radius:999px;border:2px solid var(--main);background:#fff;color:var(--main-deep);font-weight:900;font-size:23px;white-space:nowrap}
+.art{position:absolute;right:56px;top:150px;width:330px;height:248px}
+.art-main{fill:var(--main)}
+.art-line{fill:none;stroke:#fff;stroke-width:8;stroke-linecap:round}
+.art-sub{fill:#fff;stroke:var(--main-dark);stroke-width:4;stroke-linejoin:round}
+.art-dot{fill:var(--main-dark)}
+.art-plane{fill:#fff;stroke:var(--main-dark);stroke-width:3.5;stroke-linejoin:round;stroke-linecap:round}
+</style>
+</head>
+<body>
+<div class="frame"></div>
+<svg class="art" viewBox="0 0 200 150" aria-hidden="true">
+  <path class="art-main" d="M28 12h84a18 18 0 0 1 18 18v42a18 18 0 0 1-18 18H60l-24 20V90h-8a18 18 0 0 1-18-18V30a18 18 0 0 1 18-18z"/>
+  <path class="art-line" d="M34 40h70M34 60h46"/>
+  <path class="art-sub" d="M112 62h60a16 16 0 0 1 16 16v28a16 16 0 0 1-16 16h-6v18l-20-18h-34a16 16 0 0 1-16-16V78a16 16 0 0 1 16-16z"/>
+  <circle class="art-dot" cx="124" cy="92" r="5.5"/>
+  <circle class="art-dot" cx="142" cy="92" r="5.5"/>
+  <circle class="art-dot" cx="160" cy="92" r="5.5"/>
+  <path class="art-plane" d="M194 8 150 26l16 7 7 16z M194 8l-28 25"/>
+</svg>
+<div class="text">
+  <div class="brand">
+    <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#007F93"/><path d="M16 20h32a4 4 0 0 1 4 4v14a4 4 0 0 1-4 4H30l-9 7v-7h-5a4 4 0 0 1-4-4V24a4 4 0 0 1 4-4z" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round"/><path d="M23 31h18" stroke="#fff" stroke-width="4" stroke-linecap="round"/></svg>
+    日本を知る。｜yumaki5555.github.io/todokeru
+  </div>
+  <h1>声を届ける。</h1>
+  <p class="sub">疑問や意見を、適切な窓口へ。</p>
+  <p class="catch">知ることから、行動へ。</p>
+  <div class="chips">
+    <span class="chip">電話の台本</span>
+    <span class="chip">メール・手紙</span>
+    <span class="chip">全国の窓口</span>
+    <span class="chip">パブコメ・請願・署名</span>
+  </div>
+</div>
+</body>
+</html>

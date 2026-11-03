@@ -99,7 +99,8 @@ describe('トップページ', () => {
     render(<App />);
     const sec = document.getElementById('quick')!;
     expect(within(sec).getByRole('heading', { level: 2, name: 'すぐ使いたい方' })).toBeInTheDocument();
-    expect(within(sec).getAllByRole('link').map((a) => [a.textContent, a.getAttribute('href')])).toEqual([
+    const grid = sec.querySelector('.quick-grid') as HTMLElement; // AI の入り口（下の別の欄）は除く
+    expect(within(grid).getAllByRole('link').map((a) => [a.textContent, a.getAttribute('href')])).toEqual([
       ['電話の台本を作る', '#/guide/phone'],
       ['メール・手紙を作る', '#/guide/email'],
       ['全国の窓口を探す', '#/contacts'],

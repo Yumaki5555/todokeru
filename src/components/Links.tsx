@@ -1,8 +1,8 @@
 // リンクの部品：サイト内リンク・外部リンク・ページ内リンク・3つの「戻る」
 import type { ReactNode } from 'react';
-import { href, pushHash, sectionHref } from '../router';
+import { href, parseHash, pushHash, sectionHref } from '../router';
 import { scrollToPageTop, scrollToSection } from '../lib/dom';
-import { SITE } from '../site';
+import { REPORT, SITE, reportPageChoice, reportUrl, type ReportPrefill } from '../site';
 import { Icon } from './Icon';
 
 const isExternal = (to: string) => /^https?:\/\//.test(to);
@@ -23,6 +23,44 @@ export function SmartLink({ to, className, children }: { to: string; className?:
     <a className={className} href={href(path) + (q ? '?' + q : '')}>
       {children}
     </a>
+  );
+}
+
+/** いま見ているページの URL・ページ名を書き込んだ報告フォームの URL */
+function currentReportUrl(prefill?: ReportPrefill): string {
+  const path = parseHash(window.location.hash).path;
+  return reportUrl({ page: reportPageChoice(path), url: window.location.href, ...prefill });
+}
+
+/** 間違い・ご要望の報告フォーム（Google フォーム）へのリンク。新しいタブで開く。報告先が未設定なら何も出さない。
+ *  見ていたページの URL とページ名は、押したときに書き込む。prefill：ほかに書き込んでおく値（窓口カードなら種類と窓口名） */
+export function ReportLink({ prefill, className, children }: { prefill?: ReportPrefill; className?: string; children: ReactNode }) {
+  if (!REPORT.formUrl) return null;
+  return (
+    <a
+      className={className}
+      href={currentReportUrl(prefill)}
+      target="_blank"
+      rel="noopener noreferrer"
+      onClick={(e) => {
+        e.currentTarget.href = currentReportUrl(prefill);
+      }}
+    >
+      {children}
+      <Icon name="external" className="icon-inline" />
+      <span className="sr-only">（Google フォーム・新しいタブで開きます）</span>
+    </a>
+  );
+}
+
+/** ページの末尾の小さな案内「間違いを見つけた・改善してほしいところがある」＋報告ボタン */
+export function ReportLine() {
+  if (!REPORT.formUrl) return null;
+  return (
+    <p className="report-line">
+      <span>間違いを見つけた・改善してほしいところがある</span>
+      <ReportLink className="btn btn-secondary btn-small">間違い・ご要望を送る</ReportLink>
+    </p>
   );
 }
 
@@ -81,11 +119,14 @@ export function BackToPageTop() {
 }
 
 /** 詳細ページの下に置く2つの戻る */
-export function PageEndNav() {
+export function PageEndNav({ report = true }: { report?: boolean }) {
   return (
-    <nav className="page-end-nav" aria-label="ページの移動">
-      <BackToPageTop />
-      <BackToSiteTop />
-    </nav>
+    <>
+      {report && <ReportLine />}
+      <nav className="page-end-nav" aria-label="ページの移動">
+        <BackToPageTop />
+        <BackToSiteTop />
+      </nav>
+    </>
   );
 }

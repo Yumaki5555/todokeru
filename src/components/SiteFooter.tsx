@@ -1,6 +1,7 @@
 // 共通フッター：民間運営であること・最終更新日・関連リンク
 import { href } from '../router';
-import { SITE, formatDate } from '../site';
+import { REPORT, SITE, formatDate } from '../site';
+import { ReportLink } from './Links';
 
 export function SiteFooter() {
   return (
@@ -13,6 +14,11 @@ export function SiteFooter() {
           <li>
             <a href={href('/about')}>このサイトについて（出典・注意事項・免責事項）</a>
           </li>
+          {REPORT.formUrl && (
+            <li>
+              <ReportLink>間違い・ご要望を送る</ReportLink>
+            </li>
+          )}
           <li>
             <a href={SITE.pubcome.url}>{SITE.pubcome.label}</a>
           </li>

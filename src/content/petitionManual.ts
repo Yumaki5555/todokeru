@@ -8,7 +8,7 @@
 //   ・参議院「請願」：召集日から会期の終わるおおむね1週間前まで。ごく短い国会では受理しないことがある
 //   ・東京都議会「請願・陳情ガイド」：紹介のないものは陳情。陳情も原則は請願に準じて審査。持参か郵送。住所・氏名は公開の会議資料・会議録に掲載
 //   ・市区町村議会の公式ページ（抜き取り）：「趣旨採択」「一部採択」「継続審査」の区分、陳情を「配付」だけにする扱い、住所・氏名の非公開の申出がある議会もある
-import type { IconName, PetitionCard, PetitionPrompt, PetitionPromptId, PetitionStep, PubcomFigItem } from '../types';
+import type { GuidePart, PetitionCard, PetitionPrompt, PetitionPromptId, PetitionStep, PubcomFigItem } from '../types';
 
 export const PETITION_GUIDE = {
   title: '請願・陳情の書き方',
@@ -29,11 +29,11 @@ export const OFFICIAL = {
 };
 
 /** ページの4つの入り口 */
-export const PETITION_PARTS: { id: string; no: number; icon: IconName; title: string; sub: string }[] = [
-  { id: 'sanpun', no: 1, icon: 'bulb', title: '3分でわかる', sub: '違い・出す先・書き方の基本' },
-  { id: 'write', no: 2, icon: 'memo', title: '書いてみよう', sub: 'ひな形・例文・AIの指示文' },
-  { id: 'more', no: 3, icon: 'search', title: 'もっと詳しく', sub: '紹介議員・AIの点検・きまり' },
-  { id: 'submit', no: 4, icon: 'send', title: '提出する', sub: '確認・提出後の流れ' },
+export const PETITION_PARTS: GuidePart[] = [
+  { id: 'sanpun', no: 1, icon: 'bulb', title: '3分でわかる', sub: '違い・出す先・書き方の基本', short: 'わかる' },
+  { id: 'write', no: 2, icon: 'memo', title: '書いてみよう', sub: 'ひな形・例文・AIの指示文', short: '書く' },
+  { id: 'more', no: 3, icon: 'search', title: 'もっと詳しく', sub: '紹介議員・AIの点検・きまり', short: '詳しく', optional: true },
+  { id: 'submit', no: 4, icon: 'send', title: '提出する', sub: '確認・提出後の流れ', short: '提出する' },
 ];
 
 // ---- ① 3分でわかる ----

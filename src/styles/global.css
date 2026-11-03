@@ -250,17 +250,15 @@ a:hover {
   border-radius: 0;
 }
 
+/* 狭い画面：文字の幅のまま折り返して2段に収める（2列の表にすると3段になり、本文が下がる） */
 @media (max-width: 560px) {
   .global-nav {
     width: 100%;
   }
   .global-nav ul {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0;
   }
   .global-nav a {
-    width: 100%;
     padding: 0 6px;
     font-size: 0.875rem;
   }
@@ -3561,7 +3559,7 @@ fieldset.field {
   padding: 8px 12px;
   resize: none;
   overflow: hidden;
-  border: 1px solid var(--c-main-line);
+  border: 1px solid #7d8b90; /* 入力欄だとわかる濃さ（周りとの比 3:1 以上） */
   border-radius: var(--radius-sm);
   background: #fff;
   color: var(--c-text);

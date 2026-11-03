@@ -68,6 +68,16 @@ describe('ナビゲーション', () => {
     expect(within(nav).getByRole('link', { name: '窓口を探す' })).toHaveAttribute('aria-current', 'page');
   });
 
+  it('どのページからも「すべての方法」（トップの6つのガイド）へ行ける。トップでも印は「トップ」だけ', () => {
+    open('#/guide/petition');
+    let nav = screen.getByRole('navigation', { name: 'サイト内の主なページ' });
+    expect(within(nav).getByRole('link', { name: 'すべての方法' })).toHaveAttribute('href', '#/?s=methods');
+    open('#/');
+    nav = screen.getAllByRole('navigation', { name: 'サイト内の主なページ' }).at(-1)!;
+    expect(within(nav).getByRole('link', { name: 'すべての方法' })).not.toHaveAttribute('aria-current');
+    expect(within(nav).getByRole('link', { name: 'トップ' })).toHaveAttribute('aria-current', 'page');
+  });
+
   it('知らないページは「ページが見つかりません」とトップへのリンクを出す', () => {
     open('#/nothing');
     expect(screen.getByRole('heading', { level: 1, name: 'ページが見つかりません' })).toBeInTheDocument();

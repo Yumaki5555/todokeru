@@ -267,7 +267,7 @@ export const MAIL_CHAPTERS: ManualChapter[] = [
         kind: 'note',
         text: '意見には個別に回答しないと案内している窓口もあります。また、募集中の案への意見は、パブリックコメントの正式な手続きで出すほうが確実です。期限や書き方が決まっているので、募集のページで確かめてください。',
       },
-      { kind: 'link', label: 'パブコメの書き方（準備中）', to: '/guide/public-comment' },
+      { kind: 'link', label: 'パブコメの書き方', to: '/guide/public-comment' },
       { kind: 'link', label: '国の機関の一覧を見る', to: '/contacts?tab=agency' },
     ],
   },

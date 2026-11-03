@@ -16,6 +16,7 @@ import { NotFoundPage } from './pages/NotFoundPage';
 import { PetitionGuidePage } from './pages/PetitionGuidePage';
 import { PhoneGuidePage } from './pages/PhoneGuidePage';
 import { PublicCommentGuidePage } from './pages/PublicCommentGuidePage';
+import { SignatureGuidePage } from './pages/SignatureGuidePage';
 
 /** URL のパスから、表示するページと題名を決める */
 export function resolvePage(route: Route): { title: string | null; element: ReactElement } {
@@ -25,6 +26,7 @@ export function resolvePage(route: Route): { title: string | null; element: Reac
   if (path === '/guide/email') return { title: 'メール・フォーム・郵送で届ける', element: <MailGuidePage route={route} /> };
   if (path === '/guide/public-comment') return { title: 'パブコメの書き方', element: <PublicCommentGuidePage /> };
   if (path === '/guide/petition') return { title: '請願・陳情の書き方', element: <PetitionGuidePage /> };
+  if (path === '/guide/signature') return { title: '署名の方法', element: <SignatureGuidePage /> };
   if (path === '/contacts') return { title: '全国の窓口を探す', element: <ContactsPage route={route} /> };
   if (path === '/about') return { title: 'このサイトについて', element: <AboutPage /> };
   const m = /^\/guide\/([a-z-]+)$/.exec(path);

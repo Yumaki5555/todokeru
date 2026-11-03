@@ -69,7 +69,7 @@ describe('トップページ', () => {
       '署名',
     ]);
     expect(cards.map((a) => a.getAttribute('href'))).toEqual(METHODS.map((m) => `#/guide/${m.slug}`));
-    expect(within(step()).getAllByText('準備中')).toHaveLength(2);
+    expect(within(step()).getAllByText('準備中')).toHaveLength(1);
   });
 
   it('STEP 1 の目的を押すと STEP 2 の向いている方法に印がつき、もう一度押すと外れる', async () => {
@@ -114,9 +114,9 @@ describe('トップページ', () => {
     render(<App />);
     const sec = document.getElementById('methods')!;
     const cards = within(sec).getAllByRole('listitem');
-    expect(cards.map((c) => c.textContent)).toEqual(['電話', 'メール・フォーム・郵送', 'パブコメ', '請願・陳情', '情報公開請求準備中', '署名準備中']);
+    expect(cards.map((c) => c.textContent)).toEqual(['電話', 'メール・フォーム・郵送', 'パブコメ', '請願・陳情', '情報公開請求準備中', '署名']);
     expect(within(cards[0]).getByRole('link', { name: '電話のかけ方' })).toHaveAttribute('href', '#/guide/phone');
-    expect(within(sec).getAllByText('準備中')).toHaveLength(2);
+    expect(within(sec).getAllByText('準備中')).toHaveLength(1);
     expect(within(sec).getByRole('link', { name: 'パブコメの書き方' })).toHaveAttribute('href', '#/guide/public-comment');
     for (const g of GUIDES) expect(screen.queryByText(g.summary)).not.toBeInTheDocument();
   });

@@ -458,3 +458,41 @@ export interface PetitionStep {
   links?: { label: string; icon: IconName; to: string; prompt?: PetitionPromptId }[];
   ai?: { text: string; prompt: PetitionPromptId };
 }
+
+// ---- 署名の方法 ----
+export type SignaturePromptId = 'understand' | 'draft' | 'research' | 'review';
+
+/** AIへの指示文（署名） */
+export interface SignaturePrompt {
+  id: SignaturePromptId;
+  label: string;
+  when: string;
+  text: string;
+}
+
+/** 署名サイトを見比べるカード（同じ項目を同じ順に並べる） */
+export interface SignatureSite {
+  name: string;
+  url: string;
+  rows: { label: string; text: string }[];
+}
+
+/** やってみようの1ステップ（中身は、あるものだけ表示する） */
+export interface SignatureStep {
+  no: number;
+  icon: IconName;
+  title: string;
+  text: string;
+  chips?: string[];
+  /** 番号つきの要素（何が問題？…） */
+  parts?: { label: string; sub: string }[];
+  /** 順番に行う操作 */
+  howto?: string[];
+  example?: string;
+  flow?: PubcomFigItem[];
+  notes?: string[];
+  /** ページ内（#id）・サイト内（/…）・外部（https://…）へのボタン。primary：目立たせる */
+  links?: { label: string; icon: IconName; to: string; primary?: boolean }[];
+  ai?: { text: string; prompt: SignaturePromptId };
+  sources?: { label: string; url: string }[];
+}

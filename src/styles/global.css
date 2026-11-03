@@ -5224,3 +5224,235 @@ p.mail-label {
     display: none !important;
   }
 }
+
+/* ---- 署名の方法（sg-）：パブコメ・請願陳情の書き方（pc-・pt-）の部品に足りないものだけ ---- */
+
+/* 最初の2つの入り口（A 賛同する／B 立ち上げる）。スマホは1列 */
+.sg-entry {
+  list-style: none;
+  display: grid;
+  gap: 10px;
+  margin: 8px 0 12px;
+}
+
+@media (min-width: 640px) {
+  .sg-entry {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.sg-entry li {
+  min-width: 0;
+}
+
+.sg-entry-link {
+  display: grid;
+  gap: 6px;
+  height: 100%;
+  padding: 14px 16px;
+  border: 2px solid var(--c-main);
+  border-radius: var(--radius);
+  background: var(--c-main-tint);
+  color: var(--c-text);
+  text-decoration: none;
+}
+
+.sg-entry-link:hover {
+  background: #d5ecef;
+  color: var(--c-text);
+}
+
+.sg-entry-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sg-entry-head .icon {
+  width: 26px;
+  height: 26px;
+  color: var(--c-main-dark);
+}
+
+.sg-entry-head b {
+  font-size: 1.1875rem;
+  line-height: 1.4;
+  color: var(--c-main-deep);
+}
+
+.sg-entry-sub {
+  font-size: var(--fs-small);
+  color: var(--c-text-sub);
+}
+
+.sg-entry-go {
+  justify-self: end;
+  font-weight: 700;
+  color: var(--c-main-dark);
+}
+
+/* A・B の印 */
+.sg-mark {
+  display: inline-grid;
+  place-items: center;
+  flex: none;
+  width: 28px;
+  height: 28px;
+  margin-right: 6px;
+  border-radius: 50%;
+  background: var(--c-main);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  line-height: 1;
+  vertical-align: 0.1em;
+}
+
+.sg-entry-head .sg-mark {
+  margin-right: 0;
+}
+
+/* 入り口の中の小さな流れ（探す → 確かめる → …） */
+.sg-mini-flow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 0;
+  font-size: 0.8125rem;
+}
+
+.sg-mini-flow > span {
+  display: inline-flex;
+  align-items: center;
+}
+
+.sg-mini-step {
+  padding: 2px 6px;
+  border: 1px solid var(--c-main-line);
+  border-radius: 999px;
+  background: #fff;
+  white-space: nowrap;
+}
+
+.sg-mini-arrow {
+  width: 12px;
+  height: 12px;
+  margin: 0 1px;
+  color: var(--c-main);
+}
+
+.sg-points {
+  margin-top: 12px;
+}
+
+/* やってみようの A・B のまとまり */
+.sg-track {
+  margin-top: 8px;
+  scroll-margin-top: 12px;
+}
+
+.sg-track + .sg-track {
+  margin-top: 28px;
+  padding-top: 20px;
+  border-top: 2px dashed var(--c-main-line);
+}
+
+.sg-track-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px 12px;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  background: var(--c-main-tint);
+}
+
+.sg-track-head h3 {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-size: 1.25rem;
+  color: var(--c-main-deep);
+}
+
+.sg-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  min-height: 44px;
+  font-size: var(--fs-small);
+}
+
+.sg-howto {
+  margin-top: 8px;
+}
+
+/* 入力の例 */
+.sg-example {
+  display: grid;
+  gap: 2px;
+  margin: 10px 0 0;
+  padding: 8px 12px;
+  border-left: 4px solid var(--c-main);
+  background: var(--c-bg-sub);
+}
+
+.sg-example-label {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--c-text-sub);
+}
+
+/* ひな形：見出しと中身を詰めて並べる */
+.sg-doc > div + div {
+  margin-top: 8px;
+}
+
+/* 署名サイトの違い：同じ項目を上から同じ順に */
+.sg-rows {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+}
+
+.sg-rows > div {
+  display: grid;
+  gap: 2px;
+}
+
+.sg-rows dt {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--c-main-deep);
+}
+
+.sg-rows dd {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.sg-sites .pt-card {
+  background: #fff;
+}
+
+@media (min-width: 900px) {
+  .sg-kinds {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* 賛同前・公開前のチェック。広い画面は2列 */
+@media (min-width: 900px) {
+  .sg-checks {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0 20px;
+    align-items: start;
+  }
+}
+
+.sg-checks .pc-sub-title {
+  display: flex;
+  align-items: center;
+}

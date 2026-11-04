@@ -73,11 +73,18 @@ export const WHAT_YOU_LEARN_NOTE = '「例」は、対象になりそうな文�
 export const KNOW_POINTS: PubcomFigItem[] = [
   { icon: 'user', label: '原則、だれでも請求できる', sub: '国の法律では「何人も」。自治体は条例で確かめます。' },
   { icon: 'alert', label: '全部見られるとは限らない', sub: '個人情報などは、不開示になることがあります。' },
-  { icon: 'folder', label: '文書がないこともある', sub: 'ないものは、見せてもらえません。' },
   { icon: 'print', label: '費用がかかることがある', sub: '手数料やコピー代です。額は請求先で確かめます。' },
-  { icon: 'question', label: '質問とは違う', sub: '説明を求めるのではなく、ある文書を見せてもらう手続きです。' },
-  { icon: 'shield', label: '自分の個人情報は別の制度', sub: '自分の情報を見たいときは、個人情報の開示請求を使います。' },
 ];
+
+/** 開いたときだけ見せる注意 */
+export const KNOW_MORE = {
+  title: 'ほかに知っておきたいこと',
+  items: [
+    { icon: 'folder', label: '文書がないこともある', sub: 'ないものは、見せてもらえません。' },
+    { icon: 'question', label: '質問とは違う', sub: '説明を求めるのではなく、ある文書を見せてもらう手続きです。' },
+    { icon: 'shield', label: '自分の個人情報は別の制度', sub: '自分の情報を見たいときは、個人情報の開示請求を使います。' },
+  ] as PubcomFigItem[],
+};
 
 export const KNOW_SOURCES = [LAWS.act, OFFICIAL.ppc];
 
@@ -274,6 +281,15 @@ export const DEFAULT_DISCLOSURE_PROMPT: DisclosurePromptId = 'find';
 /** AIを使うときの注意（個人情報の注意は、指示文の枠の中に出る） */
 export const AI_NOTES = ['AIの回答は、必ず公式資料で確かめます。', '2つ以上のAIを使っても、正しさは保証されません。', '実際の請求は、本人が公式の窓口で行います。'];
 
+/** AIを使ったあと、続きへ戻る */
+export const AI_RETURN = {
+  text: 'AIの答えを確かめたら、続きへ',
+  links: [
+    { id: 'step2', label: 'STEP 2 に戻る' },
+    { id: 'step3', label: 'STEP 3 に戻る' },
+  ],
+};
+
 // ---- ③ もっと詳しく ----
 
 export interface DisclosureTopic {
@@ -345,13 +361,13 @@ export const MORE_TOPICS: DisclosureTopic[] = [
     title: '手数料・開示方法・決定までの期間',
     lead: 'まず国のルールです。自治体は額も日数も違います。',
     rows: [
-      { label: '請求の手数料（国）', text: '文書1件につき300円、オンラインは200円です。原則、収入印紙で納めます。' },
+      { label: '請求の手数料（国）', text: '文書1件につき300円です。オンライン請求は200円ですが、対応しているのは一部の機関です。原則、収入印紙で納めます。' },
       { label: '開示の手数料（国）', text: '閲覧やコピーの費用です。請求の手数料の額までは無料で、郵送は送料が別にかかります。' },
       { label: '開示の方法（国）', text: '閲覧または写しの交付などです。決定通知から30日以内に、希望の方法を申し出ます（第14条）。' },
       { label: '決定まで（国）', text: '請求から30日以内です。請求書を直す日数は数えません。30日まで延長されることがあり、文書が著しく大量なら、さらにかかることもあります（第10条・第11条）。' },
       { label: '自治体の例：東京都', text: '請求から14日以内に決定します（延長あり）。閲覧のみは無料で、写しには費用がかかります。' },
     ],
-    links: [LAWS.act, LAWS.order, OFFICIAL.clb, OFFICIAL.tokyo],
+    links: [LAWS.act, LAWS.order, OFFICIAL.procedure, OFFICIAL.clb, OFFICIAL.tokyo],
   },
   {
     id: 'more-appeal',
@@ -389,10 +405,13 @@ export const WHERE_CHOICES: { id: Exclude<DisclosureWhere, ''>; icon: GuidePart[
   { id: 'muni', icon: 'building', label: '市区町村' },
 ];
 
+/** 提出先で東京都を選んだときだけ出す案内 */
+export const TOKYO_LINK = { label: '公文書の開示請求の流れ（東京都）', url: OFFICIAL.tokyo.url };
+
 export const WHERE_TEXT = {
   nationalOther: '国会・裁判所・独立行政法人などは、別の法律や手続きです。',
   localContact: '窓口検索に載っているのは、情報公開の担当部署を尋ねるための連絡先です。正式な請求の受付窓口ではありません（「確認済み」の表示も、連絡先についての確認です）。',
-  localOfficial: (who: string) => `正式な請求先・提出方法は、${who}の公式サイトで確かめます。「○○ 情報公開 開示請求」で探せます。`,
+  localOfficial: (who: string) => `正式な請求先・提出方法は、${who}の公式サイトで確かめます。「情報公開 開示請求」で探せます。`,
   mail: 'メールアドレスが公開されていても、正式な請求をメールで受け付けるとは限りません。',
 };
 

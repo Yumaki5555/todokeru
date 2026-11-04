@@ -5,7 +5,7 @@ import userEvent from '@testing-library/user-event';
 import { App } from '../src/App';
 import { saveLastArea } from '../src/lib/lastArea';
 import { GUIDES } from '../src/content/guides';
-import { DISCLOSURE_CHECKLIST, DISCLOSURE_PARTS, DISCLOSURE_PROMPTS, MORE_TOPICS, OFFICIAL, templateText } from '../src/content/disclosureManual';
+import { DISCLOSURE_CHECKLIST, DISCLOSURE_PARTS, DISCLOSURE_PROMPTS, KNOW_MORE, MORE_TOPICS, OFFICIAL, templateText } from '../src/content/disclosureManual';
 import { MAIL_CHAPTERS } from '../src/content/mailManual';
 
 function open(hash = '#/guide/disclosure') {
@@ -59,10 +59,14 @@ describe('情報公開請求', () => {
     vi.restoreAllMocks();
   });
 
-  it('3分でわかる：何がわかる5枚・知っておきたいこと6つ・どちらを使う', () => {
+  it('3分でわかる：何がわかる5枚・知っておきたいことは3つ（残り3つは折りたたみ）・どちらを使う', () => {
     open();
     expect(within(screen.getByRole('list', { name: '何がわかる？' })).getAllByRole('listitem')).toHaveLength(5);
-    expect(within(screen.getByRole('list', { name: '知っておきたいこと' })).getAllByRole('listitem')).toHaveLength(6);
+    expect(within(screen.getByRole('list', { name: '知っておきたいこと' })).getAllByRole('listitem')).toHaveLength(3);
+    const more = document.getElementById('know-more') as HTMLDetailsElement;
+    expect(more.open).toBe(false);
+    expect(KNOW_MORE.items).toHaveLength(3);
+    for (const k of KNOW_MORE.items) expect(more).toHaveTextContent(k.label);
     expect(screen.getByText(/実際にあるとは限りません/)).toBeInTheDocument();
     const which = screen.getByRole('list', { name: 'どちらを使う？' });
     expect(within(which).getByRole('link', { name: '電話' })).toHaveAttribute('href', '#/guide/phone');
@@ -149,8 +153,35 @@ describe('情報公開請求', () => {
     open();
     await userEvent.click(screen.getByRole('radio', { name: '市区町村' }));
     expect(screen.getByRole('link', { name: '東京都 江東区の連絡先を見る' })).toHaveAttribute('href', '#/contacts?tab=area&code=131083');
+    expect(screen.getByText(/正式な請求先・提出方法は、東京都 江東区の公式サイトで確かめます/)).toBeInTheDocument();
+    expect(screen.queryByRole('link', { name: /公文書の開示請求の流れ（東京都）/ })).not.toBeInTheDocument();
     await userEvent.click(screen.getByRole('radio', { name: '都道府県' }));
     expect(screen.getByRole('link', { name: '東京都の連絡先を見る' })).toHaveAttribute('href', '#/contacts?tab=area&code=13');
+    // 東京都の案内は、東京都を選んだときだけ
+    expect(screen.getByRole('link', { name: /公文書の開示請求の流れ（東京都）/ })).toHaveAttribute('href', OFFICIAL.tokyo.url);
+  });
+
+  it('提出先：東京都以外では東京都の案内を出さない。市区町村が未定なら、その都道府県の市区町村から探す', async () => {
+    saveLastArea({ code: '27', name: '大阪府' });
+    open();
+    await userEvent.click(screen.getByRole('radio', { name: '都道府県' }));
+    expect(screen.getByText(/正式な請求先・提出方法は、大阪府の公式サイトで確かめます/)).toBeInTheDocument();
+    expect(within(document.getElementById('where')!).queryByRole('link', { name: /東京都/ })).not.toBeInTheDocument();
+    await userEvent.click(screen.getByRole('radio', { name: '市区町村' }));
+    expect(screen.getByRole('link', { name: '大阪府の市区町村から探す' })).toHaveAttribute('href', '#/contacts?tab=area&code=27');
+    expect(screen.getByText(/正式な請求先・提出方法は、市区町村の公式サイトで確かめます/)).toBeInTheDocument();
+  });
+
+  it('手数料：オンライン請求は一部の機関だけと書く', () => {
+    open();
+    expect(document.getElementById('more-fee')).toHaveTextContent('オンライン請求は200円ですが、対応しているのは一部の機関です');
+  });
+
+  it('AIを使ったあと、STEP 2・STEP 3 へ戻れる', () => {
+    open();
+    const sec = document.getElementById('prompts')!;
+    expect(within(sec).getByRole('link', { name: 'STEP 2 に戻る' })).toHaveAttribute('href', '#/guide/disclosure?s=step2');
+    expect(within(sec).getByRole('link', { name: 'STEP 3 に戻る' })).toHaveAttribute('href', '#/guide/disclosure?s=step3');
   });
 
   it('提出前チェック：7項目。チェックはタブの中で残る', async () => {

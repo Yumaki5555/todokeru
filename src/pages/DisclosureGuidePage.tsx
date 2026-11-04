@@ -8,6 +8,7 @@ import {
   AFTER_FLOW,
   AFTER_FLOW_NOTE,
   AI_NOTES,
+  AI_RETURN,
   COMPARE,
   DEFAULT_DISCLOSURE_PROMPT,
   DISCLOSURE_CHECKLIST,
@@ -18,6 +19,7 @@ import {
   FIND_EXAMPLE,
   FIND_MORE,
   FIND_POINTS,
+  KNOW_MORE,
   KNOW_POINTS,
   KNOW_SOURCES,
   MORE_TOPICS,
@@ -28,6 +30,7 @@ import {
   RESULT_NOTE,
   RESULT_SCOPE,
   RESULTS,
+  TOKYO_LINK,
   WHAT_IS,
   WHAT_YOU_LEARN,
   WHAT_YOU_LEARN_NOTE,
@@ -107,7 +110,11 @@ export function DisclosureGuidePage() {
             知っておきたいこと
           </h3>
           <Facts items={KNOW_POINTS} label="知っておきたいこと" />
-          <Sources links={KNOW_SOURCES} />
+          <details className="fold" id="know-more">
+            <summary>{KNOW_MORE.title}</summary>
+            <Facts items={KNOW_MORE.items} label={KNOW_MORE.title} />
+            <Sources links={KNOW_SOURCES} />
+          </details>
         </section>
 
         <section className="pc-sub" aria-labelledby="which-h">
@@ -266,6 +273,14 @@ export function DisclosureGuidePage() {
               </li>
             ))}
           </ul>
+          <p className="pc-step-note">{AI_RETURN.text}</p>
+          <p className="step-more">
+            {AI_RETURN.links.map((l) => (
+              <JumpLink key={l.id} path={PATH} id={l.id} className="btn btn-secondary btn-small">
+                {l.label}
+              </JumpLink>
+            ))}
+          </p>
         </section>
       </Part>
 
@@ -474,18 +489,23 @@ function WhereNational() {
   );
 }
 
-/** 都道府県・市区町村の請求先：窓口検索は「担当部署を尋ねる先」として案内する（前に見た地域があれば引き継ぐ） */
+/** 都道府県・市区町村の請求先：まず対象の公式サイト。窓口検索は「担当部署を尋ねる先」として案内する（前に見た地域があれば引き継ぐ） */
 function WhereLocal({ kind }: { kind: 'pref' | 'muni' }) {
   const [lastArea] = useState(loadLastArea);
   // 都道府県を選んだのに前に見たのが市区町村なら、その市区町村がある都道府県を開く（コードの先頭2けた・名前の最初）
   const area = !lastArea ? null : kind === 'pref' ? { code: lastArea.code.slice(0, 2), name: lastArea.name.split(' ')[0] } : lastArea;
-  const who = kind === 'pref' ? '都道府県' : '市区町村';
+  // 市区町村を選んだのに前に見たのが都道府県なら、まだ市区町村は決まっていない
+  const undecided = kind === 'muni' && area !== null && area.code.length === 2;
+  const who = area && !undecided ? area.name : kind === 'pref' ? '都道府県' : '市区町村';
+  const label = !area ? '全国の窓口を探す' : undecided ? `${area.name}の市区町村から探す` : `${area.name}の連絡先を見る`;
   return (
     <div>
-      <p>
+      <p className="pc-step-note">{WHERE_TEXT.localOfficial(who)}</p>
+      {kind === 'pref' && area?.code === '13' && <Sources links={[TOKYO_LINK]} />}
+      <p className="step-more">
         <a className="btn btn-secondary" href={href('/contacts', area ? { tab: 'area', code: area.code } : { tab: 'area' })}>
           <Icon name="search" />
-          {area ? `${area.name}の連絡先を見る` : '全国の窓口を探す'}
+          {label}
         </a>
       </p>
       {area && (
@@ -497,8 +517,6 @@ function WhereLocal({ kind }: { kind: 'pref' | 'muni' }) {
         <Icon name="alert" />
         <span>{WHERE_TEXT.localContact}</span>
       </p>
-      <p className="pc-step-note">{WHERE_TEXT.localOfficial(who)}</p>
-      <Sources links={[OFFICIAL.tokyo]} />
     </div>
   );
 }

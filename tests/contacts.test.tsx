@@ -304,7 +304,10 @@ describe('窓口データがあるときの表示（テスト用の架空デー�
     expect(await within(card).findByRole('heading', { level: 4, name: '請願・陳情の届け先' })).toBeInTheDocument();
     const guide = within(card).getByRole('link', { name: /公式ページの案内\s*請願・陳情の出し方/ });
     expect(guide).toHaveAttribute('href', 'https://example.jp/gikai/seigan.html');
-    expect(within(card).getByRole('link', { name: /陳情書を作ってみる/ })).toHaveAttribute('href', '#/guide/petition?s=prompts&for=131083-petition');
+    const draft = within(card).getByRole('link', { name: '陳情書を作ってみる' }); // 自分で作る行動なので、台本・文面と同じ白いボタン
+    expect(draft).toHaveAttribute('href', '#/guide/petition?s=prompts&for=131083-petition');
+    expect(draft).toHaveClass('btn-secondary');
+    expect(draft.parentElement).toBe(within(card).getAllByRole('link', { name: /この窓口向けに台本を作る/ }).at(-1)!.parentElement);
     expect(within(card).getByRole('link', { name: /03-6666-6666/ })).toBeInTheDocument();
     expect(within(card).getAllByRole('link', { name: /この窓口向けに台本を作る/ }).map((a) => a.getAttribute('href'))).toContain('#/guide/phone?for=131083-petition');
 

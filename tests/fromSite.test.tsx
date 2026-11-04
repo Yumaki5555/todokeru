@@ -20,6 +20,11 @@ describe('戻り先の点検', () => {
     expect(checkReturnUrl('https://yumaki5555.github.io/zairyu/muni-22138.html')?.site).toBe('zairyu');
   });
 
+  it('入口サイト（いちばん上）は、選んでいた地域ごと戻り先にできる', () => {
+    expect(checkReturnUrl('https://yumaki5555.github.io/?area=271004')).toEqual({ url: 'https://yumaki5555.github.io/?area=271004', site: '' });
+    expect(checkReturnUrl('https://yumaki5555.github.io/#area')?.site).toBe('');
+  });
+
   it.each([
     ['別の住所', 'https://evil.example/tabunka-yosan/'],
     ['住所に見せかけた別の住所', 'https://yumaki5555.github.io@evil.example/tabunka-yosan/'],
@@ -28,7 +33,8 @@ describe('戻り先の点検', () => {
     ['スクリプト', 'javascript:alert(1)'],
     ['データ', 'data:text/html,x'],
     ['許可していないフォルダ', 'https://yumaki5555.github.io/other/'],
-    ['入口そのもの', 'https://yumaki5555.github.io/'],
+    ['入口に見せかけた二重の区切り', 'https://yumaki5555.github.io//other/'],
+    ['入口の別のファイル', 'https://yumaki5555.github.io/index.html'],
     ['フォルダをさかのぼる', 'https://yumaki5555.github.io/tabunka-yosan/../other/'],
     ['符号化してさかのぼる', 'https://yumaki5555.github.io/tabunka-yosan/%2e%2e/other/'],
     ['特別な名前', 'https://yumaki5555.github.io/constructor/'],

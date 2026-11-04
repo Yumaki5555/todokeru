@@ -318,7 +318,8 @@ function Finder({ masters, route, summary }: { masters: Masters; route: Route; s
 
       {entity && (
         <div className="finder-result">
-          {fromMemo && entity.kind !== 'agency' && (
+          {/* 入口サイトから来たときは「見ていた項目」がないので出さない */}
+          {fromMemo && fromMemo.site !== '' && entity.kind !== 'agency' && (
             <p className="from-hint">
               ここに載せているのは自治体全体の問い合わせ先で、見ていた項目の担当部署とは限りません。代表や広聴の窓口で、担当部署を尋ねてください。
             </p>

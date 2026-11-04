@@ -16,6 +16,8 @@ export const ITEM_MAX = 60;
 
 /** 戻ってよいサイト（最初のフォルダ名）と、戻るリンクの固定の文言。URL の文字は画面に出さない */
 export const FROM_SITES = {
+  // 入口サイトは公開先のいちばん上にあるので、フォルダの名前が空
+  '': { name: '日本を知る。', back: '地域の画面に戻る' },
   'tabunka-yosan': { name: '全国 多文化共生予算マップ', back: '見ていた予算に戻る' },
   zairyu: { name: '数でみる在留外国人', back: '見ていた在留外国人のページに戻る' },
   'mou-map': { name: '日本と世界のMOU・協定マップ', back: '見ていた協定のページに戻る' },
@@ -46,6 +48,7 @@ export function checkReturnUrl(raw: string, ownOrigin: string = window.location.
   if (u.username || u.password) return null;
   if (u.origin !== PROD_ORIGIN && u.origin !== ownOrigin) return null;
   const site = u.pathname.split('/')[1];
+  if (site === '' && u.pathname !== '/') return null; // 入口サイトは「/」そのものだけ
   if (!Object.prototype.hasOwnProperty.call(FROM_SITES, site)) return null;
   return { url: u.href, site: site as FromSiteKey };
 }

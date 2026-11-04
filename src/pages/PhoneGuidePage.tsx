@@ -1,9 +1,9 @@
 // 電話ガイド「はじめての行政電話ガイド」
-// 上から順に：マニュアル監修 → 台本を作る → 大きな文字で読む → 電話先 → かける前に確かめる → 電話のあとのメモ → 詳しいマニュアル（必要な人だけ開く）
+// 上から順に：マニュアル監修 → 電話がこわいときのコツ（必要な人だけ開く） → 台本を作る → 大きな文字で読む → 電話先 → かける前に確かめる → 電話のあとのメモ → 詳しいマニュアル（必要な人だけ開く）
 //   #/guide/phone?view=read        大きな文字で読む画面を開いた状態
 //   #/guide/phone?for=130001-feedback  窓口検索で選んだ窓口を電話先にする
 import { useEffect, useRef } from 'react';
-import { PHONE_CHAPTERS, PHONE_CHECKLIST, PHONE_FLOW, PHONE_GUIDE } from '../content/phoneManual';
+import { PHONE_CHAPTERS, PHONE_CHECKLIST, PHONE_FEAR_TIPS, PHONE_FLOW, PHONE_GUIDE } from '../content/phoneManual';
 import { EMPTY_DRAFT, buildScript, helpLines } from '../content/callScript';
 import { GUIDES, guidePath } from '../content/guides';
 import { useCallDraft } from '../lib/callDraft';
@@ -78,6 +78,26 @@ export function PhoneGuidePage({ route }: { route: Route }) {
         <PageHead title={PHONE_GUIDE.title} sub={PHONE_GUIDE.subtitle} />
         <SupervisorNote path={PATH} manualId="manual" />
       </div>
+
+      {/* 電話が怖くて手が止まる人のために、台本づくりの前に置く（必要なときだけ開く） */}
+      <details className="fold fold-section pre-call" id="fear-tips">
+        <summary>
+          <Icon name="heart" />
+          {PHONE_FEAR_TIPS.title}
+        </summary>
+        <div className="pre-call-body">
+          <p className="fear-lead">{PHONE_FEAR_TIPS.lead}</p>
+          <ol className="fear-tips">
+            {PHONE_FEAR_TIPS.items.map((t) => (
+              <li key={t.title}>
+                <b>{t.title}</b>
+                {t.text}
+              </li>
+            ))}
+          </ol>
+          <p className="muted">{PHONE_FEAR_TIPS.credit}</p>
+        </div>
+      </details>
 
       <ScriptMaker draft={draft} update={update} onRead={openRead} onClear={clear} />
       <CallTargetBox target={draft.target} state={targetState} />

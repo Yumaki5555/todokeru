@@ -45,7 +45,7 @@ describe('電話ガイド：台本を作る', () => {
     await userEvent.type(screen.getByLabelText('何について？'), 'A計画');
     await userEvent.click(copies[0]);
     expect(writeText).toHaveBeenCalledWith(
-      'お忙しいところ失礼します。\nA計画について、懸念があります。\n意見として記録をお願いします。\nご対応ありがとうございました。',
+      'こんにちは。お忙しいところ失礼します。\nA計画について、懸念があります。\n意見として記録をお願いします。\nご対応ありがとうございました。',
     );
     expect(await within(maker()).findByRole('button', { name: 'コピーしました' })).toBeInTheDocument();
     expect(within(maker()).getByRole('link', { name: 'この内容で文面を作る' })).toHaveAttribute('href', '#/guide/email');
@@ -56,7 +56,7 @@ describe('電話ガイド：台本を作る', () => {
     expect(part('本題').value).toBe('○○について、懸念があります。');
     await userEvent.type(screen.getByLabelText('何について？'), '駅前の再開発計画');
     await userEvent.type(screen.getByLabelText(/理由は？/), '子どもの安全');
-    expect(part('あいさつ').value).toBe('お忙しいところ失礼します。');
+    expect(part('あいさつ').value).toBe('こんにちは。お忙しいところ失礼します。');
     expect(part('本題').value).toBe('駅前の再開発計画について、子どもの安全の面から懸念があります。');
     expect(part('記録のお願い').value).toBe('意見として記録をお願いします。');
     expect(part('お礼').value).toBe('ご対応ありがとうございました。');
@@ -148,7 +148,7 @@ describe('電話ガイド：大きな文字で読む', () => {
     expect(reader).toHaveAttribute('open');
     const lines = within(reader).getAllByRole('listitem');
     expect(lines.map((li) => li.textContent)).toEqual([
-      '1あいさつお忙しいところ失礼します。',
+      '1あいさつこんにちは。お忙しいところ失礼します。',
       '2本題A計画について、懸念があります。',
       '3記録のお願い意見として記録をお願いします。',
       '4お礼ご対応ありがとうございました。',
@@ -169,9 +169,9 @@ describe('電話ガイド：大きな文字で読む', () => {
     await userEvent.click(within(reader).getByRole('button', { name: '困ったとき' }));
     expect(within(reader).getByText('困ったときの一言')).toBeInTheDocument();
     expect(within(reader).getByText('A計画について意見をお伝えしたいのですが、ご担当の部署につないでいただけますか？')).toBeInTheDocument();
-    expect(within(reader).queryByText('お忙しいところ失礼します。')).not.toBeInTheDocument();
+    expect(within(reader).queryByText('こんにちは。お忙しいところ失礼します。')).not.toBeInTheDocument();
     await userEvent.click(within(reader).getByRole('button', { name: '台本に戻る' }));
-    expect(within(reader).getByText('お忙しいところ失礼します。')).toBeInTheDocument();
+    expect(within(reader).getByText('こんにちは。お忙しいところ失礼します。')).toBeInTheDocument();
   });
 
   it('再読み込みしても読む画面と台本が消えない', async () => {

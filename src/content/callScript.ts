@@ -195,7 +195,7 @@ export function autoText(draft: CallDraft, key: ScriptPartKey): string {
   const t = topicText(draft.topic);
   switch (key) {
     case 'greeting':
-      return 'お忙しいところ失礼します。';
+      return 'こんにちは。お忙しいところ失礼します。';
     case 'main':
       if (draft.purpose === 'question') return `${t}について、${questionPhrase(draft.ask)}`;
       if (draft.purpose === 'department') return `${t}について確認したいのですが、ご担当の部署を教えていただけますか？`;

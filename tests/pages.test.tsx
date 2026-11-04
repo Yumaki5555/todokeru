@@ -1,6 +1,6 @@
 // 準備中ページ・サイトについて・見つからないページ・ナビゲーション
-import { describe, expect, it } from 'vitest';
-import { render, screen, within } from '@testing-library/react';
+import { describe, expect, it, vi } from 'vitest';
+import { fireEvent, render, screen, within } from '@testing-library/react';
 import { App, resolvePage } from '../src/App';
 import { GUIDES } from '../src/content/guides';
 import { NAV_ITEMS } from '../src/components/GlobalNav';
@@ -68,14 +68,41 @@ describe('ナビゲーション', () => {
     expect(within(nav).getByRole('link', { name: '窓口を探す' })).toHaveAttribute('aria-current', 'page');
   });
 
-  it('どのページからも「すべての方法」（トップの6つのガイド）へ行ける。トップでも印は「トップ」だけ', () => {
+  it('上部メニューは5項目：トップ｜声の届け方｜窓口を探す｜AI活用ガイド｜サイトについて', () => {
+    open('#/about');
+    const nav = screen.getByRole('navigation', { name: 'サイト内の主なページ' });
+    expect(within(nav).getAllByRole('link').map((a) => [a.textContent, a.getAttribute('href')])).toEqual([
+      ['トップ', '#/'],
+      ['声の届け方', '#/?s=methods'],
+      ['窓口を探す', '#/contacts'],
+      ['AI活用ガイド', '#/?s=ai'],
+      ['サイトについて', '#/about'],
+    ]);
+  });
+
+  it('どのページからも「声の届け方」（トップの6つのガイド）へ行け、ガイドのページでは印が付く。トップでも印は「トップ」だけ', () => {
     open('#/guide/petition');
     let nav = screen.getByRole('navigation', { name: 'サイト内の主なページ' });
-    expect(within(nav).getByRole('link', { name: 'すべての方法' })).toHaveAttribute('href', '#/?s=methods');
+    expect(within(nav).getByRole('link', { name: '声の届け方' })).toHaveAttribute('href', '#/?s=methods');
+    expect(within(nav).getByRole('link', { name: '声の届け方' })).toHaveAttribute('aria-current', 'page');
     open('#/');
     nav = screen.getAllByRole('navigation', { name: 'サイト内の主なページ' }).at(-1)!;
-    expect(within(nav).getByRole('link', { name: 'すべての方法' })).not.toHaveAttribute('aria-current');
+    expect(within(nav).getByRole('link', { name: '声の届け方' })).not.toHaveAttribute('aria-current');
+    expect(within(nav).getByRole('link', { name: 'AI活用ガイド' })).not.toHaveAttribute('aria-current');
     expect(within(nav).getByRole('link', { name: 'トップ' })).toHaveAttribute('aria-current', 'page');
+  });
+
+  it('すでにその場所にいても、押すと移動する（AI活用ガイド→AIの枠、トップ→ページの先頭）', () => {
+    const scrollTo = vi.spyOn(window, 'scrollTo').mockImplementation(() => {});
+    open('#/?s=ai');
+    const nav = screen.getByRole('navigation', { name: 'サイト内の主なページ' });
+    const box = document.getElementById('ai')!;
+    box.scrollIntoView = vi.fn();
+    fireEvent.click(within(nav).getByRole('link', { name: 'AI活用ガイド' }));
+    expect(box.scrollIntoView).toHaveBeenCalledTimes(1);
+    fireEvent.click(within(nav).getByRole('link', { name: 'トップ' }));
+    expect(scrollTo).toHaveBeenCalled();
+    scrollTo.mockRestore();
   });
 
   it('知らないページは「ページが見つかりません」とトップへのリンクを出す', () => {

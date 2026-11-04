@@ -21,7 +21,7 @@ describe('トップページ', () => {
     expect(screen.getByText('調べ方・考え方・書き方・届け方を案内します。')).toBeInTheDocument();
   });
 
-  it('並び順：題名 → 何をしたいですか？ → すぐ使いたい方 → 3分でわかる → すべての方法 → 関連サイト（3分ガイドの本文はトップに置かない）', () => {
+  it('並び順：題名 → 何をしたいですか？ → すぐ使いたい方 → 3分でわかる → 声の届け方 → 関連サイト（3分ガイドの本文はトップに置かない）', () => {
     render(<App />);
     const ids = ['purpose', 'quick', 'first', 'methods', 'related'].map((id) => document.getElementById(id)!);
     for (let i = 1; i < ids.length; i++) {
@@ -124,10 +124,10 @@ describe('トップページ', () => {
     expect(link).not.toHaveAttribute('target');
   });
 
-  it('すべての方法：アイコンと短い名前だけ。準備中のものだけ「準備中」', () => {
+  it('声の届け方：アイコンと短い名前だけ。準備中のものだけ「準備中」', () => {
     render(<App />);
     const sec = document.getElementById('methods')!;
-    expect(within(sec).getByRole('heading', { level: 2, name: 'すべての方法を見る' })).toBeInTheDocument();
+    expect(within(sec).getByRole('heading', { level: 2, name: '声の届け方' })).toBeInTheDocument();
     const cards = within(sec).getAllByRole('listitem');
     expect(cards.map((c) => c.textContent)).toEqual(['電話', 'メール・フォーム・郵送', 'パブコメ', '請願・陳情', '情報公開請求準備中', '署名']);
     expect(within(cards[0]).getByRole('link', { name: '電話のかけ方' })).toHaveAttribute('href', '#/guide/phone');

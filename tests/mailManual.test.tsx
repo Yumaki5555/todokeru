@@ -201,19 +201,15 @@ describe('メール・フォーム・郵送：詳しいマニュアル', () => {
 });
 
 describe('メール・フォーム・郵送：マニュアルへの入口', () => {
-  it('ナビの「電話のかけ方」の隣に「メール・手紙」があり、このページでは印が付く', () => {
+  it('このページでは、上部メニューの「声の届け方」に印が付く', () => {
     open();
     const nav = screen.getByRole('navigation', { name: 'サイト内の主なページ' });
-    const links = within(nav).getAllByRole('link');
-    const i = links.findIndex((a) => a.textContent === '電話のかけ方');
-    expect(links[i + 1]).toHaveTextContent('メール・手紙');
-    expect(links[i + 1]).toHaveAttribute('href', '#/guide/email');
-    expect(links[i + 1]).toHaveAttribute('aria-current', 'page');
+    expect(within(nav).getByRole('link', { name: '声の届け方' })).toHaveAttribute('aria-current', 'page');
   });
 
-  it('トップの「すべての方法を見る」からこのページへ行ける', () => {
+  it('トップの「声の届け方」からこのページへ行ける', () => {
     open('#/');
-    const methods = screen.getByRole('region', { name: 'すべての方法を見る' });
+    const methods = screen.getByRole('region', { name: '声の届け方' });
     expect(within(methods).getByRole('link', { name: 'メール・フォーム・郵送' })).toHaveAttribute('href', '#/guide/email');
   });
 

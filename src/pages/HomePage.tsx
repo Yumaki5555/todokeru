@@ -1,4 +1,4 @@
-// トップページ：題名 → 何をしたいですか？（目的 → こんな方法があります）→ すぐ使いたい方（＋AIの指示文への入り口）→ 3分でわかる（入り口）→ すべての方法 → 関連サイト
+// トップページ：題名 → 何をしたいですか？（目的 → こんな方法があります）→ すぐ使いたい方（＋AI活用ガイド）→ 3分でわかる（入り口）→ 声の届け方 → 関連サイト
 // わからない人には目的からの道案内を、決まっている人には最短の入り口を
 import { GUIDES, guidePath } from '../content/guides';
 import { href } from '../router';
@@ -74,11 +74,11 @@ const QUICK: { to: string; icon: IconName; label: string }[] = [
   { to: '/guide/public-comment', icon: 'comment', label: 'パブコメを/書く' },
 ];
 
-/** AIで考えを整理したいとき：目的別の「AIへの指示文」へ直接（指示文は各書き方ページの中にある） */
+/** AI活用ガイド：各書き方ページの中にある「AIへの指示文」へ直接（このサイトの中でAIは動かない。上部メニューからもここへ移動する） */
 const AI_ENTRIES: { to: string; label: string }[] = [
-  { to: '/guide/public-comment?s=prompts', label: 'パブコメの意見を文章にする' },
-  { to: '/guide/petition?s=prompts', label: '陳情書・請願書を作る' },
-  { to: '/guide/signature?s=prompts', label: '署名文を作る' },
+  { to: '/guide/public-comment?s=prompts', label: 'パブコメの指示文' },
+  { to: '/guide/petition?s=prompts', label: '請願・陳情の指示文' },
+  { to: '/guide/signature?s=prompts', label: '署名の指示文' },
 ];
 
 function QuickStart() {
@@ -101,12 +101,12 @@ function QuickStart() {
           </li>
         ))}
       </ul>
-      <div className="ai-entry" role="group" aria-labelledby="ai-entry-h">
+      <div className="ai-entry" id="ai" role="group" aria-labelledby="ai-entry-h">
         <p className="ai-entry-head" id="ai-entry-h">
           <Icon name="sparkle" />
-          <b>AIで考えを文章に整理したいとき</b>
+          <b>AI活用ガイド</b>
         </p>
-        <p>目的に合う「AIへの指示文」を選んでコピーし、ふだん使っているAIに貼り付けます。</p>
+        <p>資料の理解・考えの整理・文章づくり・内容の確認にAIを活用できます。指示文をコピーして、ふだん使っているAIに貼り付けます。</p>
         <ul className="ai-entry-links">
           {AI_ENTRIES.map((a) => (
             <li key={a.to}>
@@ -142,12 +142,12 @@ function SanpunCard() {
   );
 }
 
-/** すべての方法：6つのガイド（準備中は「準備中」と表示） */
+/** 声の届け方：6つのガイド（準備中は「準備中」と表示） */
 function GuideMenu() {
   return (
     <section className="section" id="methods" aria-labelledby="methods-h">
       <h2 id="methods-h" className="section-title">
-        すべての方法を見る
+        声の届け方
       </h2>
       <ul className="menu-grid">
         {GUIDES.map((g) => {

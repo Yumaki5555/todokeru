@@ -53,18 +53,20 @@ describe('長いページの道しるべ', () => {
   });
 });
 
-describe('トップの AI の入り口', () => {
-  it('すぐ使いたい方の下に、パブコメ・請願・署名の「AIへの指示文」へ直接行けるリンク', () => {
+describe('トップの AI活用ガイド', () => {
+  it('すぐ使いたい方の下に、パブコメ・請願・署名の「AIへの指示文」へ直接行けるリンク。上部メニューの行き先（#ai）はこの枠', () => {
     open('#/');
     const quick = document.getElementById('quick')!;
-    const box = within(quick).getByRole('group', { name: 'AIで考えを文章に整理したいとき' });
+    const box = within(quick).getByRole('group', { name: 'AI活用ガイド' });
+    expect(box.id).toBe('ai');
     const links = within(box).getAllByRole('link');
     expect(links.map((a) => a.getAttribute('href'))).toEqual([
       '#/guide/public-comment?s=prompts',
       '#/guide/petition?s=prompts',
       '#/guide/signature?s=prompts',
     ]);
-    expect(within(box).getByText(/AIを使わずに整えられます/)).toBeInTheDocument();
+    expect(within(box).getByText(/ふだん使っているAIに貼り付けます/)).toBeInTheDocument(); // サイトの中でAIが動くと誤解させない
+    expect(within(box).getByText(/AIを使わずに整えられます/)).toBeInTheDocument(); // AIの利用は任意
   });
 
   it.each(['#/guide/public-comment', '#/guide/petition', '#/guide/signature'])('%s：行き先の「AIへの指示文」の欄がある', (hash) => {

@@ -1,6 +1,7 @@
 // トップページ：題名 → 何をしたいですか？（目的 → こんな方法があります）→ すぐ使いたい方（＋AI活用ガイド）→ 3分でわかる（入り口）→ 声の届け方 → 関連サイト
 // わからない人には目的からの道案内を、決まっている人には最短の入り口を
-import { GUIDES, guidePath } from '../content/guides';
+import { GUIDES, findGuide, guidePath } from '../content/guides';
+import { METHODS } from '../content/threeMinutes';
 import { href } from '../router';
 import { SITE } from '../site';
 import type { IconName } from '../types';
@@ -65,18 +66,17 @@ function HeroArt() {
   );
 }
 
-/** すぐ使いたい方：作る・探す・書くを始める場所へ直接（台本・文面の作成欄は各ページの最初にある） */
-const QUICK: { to: string; icon: IconName; label: string }[] = [
-  { to: '/guide/phone', icon: 'phone', label: '電話の台本を/作る' },
-  { to: '/guide/email', icon: 'mail', label: 'メール・手紙を/作る' },
-  { to: '/contacts', icon: 'building', label: '全国の窓口を/探す' },
-  { to: '/guide/public-comment', icon: 'comment', label: 'パブコメを/書く' },
+/** すぐ使いたい方：6つの方法を始める場所へ直接＋届け先を探す（名前と行き先は METHODS と共通） */
+const QUICK: { to: string; icon: IconName; label: string; wide?: boolean }[] = [
+  ...METHODS.map((m) => ({ to: m.start, icon: findGuide(m.slug)!.icon, label: m.action })),
+  { to: '/contacts', icon: 'building', label: '全国の窓口を/探す', wide: true },
 ];
 
 /** AI活用ガイド：各書き方ページの中にある「AIへの指示文」へ直接（このサイトの中でAIは動かない。上部メニューからもここへ移動する） */
 const AI_ENTRIES: { to: string; label: string }[] = [
   { to: '/guide/public-comment?s=prompts', label: 'パブコメの指示文' },
   { to: '/guide/petition?s=prompts', label: '請願・陳情の指示文' },
+  { to: '/guide/disclosure?s=prompts', label: '情報公開請求の指示文' },
   { to: '/guide/signature?s=prompts', label: '署名の指示文' },
 ];
 
@@ -88,15 +88,15 @@ function QuickStart() {
       </h2>
       <ul className="quick-grid">
         {QUICK.map((q) => (
-          <li key={q.to}>
-            <a className="quick-link" href={href(q.to)}>
+          <li key={q.to} className={q.wide ? 'is-wide' : undefined}>
+            <SmartLink className="quick-link" to={q.to}>
               <span className="quick-icon" aria-hidden="true">
                 <Icon name={q.icon} />
               </span>
               <b>
                 <Breakable label={q.label} />
               </b>
-            </a>
+            </SmartLink>
           </li>
         ))}
       </ul>

@@ -38,7 +38,7 @@ export const THREE_MINUTE_STEPS: ThreeMinuteStep[] = [
     no: 4,
     title: '準備して届けよう',
     icon: 'send',
-    text: '電話の台本やメール・手紙の文面は、このサイトで作れます。',
+    text: '選んだ方法の準備は、ここから始められます。',
     figure: {
       kind: 'list',
       items: [
@@ -48,10 +48,7 @@ export const THREE_MINUTE_STEPS: ThreeMinuteStep[] = [
         { icon: 'clipboard', label: '回答を確認・記録する', sub: '必要なときに' },
       ],
     },
-    more: [
-      { label: '電話の台本を作る', to: '/guide/phone' },
-      { label: 'メール・手紙の文面を作る', to: '/guide/email' },
-    ],
+    methodActions: true,
   },
 ];
 
@@ -106,36 +103,21 @@ export function purposeMethods(p: ThreeMinutePurpose): GuideSlug[] {
   return p.ways.flatMap((w) => w.to).filter((t): t is GuideSlug => t !== 'contacts' && t !== 'official');
 }
 
-/** STEP 2：6つの方法（並列の選択肢。並び順は「声を届ける方法を知る」と同じ。「/」は折り返してよい位置） */
+/** 6つの方法（STEP 2 のカード・STEP 4 のボタン・トップの「すぐ使いたい方」で共通。並び順は「声を届ける方法を知る」と同じ。「/」は折り返してよい位置）
+ *  action / start：その方法の準備を始めるボタンの名前と行き先（作成欄や「書いてみよう」などの場所へ直接） */
 export const METHODS: ThreeMinuteMethod[] = [
-  { slug: 'phone', label: '電話', sub: 'その場で/聞ける' },
-  { slug: 'email', label: 'メール・/手紙', sub: '文章で/残せる' },
-  { slug: 'public-comment', label: 'パブリック/コメント', sub: '募集中の案に/意見' },
-  { slug: 'petition', label: '請願・陳情', sub: '議会に/検討を求める' },
-  { slug: 'disclosure', label: '情報公開/請求', sub: '行政の文書を/見る' },
-  { slug: 'signature', label: '署名', sub: '賛同の声を/集める' },
+  { slug: 'phone', label: '電話', sub: 'その場で/聞ける', action: '電話の台本を/作る', start: '/guide/phone' },
+  { slug: 'email', label: 'メール・/手紙', sub: '文章で/残せる', action: 'メール・手紙の/文面を作る', start: '/guide/email' },
+  { slug: 'public-comment', label: 'パブリック/コメント', sub: '募集中の案に/意見', action: 'パブコメを/書く', start: '/guide/public-comment' },
+  { slug: 'petition', label: '請願・陳情', sub: '議会に/検討を求める', action: '請願・陳情を/書く', start: '/guide/petition?s=write' },
+  { slug: 'disclosure', label: '情報公開/請求', sub: '行政の文書を/見る', action: '情報公開を/請求する', start: '/guide/disclosure?s=request' },
+  { slug: 'signature', label: '署名', sub: '賛同の声を/集める', action: '署名する・/集める', start: '/guide/signature?s=try' },
 ];
 
-/** 3分ガイドの最後：声を届ける前に知っておきたいこと（詳しくは各マニュアルへ） */
+/** 3分ガイドの最後：声を届ける前に知っておきたいこと（どの方法にも共通することだけ。方法ごとの話は各ガイドへ） */
 export const BEFORE_YOU_SEND: BeforeYouSendItem[] = [
-  {
-    icon: 'scale',
-    text: '意見を出しても、必ず採用されるとは限りません。パブコメは多数決ではありません。',
-    link: { label: 'パブコメのしくみ', to: '/guide/public-comment?s=sanpun' },
-  },
-  {
-    icon: 'route',
-    text: '手続きごとに、役割・出す先・条件が違います。',
-    link: { label: '請願と陳情の違い', to: '/guide/petition?s=sanpun' },
-  },
-  {
-    icon: 'memo',
-    text: '確かめた事実と、自分の意見を分けて伝えます。',
-    link: { label: 'メールの書き方', to: '/guide/email?s=ch1' },
-  },
-  {
-    icon: 'sparkle',
-    text: 'AIの答えは公式の資料で確かめ、最後は自分で判断します。',
-    link: { label: 'AIの使い方', to: '/guide/public-comment?s=ai' },
-  },
+  { icon: 'scale', text: '届けた声が、そのまま通るとは限りません。個別の返事がないこともあります。' },
+  { icon: 'route', text: '方法ごとに、役割・届け先・条件が違います。' },
+  { icon: 'memo', text: '確かめた事実と、自分の意見を分けて伝えます。' },
+  { icon: 'sparkle', text: 'AIの答えは公式の資料で確かめ、最後は自分で判断します。' },
 ];

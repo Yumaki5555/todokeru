@@ -187,6 +187,8 @@ export interface ThreeMinuteStep {
   figure?: { kind: 'icons' | 'list'; items: FigureItem[] };
   /** 次に押すリンク */
   more?: { label: string; to: string }[];
+  /** STEP 4：STEP 2 で印がついた方法の、準備を始めるボタンを出す */
+  methodActions?: boolean;
 }
 
 /** 「何をしたい？」の1つ（トップと3分ガイドの STEP 1 で共通） */
@@ -207,14 +209,15 @@ export interface PurposeWay {
 export interface BeforeYouSendItem {
   icon: IconName;
   text: string;
-  link: { label: string; to: string };
 }
 
-/** STEP 2「方法を選ぼう」の1つ（行き先は同じ slug のガイド） */
+/** 届ける方法の1つ（カードの行き先は同じ slug のガイド） */
 export interface ThreeMinuteMethod {
   slug: GuideSlug;
   label: string; // 「/」の位置で折り返してよい（表示しない）
   sub: string; // 何に向いているか（短く。「/」の扱いは label と同じ）
+  action: string; // 準備を始めるボタンの名前（「/」の扱いは label と同じ）
+  start: string; // 準備を始めるボタンの行き先
 }
 
 export interface FigureItem {

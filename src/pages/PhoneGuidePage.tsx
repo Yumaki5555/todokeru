@@ -87,6 +87,10 @@ export function PhoneGuidePage({ route }: { route: Route }) {
         </summary>
         <div className="pre-call-body">
           <p className="fear-lead">{PHONE_FEAR_TIPS.lead}</p>
+          <p className="fear-from">
+            <Icon name="chat" />
+            <b>{PHONE_FEAR_TIPS.from}</b>
+          </p>
           <ol className="fear-tips">
             {PHONE_FEAR_TIPS.items.map((t) => (
               <li key={t.title}>
@@ -95,7 +99,7 @@ export function PhoneGuidePage({ route }: { route: Route }) {
               </li>
             ))}
           </ol>
-          <p className="muted">{PHONE_FEAR_TIPS.credit}</p>
+          <p className="muted">{PHONE_FEAR_TIPS.note}</p>
         </div>
       </details>
 

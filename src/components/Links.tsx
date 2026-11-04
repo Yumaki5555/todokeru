@@ -88,9 +88,9 @@ export function JumpLink({
 }
 
 /** 「声を届ける。トップへ戻る」：このサイトのトップへ */
-export function BackToSiteTop({ className }: { className?: string }) {
+export function BackToSiteTop() {
   return (
-    <a className={'back-link ' + (className || '')} href={href('/')}>
+    <a className="back-link" href={href('/')}>
       <Icon name="arrow-left" />
       {SITE.name}トップへ戻る
     </a>

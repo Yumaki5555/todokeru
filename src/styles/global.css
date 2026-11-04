@@ -250,15 +250,9 @@ a:hover {
   border-radius: 0;
 }
 
-/* AI活用ガイド：アイコンと淡い色で少しだけ目立たせる */
+/* AI活用ガイド：アイコンだけで少し目立たせる（面の色をつけると「いま選択中」に見えるので使わない） */
 .global-nav a.nav-accent {
   gap: 3px;
-  background: var(--c-main-tint);
-  color: var(--c-main-deep);
-}
-
-.global-nav a.nav-accent:hover {
-  background: var(--c-main-line);
 }
 
 .global-nav a.nav-accent .icon {
@@ -1432,7 +1426,7 @@ a.way-chip:hover {
   line-height: 1.7;
 }
 
-/* ---- すぐ使いたい方（2列×2行、広い画面は4列） ---- */
+/* ---- すぐ使いたい方（6つの方法は2列×3行、広い画面は3列×2行。窓口を探すはその下に横いっぱいで） ---- */
 .quick-grid {
   list-style: none;
   display: grid;
@@ -1442,13 +1436,17 @@ a.way-chip:hover {
 
 @media (min-width: 760px) {
   .quick-grid {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 12px;
   }
 }
 
 .quick-grid li {
   min-width: 0;
+}
+
+.quick-grid li.is-wide {
+  grid-column: 1 / -1;
 }
 
 .quick-link {
@@ -1649,18 +1647,21 @@ a.way-chip:hover {
   line-height: 1.7;
 }
 
-.before-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 2px;
-  margin-left: 6px;
-  font-size: var(--fs-small);
-  white-space: nowrap;
+.before-more {
+  margin: 12px 0 0;
 }
 
-.before-link .icon {
-  width: 16px;
-  height: 16px;
+.before-more a {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  min-height: 44px;
+  font-weight: 600;
+}
+
+.before-more .icon {
+  width: 18px;
+  height: 18px;
 }
 
 /* ---- 関連サイト ---- */
@@ -3819,10 +3820,23 @@ fieldset.field {
   margin: 0 0 10px;
 }
 
-/* 電話がこわいときの4つのコツ */
+/* 電話がこわいときの5つのコツ */
 .fear-lead {
   margin: 0 0 10px;
   font-weight: 700;
+}
+
+.fear-from {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 0 8px;
+  color: var(--c-main-deep);
+}
+
+.fear-from .icon {
+  flex: none;
+  color: var(--c-main);
 }
 
 .fear-tips {
@@ -3835,6 +3849,7 @@ fieldset.field {
 .fear-tips b {
   display: block;
 }
+
 
 .call-memo-body {
   display: grid;

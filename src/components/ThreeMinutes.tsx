@@ -1,12 +1,12 @@
 // 「3分でわかる」：4つのSTEPを縦の流れで見せる（大きなアイコン＋短い見出し＋1文＋選択肢や小さな図）
-// STEP 1 はトップと同じ「何をしたいですか？」の部品。目的を押すと、STEP 2 の方法のうち使えるものに印がつく（押さなくても全部読める）
+// STEP 1 はトップと同じ「何をしたいですか？」の部品。目的を押すと、STEP 2 の方法のうち使えるものに印がつき、STEP 4 のボタンもその方法だけになる（押さなくても全部読める）
 import { BEFORE_YOU_SEND, METHODS, THREE_MINUTE_STEPS, purposeMethods } from '../content/threeMinutes';
 import { findGuide, guidePath } from '../content/guides';
 import { href } from '../router';
 import type { ThreeMinutePurpose, ThreeMinuteStep } from '../types';
 import { Icon } from './Icon';
 import { SmartLink } from './Links';
-import { Breakable, PurposeFinder, usePurpose } from './PurposeFinder';
+import { Breakable, PurposeFinder, plain, usePurpose } from './PurposeFinder';
 
 export function ThreeMinutes() {
   const [purpose, setPurpose] = usePurpose();
@@ -27,16 +27,8 @@ export function ThreeMinutes() {
               {s.choices === 'purposes' && <PurposeFinder purpose={purpose} onChange={setPurpose} />}
               {s.choices === 'methods' && <MethodCards purpose={purpose} />}
               {s.figure && <StepFigure figure={s.figure} />}
-              {s.more && (
-                <p className="step-more">
-                  {s.more.map((m) => (
-                    <SmartLink key={m.to} to={m.to} className="btn btn-secondary btn-small">
-                      {m.label}
-                      <Icon name="arrow-right" />
-                    </SmartLink>
-                  ))}
-                </p>
-              )}
+              {s.more && <StepLinks links={s.more} />}
+              {s.methodActions && <StepLinks links={methodActions(purpose)} />}
             </div>
           </li>
         ))}
@@ -45,7 +37,26 @@ export function ThreeMinutes() {
   );
 }
 
-/** ガイドの最後：声を届ける前に知っておきたいこと（1行ずつ。詳しくは各マニュアルへ） */
+/** STEP 4 のボタン：STEP 2 で印がついた方法だけ（目的を選んでいないときは6つ全部） */
+function methodActions(purpose: ThreeMinutePurpose | undefined) {
+  const marked = purpose ? purposeMethods(purpose) : null;
+  return METHODS.filter((m) => !marked || marked.includes(m.slug)).map((m) => ({ label: plain(m.action), to: m.start }));
+}
+
+function StepLinks({ links }: { links: { label: string; to: string }[] }) {
+  return (
+    <p className="step-more">
+      {links.map((m) => (
+        <SmartLink key={m.to} to={m.to} className="btn btn-secondary btn-small">
+          {m.label}
+          <Icon name="arrow-right" />
+        </SmartLink>
+      ))}
+    </p>
+  );
+}
+
+/** ガイドの最後：声を届ける前に知っておきたいこと（どの方法にも共通することを1行ずつ） */
 export function BeforeYouSend() {
   return (
     <section className="section before-send" id="before" aria-labelledby="before-h">
@@ -58,16 +69,16 @@ export function BeforeYouSend() {
             <span className="before-icon" aria-hidden="true">
               <Icon name={b.icon} />
             </span>
-            <p>
-              {b.text}
-              <SmartLink to={b.link.to} className="before-link">
-                {b.link.label}
-                <Icon name="arrow-right" />
-              </SmartLink>
-            </p>
+            <p>{b.text}</p>
           </li>
         ))}
       </ul>
+      <p className="before-more">
+        <SmartLink to="/?s=methods">
+          方法ごとの詳しい説明を見る
+          <Icon name="arrow-right" />
+        </SmartLink>
+      </p>
     </section>
   );
 }

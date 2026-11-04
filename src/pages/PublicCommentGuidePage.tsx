@@ -34,8 +34,9 @@ import type { PromptId, PubcomRevision } from '../types';
 import { Checklist } from '../components/Checklist';
 import { CopyButton } from '../components/CopyButton';
 import { Icon } from '../components/Icon';
+import { SITE } from '../site';
 import { AiTip, Flow, GoPrompt, Part, PartBar, PartMenu, Sources } from '../components/GuideParts';
-import { PageEndNav } from '../components/Links';
+import { PageEndNav, SmartLink } from '../components/Links';
 import { PageHead } from '../components/PageHead';
 import { PromptPicker } from '../components/PromptPicker';
 
@@ -118,6 +119,12 @@ export function PublicCommentGuidePage() {
               </li>
             ))}
           </ol>
+          <p className="step-more">
+            <SmartLink to={SITE.pubcome.url} className="btn btn-primary">
+              <Icon name="search" />
+              募集中のパブコメを探す（パブコメ掲示板）
+            </SmartLink>
+          </p>
         </section>
 
         <section className="pc-sub" aria-labelledby="template-h">

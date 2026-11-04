@@ -1,4 +1,5 @@
-// 共通ヘッダー：いちばん上に「日本を知る。トップへ戻る」、その下にサイト名とナビゲーション
+// 共通ヘッダー：いちばん上に全サイト共通メニュー、その下にサイト名とナビゲーション
+import { createElement } from 'react';
 import { href } from '../router';
 import { SITE } from '../site';
 import { GlobalNav } from './GlobalNav';
@@ -13,13 +14,18 @@ export function SiteHeader({ path }: { path: string }) {
       }}>
         本文へ移動
       </a>
-      <div className="portal-bar">
-        <div className="wrap portal-bar-in">
-          <a className="portal-link" href={SITE.portal.url}>
-            <b>{SITE.portal.label}</b>トップへ戻る
-          </a>
-        </div>
-      </div>
+      {/* 全サイト共通メニュー。部品（shared/site-nav.js）が読み込めなかったときだけ、中のリンクがそのまま見える */}
+      {createElement(
+        'nihon-site-nav',
+        null,
+        <div className="portal-bar">
+          <div className="wrap portal-bar-in">
+            <a className="portal-link" href={SITE.portal.url}>
+              <b>{SITE.portal.label}</b>トップへ戻る
+            </a>
+          </div>
+        </div>,
+      )}
       <div className="site-bar">
         <div className="wrap site-bar-in">
           {/* トップページでは大きな題名と同じ文字が2つ並ばないよう、小さなサイト名は出さない */}

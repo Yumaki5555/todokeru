@@ -1,6 +1,6 @@
 // 窓口検索の結果：1つの機関・自治体と、その窓口（代表・広聴・議会事務局。載せたところには請願・陳情の届け先・警察・教育委員会も）
 import { useEffect, useState, type ReactNode } from 'react';
-import type { Agency, Contact, ContactType, Municipality, Prefecture } from '../types';
+import type { Agency, Contact, ContactType, Municipality, Prefecture, Ward } from '../types';
 import {
   AGENCY_CATEGORY_LABEL,
   AUTO_MATCHED_NOTE,
@@ -14,7 +14,7 @@ import {
   TYPES_FOR_DIET,
   TYPES_FOR_LOCAL,
 } from '../data/labels';
-import { loadAgencyContacts, loadPrefContacts } from '../data/loaders';
+import { loadAgencyContacts, loadOfficialSites, loadPrefContacts } from '../data/loaders';
 import { isDisplayable } from '../data/validate';
 import { telHref } from '../lib/text';
 import { href } from '../router';
@@ -73,12 +73,14 @@ function useContacts(entity: Entity) {
 
 const ENTITY_ICON = { agency: 'landmark', pref: 'map', muni: 'building' } as const;
 
-export function ContactCard({ entity }: { entity: Entity }) {
+/** ward：政令指定都市の区のコードで来たとき（窓口データに区はないので、親の市の問い合わせ先だと明示する） */
+export function ContactCard({ entity, ward }: { entity: Entity; ward?: Ward }) {
   const { status, contacts, prefPolice, retry } = useContacts(entity);
   const types: ContactType[] =
     entity.kind === 'agency' ? (entity.agency.category === 'diet' ? TYPES_FOR_DIET : TYPES_FOR_AGENCY) : TYPES_FOR_LOCAL;
   const name = entity.kind === 'agency' ? entity.agency.name : entity.kind === 'pref' ? entity.pref.name : entity.muni.name;
-  const hasBase = contacts.some((c) => types.includes(c.type));
+  // 確認待ち（unverified）だけの種類しかないときは、同じ説明を欄ごとにくり返さず1か所にまとめる
+  const hasBase = contacts.some((c) => types.includes(c.type) && c.status !== 'unverified');
   // 請願・陳情の届け先・警察・教育委員会は、連絡先を載せたときだけ欄を出す（まだ調べていない全国の自治体に「未調査」を並べない）
   const extraTypes =
     entity.kind === 'pref'
@@ -101,8 +103,9 @@ export function ContactCard({ entity }: { entity: Entity }) {
         </span>
         <div className="entity-head-main">
           <h3 id="entity-h" tabIndex={-1}>
-            {name}
+            {ward ? `${name}の問い合わせ先` : name}
           </h3>
+          {ward && <p className="entity-ward">{ward.name}の窓口は載せていないため、{name}全体の問い合わせ先を出しています。</p>}
           <EntityMeta entity={entity} />
         </div>
       </header>
@@ -119,7 +122,7 @@ export function ContactCard({ entity }: { entity: Entity }) {
         </div>
       )}
       {status === 'loading' && <p className="muted">窓口データを読み込んでいます…</p>}
-      {status === 'ok' && !hasBase && <NotResearched entity={entity} types={types} />}
+      {status === 'ok' && !hasBase && <NotListed entity={entity} types={types} />}
       {status === 'ok' && (hasBase || extras.length > 0) && (
         <ul className="slots">
           {hasBase && types.map((t) => <ContactSlot key={t} type={t} contacts={contacts.filter((c) => c.type === t)} owner={name} />)}
@@ -195,15 +198,36 @@ function EntityMeta({ entity }: { entity: Entity }) {
   );
 }
 
-/** まだ1件も調べていない機関・自治体：同じ説明をくり返さず、1か所にまとめて案内する */
-function NotResearched({ entity, types }: { entity: Entity; types: ContactType[] }) {
+/** 窓口を表示できない自治体の公式サイト（自治体名を確かめたものだけ。なければ J-LIS のリンク集で案内する） */
+function useOfficialSite(entity: Entity): string | null {
+  const [url, setUrl] = useState<string | null>(null);
+  const code = entity.kind === 'muni' ? entity.muni.code : null;
+  useEffect(() => {
+    setUrl(null);
+    if (!code) return;
+    let alive = true;
+    loadOfficialSites().then(
+      (f) => alive && setUrl(f.items[code] ?? null),
+      () => undefined,
+    );
+    return () => {
+      alive = false;
+    };
+  }, [code]);
+  return url;
+}
+
+/** まだ窓口を表示できない機関・自治体：窓口がないという意味ではないことを、1か所にまとめて案内する */
+function NotListed({ entity, types }: { entity: Entity; types: ContactType[] }) {
+  const official = useOfficialSite(entity);
   return (
     <div className="not-researched">
       <p>
-        <span className="badge badge-muted">未調査</span>
-        連絡先はまだ載せていません。{entity.kind === 'agency' ? '公式サイト' : '公式サイト（上のリンクから探せます）'}
+        <b>窓口情報は確認中です。</b>
+        窓口がないという意味ではありません。{official || entity.kind === 'agency' ? '公式サイト' : '公式サイト（上のリンク集から探せます）'}
         の「お問い合わせ」で、次の窓口を確かめてください。
       </p>
+      {official && entity.kind === 'muni' && <OfficialLink to={official}>{entity.muni.name}の公式サイト</OfficialLink>}
       <ul className="type-mini">
         {types.map((t) => (
           <li key={t}>
@@ -229,7 +253,6 @@ function ContactSlot({ type, contacts, from, owner }: { type: ContactType; conta
   const shown = contacts.filter(isDisplayable);
   const unavailable = contacts.find((c) => c.status === 'unavailable');
   const discontinued = contacts.find((c) => c.status === 'discontinued');
-  const unverified = contacts.find((c) => c.status === 'unverified');
 
   return (
     <li className="slot">
@@ -252,15 +275,8 @@ function ContactSlot({ type, contacts, from, owner }: { type: ContactType; conta
           <span className="badge badge-muted">{STATUS_LABEL.discontinued}</span>
           新しい窓口は公式サイトで確かめてください
         </p>
-      ) : unverified ? (
-        <p className="slot-state">
-          <span className="badge badge-muted">{STATUS_LABEL.unverified}</span>
-          公式の確認待ちのため表示していません
-        </p>
       ) : (
-        <p className="slot-state">
-          <span className="badge badge-muted">未調査</span>
-        </p>
+        <p className="slot-state">窓口情報は確認中です。公式サイトで確かめてください。</p>
       )}
     </li>
   );

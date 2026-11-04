@@ -5,6 +5,7 @@ import { navigate, parseHash, useHash, type Route } from './router';
 import { scrollToSection } from './lib/dom';
 import { restoreSpot, savedSpot, startScrollMemory } from './lib/scrollMemory';
 import { SITE } from './site';
+import { FromSiteBar } from './components/FromSiteBar';
 import { SiteFooter } from './components/SiteFooter';
 import { SiteHeader } from './components/SiteHeader';
 import { PageTopButton } from './components/PageTopButton';
@@ -88,6 +89,7 @@ export function App() {
   return (
     <>
       <SiteHeader path={route.path} />
+      <FromSiteBar path={route.path} />
       <main id="main" tabIndex={-1}>
         {page.element}
       </main>

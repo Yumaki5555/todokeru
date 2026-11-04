@@ -81,7 +81,7 @@ describe('窓口検索', () => {
     for (const t of ['行政代表窓口', '広聴・ご意見窓口', '議会事務局']) expect(screen.getAllByText(t).length).toBeGreaterThanOrEqual(1);
   });
 
-  it('都道府県→市区町村を選ぶと、その自治体の窓口（未調査）が出て、URL にも残る', async () => {
+  it('都道府県→市区町村を選ぶと、その自治体の窓口（確認中）が出て、URL にも残る', async () => {
     dataOverrides.set('contacts/13.json', []);
     openContacts();
     const pref = await screen.findByLabelText('都道府県を選ぶ');
@@ -95,8 +95,8 @@ describe('窓口検索', () => {
     const card = await screen.findByRole('article');
     expect(within(card).getByRole('heading', { name: '江東区' })).toBeInTheDocument();
     expect(within(card).getByText('131083')).toBeInTheDocument();
-    // 未調査の説明は1か所だけ（窓口の種類ごとにくり返さない）
-    expect(await within(card).findAllByText('未調査')).toHaveLength(1);
+    // 確認中の説明は1か所だけ（窓口の種類ごとにくり返さない）
+    expect(await within(card).findAllByText('窓口情報は確認中です。')).toHaveLength(1);
     for (const t of ['行政代表窓口', '広聴・ご意見窓口', '議会事務局']) expect(within(card).getByText(t)).toBeInTheDocument();
     expect(within(card).queryByRole('link', { name: /電話をかける/ })).not.toBeInTheDocument();
     expect(within(card).getByRole('link', { name: /J-LIS「全国自治体マップ検索」/ })).toHaveAttribute(
@@ -127,7 +127,7 @@ describe('窓口検索', () => {
     expect(window.location.hash).toBe('#/contacts?tab=agency&id=mhlw');
     const card = await screen.findByRole('article');
     expect(within(card).getByRole('link', { name: /厚生労働省の公式サイト/ })).toHaveAttribute('href', 'https://www.mhlw.go.jp/');
-    expect(await within(card).findAllByText('未調査')).toHaveLength(1);
+    expect(await within(card).findAllByText('窓口情報は確認中です。')).toHaveLength(1);
     expect(within(card).getByText('行政代表窓口')).toBeInTheDocument();
     expect(within(card).queryByText('議会事務局')).not.toBeInTheDocument(); // 国の機関に議会事務局はない
   });
@@ -198,7 +198,7 @@ describe('窓口データがあるときの表示（テスト用の架空デー�
     expect(within(card).getByRole('link', { name: 'この窓口あての文面を作る' })).toHaveAttribute('href', '#/guide/email?for=131083-general');
     // 未確認の窓口は番号を出さない
     expect(within(card).queryByText(/03-1111-1111/)).not.toBeInTheDocument();
-    expect(within(card).getByText(/公式の確認待ちのため表示していません/)).toBeInTheDocument();
+    expect(within(card).getAllByText(/窓口情報は確認中です。公式サイトで確かめてください/).length).toBeGreaterThan(0);
     // 出典のない「確認済み」は点検ではじかれ、表示されない
     expect(within(card).queryByText(/03-2222-2222/)).not.toBeInTheDocument();
   });
@@ -278,8 +278,8 @@ describe('窓口データがあるときの表示（テスト用の架空デー�
     window.location.hash = '#/contacts?code=131083';
     card = await screen.findByRole('article');
     expect(await within(card).findByRole('heading', { level: 3, name: '江東区' })).toBeInTheDocument();
-    // 基本の3つはまだないので「未調査」の案内を1か所だけ。その下に、載せた教育委員会と、東京都の警察
-    expect(await within(card).findAllByText('未調査')).toHaveLength(1);
+    // 基本の3つはまだないので「確認中」の案内を1か所だけ。その下に、載せた教育委員会と、東京都の警察
+    expect(await within(card).findAllByText('窓口情報は確認中です。')).toHaveLength(1);
     expect(within(card).getByRole('heading', { level: 4, name: '教育委員会' })).toBeInTheDocument();
     expect(within(card).getByRole('link', { name: /03-5555-5555/ })).toBeInTheDocument();
     expect(within(card).getByRole('heading', { level: 4, name: /警察・公安委員会\s*（東京都）/ })).toBeInTheDocument();

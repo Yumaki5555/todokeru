@@ -366,7 +366,7 @@ export const SUBMIT_NOTES = ['使える方法は案件ごとに違います。�
 
 export const FIND_CASES = {
   national: [EGOV_PUBCOM, SITE.pubcome],
-  local: '自治体の案件は、その自治体の公式サイトの「パブリックコメント」「意見募集」のページで探します。',
+  local: 'パブコメ掲示板に載っていない自治体の案件は、その自治体の公式サイトの「パブリックコメント」「意見募集」のページで探します。',
 };
 
 export const RESULT_POINTS = [

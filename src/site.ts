@@ -10,7 +10,7 @@ export const SITE = {
   /** 最終更新日（内容を直したらここを変える） */
   updated: '2026-11-04',
   portal: { label: '日本を知る。', url: 'https://yumaki5555.github.io/' },
-  pubcome: { label: 'パブコメ掲示板', url: 'https://yumaki5555.github.io/pubcome/', desc: 'いま意見を出せる国の案件（パブリックコメント）の一覧' },
+  pubcome: { label: 'パブコメ掲示板', url: 'https://yumaki5555.github.io/pubcome/', desc: 'いま意見を出せる国・都道府県・市区町村の案件（パブリックコメント）の一覧' },
   shomei: { label: '署名掲示板', url: 'https://yumaki5555.github.io/shomei/', desc: 'いま賛同を集めている署名の一覧' },
   /** 自治体の公式サイトを探すための公的なリンク集 */
   jlisMap: {

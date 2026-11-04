@@ -266,3 +266,12 @@ git push -u origin main
 - 都道府県・市区町村：総務省「全国地方公共団体コード」（令和6年1月1日更新）https://www.soumu.go.jp/denshijiti/code.html
 - 国の機関：各機関の公式サイト（2026-11-01 にトップページの表示を確認）
 - 自治体の公式サイトの探し方：地方公共団体情報システム機構（J-LIS）「全国自治体マップ検索」https://www.j-lis.go.jp/spd/map-search/cms_1069.html
+
+## 別のサイトからの引き継ぎ
+
+ほかの専門サイトから `#/contacts?code=221309&from=<戻り先URL>&item=<項目名>` の形でリンクすると、どのページでも上に「元のページへ戻る」帯が出ます（`src/lib/fromSite.ts`・`src/components/FromSiteBar.tsx`）。
+
+- 戻れるサイトは `FROM_SITES` の一覧にあるものだけ。文言もここの固定文です。新しいサイトを足すときはここに書きます。
+- 一時メモはこのタブの中だけで2時間。保存するのは戻り先URL・どのサイトか・自治体コード・項目名（60字まで）・時刻だけです。
+- `code` は2けた・5けた・6けたを受け付けます（`src/lib/areaCode.ts`）。政令市の区は `public/data/master/wards.json`（元は総務省の一覧、`python scripts/build-wards.py <xlsx> <更新日>`）で親の市を引き、「○○市の問い合わせ先」と明示します。どこにも当たらないコードは推測せず、利用者に選んでもらいます。
+- 窓口を表示できない自治体の公式サイトは `public/data/master/official-sites.json`（`python -I todokeru_tools/10_official_sites.py`。題名に自治体名があるものだけ）。なければ J-LIS のリンク集で案内します。

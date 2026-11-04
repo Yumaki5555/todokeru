@@ -1,6 +1,6 @@
 // public/data の JSON を必要なときだけ読み込む（一度読んだものは覚えておく）
 // 窓口データは都道府県ごとのファイルに分け、選んだ都道府県の分だけ読む。
-import type { Agency, AgencyContacts, Contact, DataSummary, MasterFile, Municipality, MunicipalityContacts, Prefecture } from '../types';
+import type { Agency, AgencyContacts, Contact, DataSummary, MasterFile, Municipality, MunicipalityContacts, Prefecture, Ward } from '../types';
 import { validateContact } from './validate';
 
 const cache = new Map<string, Promise<unknown>>();
@@ -26,6 +26,9 @@ export const loadSummary = () => load<DataSummary>('summary.json');
 export const loadAgencies = () => load<MasterFile<Agency>>('master/agencies.json');
 export const loadPrefectures = () => load<MasterFile<Prefecture>>('master/prefectures.json');
 export const loadMunicipalities = () => load<MasterFile<Municipality>>('master/municipalities.json');
+export const loadWards = () => load<MasterFile<Ward>>('master/wards.json');
+/** 窓口を表示できない自治体の公式サイト（自治体名をプログラムで確かめたものだけ）。自治体コード → URL */
+export const loadOfficialSites = () => load<{ items: Record<string, string> }>('master/official-sites.json');
 
 /** 形が正しい窓口だけを残す（崩れたデータを画面に出さない） */
 function keepValid<T extends { contacts: unknown[] }>(records: T[]): T[] {

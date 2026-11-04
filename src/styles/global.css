@@ -159,6 +159,11 @@ a:hover {
   border-radius: var(--radius-sm);
 }
 
+/* 全サイト共通メニュー（中身は部品の中。読み込めなかったときは .portal-bar がそのまま見える） */
+nihon-site-nav {
+  display: block;
+}
+
 .skip-link:focus {
   top: 8px;
 }
@@ -2876,6 +2881,7 @@ a.way-chip:hover {
 
 @media print {
   .portal-bar,
+  .from-bar,
   .site-bar,
   .site-footer,
   .page-end-nav,
@@ -5866,4 +5872,100 @@ p.mail-label {
 /* まとまりの途中の小見出し（ひな形・結果）の上をあける */
 .disclosure-guide .pc-sub > .mlist-title {
   margin-top: 16px;
+}
+
+/* 別のサイトから来たときの「元のページへ戻る」帯 */
+.from-bar {
+  background: var(--c-main-tint);
+  border-bottom: 1px solid var(--c-main-line);
+  font-size: var(--fs-small);
+}
+
+.from-bar-in {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0 8px;
+  align-items: center;
+}
+
+.from-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  min-height: 44px;
+  font-weight: 700;
+  color: var(--c-main-deep);
+}
+
+.from-close {
+  grid-column: 2;
+  grid-row: 1;
+  width: 44px;
+  height: 44px;
+  background: none;
+  border: 0;
+  border-radius: var(--radius-sm);
+  color: var(--c-text-sub);
+  font-size: 1.25rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.from-close:hover {
+  background: var(--c-main-line);
+  color: var(--c-text);
+}
+
+.from-info {
+  grid-column: 1 / -1;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 1em;
+  color: var(--c-text-sub);
+  overflow-wrap: anywhere;
+}
+
+.from-item {
+  color: var(--c-text);
+}
+
+.from-area {
+  grid-column: 1 / -1;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  justify-self: start;
+}
+
+@media (min-width: 900px) {
+  .from-bar-in {
+    grid-template-columns: auto minmax(0, 1fr) auto auto;
+    gap: 0 16px;
+  }
+  .from-info {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .from-area {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .from-close {
+    grid-column: 4;
+  }
+}
+
+.from-hint {
+  margin: 0 0 12px;
+  padding: 10px 14px;
+  background: var(--c-bg-sub);
+  border-radius: var(--radius-sm);
+  font-size: var(--fs-small);
+}
+
+.entity-ward {
+  margin: 2px 0 6px;
+  font-weight: 700;
+  color: var(--c-warn);
 }

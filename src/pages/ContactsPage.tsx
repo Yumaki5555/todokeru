@@ -1,16 +1,19 @@
 // 全国の窓口を探す
 // URL で選んだ状態を表す（共有・将来の入口サイトからの地域の引き継ぎ用）
 //   #/contacts?tab=area&code=13       都道府県
-//   #/contacts?tab=area&code=131083   市区町村（全国地方公共団体コード6けた）
+//   #/contacts?tab=area&code=131083   市区町村（全国地方公共団体コード6けた。5けたも可）
+//   #/contacts?tab=area&code=22138    政令指定都市の区：親の市の問い合わせ先を、そうと分かる形で出す
 //   #/contacts?tab=agency&id=mhlw     国の機関
 //   #/contacts?tab=search             名前で検索
 import { Fragment, useEffect, useMemo, useRef, useState } from 'react';
-import type { Agency, AgencyCategory, Coverage, DataSummary, IconName, Municipality, Prefecture } from '../types';
+import type { Agency, AgencyCategory, Coverage, DataSummary, IconName, Municipality, Prefecture, Ward } from '../types';
 import { AGENCY_CATEGORY_LABEL, CONTACT_TYPE_INFO, EXTRA_TYPES_FOR_PREF, TYPES_FOR_LOCAL } from '../data/labels';
-import { loadAgencies, loadMunicipalities, loadPrefectures, loadSummary } from '../data/loaders';
+import { loadAgencies, loadMunicipalities, loadPrefectures, loadSummary, loadWards } from '../data/loaders';
 import { buildSearchIndex, searchEntities, type SearchEntry } from '../data/search';
 import { href, navigate, type Route } from '../router';
+import { resolveArea } from '../lib/areaCode';
 import { scrollToSection } from '../lib/dom';
+import { useFromSite } from '../lib/fromSite';
 import { saveLastArea } from '../lib/lastArea';
 import { SITE, formatDate } from '../site';
 import { ContactCard, type Entity } from '../components/ContactCard';
@@ -44,6 +47,7 @@ interface Masters {
   agencies: Agency[];
   prefectures: Prefecture[];
   municipalities: Municipality[];
+  wards: Ward[];
   source: string;
   sourceUrl: string;
 }
@@ -57,10 +61,11 @@ export function ContactsPage({ route }: { route: Route }) {
   useEffect(() => {
     let alive = true;
     setFailed(false);
-    Promise.all([loadAgencies(), loadPrefectures(), loadMunicipalities()]).then(
-      ([a, p, m]) =>
+    // 区の対応表が読めなくても窓口検索は使える（区のコードは「利用者に選んでもらう」になるだけ）
+    Promise.all([loadAgencies(), loadPrefectures(), loadMunicipalities(), loadWards().catch(() => ({ items: [] as Ward[] }))]).then(
+      ([a, p, m, w]) =>
         alive &&
-        setMasters({ agencies: a.items, prefectures: p.items, municipalities: m.items, source: m.source, sourceUrl: m.source_url }),
+        setMasters({ agencies: a.items, prefectures: p.items, municipalities: m.items, wards: w.items, source: m.source, sourceUrl: m.source_url }),
       () => alive && setFailed(true),
     );
     loadSummary().then(
@@ -207,11 +212,14 @@ function CoverageNote({ summary }: { summary: DataSummary | null }) {
 function Finder({ masters, route, summary }: { masters: Masters; route: Route; summary: DataSummary | null }) {
   const { agencies, prefectures, municipalities } = masters;
   const q = route.query;
+  const fromMemo = useFromSite();
 
-  // URL から選んでいるものを読む（不正な値は無視する）
+  // URL から選んでいるものを読む（他サイトのコードの形にも対応する。対応を確かめられないコードは推測しない）
   const code = q.get('code') || '';
-  const muni = /^\d{6}$/.test(code) ? municipalities.find((m) => m.code === code) : undefined;
-  const pref = muni ? prefectures.find((p) => p.code === muni.pref_code) : prefectures.find((p) => p.code === code || p.lg_code === code);
+  const area = resolveArea(code, masters);
+  const muni = area.kind === 'muni' || area.kind === 'ward' ? area.muni : undefined;
+  const pref = area.kind === 'pref' || area.kind === 'muni' || area.kind === 'ward' ? area.pref : undefined;
+  const ward = area.kind === 'ward' ? area.ward : undefined;
   const agency = agencies.find((a) => a.id === q.get('id'));
   const tabParam = q.get('tab') as Tab | null;
   const tab: Tab = tabParam && TABS.some((t) => t.id === tabParam) ? tabParam : agency ? 'agency' : 'area';
@@ -283,6 +291,12 @@ function Finder({ masters, route, summary }: { masters: Masters; route: Route; s
       </div>
 
       <div className="finder-pane">
+        {tab === 'area' && area.kind === 'unknown' && (
+          <div className="note" role="status">
+            <Icon name="info" />
+            <span>地域を自動で開けませんでした。お手数ですが、下の欄から都道府県と市区町村を選んでください。</span>
+          </div>
+        )}
         {tab === 'area' && (
           <AreaPicker
             prefectures={prefectures}
@@ -304,7 +318,12 @@ function Finder({ masters, route, summary }: { masters: Masters; route: Route; s
 
       {entity && (
         <div className="finder-result">
-          <ContactCard entity={entity} />
+          {fromMemo && entity.kind !== 'agency' && (
+            <p className="from-hint">
+              ここに載せているのは自治体全体の問い合わせ先で、見ていた項目の担当部署とは限りません。代表や広聴の窓口で、担当部署を尋ねてください。
+            </p>
+          )}
+          <ContactCard entity={entity} ward={entity.kind === 'muni' ? ward : undefined} />
         </div>
       )}
     </div>

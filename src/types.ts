@@ -62,6 +62,13 @@ export interface Prefecture {
 }
 
 /** 市区町村マスター */
+/** 政令指定都市の区（総務省の一覧。窓口データにはなく、親の市へ案内するためだけに使う） */
+export interface Ward {
+  code: string;
+  name: string; // 例：浜松市中央区
+  city_code: string;
+}
+
 export interface Municipality {
   code: string; // 全国地方公共団体コード6けた（例：131083）
   name: string;

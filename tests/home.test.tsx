@@ -145,12 +145,12 @@ describe('トップページ', () => {
     expect(sho.every((a) => a.getAttribute('href') === 'https://yumaki5555.github.io/shomei/')).toBe(true);
   });
 
-  it('このサイトについて：トップは「民間運営」とリンクだけ。詳しい説明はフッターと専用ページに', () => {
+  it('このサイトについて：本文には重ねて置かず、フッターにまとめる', () => {
     render(<App />);
-    const sec = document.getElementById('about')!;
-    expect(within(sec).getByText('民間運営')).toBeInTheDocument();
-    expect(within(sec).getByRole('link', { name: 'このサイトについて' })).toHaveAttribute('href', '#/about');
+    expect(document.getElementById('about')).toBeNull();
+    expect(screen.queryByText('民間運営')).toBeNull();
     const footer = screen.getByRole('contentinfo');
+    expect(within(footer).getByRole('link', { name: /このサイトについて/ })).toHaveAttribute('href', '#/about');
     expect(within(footer).getByText(/国・自治体・議会の公式サイトではありません/)).toBeInTheDocument();
     expect(within(footer).getByText(/最終更新日：2026年11月4日/)).toBeInTheDocument();
   });

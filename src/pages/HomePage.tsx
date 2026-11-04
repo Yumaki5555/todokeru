@@ -5,7 +5,7 @@ import { href } from '../router';
 import { SITE } from '../site';
 import type { IconName } from '../types';
 import { Icon } from '../components/Icon';
-import { BackToPageTop, ReportLine, SmartLink } from '../components/Links';
+import { SmartLink } from '../components/Links';
 import { Breakable, PurposeFinder, usePurpose } from '../components/PurposeFinder';
 
 export function HomePage() {
@@ -39,7 +39,6 @@ export function HomePage() {
         <SanpunCard />
         <GuideMenu />
         <RelatedSites />
-        <AboutBrief />
       </div>
     </>
   );
@@ -197,20 +196,5 @@ function RelatedSites() {
         ))}
       </ul>
     </section>
-  );
-}
-
-function AboutBrief() {
-  return (
-    <>
-    <ReportLine />
-    <section className="home-about" id="about" aria-label="このサイトについて">
-      <p>
-        <span className="badge badge-muted">民間運営</span>
-        <a href={href('/about')}>このサイトについて</a>
-      </p>
-      <BackToPageTop />
-    </section>
-    </>
   );
 }

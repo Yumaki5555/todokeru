@@ -7,6 +7,7 @@ import { restoreSpot, savedSpot, startScrollMemory } from './lib/scrollMemory';
 import { SITE } from './site';
 import { SiteFooter } from './components/SiteFooter';
 import { SiteHeader } from './components/SiteHeader';
+import { PageTopButton } from './components/PageTopButton';
 import { AboutPage } from './pages/AboutPage';
 import { ComingSoonPage } from './pages/ComingSoonPage';
 import { DisclosureGuidePage } from './pages/DisclosureGuidePage';
@@ -91,6 +92,7 @@ export function App() {
         {page.element}
       </main>
       <SiteFooter />
+      <PageTopButton />
     </>
   );
 }

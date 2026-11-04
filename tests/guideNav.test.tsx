@@ -1,7 +1,7 @@
 // 長いページの道しるべ（目次の「必要なときだけ」・飛ばして進む案内・画面下の4つのまとまり）、
 // トップの AI の入り口、間違いの報告先
-import { describe, expect, it } from 'vitest';
-import { render, screen, within } from '@testing-library/react';
+import { afterEach, describe, expect, it, vi } from 'vitest';
+import { fireEvent, render, screen, within } from '@testing-library/react';
 import { App } from '../src/App';
 import { PETITION_PARTS } from '../src/content/petitionManual';
 import { PUBCOM_PARTS } from '../src/content/pubcomManual';
@@ -18,6 +18,28 @@ const PAGES = [
   { hash: '#/guide/public-comment', parts: PUBCOM_PARTS },
   { hash: '#/guide/signature', parts: SIGNATURE_PARTS },
 ];
+
+describe('画面右下の「ページ先頭へ戻る」ボタン', () => {
+  const scrollDown = (y: number) => {
+    Object.defineProperty(window, 'scrollY', { value: y, configurable: true });
+    fireEvent.scroll(window);
+  };
+  afterEach(() => scrollDown(0));
+
+  it.each(['#/', '#/guide/phone', '#/guide/disclosure', '#/contacts', '#/about'])('%s：下へ進むと現れ、上へ戻ると隠れる。押すと先頭へ戻る', (hash) => {
+    const scrollTo = vi.spyOn(window, 'scrollTo').mockImplementation(() => {});
+    open(hash);
+    const button = screen.getByRole('button', { name: 'ページ先頭へ戻る' }); // どのページでも1つだけ
+    expect(button).not.toHaveClass('is-shown');
+    scrollDown(301);
+    expect(button).toHaveClass('is-shown');
+    fireEvent.click(button);
+    expect(scrollTo).toHaveBeenCalledWith(expect.objectContaining({ top: 0 }));
+    scrollDown(300);
+    expect(button).not.toHaveClass('is-shown');
+    scrollTo.mockRestore();
+  });
+});
 
 describe('長いページの道しるべ', () => {
   it.each(PAGES)('$hash：目次は4つ、③だけ「必要なときだけ」', ({ hash, parts }) => {
@@ -109,18 +131,16 @@ describe('間違いの報告先', () => {
     expect(reportPageChoice('/nothing')).toBe('');
   });
 
-  it('いまの設定どおりに、フッター・「このサイトについて」・トップと各ページの末尾に出す（未設定なら出さない）', () => {
+  it('報告の入口は各ページのフッターに1つ。「このサイトについて」には専用の欄もある（未設定なら出さない）', () => {
     const set = !!REPORT.formUrl;
     const about = open('#/about');
     const footer = about.container.querySelector('footer')!;
     expect(!!within(footer).queryByRole('link', { name: /間違い・ご要望を送る/ })).toBe(set);
     expect(!!about.container.querySelector('#report')).toBe(set);
-    // このサイトについては専用の欄があるので、末尾の1行は出さない
-    expect(about.container.querySelectorAll('.report-line').length).toBe(0);
     about.unmount();
     for (const hash of ['#/', '#/guide/phone', '#/guide/email', '#/guide/public-comment', '#/guide/petition', '#/guide/signature']) {
       const r = open(hash);
-      expect(r.container.querySelectorAll('.report-line').length).toBe(set ? 1 : 0);
+      expect(within(r.container).queryAllByRole('link', { name: /間違い・ご要望を送る/ }).length).toBe(set ? 1 : 0);
       r.unmount();
     }
   });
@@ -128,8 +148,7 @@ describe('間違いの報告先', () => {
   it('報告のボタンは新しいタブで開き、見ていたページの URL とページ名を書き込む', () => {
     if (!REPORT.formUrl) return;
     const r = open('#/guide/petition');
-    const a = r.container.querySelector('.report-line a') as HTMLAnchorElement;
-    expect(a.textContent).toContain('間違い・ご要望を送る');
+    const a = within(r.container.querySelector('footer')!).getByRole('link', { name: /間違い・ご要望を送る/ }) as HTMLAnchorElement;
     expect(a.target).toBe('_blank');
     expect(a.rel).toContain('noopener');
     const u = new URL(a.href);

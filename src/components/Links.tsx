@@ -1,7 +1,7 @@
-// リンクの部品：サイト内リンク・外部リンク・ページ内リンク・3つの「戻る」
+// リンクの部品：サイト内リンク・外部リンク・ページ内リンク・「トップへ戻る」
 import type { ReactNode } from 'react';
 import { href, parseHash, pushHash, sectionHref } from '../router';
-import { scrollToPageTop, scrollToSection } from '../lib/dom';
+import { scrollToSection } from '../lib/dom';
 import { REPORT, SITE, reportPageChoice, reportUrl, type ReportPrefill } from '../site';
 import { Icon } from './Icon';
 
@@ -53,17 +53,6 @@ export function ReportLink({ prefill, className, children }: { prefill?: ReportP
   );
 }
 
-/** ページの末尾の小さな案内「間違いを見つけた・改善してほしいところがある」＋報告ボタン */
-export function ReportLine() {
-  if (!REPORT.formUrl) return null;
-  return (
-    <p className="report-line">
-      <span>間違いを見つけた・改善してほしいところがある</span>
-      <ReportLink className="btn btn-secondary btn-small">間違い・ご要望を送る</ReportLink>
-    </p>
-  );
-}
-
 /** 同じページの中の見出しへ移動するリンク
  *  push：移動を履歴に残す（ブラウザの「戻る」で、押す前の位置へ戻れる）　current：いま見ている場所の印 */
 export function JumpLink({
@@ -108,25 +97,11 @@ export function BackToSiteTop({ className }: { className?: string }) {
   );
 }
 
-/** 「ページ先頭へ戻る」：いま見ているページの先頭へ */
-export function BackToPageTop() {
+/** 詳細ページの下に置く「トップへ戻る」（ページの先頭へは、画面右下のボタンで戻る） */
+export function PageEndNav() {
   return (
-    <button type="button" className="back-link" onClick={scrollToPageTop}>
-      <Icon name="arrow-up" />
-      ページ先頭へ戻る
-    </button>
-  );
-}
-
-/** 詳細ページの下に置く2つの戻る */
-export function PageEndNav({ report = true }: { report?: boolean }) {
-  return (
-    <>
-      {report && <ReportLine />}
-      <nav className="page-end-nav" aria-label="ページの移動">
-        <BackToPageTop />
-        <BackToSiteTop />
-      </nav>
-    </>
+    <nav className="page-end-nav" aria-label="ページの移動">
+      <BackToSiteTop />
+    </nav>
   );
 }

@@ -212,7 +212,7 @@ export function AboutPage() {
         </div>
       </div>
 
-      <PageEndNav report={false} />
+      <PageEndNav />
     </div>
   );
 }

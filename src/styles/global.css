@@ -301,8 +301,9 @@ a:hover {
   color: var(--c-text-sub);
 }
 
+/* 下の余白：一番下まで進んでも、右下の「ページ先頭へ戻る」がリンクに重ならないように */
 .site-footer-in {
-  padding-block: 24px 40px;
+  padding-block: 24px 80px;
 }
 
 .footer-name {
@@ -521,22 +522,6 @@ a:hover {
   cursor: pointer;
 }
 
-/* ページ末尾の報告の案内（1行だけ・メインより目立たせない） */
-.report-line {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 6px 12px;
-  margin: 36px 0 0;
-  font-size: var(--fs-small);
-  color: var(--c-text-sub);
-}
-
-.report-line + .page-end-nav,
-.report-line + .home-about {
-  margin-top: 12px;
-}
-
 .page-end-nav {
   display: flex;
   flex-wrap: wrap;
@@ -545,6 +530,65 @@ a:hover {
   margin-top: 36px;
   padding-top: 12px;
   border-top: 1px solid var(--c-line);
+}
+
+/* 画面右下の「ページ先頭へ戻る」：少し下へ進むと現れる（隠れている間はキーボードでも選ばれない） */
+.page-top-btn {
+  position: fixed;
+  right: max(16px, env(safe-area-inset-right, 0px));
+  bottom: max(16px, env(safe-area-inset-bottom, 0px));
+  z-index: 20;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 48px;
+  padding: 0 16px;
+  border: 1px solid var(--c-main-dark);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--c-main-deep);
+  font: inherit;
+  font-size: var(--fs-small);
+  font-weight: 700;
+  box-shadow: 0 2px 10px rgb(0 0 0 / 18%);
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+.page-top-btn.is-shown {
+  visibility: visible;
+  opacity: 1;
+}
+
+.page-top-btn:hover {
+  background: var(--c-main-tint);
+}
+
+/* 画面下のメニューがあるページでは、その上に出す */
+@media (max-width: 999px) {
+  body:has(.jump-bar:not([hidden])) .page-top-btn {
+    bottom: calc(72px + env(safe-area-inset-bottom, 0px));
+  }
+}
+
+/* スマホでは矢印だけの丸いボタンに（本文を隠さないように）。読み上げでは名前を読む */
+@media (max-width: 560px) {
+  .page-top-btn {
+    width: 48px;
+    padding: 0;
+  }
+
+  .page-top-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
 }
 
 /* ---- 詳細ページ ---- */
@@ -1682,36 +1726,6 @@ a.way-chip:hover {
 
 .related-card:hover b {
   text-decoration: underline;
-}
-
-/* ---- トップ：このサイトについて（短く） ---- */
-.home-about {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 4px 16px;
-  margin-top: 28px;
-  padding-top: 8px;
-  border-top: 1px solid var(--c-line);
-}
-
-.home-about p {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin: 0;
-}
-
-.home-about .badge {
-  margin: 0;
-}
-
-.home-about a {
-  display: inline-flex;
-  align-items: center;
-  min-height: 44px;
-  font-weight: 700;
 }
 
 /* ---- ページ内目次 ---- */
@@ -2864,7 +2878,7 @@ a.way-chip:hover {
   .site-bar,
   .site-footer,
   .page-end-nav,
-  .report-line,
+  .page-top-btn,
   .toc-actions,
   .script-actions,
   .sample > .copy-row {

@@ -1,8 +1,9 @@
 // 請願・陳情の書き方「議会に、正式に検討を求める。」
 // パブコメの書き方と同じ並び：① 3分でわかる → ② 書いてみよう → ③ もっと詳しく → ④ 提出する
 //   #/guide/petition?s=prompts  AIへの指示文の選択から表示
+//   #/guide/petition?s=prompts&for=<窓口ID>  窓口カードの「陳情書を作ってみる」から：陳情書の指示文を選び、窓口カードへの戻り道を出す
 // 文章と指示文は content/petitionManual.ts にまとめてある。
-import { useRef } from 'react';
+import { useCallback, useEffect, useRef } from 'react';
 import { GUIDES, guidePath } from '../content/guides';
 import {
   AFTER_FLOW,
@@ -24,13 +25,17 @@ import {
   RESULT_POINTS,
   RESULT_WARNING,
   RULES,
+  fillTarget,
   findPrompt,
   templateText,
 } from '../content/petitionManual';
+import { CONTACT_TYPE_INFO } from '../data/labels';
 import { scrollToSection } from '../lib/dom';
+import { usePetitionTarget, type PetitionTarget } from '../lib/petitionTarget';
 import { useSessionChoice } from '../lib/sessionChoice';
-import { href } from '../router';
-import type { PetitionCard, PetitionPromptId, PetitionStep } from '../types';
+import { href, type Route } from '../router';
+import type { CallTarget, PetitionCard, PetitionPromptId, PetitionStep } from '../types';
+import { contactsHref, useTargetFromLink, type TargetState } from '../components/CallTargetBox';
 import { Checklist } from '../components/Checklist';
 import { CopyButton } from '../components/CopyButton';
 import { AiTip, Flow, Part, PartBar, PartMenu, Sources } from '../components/GuideParts';
@@ -41,9 +46,25 @@ import { PromptPicker } from '../components/PromptPicker';
 
 const PATH = '/guide/petition';
 
-export function PetitionGuidePage() {
+export function PetitionGuidePage({ route }: { route: Route }) {
   const menuRef = useRef<HTMLElement>(null);
   const [promptId, setPromptId] = useSessionChoice<PetitionPromptId>('todokeru:prompt:petition:v1', DEFAULT_PROMPT, PETITION_PROMPTS.map((p) => p.id));
+  // 窓口カードから来たとき：陳情書の指示文を選び、選んだ窓口を覚える（請願・陳情の届け先の窓口だけ）
+  const forId = route.query.get('for');
+  const wardCode = route.query.get('ward');
+  const [picked, savePicked] = usePetitionTarget();
+  const keepTarget = useCallback(
+    ({ target }: { target: CallTarget }) => {
+      if (target.typeLabel === CONTACT_TYPE_INFO.petition.label) savePicked({ target, ward: wardCode });
+    },
+    [savePicked, wardCode],
+  );
+  const targetState = useTargetFromLink(forId, PATH, keepTarget);
+  useEffect(() => {
+    if (forId) setPromptId('draft');
+  }, [forId, setPromptId]);
+  // 【提出先】に入れるのは、確認済みの窓口だけ
+  const prompts = picked?.target.status === 'verified' ? PETITION_PROMPTS.map((p) => ({ ...p, text: fillTarget(p.text, picked.target) })) : PETITION_PROMPTS;
   // 「AIでできること」などから：その指示文を選んで、指示文の選択へ移る
   const pickPrompt = (id: PetitionPromptId) => {
     setPromptId(id);
@@ -143,7 +164,8 @@ export function PetitionGuidePage() {
           </h3>
           <p className="pc-lead">やりたいことを選んで、指示文をコピー！</p>
           <p className="pc-step-note">{PROMPT_LEAD}</p>
-          <PromptPicker prompts={PETITION_PROMPTS} value={promptId} onChange={setPromptId} />
+          <PickedTarget picked={picked} state={targetState} />
+          <PromptPicker prompts={prompts} value={promptId} onChange={setPromptId} />
         </section>
       </Part>
 
@@ -313,6 +335,47 @@ export function PetitionGuidePage() {
       </section>
       <PageEndNav />
       <PartBar path={PATH} parts={PETITION_PARTS} topRef={menuRef} />
+    </div>
+  );
+}
+
+/** 窓口カードから来たときの案内：選んだ窓口と、窓口カードへの戻り道 */
+function PickedTarget({ picked, state }: { picked: PetitionTarget | null; state: TargetState }) {
+  if (state === 'error') {
+    return (
+      <p className="note" role="alert">
+        <Icon name="info" />
+        <span>
+          選んだ窓口を読み込めませんでした。<a href={href('/contacts', { tab: 'area' })}>窓口検索</a>から選び直せます。
+        </span>
+      </p>
+    );
+  }
+  if (!picked) return null;
+  const t = picked.target;
+  return (
+    <div className="pt-target">
+      <p className="pt-target-name">
+        <Icon name="landmark" />
+        <span>
+          <b>{t.org}</b> {t.department}
+        </span>
+      </p>
+      <p className="pt-target-note">
+        {t.status === 'verified' ? '指示文の【提出先】に、この窓口の名前と公式の案内のURLを入れました。' : '情報を確かめている窓口のため、指示文の【提出先】には入れていません。'}
+        窓口は連絡先です。正式な宛名は、公式の案内で確かめてください。
+      </p>
+      <p className="step-more">
+        <a className="btn btn-secondary btn-small" href={contactsHref(t.contactId, { ward: picked.ward })}>
+          <Icon name="arrow-left" />
+          {t.org}の窓口カードへ戻る
+        </a>
+        <a className="btn btn-secondary btn-small" href={t.sourceUrl}>
+          公式の案内を開く
+          <Icon name="external" />
+          <span className="sr-only">（外部サイト）</span>
+        </a>
+      </p>
     </div>
   );
 }

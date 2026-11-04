@@ -1,5 +1,5 @@
 // 全国の窓口を探す
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it, vi } from 'vitest';
 import { render, screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { App } from '../src/App';
@@ -304,7 +304,9 @@ describe('窓口データがあるときの表示（テスト用の架空デー�
     expect(await within(card).findByRole('heading', { level: 4, name: '請願・陳情の届け先' })).toBeInTheDocument();
     const guide = within(card).getByRole('link', { name: /公式ページの案内\s*請願・陳情の出し方/ });
     expect(guide).toHaveAttribute('href', 'https://example.jp/gikai/seigan.html');
+    expect(within(card).getByRole('link', { name: /陳情書を作ってみる/ })).toHaveAttribute('href', '#/guide/petition?s=prompts&for=131083-petition');
     expect(within(card).getByRole('link', { name: /03-6666-6666/ })).toBeInTheDocument();
+    expect(within(card).getAllByRole('link', { name: /この窓口向けに台本を作る/ }).map((a) => a.getAttribute('href'))).toContain('#/guide/phone?for=131083-petition');
 
     dataOverrides.set('contacts/agencies.json', [
       {
@@ -327,6 +329,57 @@ describe('窓口データがあるときの表示（テスト用の架空デー�
     expect(await within(card).findByRole('heading', { level: 3, name: '厚生労働省' })).toBeInTheDocument();
     await within(card).findByRole('link', { name: /03-0000-0000/ });
     expect(within(card).queryByText('請願・陳情の届け先')).not.toBeInTheDocument();
+  });
+
+  describe('窓口カードの「陳情書を作ってみる」から来たとき', () => {
+    const petition: Contact = {
+      ...base,
+      id: '131083-petition',
+      type: 'petition',
+      department: 'テスト区議会事務局 議事係',
+      email: null,
+      form_url: null,
+      source_url: 'https://example.jp/gikai/seigan.html',
+    };
+    const promptText = () => screen.getByLabelText(/AIへの指示文（陳情書・請願書を作りたい）/).textContent ?? '';
+
+    it('陳情書の指示文を選び、確認済みの窓口を【提出先】に入れ（宛名とは決めつけない）、窓口カードへの戻り道を出す', async () => {
+      window.sessionStorage.clear();
+      dataOverrides.set('contacts/13.json', [{ municipality_code: '131083', municipality_name: '江東区', contacts: [base, petition] }]);
+      openContacts('#/guide/petition?s=prompts&for=131083-petition');
+      const back = await screen.findByRole('link', { name: '江東区の窓口カードへ戻る' });
+      expect(back).toHaveAttribute('href', '#/contacts?tab=area&code=131083&card=131083-petition');
+      expect(window.location.hash).toBe('#/guide/petition');
+      expect(screen.getByRole('radio', { name: /陳情書・請願書を作りたい/ })).toBeChecked();
+      expect(promptText()).toContain('【提出先】\n江東区の議会（窓口：テスト区議会事務局 議事係）\n公式の案内：https://example.jp/gikai/seigan.html');
+      expect(promptText()).toContain('窓口の名前を宛名にせず');
+    });
+
+    it('確認中の窓口は【提出先】に入れず、戻り道だけを出す', async () => {
+      window.sessionStorage.clear();
+      dataOverrides.set('contacts/13.json', [{ municipality_code: '131083', municipality_name: '江東区', contacts: [{ ...petition, status: 'review' }] }]);
+      openContacts('#/guide/petition?for=131083-petition');
+      await screen.findByRole('link', { name: '江東区の窓口カードへ戻る' });
+      expect(promptText()).not.toContain('江東区');
+    });
+
+    it('請願・陳情の届け先ではない窓口は使わない', async () => {
+      window.sessionStorage.clear();
+      dataOverrides.set('contacts/13.json', [{ municipality_code: '131083', municipality_name: '江東区', contacts: [base, petition] }]);
+      openContacts('#/guide/petition?for=131083-general');
+      await screen.findByRole('radio', { name: /陳情書・請願書を作りたい/, checked: true });
+      await vi.waitFor(() => expect(window.location.hash).toBe('#/guide/petition'));
+      expect(screen.queryByRole('link', { name: /窓口カードへ戻る/ })).not.toBeInTheDocument();
+      expect(promptText()).not.toContain('江東区');
+    });
+
+    it('区のコードで開いていたときは、同じコードの表示へ戻る', async () => {
+      window.sessionStorage.clear();
+      dataOverrides.set('contacts/13.json', [{ municipality_code: '131083', municipality_name: '江東区', contacts: [petition] }]);
+      openContacts('#/guide/petition?for=131083-petition&ward=131089');
+      const back = await screen.findByRole('link', { name: '江東区の窓口カードへ戻る' });
+      expect(back).toHaveAttribute('href', '#/contacts?tab=area&code=131089&card=131083-petition');
+    });
   });
 
   it('警察・教育委員会を載せていない自治体には、その欄を出さない', async () => {

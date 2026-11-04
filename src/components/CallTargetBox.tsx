@@ -5,7 +5,6 @@ import type { CallTarget, Contact, IconName } from '../types';
 import { AUTO_MATCHED_NOTE, CONTACT_TYPE_INFO, STATUS_LABEL } from '../data/labels';
 import { findContact } from '../data/loaders';
 import { isDisplayable } from '../data/validate';
-import type { DraftUpdate } from '../lib/callDraft';
 import { loadLastArea } from '../lib/lastArea';
 import { href, navigate } from '../router';
 import { formatDate } from '../site';
@@ -38,7 +37,7 @@ export type TargetState = 'idle' | 'loading' | 'error';
  * 窓口検索の「この窓口向けに台本を作る」「この窓口あての文面を作る」から来たとき（?for=<窓口ID>）：
  * 選んだ窓口を電話先・送り先に入れ（入力中の台本や文面はそのまま）、URL から for を外す
  */
-export function useTargetFromLink(forId: string | null, path: string, update: DraftUpdate): TargetState {
+export function useTargetFromLink(forId: string | null, path: string, update: (patch: { target: CallTarget }) => void): TargetState {
   const [state, setState] = useState<TargetState>('idle');
   useEffect(() => {
     if (!forId) return;
@@ -75,10 +74,13 @@ const WORDS: Record<'phone' | 'mail', { title: string; icon: IconName; find: str
   },
 };
 
-/** 選んだ窓口の機関・自治体を、窓口検索でもう一度開くリンク先 */
-function contactsHref(contactId: string): string {
+/** 選んだ窓口の機関・自治体を、窓口検索でもう一度開くリンク先。back：その窓口の位置まで戻す（ward は区のコードで開いていたときのコード） */
+export function contactsHref(contactId: string, back?: { ward: string | null }): string {
+  const card = back ? contactId : null;
   const m = /^(\d{6})-/.exec(contactId);
-  return m ? href('/contacts', { tab: 'area', code: m[1] }) : href('/contacts', { tab: 'agency', id: contactId.replace(/-[a-z]+$/, '') });
+  return m
+    ? href('/contacts', { tab: 'area', code: back?.ward || m[1], card })
+    : href('/contacts', { tab: 'agency', id: contactId.replace(/-[a-z]+$/, ''), card });
 }
 
 export function CallTargetBox({ target, state, kind = 'phone' }: { target: CallTarget | null; state: TargetState; kind?: 'phone' | 'mail' }) {

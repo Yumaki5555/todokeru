@@ -8,6 +8,7 @@ import {
   EXTRA_TYPES_FOR_DIET,
   EXTRA_TYPES_FOR_MUNI,
   EXTRA_TYPES_FOR_PREF,
+  PETITION_DRAFT_LABEL,
   PETITION_GUIDE_LABEL,
   STATUS_LABEL,
   TYPES_FOR_AGENCY,
@@ -16,8 +17,9 @@ import {
 } from '../data/labels';
 import { loadAgencyContacts, loadOfficialSites, loadPrefContacts } from '../data/loaders';
 import { isDisplayable } from '../data/validate';
+import { scrollToSection } from '../lib/dom';
 import { telHref } from '../lib/text';
-import { href } from '../router';
+import { href, navigate, parseHash } from '../router';
 import { SITE, formatDate } from '../site';
 import { Icon } from './Icon';
 import { ReportLink } from './Links';
@@ -127,7 +129,7 @@ export function ContactCard({ entity, ward }: { entity: Entity; ward?: Ward }) {
         <ul className="slots">
           {hasBase && types.map((t) => <ContactSlot key={t} type={t} contacts={contacts.filter((c) => c.type === t)} owner={name} />)}
           {extras.map((s) => (
-            <ContactSlot key={s.type} type={s.type} contacts={s.contacts} from={s.from} owner={s.from || name} />
+            <ContactSlot key={s.type} type={s.type} contacts={s.contacts} from={s.from} owner={s.from || name} wardCode={ward?.code} />
           ))}
         </ul>
       )}
@@ -248,7 +250,8 @@ function NotListed({ entity, types }: { entity: Entity; types: ContactType[] }) 
 
 /** 窓口の種類ごとの欄。from：ほかの自治体の窓口を出すとき（市区町村の結果に出す都道府県の警察）、その自治体の名前 */
 /** owner：窓口を持つ機関・自治体の名前（誤りの報告に、どの窓口かを書き込むため） */
-function ContactSlot({ type, contacts, from, owner }: { type: ContactType; contacts: Contact[]; from?: string; owner: string }) {
+/** wardCode：政令指定都市の区のコードで開いているとき、そのコード（書き方ガイドから同じ表示へ戻るため） */
+function ContactSlot({ type, contacts, from, owner, wardCode }: { type: ContactType; contacts: Contact[]; from?: string; owner: string; wardCode?: string }) {
   const info = CONTACT_TYPE_INFO[type];
   const shown = contacts.filter(isDisplayable);
   const unavailable = contacts.find((c) => c.status === 'unavailable');
@@ -263,7 +266,7 @@ function ContactSlot({ type, contacts, from, owner }: { type: ContactType; conta
       </h4>
       {from && <p className="slot-lead">警察は都道府県の仕事なので、{from}の窓口を出しています。</p>}
       {shown.length > 0 ? (
-        shown.map((c) => <ContactView key={c.id} c={c} owner={owner} />)
+        shown.map((c) => <ContactView key={c.id} c={c} owner={owner} wardCode={wardCode} />)
       ) : unavailable && unavailable.source_url && unavailable.verified_at ? (
         <p className="slot-state">
           <span className="badge badge-muted">{STATUS_LABEL.unavailable}</span>
@@ -282,9 +285,18 @@ function ContactSlot({ type, contacts, from, owner }: { type: ContactType; conta
   );
 }
 
-function ContactView({ c, owner }: { c: Contact; owner: string }) {
+function ContactView({ c, owner, wardCode }: { c: Contact; owner: string; wardCode?: string }) {
+  // 書き方ガイドの「窓口カードへ戻る」から来たとき（?card=<窓口ID>）：この窓口を見せて、URL から card を外す
+  useEffect(() => {
+    const { path, query } = parseHash(window.location.hash);
+    if (query.get('card') !== c.id) return;
+    scrollToSection(c.id);
+    query.delete('card');
+    navigate(`#${path}?${query}`, { replace: true });
+  }, [c.id]);
+
   return (
-    <div className="contact">
+    <div className="contact" id={c.id}>
       <p className="contact-name">
         {c.department}
         <span className={'badge ' + (c.status === 'verified' ? 'badge-main' : 'badge-warn')}>{STATUS_LABEL[c.status]}</span>
@@ -303,6 +315,15 @@ function ContactView({ c, owner }: { c: Contact; owner: string }) {
               </span>
               <Icon name="external" className="act-ext" />
               <span className="sr-only">（外部サイト）</span>
+            </a>
+          </li>
+          <li>
+            <a className="act" href={href('/guide/petition', { s: 'prompts', for: c.id, ward: wardCode })}>
+              <Icon name="memo" />
+              <span className="act-text">
+                <span className="act-label">このサイトの書き方ガイド</span>
+                <b>{PETITION_DRAFT_LABEL}</b>
+              </span>
             </a>
           </li>
         </ul>

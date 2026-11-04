@@ -5382,6 +5382,33 @@ p.mail-label {
   white-space: pre-line;
 }
 
+/* 窓口カードから来たときの案内（選んだ窓口と戻り道） */
+.pt-target {
+  margin: 12px 0;
+  padding: 12px 14px;
+  border: 1px solid var(--c-main-line);
+  border-radius: var(--radius);
+  background: #fff;
+}
+
+.pt-target-name {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin: 0 0 4px;
+}
+
+.pt-target-note {
+  margin: 0;
+  font-size: var(--fs-small);
+  color: var(--c-text-sub);
+}
+
+/* 書き方ガイドから戻ったとき、欄の見出し（請願・陳情の届け先）も見えるように */
+.contact {
+  scroll-margin-top: 56px;
+}
+
 /* 全国共通と、議会ごとに違うこと */
 .pt-rules {
   padding: 10px 12px;

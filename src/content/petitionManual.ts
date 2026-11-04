@@ -8,7 +8,7 @@
 //   ・参議院「請願」：召集日から会期の終わるおおむね1週間前まで。ごく短い国会では受理しないことがある
 //   ・東京都議会「請願・陳情ガイド」：紹介のないものは陳情。陳情も原則は請願に準じて審査。持参か郵送。住所・氏名は公開の会議資料・会議録に掲載
 //   ・市区町村議会の公式ページ（抜き取り）：「趣旨採択」「一部採択」「継続審査」の区分、陳情を「配付」だけにする扱い、住所・氏名の非公開の申出がある議会もある
-import type { GuidePart, PetitionCard, PetitionPrompt, PetitionPromptId, PetitionStep, PubcomFigItem } from '../types';
+import type { CallTarget, GuidePart, PetitionCard, PetitionPrompt, PetitionPromptId, PetitionStep, PubcomFigItem } from '../types';
 
 export const PETITION_GUIDE = {
   title: '請願・陳情の書き方',
@@ -309,6 +309,15 @@ export const PETITION_PROMPTS: PetitionPrompt[] = [
 export const DEFAULT_PROMPT: PetitionPromptId = 'choose';
 
 export const findPrompt = (id: PetitionPromptId) => PETITION_PROMPTS.find((p) => p.id === id) ?? PETITION_PROMPTS[0];
+
+/** 窓口カードから来たとき：指示文の【提出先】に、確認済みの窓口データだけを入れる。窓口は連絡先なので、宛名とは決めつけない */
+export function fillTarget(text: string, t: Pick<CallTarget, 'contactId' | 'org' | 'department' | 'sourceUrl'>): string {
+  const council = /^\d{6}-/.test(t.contactId) ? `${t.org}の議会` : t.org;
+  return text.replace(
+    '【提出先】\n',
+    `【提出先】\n${council}（窓口：${t.department}）\n公式の案内：${t.sourceUrl}\n※窓口は連絡先です。窓口の名前を宛名にせず、正式な宛名は公式の案内で確かめてください。確認できないときは「要確認」と書いてください。\n`,
+  );
+}
 
 export const PROMPT_LEAD = 'AIは使わなくても大丈夫です。使うときは、コピーした文章をChatGPTなどのAIに貼り付け、自分の要望や資料を書き足して使います。';
 

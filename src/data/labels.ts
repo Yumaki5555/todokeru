@@ -70,3 +70,4 @@ export const EXTRA_TYPES_FOR_DIET: ContactType[] = ['petition'];
 
 /** 請願・陳情の届け先：出典（議会の請願・陳情のページ）へのボタンの文字 */
 export const PETITION_GUIDE_LABEL = '請願・陳情の出し方';
+export const PETITION_DRAFT_LABEL = '陳情書を作ってみる';

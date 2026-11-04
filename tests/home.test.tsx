@@ -70,13 +70,14 @@ describe('トップページ', () => {
     ]);
   });
 
-  it('情報・資料がほしい：準備中の情報公開請求は押せない表示にし、公式サイトでの確認を案内する', async () => {
+  it('情報・資料がほしい：情報公開請求のマニュアルへ行け、公式サイトを探すリンクもある', async () => {
     render(<App />);
     const sec = document.getElementById('purpose')!;
     await userEvent.click(within(sec).getByRole('button', { name: /^情報・資料が\s?ほしい$/ }));
-    expect(within(sec).queryByRole('link', { name: /情報公開請求/ })).not.toBeInTheDocument();
-    expect(within(sec).getByText('情報公開請求').closest('.way-chip')).toHaveTextContent('準備中');
-    expect(within(sec).getByText('手続きは、請求先の公式サイトで確かめてください。')).toBeInTheDocument();
+    expect(within(sec).getByRole('link', { name: /情報公開請求/ })).toHaveAttribute('href', '#/guide/disclosure');
+    expect(within(sec).queryByText('準備中')).not.toBeInTheDocument();
+    // 「手続きは公式サイトで」の案内は、準備中のマニュアルがあるときだけ出す
+    expect(within(sec).queryByText('手続きは、請求先の公式サイトで確かめてください。')).not.toBeInTheDocument();
     expect(within(sec).getByRole('link', { name: '公式サイトを探す' })).toHaveAttribute('href', '#/contacts');
   });
 
@@ -124,14 +125,14 @@ describe('トップページ', () => {
     expect(link).not.toHaveAttribute('target');
   });
 
-  it('声の届け方：アイコンと短い名前だけ。準備中のものだけ「準備中」', () => {
+  it('声の届け方：アイコンと短い名前だけ。6つすべて公開', () => {
     render(<App />);
     const sec = document.getElementById('methods')!;
     expect(within(sec).getByRole('heading', { level: 2, name: '声の届け方' })).toBeInTheDocument();
     const cards = within(sec).getAllByRole('listitem');
-    expect(cards.map((c) => c.textContent)).toEqual(['電話', 'メール・フォーム・郵送', 'パブコメ', '請願・陳情', '情報公開請求準備中', '署名']);
+    expect(cards.map((c) => c.textContent)).toEqual(['電話', 'メール・フォーム・郵送', 'パブコメ', '請願・陳情', '情報公開請求', '署名']);
     expect(within(cards[0]).getByRole('link', { name: '電話のかけ方' })).toHaveAttribute('href', '#/guide/phone');
-    expect(within(sec).getAllByText('準備中')).toHaveLength(1);
+    expect(within(sec).queryByText('準備中')).not.toBeInTheDocument();
     expect(within(sec).getByRole('link', { name: 'パブコメの書き方' })).toHaveAttribute('href', '#/guide/public-comment');
     for (const g of GUIDES) expect(screen.queryByText(g.summary)).not.toBeInTheDocument();
   });
@@ -203,7 +204,7 @@ describe('3分でわかる（#/sanpun）', () => {
       '署名',
     ]);
     expect(cards.map((a) => a.getAttribute('href'))).toEqual(METHODS.map((m) => `#/guide/${m.slug}`));
-    expect(within(step(2)).getAllByText('準備中')).toHaveLength(1);
+    expect(within(step(2)).queryByText('準備中')).not.toBeInTheDocument();
   });
 
   it('STEP 1 はトップと同じ目的選択。押すと方法が出て、STEP 2 の使える方法に印がつく', async () => {

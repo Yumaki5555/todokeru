@@ -5824,3 +5824,17 @@ p.mail-label {
   display: flex;
   align-items: center;
 }
+
+/* ---- 情報公開請求（dc-）：パブコメの書き方（pc-）の部品に足りないものだけ ---- */
+
+/* 4つの確認項目は、PC では余らないよう横に4つ並べる */
+@media (min-width: 880px) {
+  .pc-facts.dc-four {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+/* まとまりの途中の小見出し（ひな形・結果）の上をあける */
+.disclosure-guide .pc-sub > .mlist-title {
+  margin-top: 16px;
+}

@@ -9,6 +9,7 @@ import { SiteFooter } from './components/SiteFooter';
 import { SiteHeader } from './components/SiteHeader';
 import { AboutPage } from './pages/AboutPage';
 import { ComingSoonPage } from './pages/ComingSoonPage';
+import { DisclosureGuidePage } from './pages/DisclosureGuidePage';
 import { ContactsPage } from './pages/ContactsPage';
 import { HomePage } from './pages/HomePage';
 import { MailGuidePage } from './pages/MailGuidePage';
@@ -29,6 +30,7 @@ export function resolvePage(route: Route): { title: string | null; element: Reac
   if (path === '/guide/email') return { title: 'メール・フォーム・郵送で届ける', element: <MailGuidePage route={route} /> };
   if (path === '/guide/public-comment') return { title: 'パブコメの書き方', element: <PublicCommentGuidePage /> };
   if (path === '/guide/petition') return { title: '請願・陳情の書き方', element: <PetitionGuidePage /> };
+  if (path === '/guide/disclosure') return { title: '情報公開請求', element: <DisclosureGuidePage /> };
   if (path === '/guide/signature') return { title: '署名の方法', element: <SignatureGuidePage /> };
   if (path === '/contacts') return { title: '全国の窓口を探す', element: <ContactsPage route={route} /> };
   if (path === '/about') return { title: 'このサイトについて', element: <AboutPage /> };

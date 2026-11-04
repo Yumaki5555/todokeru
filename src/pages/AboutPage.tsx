@@ -205,7 +205,6 @@ export function AboutPage() {
           <Sec id="roadmap" title="今後の予定">
             <ol className="plan-list">
               <li>全国の窓口データの整備（国の機関・都道府県・市区町村・議会の、代表・広聴・議会事務局の窓口）</li>
-              <li>情報公開請求の書き方</li>
               <li>「日本を知る。」の各サイトとの連携（地域を選んだ状態で窓口を開くなど）</li>
             </ol>
             <p className="muted">予定は変わることがあります。</p>

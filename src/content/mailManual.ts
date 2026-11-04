@@ -392,7 +392,7 @@ export const MAIL_CHAPTERS: ManualChapter[] = [
         kind: 'note',
         text: '公開されていない文書そのものを見たいときは、質問とは別に「情報公開請求」という手続きがあります。',
       },
-      { kind: 'link', label: '情報公開請求（準備中）', to: '/guide/disclosure' },
+      { kind: 'link', label: '情報公開請求', to: '/guide/disclosure' },
       {
         kind: 'p',
         text: '市区町村と都道府県では、担当する仕事が分かれています。迷ったら、まず市区町村の窓口に尋ねてみましょう。',

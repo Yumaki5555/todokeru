@@ -96,7 +96,7 @@ export const PURPOSES: ThreeMinutePurpose[] = [
     ways: [
       { when: '内容を確認する', to: ['phone', 'email'] },
       { when: '公開資料を調べる', to: ['official'] },
-      { when: '行政文書の開示を求める', to: ['disclosure'] },
+      { when: '行政が持つ文書の開示を求める', to: ['disclosure'] },
     ],
   },
 ];

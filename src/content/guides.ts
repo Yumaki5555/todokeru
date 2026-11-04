@@ -50,14 +50,10 @@ export const GUIDES: GuideMenuItem[] = [
     title: '情報公開請求',
     short: '情報公開請求',
     summary: '行政が持っている文書の公開を求める手続き。',
-    status: 'coming',
+    status: 'published',
     icon: 'folder',
     roadmapStep: 5,
-    plannedTopics: ['行政機関への質問との違い', '対象の文書の特定のしかた', '請求書の書き方', '手数料・開示の方法の確認', '正式な請求先の確認'],
-    meanwhile: [
-      'すでに公開されている資料なら、電話やメールで尋ねると、載っている場所を教えてもらえることがあります。',
-      '公開されていない文書を見たいときは、「情報公開請求」という正式な手続きになります。請求のしかた・手数料・結果が出るまでの日数は、請求先の公式の案内で確かめてください。',
-    ],
+    plannedTopics: [],
   },
   {
     slug: 'signature',
